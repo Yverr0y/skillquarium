@@ -4,6 +4,12 @@ set -euo pipefail
 # This script lives at ~/.agents/skills/install-skills.sh
 VAULT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 
+# Relative paths below (`npx skills add .`, `git restore .`, the gstack cleanup
+# finds) must resolve against the vault, not the caller's cwd. dot-agents'
+# scripts/install.sh invokes this from the repo root, where `git restore .`
+# would discard that repo's uncommitted changes.
+cd "$VAULT_DIR"
+
 # Optional extras are OFF by default. Enable with:
 #   ./install-skills.sh --extras gstack
 #   ./install-skills.sh --extras career
@@ -31,6 +37,9 @@ Examples:
   ./install-skills.sh --extras career
   ./install-skills.sh --extras gstack career
   ./install-skills.sh --extras all
+
+Environment:
+  SKILLS_CLI_VERSION=<ver>   pin the skills CLI version (default: 1.5.20)
 
 Environment (honored when the matching extra is enabled):
   GSTACK_SKIP=1              force-skip gstack even with --extras gstack
@@ -119,19 +128,52 @@ source "$VAULT_DIR/.skill-vault/install-career-ops.sh"
 # vercel-CLI skills.
 GSTACK_DIR="$VAULT_DIR/gstack"
 GSTACK_STASH=""
+BUN_INSTALLER=""
+
+# Idempotent: safe to call on the normal path and again from the EXIT trap.
+restore_gstack() {
+  [ -n "$GSTACK_STASH" ] || return 0
+
+  if [ -d "$GSTACK_STASH/gstack" ] && [ ! -e "$GSTACK_DIR" ]; then
+    mv "$GSTACK_STASH/gstack" "$GSTACK_DIR"
+  fi
+  rmdir "$GSTACK_STASH" 2>/dev/null || true
+  GSTACK_STASH=""
+}
+
+# A failed or interrupted run must not leave gstack (250MB, own .git) stranded
+# in a temp dir with the vault missing it.
+cleanup() {
+  local status=$?
+
+  if [ -n "$BUN_INSTALLER" ]; then
+    rm -f "$BUN_INSTALLER"
+    BUN_INSTALLER=""
+  fi
+  restore_gstack
+
+  return "$status"
+}
+
+# Signal handlers exit so the EXIT trap does the cleanup exactly once.
+trap cleanup EXIT
+trap 'exit 130' INT
+trap 'exit 143' HUP TERM
+
 if [ -d "$GSTACK_DIR/.git" ]; then
   GSTACK_STASH="$(mktemp -d -t gstack-stash.XXXXXX)"
   mv "$GSTACK_DIR" "$GSTACK_STASH/gstack"
 fi
 
-npx skills add . -s '*' -g
+# `npx -y` is required: bare `npx` blocks on npm's "Ok to proceed? (y)" prompt
+# whenever this version isn't already in the npx cache (fresh machine, cleaned
+# cache, or a newly published release). Pinned so an upstream publish can't
+# change what gets installed; override with SKILLS_CLI_VERSION=<version>.
+SKILLS_CLI_VERSION="${SKILLS_CLI_VERSION:-1.5.20}"
+npx -y "skills@$SKILLS_CLI_VERSION" add . -s '*' -g
 git restore .
 
-# Restore gstack/ if we stashed it
-if [ -n "$GSTACK_STASH" ] && [ -d "$GSTACK_STASH/gstack" ]; then
-  mv "$GSTACK_STASH/gstack" "$GSTACK_DIR"
-  rmdir "$GSTACK_STASH" 2>/dev/null || true
-fi
+restore_gstack
 
 # Clean up any stray gstack artifacts that gstack's own ./setup may leak
 # to the vault root on subsequent runs.
@@ -215,12 +257,13 @@ install_gstack() {
     if command -v curl >/dev/null 2>&1; then
       # Download with TLS + retries, then execute (not piped directly) so
       # a network hiccup can't truncate the script mid-stream.
-      bun_installer="$(mktemp)"
-      trap 'rm -f "$bun_installer"' EXIT
+      # Tracked in BUN_INSTALLER so the single EXIT trap cleans it up; a local
+      # `trap ... EXIT` here would clobber that trap and strand gstack.
+      BUN_INSTALLER="$(mktemp)"
       if curl --proto '=https' --tlsv1.2 --fail --location --retry 3 \
-              --connect-timeout 10 -o "$bun_installer" \
+              --connect-timeout 10 -o "$BUN_INSTALLER" \
               https://bun.sh/install 2>/dev/null && \
-         bash "$bun_installer" 2>/dev/null; then
+         bash "$BUN_INSTALLER" 2>/dev/null; then
         bun_available=1
         export BUN_INSTALL="$HOME/.bun"
         export PATH="$BUN_INSTALL/bin:$PATH"
@@ -229,8 +272,8 @@ install_gstack() {
         echo "  Browser skills disabled; methodology skills still work." >&2
         echo "  Install bun manually from https://bun.sh for full gstack." >&2
       fi
-      rm -f "$bun_installer"
-      trap - EXIT
+      rm -f "$BUN_INSTALLER"
+      BUN_INSTALLER=""
     else
       echo "WARNING: curl not found, cannot install bun — falling back to symlink-only mode." >&2
     fi
