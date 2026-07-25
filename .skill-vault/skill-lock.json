@@ -1356,9 +1356,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
       "skillPath": "skills/react-view-transitions/SKILL.md",
-      "skillFolderHash": "c1f5334f06b177d8cc966c6d8c1be2c55787dd15",
+      "skillFolderHash": "56b5533b9503fc1dbdb727e5fcabd4abab3fe19c",
       "installedAt": "2026-06-09T19:26:11.069Z",
-      "updatedAt": "2026-07-24T08:40:40.833Z"
+      "updatedAt": "2026-07-25T08:22:08.355Z"
     },
     "web-design-guidelines": {
       "source": "vercel-labs/agent-skills",
@@ -1529,18 +1529,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-cli/SKILL.md",
-      "skillFolderHash": "3771f725479116e3bcc19dce31a05ba3d0e9827f",
+      "skillFolderHash": "bd605859179d9b935b648b20604defc2382c2e03",
       "installedAt": "2026-06-09T19:26:52.824Z",
-      "updatedAt": "2026-07-21T08:42:27.041Z"
+      "updatedAt": "2026-07-25T08:22:13.103Z"
     },
     "phoenix-evals": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "f7e0ce5e290bf387a88c251b882ad8e84bcc3c03",
+      "skillFolderHash": "2e461fad76ea4486f078e50cd243985a7b3f32fe",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-07-21T08:42:31.736Z"
+      "updatedAt": "2026-07-25T08:22:18.805Z"
     },
     "figma-generate-design": {
       "source": "figma/mcp-server-guide",
@@ -3429,9 +3429,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/building-pydantic-ai-agents/SKILL.md",
-      "skillFolderHash": "b466a7964423de23a9f4cf39e85ecabb8f744dbb",
+      "skillFolderHash": "3c1b7867001e551bdf8fe3d9be6ef24a122960ab",
       "installedAt": "2026-07-21T11:27:04.643Z",
-      "updatedAt": "2026-07-24T08:40:44.215Z"
+      "updatedAt": "2026-07-25T08:22:20.351Z"
     },
     "logfire-instrumentation": {
       "source": "pydantic/skills",
@@ -3465,9 +3465,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/pydantic-ai-harness/SKILL.md",
-      "skillFolderHash": "bb8b1936b6789db4e24c740dbc172170a26281cd",
+      "skillFolderHash": "e8144830c9fd5c490274a93c673b8fc9d0f21b3d",
       "installedAt": "2026-07-21T11:27:04.649Z",
-      "updatedAt": "2026-07-21T11:27:04.649Z"
+      "updatedAt": "2026-07-25T08:22:22.471Z"
     }
   },
   "dismissed": {
