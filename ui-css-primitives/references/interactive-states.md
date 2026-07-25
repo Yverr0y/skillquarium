@@ -16,7 +16,11 @@ are styling states the primitive exposes rather than inventing the behaviour.
 
 ## The eight states
 
-Every interactive element ships all eight. Not aspirationally — in code.
+Split into the four every interactive element has, and the four that exist only
+where the control can actually enter them. Requiring all eight everywhere
+manufactures dead styles and fake semantics — a nav link has no loading state.
+
+**Universal — required on everything interactive:**
 
 | State | Signal | Notes |
 |---|---|---|
@@ -24,10 +28,27 @@ Every interactive element ships all eight. Not aspirationally — in code.
 | **hover** | One change, not four | Pointer only; must have a focus equivalent |
 | **`:focus-visible`** | Visible ring ≥3:1 contrast | Never animated in |
 | **`:active`** | Pressed | `translateY(1px)` or a background shift |
-| **disabled** | Three channels — see below | Not opacity alone |
-| **loading** | Spinner or skeleton + label | Blocks re-submission |
-| **error** | Colour + icon or text, never colour alone | Says how to fix |
-| **success** | Usually silent | Only when the effect isn't visible |
+
+**Conditional — required wherever the behaviour exists:**
+
+| State | Required when | Notes |
+|---|---|---|
+| **disabled** | The control can be unavailable | Three channels — see below |
+| **loading** | The action is async | Blocks re-submission |
+| **error** | The action can fail or validate | Colour + icon or text, never colour alone |
+| **success** | The effect isn't otherwise visible | Usually silent when it is |
+
+Worked examples of what that resolves to:
+
+- **Plain nav link** — the four universal states. Nothing else.
+- **Disclosure trigger** — universal, plus its expanded/collapsed state.
+- **Submit button** — all eight.
+- **Text input** — universal, plus disabled and error; loading and success only if
+  it validates asynchronously.
+
+The test is whether the code path exists, not whether the state name applies in
+the abstract. If nothing can ever set the control to loading, styling a loading
+state is dead code.
 
 Use `:focus-visible`, not `:focus`. `:focus` fires on mouse click too, which is
 why people disabled outlines in the first place; `:focus-visible` fires only when
@@ -58,14 +79,47 @@ Opacity alone is ambiguous — it can read as "loading" or just as low-contrast
 text. Ship all three:
 
 ```css
-.btn:disabled {
+.btn:disabled,
+.btn[aria-disabled="true"] {
   opacity: 0.55;
   cursor: not-allowed;
 }
 ```
 
-Plus the native `disabled` attribute (or `aria-disabled="true"` when the element
-must stay focusable so screen-reader users can discover why it's unavailable).
+Prefer the **native `disabled` attribute** on anything that supports it. It
+removes the control from the tab order, suppresses activation, and excludes it
+from form submission and constraint validation — all for free.
+
+`aria-disabled="true"` is for the case where the control must stay focusable so a
+keyboard or screen-reader user can reach it and find out *why* it's unavailable.
+It comes with a sharp caveat:
+
+> **`aria-disabled` changes only what is announced. It suppresses nothing.** The
+> element stays focusable, click and keyboard activation still fire, and a
+> `<button type="submit">` still submits. Announcing a control as disabled while
+> it continues to execute is worse than not marking it at all.
+
+So when you use it, you own the enforcement — every activation path, not just
+`click`:
+
+```js
+function guard(handler) {
+  return (e) => {
+    if (e.currentTarget.getAttribute("aria-disabled") === "true") {
+      e.preventDefault();
+      e.stopPropagation();
+      return;
+    }
+    handler(e);
+  };
+}
+btn.addEventListener("click", guard(onClick));
+btn.addEventListener("keydown", guard(onKeydown));  // Enter and Space
+form.addEventListener("submit", guard(onSubmit));   // and the submit path
+```
+
+Never set both on the same element — `disabled` plus `aria-disabled` is
+conflicting information.
 
 Note that `opacity` on disabled controls will often drop text below 4.5:1. That
 is generally accepted — WCAG 1.4.3 exempts inactive controls — but if the
@@ -92,7 +146,9 @@ Keep `border-width: 1px` across default, hover, focus, and error. State goes to
 
 ```css
 .input {
-  border: 1px solid var(--color-rule);
+  /* --color-border, not --color-rule: this boundary identifies the control,
+   * so it needs 3:1 (WCAG 1.4.11). See oklch-palette.md § the four layers. */
+  border: 1px solid var(--color-border);
   outline: 2px solid transparent;      /* reserved — no geometry shift later */
   outline-offset: 1px;
 }
@@ -109,10 +165,16 @@ slop. Share one base height token.
 .input, .btn { min-height: var(--control-h); }
 ```
 
-On target size: **WCAG 2.5.8 (AA, 2.2)** requires 24×24 CSS px minimum;
-**WCAG 2.5.5 (AAA)** requires 44×44. 44px is the value to design to — it is also
-roughly the platform guidance on both iOS and Android — but 24px is the AA
-conformance floor, so don't report a 32px control as an AA failure.
+On target size: **44×44** is the value to design to — it matches **WCAG 2.5.5
+(AAA)** and roughly the platform guidance on both iOS and Android.
+
+Don't report smaller targets as AA failures without checking the criterion.
+**WCAG 2.5.8 (AA, 2.2)** is a target-*or*-spacing rule, not a 24px floor: an
+undersized target conforms if a 24px-diameter circle centred on it doesn't
+intersect any adjacent target's circle. It also exempts targets that are inline in
+a sentence, that have a conforming equivalent elsewhere on the page, that are
+user-agent-styled, or whose size is essential (a map pin, an image-map region).
+Plenty of conforming 20px icon buttons exist with adequate spacing around them.
 
 ### 4 · Helper-text slot collapses when empty
 

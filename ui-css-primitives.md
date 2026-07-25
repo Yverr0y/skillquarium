@@ -2,7 +2,6 @@
 title: ui-css-primitives
 aliases:
   - ui css primitives
-  - OKLCH
 tags:
   - skill
   - domain/web-automation-frontend
@@ -15,13 +14,13 @@ created: 2026-07-25
 # ui-css-primitives
 
 > [!info] What it does
-> CSS-level implementation primitives for UI work — perceptual (OKLCH) palette construction, motion duration/easing tokens, the complete interactive-state matrix, text-on-fill contrast pairing, and the framework-agnostic responsive-correctness bugs. Use when writing or reviewing CSS tokens, building a colour palette from scratch, implementing interactive or input states, debugging a UI that looks "almost right", or fixing layout that breaks on narrow viewports. Complements the taste-level design skills, which pick what to build; this one specifies how to implement it correctly.
+> Specifies CSS-level implementation primitives for UI work — OKLCH palette construction, motion duration and easing tokens, interactive and input state coverage, text-on-fill contrast pairing, and framework-agnostic responsive-correctness bugs. Use when writing or reviewing CSS tokens, building a colour palette, implementing interactive or input states, debugging a UI that looks "almost right", or fixing layout that breaks at narrow viewports.
 
 **Source:** [ui-css-primitives/SKILL.md](ui-css-primitives/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 
-- [implement](implement.md) — Implement a piece of work based on a PRD or set of issues
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -7,23 +7,47 @@ Verify at **320 · 375 · 414 · 768 px** CSS widths. 320px is the practical flo
 (iPhone SE class); 414px catches the large-phone case people skip; 768px catches
 the tablet-portrait breakpoint where two-column layouts usually break first.
 
-## 1 · `overflow-x: clip`, never `hidden`
+## 1 · Clip the container that overflows, not the document
 
-Any page with a deliberately overflowing element — a full-bleed marquee, an
-oversized headline, a figure that extends past its column — needs a global clip
-so the document doesn't scroll horizontally.
+When one element deliberately overflows — a full-bleed marquee, an oversized
+headline, a figure extending past its column — clip **that element's container**:
 
 ```css
-html { overflow-x: clip; }
-body { overflow-x: clip; }   /* both: older Safari honours it on body */
+.marquee-wrap { overflow-x: clip; }
 ```
 
 **Use `clip`, not `hidden`.** `overflow: hidden` creates a scroll container, which
 breaks `position: sticky` and `position: fixed` on descendants and can trap focus
 on overflowing inputs. `clip` clips without creating one.
 
+### Why not just clip `html` and `body`
+
+A global `overflow-x: clip` on the root is tempting as a blanket safety net, and
+it is the wrong default for two reasons:
+
+1. **It can strand focusable content.** Clipping the root removes horizontal
+   scrolling entirely — including programmatic scrolling. If a real control or
+   link overflows because of an actual layout defect, keyboard focus still moves
+   to it while it stays visually off-screen and unreachable. That's a
+   WCAG 2.4.7 / 1.4.10 problem, and it's worse than the horizontal scrollbar it
+   was hiding.
+2. **It suppresses your own detection.** The pre-ship sweep at the bottom of this
+   file works by watching for a horizontal scrollbar. Clipping the root removes
+   the symptom and leaves the defect.
+
+So: scope the clip to the decorative container that is *supposed* to overflow, and
+fix anything else that does. Reach for the root-level clip only as a deliberate,
+commented last resort, after confirming nothing focusable sits in the clipped
+region:
+
+```css
+/* Last resort. Verified: only .hero__marquee extends past the viewport,
+ * and it contains no focusable content. */
+html, body { overflow-x: clip; }
+```
+
 The containing section keeps `overflow: visible` so the element still renders past
-its parent edge — the global clip is the only safety net needed.
+its parent edge.
 
 Related: never `width: 100vw`. It includes the scrollbar width on desktop
 browsers that reserve space, producing a few pixels of horizontal scroll. Use
@@ -73,23 +97,51 @@ and, unlike `break-word`, is accounted for when computing intrinsic min-content
 size — which is what actually prevents the overflow. Pair with `hyphens: auto`
 and a `lang` attribute if hyphenation is wanted.
 
-## 4 · Clickable text never wraps to two lines
+## 4 · Clickable text that wraps unintentionally
 
-A button label, nav link, footer link, breadcrumb, or CTA reading on two lines
-looks broken — readers can't tell whether the break is intentional, and the row's
-vertical rhythm breaks because that one control grew taller than its siblings.
-The worst case is a single orphaned word on line two.
+A button label or primary nav link breaking onto two lines usually looks broken —
+readers can't tell whether the break was intended, and the row's rhythm goes with
+it because one control grew taller than its siblings. Worst case is a single
+orphaned word on line two.
+
+**The requirement is that no label overflows, clips, or becomes unreadable.** It is
+*not* that no label ever wraps. That distinction matters because:
+
+- German and Finnish routinely run 40–60% longer than English. "Get started free"
+  → "Kostenlos loslegen" → and a translator can't always shorten it.
+- WCAG 1.4.4 requires text to stay usable at 200% zoom, and 1.4.10 requires reflow
+  at 320px. `white-space: nowrap` on a long label defeats both — the label
+  overflows its container or gets clipped instead of wrapping.
 
 Fixes, in order of preference:
 
 1. **Shorten the label.** Most CTA copy is too long. *"Get started free"* →
-   *"Start free"*. *"Read the documentation"* → *"Read docs"*.
-2. `white-space: nowrap` on the affordance, and let the parent flex container
-   reflow around it.
-3. Drop a non-essential nav item at narrow widths.
-4. Collapse the nav into a sheet or menu below a threshold.
+   *"Start free"*. Available for copy you control; often unavailable for
+   translated strings.
+2. **Let the container reflow** — wrap the row, stack the nav, drop a
+   non-essential item at narrow widths, or collapse into a sheet or menu.
+3. **`white-space: nowrap` only where the design contract genuinely requires one
+   line** — a fixed-width toolbar button, a table header, a chip. Pair it with a
+   guard so an over-long string degrades visibly rather than escaping its box:
 
-Never let a primary CTA or a nav link wrap.
+   ```css
+   .chip {
+     white-space: nowrap;
+     max-width: 100%;
+     overflow: hidden;
+     text-overflow: ellipsis;   /* truncates instead of overflowing */
+   }
+   ```
+
+   Truncation loses information, so it needs a `title` or accessible name carrying
+   the full text.
+4. **Allow the wrap** when the container can't reflow and the label can't shrink.
+   Two clean lines with a preserved tap target beat a clipped single line. Keep it
+   deliberate: `text-wrap: balance` splits the lines evenly, and `min-height`
+   keeps the row aligned with its siblings.
+
+The failure to hunt for is a label wrapping *by accident* at one breakpoint nobody
+checked — not wrapping as such.
 
 ## 5 · Two sticky elements both at `top: 0`
 
@@ -167,6 +219,29 @@ will jump the page to the section top on every tab click if the radios sit at
 
 Either keep the radios in normal flow with zero size and `opacity: 0`, or
 intercept the label click in JS and focus with `{ preventScroll: true }`.
+
+**A visually hidden radio still takes focus**, so the focus indicator has to be
+forwarded to something visible or keyboard users navigate blind:
+
+```css
+.tab-radio {                    /* in flow, zero size — no scroll jump */
+  position: static;
+  width: 0; height: 0;
+  opacity: 0;
+  margin: 0;
+}
+/* forward both states to the visible label */
+.tab-radio:focus-visible + .tab-label { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.tab-radio:checked       + .tab-label { border-block-end: 2px solid var(--color-accent); }
+```
+
+Never `display: none` or `visibility: hidden` on the input — both remove it from
+the tab order and the pattern stops being keyboard-operable at all.
+
+Worth saying plainly: this pattern is fiddly enough that a real tablist —
+`role="tablist"` with arrow-key handling, or a library primitive — is usually the
+better answer. CSS-only tabs are a reasonable choice for a static page with no JS,
+not for an application.
 
 ## Pre-ship sweep
 

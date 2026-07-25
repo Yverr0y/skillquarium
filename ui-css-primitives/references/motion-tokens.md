@@ -32,17 +32,26 @@ arrive; a slow exit feels like the UI is reluctant.
 .menu.is-close { transition: transform calc(var(--dur-short) * 0.75) var(--ease-in); }
 ```
 
-## Animate transform and opacity only
+## Animate compositor-friendly properties; never layout properties
 
-These two are composited on the GPU and skip layout and paint. Everything else
-triggers reflow on every frame.
+Three tiers, and the distinction matters because the middle one is fine:
 
-Never animate: `width`, `height`, `top`, `left`, `right`, `bottom`, `margin`,
-`padding`, or any box-model property. If you think you need to, you need a
-`transform` instead.
+| Tier | Properties | Cost per frame |
+|---|---|---|
+| **Compositor** | `transform`, `opacity`, `filter` | No layout, no paint — cheapest |
+| **Paint** | `background-color`, `color`, `border-color`, `box-shadow` | Repaint, no layout — acceptable |
+| **Layout** | `width`, `height`, `top`, `left`, `margin`, `padding`, `font-size` | Reflow every frame — never animate |
+
+Prefer the compositor tier for anything spatial. The paint tier is *correct* for
+state changes — a button's hover colour should transition `background-color`, and
+doing that is not a performance defect. Keep paint-tier transitions short and on
+small elements; a `box-shadow` transition across a large surface is the one to
+watch.
+
+Never animate the layout tier. If you reach for it, you want a `transform`:
 
 ```css
-/* wrong — layout thrash every frame */
+/* wrong — reflow every frame */
 .card:hover { margin-top: -4px; }
 
 /* right */
@@ -75,12 +84,15 @@ needed.
   opacity: 0;
   transform: translateY(8px);
   animation: reveal var(--dur-long) var(--ease-out) forwards;
-  animation-delay: calc(var(--i, 0) * 60ms);
+  /* clamped: a long page can't push the last item past the budget */
+  animation-delay: min(calc(var(--i, 0) * 60ms), 500ms);
 }
 @keyframes reveal { to { opacity: 1; transform: none; } }
 ```
 
-Cap total stagger at ~500ms. Past that the page feels slow to settle.
+The `min()` is load-bearing. A bare `calc(var(--i) * 60ms)` grows without bound,
+so a page with 20 sections staggers to 1.2s — past the point where the page feels
+like it settles. Clamp it rather than trusting section counts to stay small.
 
 ## Scroll-linked motion
 
@@ -91,21 +103,40 @@ Cap total stagger at ~500ms. Past that the page feels slow to settle.
 
 ## Reduced motion is not optional
 
+Spatial motion collapses to an opacity crossfade of ≤150ms. Functional motion —
+progress bars, loading spinners, skeletons — **keeps running**; it carries
+information, and killing it leaves the user staring at a frozen spinner with no
+indication anything is happening.
+
+That second requirement is why the blunt global override is wrong. A universal
+`animation-iteration-count: 1 !important` stops every looping animation after one
+pass, including the spinners the previous paragraph promises to preserve. Opt
+functional motion out explicitly:
+
 ```css
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  /* Decorative motion: collapse. :not() spares anything marked functional. */
+  *:not([data-motion="functional"]),
+  *:not([data-motion="functional"])::before,
+  *:not([data-motion="functional"])::after {
     animation-duration: 150ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 150ms !important;
   }
+
   .reveal { animation: reveal-reduced 150ms linear forwards; }
   @keyframes reveal-reduced { to { opacity: 1; transform: none; } }
+
+  /* Functional loaders keep looping — slower, and without spatial travel. */
+  [data-motion="functional"] { animation-duration: 1.2s; }
 }
 ```
 
-Spatial motion collapses to an opacity crossfade of ≤150ms. Functional motion —
-progress bars, loading spinners, skeletons — still runs; it carries information.
-Killing it leaves the user with no feedback.
+Then mark the loaders: `<div class="spinner" data-motion="functional">`. If you'd
+rather not carry an attribute, scope the override to a decorative class instead —
+the requirement is that *something* distinguishes the two, not this exact
+mechanism. A reduced-motion spinner should also prefer an opacity pulse over a
+rotation.
 
 ## Focus rings appear instantly
 
@@ -132,7 +163,15 @@ shift some layouts get when the outline appears.
 hover; it produces a glow.
 
 **Menu / tooltip / dropdown** — `--dur-short`, `--ease-out` opening,
-`--ease-in` closing. Manage focus with the Popover API or `inert`.
+`--ease-in` closing.
+
+> Focus is a separate concern from the transition, and `inert` does not cover it.
+> `inert` only removes a subtree from focus order and hit-testing — it cannot move
+> focus into the widget, implement arrow-key navigation, or restore focus to the
+> trigger on close. Applied to the widget it disables the widget; applied to the
+> background it is one part of modal focus handling, not the whole of it. Use an
+> accessible primitive (Radix, Base UI, React Aria) or the native `<dialog>` /
+> Popover API and implement the focus lifecycle deliberately.
 
 **Modal** — `--dur-long`, scale `0.96 → 1` plus an opacity crossfade. Backdrop
 fades at the same duration.

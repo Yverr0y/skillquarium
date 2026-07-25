@@ -54,7 +54,7 @@ created: 2026-06-13
 - [slack](../slack.md) — Interact with Slack workspaces using browser automation
 - [stitch-design-taste](../stitch-design-taste.md) — Semantic Design System Skill for Google Stitch
 - [theme-factory](../theme-factory.md) — Toolkit for styling artifacts with a theme
-- [ui-css-primitives](../ui-css-primitives.md) — CSS-level implementation primitives for UI work — perceptual (OKLCH) palette construction, motion duration/easing tokens, the complete interactive-state matrix, text-on-fill contrast...
+- [ui-css-primitives](../ui-css-primitives.md) — Specifies CSS-level implementation primitives for UI work — OKLCH palette construction, motion duration and easing tokens, interactive and input state coverage, text-on-fill contrast...
 - [vercel-composition-patterns](../vercel-composition-patterns.md) — React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs
 - [vercel-react-best-practices](../vercel-react-best-practices.md) — React and Next.js performance optimization guidelines from Vercel Engineering
 - [vercel-react-view-transitions](../vercel-react-view-transitions.md) — Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements)

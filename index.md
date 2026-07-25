@@ -8,7 +8,7 @@ created: 2026-06-13
 
 # Skills Index
 
-A navigable map of the **1207 agent skills** in this vault, grouped into 24 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
+A navigable map of the **1208 agent skills** in this vault, grouped into 24 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
 
 > [!tip] How to navigate
 > - **Find by name/synonym:** quick-switcher or grep (skills carry aliases like `DESeq2`, `single cell`).
@@ -144,11 +144,11 @@ Multi-perspective deliberation, brainstorming, hypothesis generation, idea evalu
 
 [cavecrew](cavecrew.md), [caveman](caveman.md), [caveman-commit](caveman-commit.md), [caveman-compress](caveman-compress.md), [caveman-help](caveman-help.md), [caveman-review](caveman-review.md) … [see all 21 →](maps/reasoning-ideation.md)
 
-### [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  45 skills
+### [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  46 skills
 
 Browser automation, Playwright testing, frontend design guidance, React/Next.js patterns, Figma workflows, and design-to-code loops.
 
-[agent-browser](agent-browser.md), [agentcore](agentcore.md), [algorithmic-art](algorithmic-art.md), [baseline-ui](baseline-ui.md), [brand-guidelines](brand-guidelines.md), [brandkit](brandkit.md) … [see all 45 →](maps/web-automation-frontend.md)
+[agent-browser](agent-browser.md), [agentcore](agentcore.md), [algorithmic-art](algorithmic-art.md), [baseline-ui](baseline-ui.md), [brand-guidelines](brand-guidelines.md), [brandkit](brandkit.md) … [see all 46 →](maps/web-automation-frontend.md)
 
 ### [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  20 skills
 
@@ -170,7 +170,7 @@ The official dotnet/skills catalog: C# language/runtime tooling, MSBuild build p
 
 ## All skills (A–Z)
 
-_703 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
+_704 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
 
 **A**
 [academic-paper](academic-paper.md) · [academic-paper-reviewer](academic-paper-reviewer.md) · [academic-pipeline](academic-pipeline.md) · [adaptyv](adaptyv.md) · [adding-dbt-unit-test](adding-dbt-unit-test.md) · [adjusttext](adjusttext.md) · [aeon](aeon.md) · [affinity-proteomics](affinity-proteomics.md) · [aflpp](aflpp.md) · [agent-browser](agent-browser.md) · [agentcore](agentcore.md) · [agentic-actions-auditor](agentic-actions-auditor.md) · [airflow](airflow.md) · [algorithmic-art](algorithmic-art.md) · [alterlab-qiime2-amplicon](alterlab-qiime2-amplicon.md) · [analyze-fasta](analyze-fasta.md) · [analyzing-dotnet-performance](analyzing-dotnet-performance.md) · [android-tombstone-symbolication](android-tombstone-symbolication.md) · [anndata](anndata.md) · [answering-natural-language-questions-with-dbt](answering-natural-language-questions-with-dbt.md) · [api-and-interface-design](api-and-interface-design.md) · [apple-crash-symbolication](apple-crash-symbolication.md) · [arboreto](arboreto.md) · [archaic-introgression](archaic-introgression.md) · [article-data-fetcher](article-data-fetcher.md) · [ask-matt](ask-matt.md) · [assertion-quality](assertion-quality.md) · [astropy](astropy.md) · [atac-seq](atac-seq.md) · [atheris](atheris.md) · [attach-db](attach-db.md) · [audit-context-building](audit-context-building.md) · [audit-prep-assistant](audit-prep-assistant.md) · [auditing-skills](auditing-skills.md) · [author-component](author-component.md) · [authoring-github-workflows](authoring-github-workflows.md) · [autoskill](autoskill.md) · [aws-agentic-ai](aws-agentic-ai.md) · [aws-cdk-development](aws-cdk-development.md) · [aws-cost-operations](aws-cost-operations.md) · [aws-mcp-setup](aws-mcp-setup.md) · [aws-serverless-eda](aws-serverless-eda.md)
@@ -233,7 +233,7 @@ _703 tool skills. The 504 expert-persona entries (discipline profiles + the scie
 [target-authoring](target-authoring.md) · [target-validation-scorer](target-validation-scorer.md) · [tdd](tdd.md) · [teach](teach.md) · [tech-paper-template](tech-paper-template.md) · [technology-selection](technology-selection.md) · [template-authoring](template-authoring.md) · [template-comparison](template-comparison.md) · [template-discovery](template-discovery.md) · [template-instantiation](template-instantiation.md) · [template-smart-defaults](template-smart-defaults.md) · [template-validation](template-validation.md) · [terraform](terraform.md) · [test-analysis-extensions](test-analysis-extensions.md) · [test-anti-patterns](test-anti-patterns.md) · [test-driven-development](test-driven-development.md) · [test-gap-analysis](test-gap-analysis.md) · [test-smell-detection](test-smell-detection.md) · [test-tagging](test-tagging.md) · [theme-factory](theme-factory.md) · [thread-abort-migration](thread-abort-migration.md) · [tiledbvcf](tiledbvcf.md) · [timesfm-forecasting](timesfm-forecasting.md) · [to-issues](to-issues.md) · [to-prd](to-prd.md) · [token-integration-analyzer](token-integration-analyzer.md) · [torch-geometric](torch-geometric.md) · [torchdrug](torchdrug.md) · [transformers](transformers.md) · [treatment-plans](treatment-plans.md) · [triage](triage.md) · [troubleshooting-dbt-job-errors](troubleshooting-dbt-job-errors.md) · [ttk-viz](ttk-viz.md) · [turingdb-graph](turingdb-graph.md)
 
 **U**
-[ubiquitous-language](ubiquitous-language.md) · [ukb-navigator](ukb-navigator.md) · [ukb-ppp-region-fetch](ukb-ppp-region-fetch.md) · [umap-learn](umap-learn.md) · [use-js-interop](use-js-interop.md) · [usfiscaldata](usfiscaldata.md) · [using-agent-skills](using-agent-skills.md) · [using-dbt-for-analytics-engineering](using-dbt-for-analytics-engineering.md) · [using-git-worktrees](using-git-worktrees.md) · [using-superpowers](using-superpowers.md)
+[ubiquitous-language](ubiquitous-language.md) · [ui-css-primitives](ui-css-primitives.md) · [ukb-navigator](ukb-navigator.md) · [ukb-ppp-region-fetch](ukb-ppp-region-fetch.md) · [umap-learn](umap-learn.md) · [use-js-interop](use-js-interop.md) · [usfiscaldata](usfiscaldata.md) · [using-agent-skills](using-agent-skills.md) · [using-dbt-for-analytics-engineering](using-dbt-for-analytics-engineering.md) · [using-git-worktrees](using-git-worktrees.md) · [using-superpowers](using-superpowers.md)
 
 **V**
 [vaex](vaex.md) · [variant-analysis](variant-analysis.md) · [variant-annotation](variant-annotation.md) · [vcf-annotator](vcf-annotator.md) · [venue-templates](venue-templates.md) · [vercel-composition-patterns](vercel-composition-patterns.md) · [vercel-react-best-practices](vercel-react-best-practices.md) · [vercel-react-view-transitions](vercel-react-view-transitions.md) · [vercel-sandbox](vercel-sandbox.md) · [verification-before-completion](verification-before-completion.md) · [vibe-research-workflow](vibe-research-workflow.md) · [viennarna-structure-prediction](viennarna-structure-prediction.md) · [vitest](vitest.md) · [vllm-deploy-simple](vllm-deploy-simple.md) · [vmd-mdanalysis-viz](vmd-mdanalysis-viz.md)

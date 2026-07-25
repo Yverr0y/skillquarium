@@ -1,6 +1,6 @@
 ---
 name: ui-css-primitives
-description: CSS-level implementation primitives for UI work — perceptual (OKLCH) palette construction, motion duration/easing tokens, the complete interactive-state matrix, text-on-fill contrast pairing, and the framework-agnostic responsive-correctness bugs. Use when writing or reviewing CSS tokens, building a colour palette from scratch, implementing interactive or input states, debugging a UI that looks "almost right", or fixing layout that breaks on narrow viewports. Complements the taste-level design skills, which pick what to build; this one specifies how to implement it correctly.
+description: Specifies CSS-level implementation primitives for UI work — OKLCH palette construction, motion duration and easing tokens, interactive and input state coverage, text-on-fill contrast pairing, and framework-agnostic responsive-correctness bugs. Use when writing or reviewing CSS tokens, building a colour palette, implementing interactive or input states, debugging a UI that looks "almost right", or fixing layout that breaks at narrow viewports.
 ---
 
 # UI CSS Primitives
@@ -64,13 +64,13 @@ A quick pass. Each line links to the reference that explains it.
 8. Focus rings never transition into existence.
 
 **States** — [`references/interactive-states.md`](references/interactive-states.md)
-9. Every interactive element ships all eight states: default · hover · `:focus-visible` · `:active` · disabled · loading · error · success.
+9. Universal states — default · hover · `:focus-visible` · `:active` — exist on every interactive element. Conditional states — disabled · loading · error · success — exist wherever the control can actually enter them. A nav link needs the first four; a submit button needs all eight.
 10. Inputs never change `border-width` between states; focus is `outline`, not `border`.
 
 **Responsive** — [`references/responsive-correctness.md`](references/responsive-correctness.md)
-11. `overflow-x: clip` on `html` and `body` — `clip`, not `hidden`.
+11. Overflow is clipped on the specific container that overflows. A global `overflow-x: clip` on `html`/`body` is a last resort, never a substitute for fixing the overflow.
 12. Grid tracks holding images use `minmax(0, 1fr)`, never bare `1fr`.
-13. No clickable text wraps to two lines at any width.
+13. Single-line controls (buttons, primary nav) don't wrap. Ordinary links and flexible controls may — the requirement is that nothing overflows or clips, not that nothing wraps.
 
 **Type** — [`references/type-ceiling.md`](references/type-ceiling.md)
 14. At most three font families: display + body + one outlier used in ≤2 slots.
@@ -92,12 +92,16 @@ Load only what the task touches — these are independent.
 Several of these are handled for you depending on the stack. Check before
 hand-rolling:
 
-- **Tailwind** already provides a 4pt spacing scale and a type scale. Use them;
-  don't introduce a parallel set of tokens.
-- **Radix / Base UI / React Aria** already manage `:focus-visible`, focus
-  trapping, and keyboard interaction correctly. Per `baseline-ui`: never rebuild
-  that by hand. The state *matrix* in `interactive-states.md` still applies — the
-  primitive gives you focus behaviour, not a `loading` or `error` style.
+- **Tailwind** ships a 4pt spacing scale and a type scale by default, but both are
+  theme variables a project can replace. Read the project's config and reuse
+  whatever scale it actually declares rather than adding a parallel set of tokens
+  — and don't assume the defaults are still in place.
+- **Radix / Base UI / React Aria** own keyboard interaction, focus *behaviour*,
+  and focus *state* (the `data-focus-visible`-style hooks). Per `baseline-ui`:
+  never rebuild that by hand. They do **not** ship focus *styles* — you still
+  write the visible indicator yourself, against the primitive's state hook rather
+  than a raw `:focus-visible` selector. Nor do they give you `loading`, `error`,
+  or `success` appearances.
 - **Nothing** handles the colour construction, the contrast pairing, or the
   responsive bugs in `responsive-correctness.md`. Those are yours regardless of
   stack.

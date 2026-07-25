@@ -84,9 +84,11 @@ and ≤50 characters from the start.
 ## Weight
 
 - **Body: one weight** (400, or 350 on dark). Bold for emphasis only.
-- **Headings contrast body by ≥300 units.** If body is 400, headings are 700 or
-  200 — not 500 or 600. A 200-unit gap reads as a default setting rather than a
-  decision.
+- **Headings contrast body by ≥300 units.** With body at 400 that means **700+**
+  going heavier, or **100** going lighter — 200 is only a 200-unit gap and misses
+  the threshold. A gap under 300 reads as a default setting rather than a decision.
+  Check the face actually ships the weight: many have 700 but not 100, in which
+  case heavier is the only direction available.
 - **Never synthesise.** Load the weight you need. `font-weight: bold` against a
   single-weight file produces a smeared fake bold.
 
@@ -97,8 +99,12 @@ and ≤50 characters from the start.
 - Line-height **1.5–1.65** for body, **1.1–1.3** for display.
 - Uppercase display heads: floor `1.0`, comfortable `1.02–1.08`. See
   `responsive-correctness.md` § 8 for why.
-- Body minimum **16px**. Below 14px is accessibility-hostile; nothing below 10px
-  anywhere.
+- Body **16px** as a project default, not a conformance threshold. WCAG sets no
+  absolute minimum size; what it requires is that text stays usable when scaled to
+  200% (1.4.4) and reflows at 320px (1.4.10). A 14px body that zooms cleanly
+  conforms; a 16px body in a fixed-height box that clips at 200% does not. Set the
+  default in `rem` so user font-size preferences carry through, and verify at 200%
+  rather than trusting the number.
 
 ## Tracking
 
@@ -111,22 +117,48 @@ and ≤50 characters from the start.
 
 ## Required features
 
+The metric overrides go on a **separate fallback face**, not on the webfont. This
+is the part that's easy to get backwards:
+
 ```css
+/* 1 · The real face. No overrides — you want its own metrics. */
 @font-face {
   font-family: "Body";
   src: url("body.woff2") format("woff2");
+  font-weight: 400;              /* declare what this file actually provides */
+  font-style: normal;
   font-display: swap;
-  /* Match fallback metrics to prevent CLS on swap */
+}
+
+/* 2 · A local fallback, adjusted to match Body's metrics.
+ *    Percentages are illustrative — compute them for your actual pair. */
+@font-face {
+  font-family: "Body Fallback";
+  src: local("Arial"), local("Helvetica Neue");
   size-adjust: 103%;
   ascent-override: 92%;
   descent-override: 8%;
   line-gap-override: 0%;
 }
+
+/* 3 · Fallback sits after the real face in the stack. */
+:root { --font-body: "Body", "Body Fallback", sans-serif; }
 ```
 
+Putting `size-adjust` on the `Body` face rescales the downloaded font itself,
+which is the opposite of the intent — it distorts the real face and leaves the
+fallback unadjusted, so the swap still shifts. The overrides only prevent CLS when
+they're on the face being *swapped away from*.
+
+Compute the values from the two faces' metrics (`unitsPerEm`, `ascender`,
+`descender`) rather than copying the numbers above; tooling like `fontaine` or
+Next.js's `next/font` does this automatically and is the better default.
+
 - `font-display: swap` on every web font.
-- Metric overrides on the fallback so the swap doesn't shift layout. The four
-  properties above are what turn a visible reflow into an invisible one.
+- **Declare `font-weight` and `font-style` on every `@font-face`.** Omitted, they
+  default to `normal`/`400`, so the browser will synthesise bold and italic from
+  the regular file instead of using the weights you shipped. For a variable font,
+  declare the range: `font-weight: 100 900;`.
 - **`font-variant-numeric: tabular-nums`** on any container showing columns of
   numbers — prices, dates, metrics, tables. Proportional figures don't align
   vertically, and misaligned numeric columns are one of the most visible signs
@@ -136,9 +168,15 @@ and ≤50 characters from the start.
 
 ## Semantics
 
-Skip no heading levels: `h1` → `h2` → `h3`. Style them visually however you
-like, but keep the document order intact — screen-reader navigation depends on
-it, and so does every outline tool.
+Heading levels reflect document structure. Don't skip levels when **descending** —
+`h2` → `h4` leaves a gap that makes the outline lie about nesting depth.
+
+Returning to a higher level is not a skip and needs no filler: `h2` → `h3` → `h2`
+is correct when the second section is a sibling of the first. Reading the rule as
+"the sequence must never jump" produces placeholder headings that exist only to
+satisfy a linter, which is worse for screen-reader navigation than the gap was.
+
+Style them visually however you like — the constraint is the level, not the size.
 
 ## Bans
 
