@@ -127,12 +127,15 @@ EOF
 ```
 
 ```python
-from Bio import pairwise2
-from Bio.pairwise2 import format_alignment
+from Bio.Align import PairwiseAligner
 
-alignments = pairwise2.align.globalxx(seq1, seq2)
-print(format_alignment(*alignments[0]))
+aligner = PairwiseAligner()
+aligner.mode = "global"
+alignments = aligner.align(seq1, seq2)
+print(alignments[0])
 ```
+
+Note: `Bio.pairwise2` was deprecated in Biopython 1.80. Use `Bio.Align.PairwiseAligner` (shown above); it returns an `Alignment` object rather than the old `format_alignment` string.
 
 ### 6. Output format for WhatsApp
 
