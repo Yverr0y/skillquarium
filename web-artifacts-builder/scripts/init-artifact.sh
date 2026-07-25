@@ -55,8 +55,16 @@ fi
 
 echo "🚀 Creating new React + Vite project: $PROJECT_NAME"
 
-# Create new Vite project (always use latest create-vite, pin vite version later)
-pnpm create vite "$PROJECT_NAME" --template react-ts
+# Create new Vite project. create-vite's current major requires Node ^20.19.0
+# || >=22.12.0, so on Node 18 (or 20.0-20.18) pin to the last create-vite that
+# supports Node 18+; otherwise use latest.
+if [ "$NODE_VERSION" -lt 20 ]; then
+  CREATE_VITE_VERSION="5.5.5"
+  echo "📌 Using create-vite@$CREATE_VITE_VERSION (Node 18 compatible)"
+  pnpm create vite@$CREATE_VITE_VERSION "$PROJECT_NAME" --template react-ts
+else
+  pnpm create vite "$PROJECT_NAME" --template react-ts
+fi
 
 # Navigate into project directory
 cd "$PROJECT_NAME"
