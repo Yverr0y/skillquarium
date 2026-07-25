@@ -1089,7 +1089,17 @@ def main():
     skills_sorted = sorted(on_disk)
     full_desc = {s: read_description(s) for s in skills_sorted}
     short = {s: one_liner(full_desc[s]) for s in skills_sorted}
-    related = build_related_excluding(skills_sorted, full_desc, expert_skills)
+    # Transient gstack sub-skills are already kept out of cards/maps/subtotals
+    # (SCALE-3, above). Exclude them from related-links too, or the committed
+    # wrappers churn with install state: with the gstack extra installed, skills
+    # like qa/review/pdf gain a dozen gstack-* "Related skills" entries that
+    # vanish again on a machine without it. Same intent as is_gstack_subskill's
+    # docstring; related-links were the one generated surface it missed.
+    related = build_related_excluding(
+        skills_sorted,
+        full_desc,
+        set(expert_skills) | {s for s in skills_sorted if is_gstack_subskill(s)},
+    )
     discipline_titles = {
         discipline.id: discipline.title for discipline in taxonomy.disciplines
     }
