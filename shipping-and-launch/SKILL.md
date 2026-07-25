@@ -255,7 +255,7 @@ Every deployment needs a rollback plan before it happens:
 3. Communicate: notify team of rollback
 
 ### Database Considerations
-- Migration [X] has a rollback: `npx prisma migrate rollback`
+- Migration [X] needs rollback: Prisma has no `migrate rollback` command. First check migration state with `npx prisma migrate status`. If the migration failed, mark it resolved with `npx prisma migrate resolve --rolled-back <migration-name>`, then apply a corrected migration (or revert with a manual SQL/`migrate diff` + `db execute` step) — do not treat resolve as an automatic schema/data revert.
 - Data inserted by new feature: [preserved / cleaned up]
 
 ### Time to Rollback
@@ -263,13 +263,6 @@ Every deployment needs a rollback plan before it happens:
 - Redeploy previous version: < 5 minutes
 - Database rollback: < 15 minutes
 ```
-## See Also
-
-- For the project-wide Definition of Done that every change must clear before this checklist, see `references/definition-of-done.md`
-- For security pre-launch checks, see `references/security-checklist.md`
-- For performance pre-launch checklist, see `references/performance-checklist.md`
-- For accessibility verification before launch, see `references/accessibility-checklist.md`
-
 ## Common Rationalizations
 
 | Rationalization | Reality |
