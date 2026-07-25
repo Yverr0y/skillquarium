@@ -9,6 +9,11 @@ skills-lock.json
 # fresh and runs its ./setup to symlink the bundle into each agent.
 # Sub-skill wrappers and per-host skill folders are generated only when
 # gstack/ is installed; they come and go with the install state.
+#
+# Patterns cover both the skill folders and the generated `<name>.md` wrapper
+# notes. `/gstack-*` already catches `gstack-qa/` and `gstack-qa.md`; the
+# underscore-prefixed install artifacts need their own pattern because the
+# leading `_` puts them outside it.
 /gstack/
-/_gstack-command/
 /gstack-*
+/_gstack*
