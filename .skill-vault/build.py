@@ -334,6 +334,7 @@ CATEGORIES = [
       "gpt-taste", "high-end-visual-design", "image-to-code",
       "imagegen-frontend-mobile", "imagegen-frontend-web", "industrial-brutalist-ui",
       "minimalist-ui", "redesign-existing-projects", "stitch-design-taste",
+      "ui-css-primitives",
       # ibelick/ui-skills first-party pack
       "baseline-ui", "fixing-accessibility", "fixing-metadata",
       "fixing-motion-performance", "improve-ui"]),
