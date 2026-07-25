@@ -130,19 +130,31 @@ is the part that's easy to get backwards:
   font-display: swap;
 }
 
-/* 2 · A local fallback, adjusted to match Body's metrics.
- *    Percentages are illustrative — compute them for your actual pair. */
+/* 2 · One adjusted face PER fallback font. `src` is a prioritised list, so a
+ *    single override set would be applied to whichever face the platform
+ *    happens to have — and Arial and Helvetica Neue have different metrics.
+ *    Percentages are illustrative; compute them per pair. */
 @font-face {
-  font-family: "Body Fallback";
-  src: local("Arial"), local("Helvetica Neue");
+  font-family: "Body Fallback Arial";
+  src: local("Arial");
   size-adjust: 103%;
   ascent-override: 92%;
   descent-override: 8%;
   line-gap-override: 0%;
 }
+@font-face {
+  font-family: "Body Fallback Helvetica";
+  src: local("Helvetica Neue");
+  size-adjust: 101%;          /* different face, different numbers */
+  ascent-override: 95%;
+  descent-override: 5%;
+  line-gap-override: 0%;
+}
 
-/* 3 · Fallback sits after the real face in the stack. */
-:root { --font-body: "Body", "Body Fallback", sans-serif; }
+/* 3 · Fallbacks sit after the real face, most-likely-available first. */
+:root {
+  --font-body: "Body", "Body Fallback Arial", "Body Fallback Helvetica", sans-serif;
+}
 ```
 
 Putting `size-adjust` on the `Body` face rescales the downloaded font itself,

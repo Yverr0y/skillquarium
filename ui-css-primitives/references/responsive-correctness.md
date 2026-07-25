@@ -16,21 +16,28 @@ headline, a figure extending past its column — clip **that element's container
 .marquee-wrap { overflow-x: clip; }
 ```
 
-**Use `clip`, not `hidden`.** `overflow: hidden` creates a scroll container, which
-breaks `position: sticky` and `position: fixed` on descendants and can trap focus
-on overflowing inputs. `clip` clips without creating one.
+**Use `clip`, not `hidden`.** `overflow: hidden` makes the box a scroll container.
+That breaks `position: sticky` on descendants, because they now stick to that
+container rather than the viewport. `clip` clips without creating a scroll
+container, so sticky keeps working.
+
+`overflow` alone does **not** create a containing block for `position: fixed` —
+that takes `transform`, `filter`, `perspective`, `backdrop-filter`, `contain`, or
+`will-change` on an ancestor. Sticky is the one this affects.
 
 ### Why not just clip `html` and `body`
 
 A global `overflow-x: clip` on the root is tempting as a blanket safety net, and
 it is the wrong default for two reasons:
 
-1. **It can strand focusable content.** Clipping the root removes horizontal
-   scrolling entirely — including programmatic scrolling. If a real control or
-   link overflows because of an actual layout defect, keyboard focus still moves
-   to it while it stays visually off-screen and unreachable. That's a
-   WCAG 2.4.7 / 1.4.10 problem, and it's worse than the horizontal scrollbar it
-   was hiding.
+1. **It can strand focusable content.** Once the root clips, overflowing content
+   is no longer reachable by user scrolling — there is no scrollbar to drag. If a
+   real control or link overflows because of an actual layout defect, keyboard
+   focus still moves to it while it sits visually outside the clip, which is a
+   WCAG 2.4.7 / 1.4.10 problem and worse than the scrollbar it replaced. (What
+   the browser does on focus differs between `clip` and `hidden` — `hidden` still
+   permits programmatic scrolling, so focus may yank the layout sideways instead.
+   Neither outcome is one you want.)
 2. **It suppresses your own detection.** The pre-ship sweep at the bottom of this
    file works by watching for a horizontal scrollbar. Clipping the root removes
    the symptom and leaves the defect.
