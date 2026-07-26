@@ -1,0 +1,7 @@
+# MATLAB P-code and MAT-files are binary. Git's content heuristic already
+# detects them, but marking them explicitly keeps a clone with
+# core.autocrlf=true (Windows default) from line-ending-normalising and
+# corrupting them. Vendored under the matlab-* skills; see
+# .skill-vault/README.md -> "Vendored bundles".
+*.p   binary
+*.mat binary
