@@ -1,3 +1,7 @@
+# Setup: Python
+
+Packages required for Phoenix evals and experiments.
+
 ## Installation
 
 ```bash
