@@ -18,6 +18,7 @@ created: 2026-06-20
 
 ## Related skills
 
+- [matlab-define-toolbox-api](matlab-define-toolbox-api.md) — Scan a folder, triage files into include/exclude, identify the public API, and produce a toolboxSpecification.m Interface Spec — all in one pass
 - [medchem](medchem.md) — Medicinal chemistry filters for compound triage
 - [omics-target-evidence-mapper](omics-target-evidence-mapper.md) — Aggregate public target-level evidence across omics and translational sources for research triage
 - [pacsomatic](pacsomatic.md) — Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs

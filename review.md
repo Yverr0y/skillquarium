@@ -44,6 +44,7 @@ created: 2026-06-20
 - [guidelines-advisor](guidelines-advisor.md) — Smart contract development advisor based on Trail of Bits' best practices
 - [improve-ui](improve-ui.md) — Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent
 - [infographics](infographics.md) — Create professional infographics using Nano Banana Pro AI with smart iterative refinement
+- [matlab-review-code](matlab-review-code.md) — Review MATLAB code for quality, performance, maintainability, and adherence to MathWorks coding standards
 - [morph-ppt](morph-ppt.md) — Use this skill when the user wants a .pptx with smooth cross-slide animation — PowerPoint Morph transitions, Keynote-style continuous motion, shapes that grow / move / rotate as the...
 - [msbuild-antipatterns](msbuild-antipatterns.md) — Detect and fix MSBuild anti-patterns in project and build files
 - [nature-figure](nature-figure.md) — Create, revise, audit, and export submission-grade scientific figures for Nature-family and other high-impact venues in Python (matplotlib/seaborn) or R...
