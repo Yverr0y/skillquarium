@@ -110,7 +110,43 @@ trainer = L.Trainer(logger=comet_logger)
 
 ### NeptuneLogger (removed in 2.6.4+)
 
-`NeptuneLogger` was removed in lightning 2.6.4 ([release notes](https://github.com/Lightning-AI/pytorch-lightning/releases/tag/2.6.4)) after Neptune was sunset. Lightning's `loggers/__init__.py` now lists [`LitLogger`](https://github.com/lightning-ai/litlogger) as the designated replacement; WandbLogger, MLFlowLogger, or TensorBoardLogger remain available as built-in alternatives.
+`NeptuneLogger` was removed in lightning 2.6.4 ([release notes](https://github.com/Lightning-AI/pytorch-lightning/releases/tag/2.6.4), [PR #21572](https://github.com/Lightning-AI/pytorch-lightning/pull/21572)) after Neptune was acquired and sunset. It is gone from `lightning.pytorch.loggers.__all__`, and the leftover class raises `RuntimeError` on instantiation: *"Please migrate to LitLogger, the recommended logger for AI experiments."* Use `LitLogger` (below); WandbLogger, MLFlowLogger, TensorBoardLogger, CometLogger, and CSVLogger also remain available.
+
+### LitLogger
+
+Lightning AI's own experiment tracker and the designated successor to the removed `NeptuneLogger`. Built in since lightning 2.6.1. Tracks metrics, artifacts, checkpoints, and terminal logs against lightning.ai (cloud or on-prem), so unlike TensorBoardLogger/CSVLogger it is not a purely local file logger.
+
+**Installation:**
+```bash
+uv pip install litlogger
+```
+
+**Usage:**
+```python
+from lightning.pytorch import loggers as pl_loggers
+
+lit_logger = pl_loggers.LitLogger(
+    root_dir="./lightning_logs",
+    name="my-experiment",
+    log_model=False
+)
+
+trainer = L.Trainer(logger=lit_logger)
+```
+
+**Full signature:**
+```python
+LitLogger(
+    root_dir=None,
+    name=None,
+    teamspace=None,
+    metadata=None,
+    store_step=True,
+    log_model=False,
+    save_logs=True,
+    checkpoint_name=None
+)
+```
 
 ### CSVLogger
 
