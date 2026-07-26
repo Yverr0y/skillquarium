@@ -395,7 +395,7 @@ fuzz_target!(|data: &[u8]| {
 
 Seed the corpus:
 ```bash
-mkdir fuzz/corpus/fuzz_target_1/
+mkdir -p fuzz/corpus/fuzz_target_1/
 curl -L -o fuzz/corpus/fuzz_target_1/320x240.ogg \
   https://commons.wikimedia.org/wiki/Special:FilePath/320x240.ogg
 ```
