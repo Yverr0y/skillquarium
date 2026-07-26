@@ -336,14 +336,22 @@ tc_module.deactivate_lid()
 tc_module.deactivate_block()
 ```
 
-**Absorbance Plate Reader:**
+**Absorbance Plate Reader (Flex only):**
 
 ```python
-# Initialize and read
-result = plate_reader.read(wavelengths=[450, 650])
+# Initialize the reader before moving the plate onto it.
+plate_reader = protocol.load_module(
+    module_name='absorbanceReaderV1',
+    location='D3'
+)
+plate_reader.close_lid()
+plate_reader.initialize(mode='multi', wavelengths=[450, 650])
 
-# Access readings
-absorbance_data = result  # Dict with wavelength keys
+# `plate` is labware loaded in a staging slot earlier in the protocol.
+plate_reader.open_lid()
+protocol.move_labware(plate, plate_reader, use_gripper=True)
+plate_reader.close_lid()
+absorbance_data = plate_reader.read()
 ```
 
 ### 6. Liquid Tracking and Labeling
@@ -567,4 +575,3 @@ def run(protocol: protocol_api.ProtocolContext):
 For detailed API documentation, see `references/api_reference.md` in this skill directory.
 
 For example protocol templates, see `scripts/` directory.
-
