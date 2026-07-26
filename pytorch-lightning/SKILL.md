@@ -103,8 +103,9 @@ Integrate with multiple logging platforms:
 - MLflow (MLFlowLogger)
 - Comet (CometLogger)
 - CSV (CSVLogger)
+- Lightning AI (LitLogger) - built in since lightning 2.6.1; `uv pip install litlogger`
 
-Note: `NeptuneLogger` was removed in lightning 2.6.4. Use W&B, MLflow, or TensorBoard instead.
+Note: `NeptuneLogger` was removed in lightning 2.6.4 after Neptune was acquired and sunset. Instantiating it now raises `RuntimeError` telling you to migrate to `LitLogger` (https://github.com/Lightning-AI/LitLogger), Lightning's own tracker; W&B, MLflow, TensorBoard, Comet, and CSV also remain available.
 
 Log metrics using `self.log("metric_name", value)` in any LightningModule method.
 
