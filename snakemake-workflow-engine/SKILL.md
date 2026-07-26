@@ -295,7 +295,7 @@ snakemake --dag | dot -Tpdf > workflow_dag.pdf
 # default-resources:
 #   mem_mb: 2000
 #   runtime: 60
-# use-conda: true
+# software-deployment-method: conda
 
 # Run with profile (cluster submit + monitor)
 snakemake --profile profiles/slurm --cores 128
@@ -442,7 +442,7 @@ jobs: 100
 default-resources:
   mem_mb: 4000
   runtime: 60
-use-conda: true
+software-deployment-method: conda
 latency-wait: 30
 rerun-incomplete: true
 EOF
@@ -468,7 +468,7 @@ snakemake --profile profiles/slurm --report report.html  # after completion
 | `mem_mb:` | `resources:` | None | integer | Memory in MB (used by SLURM profile) |
 | `runtime:` | `resources:` | None | integer (min) | Max walltime per job |
 | `--profile` | CLI | None | path | YAML profile for executor config |
-| `--use-conda` | CLI | False | flag | Activate per-rule conda environments |
+| `--software-deployment-method conda` | CLI | None | `conda` | Activate per-rule conda environments |
 | `--use-apptainer` | CLI | False | flag | Enable Singularity/Apptainer containers |
 | `-n` | CLI | False | flag | Dry-run (show tasks, don't execute) |
 | `--forceall` | CLI | False | flag | Rerun all rules regardless of status |
