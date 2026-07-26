@@ -3,10 +3,12 @@
 # Exit on error
 set -e
 
-# Detect Node version
-NODE_VERSION=$(node -v | cut -d'v' -f2 | cut -d'.' -f1)
+# Detect Node version (full semver; current Vite needs ^20.19.0 || >=22.12.0)
+NODE_VERSION_FULL=$(node -v | cut -d'v' -f2)
+NODE_VERSION=$(echo "$NODE_VERSION_FULL" | cut -d'.' -f1)
+NODE_MINOR=$(echo "$NODE_VERSION_FULL" | cut -d'.' -f2)
 
-echo "🔍 Detected Node.js version: $NODE_VERSION"
+echo "🔍 Detected Node.js version: $NODE_VERSION_FULL"
 
 if [ "$NODE_VERSION" -lt 18 ]; then
   echo "❌ Error: Node.js 18 or higher is required"
@@ -14,13 +16,23 @@ if [ "$NODE_VERSION" -lt 18 ]; then
   exit 1
 fi
 
+# Does this Node satisfy current Vite/create-vite engines (^20.19.0 || >=22.12.0)?
+NODE_SUPPORTS_LATEST_VITE=0
+if [ "$NODE_VERSION" -gt 22 ]; then
+  NODE_SUPPORTS_LATEST_VITE=1
+elif [ "$NODE_VERSION" -eq 22 ] && [ "$NODE_MINOR" -ge 12 ]; then
+  NODE_SUPPORTS_LATEST_VITE=1
+elif [ "$NODE_VERSION" -eq 20 ] && [ "$NODE_MINOR" -ge 19 ]; then
+  NODE_SUPPORTS_LATEST_VITE=1
+fi
+
 # Set Vite version based on Node version
-if [ "$NODE_VERSION" -ge 20 ]; then
+if [ "$NODE_SUPPORTS_LATEST_VITE" -eq 1 ]; then
   VITE_VERSION="latest"
-  echo "✅ Using Vite latest (Node 20+)"
+  echo "✅ Using Vite latest (Node $NODE_VERSION_FULL)"
 else
   VITE_VERSION="5.4.11"
-  echo "✅ Using Vite $VITE_VERSION (Node 18 compatible)"
+  echo "✅ Using Vite $VITE_VERSION (Node $NODE_VERSION_FULL predates Vite's ^20.19.0 || >=22.12.0)"
 fi
 
 # Detect OS and set sed syntax
@@ -55,15 +67,19 @@ fi
 
 echo "🚀 Creating new React + Vite project: $PROJECT_NAME"
 
-# Create new Vite project. create-vite's current major requires Node ^20.19.0
-# || >=22.12.0, so on Node 18 (or 20.0-20.18) pin to the last create-vite that
-# supports Node 18+; otherwise use latest.
-if [ "$NODE_VERSION" -lt 20 ]; then
-  CREATE_VITE_VERSION="5.5.5"
-  echo "📌 Using create-vite@$CREATE_VITE_VERSION (Node 18 compatible)"
-  pnpm create vite@$CREATE_VITE_VERSION "$PROJECT_NAME" --template react-ts
-else
+# Create new Vite project.
+# create-vite@latest (9.x) requires Node ^20.19.0 || >=22.12.0 and its dist
+# imports node:util styleText (Node >=20.12), so it hard-fails on older Node.
+# On older Node use create-vite@5.5.5 (engines ^18.0.0 || >=20.0.0), whose
+# react-ts template targets React 18 + vite ^5.4.10 and therefore matches the
+# vite@5.4.11 pin applied below. (create-vite@6.5.0 also allows Node 18 but
+# scaffolds React 19 + vite 6.)
+if [ "$NODE_SUPPORTS_LATEST_VITE" -eq 1 ]; then
   pnpm create vite "$PROJECT_NAME" --template react-ts
+else
+  CREATE_VITE_VERSION="5.5.5"
+  echo "📌 Using create-vite@$CREATE_VITE_VERSION (React 18 / Vite 5 template)"
+  pnpm create vite@"$CREATE_VITE_VERSION" "$PROJECT_NAME" --template react-ts
 fi
 
 # Navigate into project directory
@@ -76,10 +92,10 @@ $SED_INPLACE 's/<title>.*<\/title>/<title>'"$PROJECT_NAME"'<\/title>/' index.htm
 echo "📦 Installing base dependencies..."
 pnpm install
 
-# Pin Vite version for Node 18
-if [ "$NODE_VERSION" -lt 20 ]; then
-  echo "📌 Pinning Vite to $VITE_VERSION for Node 18 compatibility..."
-  pnpm add -D vite@$VITE_VERSION
+# Pin Vite version on Node older than current Vite's engines
+if [ "$NODE_SUPPORTS_LATEST_VITE" -ne 1 ]; then
+  echo "📌 Pinning Vite to $VITE_VERSION for older-Node compatibility..."
+  pnpm add -D vite@"$VITE_VERSION"
 fi
 
 echo "📦 Installing Tailwind CSS and dependencies..."
