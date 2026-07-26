@@ -12,9 +12,9 @@ created: 2026-06-13
 
 [Back to Skill Index](../index.md)
 
-**Related maps:** [Machine Learning & AI](ml-ai.md) | [Quantum, Physics & Materials](quantum-physics.md) | [Scientific Writing, Figures & Publishing](research-writing.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md)
+**Related maps:** [Machine Learning & AI](ml-ai.md) | [Quantum, Physics & Materials](quantum-physics.md) | [Scientific Writing, Figures & Publishing](research-writing.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (38)
+## Skills (37)
 
 - [adjusttext](../adjusttext.md) — Use the Python adjustText package to automatically move matplotlib text labels so they do not overlap each other, points, or other artists
 - [attach-db](../attach-db.md) — Attach a DuckDB database file for use with /duckdb-skills:query
@@ -27,7 +27,6 @@ created: 2026-06-13
 - [great-expectations](../great-expectations.md) — Data validation using Great Expectations
 - [install-duckdb](../install-duckdb.md) — Install or update DuckDB extensions. Each argument is either a plain extension name (installs from core) or name@repo (e.g
 - [lifelines](../lifelines.md) — Complete survival analysis library in Python
-- [matlab](../matlab.md) — MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing
 - [matplotlib](../matplotlib.md) — Low-level plotting library for full customization
 - [networkx](../networkx.md) — Create, analyze, and visualize complex networks and graphs in Python with NetworkX
 - [numba](../numba.md) — A Just-In-Time (JIT) compiler for Python that translates a subset of Python and NumPy code into fast machine code

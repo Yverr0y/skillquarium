@@ -63,7 +63,7 @@ PALETTE = {
     "cloud-devops": 11206595, "vault-meta": 8421376, "reasoning-ideation": 117,
     "web-automation-frontend": 5832703, "analytics-engineering": 16753920,
     "security-auditing": 13382451, "software-dev": 1752220,
-    "scientific-expert-profiles": 10040012,
+    "scientific-expert-profiles": 10040012, "matlab-development": 30376,
 }
 EXPERT_PALETTE = {
     "biology-life-sciences": 0x2CA02C,
@@ -226,8 +226,9 @@ CATEGORIES = [
 
     ("data-science-compute", "Data Science, Stats & Scientific Computing",
      "DataFrames, big-data tooling, statistics, optimization, simulation, geospatial, and plotting.",
-     ["ml-ai", "quantum-physics", "research-writing", "analytics-engineering"],
-     ["polars", "dask", "vaex", "zarr-python", "networkx", "sympy", "matlab", "statsmodels",
+     ["ml-ai", "quantum-physics", "research-writing", "analytics-engineering",
+      "matlab-development"],
+     ["polars", "dask", "vaex", "zarr-python", "networkx", "sympy", "statsmodels",
       "statistical-analysis", "scikit-survival", "pymc", "pymoo", "simpy", "geomaster", "geopandas",
       "exploratory-data-analysis", "optimize-for-gpu", "usfiscaldata", "matplotlib", "seaborn",
       "adjusttext", "build-complexheatmaps",
@@ -291,7 +292,8 @@ CATEGORIES = [
 
     ("software-dev", "Software Development & Engineering",
      "General software-engineering methodology and tooling: TDD, debugging, code review, planning, git worktrees, source-grounded implementation, plus core app primitives (pytest, Docker, FastAPI, CI).",
-     ["vault-meta", "security-auditing", "cloud-devops", "reasoning-ideation", "dotnet-development"],
+     ["vault-meta", "security-auditing", "cloud-devops", "reasoning-ideation", "dotnet-development",
+      "matlab-development"],
      ["test-driven-development", "systematic-debugging", "verification-before-completion",
       "requesting-code-review", "receiving-code-review", "brainstorming", "writing-plans",
       "executing-plans", "subagent-driven-development", "dispatching-parallel-agents",
@@ -399,6 +401,29 @@ CATEGORIES = [
       "template-validation", "test-analysis-extensions", "test-anti-patterns",
       "test-gap-analysis", "test-smell-detection", "test-tagging", "thread-abort-migration",
       "use-js-interop", "writing-mstest-tests"]),
+
+    ("matlab-development", "MATLAB Development",
+     "MATLAB language and toolchain work: the base-MATLAB skill groups of MathWorks' matlab-agentic-toolkit (core debugging/testing/review, live scripts, software development and toolbox packaging, app building, table and timetable analysis, Python and MEX interfaces, argument validation) plus the general MATLAB/Octave language reference.",
+     ["data-science-compute", "software-dev", "imaging-signals", "ml-ai"],
+     ["matlab",
+      # matlab-agentic-toolkit — MATLAB Core
+      "matlab-create-live-script", "matlab-debugging", "matlab-install-products",
+      "matlab-list-products", "matlab-read-doc", "matlab-review-code", "matlab-testing",
+      # matlab-agentic-toolkit — MATLAB Software Development
+      "matlab-analyze-dependencies", "matlab-assess-toolbox", "matlab-build-toolbox",
+      "matlab-create-buildfile", "matlab-create-project", "matlab-define-toolbox-api",
+      "matlab-document-toolbox", "matlab-exclude-files",
+      "matlab-instrument-opentelemetry-tracing", "matlab-modernize-code",
+      "matlab-optimize-memory", "matlab-optimize-performance", "matlab-publish-toolbox",
+      "matlab-write-help", "matlab-write-performance-tests",
+      # matlab-agentic-toolkit — MATLAB App Building
+      "matlab-build-app", "matlab-build-chart", "matlab-theming",
+      # matlab-agentic-toolkit — MATLAB Data Import and Analysis
+      "matlab-analyze-data", "matlab-choose-bigdata-solution",
+      # matlab-agentic-toolkit — MATLAB External Language Interfaces
+      "matlab-call-python", "matlab-upgrade-mex-ic",
+      # matlab-agentic-toolkit — MATLAB Programming
+      "matlab-validate-function-arguments"]),
 ]
 
 

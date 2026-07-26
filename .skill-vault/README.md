@@ -106,6 +106,37 @@ python3 .skill-vault/build.py        # regenerate nav for the new/removed skills
 
 (The daily `update-skills.yml` run also refreshes the snapshot automatically.)
 
+## Vendored bundles (no lock entry)
+
+Some upstream collections are **copied in by hand** rather than installed through
+the skills CLI, so they have no `skill-lock.json` entry and the CLI will not
+update them. Record each one here and refresh it manually.
+
+| Bundle | Upstream | Vendored at | What we took |
+|--------|----------|-------------|--------------|
+| MATLAB Agentic Toolkit | [matlab/matlab-agentic-toolkit](https://github.com/matlab/matlab-agentic-toolkit) @ `9556aee` | 2026-07-26 | The 6 base-MATLAB skill groups (30 skills), flattened from `skills-catalog/<group>/<skill>/` to `<skill>/` at the vault root |
+
+Upstream ships 151 skills across 23 groups. We deliberately take only the groups
+that need no toolbox licence beyond base MATLAB — `matlab-core`,
+`matlab-software-development`, `matlab-app-building`,
+`matlab-data-import-and-analysis`, `matlab-external-language-interfaces`,
+`matlab-programming` — because `install-skills.sh` installs every vault skill
+globally, and MathWorks' own guidance is to load only the groups you use
+(agents trigger skills more reliably when fewer are loaded). The toolbox groups
+(RF, automotive, radar, wireless, test-and-measurement, …) are intentionally
+omitted; add a group only if you start using that toolbox.
+
+To refresh, re-clone upstream and re-copy those group folders over the existing
+`matlab-*` directories, keeping the per-skill `LICENSE.md`. The MathWorks licence
+is a BSD-3-Clause variant that permits redistribution **provided the copyright
+notice, conditions, and disclaimer are retained** — hence a copy of `LICENSE.md`
+inside every vendored skill directory. Do not drop those files. Upstream does not
+accept pull requests, so local fixes cannot be sent back; prefer filing an issue
+there over editing a vendored `SKILL.md`.
+
+Note that `matlab/` itself is *not* part of this bundle — it is a separate,
+independently authored MATLAB/Octave language reference that predates it.
+
 ## Optional Graphify graph
 
 For graph-backed local queries over the vault, rebuild `graphify-out/` manually:
