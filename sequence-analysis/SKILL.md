@@ -131,11 +131,29 @@ from Bio.Align import PairwiseAligner
 
 aligner = PairwiseAligner()
 aligner.mode = "global"
+# Pin scoring explicitly — PairwiseAligner's default gap scores changed in
+# Biopython 1.86 (0 -> -1.0), so relying on defaults is version-dependent.
+aligner.match_score = 1.0
+aligner.mismatch_score = 0.0
+aligner.open_gap_score = -2.0
+aligner.extend_gap_score = -0.5
+
 alignments = aligner.align(seq1, seq2)
-print(alignments[0])
+best = alignments[0]
+print(f"Score: {best.score}")
+print(best)
 ```
 
-Note: `Bio.pairwise2` was deprecated in Biopython 1.80. Use `Bio.Align.PairwiseAligner` (shown above); it returns an `Alignment` object rather than the old `format_alignment` string.
+Note: `Bio.pairwise2` was deprecated in Biopython 1.80 and still ships as of 1.87
+(emitting a `BiopythonDeprecationWarning`), but new code should use
+`Bio.Align.PairwiseAligner`. Two differences from the old
+`pairwise2.align.globalxx`: (1) `globalxx` applied no gap penalty, while
+`PairwiseAligner` defaults all gap scores to -1.0 as of Biopython 1.86 (0.0
+before) — always set the scoring attributes explicitly rather than relying on
+defaults; (2) `aligner.align()` yields `Alignment` objects, so use
+`print(alignment)` for the layout and `alignment.score` for the score, which the
+old `format_alignment` printed together. For exact `globalxx` parity set
+`aligner.open_gap_score = 0.0` and `aligner.extend_gap_score = 0.0`.
 
 ### 6. Output format for WhatsApp
 
