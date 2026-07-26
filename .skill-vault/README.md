@@ -128,11 +128,17 @@ omitted; add a group only if you start using that toolbox.
 
 To refresh, re-clone upstream and re-copy those group folders over the existing
 `matlab-*` directories, keeping the per-skill `LICENSE.md`. The MathWorks licence
-is a BSD-3-Clause variant that permits redistribution **provided the copyright
-notice, conditions, and disclaimer are retained** — hence a copy of `LICENSE.md`
-inside every vendored skill directory. Do not drop those files. Upstream does not
-accept pull requests, so local fixes cannot be sent back; prefer filing an issue
-there over editing a vendored `SKILL.md`.
+permits redistribution in source and binary form **provided the copyright notice,
+conditions, and disclaimer are retained** — hence a copy of `LICENSE.md` inside
+every vendored skill directory. Do not drop those files. Note that upstream
+frontmatter labels these terms `MathWorks BSD-3-Clause`, but the text is *not*
+OSI BSD-3-Clause and is not an OSI-approved open-source licence: it is the
+BSD-2-Clause body with the non-endorsement clause replaced by a field-of-use
+restriction — the software "and all modifications and derivatives … shall be,
+licensed to you solely for use in conjunction with MathWorks products and
+service offerings." Upstream does not accept pull requests, so local fixes
+cannot be sent back; prefer filing an issue there over editing a vendored
+`SKILL.md`.
 
 Note that `matlab/` itself is *not* part of this bundle — it is a separate,
 independently authored MATLAB/Octave language reference that predates it.
