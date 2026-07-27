@@ -79,6 +79,8 @@ denoising-stats.qzv`. Inspect per-sample columns:
 qiime feature-table summarize \
   --i-table table.qza \
   --m-sample-metadata-file sample-metadata.tsv \
+  --o-feature-frequencies feature-frequencies.qza \
+  --o-sample-frequencies sample-frequencies.qza \
   --o-summary table.qzv
 ```
 

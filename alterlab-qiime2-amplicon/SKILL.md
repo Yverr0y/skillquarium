@@ -171,6 +171,8 @@ trunc-len was too aggressive (no overlap) or primers were not trimmed.
 qiime feature-table summarize \
   --i-table table.qza \
   --m-sample-metadata-file sample-metadata.tsv \
+  --o-feature-frequencies feature-frequencies.qza \
+  --o-sample-frequencies sample-frequencies.qza \
   --o-summary table.qzv
 ```
 
