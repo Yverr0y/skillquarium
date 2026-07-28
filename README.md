@@ -70,7 +70,7 @@ skill names (`/gstack-qa`, `/gstack-ship`, …) so it does not clobber this vaul
 
 ## Navigation
 
-- **[index.md](index.md)** — start here: all skills grouped into 24 domains, plus an A–Z list.
+- **[index.md](index.md)** — start here: all skills grouped into 25 domains, plus an A–Z list.
 - **[skills.base](skills.base)** — filterable / sortable table (by domain, status, rating).
 - **[recipes/](recipes/index.md)** — goal-oriented workflows that chain skills together.
 - **[maps/](maps)** — one map note per domain, with cross-links between domains.
