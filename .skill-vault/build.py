@@ -245,6 +245,7 @@ CATEGORIES = [
      ["academic-pipelines", "literature-discovery", "documents-office", "reasoning-ideation",
       "web-automation-frontend"],
      ["scientific-writing", "scientific-visualization", "scientific-slides", "scientific-schematics",
+      "cns-plot",
       "scientific-critical-thinking", "citation-management", "peer-review", "research-grants",
       "venue-templates", "latex-posters", "pptx-posters", "paper-2-web", "markdown-mermaid-writing",
       "figure-designer", "scholar-evaluation", "tech-paper-template", "benchmark-paper-template",

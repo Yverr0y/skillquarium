@@ -1,0 +1,4 @@
+interface:
+  display_name: "CNS Plot"
+  short_description: "Build compact journal-ready scientific figures"
+  default_prompt: "Use $cns-plot to design and implement a compact publication-ready scientific figure."

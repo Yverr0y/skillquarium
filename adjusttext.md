@@ -23,6 +23,7 @@ created: 2026-06-12
 
 ## Related skills
 
+- [cns-plot](cns-plot.md) — Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns
 - [matplotlib](matplotlib.md) — Low-level plotting library for full customization
 - [scanpy](scanpy.md) — Standard single-cell RNA-seq analysis pipeline
 - [scientific-visualization](scientific-visualization.md) — Meta-skill for publication-ready figures
