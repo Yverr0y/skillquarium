@@ -112,13 +112,13 @@ Combine plate reading with liquid handling:
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck
 from pylabrobot.plate_reading import PlateReader
 from pylabrobot.plate_reading.clario_star_backend import CLARIOstarBackend
 
 # Initialize liquid handler
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # Initialize plate reader
@@ -192,7 +192,7 @@ async def run_plate_reading_assay():
     """Complete workflow with sample prep and reading"""
 
     # Initialize equipment
-    lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+    lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
     pr = PlateReader(name="CLARIOstar", backend=CLARIOstarBackend())
 
     await lh.setup()
@@ -316,7 +316,7 @@ print(f"Average weight: {average_weight} g")
 
 ```python
 # Weigh samples during protocol
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 scale = Scale(name="scale", backend=MettlerToledoBackend())
 
 await lh.setup()
@@ -368,7 +368,7 @@ async def multi_device_workflow():
     """Coordinate liquid handler, plate reader, and scale"""
 
     # Initialize all devices
-    lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+    lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
     pr = PlateReader(name="CLARIOstar", backend=CLARIOstarBackend())
     scale = Scale(name="scale", backend=MettlerToledoBackend())
 

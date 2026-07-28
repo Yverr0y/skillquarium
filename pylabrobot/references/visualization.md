@@ -432,8 +432,8 @@ USE_HARDWARE = os.getenv("USE_HARDWARE", "false").lower() == "true"
 
 # Create appropriate backend
 if USE_HARDWARE:
-    from pylabrobot.liquid_handling.backends import STAR
-    backend = STAR()
+    from pylabrobot.liquid_handling.backends import STARBackend
+    backend = STARBackend()
     print("Running on Hamilton STAR hardware")
 else:
     from pylabrobot.liquid_handling.backends.simulation import ChatterboxBackend

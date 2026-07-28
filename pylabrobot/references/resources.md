@@ -411,7 +411,7 @@ elif isinstance(resource, TipRack):
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import (
     STARLetDeck,
     TIP_CAR_480_A00,
@@ -426,7 +426,7 @@ set_tip_tracking(True)
 set_volume_tracking(True)
 
 # Initialize liquid handler
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # Define resources
@@ -473,7 +473,7 @@ with open("initial_state.json", "r") as f:
 deck.load_all_state(state)
 
 # Use with liquid handler
-lh = LiquidHandler(backend=STAR(), deck=deck)
+lh = LiquidHandler(backend=STARBackend(), deck=deck)
 await lh.setup()
 
 # Access resources by name

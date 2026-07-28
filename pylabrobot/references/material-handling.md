@@ -68,11 +68,11 @@ await hs.unlock_plate()
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck
 
 # Initialize devices
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 hs = HeaterShaker(name="hs", backend=HamiltonHeaterShakerBackend())
 
 await lh.setup()
@@ -317,7 +317,7 @@ await centrifuge.stop_spin()
 async def centrifuge_workflow():
     """Complete centrifugation workflow"""
 
-    lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+    lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
     centrifuge = Centrifuge(name="vspin", backend=VSpinBackend())
 
     await lh.setup()
@@ -461,7 +461,7 @@ async def complex_workflow():
     """Multi-device automated workflow"""
 
     # Initialize all devices
-    lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+    lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
     hs = HeaterShaker(name="hs", backend=HamiltonHeaterShakerBackend())
     centrifuge = Centrifuge(name="vspin", backend=VSpinBackend())
     pump = Pump(name="pump", backend=ColeParmerMasterflexBackend())
@@ -577,7 +577,7 @@ await incubate_with_shaking(
 async def process_plates(plate_list: list):
     """Process multiple plates through workflow"""
 
-    lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+    lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
     hs = HeaterShaker(name="hs", backend=HamiltonHeaterShakerBackend())
 
     await lh.setup()

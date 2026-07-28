@@ -10,11 +10,11 @@ The liquid handling module (`pylabrobot.liquid_handling`) provides a unified int
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck
 
 # Create liquid handler with STAR backend
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # When done
@@ -27,8 +27,8 @@ Change robots by swapping the backend without rewriting protocols:
 
 ```python
 # Hamilton STAR
-from pylabrobot.liquid_handling.backends import STAR
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+from pylabrobot.liquid_handling.backends import STARBackend
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 
 # Opentrons OT-2
 from pylabrobot.liquid_handling.backends import OpentronsBackend
@@ -334,7 +334,7 @@ finally:
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck, TIP_CAR_480_A00, Cos_96_DW_1mL
 from pylabrobot.resources import set_tip_tracking, set_volume_tracking
 
@@ -343,7 +343,7 @@ set_tip_tracking(True)
 set_volume_tracking(True)
 
 # Initialize
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 try:

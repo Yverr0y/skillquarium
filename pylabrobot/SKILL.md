@@ -90,11 +90,11 @@ To get started with PyLabRobot, install the package and initialize a liquid hand
 
 # Basic liquid handling setup
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck
 
 # Initialize liquid handler
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # Basic operations
@@ -135,7 +135,7 @@ When creating laboratory automation protocols with PyLabRobot:
 
 ```python
 # Setup
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # Define resources
