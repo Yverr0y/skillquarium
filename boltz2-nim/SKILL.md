@@ -62,7 +62,7 @@ docker run --rm --name boltz2 --gpus all \
   -e NGC_API_KEY \
   -v "${LOCAL_NIM_CACHE}:/opt/nim/.cache" \
   -p 8000:8000 \
-  nvcr.io/nim/mit/boltz2:1.6.0
+  nvcr.io/nim/mit/boltz2:1.8.0
 ```
 
 Readiness:
