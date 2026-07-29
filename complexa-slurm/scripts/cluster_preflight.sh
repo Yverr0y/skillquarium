@@ -125,7 +125,7 @@ fi
 # Build SSH options (mirrors load_config in slurm_helper.sh)
 # ---------------------------------------------------------------------------
 
-SSH_OPTS="-o BatchMode=yes -o ConnectTimeout=5 -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/dev/null"
+SSH_OPTS="-o BatchMode=yes -o ConnectTimeout=5 -o StrictHostKeyChecking=accept-new"
 KEY="${CV[CLUSTER_SSH_KEY]:-}"
 KEY="${KEY/#\~/$HOME}"
 if [[ -n "$KEY" && -f "$KEY" ]]; then
