@@ -30,7 +30,7 @@ sc.pp.normalize_total(adata, target_sum=1e4)
 sc.pp.log1p(adata)
 adata.raw = adata.copy()
 
-sc.pp.highly_variable_genes(adata, flavor="seurat_v3", n_top_genes=3000)
+sc.pp.highly_variable_genes(adata, flavor="seurat", n_top_genes=3000)
 adata = adata[:, adata.var["highly_variable"]].copy()
 sc.pp.scale(adata, max_value=10)
 sc.tl.pca(adata, svd_solver="arpack")
