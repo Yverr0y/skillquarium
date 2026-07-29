@@ -123,6 +123,7 @@ SYNONYMS = {
     "web-artifacts-builder": ["artifacts", "shadcn"],
     "opensrc": ["source code", "package source", "dependency source", "read library source"],
     "greploop": ["Greptile", "PR review loop"], "check-pr": ["PR review", "merge request", "Greptile"],
+    "hunk-review": ["Hunk", "interactive diff review"],
 }
 
 # ---------------------------------------------------------------------------
@@ -304,6 +305,7 @@ CATEGORIES = [
       "doubt-driven-development", "git-workflow-and-versioning", "incremental-implementation",
       "planning-and-task-breakdown", "source-driven-development", "spec-driven-development",
       "pytest", "jest", "vitest", "docker", "fastapi", "github-actions-ci", "opensrc", "check-pr", "greploop",
+      "hunk-review",
       "linear", "cavekit-methodology", "cavekit-validation-first", "cavekit-revision",
       "cavekit-design-system", "gstack"]),
 
@@ -916,7 +918,7 @@ def render_wrapper(
     if personal:
         lines.append(personal)
     else:
-        lines += [PERSONAL_MARKER, "", "## Notes", "", ""]
+        lines += [PERSONAL_MARKER, "", "## Notes", ""]
     return "\n".join(lines)
 
 

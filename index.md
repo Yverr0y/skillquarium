@@ -8,7 +8,7 @@ created: 2026-06-13
 
 # Skills Index
 
-A navigable map of the **1238 agent skills** in this vault, grouped into 25 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
+A navigable map of the **1239 agent skills** in this vault, grouped into 25 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
 
 > [!tip] How to navigate
 > - **Find by name/synonym:** quick-switcher or grep (skills carry aliases like `DESeq2`, `single cell`).
@@ -126,11 +126,11 @@ AWS architecture and operations, serverless GPU compute, developer infrastructur
 
 [airflow](airflow.md), [aws-agentic-ai](aws-agentic-ai.md), [aws-cdk-development](aws-cdk-development.md), [aws-cost-operations](aws-cost-operations.md), [aws-mcp-setup](aws-mcp-setup.md), [aws-serverless-eda](aws-serverless-eda.md) … [see all 24 →](maps/cloud-devops.md)
 
-### [Software Development & Engineering](maps/software-dev.md)  ·  64 skills
+### [Software Development & Engineering](maps/software-dev.md)  ·  65 skills
 
 General software-engineering methodology and tooling: TDD, debugging, code review, planning, git worktrees, source-grounded implementation, plus core app primitives (pytest, Docker, FastAPI, CI).
 
-[api-and-interface-design](api-and-interface-design.md), [brainstorming](brainstorming.md), [cavekit-design-system](cavekit-design-system.md), [cavekit-methodology](cavekit-methodology.md), [cavekit-revision](cavekit-revision.md), [cavekit-validation-first](cavekit-validation-first.md) … [see all 64 →](maps/software-dev.md)
+[api-and-interface-design](api-and-interface-design.md), [brainstorming](brainstorming.md), [cavekit-design-system](cavekit-design-system.md), [cavekit-methodology](cavekit-methodology.md), [cavekit-revision](cavekit-revision.md), [cavekit-validation-first](cavekit-validation-first.md) … [see all 65 →](maps/software-dev.md)
 
 ### [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  19 skills
 
@@ -176,7 +176,7 @@ MATLAB language and toolchain work: the base-MATLAB skill groups of MathWorks' m
 
 ## All skills (A–Z)
 
-_734 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
+_735 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
 
 **A**
 [academic-paper](academic-paper.md) · [academic-paper-reviewer](academic-paper-reviewer.md) · [academic-pipeline](academic-pipeline.md) · [adaptyv](adaptyv.md) · [adding-dbt-unit-test](adding-dbt-unit-test.md) · [adjusttext](adjusttext.md) · [aeon](aeon.md) · [affinity-proteomics](affinity-proteomics.md) · [aflpp](aflpp.md) · [agent-browser](agent-browser.md) · [agentcore](agentcore.md) · [agentic-actions-auditor](agentic-actions-auditor.md) · [airflow](airflow.md) · [algorithmic-art](algorithmic-art.md) · [alterlab-qiime2-amplicon](alterlab-qiime2-amplicon.md) · [analyze-fasta](analyze-fasta.md) · [analyzing-dotnet-performance](analyzing-dotnet-performance.md) · [android-tombstone-symbolication](android-tombstone-symbolication.md) · [anndata](anndata.md) · [answering-natural-language-questions-with-dbt](answering-natural-language-questions-with-dbt.md) · [api-and-interface-design](api-and-interface-design.md) · [apple-crash-symbolication](apple-crash-symbolication.md) · [arboreto](arboreto.md) · [archaic-introgression](archaic-introgression.md) · [article-data-fetcher](article-data-fetcher.md) · [ask-matt](ask-matt.md) · [assertion-quality](assertion-quality.md) · [astropy](astropy.md) · [atac-seq](atac-seq.md) · [atheris](atheris.md) · [attach-db](attach-db.md) · [audit-context-building](audit-context-building.md) · [audit-prep-assistant](audit-prep-assistant.md) · [auditing-skills](auditing-skills.md) · [author-component](author-component.md) · [authoring-github-workflows](authoring-github-workflows.md) · [autoskill](autoskill.md) · [aws-agentic-ai](aws-agentic-ai.md) · [aws-cdk-development](aws-cdk-development.md) · [aws-cost-operations](aws-cost-operations.md) · [aws-mcp-setup](aws-mcp-setup.md) · [aws-serverless-eda](aws-serverless-eda.md)
@@ -200,7 +200,7 @@ _734 tool skills. The 504 expert-persona entries (discipline profiles + the scie
 [galaxy-bridge](galaxy-bridge.md) · [generate-image](generate-image.md) · [generate-testability-wrappers](generate-testability-wrappers.md) · [geniml](geniml.md) · [genmol-nim](genmol-nim.md) · [genome-compare](genome-compare.md) · [genome-match](genome-match.md) · [genomics-workflow-acceleration](genomics-workflow-acceleration.md) · [geomaster](geomaster.md) · [geopandas](geopandas.md) · [get-available-resources](get-available-resources.md) · [gget](gget.md) · [gh-cli](gh-cli.md) · [gi-annotation](gi-annotation.md) · [gi-chromatin](gi-chromatin.md) · [gi-enhancer](gi-enhancer.md) · [gi-expression](gi-expression.md) · [gi-promoter](gi-promoter.md) · [gi-splice](gi-splice.md) · [ginkgo-cloud-lab](ginkgo-cloud-lab.md) · [git-guardrails-claude-code](git-guardrails-claude-code.md) · [git-workflow-and-versioning](git-workflow-and-versioning.md) · [github-actions-ci](github-actions-ci.md) · [glycoengineering](glycoengineering.md) · [gpt-taste](gpt-taste.md) · [grade-tests](grade-tests.md) · [great-expectations](great-expectations.md) · [greploop](greploop.md) · [grill-me](grill-me.md) · [grill-with-docs](grill-with-docs.md) · [grilling](grilling.md) · [gtars](gtars.md) · [guidelines-advisor](guidelines-advisor.md) · [gwas-catalog-region-fetch](gwas-catalog-region-fetch.md) · [gwas-lookup](gwas-lookup.md) · [gwas-pipeline](gwas-pipeline.md) · [gwas-prs](gwas-prs.md)
 
 **H**
-[handoff](handoff.md) · [harmonypy](harmonypy.md) · [harness-writing](harness-writing.md) · [hf-cli](hf-cli.md) · [high-end-visual-design](high-end-visual-design.md) · [histolab](histolab.md) · [hla-typing](hla-typing.md) · [hugging-science](hugging-science.md) · [hypogenic](hypogenic.md) · [hypothesis-generation](hypothesis-generation.md)
+[handoff](handoff.md) · [harmonypy](harmonypy.md) · [harness-writing](harness-writing.md) · [hf-cli](hf-cli.md) · [high-end-visual-design](high-end-visual-design.md) · [histolab](histolab.md) · [hla-typing](hla-typing.md) · [hugging-science](hugging-science.md) · [hunk-review](hunk-review.md) · [hypogenic](hypogenic.md) · [hypothesis-generation](hypothesis-generation.md)
 
 **I**
 [idea-evaluator](idea-evaluator.md) · [idea-refine](idea-refine.md) · [illumina-bridge](illumina-bridge.md) · [image-to-code](image-to-code.md) · [imagegen-frontend-mobile](imagegen-frontend-mobile.md) · [imagegen-frontend-web](imagegen-frontend-web.md) · [imaging-data-commons](imaging-data-commons.md) · [implement](implement.md) · [improve-codebase-architecture](improve-codebase-architecture.md) · [improve-ui](improve-ui.md) · [including-generated-files](including-generated-files.md) · [incremental-build](incremental-build.md) · [incremental-implementation](incremental-implementation.md) · [industrial-brutalist-ui](industrial-brutalist-ui.md) · [infographics](infographics.md) · [insecure-defaults](insecure-defaults.md) · [install-duckdb](install-duckdb.md) · [internal-comms](internal-comms.md) · [interview-me](interview-me.md) · [intro-drafter](intro-drafter.md) · [iso-13485-certification](iso-13485-certification.md) · [item-management](item-management.md)

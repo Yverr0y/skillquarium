@@ -42,6 +42,7 @@ created: 2026-06-20
 - [exp-mock-usage-analysis](exp-mock-usage-analysis.md) — Audits .NET test mock usage by tracing each mock setup through the production code's execution path to find dead, unreachable, redundant, or replaceable mocks
 - [greploop](greploop.md) — Iteratively improves a PR (GitHub), MR (GitLab), or shelved changelist (Perforce) until Greptile gives it a 5/5 confidence score with zero unresolved comments
 - [guidelines-advisor](guidelines-advisor.md) — Smart contract development advisor based on Trail of Bits' best practices
+- [hunk-review](hunk-review.md) — Interacts with live Hunk diff review sessions via CLI
 - [improve-ui](improve-ui.md) — Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent
 - [infographics](infographics.md) — Create professional infographics using Nano Banana Pro AI with smart iterative refinement
 - [matlab-review-code](matlab-review-code.md) — Review MATLAB code for quality, performance, maintainability, and adherence to MathWorks coding standards
