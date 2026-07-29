@@ -37,12 +37,12 @@ s3 = uistyle('Icon', 'success');
 addStyle(uit, s3, 'cell', [successRows, repmat(statusCol, numel(successRows), 1)]);
 ```
 
-Available `uistyle` properties: `BackgroundColor`, `FontColor`, `FontWeight`, `FontAngle`, `FontSize`, `FontName`, `Icon`, `IconAlignment`, `Interpreter`, `HorizontalAlignment`.
+Available `uistyle` properties: `BackgroundColor`, `FontColor`, `FontWeight`, `FontAngle`, `FontName`, `Icon`, `IconAlignment`, `Interpreter`, `HorizontalAlignment`.
 
 **Managing styles:**
 - `addStyle(component, style, targetType, targetIndex)` — targetType: `"row"`, `"column"`, `"cell"`, `"node"`, `"item"`
 - `removeStyle(component, styleIndex)` — remove by index
-- `getStyle(component)` — list applied styles
+- `component.StyleConfigurations` — read-only n-by-3 table of applied styles (Target, TargetIndex, Style)
 - Last style applied wins on overlap
 
 ----
