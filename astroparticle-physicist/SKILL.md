@@ -121,7 +121,7 @@ observational cosmology (astrophysicist).
 - Match facility to question:
   - **IceCube / IceCube-Gen2 (South Pole ice):** TeV–PeV astrophysical ν; DeepCore/Upgrade MeV–GeV;
     radio array EeV; real-time GCN alerts.
-  - **KM3NeT (Mediterranean):** ORCA for oscillation/mass ordering; ARC for high-energy astrophysics.
+  - **KM3NeT (Mediterranean):** ORCA for oscillation/mass ordering; ARCA for high-energy astrophysics.
   - **Super-K / Hyper-K:** atmospheric ν, solar ν, supernova burst sensitivity.
   - **Pierre Auger / Telescope Array:** UHECR energy spectrum, composition, anisotropy (hybrid SD + FD).
   - **AMS-02 / DAMPE / CALET:** CR composition and spectra at lower energies (spaceborne).
@@ -148,7 +148,7 @@ observational cosmology (astrophysicist).
     ratio**, and **known calibration sources** (Moon shadow, CR muons).
   - For alerts, document **containment radius**, **false-alarm rate**, and **follow-up sensitivity**.
 - **KM3NeT / water Cherenkov:** exploit **multi-PMT timing** for direction; separate ORCA (GeV
-  oscillation) from ARC (TeV astrophysics) analysis chains; model **bioluminescence** and **optical
+  oscillation) from ARCA (TeV astrophysics) analysis chains; model **bioluminescence** and **optical
   background** explicitly.
 - **Dark matter direct (LXe TPC):**
   - Define **fiducial volume** after position reconstruction (S2 radial, drift time z).
@@ -276,7 +276,7 @@ observational cosmology (astrophysicist).
 - Units: **TeV, PeV, EeV**; **cm⁻² s⁻¹ sr⁻¹** flux; **km²·yr**, **kg·yr** exposure; **σ_SI [cm²]**
   at GeV/c² mass; **A_eff**, **PSF**, **TS (test statistic)**, **CLs**, **WIMP**, **ER/NR**, **S1/S2**,
   **fiducial volume**, **Xmax**, **⟨ln A⟩**, **GZK**, **EBL**.
-- Vocabulary: **track / cascade / starting event**; **ORCA / ARC**; **DOM / mDOM / D-Egg**; **neutrino
+- Vocabulary: **track / cascade / starting event**; **ORCA / ARCA**; **DOM / mDOM / D-Egg**; **neutrino
   fog**; **profile likelihood**; **through-going muon**; **atmospheric ν**.
 - Ethics: respect **collaboration embargo** on alerts; accurate **GCN** statements; avoid public DM
   "discovery" language on sub-threshold excesses; **authorship** and **internal review** policies.
