@@ -2096,9 +2096,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
       "skillPath": "skills/docker-expert/SKILL.md",
-      "skillFolderHash": "4de306f28c3b66e8bb0419b574930bbce43ae47d",
+      "skillFolderHash": "ac8fbe7507377c5dc8ae7eb56a790ae36edf44ff",
       "installedAt": "2026-06-13T23:42:53.903Z",
-      "updatedAt": "2026-06-13T23:42:53.903Z"
+      "updatedAt": "2026-07-30T08:47:13.402Z"
     },
     "kubernetes-specialist": {
       "source": "jeffallan/claude-skills",
@@ -3465,9 +3465,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/pydantic-ai-harness/SKILL.md",
-      "skillFolderHash": "e8144830c9fd5c490274a93c673b8fc9d0f21b3d",
+      "skillFolderHash": "04f5129ae630a0d7921421cc673aa3621f7ff0c2",
       "installedAt": "2026-07-21T11:27:04.649Z",
-      "updatedAt": "2026-07-25T08:22:22.471Z"
+      "updatedAt": "2026-07-30T08:47:14.845Z"
     },
     "hunk-review": {
       "source": "modem-dev/hunk",
