@@ -296,12 +296,17 @@ async def edit_cell(req: EditCellRequest):
     return {"ok": True}
 
 
-def launch(port: int = 8765):
-    """Launch the server on the given port."""
+def launch(port: int = 8765, host: str = "127.0.0.1"):
+    """Launch the server on the given port.
+
+    Binds loopback-only by default: the UI is unauthenticated and reaches paid
+    model calls on ANTHROPIC_API_KEY, so it must not be exposed to the network
+    unless the user explicitly asks for it via --host.
+    """
     import uvicorn
     uvicorn.run(
         app,
-        host="0.0.0.0",
+        host=host,
         port=port,
     )
 

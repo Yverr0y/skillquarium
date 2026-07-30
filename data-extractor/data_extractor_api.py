@@ -45,8 +45,9 @@ def run(genotypes=None, options=None) -> dict:
     if options.get("web"):
         from web.server import launch
         port = options.get("port", 8765)
-        launch(port=port)
-        return {"success": True, "mode": "web", "port": port}
+        host = options.get("host", "127.0.0.1")
+        launch(port=port, host=host)
+        return {"success": True, "mode": "web", "port": port, "host": host}
 
     # Extraction mode
     image_path = options.get("image_path")
