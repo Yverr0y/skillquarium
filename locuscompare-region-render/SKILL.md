@@ -145,7 +145,7 @@ When an agent asks for a regional LocusCompare for a (lead, exposure, outcome) t
 ```bash
 # Bundled offline demo (synthetic 200-variant locus)
 python skills/locuscompare-region-render/cli.py \
-    --demo --output /tmp/locuscompare_demo
+    --demo 01_synthetic_demo --output /tmp/locuscompare_demo
 
 # Real data (config drives everything)
 python skills/locuscompare-region-render/cli.py \
