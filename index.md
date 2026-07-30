@@ -8,7 +8,7 @@ created: 2026-06-13
 
 # Skills Index
 
-A navigable map of the **1239 agent skills** in this vault, grouped into 25 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
+A navigable map of the **1240 agent skills** in this vault, grouped into 25 domains. Each entry links to a per-skill note that wraps the original `SKILL.md` and holds your personal notes, status, and aliases.
 
 > [!tip] How to navigate
 > - **Find by name/synonym:** quick-switcher or grep (skills carry aliases like `DESeq2`, `single cell`).
@@ -176,7 +176,7 @@ MATLAB language and toolchain work: the base-MATLAB skill groups of MathWorks' m
 
 ## All skills (A–Z)
 
-_735 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
+_736 tool skills. The 504 expert-persona entries (discipline profiles + the scientific-agents dispatcher) are omitted here to keep this list scannable — browse them via [Scientific Expert Profiles](maps/scientific-expert-profiles.md)._
 
 **A**
 [academic-paper](academic-paper.md) · [academic-paper-reviewer](academic-paper-reviewer.md) · [academic-pipeline](academic-pipeline.md) · [adaptyv](adaptyv.md) · [adding-dbt-unit-test](adding-dbt-unit-test.md) · [adjusttext](adjusttext.md) · [aeon](aeon.md) · [affinity-proteomics](affinity-proteomics.md) · [aflpp](aflpp.md) · [agent-browser](agent-browser.md) · [agentcore](agentcore.md) · [agentic-actions-auditor](agentic-actions-auditor.md) · [airflow](airflow.md) · [algorithmic-art](algorithmic-art.md) · [alterlab-qiime2-amplicon](alterlab-qiime2-amplicon.md) · [analyze-fasta](analyze-fasta.md) · [analyzing-dotnet-performance](analyzing-dotnet-performance.md) · [android-tombstone-symbolication](android-tombstone-symbolication.md) · [anndata](anndata.md) · [answering-natural-language-questions-with-dbt](answering-natural-language-questions-with-dbt.md) · [api-and-interface-design](api-and-interface-design.md) · [apple-crash-symbolication](apple-crash-symbolication.md) · [arboreto](arboreto.md) · [archaic-introgression](archaic-introgression.md) · [article-data-fetcher](article-data-fetcher.md) · [ask-matt](ask-matt.md) · [assertion-quality](assertion-quality.md) · [astropy](astropy.md) · [atac-seq](atac-seq.md) · [atheris](atheris.md) · [attach-db](attach-db.md) · [audit-context-building](audit-context-building.md) · [audit-prep-assistant](audit-prep-assistant.md) · [auditing-skills](auditing-skills.md) · [author-component](author-component.md) · [authoring-github-workflows](authoring-github-workflows.md) · [autoskill](autoskill.md) · [aws-agentic-ai](aws-agentic-ai.md) · [aws-cdk-development](aws-cdk-development.md) · [aws-cost-operations](aws-cost-operations.md) · [aws-mcp-setup](aws-mcp-setup.md) · [aws-serverless-eda](aws-serverless-eda.md)
