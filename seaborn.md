@@ -19,6 +19,7 @@ created: 2026-06-09
 ## Related skills
 
 - [adjusttext](adjusttext.md) — Use the Python adjustText package to automatically move matplotlib text labels so they do not overlap each other, points, or other artists
+- [cns-plot](cns-plot.md) — Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns
 - [matplotlib](matplotlib.md) — Low-level plotting library for full customization
 - [nature-figure](nature-figure.md) — Create, revise, audit, and export submission-grade scientific figures for Nature-family and other high-impact venues in Python (matplotlib/seaborn) or R...
 - [pandas](pandas.md) — The workhorse library for in-memory tabular data in Python

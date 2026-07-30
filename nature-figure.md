@@ -20,6 +20,7 @@ created: 2026-06-09
 
 ## Related skills
 
+- [cns-plot](cns-plot.md) — Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns
 - [infographics](infographics.md) — Create professional infographics using Nano Banana Pro AI with smart iterative refinement
 - [matplotlib](matplotlib.md) — Low-level plotting library for full customization
 - [pdf](pdf.md) — PDF manipulation toolkit. Extract text/tables, create PDFs, merge/split, fill forms, for programmatic document processing and analysis

@@ -20,7 +20,7 @@ created: 2026-06-18
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [cns-plot](cns-plot.md) — Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 
