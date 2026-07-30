@@ -49,9 +49,10 @@ Verify the installed version before relying on version-specific behavior.
 Prefer a temporary settings context when changing defaults:
 
 ```python
+import matplotlib as mpl
 import cnsplots as cns
 
-with cns.settings.context(
+with mpl.rc_context(), cns.settings.context(
     palette_qual="OkabeIto",
     palette_seq="YlGnBu_custom",
     title_fontsize=8,
