@@ -40,7 +40,9 @@ The result is a fully isolated SDK that:
 
 ### Prerequisites
 
-1. **A .NET 10+ SDK is installed globally** — run `dotnet --version`; major ≥ 10.
+1. **A .NET 10+ host is installed globally** — run `dotnet --info` and confirm
+   that the **Host** `Version` major is ≥ 10. (`dotnet --version` reports the
+   selected SDK version, not the host version.)
 2. **curl** (macOS/Linux) or **PowerShell** (Windows) is available.
 
 ## Workflow
@@ -53,18 +55,20 @@ Map the answer to `--channel`/`--quality` or `--version` flags.
 
 ### Step 2 — Verify .NET 10+ host
 
-If the user already provided `dotnet --version` output, treat that as the
-authoritative version for their machine. Do not override it with the agent
-workspace's version; if the two differ, explain that the workspace differs and
-continue advising for the user's machine.
+If the user already provided the **Host** section from `dotnet --info`, treat
+that as the authoritative host version for their machine. A bare
+`dotnet --version` is not sufficient for this check because it reports the
+selected SDK version. Do not override the user's host information with the
+agent workspace's version; if the two differ, explain that the workspace
+differs and continue advising for the user's machine.
 
 ```bash
-dotnet --version
+dotnet --info
 ```
 
-If major version < 10, stop before downloading anything: the `paths` feature
-requires a .NET 10+ host SDK. Tell the user to install .NET 10 or later
-system-wide first, then return to the local SDK setup.
+If the **Host** `Version` major is < 10, stop before downloading anything: the
+`paths` feature requires a .NET 10+ host. Tell the user to install .NET 10 or
+later system-wide first, then return to the local SDK setup.
 
 ### Step 3 — Detect operating system
 
