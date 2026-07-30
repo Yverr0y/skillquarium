@@ -39,11 +39,11 @@ The Hamilton STAR and STARlet liquid handling robots have full PyLabRobot suppor
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck
 
 # Create STAR backend
-backend = STAR()
+backend = STARBackend()
 
 # Initialize liquid handler
 lh = LiquidHandler(backend=backend, deck=STARLetDeck())
@@ -83,11 +83,11 @@ deck = STARDeck()
 
 ```python
 from pylabrobot.liquid_handling import LiquidHandler
-from pylabrobot.liquid_handling.backends import STAR
+from pylabrobot.liquid_handling.backends import STARBackend
 from pylabrobot.resources import STARLetDeck, TIP_CAR_480_A00, Cos_96_DW_1mL
 
 # Initialize
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 await lh.setup()
 
 # Define resources
@@ -291,8 +291,8 @@ Write protocols that work with any backend:
 def get_backend(robot_type: str):
     """Factory function to create appropriate backend"""
     if robot_type == "star":
-        from pylabrobot.liquid_handling.backends import STAR
-        return STAR()
+        from pylabrobot.liquid_handling.backends import STARBackend
+        return STARBackend()
     elif robot_type == "opentrons":
         from pylabrobot.liquid_handling.backends import OpentronsBackend
         return OpentronsBackend(host="192.168.1.100")
@@ -344,7 +344,7 @@ lh = LiquidHandler(backend=ChatterboxBackend(), deck=STARLetDeck())
 # ... develop protocol ...
 
 # Production (just change backend)
-lh = LiquidHandler(backend=STAR(), deck=STARLetDeck())
+lh = LiquidHandler(backend=STARBackend(), deck=STARLetDeck())
 ```
 
 ## Backend Configuration
@@ -436,8 +436,8 @@ async def run_protocol(
 
     # Create backend
     if robot_type == "star":
-        from pylabrobot.liquid_handling.backends import STAR
-        backend = STAR()
+        from pylabrobot.liquid_handling.backends import STARBackend
+        backend = STARBackend()
         deck = STARLetDeck()
     elif robot_type == "opentrons":
         from pylabrobot.liquid_handling.backends import OpentronsBackend
