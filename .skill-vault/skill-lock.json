@@ -1529,18 +1529,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-cli/SKILL.md",
-      "skillFolderHash": "bd605859179d9b935b648b20604defc2382c2e03",
+      "skillFolderHash": "ed5862c5ece9d016abc56195b8786952bcd06835",
       "installedAt": "2026-06-09T19:26:52.824Z",
-      "updatedAt": "2026-07-25T08:22:13.103Z"
+      "updatedAt": "2026-07-31T09:14:51.313Z"
     },
     "phoenix-evals": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "2e461fad76ea4486f078e50cd243985a7b3f32fe",
+      "skillFolderHash": "246b8b8882c6f8cb4d71f3103a0615397c89f405",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-07-25T08:22:18.805Z"
+      "updatedAt": "2026-07-31T09:14:59.874Z"
     },
     "figma-generate-design": {
       "source": "figma/mcp-server-guide",
@@ -1556,18 +1556,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/figma/mcp-server-guide.git",
       "skillPath": "skills/figma-generate-library/SKILL.md",
-      "skillFolderHash": "b4007916784c23ca9f4c5cff0c3170662a52f348",
+      "skillFolderHash": "db0580347374cc43d7fd7bdf51feeccdbe162a06",
       "installedAt": "2026-06-09T19:27:02.246Z",
-      "updatedAt": "2026-07-21T08:42:34.918Z"
+      "updatedAt": "2026-07-31T09:15:02.595Z"
     },
     "figma-use": {
       "source": "figma/mcp-server-guide",
       "sourceType": "github",
       "sourceUrl": "https://github.com/figma/mcp-server-guide.git",
       "skillPath": "skills/figma-use/SKILL.md",
-      "skillFolderHash": "4ba2615050e8340a11b0f43f6eee21ce73ff1c56",
+      "skillFolderHash": "c5379fef3a4eaf45c55f603f288889cbcca2504f",
       "installedAt": "2026-06-09T19:27:02.247Z",
-      "updatedAt": "2026-07-21T08:42:36.553Z"
+      "updatedAt": "2026-07-31T09:15:05.505Z"
     },
     "e2b-sandbox": {
       "source": "computesdk/sandbox-skills",
@@ -3429,9 +3429,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/building-pydantic-ai-agents/SKILL.md",
-      "skillFolderHash": "3c1b7867001e551bdf8fe3d9be6ef24a122960ab",
+      "skillFolderHash": "f619ff97aeb057599a3e39a93415a36b8e837ae6",
       "installedAt": "2026-07-21T11:27:04.643Z",
-      "updatedAt": "2026-07-25T08:22:20.351Z"
+      "updatedAt": "2026-07-31T09:15:07.985Z"
     },
     "logfire-instrumentation": {
       "source": "pydantic/skills",
