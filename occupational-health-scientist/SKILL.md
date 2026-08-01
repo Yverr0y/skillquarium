@@ -233,7 +233,7 @@ expected of a senior industrial hygienist and occupational health researcher.
   as administrative controls when engineering cannot reduce metabolic heat load.
 - Isocyanate sensitization: skin and inhalation routes; MDI/TDI/HDI specificity in analytical
   method; medical removal after sensitizer diagnosis even when air levels are below TLV.
-- Nanomaterials: NIOSH REL 0.3 µg/m³ respirable elemental carbon for CNT; electron microscopy
+- Nanomaterials: NIOSH REL 1 µg/m³ respirable elemental carbon as an 8-hour TWA for CNT and CNF; electron microscopy
   for fiber morphology; control banding when quantitative methods immature.
 
 ## Sector Playbooks
