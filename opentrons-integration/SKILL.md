@@ -459,13 +459,13 @@ def run(protocol: protocol_api.ProtocolContext):
     plate = protocol.load_labware('corning_96_wellplate_360ul_flat', 'D3')
 
     # Load pipette
-    p300 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Add diluent to all wells except first
-    p300.transfer(100, reservoir['A1'], plate.rows()[0][1:])
+    p1000.transfer(100, reservoir['A1'], plate.rows()[0][1:])
 
     # Serial dilution across row
-    p300.transfer(
+    p1000.transfer(
         100,
         plate.rows()[0][:11],  # Source: wells 0-10
         plate.rows()[0][1:],   # Dest: wells 1-11
@@ -508,13 +508,13 @@ def run(protocol: protocol_api.ProtocolContext):
     reagents = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', 'D1')
 
     # Load pipette
-    p300 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Open thermocycler lid
     tc_mod.open_lid()
 
     # Distribute master mix
-    p300.distribute(
+    p1000.distribute(
         20,
         reagents['A1'],
         tc_plate.wells(),
@@ -523,7 +523,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
     # Add samples (example for first 8 wells)
     for i, well in enumerate(tc_plate.wells()[:8]):
-        p300.transfer(5, reagents.wells()[i+1], well, new_tip='always')
+        p1000.transfer(5, reagents.wells()[i+1], well, new_tip='always')
 
     # Run PCR
     tc_mod.close_lid()

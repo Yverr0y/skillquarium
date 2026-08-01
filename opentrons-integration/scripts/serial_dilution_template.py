@@ -36,7 +36,7 @@ def run(protocol: protocol_api.ProtocolContext):
     plate = protocol.load_labware('corning_96_wellplate_360ul_flat', 'D3', label='Dilution Plate')
 
     # Load pipette
-    p300 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Define liquids (optional, for visualization)
     diluent = protocol.define_liquid(
@@ -65,7 +65,7 @@ def run(protocol: protocol_api.ProtocolContext):
     # Step 1: Add diluent to all wells except first column
     protocol.comment('Adding diluent to wells...')
     for row in plate.rows()[:8]:  # For each row (A-H)
-        p300.transfer(
+        p1000.transfer(
             transfer_volume,
             reservoir['A1'],  # Diluent source
             row[1:],  # All wells except first (columns 2-12)
@@ -74,7 +74,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
     # Step 2: Add stock solution to first column
     protocol.comment('Adding stock solution to first column...')
-    p300.transfer(
+    p1000.transfer(
         transfer_volume * 2,  # Double volume for first well
         reservoir['A2'],  # Stock source
         [row[0] for row in plate.rows()[:8]],  # First column (wells A1-H1)
@@ -84,7 +84,7 @@ def run(protocol: protocol_api.ProtocolContext):
     # Step 3: Perform serial dilution
     protocol.comment('Performing serial dilutions...')
     for row in plate.rows()[:8]:  # For each row
-        p300.transfer(
+        p1000.transfer(
             transfer_volume,
             row[:num_dilutions],  # Source wells (1-11)
             row[1:num_dilutions + 1],  # Destination wells (2-12)
