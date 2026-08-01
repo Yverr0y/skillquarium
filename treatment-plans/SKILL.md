@@ -1398,9 +1398,9 @@ Other medical/clinical document styles available from CTAN:
 **Journal Styles:**
 ```bash
 # Install via TeX Live Manager
-tlmgr install nejm        # New England Journal of Medicine
-tlmgr install jama        # JAMA style
-tlmgr install bmj         # British Medical Journal
+tlmgr install biblatex-nejm   # New England Journal of Medicine
+tlmgr install ama             # JAMA style
+# No dedicated BMJ LaTeX/BibTeX style exists on CTAN; use vancouver or a generic numeric style instead.
 ```
 
 **General Professional Styles:**
