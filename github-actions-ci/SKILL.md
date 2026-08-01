@@ -12,9 +12,10 @@ GitHub Actions runs automation on repo events (push, PR, schedule). A **workflow
 **steps**. This skill authors workflows; to *audit* AI-agent-in-CI workflows for prompt
 injection see [[agentic-actions-auditor]], and for `gh` CLI usage see [[gh-cli]].
 
-> Action versions below are current as of mid-2026 (`@v6` for the core setup actions, which
-> run on Node 24). Always check the action's releases page and pin a major (or a SHA for
-> security-sensitive third-party actions).
+> Action versions below are current as of late July 2026 (`@v7` for
+> `actions/checkout`/`setup-python`/`setup-node`, `@v9` for `astral-sh/setup-uv`). These
+> actions bump majors frequently — always check the action's releases page and pin a major
+> (or a SHA for security-sensitive third-party actions) rather than trusting this doc to stay current.
 
 ## Anatomy — a Python test workflow
 
@@ -41,8 +42,8 @@ jobs:
       matrix:
         python-version: ["3.11", "3.12", "3.13"]
     steps:
-      - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v6          # or actions/setup-python@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v9          # or actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
       - run: uv sync --frozen
@@ -58,7 +59,7 @@ Key pieces: `on` (triggers), `permissions` (lock down the `GITHUB_TOKEN`), `conc
 `setup-*` actions cache dependencies for you:
 
 ```yaml
-- uses: actions/setup-node@v6
+- uses: actions/setup-node@v7
   with:
     node-version: 22
     cache: npm            # caches ~/.npm keyed on package-lock.json
