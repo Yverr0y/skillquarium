@@ -30,7 +30,7 @@ Pick the target TFM deliberately: **`net10.0`** — the active LTS, supported th
 
 Assess before touching code. Tooling landscape as of 2026 (.NET 10 GA; .NET 11 in preview):
 
-- **GitHub Copilot app modernization ("Modernize")** — Microsoft's current recommended, agent-driven path. Built into **Visual Studio 2026** (or VS 2022 **17.14.17+**) as the "GitHub Copilot app modernization" optional component, and as a VS Code extension. Right-click the solution/project → **Modernize**, or type `@Modernize` in Copilot Chat. Handles assessment, SDK-style conversion, packages.config migration, and can drive WebForms→Blazor and add Aspire. Best for interactive, IDE-based migrations.
+- **GitHub Copilot app modernization ("Modernize")** — Microsoft's current recommended, agent-driven path. Built into **Visual Studio 2026** (and available in VS 2022 **17.14.17+**) as the "GitHub Copilot app modernization" optional component, and as a VS Code extension. Right-click the solution/project → **Modernize**, or type `@Modernize` in Copilot Chat. Handles assessment, SDK-style conversion, packages.config migration, and can drive WebForms→Blazor and add Aspire. For a `net10.0` destination, use **Visual Studio 2026 18.0+** for integrated build/debug support; VS 2022 users must build the migrated target with the .NET 10 CLI/SDK or VS Code. Best for interactive, IDE-based migrations.
 - **.NET Upgrade Assistant** (CLI) — now **officially deprecated** in favor of the above, but the global tool still works and is useful for **headless/scripted** assessment and upgrade. It uses `try-convert` under the hood.
   ```bash
   dotnet tool install -g upgrade-assistant

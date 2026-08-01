@@ -20,7 +20,7 @@ created: 2026-07-21
 
 ## Related skills
 
-- [migrate-dotnetfx-to-net](migrate-dotnetfx-to-net.md) — Migrate a .NET Framework (4.x) project or solution to modern .NET (8/9), the large cross-runtime jump — not a version bump
+- [migrate-dotnetfx-to-net](migrate-dotnetfx-to-net.md) — Migrate a .NET Framework (4.x) project or solution to modern .NET (10), the large cross-runtime jump — not a version bump
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 
