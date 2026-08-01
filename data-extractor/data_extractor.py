@@ -28,6 +28,10 @@ def main():
     parser.add_argument("--output", "-o", dest="output_dir", help="Output directory for CSV/JSON")
     parser.add_argument("--web", action="store_true", help="Launch interactive web UI")
     parser.add_argument("--port", type=int, default=8765, help="Web UI port (default: 8765)")
+    parser.add_argument("--host", default="127.0.0.1",
+                        help="Web UI bind address (default: 127.0.0.1, loopback only). "
+                             "The UI is unauthenticated and spends ANTHROPIC_API_KEY — only widen this "
+                             "on a network you trust.")
     parser.add_argument("--plot-type", dest="plot_type", help="Force plot type (skip auto-detection)")
     parser.add_argument("--demo", action="store_true", help="Run on bundled demo figure")
     parser.add_argument("--json", action="store_true", help="Output results as JSON to stdout")
@@ -46,7 +50,7 @@ def main():
             "output_dir": args.output_dir or str(_SKILL_DIR / "output" / "demo"),
         })
     elif args.web:
-        result = run(options={"web": True, "port": args.port})
+        result = run(options={"web": True, "port": args.port, "host": args.host})
     elif args.image_path:
         result = run(options={
             "image_path": args.image_path,

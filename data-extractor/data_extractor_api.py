@@ -28,16 +28,24 @@ def run(genotypes=None, options=None) -> dict:
         - output_dir (str): Where to write CSV/JSON results (default: ./output)
         - web (bool): If True, launch web UI (default False)
         - port (int): Web UI port (default 8765)
+        - host (str): Web UI bind address (default 127.0.0.1). Set explicitly
+          to another address only when network access is intended.
         - plot_type (str): Force plot type (optional, auto-detected)
 
     Returns
     -------
-    dict with keys:
+    In extraction mode, dict with keys:
         - success (bool)
         - results (list[dict]): extracted data per panel
         - summary (dict): {n_panels, n_series, total_points, confidence}
         - output_files (list[str]): paths to generated files
         - output_dir (str)
+
+    In web mode, dict with keys:
+        - success (bool)
+        - mode (str): "web"
+        - port (int): Web UI port
+        - host (str): Web UI bind address
     """
     options = options or {}
 
@@ -45,8 +53,9 @@ def run(genotypes=None, options=None) -> dict:
     if options.get("web"):
         from web.server import launch
         port = options.get("port", 8765)
-        launch(port=port)
-        return {"success": True, "mode": "web", "port": port}
+        host = options.get("host", "127.0.0.1")
+        launch(port=port, host=host)
+        return {"success": True, "mode": "web", "port": port, "host": host}
 
     # Extraction mode
     image_path = options.get("image_path")
