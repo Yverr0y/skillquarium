@@ -7,7 +7,7 @@ flowchart TD
   start[User has a document task]
   start --> q1{Need PDF merge split forms or encryption utilities?}
   q1 -->|yes| pdfSkill[pdf skill]
-  q1 -->|no| q2{Need Markdown audio video EPUB or Azure table extraction?}
+  q1 -->|no| q2{Need Markdown from audio video EPUB HTML or Azure table extraction?}
   q2 -->|yes| markitdown[markitdown skill]
   q2 -->|no| q3{Need bounding boxes fast local parse or page PNGs for agents?}
   q3 -->|yes| liteparse[liteparse skill]
@@ -20,7 +20,7 @@ flowchart TD
 
 | Criterion | LiteParse | MarkItDown | pdf skill | LlamaParse |
 |-----------|-----------|------------|-----------|------------|
-| **Primary output** | Layout text + JSON with bboxes | Markdown | PDF bytes / extracted text | Structured markdown / JSON (cloud) |
+| **Primary output** | Layout text, JSON with bboxes, or Markdown | Markdown | PDF bytes / extracted text | Structured markdown / JSON (cloud) |
 | **Runs locally** | Yes | Yes | Yes | No (cloud API) |
 | **Bounding boxes** | Yes | No | Limited | Yes (cloud) |
 | **OCR** | Tesseract + optional HTTP OCR | Yes (images/PDF) | Via external tools | Advanced |
@@ -28,7 +28,7 @@ flowchart TD
 | **Office → text** | Via LibreOffice convert | Native converters | N/A | Yes |
 | **Audio / video / EPUB** | No | Yes | No | Some formats |
 | **PDF merge / split / forms** | No | No | Yes | No |
-| **Best for** | RAG grounding, agent vision, batch PDF corpus | LLM-friendly Markdown pipelines | PDF manipulation | Hard documents at scale |
+| **Best for** | RAG grounding, agent vision, local PDF-to-Markdown, batch PDF corpus | Markdown from non-PDF inputs or Azure tables | PDF manipulation | Hard documents at scale |
 
 ## Decision rules
 
@@ -39,10 +39,11 @@ flowchart TD
 - You are building **multimodal** workflows (parse JSON + page screenshots).
 - You are batch-processing **folders of PDFs** for a literature review pipeline.
 - Scanned PDFs need **OCR** with optional custom HTTP OCR backends.
+- You want **Markdown** output but need it local (no cloud dependency) — use `output_format="markdown"`.
 
 ### Choose **MarkItDown** when
 
-- The downstream step expects **Markdown** (RAG, summarization, notebook ingestion).
+- The downstream step expects **Markdown from non-PDF inputs**.
 - Inputs include **HTML, EPUB, audio, YouTube**, or you want **Azure Document Intelligence** for tables.
 - You do not need per-span bounding boxes.
 
@@ -64,7 +65,7 @@ Common pipelines:
 
 1. **LiteParse → chunk + embed** — JSON/text for vector store; bboxes for UI highlights.
 2. **LiteParse screenshots + vision model** — figures and tables; text JSON for search.
-3. **LiteParse text → MarkItDown-style post-processing** — only if you must have Markdown; otherwise use LiteParse text directly.
+3. **LiteParse Markdown output** — local Markdown without a cloud dependency; use `markitdown` instead for non-PDF inputs (EPUB, audio, YouTube, HTML) or Azure table extraction.
 4. **pdf skill merge** → **LiteParse parse** — assemble supplementary PDFs, then extract.
 
 Avoid running LiteParse and MarkItDown on the same file unless you have distinct consumers (coordinates vs Markdown).
