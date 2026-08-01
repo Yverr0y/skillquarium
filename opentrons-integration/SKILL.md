@@ -67,14 +67,14 @@ def run(protocol: protocol_api.ProtocolContext):
 def run(protocol: protocol_api.ProtocolContext):
     # Load pipette on specific mount
     left_pipette = protocol.load_instrument(
-        'p1000_single_flex',  # Instrument name
+        'flex_1channel_1000',  # Instrument name
         'left',               # Mount: 'left' or 'right'
         tip_racks=[tip_rack]  # List of tip rack labware objects
     )
 ```
 
 Common pipette names:
-- Flex: `p50_single_flex`, `p1000_single_flex`, `p50_multi_flex`, `p1000_multi_flex`
+- Flex: `flex_1channel_50`, `flex_1channel_1000`, `flex_8channel_50`, `flex_8channel_1000`
 - OT-2: `p20_single_gen2`, `p300_single_gen2`, `p1000_single_gen2`, `p20_multi_gen2`, `p300_multi_gen2`
 
 **Loading Labware:**
@@ -459,13 +459,13 @@ def run(protocol: protocol_api.ProtocolContext):
     plate = protocol.load_labware('corning_96_wellplate_360ul_flat', 'D3')
 
     # Load pipette
-    p300 = protocol.load_instrument('p300_single_flex', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Add diluent to all wells except first
-    p300.transfer(100, reservoir['A1'], plate.rows()[0][1:])
+    p1000.transfer(100, reservoir['A1'], plate.rows()[0][1:])
 
     # Serial dilution across row
-    p300.transfer(
+    p1000.transfer(
         100,
         plate.rows()[0][:11],  # Source: wells 0-10
         plate.rows()[0][1:],   # Dest: wells 1-11
@@ -484,7 +484,7 @@ def run(protocol: protocol_api.ProtocolContext):
     dest = protocol.load_labware('corning_96_wellplate_360ul_flat', 'D2')
 
     # Load pipette
-    p1000 = protocol.load_instrument('p1000_single_flex', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Transfer from all wells in source to dest
     p1000.transfer(
@@ -508,13 +508,13 @@ def run(protocol: protocol_api.ProtocolContext):
     reagents = protocol.load_labware('opentrons_24_tuberack_nest_1.5ml_snapcap', 'D1')
 
     # Load pipette
-    p300 = protocol.load_instrument('p300_single_flex', 'left', tip_racks=[tips])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'left', tip_racks=[tips])
 
     # Open thermocycler lid
     tc_mod.open_lid()
 
     # Distribute master mix
-    p300.distribute(
+    p1000.distribute(
         20,
         reagents['A1'],
         tc_plate.wells(),
@@ -523,7 +523,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
     # Add samples (example for first 8 wells)
     for i, well in enumerate(tc_plate.wells()[:8]):
-        p300.transfer(5, reagents.wells()[i+1], well, new_tip='always')
+        p1000.transfer(5, reagents.wells()[i+1], well, new_tip='always')
 
     # Run PCR
     tc_mod.close_lid()

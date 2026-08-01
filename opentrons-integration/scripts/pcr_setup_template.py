@@ -44,8 +44,8 @@ def run(protocol: protocol_api.ProtocolContext):
     )
 
     # Load pipettes
-    p20 = protocol.load_instrument('p50_single_flex', 'left', tip_racks=[tips_20])
-    p300 = protocol.load_instrument('p300_single_flex', 'right', tip_racks=[tips_200])
+    p50 = protocol.load_instrument('flex_1channel_50', 'left', tip_racks=[tips_20])
+    p1000 = protocol.load_instrument('flex_1channel_1000', 'right', tip_racks=[tips_200])
 
     # Define liquids
     master_mix = protocol.define_liquid(
@@ -79,7 +79,7 @@ def run(protocol: protocol_api.ProtocolContext):
 
     # Step 1: Distribute master mix
     protocol.comment(f'Distributing {master_mix_volume}µL master mix to {num_samples} wells...')
-    p300.distribute(
+    p1000.distribute(
         master_mix_volume,
         reagent_rack['A1'],
         tc_plate.wells()[:num_samples],
@@ -90,7 +90,7 @@ def run(protocol: protocol_api.ProtocolContext):
     # Step 2: Add template DNA
     protocol.comment('Adding template DNA to each well...')
     for i in range(num_samples):
-        p20.transfer(
+        p50.transfer(
             template_volume,
             reagent_rack.wells()[i + 1],  # Sample tubes
             tc_plate.wells()[i],  # PCR plate wells
