@@ -28,17 +28,17 @@ fastp performs adapter trimming, quality filtering, and QC reporting for Illumin
 > **Check before installing**: The tool may already be available in the current environment (e.g., inside a `pixi` / `conda` env). Run `command -v fastp` first and skip the install commands below if it returns a path. When running inside a pixi project, invoke the tool via `pixi run fastp` rather than bare `fastp`.
 
 ```bash
-# Install with conda
+# Install with conda (recommended — always resolves to a current release)
 conda install -c bioconda fastp
 
-# Or download pre-compiled binary (Linux)
-wget https://github.com/OpenGene/fastp/releases/download/v0.24.0/fastp
-chmod +x fastp
-./fastp --version
-# fastp 0.24.0
+# Or download a pre-compiled binary (Linux) from the current release —
+# asset naming changes between releases, so check
+# https://github.com/OpenGene/fastp/releases/latest for the exact filename
+# rather than hardcoding an old version's asset path.
 
 # Verify
 fastp --version
+# current release as of this writing: fastp 1.3.6
 ```
 
 ## Quick Start
