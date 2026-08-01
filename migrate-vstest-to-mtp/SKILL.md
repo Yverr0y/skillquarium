@@ -126,7 +126,7 @@ Requires `NUnit3TestAdapter` **5.0.0** or later.
 Add a reference to `YTest.MTP.XUnit2` -- this package provides MTP support for xUnit.net v2 projects without requiring an upgrade to xunit.v3. You must also set `OutputType` to `Exe`:
 
 ```xml
-<PackageReference Include="YTest.MTP.XUnit2" Version="0.4.0" />
+<PackageReference Include="YTest.MTP.XUnit2" Version="1.0.3" />
 ```
 
 ```xml
