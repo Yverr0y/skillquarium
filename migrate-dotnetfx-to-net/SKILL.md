@@ -1,9 +1,9 @@
 ---
 name: migrate-dotnetfx-to-net
 description: >
-  Migrate a .NET Framework (4.x) project or solution to modern .NET (8/9), the
+  Migrate a .NET Framework (4.x) project or solution to modern .NET (10), the
   large cross-runtime jump — not a version bump. USE FOR: ".NET Framework
-  migration", "netfx to net", porting net48/net472 to net8.0/net9.0, assessment
+  migration", "netfx to net", porting net48/net472 to net10.0 (or net8.0/net9.0), assessment
   with the .NET Upgrade Assistant / GitHub Copilot app modernization ("modernize
   .NET") / apiport, converting old-style .csproj to SDK-style, "packages.config"
   → <PackageReference>, replacing System.Configuration, "WCF migration" to
@@ -16,21 +16,21 @@ license: MIT
 metadata: {"version": "1.0", "skill-author": "vault-audit"}
 ---
 
-# .NET Framework (4.x) → Modern .NET (8/9) Migration
+# .NET Framework (4.x) → Modern .NET (10) Migration
 
-Port a .NET Framework project or solution off the Windows-only `netframework` runtime onto modern, cross-platform .NET (currently `net8.0` LTS or `net9.0` STS). This is a re-platforming effort, not an in-place TFM bump: the project system, package model, configuration stack, and several major frameworks (WCF server, ASP.NET/System.Web, WebForms, Remoting) all change or have no direct port. The outcome is a solution that builds on the modern SDK, restores via `<PackageReference>`, and runs its tests green.
+Port a .NET Framework project or solution off the Windows-only `netframework` runtime onto modern, cross-platform .NET (currently `net10.0`, the active LTS). This is a re-platforming effort, not an in-place TFM bump: the project system, package model, configuration stack, and several major frameworks (WCF server, ASP.NET/System.Web, WebForms, Remoting) all change or have no direct port. The outcome is a solution that builds on the modern SDK, restores via `<PackageReference>`, and runs its tests green.
 
 ## Overview
 
-Work bottom-up through the dependency graph — leaf class libraries first, entry-point apps (web/WinForms/WPF/console) last — so each project migrates against already-migrated dependencies. Prefer **multi-targeting** (`net48;net9.0`) as a transition state: it keeps the app shippable on Framework while you port, and lets you fix cross-runtime issues incrementally behind `#if` guards. Only drop the `net48` target once everything downstream is on modern .NET.
+Work bottom-up through the dependency graph — leaf class libraries first, entry-point apps (web/WinForms/WPF/console) last — so each project migrates against already-migrated dependencies. Prefer **multi-targeting** (`net48;net10.0`) as a transition state: it keeps the app shippable on Framework while you port, and lets you fix cross-runtime issues incrementally behind `#if` guards. Only drop the `net48` target once everything downstream is on modern .NET.
 
-Pick the target TFM deliberately: **`net8.0`** if you want LTS (supported into late 2026) stability; **`net9.0`** for the current release. After landing on modern .NET, subsequent version bumps are a *different, smaller* job — see the disambiguation at the end.
+Pick the target TFM deliberately: **`net10.0`** — the active LTS, supported through 2028-11-14 — unless a hard dependency blocks it. Do not aim at `net8.0` or `net9.0`: both reach end of life on 2026-11-10, so neither survives a migration of this size, and the older-LTS choice buys no extra runway over the newer STS. After landing on modern .NET, subsequent version bumps are a *different, smaller* job — see the disambiguation at the end.
 
 ## Assessment & tooling
 
-Assess before touching code. Tooling landscape as of 2026 (.NET 9):
+Assess before touching code. Tooling landscape as of 2026 (.NET 10 GA; .NET 11 in preview):
 
-- **GitHub Copilot app modernization ("Modernize")** — Microsoft's current recommended, agent-driven path. Built into **Visual Studio 2026** (or VS 2022 **17.14.17+**) as the "GitHub Copilot app modernization" optional component, and as a VS Code extension. Right-click the solution/project → **Modernize**, or type `@Modernize` in Copilot Chat. Handles assessment, SDK-style conversion, packages.config migration, and can drive WebForms→Blazor and add Aspire. Best for interactive, IDE-based migrations.
+- **GitHub Copilot app modernization ("Modernize")** — Microsoft's current recommended, agent-driven path. Built into **Visual Studio 2026** (and available in VS 2022 **17.14.17+**) as the "GitHub Copilot app modernization" optional component, and as a VS Code extension. Right-click the solution/project → **Modernize**, or type `@Modernize` in Copilot Chat. Handles assessment, SDK-style conversion, packages.config migration, and can drive WebForms→Blazor and add Aspire. For a `net10.0` destination, use **Visual Studio 2026 18.0+** for integrated build/debug support; VS 2022 users must build the migrated target with the .NET 10 CLI/SDK or VS Code. Best for interactive, IDE-based migrations.
 - **.NET Upgrade Assistant** (CLI) — now **officially deprecated** in favor of the above, but the global tool still works and is useful for **headless/scripted** assessment and upgrade. It uses `try-convert` under the hood.
   ```bash
   dotnet tool install -g upgrade-assistant
@@ -84,7 +84,7 @@ SDK-style projects use implicit file globbing (no `<Compile Include>`), `<Packag
 <!-- AFTER: SDK-style -->
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>   <!-- or a multi-target set, Step 4 -->
+    <TargetFramework>net10.0</TargetFramework>   <!-- or a multi-target set, Step 4 -->
     <!-- if you keep a hand-written AssemblyInfo.cs, avoid duplicate-attribute errors: -->
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -114,12 +114,12 @@ In Visual Studio: right-click the project's **References/packages.config → "Mi
 Keep the app shippable on Framework while porting. Use the **plural** `<TargetFrameworks>` and guard runtime-divergent code:
 
 ```xml
-<TargetFrameworks>net48;net9.0</TargetFrameworks>
+<TargetFrameworks>net48;net10.0</TargetFrameworks>
 ```
 ```csharp
 #if NET48
     // legacy Framework-only path
-#else               // NET / NET9_0_OR_GREATER
+#else               // NET / NET10_0_OR_GREATER
     // modern .NET path
 #endif
 ```
@@ -156,8 +156,8 @@ Once dependencies are resolved and (if used) the `net48` target is dropped, buil
 - **Configuration model changed.** No `System.Configuration` `ConfigurationManager.AppSettings`/custom `configSections` by default, and **`app.config` binding redirects are obsolete** (the SDK resolves versions). Move to `appsettings.json` + `Microsoft.Extensions.Configuration`, or use the `System.Configuration.ConfigurationManager` NuGet bridge as a stopgap.
 - **Code-page encodings aren't registered by default.** `Encoding.GetEncoding(1252)` and other non-UTF encodings throw until you add `System.Text.Encoding.CodePages` and call `Encoding.RegisterProvider(CodePagesEncodingProvider.Instance)` at startup.
 - **`System.Drawing.Common` is Windows-only** on modern .NET (throws `PlatformNotSupportedException` elsewhere). For cross-platform imaging use ImageSharp, SkiaSharp, or similar.
-- **Windows-only APIs surface as `CA1416` warnings** after retargeting (registry, WMI, event log, ACLs). Guard with `OperatingSystem.IsWindows()` or annotate; move genuinely Windows-only projects to a `net9.0-windows` TFM.
-- **Entry points move.** `Global.asax`, `Startup`, and `Web.config`-driven pipelines become `Program.cs` minimal hosting; WinForms/WPF need `<UseWindowsForms>`/`<UseWPF>` and a `net9.0-windows` TFM.
+- **Windows-only APIs surface as `CA1416` warnings** after retargeting (registry, WMI, event log, ACLs). Guard with `OperatingSystem.IsWindows()` or annotate; move genuinely Windows-only projects to a `net10.0-windows` TFM.
+- **Entry points move.** `Global.asax`, `Startup`, and `Web.config`-driven pipelines become `Program.cs` minimal hosting; WinForms/WPF need `<UseWindowsForms>`/`<UseWPF>` and a `net10.0-windows` TFM.
 - **No more `App.config` assembly binding / GAC.** Dependencies are private per-app; there is no Global Assembly Cache. Native/interop dependencies ship alongside the app.
 
 ## Use this vs related skills
