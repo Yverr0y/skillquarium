@@ -39,7 +39,7 @@ Use LiteParse when you need:
 ## Installation
 
 ```bash
-uv pip install "liteparse==2.0.0"
+uv pip install "liteparse==2.10.1"
 ```
 
 This installs the Python bindings and the **`lit`** CLI. Verify:
@@ -302,6 +302,6 @@ Files are converted to PDF internally, then parsed. If conversion tools are miss
 
 - **GitHub**: https://github.com/run-llama/liteparse
 - **Docs**: https://developers.llamaindex.ai/liteparse/
-- **PyPI**: https://pypi.org/project/liteparse/2.0.0/
+- **PyPI**: https://pypi.org/project/liteparse/2.10.1/
 - **npm**: https://www.npmjs.com/package/@llamaindex/liteparse
 - **OCR API spec**: https://github.com/run-llama/liteparse/blob/main/OCR_API_SPEC.md

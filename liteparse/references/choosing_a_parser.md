@@ -7,7 +7,7 @@ flowchart TD
   start[User has a document task]
   start --> q1{Need PDF merge split forms or encryption utilities?}
   q1 -->|yes| pdfSkill[pdf skill]
-  q1 -->|no| q2{Need Markdown audio video EPUB or Azure table extraction?}
+  q1 -->|no| q2{Need Markdown from audio video EPUB HTML or Azure table extraction?}
   q2 -->|yes| markitdown[markitdown skill]
   q2 -->|no| q3{Need bounding boxes fast local parse or page PNGs for agents?}
   q3 -->|yes| liteparse[liteparse skill]
@@ -28,7 +28,7 @@ flowchart TD
 | **Office → text** | Via LibreOffice convert | Native converters | N/A | Yes |
 | **Audio / video / EPUB** | No | Yes | No | Some formats |
 | **PDF merge / split / forms** | No | No | Yes | No |
-| **Best for** | RAG grounding, agent vision, batch PDF corpus | LLM-friendly Markdown pipelines | PDF manipulation | Hard documents at scale |
+| **Best for** | RAG grounding, agent vision, local PDF-to-Markdown, batch PDF corpus | Markdown from non-PDF inputs or Azure tables | PDF manipulation | Hard documents at scale |
 
 ## Decision rules
 
@@ -43,7 +43,7 @@ flowchart TD
 
 ### Choose **MarkItDown** when
 
-- The downstream step expects **Markdown** (RAG, summarization, notebook ingestion).
+- The downstream step expects **Markdown from non-PDF inputs**.
 - Inputs include **HTML, EPUB, audio, YouTube**, or you want **Azure Document Intelligence** for tables.
 - You do not need per-span bounding boxes.
 
