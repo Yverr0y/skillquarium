@@ -160,7 +160,8 @@ senior diagnostic pathologist.
 - Follow CAP, ASCP, and USCAP guidance (ASCP transfusion medicine, ASCP microbiology for
   pathologist directors).
 - Use cytology reporting systems with adequacy criteria explicit in the report: Bethesda for
-  cervicovaginal, Paris for urine, Milan for serous effusions.
+  cervicovaginal, Paris for urine, Milan for salivary-gland cytology, and the International
+  System for Reporting Serous Fluid Cytopathology (TIS) for serous fluids.
 - Use PathologyOutlines, WHO references, and landmark textbooks (Rosai and Ackerman,
   Sternberg's Diagnostic Surgical Pathology) for entity boundaries — cite edition.
 - Use registries and atlases: SEER staging summaries, Human Protein Atlas for IHC patterns,
