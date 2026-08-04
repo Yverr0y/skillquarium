@@ -156,7 +156,7 @@ device science, and simulation-to-experiment closure** on PIC and chip-scale pla
   metal stack; validate ring-bus coupling against MPW shuttle statistics.
 - **Circuit/open**: SAX (JAX S-matrix), VPIcomponentMaker for heterogeneous PIC time-domain.
 - **Waveguide design (MODE)**: FDE sweep width, etch depth, slab thickness; extract \(n_\mathrm{eff},
-  \(n_g\), and \(D = -(c/\lambda^2)(d n_g/d\lambda)\) on a frequency grid; bent-waveguide
+  \(n_g\), and \(D = (1/c)(d n_g/d\lambda)\) on a frequency grid; bent-waveguide
   modes for ring curvature loss; varFDTD for long adiabatic tapers before 3D FDTD on couplers.
 - **Lasers (Lumerical laser + CHARGE/MQW)**: DFB/DBR grating coupling \(\kappa_g\); Vernier /
   ring-assisted filters for SMSR; mirror loss and spontaneous emission factor in linewidth;
