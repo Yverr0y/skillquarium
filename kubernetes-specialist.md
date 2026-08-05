@@ -20,7 +20,7 @@ created: 2026-06-13
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [chaos-engineering](chaos-engineering.md) — Design and run bounded chaos engineering experiments that test whether a system preserves measurable steady-state behavior during realistic faults
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

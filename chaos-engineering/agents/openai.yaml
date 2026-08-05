@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chaos Engineering"
+  short_description: "Design and run bounded resilience experiments"
+  default_prompt: "Use $chaos-engineering to design a safe, measurable chaos experiment for this system."
