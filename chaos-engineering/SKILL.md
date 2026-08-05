@@ -80,7 +80,10 @@ Chaos Mesh. Recheck upstream guidance when installed versions differ from its so
 2. Validate the rendered configuration against the live API without applying it.
 3. Begin with one recoverable target and one fault. Avoid `all`, broad percentages,
    empty selectors, unbounded schedules, and parallel faults on the first run.
-4. Start synchronized evidence capture, then inject the fault for the agreed duration.
+4. Start synchronized evidence capture and verify that every required query, log stream,
+   and trace is receiving baseline data. If any capture path is not ready, label the
+   experiment **not executed** and do not inject the fault. Otherwise inject it for the
+   agreed duration.
 5. Watch both user-visible steady state and the recovery mechanism. Do not rely only on
    the chaos controller reporting success.
 6. Abort immediately when any abort threshold fires. Stop injection first, preserve
@@ -142,5 +145,12 @@ Before calling the work complete, verify that:
 This workflow follows the [Principles of Chaos Engineering](https://principlesofchaos.org/)
 method: define steady state, form a hypothesis, introduce realistic variables, and seek
 evidence that disproves the hypothesis while minimizing blast radius. Kubernetes tool
-patterns were checked against official Chaos Mesh 2.8.3 and LitmusChaos 3.31.0 sources on
-2026-08-01. Treat the installed CRDs and current official documentation as authoritative.
+patterns were checked on 2026-08-01 against Chaos Mesh tag
+[`v2.8.3`](https://github.com/chaos-mesh/chaos-mesh/tree/v2.8.3) at commit
+`60ec97f1fd5d5edb2fb5c722c8888e18b618d1a0` (notably
+`api/v1alpha1/podchaos_types.go`, `api/v1alpha1/workflow_types.go`, and
+`config/crd/bases/chaos-mesh.org_podchaos.yaml`) and LitmusChaos tag
+[`3.31.0`](https://github.com/litmuschaos/litmus/tree/3.31.0) at commit
+`5d37ea84a96a1653a13781fad6f3d7ffcde7f660` (notably the ChaosExperiment scope,
+configuration, and ChaosEngine RBAC documents under `mkdocs/docs/experiments/concepts/`).
+Treat the installed CRDs and current official documentation as authoritative.

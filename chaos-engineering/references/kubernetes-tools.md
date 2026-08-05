@@ -17,6 +17,16 @@ kubectl get pods -A | rg 'chaos-mesh|litmus'
 kubectl auth can-i --list -n <chaos-namespace>
 ```
 
+That last command checks the current kubeconfig identity. When the controller or fault
+runner uses a different service account, also check the identity that will execute the
+fault:
+
+```bash
+kubectl auth can-i --list \
+  --as=system:serviceaccount:<execution-namespace>:<execution-service-account> \
+  -n <target-namespace>
+```
+
 Inspect the exact resource before authoring YAML:
 
 ```bash
@@ -66,39 +76,72 @@ and helper workloads.
 
 ## Chaos Mesh: start with one time-bounded pod fault
 
-This minimal pattern follows the official `PodChaos` schema. Use a dedicated chaos resource
-namespace if the installed configuration requires it, and set the selector namespace to the
-approved workload namespace.
+This minimal pattern follows the official `PodChaos` schema. Resolve the label selector to
+the exact pod approved for the run, record that name, and refuse to continue unless a second
+resolution immediately before creation returns the same set. Choose a per-run resource name
+and an approved chaos-resource namespace, then verify that identity is unused:
+
+```bash
+kubectl get pods -n <target-namespace> -l '<key>=<value>' -o name
+# Record the reviewed result as <reviewed-pod-name>, then repeat the query and compare.
+kubectl get podchaos -n <approved-chaos-resource-namespace> \
+  <unique-experiment-name> >/dev/null 2>&1 && {
+    echo "refusing to reuse an existing PodChaos resource" >&2
+    exit 1
+  }
+```
+
+Render the exact reviewed pod into the final manifest. The explicit pod-list selector keeps
+the controller from randomly choosing a different member of the original label-selected set.
+Use `kubectl create`, not `apply`, so a race cannot update an existing resource.
 
 ```yaml
 apiVersion: chaos-mesh.org/v1alpha1
 kind: PodChaos
 metadata:
-  name: bounded-pod-failure
-  namespace: chaos-mesh
+  name: <unique-experiment-name>
+  namespace: <approved-chaos-resource-namespace>
+  labels:
+    chaos.skillquarium.dev/run-id: <run-id>
 spec:
   action: pod-failure
   mode: one
   duration: "30s"
   selector:
-    namespaces:
-      - <target-namespace>
-    labelSelectors:
-      <label-key>: <label-value>
+    pods:
+      <target-namespace>:
+        - <reviewed-pod-name>
 ```
 
 Do not copy placeholders into the cluster. Confirm the installed schema, render the final
-YAML, repeat the selector preview, and validate server-side. `pod-failure` requires working
-liveness/readiness probes to reveal loss of functionality reliably; `pod-kill` requires an
+YAML, repeat the selector preview, compare it with the recorded set, and validate server-side.
+For `pod-failure`, require a validated health signal; working liveness/readiness probes are
+the recommended implementation because the pause image can otherwise leave the pod looking
+`Running` and `Ready`, but they are not a CRD validation requirement. `pod-kill` requires an
 owning controller or another proven restart mechanism.
 
-Observe and stop with the exact resource name:
+Create, observe, and stop with the exact resource name. After creation, record its UID. Before
+cleanup, require both the recorded UID and run label to match the live object; refuse deletion
+if either identity check fails.
 
 ```bash
-kubectl get podchaos -n chaos-mesh bounded-pod-failure -o yaml
-kubectl get pods -n <target-namespace> -l '<key>=<value>' -w
-kubectl describe podchaos -n chaos-mesh bounded-pod-failure
-kubectl delete podchaos -n chaos-mesh bounded-pod-failure --wait=true
+kubectl create -f <rendered-experiment.yaml>
+kubectl get podchaos -n <approved-chaos-resource-namespace> \
+  <unique-experiment-name> -o jsonpath='{.metadata.uid}{"\t"}{.metadata.labels.chaos\\.skillquarium\\.dev/run-id}{"\n"}'
+kubectl get pod -n <target-namespace> <reviewed-pod-name> -w
+kubectl describe podchaos -n <approved-chaos-resource-namespace> <unique-experiment-name>
+live_uid=$(kubectl get podchaos -n <approved-chaos-resource-namespace> \
+  <unique-experiment-name> \
+  -o jsonpath='{.metadata.uid}')
+live_run_id=$(kubectl get podchaos -n <approved-chaos-resource-namespace> \
+  <unique-experiment-name> \
+  -o jsonpath='{.metadata.labels.chaos\\.skillquarium\\.dev/run-id}')
+test "$live_uid" = "<recorded-uid>" && test "$live_run_id" = "<run-id>" || {
+  echo "refusing cleanup: PodChaos identity changed" >&2
+  exit 1
+}
+kubectl delete podchaos -n <approved-chaos-resource-namespace> \
+  <unique-experiment-name> --wait=true
 ```
 
 Use `Workflow` only after a single fault is proven. Give every fault node a `deadline`, use
@@ -117,11 +160,32 @@ Litmus faults are represented by `ChaosExperiment` resources and commonly invoke
 official ChaosHub catalog, then inspect its definition:
 
 ```bash
-kubectl get chaosexperiment -n <chaos-namespace> <fault-name> -o yaml
-kubectl get chaosexperiment -n <chaos-namespace> <fault-name> \
+kubectl get chaosexperiment -n <litmus-resource-namespace> <fault-name> -o yaml
+kubectl get chaosexperiment -n <litmus-resource-namespace> <fault-name> \
   -o jsonpath='{.spec.definition.permissions}'
-kubectl get serviceaccount,role,rolebinding -n <chaos-namespace>
+kubectl get serviceaccount,role,rolebinding -n <litmus-resource-namespace>
 ```
+
+The Litmus resource namespace and application target namespace can be the same in a given
+installation, but resolve and record each role explicitly instead of assuming they coincide.
+
+Do not treat `.spec.definition.permissions` as effective policy: it declares the fault's
+required permissions but does not create or constrain RBAC. Resolve the `ChaosEngine`
+`chaosServiceAccount`, inspect every associated `Role`, `ClusterRole`, `RoleBinding`, and
+`ClusterRoleBinding`, and impersonate that identity before approving the run:
+
+```bash
+kubectl get chaosengine -n <litmus-resource-namespace> <engine-name> \
+  -o jsonpath='{.spec.chaosServiceAccount}{"\n"}'
+kubectl get role,rolebinding -n <litmus-resource-namespace> -o yaml
+kubectl get clusterrole,clusterrolebinding -o yaml
+kubectl auth can-i --list \
+  --as=system:serviceaccount:<litmus-resource-namespace>:<chaos-service-account> \
+  -n <target-namespace>
+```
+
+The actual bindings on that service account, including cluster-scoped grants, determine its
+effective permissions. Require least privilege even when the declared minimum is narrower.
 
 For a first experiment:
 
@@ -138,9 +202,9 @@ For a first experiment:
 Monitor the engine, runner/helper pods, events, and result separately from application SLIs:
 
 ```bash
-kubectl get chaosengine,chaosresult -n <chaos-namespace> -w
-kubectl get pods -n <chaos-namespace> -l app.kubernetes.io/part-of=litmus -o wide
-kubectl get events -n <chaos-namespace> --sort-by=.lastTimestamp
+kubectl get chaosengine,chaosresult -n <litmus-resource-namespace> -w
+kubectl get pods -n <litmus-resource-namespace> -l app.kubernetes.io/part-of=litmus -o wide
+kubectl get events -n <target-namespace> --sort-by=.lastTimestamp
 ```
 
 Use the Chaos Center stop control when it started the run. For a directly managed engine,
@@ -182,5 +246,12 @@ side effect remains. Keep result resources only when required for audit history.
 - [LitmusChaos repository](https://github.com/litmuschaos/litmus)
 - [LitmusChaos fault catalog](https://github.com/litmuschaos/chaos-charts)
 
-The patterns above were checked against Chaos Mesh 2.8.3 and LitmusChaos 3.31.0 on
-2026-08-01. Reinspect current official sources and the installed CRDs when versions differ.
+The patterns above were checked on 2026-08-01 against Chaos Mesh tag
+[`v2.8.3`](https://github.com/chaos-mesh/chaos-mesh/tree/v2.8.3) at commit
+`60ec97f1fd5d5edb2fb5c722c8888e18b618d1a0` (`api/v1alpha1/podchaos_types.go`,
+`api/v1alpha1/workflow_types.go`, and `config/crd/bases/chaos-mesh.org_podchaos.yaml`)
+and LitmusChaos tag [`3.31.0`](https://github.com/litmuschaos/litmus/tree/3.31.0) at
+commit `5d37ea84a96a1653a13781fad6f3d7ffcde7f660` (the ChaosExperiment scope and
+configuration documents plus ChaosEngine RBAC guidance under
+`mkdocs/docs/experiments/concepts/`). Reinspect current official sources and the installed
+CRDs when versions differ.
