@@ -112,6 +112,6 @@ def transform_data(df: pd.DataFrame) -> pd.DataFrame:
 ## Dependencies
 
 ```
-pandera>=0.18
-pandas
+pandera[pandas,io]==0.32.1
+black
 ```
