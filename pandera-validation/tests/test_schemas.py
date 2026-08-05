@@ -16,7 +16,7 @@ class SchemasCompatibilityTests(unittest.TestCase):
         )
         self.assertEqual(completed.returncode, 0, completed.stderr)
 
-    def test_user_schema_validates_with_pandas_extra_only(self):
+    def test_user_schema_validates(self):
         probe = f"""
 import importlib.util
 import pandas as pd
