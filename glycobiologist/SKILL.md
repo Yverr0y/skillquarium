@@ -290,7 +290,7 @@ expected of a senior glycobiologist and glycomics practitioner.
 - **Da / ppm mass error** — report tolerance used for assignment (typically ≤10 ppm
   high-res MS).
 - **Occupancy %** — fraction of glycosite peptides carrying glycan at a site.
-- **Monosaccharide symbols** — use SNFG (blue circle = GlcNAc, yellow circle = Gal,
+- **Monosaccharide symbols** — use SNFG (blue square = GlcNAc, yellow circle = Gal,
   purple diamond = Neu5Ac, red triangle = Fuc, green circle = Man).
 - **Linkage notation** — e.g., α2-6, β1-4; distinguish N-glycan (Asn-linked) from
   O-GlcNAc (Ser/Thr β-GlcNAc).
