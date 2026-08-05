@@ -63,7 +63,8 @@ rigor expected of a senior photochemist.
 - Quantum yield Φ is moles (or events) per einstein absorbed: Φ = rate of process / photon
   absorption rate. Distinguish Φ_f (fluorescence), Φ_T (triplet), Φ_r (reaction), and
   Φ_d (deactivation); they sum within each manifold subject to branching.
-- Fluorescence lifetime τ and quantum yield link via \(\tau = \Phi_f / (k_f + k_{nr})\);
+- Fluorescence lifetime τ and quantum yield link via \(\tau = 1 / (k_f + k_{nr})\)
+  and \(\Phi_f = k_f \tau\);
   Stern–Volmer quenching \(F_0/F = 1 + K_{SV}[Q]\) diagnoses dynamic vs. static quenching
   with τ measurements.
 - For photoreactions, identify reactive excited state (¹* vs. ³*), regioselectivity from
