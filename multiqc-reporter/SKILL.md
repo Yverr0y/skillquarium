@@ -36,7 +36,7 @@ metadata:
   dependencies:
     python: '>=3.11'
     external:
-    - multiqc>=1.20
+    - multiqc>=1.29
   demo_data:
   - path: --demo flag
     description: Synthetic FastQC output for 3 samples (generated at runtime into a tempdir)
@@ -201,7 +201,10 @@ output_dir/
 ## Dependencies
 
 **External binary** (not a Python package import):
-- `multiqc >= 1.20`; install with `pip install multiqc`
+- `multiqc >= 1.29`; install with `pip install multiqc`. 1.29 is a hard floor, not a
+  preference: `multiqc_data.json`'s `report_general_stats_data` is a JSON array in
+  1.20–1.28 and a dict keyed by section from 1.29, and this skill's parser requires the
+  dict form.
 
 **Python** (repo-local `clawbio` package for reproducibility helpers):
 - `subprocess`, `json`, `shutil`, `argparse`, `tempfile`, `math`
