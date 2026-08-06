@@ -125,6 +125,7 @@ SYNONYMS = {
     "greploop": ["Greptile", "PR review loop"], "check-pr": ["PR review", "merge request", "Greptile"],
     "hunk-review": ["Hunk", "interactive diff review"],
     "design-md-library": ["DESIGN.md", "design tokens", "brand style", "look like Stripe", "Stitch"],
+    "chaos-engineering": ["resilience testing", "fault injection", "LitmusChaos", "Chaos Mesh"],
 }
 
 # ---------------------------------------------------------------------------
@@ -285,12 +286,12 @@ CATEGORIES = [
       "officecli-pitch-deck", "officecli-word-form", "morph-ppt", "morph-ppt-3d"]),
 
     ("cloud-devops", "Cloud, Infra & MLOps",
-     "AWS architecture and operations, serverless GPU compute, developer infrastructure, the Hugging Face CLI, and workflow pipelines.",
+     "Cloud architecture and operations, resilience testing, containers, developer infrastructure, MLOps, and workflow pipelines.",
      ["ml-ai", "bio-databases-platforms", "vault-meta", "analytics-engineering", "security-auditing", "software-dev", "dotnet-development"],
      ["aws-agentic-ai", "aws-cdk-development", "aws-cost-operations", "aws-mcp-setup",
       "aws-serverless-eda", "modal", "hf-cli", "nextflow", "snakemake-workflow-engine",
       "e2b-sandbox", "devcontainer-setup", "modern-python", "conda-bioconda",
-      "docker-expert", "kubernetes-specialist", "ci-cd-and-automation", "shipping-and-launch",
+      "docker-expert", "kubernetes-specialist", "chaos-engineering", "ci-cd-and-automation", "shipping-and-launch",
       "dvc", "ray"]),
 
     ("software-dev", "Software Development & Engineering",

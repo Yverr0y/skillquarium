@@ -80,7 +80,7 @@ You are **GWAS Catalog Region Fetch**, a specialised ClawBio agent for pulling p
 
 ## Overview
 
-The NHGRI-EBI GWAS Catalog (Sollis 2023 *NAR*) maintains harmonised summary statistics for ~25,000 published GWAS at `https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/<GCST>/harmonised/<GCST>.h.tsv.gz`. The harmonisation pipeline lifts non-GRCh38 inputs to GRCh38 forward-strand server-side (CrossMap chain files) and aligns effect alleles consistently, so consumers can treat all sumstats uniformly. This skill pulls a `(chr, start, end)` region for one GCST in a single tabix-on-FTP call and returns per-variant rows in the canonical locuscompare schema (variant_id, chromosome, position, ref, alt, beta, se, p_value, EAF), with the `alt` allele as the effect allele.
+The NHGRI-EBI GWAS Catalog (Sollis 2023 *NAR*) maintains harmonised summary statistics for ~25,000 published GWAS at `https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/<bucket>/<GCST>/harmonised/<GCST>.h.tsv.gz`, where `<bucket>` is the 1000-accession range containing the study (e.g. `GCST90269602` lives under `GCST90269001-GCST90270000`); omitting the bucket directory returns HTTP 404 and there is no redirect. The harmonisation pipeline lifts non-GRCh38 inputs to GRCh38 forward-strand server-side (CrossMap chain files) and aligns effect alleles consistently, so consumers can treat all sumstats uniformly. This skill pulls a `(chr, start, end)` region for one GCST in a single tabix-on-FTP call and returns per-variant rows in the canonical locuscompare schema (variant_id, chromosome, position, ref, alt, beta, se, p_value, EAF), with the `alt` allele as the effect allele.
 
 ## Trigger
 
@@ -107,10 +107,10 @@ The NHGRI-EBI GWAS Catalog (Sollis 2023 *NAR*) maintains harmonised summary stat
 
 When an agent asks for a regional GWAS slice from the GWAS Catalog:
 
-1. **Resolve `accession`**: the canonical `GCST########` identifier. Look up via the GWAS Catalog REST API (`https://www.ebi.ac.uk/gwas/rest/api/studies/<GCST>`) or the web UI at `https://www.ebi.ac.uk/gwas/`. The metadata response includes `hasSummaryStats` (must be `true` to fetch), `pubmedId` (citation), and `ancestries[]` (sample sizes per ancestry bucket).
+1. **Resolve `accession`**: the canonical `GCST########` identifier. Look up via the GWAS Catalog REST API (`https://www.ebi.ac.uk/gwas/rest/api/studies/<GCST>`) or the web UI at `https://www.ebi.ac.uk/gwas/`. The metadata response includes `fullPvalueSet` (must be `true` to fetch — there is no `hasSummaryStats` field), `publicationInfo.pubmedId` (citation; not a top-level key), and `ancestries[]` (sample sizes per ancestry bucket).
 2. **Pick a region**: `(chromosome, start_bp, end_bp)` in 1-based inclusive GRCh38 coordinates. For LocusCompare-style coloc inspection centre on the lead variant ± 500 kb; for "what does this trait look like in the gene's cis-window" centre on the gene TSS ± 1 Mb.
 3. **Tabix range fetch**: the skill performs a single byte-range request against `<GCST>.h.tsv.gz` on the EBI GWAS Catalog FTP. The `harmonised/` subdirectory is the canonical path; do NOT swap to the raw upload (Gotcha #1).
-4. **Use `hm_*` columns**: the harmonised TSV emits `hm_chrom`, `hm_pos`, `hm_effect_allele`, `hm_other_allele`, `hm_beta`, `hm_se`, `hm_effect_allele_frequency`. The skill maps these to canonical `(variant_id, chromosome, position, ref, alt, beta, se, p_value, maf)` with `alt` as the effect allele.
+4. **Read the column names from the file header**: current GWAS-SSF harmonised files emit `chromosome`, `base_pair_location`, `effect_allele`, `other_allele`, `beta`, `standard_error`, `effect_allele_frequency`, `p_value`, plus `hm_coordinate_conversion` / `hm_code` / `variant_id`. Legacy harmonised files additionally carry `hm_chrom`, `hm_pos`, `hm_effect_allele`, `hm_other_allele`, `hm_beta`, `hm_effect_allele_frequency`. There is no `hm_se` in either format — SE is always `standard_error`. The skill prefers the `hm_*` name where present and falls back to the unprefixed one, mapping to canonical `(variant_id, chromosome, position, ref, alt, beta, se, p_value, maf)` with `alt` as the effect allele.
 5. **Write outputs** to `--output <dir>/`: a flat `variants.tsv` (effect-allele-aligned, GRCh38, ALT-effect β), a `manifest.yaml` with provenance (accession, harmonised file path, harmoniser pipeline version where surfaced, n_variants, source URL, fetched-at UTC timestamp), and a `report.md` human-readable summary.
 
 ## CLI Reference
@@ -203,15 +203,15 @@ variant_id              chromosome  position_bp  allele_a  allele_b  beta       
 
 1. **Use the `harmonised/` subdirectory, not the raw upload path.** `<GCST>/harmonised/<GCST>.h.tsv.gz` is forward-strand-aligned to GRCh38 with consistent allele orientation. The raw upload (one directory up) can be on GRCh37 with study-specific allele conventions, and is NOT what this skill fetches. Do NOT swap to the raw path.
 
-2. **`hm_*` columns are the canonical fields.** The harmoniser emits `hm_chrom`, `hm_pos`, `hm_effect_allele`, `hm_other_allele`, `hm_beta`, `hm_se`, `hm_effect_allele_frequency`. Use these, not the raw-upload columns. The skill's manifest preserves both for traceability.
+2. **Column names differ between the current and legacy harmonised formats.** Current GWAS-SSF files use unprefixed `chromosome` / `base_pair_location` / `effect_allele` / `other_allele` / `beta` / `standard_error` / `effect_allele_frequency` and reserve `hm_` only for `hm_coordinate_conversion` and `hm_code`. Legacy files additionally carry `hm_chrom`, `hm_pos`, `hm_effect_allele`, `hm_other_allele`, `hm_beta`, `hm_effect_allele_frequency`. `hm_se` does not exist in either format — always read `standard_error`. Do not hard-code one naming scheme; prefer `hm_*` when present and fall back.
 
 3. **Per-study release lag.** GWAS Catalog mirrors a study some time after the upstream release: typically 2-6 months for FinnGen R12 phenotypes; longer for studies that go through deposit-and-curate. If the user references a phenotype that should be in OT, verify presence via the GWAS Catalog API metadata before assuming an arbitrary GCST is fetchable.
 
-4. **Some studies do not have summary statistics deposited at all.** Older or smaller GWAS may have only top-line lead associations but no full sumstats. The GWAS Catalog API exposes `hasSummaryStats` per study; check it before invoking. The fetcher raises `GWASCatalogFetchError` when the harmonised TSV or its `.tbi` is missing on FTP; caller decides whether to fall back (e.g. download the whole file + tabix-index locally - see `references/harmonised_pipeline.md`).
+4. **Some studies do not have summary statistics deposited at all.** Older or smaller GWAS may have only top-line lead associations but no full sumstats. The GWAS Catalog API exposes `fullPvalueSet` per study; check it before invoking. The fetcher raises `GWASCatalogFetchError` when the harmonised TSV or its `.tbi` is missing on FTP; caller decides whether to fall back (e.g. download the whole file + tabix-index locally).
 
 5. **Palindromic SNPs at MAF near 0.5 are dropped by the harmoniser.** A/T and G/C variants with EAF in [0.45, 0.55] cannot be reliably oriented across studies, so the harmoniser excludes them. Expect some variants present in OT credible sets to be missing from the harmonised file. Surface the count to the user when it materially affects the analysis.
 
-6. **β is reported on the ALT allele.** Do NOT compare effect sizes across studies without explicit allele harmonisation. The skill preserves `ref` / `alt` columns; downstream tools (e.g., TwoSampleMR `harmonise_data`) flip signs when alleles are swapped. Cross-study sign-flip risk is real (`references/effect_allele_harmonisation.md`).
+6. **β is reported on the ALT allele.** Do NOT compare effect sizes across studies without explicit allele harmonisation. The skill preserves `ref` / `alt` columns; downstream tools (e.g., TwoSampleMR `harmonise_data`) flip signs when alleles are swapped. Cross-study sign-flip risk is real for swapped alleles and palindromic ambiguity.
 
 ## Safety
 
@@ -235,4 +235,4 @@ The skill returns harmonised GWAS summary statistics (β, SE, p-value, EAF) for 
 ## Citations
 
 - Sollis et al. (2023). *The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource.* Nucleic Acids Res 51, D977-D985. doi:10.1093/nar/gkac1010
-- Per-study original GWAS publication (cited from the GWAS Catalog metadata `pubmedId` field).
+- Per-study original GWAS publication (cited from the GWAS Catalog metadata `publicationInfo.pubmedId` field).

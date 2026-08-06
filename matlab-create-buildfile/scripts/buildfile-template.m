@@ -79,7 +79,7 @@ function coverageTask(context)
     end
 
     data = load(coverageFile);
-    covResult = data.Result;
+    covResult = data.coverage;   % TestTask saves the array as variable 'coverage'
 
     % coverageSummary (R2023b+) returns Nx2 matrix: [executed, total] per file.
     [summary, desc] = coverageSummary(covResult, "statement");

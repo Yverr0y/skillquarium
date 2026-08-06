@@ -107,7 +107,6 @@ Flags worth knowing: `--verbose` (progress during `path` fetch), `--quiet`/`-q` 
 
 ## Related
 
-Pairs with [[gh-cli]] (authenticated GitHub access for private/raw files), [[graphify]]
-(turn a fetched codebase into a queryable knowledge graph), and the dev primitives
-[[pytest]]/[[docker]] when you're tracing behavior into a dependency. Apache-2.0 ·
-github.com/vercel-labs/opensrc
+Pairs with [[gh-cli]] (authenticated GitHub access for private/raw files) and the dev
+primitives [[pytest]]/[[docker]] when you're tracing behavior into a dependency.
+Apache-2.0 · github.com/vercel-labs/opensrc

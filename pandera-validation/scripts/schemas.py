@@ -5,10 +5,8 @@ Includes schema definitions, custom checks, and decorator patterns.
 """
 
 import pandas as pd
-import pandera as pa
-from pandera import Column, Check, DataFrameSchema
-from pandera import SchemaModel, Field
-from pandera.typing import Series
+import pandera.pandas as pa
+from pandera.pandas import Column, Check, DataFrameModel, DataFrameSchema, Field
 
 
 # =============================================================================
@@ -48,15 +46,15 @@ def create_date_range_schema() -> DataFrameSchema:
 
 
 # =============================================================================
-# Class-Based Schema (SchemaModel)
+# Class-Based Schema (DataFrameModel)
 # =============================================================================
 
-class UserSchema(SchemaModel):
-    """Type-hinted DataFrame schema using SchemaModel."""
-    id: Series[int] = Field(gt=0, unique=True)
-    email: Series[str] = Field(str_matches=r'^[\w\.-]+@[\w\.-]+\.\w+$')
-    age: Series[int] = Field(ge=0, le=150)
-    status: Series[str] = Field(isin=['active', 'inactive'])
+class UserSchema(DataFrameModel):
+    """Type-hinted DataFrame schema using DataFrameModel."""
+    id: int = Field(gt=0, unique=True)
+    email: str = Field(str_matches=r'^[\w\.-]+@[\w\.-]+\.\w+$')
+    age: int = Field(ge=0, le=150)
+    status: str = Field(isin=['active', 'inactive'])
 
     class Config:
         strict = True  # Fail if extra columns exist

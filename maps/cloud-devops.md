@@ -8,13 +8,13 @@ created: 2026-06-13
 # Cloud, Infra & MLOps
 
 > [!abstract] Scope
-> AWS architecture and operations, serverless GPU compute, developer infrastructure, the Hugging Face CLI, and workflow pipelines.
+> Cloud architecture and operations, resilience testing, containers, developer infrastructure, MLOps, and workflow pipelines.
 
 [Back to Skill Index](../index.md)
 
 **Related maps:** [Machine Learning & AI](ml-ai.md) | [Bio Databases, Lab & Cloud Platforms](bio-databases-platforms.md) | [Vault, Skills & Workflow Meta](vault-meta.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [Security & Auditing](security-auditing.md) | [Software Development & Engineering](software-dev.md) | [.NET & C# Development](dotnet-development.md)
 
-## Skills (24)
+## Skills (25)
 
 - [airflow](../airflow.md) — Queries, manages, and troubleshoots Apache Airflow using the `af` CLI
 - [aws-agentic-ai](../aws-agentic-ai.md) — AWS Bedrock AgentCore comprehensive expert for deploying and managing AI agents at scale
@@ -22,6 +22,7 @@ created: 2026-06-13
 - [aws-cost-operations](../aws-cost-operations.md) — AWS cost optimization, monitoring, and operational excellence expert
 - [aws-mcp-setup](../aws-mcp-setup.md) — Configure AWS MCP servers for documentation search and API access
 - [aws-serverless-eda](../aws-serverless-eda.md) — AWS serverless and event-driven architecture expert based on Well-Architected Framework
+- [chaos-engineering](../chaos-engineering.md) — Design and run bounded chaos engineering experiments that test whether a system preserves measurable steady-state behavior during realistic faults
 - [ci-cd-and-automation](../ci-cd-and-automation.md) — Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines
 - [conda-bioconda](../conda-bioconda.md) — Reproducible Conda/Mamba/micromamba environment management for bioinformatics, with correct Bioconda channel setup, environment files, version pinning, and lockfiles
 - [devcontainer-setup](../devcontainer-setup.md) — Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes
