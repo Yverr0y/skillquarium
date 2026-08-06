@@ -124,6 +124,7 @@ SYNONYMS = {
     "opensrc": ["source code", "package source", "dependency source", "read library source"],
     "greploop": ["Greptile", "PR review loop"], "check-pr": ["PR review", "merge request", "Greptile"],
     "hunk-review": ["Hunk", "interactive diff review"],
+    "design-md-library": ["DESIGN.md", "design tokens", "brand style", "look like Stripe", "Stitch"],
     "chaos-engineering": ["resilience testing", "fault injection", "LitmusChaos", "Chaos Mesh"],
 }
 
@@ -336,6 +337,7 @@ CATEGORIES = [
       "vercel-react-view-transitions", "figma-use", "figma-generate-design",
       "figma-generate-library", "figma-implement-design", "web-artifacts-builder",
       "brand-guidelines", "theme-factory", "algorithmic-art", "brandkit",
+      "design-md-library",
       "design-taste-frontend", "design-taste-frontend-v1", "full-output-enforcement",
       "gpt-taste", "high-end-visual-design", "image-to-code",
       "imagegen-frontend-mobile", "imagegen-frontend-web", "industrial-brutalist-ui",

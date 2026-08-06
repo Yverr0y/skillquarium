@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Cloud, Infra & MLOps](cloud-devops.md) | [Documents, Office & Media](documents-office.md) | [Scientific Writing, Figures & Publishing](research-writing.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [.NET & C# Development](dotnet-development.md)
 
-## Skills (46)
+## Skills (47)
 
 - [agent-browser](../agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting...
 - [agentcore](../agentcore.md) — Run agent-browser on AWS Bedrock AgentCore cloud browsers
@@ -25,6 +25,7 @@ created: 2026-06-13
 - [browser-testing-with-devtools](../browser-testing-with-devtools.md) — Tests in real browsers via Chrome DevTools MCP
 - [core](../core.md) — Core agent-browser usage guide. Read this before running any agent-browser commands
 - [design-an-interface](../design-an-interface.md) — Generate multiple radically different interface designs for a module using parallel sub-agents
+- [design-md-library](../design-md-library.md) — Library of 74 ready-to-use DESIGN.md files — complete design systems (color tokens, type scale, components, layout, motion, do's/don'ts) reverse-engineered from real product and brand...
 - [design-taste-frontend](../design-taste-frontend.md) — Anti-slop frontend skill for landing pages, portfolios, and redesigns
 - [design-taste-frontend-v1](../design-taste-frontend-v1.md) — The original v1 taste-skill, preserved for projects depending on its exact behavior
 - [dogfood](../dogfood.md) — Systematically explore and test a web application to find bugs, UX issues, and other problems
