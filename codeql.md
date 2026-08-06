@@ -20,7 +20,7 @@ created: 2026-06-09
 
 - [llm-agent-security-redteam](llm-agent-security-redteam.md) — LLM and agent security red teaming with agentic-actions-auditor, supply-chain-risk-auditor, semgrep, codeql, and sarif-parsing
 - [sarif-parsing](sarif-parsing.md) — Parses and processes SARIF files from static analysis tools like CodeQL, Semgrep, or other scanners
-- [variant-analysis](variant-analysis.md) — Find similar vulnerabilities and bugs across codebases using pattern-based analysis
+- [variant-analysis](variant-analysis.md) — Hunts for the other instances of a bug already found — the variants of one root cause across a codebase
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

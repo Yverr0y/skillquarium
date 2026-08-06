@@ -19,7 +19,7 @@ created: 2026-06-13
 - [aflpp](../aflpp.md) — AFL++ is a fork of AFL with better fuzzing performance and advanced features
 - [agentic-actions-auditor](../agentic-actions-auditor.md) — Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference
 - [atheris](../atheris.md) — Atheris is a coverage-guided Python fuzzer based on libFuzzer
-- [audit-context-building](../audit-context-building.md) — Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding
+- [audit-context-building](../audit-context-building.md) — Understand a codebase before looking for bugs in it - what each function assumes, what it guarantees, and what it depends on elsewhere
 - [audit-prep-assistant](../audit-prep-assistant.md) — Prepares codebases for security review using Trail of Bits' checklist
 - [c-review](../c-review.md) — Performs comprehensive C/C++ security review for memory corruption, integer overflows, race conditions, and platform-specific vulnerabilities
 - [cargo-fuzz](../cargo-fuzz.md) — cargo-fuzz is the de facto fuzzing tool for Rust projects using Cargo
@@ -47,8 +47,8 @@ created: 2026-06-13
 - [semgrep](../semgrep.md) — Run Semgrep static analysis scan on a codebase using parallel subagents
 - [semgrep-rule-creator](../semgrep-rule-creator.md) — Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns
 - [sharp-edges](../sharp-edges.md) — Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes
-- [spec-to-code-compliance](../spec-to-code-compliance.md) — Verifies code implements exactly what documentation specifies for blockchain audits
+- [spec-to-code-compliance](../spec-to-code-compliance.md) — Check code against the documentation that specifies it - which requirements hold, which the code contradicts, which are absent, and what the code does that no document mentions
 - [supply-chain-risk-auditor](../supply-chain-risk-auditor.md) — Identifies dependencies at heightened risk of exploitation or takeover
 - [token-integration-analyzer](../token-integration-analyzer.md) — Token integration and implementation analyzer based on Trail of Bits' token integration checklist
-- [variant-analysis](../variant-analysis.md) — Find similar vulnerabilities and bugs across codebases using pattern-based analysis
+- [variant-analysis](../variant-analysis.md) — Hunts for the other instances of a bug already found — the variants of one root cause across a codebase
 - [zeroize-audit](../zeroize-audit.md) — Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification

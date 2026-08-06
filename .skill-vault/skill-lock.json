@@ -1529,18 +1529,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-cli/SKILL.md",
-      "skillFolderHash": "ef0c999b5edcfb02f2db8bfec2b919b7d0400e81",
+      "skillFolderHash": "58d86b51df22f25295a81d786a764fce9c78fbd0",
       "installedAt": "2026-06-09T19:26:52.824Z",
-      "updatedAt": "2026-08-05T08:50:35.069Z"
+      "updatedAt": "2026-08-06T08:51:19.938Z"
     },
     "phoenix-evals": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "246b8b8882c6f8cb4d71f3103a0615397c89f405",
+      "skillFolderHash": "8a65699cc106ffdea51cb4d94ad6364aafabb071",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-07-31T09:14:59.874Z"
+      "updatedAt": "2026-08-06T08:51:24.204Z"
     },
     "figma-generate-design": {
       "source": "figma/mcp-server-guide",
@@ -1565,9 +1565,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/figma/mcp-server-guide.git",
       "skillPath": "skills/figma-use/SKILL.md",
-      "skillFolderHash": "22aedc93e36f59175d4498df69e83f3975f75116",
+      "skillFolderHash": "7cfab39def61657e0d1f442911a9f8d0ede6b28a",
       "installedAt": "2026-06-09T19:27:02.247Z",
-      "updatedAt": "2026-08-05T08:50:36.325Z"
+      "updatedAt": "2026-08-06T08:51:26.452Z"
     },
     "e2b-sandbox": {
       "source": "computesdk/sandbox-skills",
@@ -1646,9 +1646,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/audit-context-building/skills/audit-context-building/SKILL.md",
-      "skillFolderHash": "953232ff44e229c22014dcf8482e089fd66b21db",
+      "skillFolderHash": "2fee1a2e10b9c861e97013d192a81379d070a60e",
       "installedAt": "2026-06-09T19:28:14.009Z",
-      "updatedAt": "2026-06-09T19:28:14.009Z"
+      "updatedAt": "2026-08-06T08:51:28.401Z"
     },
     "audit-prep-assistant": {
       "source": "trailofbits/skills",
@@ -1799,9 +1799,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md",
-      "skillFolderHash": "66d32d72d3a736aa5647bb81645632603f9e8a12",
+      "skillFolderHash": "46b94817e78aa3140cc589d4bbd876a1b0d274c4",
       "installedAt": "2026-06-09T19:28:14.021Z",
-      "updatedAt": "2026-06-09T19:28:14.021Z"
+      "updatedAt": "2026-08-06T08:51:30.168Z"
     },
     "aflpp": {
       "source": "trailofbits/skills",
@@ -1898,9 +1898,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/variant-analysis/skills/variant-analysis/SKILL.md",
-      "skillFolderHash": "7726df05ca570ec7b2ec0b1dc69f6efdbe436c5e",
+      "skillFolderHash": "30e3e125f907fb265e0cddecf2616e0a7a43d6dd",
       "installedAt": "2026-06-09T19:28:14.031Z",
-      "updatedAt": "2026-06-09T19:28:14.031Z"
+      "updatedAt": "2026-08-06T08:51:32.109Z"
     },
     "c-review": {
       "source": "trailofbits/skills",
@@ -2123,9 +2123,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/wandb/skills.git",
       "skillPath": "skills/wandb-primary/SKILL.md",
-      "skillFolderHash": "09420c67469f3a18e24635cfd9ef97befdff4565",
+      "skillFolderHash": "6f69def7778447dbff0ac362599d90b472954ba5",
       "installedAt": "2026-06-25T13:10:54.224Z",
-      "updatedAt": "2026-07-21T08:42:48.029Z"
+      "updatedAt": "2026-08-06T08:51:33.793Z"
     },
     "airflow": {
       "source": "astronomer/agents",

@@ -20,6 +20,7 @@ created: 2026-06-20
 
 - [academic-paper-reviewer](academic-paper-reviewer.md) — Multi-perspective academic paper review with dynamic reviewer personas
 - [academic-pipeline](academic-pipeline.md) — Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize
+- [audit-context-building](audit-context-building.md) — Understand a codebase before looking for bugs in it - what each function assumes, what it guarantees, and what it depends on elsewhere
 - [audit-prep-assistant](audit-prep-assistant.md) — Prepares codebases for security review using Trail of Bits' checklist
 - [author-component](author-component.md) — Create or review Blazor components (.razor files) with correct architecture
 - [authoring-github-workflows](authoring-github-workflows.md) — Author and review GitHub Actions workflow YAML safely so syntactically-valid YAML can't ship a workflow that GitHub Actions refuses to run

@@ -14,7 +14,7 @@ created: 2026-06-09
 # spec-to-code-compliance
 
 > [!info] What it does
-> Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
+> Check code against the documentation that specifies it - which requirements hold, which the code contradicts, which are absent, and what the code does that no document mentions. Use when comparing an implementation against a whitepaper, protocol spec, or design document.
 
 **Source:** [spec-to-code-compliance/SKILL.md](spec-to-code-compliance/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
