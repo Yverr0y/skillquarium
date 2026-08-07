@@ -1,0 +1,25 @@
+---
+title: vercel-agent
+aliases:
+  - vercel agent
+tags:
+  - skill
+status: untried
+source: vercel-agent/SKILL.md
+created: 2026-08-07
+---
+
+# vercel-agent
+
+> [!info] What it does
+> Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI development tools.
+
+**Source:** [vercel-agent/SKILL.md](vercel-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+- [review](review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

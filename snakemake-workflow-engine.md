@@ -22,6 +22,7 @@ created: 2026-06-09
 
 - [nextflow](nextflow.md) — Build, run, and debug Nextflow data pipelines and nf-core workflows end to end
 - [sourmash](sourmash.md) — MinHash/FracMinHash sketching for alignment-free comparison of genomes and metagenomes
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

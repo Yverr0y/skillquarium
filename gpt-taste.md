@@ -20,7 +20,7 @@ created: 2026-07-07
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [gsap](gsap.md) — GSAP animation reference for HyperFrames
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

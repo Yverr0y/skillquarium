@@ -20,6 +20,7 @@ created: 2026-06-09
 
 ## Related skills
 
+- [citations](citations.md) — Canonical rules and HTML/CSS contract for inline `[n]` citation references, end-of-document Citations blocks, and optional per-section citation recaps used across Moody's Agentic...
 - [transformers](transformers.md) — Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

@@ -1,0 +1,29 @@
+---
+title: risk-analysis-audit
+aliases:
+  - risk analysis audit
+tags:
+  - skill
+status: untried
+source: risk-analysis-audit/SKILL.md
+created: 2026-08-07
+---
+
+# risk-analysis-audit
+
+> [!info] What it does
+> Risk Analysis Audit skill for Datasite deal rooms. Use this skill whenever a sell-side deal team wants to audit, review, or flag risks across a data room before going live. Triggers include: "run a risk audit", "flag risks in the data room", "risk review", "what are the risks in this deal", "audit the data room", "risk analysis", "flag issues before we go live", "what should we fix before launch", or any request to analyse deal risk by workstream (Tax, Finance, Legal, HR, IP, Commercial, Regulatory, ESG). Use this skill proactively whenever the user is preparing a data room for launch and wants a structured view of what might concern a buyer. Do not use for document quality issues like PII or redaction (use document-quality-check), or for identifying missing sections (use gap-analysis).
+
+**Source:** [risk-analysis-audit/SKILL.md](risk-analysis-audit/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+- [document-quality-check](document-quality-check.md) — Document Quality Check skill for Datasite deal rooms
+- [gap-analysis](gap-analysis.md) — Data Room Gap Analysis skill for Datasite deal rooms
+- [launch-readiness-orchestrator](launch-readiness-orchestrator.md) — Launch Readiness Orchestrator skill for Datasite deal rooms
+- [review](review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+- [vdr-index-setup](vdr-index-setup.md) — VDR Index Setup skill for Datasite deal rooms
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

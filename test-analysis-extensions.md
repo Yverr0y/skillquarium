@@ -23,6 +23,7 @@ created: 2026-07-21
 - [assertion-quality](assertion-quality.md) — Analyzes the variety and depth of assertions across test suites in any language
 - [jest](jest.md) — JavaScript testing with Jest — unit tests, mocks, spies, snapshot testing, code coverage, and configuration
 - [pytest](pytest.md) — Testing Python code with pytest — fixtures, parametrization, markers, mocking, coverage, and configuration
+- [setup](setup.md) — Verify Daloopa MCP connection and show available skills
 - [test-anti-patterns](test-anti-patterns.md) — Audits an existing test file or suite in any language for anti-patterns and quality issues — produces a severity-ranked report (Critical/Warning/Info)
 - [test-gap-analysis](test-gap-analysis.md) — Performs pseudo-mutation analysis on production code in any language to find gaps in existing tests
 - [test-smell-detection](test-smell-detection.md) — Deep-dive audit using the full testsmells.org 19-smell academic catalog for tests in any language

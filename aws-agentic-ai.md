@@ -21,6 +21,7 @@ created: 2026-06-09
 ## Related skills
 
 - [agentcore](agentcore.md) — Run agent-browser on AWS Bedrock AgentCore cloud browsers
+- [observability](observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

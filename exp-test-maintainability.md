@@ -21,6 +21,7 @@ created: 2026-07-21
 ## Related skills
 
 - [exp-mock-usage-analysis](exp-mock-usage-analysis.md) — Audits .NET test mock usage by tracing each mock setup through the production code's execution path to find dead, unreachable, redundant, or replaceable mocks
+- [setup](setup.md) — Verify Daloopa MCP connection and show available skills
 - [test-anti-patterns](test-anti-patterns.md) — Audits an existing test file or suite in any language for anti-patterns and quality issues — produces a severity-ranked report (Critical/Warning/Info)
 - [writing-mstest-tests](writing-mstest-tests.md) — Write, create, modernize, or fix comprehensive MSTest unit tests with MSTest 3.x/4.x APIs
 

@@ -18,6 +18,7 @@ created: 2026-06-09
 
 ## Related skills
 
+- [initiate](initiate.md) — Initiate coverage — generate both research note (HTML) and Excel model (.xlsx)
 - [markitdown](markitdown.md) — Convert files and office documents to Markdown
 - [officecli](officecli.md) — Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool
 - [officecli-data-dashboard](officecli-data-dashboard.md) — Use this skill to build a multi-element Excel dashboard — Dashboard sheet on open, multiple formula-driven KPI cards, multiple charts, sparklines, and conditional formatting — from CSV...

@@ -21,6 +21,7 @@ created: 2026-07-21
 ## Related skills
 
 - [maui-data-binding](maui-data-binding.md) — Guidance for .NET MAUI XAML and C# data bindings — compiled bindings, INotifyPropertyChanged / ObservableObject, value converters, binding modes, multi-binding, relative bindings...
+- [template](template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

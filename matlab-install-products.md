@@ -21,6 +21,7 @@ created: 2026-07-26
 ## Related skills
 
 - [matlab](matlab.md) — MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

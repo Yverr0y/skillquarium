@@ -1,0 +1,25 @@
+---
+title: remotion-best-practices
+aliases:
+  - remotion best practices
+tags:
+  - skill
+status: untried
+source: remotion-best-practices/SKILL.md
+created: 2026-08-07
+---
+
+# remotion-best-practices
+
+> [!info] What it does
+> Best practices for Remotion - Video creation in React
+
+**Source:** [remotion-best-practices/SKILL.md](remotion-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

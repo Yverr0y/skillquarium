@@ -20,6 +20,7 @@ created: 2026-07-21
 
 ## Related skills
 
+- [template](template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 - [template-authoring](template-authoring.md) — Guides creation and validation of custom dotnet new templates from existing projects
 - [template-discovery](template-discovery.md) — Helps find, inspect, and compare (at a high level) .NET project templates
 - [template-instantiation](template-instantiation.md) — Creates .NET projects from templates with validated parameters, smart defaults, Central Package Management adaptation, and latest NuGet version resolution

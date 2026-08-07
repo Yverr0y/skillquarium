@@ -1,0 +1,28 @@
+---
+title: marketplace
+tags:
+  - skill
+status: untried
+source: marketplace/SKILL.md
+created: 2026-08-07
+---
+
+# marketplace
+
+> [!info] What it does
+> Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.
+
+**Source:** [marketplace/SKILL.md](marketplace/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+- [auth](auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
+- [cms](cms.md) — Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io
+- [email](email.md) — Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates
+- [payments](payments.md) — Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK
+- [plugin-creator](plugin-creator.md) — Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or...
+- [vercel-storage](vercel-storage.md) — Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis)
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

@@ -21,6 +21,7 @@ created: 2026-06-10
 ## Related skills
 
 - [review](review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+- [verification](verification.md) — Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

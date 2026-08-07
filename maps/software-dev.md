@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Vault, Skills & Workflow Meta](vault-meta.md) | [Security & Auditing](security-auditing.md) | [Cloud, Infra & MLOps](cloud-devops.md) | [Reasoning, Ideation & Decision](reasoning-ideation.md) | [.NET & C# Development](dotnet-development.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (65)
+## Skills (66)
 
 - [api-and-interface-design](../api-and-interface-design.md) — Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface
 - [brainstorming](../brainstorming.md) — You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior
@@ -42,13 +42,14 @@ created: 2026-06-13
 - [git-workflow-and-versioning](../git-workflow-and-versioning.md) — Structures git workflow practices. Use when making any code change
 - [github-actions-ci](../github-actions-ci.md) — Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows...
 - [greploop](../greploop.md) — Iteratively improves a PR (GitHub), MR (GitLab), or shelved changelist (Perforce) until Greptile gives it a 5/5 confidence score with zero unresolved comments
+- [gstack](../gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [handoff](../handoff.md) — Compact the current conversation into a handoff document for another agent to pick up
 - [hunk-review](../hunk-review.md) — Interacts with live Hunk diff review sessions via CLI
 - [implement](../implement.md) — Implement a piece of work based on a PRD or set of issues
 - [improve-codebase-architecture](../improve-codebase-architecture.md) — Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick
 - [incremental-implementation](../incremental-implementation.md) — Delivers changes incrementally. Use when implementing any feature or change that touches more than one file
 - [jest](../jest.md) — JavaScript testing with Jest — unit tests, mocks, spies, snapshot testing, code coverage, and configuration
-- [linear](../linear.md) — Linear project management — create and manage issues, projects, cycles, and roadmaps via the Linear API, MCP server, or web browser
+- [linear](../linear.md) — Manage issues, projects & team workflows in Linear
 - [migrate-to-shoehorn](../migrate-to-shoehorn.md) — Migrate test files from `as` type assertions to @total-typescript/shoehorn
 - [modern-typescript](../modern-typescript.md) — Modern TypeScript 5.x idioms — strict tsconfig (strict, noUncheckedIndexedAccess), the type system (unions/intersections, generics + constraints, narrowing, discriminated unions...
 - [opensrc](../opensrc.md) — Give coding agents the actual source code of any dependency

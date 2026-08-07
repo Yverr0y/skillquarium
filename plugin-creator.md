@@ -14,13 +14,13 @@ created: 2026-06-13
 # plugin-creator
 
 > [!info] What it does
-> Scaffold a complete cave plugin bundle — generates .cave-plugin/plugin.json manifest and the standard directory structure (commands/, skills/, agents/, themes/, hooks/). Use when a user wants to create, publish, or package a cave plugin for the marketplace. Triggered by "create a plugin", "scaffold a plugin", "/plugin create", or "new cave plugin".
+> Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new personal plugin, add optional plugin structure, or generate or update personal or repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.
 
 **Source:** [plugin-creator/SKILL.md](plugin-creator/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [marketplace](marketplace.md) — Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

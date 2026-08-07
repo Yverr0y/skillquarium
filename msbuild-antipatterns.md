@@ -20,6 +20,7 @@ created: 2026-07-21
 
 ## Related skills
 
+- [code-review](code-review.md) — Reviews code changes using CodeRabbit AI
 - [extension-points](extension-points.md) — Guide for MSBuild extensibility: CustomBefore/CustomAfter hooks, wildcard imports with alphabetic ordering, import gating with control properties, NuGet package build extension layout...
 - [item-management](item-management.md) — Patterns for managing MSBuild item groups: Include/Remove/Update semantics, item metadata, batching with %(Metadata), transforms, per-item filtering, and cross-product batching pitfalls
 - [msbuild-modernization](msbuild-modernization.md) — Guide for modernizing and migrating MSBuild project files to SDK-style format

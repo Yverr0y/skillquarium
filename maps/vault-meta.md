@@ -29,7 +29,7 @@ created: 2026-06-13
 - [obsidian-cli](../obsidian-cli.md) — Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more
 - [obsidian-markdown](../obsidian-markdown.md) — Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax
 - [obsidian-vault](../obsidian-vault.md) — Search, create, and manage notes in the Obsidian vault with wikilinks and index notes
-- [plugin-creator](../plugin-creator.md) — Scaffold a complete cave plugin bundle — generates .cave-plugin/plugin.json manifest and the standard directory structure (commands/, skills/, agents/, themes/, hooks/)
+- [plugin-creator](../plugin-creator.md) — Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or...
 - [repro-enforcer](../repro-enforcer.md) — Export any bioinformatics analysis as a reproducible bundle with Conda environment, Singularity container definition, and Nextflow pipeline
 - [setup-matt-pocock-skills](../setup-matt-pocock-skills.md) — Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout
 - [skill-builder](../skill-builder.md) — Scaffold a new ClawBio skill from a spec file (JSON/YAML) or interactively — generates SKILL.md, Python skeleton, tests, and updates catalog.json

@@ -30,6 +30,7 @@ created: 2026-06-09
 - [pydeseq2](pydeseq2.md) — Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization
 - [scanpy](scanpy.md) — Standard single-cell RNA-seq analysis pipeline
 - [scientific-visualization](scientific-visualization.md) — Meta-skill for publication-ready figures
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

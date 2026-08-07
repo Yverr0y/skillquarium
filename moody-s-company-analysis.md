@@ -1,0 +1,25 @@
+---
+title: moody-s-company-analysis
+aliases:
+  - moody s company analysis
+tags:
+  - skill
+status: untried
+source: moody-s-company-analysis/SKILL.md
+created: 2026-08-07
+---
+
+# moody-s-company-analysis
+
+> [!info] What it does
+> Use when the user asks for Moody's company profiles, ownership, ratings, credit opinions, financial statements, filings, peers, research, or credit-risk analysis for a company.
+
+**Source:** [moody-s-company-analysis/SKILL.md](moody-s-company-analysis/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

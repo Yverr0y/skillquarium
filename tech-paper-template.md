@@ -21,6 +21,7 @@ created: 2026-06-09
 ## Related skills
 
 - [brainstorming](brainstorming.md) — You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior
+- [template](template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -21,6 +21,7 @@ created: 2026-07-24
 - [matplotlib](matplotlib.md) — Low-level plotting library for full customization
 - [scientific-visualization](scientific-visualization.md) — Meta-skill for publication-ready figures
 - [seaborn](seaborn.md) — Statistical visualization with pandas integration
+- [threejs-data-visualization](threejs-data-visualization.md) — Render WebGL-accelerated data visualizations with Three.js, raw WebGL, deck.gl, luma.gl, PixiJS, Sigma.js, Plotly WebGL traces, ECharts GL, CesiumJS, Babylon.js, or related GPU...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

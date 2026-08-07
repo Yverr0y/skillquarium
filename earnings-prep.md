@@ -1,0 +1,25 @@
+---
+title: earnings-prep
+aliases:
+  - earnings prep
+tags:
+  - skill
+status: untried
+source: earnings-prep/SKILL.md
+created: 2026-08-07
+---
+
+# earnings-prep
+
+> [!info] What it does
+> Pre-earnings preparation report for the night before a company reports
+
+**Source:** [earnings-prep/SKILL.md](earnings-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

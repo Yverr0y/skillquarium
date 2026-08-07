@@ -12,14 +12,20 @@ created: 2026-06-09
 # slack
 
 > [!info] What it does
-> Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or automate any Slack task. Triggers include "check my Slack", "what channels have unreads", "send a message to", "search Slack for", "extract from Slack", "find who said", or any task requiring programmatic Slack interaction.
+> Read Slack context, route to the right Slack workflow, and prepare or perform Slack writes that match the user's intent.
 
 **Source:** [slack/SKILL.md](slack/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 
-- [agent-browser](agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting...
+- [chat-sdk](chat-sdk.md) — Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase
 - [electron](electron.md) — Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol
+- [slack-channel-summarization](slack-channel-summarization.md) — Summarize activity from one Slack channel and return a concise recap, post-ready update, or summary doc
+- [slack-daily-digest](slack-daily-digest.md) — Create a daily Slack digest from selected channels or topics
+- [slack-notification-triage](slack-notification-triage.md) — Triage recent Slack activity into a priority queue or task list for the user
+- [slack-outgoing-message](slack-outgoing-message.md) — Primary skill for composing, drafting, or refining any outbound Slack content
+- [slack-reply-drafting](slack-reply-drafting.md) — Draft Slack replies from available context
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

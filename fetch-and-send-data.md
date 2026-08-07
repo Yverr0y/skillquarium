@@ -25,6 +25,7 @@ created: 2026-07-21
 - [coordinate-components](coordinate-components.md) — Share state between components that don't have a direct parent-child parameter relationship, using cascading values, scoped services with change events, or CascadingValueSource via DI
 - [create-blazor-project](create-blazor-project.md) — Create a new ASP.NET Core web application or web site using Blazor
 - [support-prerendering](support-prerendering.md) — Make interactive Blazor components work correctly with prerendering
+- [validation](validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

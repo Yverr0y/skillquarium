@@ -25,6 +25,7 @@ created: 2026-07-21
 - [fetch-and-send-data](fetch-and-send-data.md) — Call APIs, load data into components, and handle the async lifecycle in Blazor
 - [support-prerendering](support-prerendering.md) — Make interactive Blazor components work correctly with prerendering
 - [use-js-interop](use-js-interop.md) — Add, review, or fix JavaScript interop in Blazor components
+- [validation](validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

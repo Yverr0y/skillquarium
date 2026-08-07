@@ -20,7 +20,9 @@ created: 2026-07-21
 
 ## Related skills
 
+- [github](github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [review](review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

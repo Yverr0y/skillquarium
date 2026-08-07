@@ -25,6 +25,7 @@ created: 2026-06-09
 - [officecli-pitch-deck](officecli-pitch-deck.md) — Use this skill when the user is building a fundraising / investor pitch deck — seed, Series A / B / C, convertible note, SAFE round, strategic raise
 - [officecli-pptx](officecli-pptx.md) — Use this skill any time a .pptx file is involved -- as input, output, or both
 - [pptx-posters](pptx-posters.md) — Create research posters using HTML/CSS that can be exported to PDF or PPTX
+- [sharepoint-powerpoint](sharepoint-powerpoint.md) — Create, edit, restyle, and review PowerPoint `.pptx` files fetched from SharePoint, with emphasis on style preservation, slide cloning, theme-aware updates, and rendered visual QA
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

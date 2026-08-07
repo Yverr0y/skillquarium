@@ -24,6 +24,8 @@ created: 2026-06-10
 ## Related skills
 
 - [agentic-actions-auditor](agentic-actions-auditor.md) — Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference
+- [github](github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

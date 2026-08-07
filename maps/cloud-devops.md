@@ -29,7 +29,7 @@ created: 2026-06-13
 - [docker-expert](../docker-expert.md) — You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns...
 - [dvc](../dvc.md) — Data Version Control (DVC) for tracking large datasets/models with Git-like semantics, defining reproducible data/ML pipelines (dvc.yaml stages that only re-run when their inputs...
 - [e2b-sandbox](../e2b-sandbox.md) — Guide for creating and managing E2B sandboxes using ComputeSDK
-- [hf-cli](../hf-cli.md) — Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub
+- [hf-cli](../hf-cli.md) — Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub
 - [kubernetes-specialist](../kubernetes-specialist.md) — Use when deploying or managing Kubernetes workloads
 - [mlflow-onboarding](../mlflow-onboarding.md) — Onboards users to MLflow by determining their use case (GenAI agents/apps or traditional ML/deep learning) and guiding them through relevant quickstart tutorials and initial integration
 - [modal](../modal.md) — Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs

@@ -25,6 +25,7 @@ created: 2026-06-17
 - [matchms](matchms.md) — Spectral similarity and compound identification for metabolomics
 - [mofaplus-multi-omics](mofaplus-multi-omics.md) — Multi-Omics Factor Analysis v2 (MOFA+) with mofapy2
 - [pathway-enrichment](pathway-enrichment.md) — Run pathway and gene-set enrichment analysis on gene lists or ranked gene data, then interpret the results
+- [pride-skill](pride-skill.md) — Submit compact PRIDE Archive API requests for proteomics project discovery and project-level metadata
 - [pyopenms](pyopenms.md) — Complete mass spectrometry analysis platform
 - [spatialdata-squidpy](spatialdata-squidpy.md) — Spatial omics workflows with SpatialData and Squidpy alongside scanpy, anndata, and napari-viz
 - [ukb-ppp-region-fetch](ukb-ppp-region-fetch.md) — Fetch a regional slice of plasma pQTL summary statistics from the UK Biobank Pharma Proteomics Project (UKB-PPP

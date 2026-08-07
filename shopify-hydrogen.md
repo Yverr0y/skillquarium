@@ -1,0 +1,25 @@
+---
+title: shopify-hydrogen
+aliases:
+  - shopify hydrogen
+tags:
+  - skill
+status: untried
+source: shopify-hydrogen/SKILL.md
+created: 2026-08-07
+---
+
+# shopify-hydrogen
+
+> [!info] What it does
+> Hydrogen storefront implementation cookbooks. Some of the available recipes are: B2B Commerce, Bundles, Combined Listings, Custom Cart Method, Dynamic Content with Metaobjects, Express Server, Google Tag Manager Integration, Infinite Scroll, Legacy Customer Account Flow, Markets, Partytown + Google Tag Manager, Subscriptions, Third-party API Queries and Caching. MANDATORY: Use this API for ANY Hydrogen storefront question - do NOT use Storefront GraphQL when 'Hydrogen' is mentioned.
+
+**Source:** [shopify-hydrogen/SKILL.md](shopify-hydrogen/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

@@ -25,6 +25,7 @@ created: 2026-08-01
 ## Related skills
 
 - [kubernetes-specialist](kubernetes-specialist.md) — Use when deploying or managing Kubernetes workloads
+- [validation](validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

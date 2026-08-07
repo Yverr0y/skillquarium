@@ -19,6 +19,7 @@ created: 2026-06-09
 ## Related skills
 
 - [academic-paper](academic-paper.md) — 12-agent academic paper writing pipeline
+- [cite-check](cite-check.md) — Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately
 - [clinical-decision-support](clinical-decision-support.md) — Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with...
 - [etetoolkit](etetoolkit.md) — Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics
 - [liteparse](liteparse.md) — Local document and PDF parsing with spatial text and bounding boxes

@@ -19,6 +19,7 @@ created: 2026-07-24
 ## Related skills
 
 - [dask](dask.md) — Distributed computing for larger-than-RAM pandas/NumPy workflows
+- [mixpanel-headless-setup](mixpanel-headless-setup.md) — This skill installs mixpanel_headless, pandas, numpy, matplotlib, seaborn, networkx, anytree, scipy (and pyarrow on Python 3.11+), then verifies Mixpanel credentials
 - [optimize-for-gpu](optimize-for-gpu.md) — GPU-accelerate Python code using CuPy, Numba CUDA, Warp, cuDF, cuML, cuGraph, KvikIO, cuCIM, cuxfilter, cuVS, cuSpatial, and RAFT
 - [polars](polars.md) — High-performance DataFrame library for Python ETL, analytics, and pandas migration
 - [pybedtools](pybedtools.md) — Python genomic interval arithmetic with BEDTools, complementing pysam, polars, and query for downstream tables

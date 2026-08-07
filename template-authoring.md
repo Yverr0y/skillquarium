@@ -20,11 +20,13 @@ created: 2026-07-21
 
 ## Related skills
 
+- [template](template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 - [template-comparison](template-comparison.md) — Compares two or more dotnet new templates side by side to help users choose between them based on parameters, feature support, frameworks, and classifications
 - [template-discovery](template-discovery.md) — Helps find, inspect, and compare (at a high level) .NET project templates
 - [template-instantiation](template-instantiation.md) — Creates .NET projects from templates with validated parameters, smart defaults, Central Package Management adaptation, and latest NuGet version resolution
 - [template-smart-defaults](template-smart-defaults.md) — Applies cross-parameter default rules when creating .NET projects with dotnet new, filling gaps consistently without overriding values the user set explicitly
 - [template-validation](template-validation.md) — Validates custom dotnet new templates for correctness before publishing
+- [validation](validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -21,6 +21,7 @@ created: 2026-07-21
 ## Related skills
 
 - [logfire-query](logfire-query.md) — Query and analyze Logfire telemetry data — traces, logs, spans, metrics, summaries, and SQL results
+- [telemetry](telemetry.md) — Add and verify lightweight macOS runtime telemetry
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

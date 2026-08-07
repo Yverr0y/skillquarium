@@ -1,0 +1,25 @@
+---
+title: moody-s-sector-brief
+aliases:
+  - moody s sector brief
+tags:
+  - skill
+status: untried
+source: moody-s-sector-brief/SKILL.md
+created: 2026-08-07
+---
+
+# moody-s-sector-brief
+
+> [!info] What it does
+> Produce a Sector Brief HTML report for any industry sector using Moody's GenAI MCP tools and web research. Use this skill whenever the user asks to analyze a sector, write a sector report, do an industry analysis, create a sector overview, or generate a sector deep-dive. Trigger even if they just name a sector and mention "analysis", "overview", "outlook", "report", or "deep-dive". Also trigger for phrases like "what's happening in the retail sector" or "give me a sector breakdown for aerospace".
+
+**Source:** [moody-s-sector-brief/SKILL.md](moody-s-sector-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+- [industry](industry.md) — Cross-company industry comparison across multiple tickers
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

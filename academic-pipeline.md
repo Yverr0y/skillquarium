@@ -24,6 +24,8 @@ created: 2026-06-09
 - [academic-paper-reviewer](academic-paper-reviewer.md) — Multi-perspective academic paper review with dynamic reviewer personas
 - [deep-research](deep-research.md) — Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic
 - [review](review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+- [verification](verification.md) — Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

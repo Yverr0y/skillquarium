@@ -20,6 +20,7 @@ created: 2026-06-09
 
 - [biopython](biopython.md) — Comprehensive molecular biology toolkit
 - [gget](gget.md) — Fast CLI/Python queries to 20+ bioinformatics databases
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

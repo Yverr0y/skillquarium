@@ -1,0 +1,25 @@
+---
+title: heygen-avatar
+aliases:
+  - heygen avatar
+tags:
+  - skill
+status: untried
+source: heygen-avatar/SKILL.md
+created: 2026-08-07
+---
+
+# heygen-avatar
+
+> [!info] What it does
+> Create a persistent HeyGen avatar — a reusable face + voice identity for the agent, the user, or any named character — powered by HeyGen Avatar V technology. Prompt-based creation by default (description → HeyGen builds it); photo upload is optional for real-person digital twins. Use when: (1) giving the agent a face + voice so it can present videos ("bring yourself to life", "create your avatar", "give yourself an avatar", "design a presenter", "set up an avatar", "let's make an avatar"), (2) the user wants to appear in videos as themselves ("create my avatar", "I want my face in a video", "digital twin of me", "build me an avatar"), (3) building a named character presenter ("create an avatar called Cleo", "design a character named X"), (4) establishing HeyGen identity before making videos — the correct FIRST step when no avatar exists yet. Chain signal: when the user says both an identity/avatar action AND a video action in the same request ("create an avatar AND make a video", "set up identity THEN create a video", "design a presenter AND immediately record"), run heygen-avatar first, then heygen-video. Returns avatar_id + voice_id — pass directly to heygen-video to create HeyGen videos. NOT for: generating videos (use heygen-video), translating videos, or TTS-only tasks.
+
+**Source:** [heygen-avatar/SKILL.md](heygen-avatar/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+- [heygen-video](heygen-video.md) — Generate HeyGen presenter videos via the v3 Video Agent pipeline — handles Frame Check (aspect ratio correction), prompt engineering, avatar resolution, and voice selection
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

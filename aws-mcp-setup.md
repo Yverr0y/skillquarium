@@ -20,7 +20,8 @@ created: 2026-06-09
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [auth](auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
+- [setup](setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

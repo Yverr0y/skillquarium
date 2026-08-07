@@ -1,264 +1,77 @@
 ---
 name: linear
-description: Linear project management — create and manage issues, projects, cycles, and roadmaps via the Linear API, MCP server, or web browser. Use when creating issues/bugs, triaging backlogs, querying project status, managing sprints/cycles, linking GitHub PRs to issues, automating issue workflows, or integrating Linear into development pipelines. Works via Linear MCP server (preferred), REST API, or agent-browser automation.
+description: Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.
 ---
 
-# Linear — Project Management for Dev Teams
+# Linear
 
-Linear is a fast issue tracker and project management tool built for software teams. Issues, projects, cycles (sprints), and roadmaps are its core constructs.
+## Overview
 
-## Access Methods
+This skill provides a structured workflow for managing issues, projects & team workflows in Linear. It assumes the bundled Linear app is connected so the Linear tools are available for issues, projects, documentation, and team collaboration.
 
-Three ways to interact with Linear:
+## Prerequisites
+- Linear tools must be connected and accessible via OAuth
+- Confirm access to the relevant Linear workspace, teams, and projects
 
-1. **Linear MCP server** (preferred — structured, API-backed)
-2. **Linear REST/GraphQL API** (for scripts and integrations)
-3. **agent-browser** (for UI tasks not covered by the API)
+## Required Workflow
 
----
+**Follow these steps in order. Do not skip steps.**
 
-## Linear MCP Server
+### Step 0: Connect the Linear app (if not already configured)
 
-If the Linear MCP server is configured, use its tools directly:
+If Linear tools are unavailable, pause and ask the user to connect the Linear app:
 
-```
-# Common MCP operations (tool names vary by MCP config):
-linear_create_issue      - Create a new issue
-linear_list_issues       - Query/filter issues
-linear_update_issue      - Update state, assignee, priority, labels
-linear_get_issue         - Get issue details by ID
-linear_search_issues     - Full-text search
-linear_list_projects     - List projects and their status
-linear_list_teams        - List workspace teams
-```
+1. Enable the bundled Linear app for this plugin or session.
+2. Complete the Linear auth flow if Codex prompts for it.
+3. Restart Codex or the current session if the tools still do not appear.
 
-Linear hosts the MCP server remotely at `https://mcp.linear.app/mcp` (Streamable HTTP, OAuth 2.1 — no API key needed). Connect directly where HTTP transport is supported:
+After the app is connected, finish your answer and tell the user to retry so they can continue with Step 1.
 
-```bash
-# Claude Code
-claude mcp add --transport http linear-server https://mcp.linear.app/mcp
-# then run /mcp in a session to complete the OAuth flow
-```
+### Step 1
+Clarify the user's goal and scope (e.g., issue triage, sprint planning, documentation audit, workload balance). Confirm team/project, priority, labels, cycle, and due dates as needed.
 
-For clients that only support stdio MCP servers, bridge with `mcp-remote`:
-```json
-{
-  "mcpServers": {
-    "linear": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.linear.app/mcp"]
-    }
-  }
-}
-```
+### Step 2
+Select the appropriate workflow (see Practical Workflows below) and identify the Linear tools you will need. Confirm required identifiers (issue ID, project ID, team key) before calling tools.
 
----
+### Step 3
+Execute Linear tool calls in logical batches:
+- Read first (list/get/search) to build context.
+- Create or update next (issues, projects, labels, comments) with all required fields.
+- For bulk operations, explain the grouping logic before applying changes.
 
-## Linear API (GraphQL)
+### Step 4
+Summarize results, call out remaining gaps or blockers, and propose next actions (additional issues, label changes, assignments, or follow-up comments).
 
-Linear uses GraphQL. Base URL: `https://api.linear.app/graphql`
+## Available Tools
 
-### Authentication
+Issue Management: `list_issues`, `get_issue`, `create_issue`, `update_issue`, `list_my_issues`, `list_issue_statuses`, `list_issue_labels`, `create_issue_label`
 
-```bash
-# Personal API key (for scripts/agents)
-export LINEAR_API_KEY="lin_api_..."
+Project & Team: `list_projects`, `get_project`, `create_project`, `update_project`, `list_teams`, `get_team`, `list_users`
 
-curl -X POST https://api.linear.app/graphql \
-  -H "Authorization: $LINEAR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"query": "{ viewer { id name email } }"}'
-```
+Documentation & Collaboration: `list_documents`, `get_document`, `search_documentation`, `list_comments`, `create_comment`, `list_cycles`
 
-### Common Queries
+## Practical Workflows
 
-```graphql
-# Get current user and teams
-{
-  viewer {
-    id name email
-    teams { nodes { id name key } }
-  }
-}
+- Sprint Planning: Review open issues for a target team, pick top items by priority, and create a new cycle (e.g., "Q1 Performance Sprint") with assignments.
+- Bug Triage: List critical/high-priority bugs, rank by user impact, and move the top items to "In Progress."
+- Documentation Audit: Search documentation (e.g., API auth), then open labeled "documentation" issues for gaps or outdated sections with detailed fixes.
+- Team Workload Balance: Group active issues by assignee, flag anyone with high load, and suggest or apply redistributions.
+- Release Planning: Create a project (e.g., "v2.0 Release") with milestones (feature freeze, beta, docs, launch) and generate issues with estimates.
+- Cross-Project Dependencies: Find all "blocked" issues, identify blockers, and create linked issues if missing.
+- Automated Status Updates: Find your issues with stale updates and add status comments based on current state/blockers.
+- Smart Labeling: Analyze unlabeled issues, suggest/apply labels, and create missing label categories.
+- Sprint Retrospectives: Generate a report for the last completed cycle, note completed vs. pushed work, and open discussion issues for patterns.
 
-# List issues for a team
-query TeamIssues($teamId: String!) {
-  team(id: $teamId) {
-    issues(first: 50, filter: { state: { type: { in: [started, unstarted] } } }) {
-      nodes {
-        id identifier title priority state { name color }
-        assignee { name } labels { nodes { name } }
-      }
-    }
-  }
-}
+## Tips for Maximum Productivity
 
-# Search issues
-{
-  issueSearch(query: "authentication bug", first: 20) {
-    nodes { id identifier title state { name } priority }
-  }
-}
-```
+- Batch operations for related changes; consider smart templates for recurring issue structures.
+- Use natural queries when possible ("Show me what John is working on this week").
+- Leverage context: reference prior issues in new requests.
+- Break large updates into smaller batches to avoid rate limits; cache or reuse filters when listing frequently.
 
-### Common Mutations
+## Troubleshooting
 
-```graphql
-# Create an issue
-mutation CreateIssue($input: IssueCreateInput!) {
-  issueCreate(input: $input) {
-    success
-    issue { id identifier title url }
-  }
-}
-# Variables: { "input": { "teamId": "...", "title": "Fix auth bug", "priority": 2 } }
-
-# Update issue state
-mutation UpdateIssue($id: String!, $input: IssueUpdateInput!) {
-  issueUpdate(id: $id, input: $input) {
-    success
-    issue { id state { name } }
-  }
-}
-# Variables: { "id": "ISSUE-ID", "input": { "stateId": "STATE-ID" } }
-```
-
-### Priority Values
-
-| Priority | Value |
-|----------|-------|
-| No priority | 0 |
-| Urgent | 1 |
-| High | 2 |
-| Medium | 3 |
-| Low | 4 |
-
----
-
-## Python SDK
-
-```python
-pip install linear-python
-```
-
-The package is imported from `linear_python` and the API key is passed positionally.
-Methods take/return plain dicts (it's a thin wrapper over the GraphQL API), and `create_issue`
-only accepts `teamId`, `title`, and `description` — for richer fields (priority, labels,
-assignee) call the GraphQL API directly (see above).
-
-```python
-from linear_python import LinearClient
-
-client = LinearClient("lin_api_...")
-
-# Current user
-viewer = client.get_viewer()        # -> {"id", "name", "email"}
-
-# Teams
-teams = client.get_teams()          # -> {"nodes": [{"id", "name"}, ...]}
-
-# Create issue — data is a dict; teamId + title are required
-result = client.create_issue({
-    "teamId": "TEAM-ID",
-    "title": "Fix authentication bug",
-    "description": "Users can't log in with OAuth. See error logs.",
-})
-issue = result["issue"]             # {"id", "title", "url"}
-print(f"Created: {issue['url']}")
-
-# Get / update / delete
-client.get_issue("ISSUE-ID")
-client.update_issue("ISSUE-ID", {"title": "Updated title"})
-# delete_issue accepts a permanently_delete kwarg, but linear-python 0.2.2 does
-# not actually forward it to the API (no-op), so it's omitted here
-client.delete_issue("ISSUE-ID")
-```
-
----
-
-## Browser Automation
-
-For tasks not covered by the API (bulk drag/drop, visual project views):
-
-```bash
-# Open Linear
-agent-browser open https://linear.app
-
-# Take a snapshot to see current state
-agent-browser snapshot -i
-
-# Navigate and interact
-agent-browser click @e12    # click an element by ref
-agent-browser type @e15 "Fix auth"   # type into a field
-```
-
-See [[agent-browser]] for the full snapshot-interact workflow.
-
----
-
-## GitHub Integration
-
-Link PRs to Linear issues automatically:
-- Include issue ID in commit messages or branch names: `fix/AUTH-123-login-bug`
-- Linear auto-detects and links the PR
-- PR merge can auto-close the issue (configure in Linear → Settings → Integrations → GitHub)
-
----
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
-| **Issue** | A task, bug, or feature (has ID like `ENG-123`) |
-| **Project** | A milestone or feature grouping issues |
-| **Cycle** | Time-boxed sprint (1–4 weeks typical) |
-| **Team** | A group working on a set of projects |
-| **State** | Issue status: Backlog → In Progress → Done (customizable) |
-| **Priority** | Urgent/High/Medium/Low/No Priority |
-| **Roadmap** | High-level view across projects and quarters |
-
----
-
-## Common Workflows
-
-### Triage a backlog
-```graphql
-{
-  team(id: "TEAM-ID") {
-    issues(filter: { state: { type: { eq: backlog } }, priority: { lte: 2 } }) {
-      nodes { id identifier title priority createdAt assignee { name } }
-    }
-  }
-}
-```
-
-### Find issues without an assignee
-```graphql
-{
-  team(id: "TEAM-ID") {
-    issues(filter: { assignee: { null: true }, state: { type: { in: [started] } } }) {
-      nodes { id identifier title }
-    }
-  }
-}
-```
-
-### Get current cycle issues
-```graphql
-{
-  team(id: "TEAM-ID") {
-    activeCycle {
-      id name startsAt endsAt progress
-      issues { nodes { id identifier title state { name } assignee { name } } }
-    }
-  }
-}
-```
-
----
-
-## Related Skills
-
-- [[gh-cli]] — GitHub PRs and issues (complement to Linear for code-side tracking)
-- [[agent-browser]] — Browser automation for visual/UI tasks in Linear
-- [[github-actions-ci]] — CI/CD workflows that can update Linear issues on deploy
+- Authentication: Clear browser cookies, re-run OAuth, verify workspace permissions, ensure API access is enabled.
+- Tool Calling Errors: Confirm the model supports multiple tool calls, provide all required fields, and split complex requests.
+- Missing Data: Refresh token, verify workspace access, check for archived projects, and confirm correct team selection.
+- Performance: Remember Linear API rate limits; batch bulk operations, use specific filters, or cache frequent queries.

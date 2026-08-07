@@ -23,6 +23,7 @@ created: 2026-07-21
 - [build-parallelism](build-parallelism.md) — Diagnose and fix under-parallelized MSBuild builds
 - [build-perf-diagnostics](build-perf-diagnostics.md) — Diagnose MSBuild build performance bottlenecks using binary log analysis
 - [incremental-build](incremental-build.md) — Guide for optimizing MSBuild incremental builds
+- [start](start.md) — Use when starting Zoom work
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -1,0 +1,25 @@
+---
+title: expo-deployment
+aliases:
+  - expo deployment
+tags:
+  - skill
+status: untried
+source: expo-deployment/SKILL.md
+created: 2026-08-07
+---
+
+# expo-deployment
+
+> [!info] What it does
+> Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes
+
+**Source:** [expo-deployment/SKILL.md](expo-deployment/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

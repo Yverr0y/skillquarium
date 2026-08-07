@@ -1,127 +1,178 @@
 ---
 name: plugin-creator
-description: Scaffold a complete cave plugin bundle — generates .cave-plugin/plugin.json manifest and the standard directory structure (commands/, skills/, agents/, themes/, hooks/). Use when a user wants to create, publish, or package a cave plugin for the marketplace. Triggered by "create a plugin", "scaffold a plugin", "/plugin create", or "new cave plugin".
-allowed-tools:
-  - read
-  - write
-  - edit
-  - bash
-effort: low
+description: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new personal plugin, add optional plugin structure, or generate or update personal or repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.
 ---
 
 # Plugin Creator
 
-> [!note] Vault audit 2026-07-24 — USE-10
-> Use this to scaffold/package a whole cave plugin bundle (commands, skills, agents, themes, hooks); to author a single skill use `skill-builder` (or `autoskill` for observation-driven drafting, `clawpathy-autoresearch` for eval-driven tuning). Distinguishing axis: plugin bundle vs single-skill authoring.
+## Quick Start
 
-You scaffold new cave plugins. A cave plugin is a directory published to GitHub (or any zip URL) with a `.cave-plugin/plugin.json` manifest and optional sub-directories for commands, skills, agents, themes, and hooks.
+1. Run the scaffold script:
 
-## Manifest Schema
+```bash
+  # Plugin names are normalized to lower-case hyphen-case and must be <= 64 chars.
+  # The generated folder and plugin.json name are always the same.
+# Run from repo root (or replace .agents/... with the absolute path to this SKILL).
+# By default creates in ~/plugins/<plugin-name>.
+python3 .agents/skills/plugin-creator/scripts/create_basic_plugin.py <plugin-name>
+```
+
+2. Open `<plugin-path>/.codex-plugin/plugin.json` and replace `[TODO: ...]` placeholders.
+
+3. Generate or update the personal marketplace entry when the plugin should appear in Codex UI ordering:
+
+```bash
+# Personal marketplace entries default to ~/.agents/plugins/marketplace.json.
+python3 .agents/skills/plugin-creator/scripts/create_basic_plugin.py my-plugin --with-marketplace
+```
+
+If the current Git repo already has `.agents/plugins/marketplace.json` and the user has not said
+whether the plugin is personal or shared with their team, ask before generating a marketplace entry.
+When they choose the repo marketplace, use:
+
+```bash
+python3 .agents/skills/plugin-creator/scripts/create_basic_plugin.py my-plugin \
+  --path ./plugins \
+  --marketplace-path ./.agents/plugins/marketplace.json \
+  --with-marketplace
+```
+
+4. Generate/adjust optional companion folders as needed:
+
+```bash
+python3 .agents/skills/plugin-creator/scripts/create_basic_plugin.py my-plugin \
+  --path <parent-plugin-directory> \
+  --marketplace-path <marketplace-json-path> \
+  --with-skills --with-hooks --with-scripts --with-assets --with-mcp --with-apps --with-marketplace
+```
+
+`<parent-plugin-directory>` is the directory where the plugin folder `<plugin-name>` will be created (for example `~/code/plugins`).
+
+## What this skill creates
+
+- Default marketplace-backed scaffolds are personal: `~/plugins/<plugin-name>/` plus
+  `~/.agents/plugins/marketplace.json`.
+- If the current Git repo already has `.agents/plugins/marketplace.json` and the user has not said
+  personal vs team, ask which marketplace to update before generating a marketplace entry.
+- Creates plugin root at `/<parent-plugin-directory>/<plugin-name>/`.
+- Always creates `/<parent-plugin-directory>/<plugin-name>/.codex-plugin/plugin.json`.
+- Fills the manifest with the full schema shape, placeholder values, and the complete `interface` section.
+- Creates or updates the selected marketplace when `--with-marketplace` is set.
+  - If the marketplace file does not exist yet, seed top-level `name` plus `interface.displayName` placeholders before adding the first plugin entry.
+- `<plugin-name>` is normalized using skill-creator naming rules:
+  - `My Plugin` → `my-plugin`
+  - `My--Plugin` → `my-plugin`
+  - underscores, spaces, and punctuation are converted to `-`
+  - result is lower-case hyphen-delimited with consecutive hyphens collapsed
+- Supports optional creation of:
+  - `skills/`
+  - `hooks/`
+  - `scripts/`
+  - `assets/`
+  - `.mcp.json`
+  - `.app.json`
+
+## Marketplace workflow
+
+- Personal plugins use `~/.agents/plugins/marketplace.json`.
+- Repo/team plugins use `<repo-root>/.agents/plugins/marketplace.json`.
+- Marketplace root metadata supports top-level `name` plus optional `interface.displayName`.
+- Treat plugin order in `plugins[]` as render order in Codex. Append new entries unless a user explicitly asks to reorder the list.
+- `displayName` belongs inside the marketplace `interface` object, not individual `plugins[]` entries.
+- Each generated marketplace entry must include all of:
+  - `policy.installation`
+  - `policy.authentication`
+  - `category`
+- Default new entries to:
+  - `policy.installation: "AVAILABLE"`
+  - `policy.authentication: "ON_INSTALL"`
+- Override defaults only when the user explicitly specifies another allowed value.
+- Allowed `policy.installation` values:
+  - `NOT_AVAILABLE`
+  - `AVAILABLE`
+  - `INSTALLED_BY_DEFAULT`
+- Allowed `policy.authentication` values:
+  - `ON_INSTALL`
+  - `ON_USE`
+- Treat `policy.products` as an override. Omit it unless the user explicitly requests product gating.
+- The generated plugin entry shape is:
 
 ```json
 {
-  "name": "my-plugin",
-  "version": "0.1.0",
-  "description": "A short, clear description of what this plugin does.",
-  "author": "your-github-handle",
-  "license": "MIT",
-  "homepage": "https://github.com/your-handle/my-plugin",
-  "caveVersion": ">=0.65.0",
-  "tags": ["productivity", "git"],
-  "capabilities": {
-    "commands": true,
-    "skills": true,
-    "agents": false,
-    "themes": false,
-    "mcp": false,
-    "hooks": []
-  }
+  "name": "plugin-name",
+  "source": {
+    "source": "local",
+    "path": "./plugins/plugin-name"
+  },
+  "policy": {
+    "installation": "AVAILABLE",
+    "authentication": "ON_INSTALL"
+  },
+  "category": "Productivity"
 }
 ```
 
-### Field Rules
+- Use `--force` only when intentionally replacing an existing marketplace entry for the same plugin name.
+- If the selected marketplace file does not exist yet, create it with top-level `"name"`, an `"interface"` object containing `"displayName"`, and a `plugins` array, then add the new entry.
 
-- `name`: kebab-case, a-z0-9 and hyphens only. Must be unique in the marketplace.
-- `version`: semver ("major.minor.patch").
-- `description`: one sentence, plain text.
-- `tags`: free-form strings for `caveman plugin search` matching.
-- `capabilities.commands`: set `true` if `commands/` directory is present.
-- `capabilities.skills`: set `true` if `skills/` directory is present.
-- `capabilities.agents`: set `true` if `agents/` directory is present.
-- `capabilities.themes`: set `true` if `themes/` directory is present.
-- `capabilities.mcp`: set `true` if `.mcp.json` is present.
-- `capabilities.hooks`: array of hook entries (see below).
-
-### Hook Entry Shape
+- For a brand-new marketplace file, the root object should look like:
 
 ```json
-{ "event": "PostToolUse", "command": "hooks/post-tool-use.sh", "matcher": "Bash" }
+{
+  "name": "[TODO: marketplace-name]",
+  "interface": {
+    "displayName": "[TODO: Marketplace Display Name]"
+  },
+  "plugins": [
+    {
+      "name": "plugin-name",
+      "source": {
+        "source": "local",
+        "path": "./plugins/plugin-name"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
 ```
 
-## Directory Structure
+## Required behavior
 
-```text
-my-plugin/
-├── .cave-plugin/
-│   └── plugin.json          ← required
-├── commands/
-│   └── my-command.md        ← markdown slash commands
-├── skills/
-│   └── my-skill/
-│       └── SKILL.md         ← skill with frontmatter
-├── agents/
-│   └── my-agent.md          ← agent definition markdown
-├── themes/
-│   └── my-theme.json        ← theme JSON (cave theme format)
-├── hooks/
-│   └── post-tool-use.sh     ← hook scripts (chmod +x)
-├── .mcp.json                ← optional MCP server definitions
-└── README.md
+- Outer folder name and `plugin.json` `"name"` are always the same normalized plugin name.
+- Do not remove required structure; keep `.codex-plugin/plugin.json` present.
+- Keep manifest values as placeholders until a human or follow-up step explicitly fills them.
+- If creating files inside an existing plugin path, use `--force` only when overwrite is intentional.
+- Preserve any existing marketplace `interface.displayName`.
+- When generating marketplace entries, always write `policy.installation`, `policy.authentication`, and `category` even if their values are defaults.
+- Add `policy.products` only when the user explicitly asks for that override.
+- Keep marketplace `source.path` relative to the selected marketplace root as `./plugins/<plugin-name>`.
+- When the workflow created or updated a marketplace-backed plugin, end the final user-facing
+  response with a short Codex app handoff. Say `To view this in the Codex app:` and write
+  `View <normalized plugin name>` and `Share <normalized plugin name>` as Markdown links, not raw
+  URLs or code spans.
+- The View deeplink uses `codex://plugins/<normalized plugin name>?marketplacePath=<absolute marketplace.json path>`.
+  The Share deeplink uses the same URL with `&mode=share`.
+- Replace the placeholders with the real normalized plugin name and absolute `marketplace.json`
+  path from the scaffolded plugin. URL-encode the path segment and query value when needed.
+- Do not add `pluginName` or `hostId` query parameters to these deeplinks. Codex derives both after
+  the user clicks the link.
+- Do not emit the `View <normalized plugin name>` or `Share <normalized plugin name>` links when no marketplace entry was
+  created or updated.
+
+## Reference to exact spec sample
+
+For the exact canonical sample JSON for both plugin manifests and marketplace entries, use:
+
+- `references/plugin-json-spec.md`
+
+## Validation
+
+After editing `SKILL.md`, run:
+
+```bash
+python3 <path-to-skill-creator>/scripts/quick_validate.py .agents/skills/plugin-creator
 ```
-
-## Scaffolding Steps
-
-When the user asks to create a plugin, follow these steps:
-
-1. **Ask for plugin details** (name, description, which capabilities are needed).
-2. **Create `.cave-plugin/plugin.json`** using the schema above.
-3. **Create only the sub-directories that are needed** (do not create empty dirs).
-4. **Add placeholder files** for each enabled capability:
-   - `commands/example.md` with frontmatter `---\ndescription: Example command.\n---\n\n# Example\n\nDescribe what this command does.\n`
-   - `skills/example/SKILL.md` with the standard skill frontmatter.
-   - `agents/example.md` with agent frontmatter.
-   - `hooks/example.sh` with `#!/bin/bash\n# Hook: <event>\n` and `chmod +x`.
-5. **Create a `README.md`** with install instructions and a short description.
-6. **Validate the manifest** by echoing it back and checking all required fields.
-
-## Publishing
-
-After scaffolding, instruct the user to:
-
-1. Push the plugin to a public GitHub repository.
-2. Submit it to a marketplace by adding an entry to a `marketplace.json`:
-   ```json
-   {
-     "plugins": [
-       {
-         "ref": "your-handle/my-plugin",
-         "name": "my-plugin",
-         "description": "...",
-         "tags": ["..."],
-         "version": "0.1.0"
-       }
-     ]
-   }
-   ```
-3. Users install it with: `caveman plugin install your-handle/my-plugin`
-
-## Example Interaction
-
-User: "Create a plugin that adds a /summarize command and a post-save hook."
-
-You:
-1. Create `.cave-plugin/plugin.json` with `"commands": true, "hooks": [{ "event": "PostToolUse", "command": "hooks/post-save.sh", "matcher": "Write" }]`.
-2. Create `commands/summarize.md` with a summarize slash command description.
-3. Create `hooks/post-save.sh` with a stub hook script.
-4. Create `README.md`.
-5. Report the file tree created.

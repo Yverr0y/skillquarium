@@ -23,7 +23,7 @@ created: 2026-06-10
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [github](github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

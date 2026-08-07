@@ -23,7 +23,7 @@ created: 2026-06-10
 
 ## Related skills
 
-_None auto-detected. Add your own links here, e.g. `[scanpy](scanpy.md)`._
+- [shadcn](shadcn.md) — Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

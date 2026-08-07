@@ -20,6 +20,8 @@ created: 2026-07-21
 
 ## Related skills
 
+- [auth](auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
+- [template](template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 - [template-authoring](template-authoring.md) — Guides creation and validation of custom dotnet new templates from existing projects
 - [template-comparison](template-comparison.md) — Compares two or more dotnet new templates side by side to help users choose between them based on parameters, feature support, frameworks, and classifications
 - [template-discovery](template-discovery.md) — Helps find, inspect, and compare (at a high level) .NET project templates

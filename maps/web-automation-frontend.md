@@ -16,7 +16,7 @@ created: 2026-06-13
 
 ## Skills (48)
 
-- [agent-browser](../agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting...
+- [agent-browser](../agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, verify dev server output, test web apps, navigate pages, fill forms, click buttons, take...
 - [agentcore](../agentcore.md) — Run agent-browser on AWS Bedrock AgentCore cloud browsers
 - [algorithmic-art](../algorithmic-art.md) — Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration
 - [baseline-ui](../baseline-ui.md) — Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues
@@ -53,14 +53,14 @@ created: 2026-06-13
 - [playwright-cli](../playwright-cli.md) — Automate browser interactions, test web pages and work with Playwright tests
 - [redesign-existing-projects](../redesign-existing-projects.md) — Upgrades existing websites and apps to premium quality
 - [screenshot-cli](../screenshot-cli.md) — Use when the user's host screen must be captured — the full desktop, one monitor, or a pixel region — or when a screen capture needs cropping, resizing, rotation, flipping, format...
-- [slack](../slack.md) — Interact with Slack workspaces using browser automation
+- [slack](../slack.md) — Read Slack context, route to the right Slack workflow, and prepare or perform Slack writes that match the user's intent
 - [stitch-design-taste](../stitch-design-taste.md) — Semantic Design System Skill for Google Stitch
 - [theme-factory](../theme-factory.md) — Toolkit for styling artifacts with a theme
 - [ui-css-primitives](../ui-css-primitives.md) — Specifies CSS-level implementation primitives for UI work — OKLCH palette construction, motion duration and easing tokens, interactive and input state coverage, text-on-fill contrast...
 - [vercel-composition-patterns](../vercel-composition-patterns.md) — React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs
 - [vercel-react-best-practices](../vercel-react-best-practices.md) — React and Next.js performance optimization guidelines from Vercel Engineering
 - [vercel-react-view-transitions](../vercel-react-view-transitions.md) — Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements)
-- [vercel-sandbox](../vercel-sandbox.md) — Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app
+- [vercel-sandbox](../vercel-sandbox.md) — Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely
 - [web-artifacts-builder](../web-artifacts-builder.md) — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui)
 - [web-design-guidelines](../web-design-guidelines.md) — Review UI code for Web Interface Guidelines compliance
 - [webapp-testing](../webapp-testing.md) — Toolkit for interacting with and testing local web applications using Playwright

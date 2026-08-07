@@ -1,285 +1,81 @@
 ---
 name: slack
-description: Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or automate any Slack task. Triggers include "check my Slack", "what channels have unreads", "send a message to", "search Slack for", "extract from Slack", "find who said", or any task requiring programmatic Slack interaction.
-allowed-tools: Bash(agent-browser:*), Bash(npx agent-browser:*)
+description: Read Slack context, route to the right Slack workflow, and prepare or perform Slack writes that match the user's intent.
 ---
 
-# Slack Automation
+# Slack
 
-Interact with Slack workspaces to check messages, extract data, and automate common tasks.
+## Overview
 
-## Quick Start
+Use this skill as the router for Slack work. Read the relevant Slack context first, then hand off to the most specific Slack workflow.
+If the task will produce outgoing Slack text or perform a Slack write, switch to [../slack-outgoing-message/SKILL.md](../slack-outgoing-message/SKILL.md) before finalizing and reread that file's `## Formatting Rules` section immediately before any send, draft, schedule, or canvas creation.
 
-Connect to an existing Slack browser session or open Slack:
+## Related Skills
 
-```bash
-# Connect to existing session on port 9222 (typical for already-open Slack)
-agent-browser connect 9222
+| Workflow | Skill |
+| --- | --- |
+| Message composition, rewrites, drafts, and canvas-writing workflows | [../slack-outgoing-message/SKILL.md](../slack-outgoing-message/SKILL.md) |
+| Bounded channel recaps and thematic Slack summaries | [../slack-channel-summarization/SKILL.md](../slack-channel-summarization/SKILL.md) |
+| Daily digests across selected channels or topics | [../slack-daily-digest/SKILL.md](../slack-daily-digest/SKILL.md) |
+| Find messages that likely need a response and prepare reply drafts | [../slack-reply-drafting/SKILL.md](../slack-reply-drafting/SKILL.md) |
+| Triage for what the user needs to read, reply to, or do next | [../slack-notification-triage/SKILL.md](../slack-notification-triage/SKILL.md) |
 
-# Or open Slack if not already running
-agent-browser open https://app.slack.com
-```
+## Reference Notes
 
-Then take a snapshot to see what's available:
+| Task | Reference |
+| --- | --- |
+| Slack Markdown formatting rules and examples | [references/markdown.md](./references/markdown.md) |
 
-```bash
-agent-browser snapshot -i
-```
+## Support Checks
 
-## Core Workflow
+- Confirm the requested action is supported before asking the user for more input. If Slack does not support the action, say so immediately and offer the closest supported path instead of collecting unnecessary details.
+- For broad Slack analysis requests, fail fast if the connector cannot establish the needed coverage or signals reliably. Do not invent channel names, imply the user is in a channel, or present workspace-wide conclusions as authoritative. Ask for a candidate list, a narrower scope, or a question that can be answered from specific channels, threads, profiles, or search results.
+- The current Slack app surface here supports reading/searching channels, users, threads, and canvases plus writing messages, drafts, scheduled messages, and canvases. Do not claim support for creating channels, editing messages, deleting messages, or other unsupported Slack admin actions.
 
-1. **Connect/Navigate**: Open or connect to Slack
-2. **Snapshot**: Get interactive elements with refs (`@e1`, `@e2`, etc.)
-3. **Navigate**: Click tabs, expand sections, or navigate to specific channels
-4. **Extract/Interact**: Read data or perform actions
-5. **Screenshot**: Capture evidence of findings
+## Intent Routing
 
-```bash
-# Example: Check unread channels
-agent-browser connect 9222
-agent-browser snapshot -i
-# Look for "More unreads" button
-agent-browser click @e21  # Ref for "More unreads" button
-agent-browser screenshot slack-unreads.png
-```
+- If the user explicitly asks to send, post, reply, share, or create something in Slack, follow that write intent directly. Do not downgrade the request into a draft unless the user asked for a draft or review-first flow.
+- If the user explicitly asks for a draft, rewrite, or review-first workflow, use a draft.
+- If the user asks for Slack analysis only, return the result in chat unless they also asked for Slack delivery.
+- If the user asks for an unsupported Slack write action, say so and offer the closest supported path instead of forcing a draft.
 
-## Common Tasks
+## Tool Rate Limits
 
-### Checking Unread Messages
+- Slack tools have per-minute RPM quotas by bucket, not by individual tool. Treat `slack_search_*` tools as the search bucket, `slack_read_*`, `slack_list_*`, and lookup-style tools as the read bucket, and message, draft, schedule, or canvas creation tools as the send/write bucket.
+- If a Slack tool returns a 429, do not retry immediately and do not switch to an equivalent tool in the same bucket. If the response includes `Retry-After` or another explicit wait hint, follow it. Otherwise wait about 30 seconds before calling that bucket again.
+- If the same bucket returns another 429 during the task, wait about 1 minute before the next retry, then about 2 minutes after the next 429, continuing with exponential backoff as needed.
+- A 429 in one bucket does not imply the other buckets are exhausted. While waiting on one bucket, continue making useful progress with other buckets when that can advance the task safely.
+- If the task cannot be completed without the exhausted bucket after reasonable backoff, explain the rate limit to the user and return the best partial result or next step.
 
-```bash
-# Connect to Slack
-agent-browser connect 9222
+## DM Routing
 
-# Take snapshot to locate unreads button
-agent-browser snapshot -i
+- When the same message is meant for multiple specific people, first look for an existing group DM with the right people and prefer that over duplicate one-to-one DMs.
+- If there is no suitable group DM, do not silently fan out separate DMs. Ask whether the user wants individual DMs instead, or ask them to create the group DM if that is the better path and the connector cannot create it.
 
-# Look for:
-# - "More unreads" button (usually near top of sidebar)
-# - "Unreads" toggle in Activity tab (shows unread count)
-# - Channel names with badges/bold text indicating unreads
+## Write Safety
 
-# Navigate to Activity tab to see all unreads in one view
-agent-browser click @e14  # Activity tab (ref may vary)
-agent-browser wait 1000
-agent-browser screenshot activity-unreads.png
+- Preserve exact channel names, thread context, links, code snippets, and owners from the source conversation unless the user asks for changes.
+- Before acting on a relative message target such as "last message", "latest reply", "above", or "that message", re-read the destination channel or thread and resolve the target from fresh results. Do not reuse earlier reads for reactions, replies, edits, or other writes.
+- Treat @channel, @here, mass mentions, and customer-facing channels as high-impact. Call them out before posting.
+- Keep post-ready drafts short enough to scan quickly unless the user asks for a long-form announcement.
+- If there are multiple channels or threads with similar topics, identify the intended destination before drafting or posting.
 
-# Or check DMs tab
-agent-browser click @e13  # DMs tab
-agent-browser screenshot dms.png
-
-# Or expand "More unreads" in sidebar
-agent-browser click @e21  # More unreads button
-agent-browser wait 500
-agent-browser screenshot expanded-unreads.png
-```
-
-### Navigating to a Channel
-
-```bash
-# Search for channel in sidebar or by name
-agent-browser snapshot -i
+## Output Conventions
 
-# Look for channel name in the list (e.g., "engineering", "product-design")
-# Click on the channel treeitem ref
-agent-browser click @e94  # Example: engineering channel ref
-agent-browser wait --load networkidle
-agent-browser screenshot channel.png
-```
+- Prefer a short opener, a few tight bullets, and a clear ask or next step.
+- Use Markdown formatting rules from `references/markdown.md` for emphasis, lists, links, quotes, mentions, and code.
+- For any outgoing Slack text, use the `slack-outgoing-message` skill.
+- Distinguish clearly between a private summary for the user and a post-ready message for Slack.
+- When summarizing a thread, lead with the latest status and then list blockers, decisions, and owners.
+- When drafting a reply, match the tone of the channel and avoid over-formatting.
 
-### Finding Messages/Threads
+## Example Requests
 
-```bash
-# Use Slack search
-agent-browser snapshot -i
-agent-browser click @e5  # Search button (typical ref)
-agent-browser fill @e_search "keyword"
-agent-browser press Enter
-agent-browser wait --load networkidle
-agent-browser screenshot search-results.png
-```
+- "Summarize the incident thread in #ops and draft a calm update for leadership."
+- "Turn these meeting notes into a short Slack post for the team channel."
+- "Read the product launch thread and draft a reply that confirms the timeline."
+- "Rewrite this long update so it lands well in Slack and still keeps the important links."
 
-### Extracting Channel Information
+## Light Fallback
 
-```bash
-# Get list of all visible channels
-agent-browser snapshot --json > slack-snapshot.json
-
-# Parse for channel names and metadata
-# Look for treeitem elements with level=2 (sub-channels under sections)
-```
-
-### Checking Channel Details
-
-```bash
-# Open a channel
-agent-browser click @e_channel_ref
-agent-browser wait 1000
-
-# Get channel info (members, description, etc.)
-agent-browser snapshot -i
-agent-browser screenshot channel-details.png
-
-# Scroll through messages
-agent-browser scroll down 500
-agent-browser screenshot channel-messages.png
-```
-
-### Taking Notes/Capturing State
-
-When you need to document findings from Slack:
-
-```bash
-# Take annotated screenshot (shows element numbers)
-agent-browser screenshot --annotate slack-state.png
-
-# Take full-page screenshot
-agent-browser screenshot --full slack-full.png
-
-# Get current URL for reference
-agent-browser get url
-
-# Get page title
-agent-browser get title
-```
-
-## Sidebar Structure
-
-Understanding Slack's sidebar helps you navigate efficiently:
-
-```
-- Threads
-- Huddles
-- Drafts & sent
-- Directories
-- [Section Headers - External connections, Starred, Channels, etc.]
-  - [Channels listed as treeitems]
-- Direct Messages
-  - [DMs listed]
-- Apps
-  - [App shortcuts]
-- [More unreads] button (toggles unread channels list)
-```
-
-Key refs to look for:
-- `@e12` - Home tab (usually)
-- `@e13` - DMs tab
-- `@e14` - Activity tab
-- `@e5` - Search button
-- `@e21` - More unreads button (varies by session)
-
-## Tabs in Slack
-
-After clicking on a channel, you'll see tabs:
-- **Messages** - Channel conversation
-- **Files** - Shared files
-- **Pins** - Pinned messages
-- **Add canvas** - Collaborative canvas
-- Other tabs depending on workspace setup
-
-Click tab refs to switch views and get different information.
-
-## Extracting Data from Slack
-
-### Get Text Content
-
-```bash
-# Get a message or element's text
-agent-browser get text @e_message_ref
-```
-
-### Parse Accessibility Tree
-
-```bash
-# Full snapshot as JSON for programmatic parsing
-agent-browser snapshot --json > output.json
-
-# Look for:
-# - Channel names (name field in treeitem)
-# - Message content (in listitem/document elements)
-# - User names (button elements with user info)
-# - Timestamps (link elements with time info)
-```
-
-### Count Unreads
-
-```bash
-# After expanding unreads section:
-agent-browser snapshot -i | grep -c "treeitem"
-# Each treeitem with a channel name in the unreads section is one unread
-```
-
-## Best Practices
-
-- **Connect to existing sessions**: Use `agent-browser connect 9222` if Slack is already open. This is faster than opening a new browser.
-- **Take snapshots before clicking**: Always `snapshot -i` to identify refs before clicking buttons.
-- **Re-snapshot after navigation**: After navigating to a new channel or section, take a fresh snapshot to find new refs.
-- **Use JSON snapshots for parsing**: When you need to extract structured data, use `snapshot --json` for machine-readable output.
-- **Pace interactions**: Add `sleep 1` between rapid interactions to let the UI update.
-- **Check accessibility tree**: The accessibility tree shows what screen readers (and your automation) can see. If an element isn't in the snapshot, it may be hidden or require scrolling.
-- **Scroll in sidebar**: Use `agent-browser scroll down 300 --selector ".p-sidebar"` to scroll within the Slack sidebar if channel list is long.
-
-## Limitations
-
-- **Cannot access Slack API**: This uses browser automation, not the Slack API. No OAuth, webhooks, or bot tokens needed.
-- **Session-specific**: Screenshots and snapshots are tied to the current browser session.
-- **Rate limiting**: Slack may rate-limit rapid interactions. Add delays between commands if needed.
-- **Workspace-specific**: You interact with your own workspace -- no cross-workspace automation.
-
-## Debugging
-
-### Check console for errors
-
-```bash
-agent-browser console
-agent-browser errors
-```
-
-### Get current page state
-
-```bash
-agent-browser get url
-agent-browser get title
-agent-browser screenshot page-state.png
-```
-
-## Example: Full Unread Check
-
-```bash
-#!/bin/bash
-
-# Connect to Slack
-agent-browser connect 9222
-
-# Take initial snapshot
-echo "=== Checking Slack unreads ==="
-agent-browser snapshot -i > snapshot.txt
-
-# Check Activity tab for unreads
-agent-browser click @e14  # Activity tab
-agent-browser wait 1000
-agent-browser screenshot activity.png
-ACTIVITY_RESULT=$(agent-browser get text @e_main_area)
-echo "Activity: $ACTIVITY_RESULT"
-
-# Check DMs
-agent-browser click @e13  # DMs tab
-agent-browser wait 1000
-agent-browser screenshot dms.png
-
-# Check unread channels in sidebar
-agent-browser click @e21  # More unreads button
-agent-browser wait 500
-agent-browser snapshot -i > unreads-expanded.txt
-agent-browser screenshot unreads.png
-
-# Summary
-echo "=== Summary ==="
-echo "See activity.png, dms.png, and unreads.png for full details"
-```
-
-## References
-
-- **Slack docs**: https://slack.com/help
-- **Web experience**: https://app.slack.com
-- **Keyboard shortcuts**: Type `?` in Slack for shortcut list
+If Slack messages are missing, say that Slack access may be unavailable, the workspace may be disconnected, or the wrong channel or thread may be in scope, then ask the user to reconnect or clarify the destination.

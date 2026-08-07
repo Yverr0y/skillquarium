@@ -24,6 +24,8 @@ created: 2026-07-21
 - [filter-syntax](filter-syntax.md) — Reference data for test filter syntax across all platform and framework combinations: VSTest --filter expressions, MTP filters for MSTest/NUnit/xUnit v3/TUnit, and VSTest-to-MTP filter...
 - [platform-detection](platform-detection.md) — Reference data for detecting the test platform (VSTest vs Microsoft.Testing.Platform) and test framework (MSTest, xUnit, NUnit, TUnit) from project files
 - [run-tests](run-tests.md) — Recommend or run the exact `dotnet test` command
+- [setup](setup.md) — Verify Daloopa MCP connection and show available skills
+- [workflow](workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 
