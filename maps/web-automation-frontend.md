@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Cloud, Infra & MLOps](cloud-devops.md) | [Documents, Office & Media](documents-office.md) | [Scientific Writing, Figures & Publishing](research-writing.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [.NET & C# Development](dotnet-development.md)
 
-## Skills (47)
+## Skills (48)
 
 - [agent-browser](../agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting...
 - [agentcore](../agentcore.md) — Run agent-browser on AWS Bedrock AgentCore cloud browsers
@@ -52,6 +52,7 @@ created: 2026-06-13
 - [playwright-best-practices](../playwright-best-practices.md) — Use when writing Playwright tests, fixing flaky tests, debugging failures, implementing Page Object Model, configuring CI/CD, optimizing performance, mocking APIs, handling...
 - [playwright-cli](../playwright-cli.md) — Automate browser interactions, test web pages and work with Playwright tests
 - [redesign-existing-projects](../redesign-existing-projects.md) — Upgrades existing websites and apps to premium quality
+- [screenshot-cli](../screenshot-cli.md) — Use when the user's host screen must be captured — the full desktop, one monitor, or a pixel region — or when a screen capture needs cropping, resizing, rotation, flipping, format...
 - [slack](../slack.md) — Interact with Slack workspaces using browser automation
 - [stitch-design-taste](../stitch-design-taste.md) — Semantic Design System Skill for Google Stitch
 - [theme-factory](../theme-factory.md) — Toolkit for styling artifacts with a theme

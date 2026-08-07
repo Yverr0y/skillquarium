@@ -3477,6 +3477,15 @@
       "skillFolderHash": "dd9938367f3e6c6bce3a3873059106041cd7a005",
       "installedAt": "2026-07-29T08:40:36.012Z",
       "updatedAt": "2026-07-29T08:40:36.012Z"
+    },
+    "screenshot-cli": {
+      "source": "stanfish06/screenshot-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stanfish06/screenshot-skill.git",
+      "skillPath": "skills/screenshot-cli/SKILL.md",
+      "skillFolderHash": "f784bafb7699d86b1b1d2b4f899affab58343ae2",
+      "installedAt": "2026-08-07T14:03:31.532Z",
+      "updatedAt": "2026-08-07T14:06:47.317Z"
     }
   },
   "dismissed": {
