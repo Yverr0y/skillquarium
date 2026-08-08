@@ -1520,27 +1520,27 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/langfuse/skills.git",
       "skillPath": "skills/langfuse/SKILL.md",
-      "skillFolderHash": "6e8a980a456e9e6e93fd500410b35ba0d5e32caa",
+      "skillFolderHash": "566fee686b39f8589d991074ae34de150458f843",
       "installedAt": "2026-06-09T19:26:38.181Z",
-      "updatedAt": "2026-08-05T08:50:31.724Z"
+      "updatedAt": "2026-08-08T07:12:27.482Z"
     },
     "phoenix-cli": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-cli/SKILL.md",
-      "skillFolderHash": "58d86b51df22f25295a81d786a764fce9c78fbd0",
+      "skillFolderHash": "5aa56ec59d11bb6a9036dc8d4b66dc51b7796fca",
       "installedAt": "2026-06-09T19:26:52.824Z",
-      "updatedAt": "2026-08-06T08:51:19.938Z"
+      "updatedAt": "2026-08-08T07:12:31.386Z"
     },
     "phoenix-evals": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "8a65699cc106ffdea51cb4d94ad6364aafabb071",
+      "skillFolderHash": "94f16012fa78e9db40d0b6ea026c328616427ee7",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-08-06T08:51:24.204Z"
+      "updatedAt": "2026-08-08T07:12:35.789Z"
     },
     "figma-generate-design": {
       "source": "figma/mcp-server-guide",
