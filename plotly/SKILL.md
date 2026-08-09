@@ -1,6 +1,12 @@
 ---
 name: plotly
-description: Interactive, web-based visualization in Python. Use when you need pan/zoom/hover charts, dashboard-ready figures, interactive HTML output, or 3D plots. Covers plotly.express (high-level) and graph_objects (low-level trace/layout model), subplots, faceting, hover/legend control, and export to interactive HTML or static images. Trigger terms: "plotly", "interactive chart", "interactive plot", "dashboard chart", "hover", "plotly express". For static publication figures use matplotlib/seaborn; for viz strategy use scientific-visualization.
+description: >
+  Use when creating interactive Python visualizations with Plotly, including
+  pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D
+  plots. Trigger terms include plotly, interactive chart, interactive plot,
+  dashboard chart, hover, and plotly express. For static publication figures
+  use matplotlib or seaborn; for visualization strategy use
+  scientific-visualization.
 license: MIT
 allowed-tools:
   - Read

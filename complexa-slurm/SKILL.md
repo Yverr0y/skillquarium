@@ -1,21 +1,10 @@
 ---
 name: complexa-slurm
 description: >
-  Launch Proteina-Complexa pipelines on a remote SLURM cluster — binder search,
-  LaProteina monomer design, or multi-node distributed training. Reach for this
-  skill whenever the user says "launch on SLURM", "submit to the cluster",
-  "submit binder search to SLURM", "kick off training on the cluster",
-  "multi-node training", "cluster job", "sbatch", "remote GPU run", "complexa
-  slurm", "launch_protein_binder_search.sh", "launch_laproteina_train.sh",
-  "launch_laproteina_design_pipeline.sh", "launch on grizzly / polar",
-  "--on-cluster", "run distributed training", "sweep on SLURM", "run all
-  targets on the cluster", "kick off a multi-target binder search", "rsync to
-  cluster", "submit a singleton requeue chain", or whenever a Hydra config /
-  sweep needs to escape a single workstation. This skill drives the launcher
-  scripts under `slurm_utils/`, **always previews with `--dry-run` first**, then
-  submits, captures SLURM job IDs, and emits a replayable manifest. SLURM
-  submission costs cluster time and is hard to reverse, so the dry-run gate is
-  non-optional.
+  Use when launching Proteina-Complexa jobs on a remote SLURM cluster,
+  including binder search, LaProteina design or training, multi-node runs,
+  sbatch, remote GPU jobs, Hydra sweeps, rsync-to-cluster workflows,
+  `--on-cluster`, grizzly or polar, and singleton requeue chains.
 compatibility: "complexa CLI installed; bash 4+; .env Section 5 populated; SSH key to CLUSTER_HOST"
 allowed-tools: Bash, Read, Write, AskUserQuestion
 ---

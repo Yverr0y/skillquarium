@@ -173,6 +173,13 @@ SKILLS_CLI_VERSION="${SKILLS_CLI_VERSION:-1.5.20}"
 npx -y "skills@$SKILLS_CLI_VERSION" add . -s '*' -g
 git restore .
 
+# Some skills-cli hosts create project-style link roots inside the vault even
+# for a global install. They are generated artifacts, not source, and Pi
+# would rediscover them as project skills when run from this directory.
+for agent_root in .agents .pi agent; do
+  rm -rf -- "$agent_root"
+done
+
 restore_gstack
 
 # Clean up any stray gstack artifacts that gstack's own ./setup may leak

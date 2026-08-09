@@ -1,6 +1,11 @@
 ---
 name: molecular-docking
-description: Classical, physics-based protein-ligand docking with AutoDock Vina (and smina, plus GNINA for CNN-rescoring). Use for receptor/ligand prep (Meeko, OpenBabel, RDKit), defining the search box (center + size), running docking, interpreting affinity scores, pose analysis, virtual screening, and rescoring DiffDock poses with GNINA. Trigger terms: "docking", "AutoDock Vina", "smina", "GNINA", "protein-ligand", "virtual screening", "binding pose", "PDBQT", "dock this ligand", "rescore poses".
+description: >
+  Use when running classical protein-ligand docking with AutoDock Vina, smina,
+  or GNINA, including receptor or ligand preparation, search-box setup,
+  docking, pose analysis, virtual screening, affinity scoring, or GNINA
+  rescoring of DiffDock poses. Trigger terms include docking, PDBQT, binding
+  pose, and protein-ligand.
 license: MIT
 metadata: {"version": "1.0", "skill-author": "vault-audit"}
 ---
