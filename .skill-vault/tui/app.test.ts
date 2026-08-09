@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, test } from "bun:test"
-import { type BoxRenderable, type ScrollBoxRenderable } from "@opentui/core"
+import { type BoxRenderable, type ScrollBoxRenderable, type TextRenderable } from "@opentui/core"
 import { createTestRenderer, type TestRendererSetup } from "@opentui/core/testing"
 
 import { SkillToggleApp, filterSkills, fuzzyScore } from "./app"
@@ -131,10 +131,44 @@ describe("OpenTUI interaction", () => {
     const firstRow = setup.renderer.root.findDescendantById("skill-skill-00") as BoxRenderable
     expect(list.scrollTop).toBe(0)
     expect(list.scrollHeight).toBeGreaterThan(list.height)
-    await setup.mockMouse.scroll(firstRow.screenX + 5, firstRow.screenY, "down")
+    for (let index = 0; index < 20; index++) {
+      await setup.mockMouse.scroll(firstRow.screenX + 5, firstRow.screenY, "down")
+    }
     await setup.renderOnce()
 
     expect(list.scrollTop).toBeGreaterThan(0)
+  })
+
+  test("keeps keyboard focus in sync with mouse wheel scrolling", async () => {
+    const catalog: Catalog = {
+      skills: [
+        makeSkill("agent-browser"),
+        makeSkill("ai-elements"),
+        ...Array.from({ length: 78 }, (_, index) =>
+          makeSkill(`skill-${String(index).padStart(2, "0")}`),
+        ),
+      ],
+      categories: ["software-dev"],
+    }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 24 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    const focusedRow = setup.renderer.root.findDescendantById("skill-agent-browser") as BoxRenderable
+    const detail = setup.renderer.root.findDescendantById("detail-text") as TextRenderable
+
+    expect(detail.content.chunks.map((chunk) => chunk.text).join("")).toStartWith("agent-browser")
+    await setup.mockMouse.scroll(focusedRow.screenX + 5, focusedRow.screenY, "down")
+    await setup.renderOnce()
+
+    expect(detail.content.chunks.map((chunk) => chunk.text).join("")).toStartWith("ai-elements")
+
+    const nextRow = setup.renderer.root.findDescendantById("skill-ai-elements") as BoxRenderable
+    await setup.mockMouse.scroll(nextRow.screenX + 5, nextRow.screenY, "up")
+    await setup.renderOnce()
+
+    expect(detail.content.chunks.map((chunk) => chunk.text).join("")).toStartWith("agent-browser")
   })
 
   test("keeps pane widths stable and table columns aligned across detail lengths", async () => {

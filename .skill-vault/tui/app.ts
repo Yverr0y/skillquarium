@@ -578,7 +578,7 @@ export class SkillToggleApp {
           if (direction !== "up" && direction !== "down") return
           event.stopPropagation()
           const distance = Math.max(1, Math.round(event.scroll?.delta ?? 1))
-          this.list.scrollBy(direction === "down" ? distance : -distance)
+          this.moveSelection(direction === "down" ? distance : -distance)
         },
       })
       row.add(
