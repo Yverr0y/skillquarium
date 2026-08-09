@@ -32,6 +32,7 @@ const NAME_COLUMN_GROW = 3
 const CATEGORY_COLUMN_GROW = 2
 const NAME_COLUMN_MIN_WIDTH = 14
 const CATEGORY_COLUMN_MIN_WIDTH = 12
+const MARK_COLUMN_WIDTH = 5
 const PRODUCT_COLUMN_WIDTH = 9
 
 export const STATUS_FILTERS = [
@@ -148,6 +149,7 @@ export class SkillToggleApp {
   private categories: string[]
   private filtered: SkillRecord[] = []
   private selectedKey: string | null = null
+  private readonly markedKeys = new Set<string>()
   private busy = false
   private resetArmedAt = 0
 
@@ -329,6 +331,16 @@ export class SkillToggleApp {
     })
     columns.add(
       this.tableCell(
+        "column-mark",
+        "Mark",
+        COLORS.muted,
+        undefined,
+        undefined,
+        MARK_COLUMN_WIDTH,
+      ),
+    )
+    columns.add(
+      this.tableCell(
         "column-name",
         "Skill",
         COLORS.muted,
@@ -417,7 +429,7 @@ export class SkillToggleApp {
     footer.add(
       new TextRenderable(renderer, {
         id: "shortcuts",
-        content: "/ search   ↑↓ move   C Claude   X Codex   Space both   F status   G category   Ctrl-S/R/P   Q quit",
+        content: "/ search   ↑↓ move   M mark   C Claude   X Codex   Space both   F status   G category   Ctrl-S/R/P   Q quit",
         fg: COLORS.muted,
         height: 1,
       }),
@@ -521,6 +533,7 @@ export class SkillToggleApp {
       this.statusFilter,
       this.categoryFilter,
     )
+    this.retainVisibleMarks()
     if (!this.selectedKey || !this.filtered.some((skill) => skill.key === this.selectedKey)) {
       this.selectedKey = this.filtered[0]?.key ?? null
     }
@@ -528,6 +541,13 @@ export class SkillToggleApp {
     this.updateFilterLabels()
     this.updateSummary()
     this.updateDetail()
+  }
+
+  private retainVisibleMarks(): void {
+    const visible = new Set(this.filtered.map((skill) => skill.key))
+    for (const key of this.markedKeys) {
+      if (!visible.has(key)) this.markedKeys.delete(key)
+    }
   }
 
   private rebuildRows(): void {
@@ -561,6 +581,16 @@ export class SkillToggleApp {
           this.list.scrollBy(direction === "down" ? distance : -distance)
         },
       })
+      row.add(
+        this.tableCell(
+          `mark-${skill.key}`,
+          this.markedKeys.has(skill.key) ? "[x]" : "[ ]",
+          this.markedKeys.has(skill.key) ? COLORS.accent : COLORS.muted,
+          undefined,
+          undefined,
+          MARK_COLUMN_WIDTH,
+        ),
+      )
       row.add(
         this.tableCell(
           `name-${skill.key}`,
@@ -603,7 +633,7 @@ export class SkillToggleApp {
         event.stopPropagation()
         this.search.blur()
         this.selectKey(skill.key)
-        void this.toggleProduct(skill.key, product)
+        void this.toggleProduct(product, skill.key)
       },
       onMouseOver: () => {
         box.backgroundColor = COLORS.selected
@@ -654,7 +684,7 @@ export class SkillToggleApp {
     const enabled = this.catalogData.skills.filter((skill) => skill.state === "enabled").length
     const disabled = this.catalogData.skills.filter((skill) => skill.state === "disabled").length
     const mixed = this.catalogData.skills.filter((skill) => skill.state === "mixed").length
-    this.summary.content = `${this.filtered.length}/${total} shown   ${enabled} enabled   ${disabled} disabled   ${mixed} mixed`
+    this.summary.content = `${this.filtered.length}/${total} shown   ${enabled} enabled   ${disabled} disabled   ${mixed} mixed   ${this.markedKeys.size} marked`
   }
 
   private updateFilterLabels(): void {
@@ -697,25 +727,55 @@ export class SkillToggleApp {
     return this.catalogData.skills.find((skill) => skill.key === this.selectedKey)
   }
 
-  private async toggleProduct(key: string, product: Product): Promise<void> {
-    if (this.busy) return
-    const skill = this.catalogData.skills.find((candidate) => candidate.key === key)
+  private toggleMark(): void {
+    const skill = this.selectedSkill()
     if (!skill || skill.error) {
-      this.setMessage(skill?.error || "Cannot change this skill")
+      this.setMessage(skill?.error || "Cannot mark this skill")
       return
     }
-    const enabled =
-      product === "both"
-        ? skill.state !== "enabled"
-        : product === "claude"
-          ? !skill.claude_enabled
-          : !skill.codex_enabled
+    if (this.markedKeys.has(skill.key)) this.markedKeys.delete(skill.key)
+    else this.markedKeys.add(skill.key)
+    this.rebuildRows()
+    this.updateSummary()
+    this.list.scrollChildIntoView(`skill-${skill.key}`)
+  }
+
+  private toggleTargets(): SkillRecord[] {
+    const keys =
+      this.markedKeys.size > 0
+        ? this.markedKeys
+        : new Set(this.selectedKey ? [this.selectedKey] : [])
+    return this.catalogData.skills.filter((skill) => keys.has(skill.key) && !skill.error)
+  }
+
+  private productIsEnabled(skill: SkillRecord, product: Product): boolean {
+    if (product === "both") {
+      return skill.claude_enabled === true && skill.codex_enabled === true
+    }
+    return product === "claude"
+      ? skill.claude_enabled === true
+      : skill.codex_enabled === true
+  }
+
+  private async toggleProduct(product: Product, singleKey?: string): Promise<void> {
+    if (this.busy) return
+    const targets = singleKey
+      ? this.catalogData.skills.filter((skill) => skill.key === singleKey && !skill.error)
+      : this.toggleTargets()
+    if (targets.length === 0) {
+      const selected = this.selectedSkill()
+      this.setMessage(selected?.error || "No changeable skills selected")
+      return
+    }
+    const enabled = !targets.every((skill) => this.productIsEnabled(skill, product))
+    const keys = targets.map((skill) => skill.key)
+    const noun = keys.length === 1 ? "skill" : "skills"
     this.busy = true
-    this.setMessage(`Updating ${skill.key} for ${product}…`)
+    this.setMessage(`Updating ${keys.length} ${noun} for ${product}…`)
     try {
-      await this.backend.setProduct(key, product, enabled)
+      await this.backend.setProducts(keys, product, enabled)
       await this.refreshCatalog()
-      this.setMessage(`${skill.key}: ${product} ${enabled ? "enabled" : "disabled"}`)
+      this.setMessage(`${product} ${enabled ? "enabled" : "disabled"} for ${keys.length} ${noun}`)
     } catch (error) {
       this.setMessage(`Error: ${error instanceof Error ? error.message : String(error)}`)
     } finally {
@@ -832,18 +892,19 @@ export class SkillToggleApp {
         this.moveSelection(this.filtered.length)
         return
       case "space": {
-        const skill = this.selectedSkill()
-        if (skill) void this.toggleProduct(skill.key, "both")
+        void this.toggleProduct("both")
         return
       }
       case "c": {
-        const skill = this.selectedSkill()
-        if (skill) void this.toggleProduct(skill.key, "claude")
+        void this.toggleProduct("claude")
         return
       }
       case "x": {
-        const skill = this.selectedSkill()
-        if (skill) void this.toggleProduct(skill.key, "codex")
+        void this.toggleProduct("codex")
+        return
+      }
+      case "m": {
+        this.toggleMark()
         return
       }
       case "f":

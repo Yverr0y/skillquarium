@@ -98,8 +98,8 @@ category controls to cycle filters; Ctrl-click cycles backward. Reset returns bo
 
 Keyboard controls:
 
-- `/` focuses search; arrows or `J`/`K` move through results.
-- `C` toggles Claude Code, `X` toggles Codex, and Space toggles both.
+- `/` focuses search; arrows or `J`/`K` move through results; `M` marks or unmarks the current row.
+- `C` toggles Claude Code, `X` toggles Codex, and Space toggles both for all marked rows. With no marks, they affect only the current row. A mixed batch is normalized on; a fully enabled batch is normalized off.
 - `F` cycles status filters; `G` cycles categories. Shift reverses either cycle.
 - Ctrl-S saves all states; Ctrl-R reloads them; Ctrl-P performs the guarded pre-commit reset.
 - `Q` or Esc quits when search is not focused.

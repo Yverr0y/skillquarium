@@ -21,7 +21,7 @@ export interface Catalog {
 
 export interface SkillBackend {
   catalog(): Promise<Catalog>
-  setProduct(key: string, product: Product, enabled: boolean): Promise<void>
+  setProducts(keys: string[], product: Product, enabled: boolean): Promise<void>
   saveSnapshot(): Promise<string>
   loadSnapshot(): Promise<string>
   preCommitReset(): Promise<string>
@@ -58,8 +58,8 @@ export class PythonSkillBackend implements SkillBackend {
     return value as Catalog
   }
 
-  async setProduct(key: string, product: Product, enabled: boolean): Promise<void> {
-    await this.run(enabled ? "enable" : "disable", "--product", product, key)
+  async setProducts(keys: string[], product: Product, enabled: boolean): Promise<void> {
+    await this.run(enabled ? "enable" : "disable", "--product", product, ...keys)
   }
 
   saveSnapshot(): Promise<string> {

@@ -25,7 +25,7 @@ function makeSkill(
 }
 
 class FakeBackend implements SkillBackend {
-  calls: Array<{ key: string; product: Product; enabled: boolean }> = []
+  calls: Array<{ keys: string[]; product: Product; enabled: boolean }> = []
 
   constructor(readonly data: Catalog) {}
 
@@ -33,18 +33,20 @@ class FakeBackend implements SkillBackend {
     return structuredClone(this.data)
   }
 
-  async setProduct(key: string, product: Product, enabled: boolean): Promise<void> {
-    this.calls.push({ key, product, enabled })
-    const skill = this.data.skills.find((candidate) => candidate.key === key)
-    if (!skill) throw new Error(`unknown skill ${key}`)
-    if (product === "both" || product === "claude") skill.claude_enabled = enabled
-    if (product === "both" || product === "codex") skill.codex_enabled = enabled
-    skill.state =
-      skill.claude_enabled && skill.codex_enabled
-        ? "enabled"
-        : !skill.claude_enabled && !skill.codex_enabled
-          ? "disabled"
-          : "mixed"
+  async setProducts(keys: string[], product: Product, enabled: boolean): Promise<void> {
+    this.calls.push({ keys, product, enabled })
+    for (const key of keys) {
+      const skill = this.data.skills.find((candidate) => candidate.key === key)
+      if (!skill) throw new Error(`unknown skill ${key}`)
+      if (product === "both" || product === "claude") skill.claude_enabled = enabled
+      if (product === "both" || product === "codex") skill.codex_enabled = enabled
+      skill.state =
+        skill.claude_enabled && skill.codex_enabled
+          ? "enabled"
+          : !skill.claude_enabled && !skill.codex_enabled
+            ? "disabled"
+            : "mixed"
+    }
   }
 
   async saveSnapshot(): Promise<string> {
@@ -112,7 +114,7 @@ describe("OpenTUI interaction", () => {
     await setup.mockMouse.click(cell.screenX + 1, cell.screenY)
     await setup.waitFor(() => backend.calls.length === 1)
 
-    expect(backend.calls).toEqual([{ key: "alpha", product: "claude", enabled: false }])
+    expect(backend.calls).toEqual([{ keys: ["alpha"], product: "claude", enabled: false }])
   })
 
   test("scrolls a long skill list with the mouse wheel", async () => {
@@ -158,8 +160,10 @@ describe("OpenTUI interaction", () => {
     const frame = setup.captureCharFrame()
     expect(frame).not.toContain("▲")
     expect(frame).not.toContain("▼")
+    expect(frame).toContain("[ ]")
 
     for (const [headerId, rowId] of [
+      ["column-mark", "mark-a-short-skill"],
       ["column-name", "name-a-short-skill"],
       ["column-category", "category-a-short-skill"],
       ["column-claude", "claude-a-short-skill"],
@@ -172,8 +176,10 @@ describe("OpenTUI interaction", () => {
 
     const longRow = setup.renderer.root.findDescendantById("skill-z-long-skill") as BoxRenderable
     await setup.mockMouse.click(longRow.screenX + 1, longRow.screenY)
+    setup.mockInput.pressKey("m")
     await setup.renderOnce()
 
+    expect(setup.captureCharFrame()).toContain("[x]")
     expect([listPanel.width, detailPanel.width]).toEqual(initialWidths)
   })
 
@@ -206,5 +212,120 @@ describe("OpenTUI interaction", () => {
     const resetFrame = setup.captureCharFrame()
     expect(resetFrame).toContain("Status: all")
     expect(resetFrame).toContain("Category: all")
+  })
+
+  test("marks rows with M and normalizes a mixed Claude batch", async () => {
+    const catalog: Catalog = {
+      skills: [
+        makeSkill("alpha", "software-dev", true, true),
+        makeSkill("beta", "science", false, true),
+      ],
+      categories: ["science", "software-dev"],
+    }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 28 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    setup.mockInput.pressEnter()
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressArrow("down")
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressKey("c")
+    await setup.waitFor(() => backend.calls.length === 1)
+
+    expect(backend.calls).toEqual([
+      { keys: ["alpha", "beta"], product: "claude", enabled: true },
+    ])
+  })
+
+  test("normalizes a fully enabled marked group off for both products", async () => {
+    const catalog: Catalog = {
+      skills: [makeSkill("alpha"), makeSkill("beta")],
+      categories: ["software-dev"],
+    }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 28 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    setup.mockInput.pressEnter()
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressArrow("down")
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressKey(" ")
+    await setup.waitFor(() => backend.calls.length === 1)
+
+    expect(backend.calls).toEqual([
+      { keys: ["alpha", "beta"], product: "both", enabled: false },
+    ])
+  })
+
+  test("normalizes a mixed Codex batch on", async () => {
+    const catalog: Catalog = {
+      skills: [
+        makeSkill("alpha", "software-dev", true, true),
+        makeSkill("beta", "software-dev", true, false),
+      ],
+      categories: ["software-dev"],
+    }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 28 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    setup.mockInput.pressEnter()
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressArrow("down")
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressKey("x")
+    await setup.waitFor(() => backend.calls.length === 1)
+
+    expect(backend.calls).toEqual([
+      { keys: ["alpha", "beta"], product: "codex", enabled: true },
+    ])
+  })
+
+  test("drops marks hidden by a filter before batch toggling", async () => {
+    const catalog: Catalog = {
+      skills: [makeSkill("alpha"), makeSkill("beta", "software-dev", false, false)],
+      categories: ["software-dev"],
+    }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 28 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    setup.mockInput.pressEnter()
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressArrow("down")
+    setup.mockInput.pressKey("m")
+    setup.mockInput.pressKey("f")
+    setup.mockInput.pressKey("c")
+    await setup.waitFor(() => backend.calls.length === 1)
+
+    expect(backend.calls).toEqual([
+      { keys: ["alpha"], product: "claude", enabled: false },
+    ])
+  })
+
+  test("does not mark skills with catalog errors", async () => {
+    const broken = makeSkill("broken")
+    broken.claude_enabled = null
+    broken.codex_enabled = null
+    broken.state = "error"
+    broken.error = "invalid metadata"
+    const catalog: Catalog = { skills: [broken], categories: ["software-dev"] }
+    const backend = new FakeBackend(catalog)
+    setup = await createTestRenderer({ width: 140, height: 28 })
+    new SkillToggleApp(setup.renderer, backend, await backend.catalog())
+    await setup.renderOnce()
+
+    setup.mockInput.pressEnter()
+    setup.mockInput.pressKey("m")
+    await setup.renderOnce()
+
+    expect(setup.captureCharFrame()).toContain("0 marked")
+    expect(backend.calls).toEqual([])
   })
 })

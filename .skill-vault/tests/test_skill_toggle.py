@@ -170,6 +170,30 @@ class SkillToggleTests(unittest.TestCase):
         )
         self.assertTrue((directory / "agents/openai.yaml").exists())
 
+    def test_cli_changes_multiple_skills_in_one_command(self):
+        alpha = make_skill(self.root, "alpha")
+        beta = make_skill(self.root, "beta")
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(MODULE_PATH),
+                "--root",
+                str(self.root),
+                "disable",
+                "--product",
+                "codex",
+                "alpha",
+                "beta",
+            ],
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertFalse(skill_toggle.load_skill(alpha).codex_enabled)
+        self.assertFalse(skill_toggle.load_skill(beta).codex_enabled)
+
     def test_snapshot_round_trip_restores_both_products(self):
         directory = make_skill(self.root, "snapshot")
         snapshot = skill_toggle.save_snapshot(self.root)
