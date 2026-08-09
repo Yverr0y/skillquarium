@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "saved_at": "2026-08-09T04:57:56.900132+00:00",
+  "saved_at": "2026-08-09T05:05:15.199129+00:00",
   "root": "/Users/stan/.agents/skills",
   "skills": {
     "academic-paper": {
@@ -728,39 +728,39 @@
       "codex_enabled": true
     },
     "build-zoom-bot": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-contact-center-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-meeting-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-meeting-sdk-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-phone-integration": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-rest-api-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-team-chat-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-video-sdk-app": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "build-zoom-virtual-agent": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "building-ai-agent-on-cloudflare": {
@@ -825,7 +825,7 @@
     },
     "canvas2d-data-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "capital-allocation": {
       "claude_enabled": false,
@@ -1004,7 +1004,7 @@
       "codex_enabled": false
     },
     "choose-zoom-approach": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "chromatin-biologist": {
@@ -1529,7 +1529,7 @@
     },
     "dashboards-and-real-time-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "dask": {
       "claude_enabled": true,
@@ -1576,11 +1576,11 @@
       "codex_enabled": true
     },
     "debug-zoom": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "debug-zoom-integration": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "debugging-and-error-recovery": {
@@ -2728,11 +2728,11 @@
       "codex_enabled": true
     },
     "grill-me": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "grill-with-docs": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "grilling": {
@@ -4800,11 +4800,11 @@
       "codex_enabled": true
     },
     "plan-zoom-integration": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "plan-zoom-product": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "planetary-geologist": {
@@ -5760,15 +5760,15 @@
       "codex_enabled": true
     },
     "setup-zoom-oauth": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "setup-zoom-webhooks": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "setup-zoom-websockets": {
-      "claude_enabled": true,
+      "claude_enabled": false,
       "codex_enabled": false
     },
     "seurat": {
@@ -6033,7 +6033,7 @@
     },
     "start": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "statistical-analysis": {
       "claude_enabled": true,
@@ -6745,7 +6745,7 @@
     },
     "ui-toolkit": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "ukb-navigator": {
       "claude_enabled": true,
