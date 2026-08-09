@@ -34,7 +34,8 @@ created: 2026-08-07
 - [exp-mock-usage-analysis](exp-mock-usage-analysis.md) — Audits .NET test mock usage by tracing each mock setup through the production code's execution path to find dead, unreachable, redundant, or replaceable mocks
 - [exp-test-maintainability](exp-test-maintainability.md) — Detects duplicate boilerplate, copy-paste tests, and structural maintainability issues across .NET test suites
 - [generate-testability-wrappers](generate-testability-wrappers.md) — Generate wrapper interfaces and DI registration for hard-to-test static dependencies in C#, when the abstraction does NOT exist yet
-- [heygen-video](heygen-video.md) — Generate HeyGen presenter videos via the v3 Video Agent pipeline — handles Frame Check (aspect ratio correction), prompt engineering, avatar resolution, and voice selection
+- [heygen-avatar](heygen-avatar.md) — Use when creating or configuring a persistent HeyGen avatar or digital twin for the agent, the user, or a named presenter, including prompt-based avatar creation, photo-based identity...
+- [heygen-video](heygen-video.md) — Use when generating a HeyGen presenter video, personalized video message, talking-head explainer, tutorial, product demo, video pitch, or avatar-led update
 - [huggingface-jobs](huggingface-jobs.md) — This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure
 - [huggingface-llm-trainer](huggingface-llm-trainer.md) — This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure
 - [lamindb](lamindb.md) — Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models
@@ -43,6 +44,7 @@ created: 2026-08-07
 - [maui-shell-navigation](maui-shell-navigation.md) — Guide for implementing Shell-based navigation in .NET MAUI apps
 - [mcp-csharp-debug](mcp-csharp-debug.md) — Run and debug C# MCP servers locally. Covers IDE configuration, MCP Inspector testing, GitHub Copilot Agent Mode integration, logging setup, and troubleshooting
 - [microbenchmarking](microbenchmarking.md) — Activate this skill when BenchmarkDotNet (BDN) is involved in the task — creating, running, configuring, or reviewing BDN benchmarks
+- [molecular-docking](molecular-docking.md) — Use when running classical protein-ligand docking with AutoDock Vina, smina, or GNINA, including receptor or ligand preparation, search-box setup, docking, pose analysis, virtual...
 - [mtp-hot-reload](mtp-hot-reload.md) — Suggests using Microsoft Testing Platform (MTP) hot reload to iterate fixes on failing tests without rebuilding
 - [nemoclaw-user-get-started](nemoclaw-user-get-started.md) — Installs NemoClaw, launches a sandbox, and runs the first agent prompt
 - [netlify-ai-gateway](netlify-ai-gateway.md) — Guide for using Netlify AI Gateway to access AI models

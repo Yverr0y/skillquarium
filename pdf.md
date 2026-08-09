@@ -35,6 +35,7 @@ created: 2026-06-09
 - [report-template](report-template.md) — Publication-quality PDF report generation using Typst templates
 - [sec-report](sec-report.md) — SEC (size-exclusion chromatography) analysis with peak detection, oligomer classification, and publication-quality PDF report generation via Typst templates
 - [treatment-plans](treatment-plans.md) — Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties
+- [twilio-enterprise-knowledge](twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
 - [wes-clinical-report-en](wes-clinical-report-en.md) — Generates professional clinical PDF reports in English from WES (Whole Exome Sequencing) data with clinical interpretation summary, pharmacogenomic alerts, and follow-up recommendations
 - [wes-clinical-report-es](wes-clinical-report-es.md) — Generates professional clinical PDF reports in Spanish from WES (Whole Exome Sequencing) data with clinical interpretation, pharmacogenomic alerts, and follow-up recommendations
 

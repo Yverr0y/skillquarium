@@ -24,7 +24,7 @@ created: 2026-06-09
 - [mixpanel-headless-setup](mixpanel-headless-setup.md) — This skill installs mixpanel_headless, pandas, numpy, matplotlib, seaborn, networkx, anytree, scipy (and pyarrow on Python 3.11+), then verifies Mixpanel credentials
 - [nature-figure](nature-figure.md) — Create, revise, audit, and export submission-grade scientific figures for Nature-family and other high-impact venues in Python (matplotlib/seaborn) or R...
 - [pandas](pandas.md) — The workhorse library for in-memory tabular data in Python
-- [plotly](plotly.md) — Interactive, web-based visualization in Python
+- [plotly](plotly.md) — Use when creating interactive Python visualizations with Plotly, including pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D plots
 - [scientific-visualization](scientific-visualization.md) — Meta-skill for publication-ready figures
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

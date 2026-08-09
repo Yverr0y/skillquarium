@@ -34,7 +34,7 @@ created: 2026-06-13
 - [pandas](../pandas.md) — The workhorse library for in-memory tabular data in Python
 - [pandera-validation](../pandera-validation.md) — DataFrame schema validation using pandera
 - [paraview](../paraview.md) — ParaView scientific visualization for volume data and meshes
-- [plotly](../plotly.md) — Interactive, web-based visualization in Python
+- [plotly](../plotly.md) — Use when creating interactive Python visualizations with Plotly, including pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D plots
 - [polars](../polars.md) — High-performance DataFrame library for Python ETL, analytics, and pandas migration
 - [pymc](../pymc.md) — Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference
 - [pymoo](../pymoo.md) — Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems

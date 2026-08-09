@@ -18,7 +18,7 @@ created: 2026-08-07
 
 ## Related skills
 
-- [twilio-enterprise-knowledge](twilio-enterprise-knowledge.md) — Add knowledge retrieval to AI agents using Twilio's Enterprise Knowledge product
+- [twilio-enterprise-knowledge](twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -18,7 +18,7 @@ created: 2026-08-07
 
 ## Related skills
 
-- [plotly](plotly.md) — Interactive, web-based visualization in Python
+- [plotly](plotly.md) — Use when creating interactive Python visualizations with Plotly, including pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D plots
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

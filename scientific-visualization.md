@@ -24,7 +24,7 @@ created: 2026-06-09
 - [bulk-rnaseq](bulk-rnaseq.md) — End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads through QC and trimming (FastQC, fastp/Trim Galore), alignment and quantification (STAR, Salmon, featureCounts), assembles...
 - [cns-plot](cns-plot.md) — Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns
 - [matplotlib](matplotlib.md) — Low-level plotting library for full customization
-- [plotly](plotly.md) — Interactive, web-based visualization in Python
+- [plotly](plotly.md) — Use when creating interactive Python visualizations with Plotly, including pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D plots
 - [seaborn](seaborn.md) — Statistical visualization with pandas integration
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

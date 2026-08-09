@@ -441,8 +441,8 @@ _1313 tool skills. The 504 expert-persona entries (discipline profiles + the sci
 - [guidance-tracker](guidance-tracker.md) — Track management guidance accuracy over time for a given company
 - [gwas-catalog-skill](gwas-catalog-skill.md) — Submit compact GWAS Catalog REST API v2 requests for studies, associations, SNPs, EFO traits, genes, publications, loci, and metadata
 - [hex](hex.md) — Search Hex projects and ask Hex Threads questions
-- [heygen-avatar](heygen-avatar.md) — Create a persistent HeyGen avatar — a reusable face + voice identity for the agent, the user, or any named character — powered by HeyGen Avatar V technology
-- [heygen-video](heygen-video.md) — Generate HeyGen presenter videos via the v3 Video Agent pipeline — handles Frame Check (aspect ratio correction), prompt engineering, avatar resolution, and voice selection
+- [heygen-avatar](heygen-avatar.md) — Use when creating or configuring a persistent HeyGen avatar or digital twin for the agent, the user, or a named presenter, including prompt-based avatar creation, photo-based identity...
+- [heygen-video](heygen-video.md) — Use when generating a HeyGen presenter video, personalized video message, talking-head explainer, tutorial, product demo, video pitch, or avatar-led update
 - [hmdb-skill](hmdb-skill.md) — Submit compact HMDB search requests for metabolites, proteins, diseases, and pathways
 - [hubspot](hubspot.md) — Use when working with HubSpot CRM records to search, summarize, create, update, associate, or analyze objects and properties
 - [hubspot-crm-data-hygiene](hubspot-crm-data-hygiene.md) — Use when auditing HubSpot data quality for missing fields, stale records, duplicates, associations, owners, or cleanup tasks
@@ -725,7 +725,7 @@ _1313 tool skills. The 504 expert-persona entries (discipline profiles + the sci
 - [twilio-debugging-observability](twilio-debugging-observability.md) — Debug Twilio integrations and set up production observability
 - [twilio-email-deliverability-advisor](twilio-email-deliverability-advisor.md) — Deliverability advisor for the Twilio Email API specifically
 - [twilio-email-send](twilio-email-send.md) — Use when the caller has Twilio credentials (Account SID + Auth Token or API Key SID + Secret) and needs to send email via comms.twilio.com/v1/Emails
-- [twilio-enterprise-knowledge](twilio-enterprise-knowledge.md) — Add knowledge retrieval to AI agents using Twilio's Enterprise Knowledge product
+- [twilio-enterprise-knowledge](twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
 - [twilio-iam-auth-setup](twilio-iam-auth-setup.md) — Set up and manage Twilio authentication credentials: Auth Tokens, API keys (Standard, Main, Restricted), Access Tokens for client-side SDKs, and credential rotation
 - [twilio-identity-verification-advisor](twilio-identity-verification-advisor.md) — Planning skill for identity verification and fraud prevention
 - [twilio-isv-sms-best-practices](twilio-isv-sms-best-practices.md) — Best practices for ISVs (Independent Software Vendors) building SMS features into multi-tenant SaaS platforms using Twilio

@@ -23,7 +23,7 @@ created: 2026-06-13
 - [complexa-design](../complexa-design.md) — End-to-end Proteina-Complexa design pipeline driver
 - [complexa-evaluate-pdbs](../complexa-evaluate-pdbs.md) — Standalone evaluation of an existing PDB directory with Proteina-Complexa
 - [complexa-setup](../complexa-setup.md) — First-time setup, environment configuration, and model-weight installation for Proteina-Complexa
-- [complexa-slurm](../complexa-slurm.md) — Launch Proteina-Complexa pipelines on a remote SLURM cluster — binder search, LaProteina monomer design, or multi-node distributed training
+- [complexa-slurm](../complexa-slurm.md) — Use when launching Proteina-Complexa jobs on a remote SLURM cluster, including binder search, LaProteina design or training, multi-node runs, sbatch, remote GPU jobs, Hydra sweeps...
 - [complexa-sweep](../complexa-sweep.md) — Use this skill whenever the user wants to run a parameter sweep over a Proteina-Complexa design pipeline — cartesian-product hyperparameter scans, Pareto search over...
 - [complexa-target](../complexa-target.md) — Use this skill whenever the user wants to add, register, edit, list, show, or validate a Proteina-Complexa design target for any pipeline — protein binder (default), ligand binder, or...
 - [crispr-screen-triage](../crispr-screen-triage.md) — Deterministic CRISPR screen hit ranking from local guide-level count tables
@@ -45,7 +45,7 @@ created: 2026-06-13
 - [kermt-pretrain-scratch](../kermt-pretrain-scratch.md) — Pretrain a fresh KERMT model from scratch on a user-provided corpus
 - [kermt-setup](../kermt-setup.md) — Bootstrap the KERMT agent environment — verify host docker + nvidia-container-toolkit, build the kermt:latest image from the repo's Dockerfile if it doesn't yet exist, and run a GPU...
 - [medchem](../medchem.md) — Medicinal chemistry filters for compound triage
-- [molecular-docking](../molecular-docking.md) — Classical, physics-based protein-ligand docking with AutoDock Vina (and smina, plus GNINA for CNN-rescoring)
+- [molecular-docking](../molecular-docking.md) — Use when running classical protein-ligand docking with AutoDock Vina, smina, or GNINA, including receptor or ligand preparation, search-box setup, docking, pose analysis, virtual...
 - [molecular-dynamics](../molecular-dynamics.md) — Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis
 - [molfeat](../molfeat.md) — Molecular featurization for ML (100+ featurizers)
 - [molmim-nim](../molmim-nim.md) — Use this skill for MolMIM, NVIDIA's BioNeMo NIM microservice for small-molecule latent-space generation and optimization
