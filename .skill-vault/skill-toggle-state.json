@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "saved_at": "2026-08-09T05:43:39.809055+00:00",
+  "saved_at": "2026-08-09T13:18:39.730528+00:00",
   "root": "/Users/stan/.agents/skills",
   "skills": {
     "academic-paper": {
@@ -1264,28 +1264,28 @@
       "codex_enabled": false
     },
     "complexa-design": {
-      "claude_enabled": true,
-      "codex_enabled": true
+      "claude_enabled": false,
+      "codex_enabled": false
     },
     "complexa-evaluate-pdbs": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "complexa-setup": {
-      "claude_enabled": true,
-      "codex_enabled": true
+      "claude_enabled": false,
+      "codex_enabled": false
     },
     "complexa-slurm": {
-      "claude_enabled": true,
-      "codex_enabled": true
+      "claude_enabled": false,
+      "codex_enabled": false
     },
     "complexa-sweep": {
-      "claude_enabled": true,
-      "codex_enabled": true
+      "claude_enabled": false,
+      "codex_enabled": false
     },
     "complexa-target": {
-      "claude_enabled": true,
-      "codex_enabled": true
+      "claude_enabled": false,
+      "codex_enabled": false
     },
     "composites-engineer": {
       "claude_enabled": false,
