@@ -72,3 +72,7 @@ skills-lock.json
 .zcode/
 .zencoder/
 /agent/
+
+# Local OpenTUI dependencies and the user's invocation-state snapshot.
+/.skill-vault/tui/node_modules/
+/.skill-vault/skill-toggle-state.json

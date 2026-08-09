@@ -4,7 +4,8 @@ This repo is two layers over the same folders:
 
 - **Agent layer** — each `<skill>/SKILL.md` is the real, executable skill. These
   are managed by the [Vercel skills CLI](https://github.com/vercel-labs/skills)
-  (`npx skills`) and are **never edited by the tooling here**.
+  (`npx skills`). Navigation tooling never edits them; `skill-toggle` changes only
+  their explicit Claude Code/Codex invocation fields at the user's request.
 - **Human layer** — generated for Obsidian / Neovim navigation:
   - `<skill>.md` — a wrapper note per skill (your *Personal notes* section and
     your `status` / `rating` / `aliases` frontmatter edits survive every rebuild)
@@ -19,6 +20,8 @@ This directory holds the machinery that keeps the human layer in sync.
 |------|---------|
 | `build.py` | Regenerates the human layer from the `SKILL.md` files. Idempotent; preserves hand edits. Run: `python3 .skill-vault/build.py` |
 | `build-graphify.py` | Rebuilds the optional local Graphify graph in `graphify-out/`. Manual only; can run LLM-backed extraction, so it is deliberately separate from CI's lightweight `build.py`. Run: `python3 .skill-vault/build-graphify.py` |
+| `skill_toggle.py` | Safe metadata backend for `./skill-toggle`: catalog JSON, product-specific changes, snapshots, reload, and metadata-only Git reset. |
+| `tui/` | OpenTUI 0.5.1 application with mouse/keyboard navigation, fuzzy search, status/category filters, and separate Claude Code/Codex controls. |
 | `skill-lock.json` | Committed snapshot of the CLI's global provenance lock (`~/.agents/.skill-lock.json`). Records where each skill came from so CI can update them. |
 
 ## Scientific expert taxonomy

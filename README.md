@@ -8,13 +8,17 @@ A collection of AI agent skills, organized as an Obsidian vault for easier human
   <tr>
     <th>Obsidian graph</th>
     <th>Graphifyy graph</th>
+    <th>Skill invocation TUI</th>
   </tr>
   <tr>
-     <td width="50%">
+     <td width="33%">
        <img src="./screenshot.png" width="300" />
      </td>
-     <td width="50%">
+     <td width="33%">
        <img src="./graphifyy.png" width="300" />
+     </td>
+     <td width="33%">
+       <img src="./skill-toggle.png" width="300" />
      </td>
   </tr>
 </table>
@@ -78,10 +82,63 @@ skill names (`/gstack-qa`, `/gstack-ship`, …) so it does not clobber this vaul
   discipline index and its per-discipline maps; each lists primary experts first,
   then cross-disciplinary experts, with bridges to broader capability maps.
 
+### Toggle model invocation
+
+Run the [OpenTUI](https://github.com/anomalyco/opentui) interface from the vault root:
+
+```bash
+./skill-toggle
+```
+
+The launcher requires [Bun](https://bun.sh) and installs the pinned OpenTUI dependency on
+first use. The interface supports mouse clicks, wheel scrolling, fuzzy search across names,
+descriptions, and categories, and separate Claude Code/Codex switches. Click the status and
+category controls to cycle filters; Ctrl-click cycles backward. Reset returns both filters to
+`all` without changing the search query.
+
+Keyboard controls:
+
+- `/` focuses search; arrows or `J`/`K` move through results.
+- `C` toggles Claude Code, `X` toggles Codex, and Space toggles both.
+- `F` cycles status filters; `G` cycles categories. Shift reverses either cycle.
+- Ctrl-S saves all states; Ctrl-R reloads them; Ctrl-P performs the guarded pre-commit reset.
+- `Q` or Esc quits when search is not focused.
+
+The table shows four combined states:
+
+- `enabled` — Claude Code and Codex may both invoke the skill automatically.
+- `disabled` — only explicit invocation is allowed in both products.
+- `mixed` — the Claude Code and Codex fields disagree; toggling makes both enabled.
+- `error` — malformed metadata must be repaired before the tool will change it.
+
+Save writes `.skill-vault/skill-toggle-state.json` (gitignored). Reload reapplies both
+products from that snapshot. **Reset HEAD** requires a second click or Ctrl-P within five
+seconds: it saves the current state, then restores only the invocation fields to Git HEAD,
+leaving unrelated working edits untouched. Reload the snapshot after committing to restore
+your personal settings.
+
+The tool writes `disable-model-invocation` in `SKILL.md` for Claude Code and
+`policy.allow_implicit_invocation` in `agents/openai.yaml` for Codex. Scriptable commands
+use the same safe backend:
+
+```bash
+./skill-toggle list
+./skill-toggle enable academic-paper atac-seq
+./skill-toggle enable --product claude academic-paper
+./skill-toggle disable --product codex atac-seq
+./skill-toggle disable academic-paper atac-seq
+./skill-toggle toggle academic-paper
+./skill-toggle save
+./skill-toggle load
+./skill-toggle pre-commit-reset
+./skill-toggle --query "single cell"
+```
+
 Each skill has a wrapper note (e.g. `scanpy.md`) at the vault root that links to its
 source `SKILL.md`, lists related skills, and holds your personal notes / status / aliases.
-The original `*/SKILL.md` folders are never modified, so the skills CLI can manage them
-remotely.
+Navigation generation never modifies the original `*/SKILL.md` folders, so the skills CLI
+can manage them remotely. `skill-toggle` is the deliberate exception: it changes only the
+two product invocation fields described above.
 
 ## Regenerating the navigation layer
 
