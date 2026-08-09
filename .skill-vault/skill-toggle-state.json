@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "saved_at": "2026-08-09T05:05:15.199129+00:00",
+  "saved_at": "2026-08-09T05:43:39.809055+00:00",
   "root": "/Users/stan/.agents/skills",
   "skills": {
     "academic-paper": {
@@ -5024,7 +5024,7 @@
       "codex_enabled": true
     },
     "prototype": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "provision-droplet": {
@@ -6412,7 +6412,7 @@
       "codex_enabled": true
     },
     "to-prd": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "token-integration-analyzer": {
