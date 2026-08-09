@@ -140,6 +140,8 @@ Navigation generation never modifies the original `*/SKILL.md` folders, so the s
 can manage them remotely. `skill-toggle` is the deliberate exception: it changes only the
 two product invocation fields described above.
 
+As of 2026-08-09, claude code and pi can reliably toggle skills and reduce context usage, codex is not working well.
+
 ## Regenerating the navigation layer
 
 After adding or removing skills, rebuild the wrappers, maps, and index:
