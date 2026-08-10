@@ -215,6 +215,19 @@ def validate_generated_map_links(text, expected_links):
     return actual_links
 
 
+def is_gstack_install_state(name):
+    """True for anything that only exists when the optional gstack extra is installed.
+
+    That is the whole bundle: the sub-skill artifacts AND the bare `gstack`
+    entry point, whose folder is gitignored. Its presence changes the skill
+    count and adds a map entry and a related-link, so a fixed-point check that
+    included it would pass in CI and fail on any machine with the extra
+    installed -- exactly backwards, since the committed output is the
+    no-gstack one.
+    """
+    return name == "gstack" or vault_build.is_gstack_subskill(name)
+
+
 EXPERT_DOMAIN_BY_SKILL = {'scientific-agents': 'scientific-expert-profiles', 'alpha-physicist': 'scientific-expert-profiles', 'beta-physicist': 'scientific-expert-profiles', 'zeta-physicist': 'scientific-expert-profiles', 'omega-biologist': 'scientific-expert-profiles', 'algebraist': 'scientific-expert-profiles'}
 
 
@@ -1108,7 +1121,7 @@ class RepositoryFixedPointTests(unittest.TestCase):
             # gitignored install state, not repository content, so a fixed-point
             # check of the committed layer must ignore them -- otherwise this
             # test passes in CI and fails on any machine with gstack installed.
-            if vault_build.is_gstack_subskill(skill):
+            if is_gstack_install_state(skill):
                 continue
             skill_names.append(skill)
             copied_skill = destination / "skills" / skill / "SKILL.md"
@@ -1150,7 +1163,7 @@ class RepositoryFixedPointTests(unittest.TestCase):
         source_skills = tuple(
             path.parent.name
             for path in sorted(source.glob("skills/*/SKILL.md"))
-            if not vault_build.is_gstack_subskill(path.parent.name)
+            if not is_gstack_install_state(path.parent.name)
         )
         source_before = self.snapshot_generated_tree(source, source_skills)
         sentinel = source / "vault/maps/scientific-expert-profiles.md"
