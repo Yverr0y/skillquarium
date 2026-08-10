@@ -33,7 +33,7 @@ rather than `git clone` (which refuses a non-empty target):
 ```bash
 mkdir -p ~/.agents && cd ~/.agents
 git init
-git remote add origin git@github.com:stanfish06/my-skills.git
+git remote add origin git@github.com:stanfish06/skillquarium.git
 git fetch origin
 git checkout -f master
 ./install-skills.sh
