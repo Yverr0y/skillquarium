@@ -112,6 +112,7 @@ metadata:
       - selective killing biomarker
       - pooled viability analysis
       - context-selective compound
+disable-model-invocation: true
 ---
 
 # 💊 Drug Repurposing Screen

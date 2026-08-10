@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bio Analysis System"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $bio-analysis-system for this task."
+
+policy:
+  allow_implicit_invocation: false

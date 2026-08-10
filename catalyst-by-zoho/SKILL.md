@@ -11,6 +11,7 @@ description: >
   Trigger on Catalyst pricing, cost estimation, or "create tables for me", "set up the database",
   "deploy to Catalyst", "build on Zoho's platform", or "is Catalyst like Firebase". Do NOT use for
   generic Zoho CRM questions unless Catalyst is the target.
+disable-model-invocation: true
 ---
 
 # 🛑 STOP — Read this before doing ANYTHING

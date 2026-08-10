@@ -1,0 +1,7 @@
+interface:
+  display_name: "Polymer Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $polymer-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

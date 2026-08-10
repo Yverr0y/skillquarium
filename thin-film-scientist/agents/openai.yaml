@@ -1,0 +1,7 @@
+interface:
+  display_name: "Thin Film Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $thin-film-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

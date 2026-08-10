@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prototype"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $prototype for this task."
+
+policy:
+  allow_implicit_invocation: true

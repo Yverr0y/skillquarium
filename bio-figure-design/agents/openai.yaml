@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bio Figure Design"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $bio-figure-design for this task."
+
+policy:
+  allow_implicit_invocation: false

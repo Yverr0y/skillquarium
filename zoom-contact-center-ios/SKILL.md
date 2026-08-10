@@ -1,6 +1,7 @@
 ---
 name: zoom-contact-center-ios
 description: "Zoom Contact Center SDK for iOS. Use for native iOS chat/video/ZVA/scheduled callback integrations, app lifecycle bridging, rejoin flow, and callback handling."
+disable-model-invocation: true
 ---
 
 # Zoom Contact Center SDK - iOS

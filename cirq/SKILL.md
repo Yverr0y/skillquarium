@@ -4,6 +4,7 @@ description: Google quantum computing framework. Use when targeting Google Quant
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash
 metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+disable-model-invocation: true
 ---
 
 # Cirq - Quantum Computing with Python

@@ -46,6 +46,7 @@ metadata:
     - protein biomarker
     - plasma proteomics
     - ADAT
+disable-model-invocation: true
 ---
 
 # 🧪 Affinity Proteomics Pipeline

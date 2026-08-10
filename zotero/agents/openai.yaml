@@ -4,3 +4,6 @@ interface:
   icon_small: "./assets/icon.png"
   icon_large: "./assets/icon.png"
   default_prompt: "Use $Zotero to search my Zotero library, export BibTeX, and add citations to my draft."
+
+policy:
+  allow_implicit_invocation: false

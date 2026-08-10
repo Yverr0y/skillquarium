@@ -1,0 +1,7 @@
+interface:
+  display_name: "Claw Semantic Sim"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $claw-semantic-sim for this task."
+
+policy:
+  allow_implicit_invocation: false

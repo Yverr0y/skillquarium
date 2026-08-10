@@ -14,6 +14,7 @@ description: >
   vs Docker), and emits a replayable setup artifact.
 compatibility: "complexa CLI installed (pip install -e .); bash 4+; nvidia-smi optional"
 allowed-tools: Bash, Read, Write, AskUserQuestion
+disable-model-invocation: true
 ---
 
 # Complexa Setup Skill

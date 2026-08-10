@@ -3,6 +3,7 @@ name: chip-seq
 description: ChIP-seq peak calling and downstream interpretation with MACS3, signal track export, annotation, motif analysis, and differential binding review.
 tool_type: mixed
 primary_tool: MACS3
+disable-model-invocation: true
 ---
 
 # ChIP Seq

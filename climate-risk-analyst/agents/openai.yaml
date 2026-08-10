@@ -1,0 +1,7 @@
+interface:
+  display_name: "Climate Risk Analyst"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $climate-risk-analyst for this task."
+
+policy:
+  allow_implicit_invocation: false

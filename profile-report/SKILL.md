@@ -26,6 +26,7 @@ metadata:
     - my profile
     - genomic profile
     - personal profile
+disable-model-invocation: true
 ---
 
 # 📋 Profile Report

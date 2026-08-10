@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pure Mathematician"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $pure-mathematician for this task."
+
+policy:
+  allow_implicit_invocation: false

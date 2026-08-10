@@ -1,6 +1,7 @@
 ---
 name: build-zoom-video-sdk-app
 description: Use when using Video SDK.
+disable-model-invocation: true
 ---
 
 # Build Zoom Video SDK App

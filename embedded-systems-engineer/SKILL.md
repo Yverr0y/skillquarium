@@ -15,6 +15,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 50
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Embedded Systems Engineer Expert Profile

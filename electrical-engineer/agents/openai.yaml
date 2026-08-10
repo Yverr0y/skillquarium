@@ -1,0 +1,7 @@
+interface:
+  display_name: "Electrical Engineer"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $electrical-engineer for this task."
+
+policy:
+  allow_implicit_invocation: false

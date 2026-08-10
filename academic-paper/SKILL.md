@@ -11,6 +11,7 @@ metadata:
     - deep-research
     - academic-paper-reviewer
     - academic-pipeline
+disable-model-invocation: true
 ---
 
 # Academic Paper — Academic Paper Writing Agent Team

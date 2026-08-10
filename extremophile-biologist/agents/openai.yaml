@@ -1,0 +1,7 @@
+interface:
+  display_name: "Extremophile Biologist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $extremophile-biologist for this task."
+
+policy:
+  allow_implicit_invocation: false

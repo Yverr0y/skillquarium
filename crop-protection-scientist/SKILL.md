@@ -16,6 +16,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 76
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Crop Protection Scientist Expert Profile

@@ -17,6 +17,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 0
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Machine Learning Engineer Expert Profile

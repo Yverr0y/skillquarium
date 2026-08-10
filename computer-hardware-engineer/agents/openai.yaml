@@ -1,0 +1,7 @@
+interface:
+  display_name: "Computer Hardware Engineer"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $computer-hardware-engineer for this task."
+
+policy:
+  allow_implicit_invocation: false

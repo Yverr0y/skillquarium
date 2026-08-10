@@ -1,6 +1,7 @@
 ---
 name: bio-analysis-system
 description: "Step 5 of the bio-manuscript pipeline: design the analysis-method system. Use when planning which analyses, tools, and biological validations support each figure and task, mapping analyses to BioClaw-compatible tools or fallbacks, and connecting analyses to figure panels."
+disable-model-invocation: true
 ---
 
 # bio-analysis-system

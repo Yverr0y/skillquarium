@@ -45,6 +45,7 @@ metadata:
     - secondary findings
     - ACMG SF
     - variant interpretation
+disable-model-invocation: true
 ---
 
 # 🏥 Clinical Variant Reporter

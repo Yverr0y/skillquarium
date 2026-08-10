@@ -1,6 +1,7 @@
 ---
 name: build-zoom-meeting-sdk-app
 description: Use when using Meeting SDK.
+disable-model-invocation: true
 ---
 
 # Build Zoom Meeting SDK App

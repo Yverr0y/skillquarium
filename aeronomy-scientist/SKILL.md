@@ -16,6 +16,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 28
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Aeronomy Scientist Expert Profile

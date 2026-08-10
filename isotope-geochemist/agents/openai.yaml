@@ -1,0 +1,7 @@
+interface:
+  display_name: "Isotope Geochemist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $isotope-geochemist for this task."
+
+policy:
+  allow_implicit_invocation: false

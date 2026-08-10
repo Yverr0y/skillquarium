@@ -1,6 +1,7 @@
 ---
 name: clinicaltrials-skill
 description: Submit compact ClinicalTrials.gov API v2 requests for study search, metadata, enums, search areas, and field statistics. Use when a user wants concise ClinicalTrials.gov summaries
+disable-model-invocation: true
 ---
 
 ## Operating rules

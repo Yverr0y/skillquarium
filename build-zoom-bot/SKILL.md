@@ -1,6 +1,7 @@
 ---
 name: build-zoom-bot
 description: Use when building bots.
+disable-model-invocation: true
 ---
 
 # /build-zoom-bot

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Galactic Astronomer"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $galactic-astronomer for this task."
+
+policy:
+  allow_implicit_invocation: false

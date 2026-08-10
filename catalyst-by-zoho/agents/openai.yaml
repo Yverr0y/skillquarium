@@ -7,4 +7,4 @@ interface:
   default_prompt: "Use $catalyst-by-zoho to design, build, deploy, or troubleshoot Catalyst apps and services."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

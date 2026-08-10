@@ -1,6 +1,7 @@
 ---
 name: plan-zoom-integration
 description: Use when planning Zoom integrations.
+disable-model-invocation: true
 ---
 
 # /plan-zoom-integration

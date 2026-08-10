@@ -1,6 +1,7 @@
 ---
 name: build-zoom-rest-api-app
 description: Use when calling REST APIs.
+disable-model-invocation: true
 ---
 
 # Build Zoom REST API App

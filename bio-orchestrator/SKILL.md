@@ -20,6 +20,7 @@ metadata:
       package: biopython
     - kind: uv
       package: pandas
+disable-model-invocation: true
 ---
 
 # 🦖 Bio Orchestrator

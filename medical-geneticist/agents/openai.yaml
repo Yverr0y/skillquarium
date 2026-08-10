@@ -1,0 +1,7 @@
+interface:
+  display_name: "Medical Geneticist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $medical-geneticist for this task."
+
+policy:
+  allow_implicit_invocation: false

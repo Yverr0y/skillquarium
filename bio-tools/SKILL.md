@@ -1,6 +1,7 @@
 ---
 name: bio-tools
 description: Biology research tools reference. Always available inside agent containers.
+disable-model-invocation: true
 ---
 
 # Bio Tools Reference

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Microbial Physiologist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $microbial-physiologist for this task."
+
+policy:
+  allow_implicit_invocation: false

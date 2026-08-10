@@ -1,6 +1,7 @@
 ---
 name: dashboards-and-real-time-visualization
 description: Design dashboards and live visualization systems. Use when the user needs monitoring views, streaming charts, coordinated interactions, downsampling, or performance-aware operational visualization.
+disable-model-invocation: false
 ---
 
 # Dashboards and Real-Time Visualization

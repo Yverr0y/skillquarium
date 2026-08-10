@@ -1,6 +1,7 @@
 ---
 name: zoom-apps-sdk
 description: Use when using Apps SDK.
+disable-model-invocation: true
 ---
 
 # Zoom Apps SDK

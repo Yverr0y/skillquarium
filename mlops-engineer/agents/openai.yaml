@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mlops Engineer"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $mlops-engineer for this task."
+
+policy:
+  allow_implicit_invocation: false

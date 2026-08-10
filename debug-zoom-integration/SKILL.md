@@ -1,6 +1,7 @@
 ---
 name: debug-zoom-integration
 description: Use when isolating failures.
+disable-model-invocation: true
 ---
 
 # Debug Zoom Integration

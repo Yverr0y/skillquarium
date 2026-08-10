@@ -1,0 +1,7 @@
+interface:
+  display_name: "Astronomical Instrumentation Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $astronomical-instrumentation-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

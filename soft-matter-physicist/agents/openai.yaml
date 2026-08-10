@@ -1,0 +1,7 @@
+interface:
+  display_name: "Soft Matter Physicist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $soft-matter-physicist for this task."
+
+policy:
+  allow_implicit_invocation: false

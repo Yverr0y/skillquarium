@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ecologist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $ecologist for this task."
+
+policy:
+  allow_implicit_invocation: false

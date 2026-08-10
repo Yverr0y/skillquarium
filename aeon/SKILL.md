@@ -5,6 +5,7 @@ license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.11+ and the aeon package (uv pip install). Optional aeon[all_extras] for deep learning and extended dependencies.
 metadata: {"version": "1.1", "skill-author": "K-Dense Inc."}
+disable-model-invocation: true
 ---
 
 # Aeon Time Series Machine Learning

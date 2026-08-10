@@ -1,0 +1,7 @@
+interface:
+  display_name: "Geodynamics Tectonics Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $geodynamics-tectonics-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

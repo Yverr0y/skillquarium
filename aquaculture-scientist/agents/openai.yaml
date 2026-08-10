@@ -1,0 +1,7 @@
+interface:
+  display_name: "Aquaculture Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $aquaculture-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

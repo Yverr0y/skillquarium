@@ -1,0 +1,7 @@
+interface:
+  display_name: "Surface Physicist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $surface-physicist for this task."
+
+policy:
+  allow_implicit_invocation: false

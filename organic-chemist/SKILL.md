@@ -16,6 +16,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 93
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Organic Chemist Expert Profile

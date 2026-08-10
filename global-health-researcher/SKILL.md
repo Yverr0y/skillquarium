@@ -17,6 +17,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 146
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Global Health Researcher Expert Profile

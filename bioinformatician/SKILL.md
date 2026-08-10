@@ -15,6 +15,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 57
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Bioinformatician Expert Profile

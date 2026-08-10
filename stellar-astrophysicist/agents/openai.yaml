@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stellar Astrophysicist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $stellar-astrophysicist for this task."
+
+policy:
+  allow_implicit_invocation: false

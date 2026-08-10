@@ -1,6 +1,7 @@
 ---
 name: zoom-oauth
 description: Use when implementing OAuth.
+disable-model-invocation: true
 ---
 
 # Zoom OAuth

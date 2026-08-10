@@ -1,0 +1,7 @@
+interface:
+  display_name: "Nonlinear Dynamics Chaos Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $nonlinear-dynamics-chaos-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

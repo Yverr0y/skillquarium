@@ -1,6 +1,7 @@
 ---
 name: bio-manuscript-pipeline
 description: "End-to-end bio-manuscript planning pipeline orchestrator: turn structured research input into a full manuscript plan. Use to run the multi-step workflow (innovation check, task/dataset/metric/analysis design, figure design, drafting, refinement) phase by phase using the sibling bio-* skills and bio-manuscript-common templates."
+disable-model-invocation: true
 ---
 
 # bio-manuscript-pipeline

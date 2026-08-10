@@ -1,0 +1,7 @@
+interface:
+  display_name: "Conservation Scientist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $conservation-scientist for this task."
+
+policy:
+  allow_implicit_invocation: false

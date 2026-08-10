@@ -1,6 +1,7 @@
 ---
 name: debug-zoom
 description: Use when debugging issues.
+disable-model-invocation: true
 ---
 
 # /debug-zoom

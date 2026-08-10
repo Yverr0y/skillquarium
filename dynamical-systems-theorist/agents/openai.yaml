@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dynamical Systems Theorist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $dynamical-systems-theorist for this task."
+
+policy:
+  allow_implicit_invocation: false

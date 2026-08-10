@@ -1,0 +1,7 @@
+interface:
+  display_name: "Heliophysicist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $heliophysicist for this task."
+
+policy:
+  allow_implicit_invocation: false

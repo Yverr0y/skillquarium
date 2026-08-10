@@ -4,4 +4,4 @@ interface:
     yield
   default_prompt: Analyze MSFT capital allocation and shareholder returns.
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

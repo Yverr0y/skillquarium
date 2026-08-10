@@ -17,6 +17,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 64
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Industrial Microbiologist Expert Profile

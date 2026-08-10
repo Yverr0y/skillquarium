@@ -12,6 +12,7 @@ description: >
   a multi-step pipeline composing three BioNeMo NIMs.
 license: Apache-2.0 AND CC-BY-4.0
 allowed-tools: Bash, Read, Write, AskUserQuestion
+disable-model-invocation: true
 ---
 
 # Drug Discovery Pipeline

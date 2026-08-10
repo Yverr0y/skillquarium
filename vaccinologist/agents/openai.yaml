@@ -1,0 +1,7 @@
+interface:
+  display_name: "Vaccinologist"
+  short_description: "Invoke this skill explicitly when needed."
+  default_prompt: "Use $vaccinologist for this task."
+
+policy:
+  allow_implicit_invocation: false

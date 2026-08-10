@@ -100,6 +100,7 @@ metadata:
     - GWAS
     - rsID
     - variant
+disable-model-invocation: true
 ---
 
 > [!note] Running these commands in this vault

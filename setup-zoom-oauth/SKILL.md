@@ -1,6 +1,7 @@
 ---
 name: setup-zoom-oauth
 description: Use when setting up OAuth.
+disable-model-invocation: true
 ---
 
 # /setup-zoom-oauth

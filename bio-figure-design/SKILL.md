@@ -1,6 +1,7 @@
 ---
 name: bio-figure-design
 description: "Step 6 of the bio-manuscript pipeline: design manuscript figures panel by panel. Use when planning figure logic, panel content, supplementary figures, and draft captions, keeping figure logic synchronized with manuscript claims."
+disable-model-invocation: true
 ---
 
 # bio-figure-design

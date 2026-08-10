@@ -15,6 +15,7 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 55
   scientific-agents-profile: true
+disable-model-invocation: true
 ---
 
 # Psychophysicist Expert Profile

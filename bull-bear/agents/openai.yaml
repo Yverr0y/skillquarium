@@ -3,4 +3,4 @@ interface:
   short_description: Bull/bear/base case scenario framework for a given company
   default_prompt: Create a bull/bear/base scenario analysis for TSLA.
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false
