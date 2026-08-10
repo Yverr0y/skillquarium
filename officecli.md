@@ -5,7 +5,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: officecli/SKILL.md
+source: skills/officecli/SKILL.md
 created: 2026-07-11
 ---
 
@@ -14,7 +14,7 @@ created: 2026-07-11
 > [!info] What it does
 > Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool. Use when the user wants to create, inspect, check formatting, find issues, add charts, or modify Office documents.
 
-**Source:** [officecli/SKILL.md](officecli/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/officecli/SKILL.md](skills/officecli/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

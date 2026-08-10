@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-networking/SKILL.md
+source: skills/render-networking/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Connects Render services over the private network—internal DNS, service discovery, and cross-service communication. Use when the user needs to wire services together, resolve internal hostnames, troubleshoot connectivity between services, configure environment isolation, or understand which services can reach each other.
 
-**Source:** [render-networking/SKILL.md](render-networking/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-networking/SKILL.md](skills/render-networking/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: scientific-critical-thinking/SKILL.md
+source: skills/scientific-critical-thinking/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims.
 
-**Source:** [scientific-critical-thinking/SKILL.md](scientific-critical-thinking/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/scientific-critical-thinking/SKILL.md](skills/scientific-critical-thinking/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-virtual-agent-android/SKILL.md
+source: skills/zoom-virtual-agent-android/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Zoom Virtual Agent Android integration via WebView. Use for Java/Kotlin bridge callbacks, native URL handling, support_handoff relay, and lifecycle-safe embedding.
 
-**Source:** [zoom-virtual-agent-android/SKILL.md](zoom-virtual-agent-android/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-virtual-agent-android/SKILL.md](skills/zoom-virtual-agent-android/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

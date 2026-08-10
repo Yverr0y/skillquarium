@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: google-calendar-meeting-prep/SKILL.md
+source: skills/google-calendar-meeting-prep/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build a practical meeting prep brief from a connected Google Calendar event and its nearby context. Use when the user wants to prepare for an upcoming meeting, understand what to read beforehand, pull in linked notes or docs, or get a concise brief on what the meeting appears to require.
 
-**Source:** [google-calendar-meeting-prep/SKILL.md](google-calendar-meeting-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/google-calendar-meeting-prep/SKILL.md](skills/google-calendar-meeting-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

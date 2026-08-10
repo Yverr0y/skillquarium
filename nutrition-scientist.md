@@ -15,7 +15,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: nutrition-scientist/SKILL.md
+source: skills/nutrition-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Nutrition Scientist (nutritional epidemiology / controlled feeding trials / dietary assessment & biomarker validation / survey analysis (NHANES, DLW)): Reasons from intake measurement error, energy balance, and causal triangulation through doubly-labeled-water validation, NCI usual-intake models, DRI (EAR/RDA/UL) frameworks, crossover feeding trials, and Mendelian randomization while treating dietary underreporting, reverse causation (sick-quitter), unadjusted...
 
-**Source:** [nutrition-scientist/SKILL.md](nutrition-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/nutrition-scientist/SKILL.md](skills/nutrition-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

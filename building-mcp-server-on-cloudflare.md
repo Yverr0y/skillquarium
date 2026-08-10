@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: building-mcp-server-on-cloudflare/SKILL.md
+source: skills/building-mcp-server-on-cloudflare/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Builds remote MCP (Model Context Protocol) servers on Cloudflare Workers with tools, OAuth authentication, and production deployment. Generates server code, configures auth providers, and deploys to Workers. Use when: user wants to "build MCP server", "create MCP tools", "remote MCP", "deploy MCP", add "OAuth to MCP", or mentions Model Context Protocol on Cloudflare. Also triggers on "MCP authentication" or "MCP deployment". Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
 
-**Source:** [building-mcp-server-on-cloudflare/SKILL.md](building-mcp-server-on-cloudflare/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/building-mcp-server-on-cloudflare/SKILL.md](skills/building-mcp-server-on-cloudflare/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: documentation-and-adrs/SKILL.md
+source: skills/documentation-and-adrs/SKILL.md
 created: 2026-06-12
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-12
 > [!info] What it does
 > Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.
 
-**Source:** [documentation-and-adrs/SKILL.md](documentation-and-adrs/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/documentation-and-adrs/SKILL.md](skills/documentation-and-adrs/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

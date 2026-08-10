@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: airtable-cli/SKILL.md
+source: skills/airtable-cli/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Lists bases, reads and writes records, manages tables and fields, filters and searches data in Airtable via the `airtable-mcp` CLI. Use when the task involves Airtable data or the user mentions airtable-mcp, bases, tables, records, or fields.
 
-**Source:** [airtable-cli/SKILL.md](airtable-cli/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/airtable-cli/SKILL.md](skills/airtable-cli/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

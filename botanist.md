@@ -16,7 +16,7 @@ bridge_domains:
   - sequence-phylogenetics
   - data-science-compute
 status: untried
-source: botanist/SKILL.md
+source: skills/botanist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Botanist (field / herbarium / lab / computational plant science): Reasons from morphology, floras (FNA/Jepson/eFlora), voucher herbarium specimens (Darwin Core, Index Herbariorum), nomenclature (IPNI/POWO/Madrid Code), APG IV phylogeny, DNA barcoding (rbcL/matK/ITS2), community ecology (vegan adonis2/betadisper, TRY traits), and CITES/ABS ethics; treats vegetative mis-ID...
 
-**Source:** [botanist/SKILL.md](botanist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/botanist/SKILL.md](skills/botanist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

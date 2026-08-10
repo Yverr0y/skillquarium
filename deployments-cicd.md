@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: deployments-cicd/SKILL.md
+source: skills/deployments-cicd/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, building with --prebuilt, or configuring CI workflow files for Vercel.
 
-**Source:** [deployments-cicd/SKILL.md](deployments-cicd/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deployments-cicd/SKILL.md](skills/deployments-cicd/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-sendgrid-webhooks/SKILL.md
+source: skills/twilio-sendgrid-webhooks/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Track email delivery and engagement via SendGrid Event Webhooks. Covers all 11 event types (delivery + engagement), webhook handler implementation, ECDSA signature verification, batched event processing, and common debugging patterns. Use when building SendGrid delivery tracking, engagement analytics, or bounce handling. Requires a SendGrid API key (SG.-prefix) — not applicable to the Twilio Email API (comms.twilio.com).
 
-**Source:** [twilio-sendgrid-webhooks/SKILL.md](twilio-sendgrid-webhooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-sendgrid-webhooks/SKILL.md](skills/twilio-sendgrid-webhooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

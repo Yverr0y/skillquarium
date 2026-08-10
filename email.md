@@ -3,7 +3,7 @@ title: email
 tags:
   - skill
 status: untried
-source: email/SKILL.md
+source: skills/email/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates. Covers API setup, transactional emails, domain verification, and template patterns. Use when sending emails from a Vercel-deployed application.
 
-**Source:** [email/SKILL.md](email/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/email/SKILL.md](skills/email/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

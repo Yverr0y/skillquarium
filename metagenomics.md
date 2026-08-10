@@ -5,7 +5,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: metagenomics/SKILL.md
+source: skills/metagenomics/SKILL.md
 created: 2026-06-17
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-17
 > [!info] What it does
 > Shotgun metagenomics workflow with host-depletion-aware QC, taxonomic profiling, functional profiling, AMR follow-up, and reproducible community output tables.
 
-**Source:** [metagenomics/SKILL.md](metagenomics/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/metagenomics/SKILL.md](skills/metagenomics/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: packaging-notarization/SKILL.md
+source: skills/packaging-notarization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Prepare macOS packaging and notarization workflows. Use when archiving apps, validating bundles, or explaining distribution-only failures.
 
-**Source:** [packaging-notarization/SKILL.md](packaging-notarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/packaging-notarization/SKILL.md](skills/packaging-notarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

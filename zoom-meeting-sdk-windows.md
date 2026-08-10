@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-meeting-sdk-windows/SKILL.md
+source: skills/zoom-meeting-sdk-windows/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Zoom Meeting SDK for Windows - Native C++ SDK for embedding Zoom meetings into Windows desktop applications. Supports custom UI architecture with raw video/audio data, headless bots, and deep integration with meeting features. Includes SDK architecture patterns and Windows message loop handling.
 
-**Source:** [zoom-meeting-sdk-windows/SKILL.md](zoom-meeting-sdk-windows/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-meeting-sdk-windows/SKILL.md](skills/zoom-meeting-sdk-windows/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: libfuzzer/SKILL.md
+source: skills/libfuzzer/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Coverage-guided fuzzer built into LLVM for C/C++ projects. Use for fuzzing C/C++ code that can be compiled with Clang.
 
-**Source:** [libfuzzer/SKILL.md](libfuzzer/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/libfuzzer/SKILL.md](skills/libfuzzer/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

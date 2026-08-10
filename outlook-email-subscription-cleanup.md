@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-email-subscription-cleanup/SKILL.md
+source: skills/outlook-email-subscription-cleanup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Clean up Outlook newsletters and recurring subscription email safely. Use when the user wants to unsubscribe, separate newsletters from human mail, move recurring senders into folders, or organize low-signal subscription traffic without losing important messages.
 
-**Source:** [outlook-email-subscription-cleanup/SKILL.md](outlook-email-subscription-cleanup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-email-subscription-cleanup/SKILL.md](skills/outlook-email-subscription-cleanup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

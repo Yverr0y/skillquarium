@@ -3,7 +3,7 @@ title: turborepo
 tags:
   - skill
 status: untried
-source: turborepo/SKILL.md
+source: skills/turborepo/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI.
 
-**Source:** [turborepo/SKILL.md](turborepo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/turborepo/SKILL.md](skills/turborepo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

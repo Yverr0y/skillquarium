@@ -3,7 +3,7 @@ title: validation
 tags:
   - skill
 status: untried
-source: validation/SKILL.md
+source: skills/validation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.
 
-**Source:** [validation/SKILL.md](validation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/validation/SKILL.md](skills/validation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

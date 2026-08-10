@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: pride-skill/SKILL.md
+source: skills/pride-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact PRIDE Archive API requests for proteomics project discovery and project-level metadata. Use when a user wants concise PRIDE summaries
 
-**Source:** [pride-skill/SKILL.md](pride-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pride-skill/SKILL.md](skills/pride-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

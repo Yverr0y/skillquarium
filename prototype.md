@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: prototype/SKILL.md
+source: skills/prototype/SKILL.md
 created: 2026-06-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-20
 > [!info] What it does
 > Build a throwaway prototype to flesh out a design — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.
 
-**Source:** [prototype/SKILL.md](prototype/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/prototype/SKILL.md](skills/prototype/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

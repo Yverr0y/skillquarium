@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-onboarding-dev/SKILL.md
+source: skills/shopify-onboarding-dev/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Get started building on Shopify. Use when a developer asks to build an app, build a theme, create a dev store, set up a partner account, scaffold a project, or get started developing for Shopify. NOT for merchants managing stores.
 
-**Source:** [shopify-onboarding-dev/SKILL.md](shopify-onboarding-dev/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-onboarding-dev/SKILL.md](skills/shopify-onboarding-dev/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

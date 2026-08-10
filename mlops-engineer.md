@@ -12,7 +12,7 @@ bridge_domains:
   - cloud-devops
   - software-dev
 status: untried
-source: mlops-engineer/SKILL.md
+source: skills/mlops-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for MLOps Engineer (ML lifecycle ops / feature stores & serving / drift monitoring / CI-CD-CT / registry promotion): Reasons from data contracts, feature parity, evaluation gates, and rollback-readiness through MLflow/W&B registries, Feast feature stores, KServe/Triton serving, Great Expectations/TFDV validation, and Evidently PSI/KS drift monitors while treating train-serve skew, data leakage, silent degradation, and schema/concept...
 
-**Source:** [mlops-engineer/SKILL.md](mlops-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mlops-engineer/SKILL.md](skills/mlops-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -7,7 +7,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: semgrep-rule-creator/SKILL.md
+source: skills/semgrep-rule-creator/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.
 
-**Source:** [semgrep-rule-creator/SKILL.md](semgrep-rule-creator/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/semgrep-rule-creator/SKILL.md](skills/semgrep-rule-creator/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

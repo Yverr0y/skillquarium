@@ -5,7 +5,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: xlsx/SKILL.md
+source: skills/xlsx/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Spreadsheet toolkit (.xlsx/.csv). Create/edit with formulas/formatting, analyze data, visualization, recalculate formulas, for spreadsheet processing and analysis.
 
-**Source:** [xlsx/SKILL.md](xlsx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/xlsx/SKILL.md](skills/xlsx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

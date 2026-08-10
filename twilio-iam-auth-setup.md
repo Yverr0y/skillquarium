@@ -8,7 +8,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-iam-auth-setup/SKILL.md
+source: skills/twilio-iam-auth-setup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -17,7 +17,7 @@ created: 2026-08-07
 > [!info] What it does
 > Set up and manage Twilio authentication credentials: Auth Tokens, API keys (Standard, Main, Restricted), Access Tokens for client-side SDKs, and credential rotation. Use this skill as a prerequisite foundation before making any Twilio API calls.
 
-**Source:** [twilio-iam-auth-setup/SKILL.md](twilio-iam-auth-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-iam-auth-setup/SKILL.md](skills/twilio-iam-auth-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

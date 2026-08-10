@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: teams-reply-drafting/SKILL.md
+source: skills/teams-reply-drafting/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Draft Microsoft Teams replies from available context. Use when the user wants help finding messages that likely need a response and preparing reply drafts.
 
-**Source:** [teams-reply-drafting/SKILL.md](teams-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teams-reply-drafting/SKILL.md](skills/teams-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

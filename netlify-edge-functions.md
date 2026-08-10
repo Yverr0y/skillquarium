@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: netlify-edge-functions/SKILL.md
+source: skills/netlify-edge-functions/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.
 
-**Source:** [netlify-edge-functions/SKILL.md](netlify-edge-functions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/netlify-edge-functions/SKILL.md](skills/netlify-edge-functions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

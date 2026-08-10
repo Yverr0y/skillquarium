@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cron-jobs/SKILL.md
+source: skills/cron-jobs/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Cron Jobs configuration and best practices. Use when adding, editing, or debugging scheduled tasks in vercel.json.
 
-**Source:** [cron-jobs/SKILL.md](cron-jobs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cron-jobs/SKILL.md](skills/cron-jobs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: google-drive-comments/SKILL.md
+source: skills/google-drive-comments/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Write, reply to, and resolve Google Drive comments on Docs, Sheets, Slides, and Drive files with evidence-backed location context. Use when the user asks to leave comments, review a file with comments, respond to comment threads, or resolve Drive comments.
 
-**Source:** [google-drive-comments/SKILL.md](google-drive-comments/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/google-drive-comments/SKILL.md](skills/google-drive-comments/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

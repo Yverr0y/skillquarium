@@ -3,7 +3,7 @@ title: initiate
 tags:
   - skill
 status: untried
-source: initiate/SKILL.md
+source: skills/initiate/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Initiate coverage — generate both research note (HTML) and Excel model (.xlsx)
 
-**Source:** [initiate/SKILL.md](initiate/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/initiate/SKILL.md](skills/initiate/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

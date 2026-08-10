@@ -7,7 +7,7 @@ tags:
   - domain/literature-discovery
 domain: literature-discovery
 status: untried
-source: parallel-web/SKILL.md
+source: skills/parallel-web/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Search the web, extract URL content, enrich datasets, and run deep research using parallel-cli, prioritizing academic and scientific sources. Use for ANY web-related task: looking things up, fetching pages or academic PDFs, bulk data enrichment, and exhaustive multi-source research reports — even when the user doesn't mention 'parallel' or 'web' explicitly.
 
-**Source:** [parallel-web/SKILL.md](parallel-web/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/parallel-web/SKILL.md](skills/parallel-web/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

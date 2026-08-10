@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-model/SKILL.md
+source: skills/build-model/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build a multi-tab Excel financial model
 
-**Source:** [build-model/SKILL.md](build-model/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-model/SKILL.md](skills/build-model/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

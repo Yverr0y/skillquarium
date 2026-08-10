@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: hubspot-pipeline-health/SKILL.md
+source: skills/hubspot-pipeline-health/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when reviewing HubSpot pipeline health, forecasts, stale deals, slipping close dates, or open deal risks.
 
-**Source:** [hubspot-pipeline-health/SKILL.md](hubspot-pipeline-health/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hubspot-pipeline-health/SKILL.md](skills/hubspot-pipeline-health/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

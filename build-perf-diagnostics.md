@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: build-perf-diagnostics/SKILL.md
+source: skills/build-perf-diagnostics/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Diagnose MSBuild build performance bottlenecks using binary log analysis. USE FOR: identifying why builds are slow by analyzing binlog performance summaries, detecting ResolveAssemblyReference (RAR) taking >5s, Roslyn analyzers consuming >30% of Csc time, single targets dominating >50% of build time, node utilization below 80%, excessive Copy tasks, NuGet restore running every build. Covers timeline analysis, Target/Task Performance Summary interpretation, and 7 common bottleneck categories. Use after build-perf-baseline has established measurements. DO NOT USE FOR: establishing initial baselines (use build-perf-baseline first), fixing incremental build issues (use incremental-build), parallelism tuning (use build-parallelism), non-MSBuild build systems.
 
-**Source:** [build-perf-diagnostics/SKILL.md](build-perf-diagnostics/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-perf-diagnostics/SKILL.md](skills/build-perf-diagnostics/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

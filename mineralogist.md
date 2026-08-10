@@ -8,7 +8,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - imaging-signals
 status: untried
-source: mineralogist/SKILL.md
+source: skills/mineralogist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mineralogist (laboratory / field mineral identification / crystallography / economic mineralogy): Reasons from crystal chemistry, Pauling coordination, and converging optics–XRD/Raman–EPMA evidence; uses RRUFF/Mindat/AMCSD and CNMNC Checklist 2025 while treating preferred orientation, clay EG/heat triads, metamict amorphization, and QEMSCAN library bias as first-class failure modes.
 
-**Source:** [mineralogist/SKILL.md](mineralogist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mineralogist/SKILL.md](skills/mineralogist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

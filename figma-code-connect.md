@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: figma-code-connect/SKILL.md
+source: skills/figma-code-connect/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user mentions Code Connect, Figma component mapping, design-to-code translation, or asks to create/update .figma.ts or .figma.js files.
 
-**Source:** [figma-code-connect/SKILL.md](figma-code-connect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/figma-code-connect/SKILL.md](skills/figma-code-connect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

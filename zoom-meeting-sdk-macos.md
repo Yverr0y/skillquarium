@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-meeting-sdk-macos/SKILL.md
+source: skills/zoom-meeting-sdk-macos/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in macOS with default/custom UI, PKCE + SDK auth, host start/join flows, and desktop meeting feature controllers.
 
-**Source:** [zoom-meeting-sdk-macos/SKILL.md](zoom-meeting-sdk-macos/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-meeting-sdk-macos/SKILL.md](skills/zoom-meeting-sdk-macos/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: hyperframes-registry/SKILL.md
+source: skills/hyperframes-registry/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.
 
-**Source:** [hyperframes-registry/SKILL.md](hyperframes-registry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hyperframes-registry/SKILL.md](skills/hyperframes-registry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

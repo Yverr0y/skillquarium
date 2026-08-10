@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: circleci-builds/SKILL.md
+source: skills/circleci-builds/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Diagnose and fix failing CircleCI builds quickly and safely. Use when users ask to investigate failed CircleCI jobs, triage flaky pipelines, identify root causes from logs, and implement minimal fixes in configuration, test setup, or build-related code paths.
 
-**Source:** [circleci-builds/SKILL.md](circleci-builds/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/circleci-builds/SKILL.md](skills/circleci-builds/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

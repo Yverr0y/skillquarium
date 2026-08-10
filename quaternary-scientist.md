@@ -14,7 +14,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: quaternary-scientist/SKILL.md
+source: skills/quaternary-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Quaternary Scientist (field geochronology / glacial geomorphology / multi-proxy paleoclimate / ice-core & tephra correlation): Reasons from dated landform-sediment-proxy associations, multi-method chronology, and ice-age cyclicity (MIS, orbital forcing) through radiocarbon/OSL/cosmogenic dating, Bayesian age models (OxCal, Bacon, IntCal20), tephrochronology, and GIA models while treating uncalibrated 14C years, incomplete OSL bleaching...
 
-**Source:** [quaternary-scientist/SKILL.md](quaternary-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/quaternary-scientist/SKILL.md](skills/quaternary-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

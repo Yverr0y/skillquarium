@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: genmol-nim/SKILL.md
+source: skills/genmol-nim/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Generate novel drug-like molecules using the GenMol NIM microservice. Use for de novo generation, scaffold decoration, motif extension, lead optimization, SAFE notation, QED or LogP ranking, hosted NVIDIA API calls, or local Docker deployment. GenMol takes SAFE notation in the smiles field, not ordinary SMILES.
 
-**Source:** [genmol-nim/SKILL.md](genmol-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/genmol-nim/SKILL.md](skills/genmol-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

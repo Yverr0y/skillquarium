@@ -7,7 +7,7 @@ tags:
   - domain/single-cell-rnaseq
 domain: single-cell-rnaseq
 status: untried
-source: atac-seq/SKILL.md
+source: skills/atac-seq/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > ATAC-seq processing with assay QC, MACS3 peak calling, consensus peak matrices, differential accessibility, and motif or footprint follow-up.
 
-**Source:** [atac-seq/SKILL.md](atac-seq/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/atac-seq/SKILL.md](skills/atac-seq/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

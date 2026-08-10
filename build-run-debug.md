@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-run-debug/SKILL.md
+source: skills/build-run-debug/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build, run, and debug macOS apps with shell-first Xcode and Swift workflows. Use when launching apps or diagnosing build, startup, or runtime failures.
 
-**Source:** [build-run-debug/SKILL.md](build-run-debug/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-run-debug/SKILL.md](skills/build-run-debug/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

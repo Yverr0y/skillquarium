@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-web-services/SKILL.md
+source: skills/render-web-services/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Configures Render web services—port binding, TLS, health checks, custom domains, auto-deploy, PR previews, persistent disks, and deploy lifecycle. Use when the user needs to set up a web service, fix health check failures, add a custom domain, configure zero-downtime deploys, or troubleshoot port binding issues.
 
-**Source:** [render-web-services/SKILL.md](render-web-services/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-web-services/SKILL.md](skills/render-web-services/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: gstack/SKILL.md
+source: skills/gstack/SKILL.md
 created: 2026-06-21
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-21
 > [!info] What it does
 > Fast headless browser for QA testing and site dogfooding. (gstack)
 
-**Source:** [gstack/SKILL.md](gstack/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gstack/SKILL.md](skills/gstack/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

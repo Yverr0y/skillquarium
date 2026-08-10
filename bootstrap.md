@@ -3,7 +3,7 @@ title: bootstrap
 tags:
   - skill
 status: untried
-source: bootstrap/SKILL.md
+source: skills/bootstrap/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.
 
-**Source:** [bootstrap/SKILL.md](bootstrap/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bootstrap/SKILL.md](skills/bootstrap/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

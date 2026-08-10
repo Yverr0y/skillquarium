@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: exoplanet-scientist/SKILL.md
+source: skills/exoplanet-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Exoplanet Scientist (detection / RV & transits / atmospheric retrieval / occurrence demographics): Reasons from Keplerian motion, transit and RV geometry, and degenerate retrieval spaces through TLS/BLS searches, centroid and odd-even vetting, RadVel and GP activity models, and petitRADTRANS retrievals while treating eclipsing-binary blends, stellar-rotation-mimicking RV signals, and look-elsewhere completeness...
 
-**Source:** [exoplanet-scientist/SKILL.md](exoplanet-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/exoplanet-scientist/SKILL.md](skills/exoplanet-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

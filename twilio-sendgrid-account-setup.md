@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-sendgrid-account-setup/SKILL.md
+source: skills/twilio-sendgrid-account-setup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Set up a SendGrid account for email delivery. Covers API key creation (SG.-prefix), domain authentication (DKIM/SPF via CNAME records), Single Sender Verification for testing, SDK installation, and the relationship between SendGrid and Twilio credentials. Use before any other SendGrid skill. This skill is for SendGrid only — not the Twilio Email API (comms.twilio.com).
 
-**Source:** [twilio-sendgrid-account-setup/SKILL.md](twilio-sendgrid-account-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-sendgrid-account-setup/SKILL.md](skills/twilio-sendgrid-account-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

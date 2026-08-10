@@ -14,7 +14,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: veterinary-epidemiologist/SKILL.md
+source: skills/veterinary-epidemiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Veterinary Epidemiologist (field / observational / herd- health surveillance & infectious-disease modeling): Reasons from herd-level units, Rogan–Gladen prevalence, R₀/SIR transmission models, and WOAH freedom-from-disease surveillance through outbreak line lists, SaTScan clusters, cluster field trials (REFLECT), and STROBE-Vet/AHSURED reporting while treating pseudo-replication, test- biased apparent prevalence...
 
-**Source:** [veterinary-epidemiologist/SKILL.md](veterinary-epidemiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/veterinary-epidemiologist/SKILL.md](skills/veterinary-epidemiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

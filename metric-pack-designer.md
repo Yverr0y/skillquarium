@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: metric-pack-designer/SKILL.md
+source: skills/metric-pack-designer/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design custom metric packs for plugin-eval so teams can add local evaluation rubrics that emit schema-compatible checks and metrics. Use when the user wants their own evaluation criteria or visualizations.
 
-**Source:** [metric-pack-designer/SKILL.md](metric-pack-designer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/metric-pack-designer/SKILL.md](skills/metric-pack-designer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

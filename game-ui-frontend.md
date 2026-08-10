@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: game-ui-frontend/SKILL.md
+source: skills/game-ui-frontend/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design UI surfaces for browser games. Use when the user asks for HUDs, menus, overlays, responsive layouts, or visual direction that must protect the playfield.
 
-**Source:** [game-ui-frontend/SKILL.md](game-ui-frontend/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/game-ui-frontend/SKILL.md](skills/game-ui-frontend/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

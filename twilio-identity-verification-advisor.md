@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-identity-verification-advisor/SKILL.md
+source: skills/twilio-identity-verification-advisor/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Planning skill for identity verification and fraud prevention. Qualifies the developer's needs across authentication method, channel selection, fraud risk level, and user experience to recommend the right Twilio Verify + Lookup architecture. Handles login, signup, password reset, and risk-adaptive verification.
 
-**Source:** [twilio-identity-verification-advisor/SKILL.md](twilio-identity-verification-advisor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-identity-verification-advisor/SKILL.md](skills/twilio-identity-verification-advisor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -3,7 +3,7 @@ title: citations
 tags:
   - skill
 status: untried
-source: citations/SKILL.md
+source: skills/citations/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Canonical rules and HTML/CSS contract for inline `[n]` citation references, end-of-document Citations blocks, and optional per-section citation recaps used across Moody's Agentic Solutions HTML report skills (earnings-brief, peer-analysis, issuer-brief, sector-brief, etc.). Parent skills must read BOTH this `SKILL.md` (rules, numbering, hyperlink behavior, source data shape) AND `assets/template.html` (canonical CSS block + literal HTML markup snippets) before emitting citations. The asset file is the single source of truth for the visual/markup implementation; this `SKILL.md` is the single source of truth for the authoring rules. Triggers when the user asks about citations, sources, references, footnotes, hyperlinking [n] markers, or the Sources/Citations block in any HTML report skill.
 
-**Source:** [citations/SKILL.md](citations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/citations/SKILL.md](skills/citations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

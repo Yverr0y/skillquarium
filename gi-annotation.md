@@ -7,7 +7,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: gi-annotation/SKILL.md
+source: skills/gi-annotation/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Predict gene and transcript structure (intervals, exons, strand) from a DNA sequence using the Genomic Intelligence DNA Annotation model, via the hosted /v1/tasks/annotation/predict API. Async-only — the pipeline takes ~20 s for ~20 kbp.
 
-**Source:** [gi-annotation/SKILL.md](gi-annotation/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gi-annotation/SKILL.md](skills/gi-annotation/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

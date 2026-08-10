@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: crap-score/SKILL.md
+source: skills/crap-score/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Calculates targeted CRAP (Change Risk Anti-Patterns) scores for a named .NET method, class, or single source file. Use when the user explicitly asks to compute CRAP scores or assess risky untested code for a specific target, combining Cobertura coverage data with cyclomatic complexity analysis. DO NOT USE FOR: project-wide coverage analysis, coverage plateau or "stuck coverage" diagnosis, what's blocking coverage, or where to add tests across a project (use coverage-analysis); writing tests; running tests without CRAP context.
 
-**Source:** [crap-score/SKILL.md](crap-score/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/crap-score/SKILL.md](skills/crap-score/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

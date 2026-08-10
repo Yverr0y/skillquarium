@@ -8,7 +8,7 @@ expert_primary: agriculture-food-animal-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: agronomist/SKILL.md
+source: skills/agronomist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Agronomist (field / observational / extension & farm decision support): Reasons from 4R stewardship and G×E×M through MRTN economic N, calibrated soil-test extractants, penetrometer compaction diagnosis, on-farm strip mixed models, partial budgets, and AgroEcoList reporting while treating pseudo- replication, yield-monitor drift, and yield-goal N over-application as first-class failure...
 
-**Source:** [agronomist/SKILL.md](agronomist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/agronomist/SKILL.md](skills/agronomist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

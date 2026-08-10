@@ -7,7 +7,7 @@ tags:
   - domain/vault-meta
 domain: vault-meta
 status: untried
-source: mcp-builder/SKILL.md
+source: skills/mcp-builder/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
 
-**Source:** [mcp-builder/SKILL.md](mcp-builder/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mcp-builder/SKILL.md](skills/mcp-builder/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ukb-topmed-phewas-skill/SKILL.md
+source: skills/ukb-topmed-phewas-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Fetch compact UKB-TOPMed PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise UKB-TOPMed association results for one variant
 
-**Source:** [ukb-topmed-phewas-skill/SKILL.md](ukb-topmed-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ukb-topmed-phewas-skill/SKILL.md](skills/ukb-topmed-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

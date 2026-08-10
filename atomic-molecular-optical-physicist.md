@@ -11,7 +11,7 @@ bridge_domains:
   - imaging-signals
   - quantum-physics
 status: untried
-source: atomic-molecular-optical-physicist/SKILL.md
+source: skills/atomic-molecular-optical-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Atomic, Molecular & Optical Physicist (experimental AMO / lasers / ultracold atoms / precision metrology): Reasons from Rabi/OBE dynamics, laser-cooling hierarchy, optical lattices and Hubbard U/J, and magic-wavelength clock budgets through NIST ASD, ARC, QuTiP/PyLCP, and in-situ lattice-depth calibration while treating power-based depth guesses, polarization impurities, BBR shifts, and imaging-heating conflation as...
 
-**Source:** [atomic-molecular-optical-physicist/SKILL.md](atomic-molecular-optical-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/atomic-molecular-optical-physicist/SKILL.md](skills/atomic-molecular-optical-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

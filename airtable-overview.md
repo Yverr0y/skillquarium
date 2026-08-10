@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: airtable-overview/SKILL.md
+source: skills/airtable-overview/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Explains what Airtable is and how data is structured — bases, tables, fields, records, views, automations, and interfaces. Use when you need context about the Airtable data model.
 
-**Source:** [airtable-overview/SKILL.md](airtable-overview/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/airtable-overview/SKILL.md](skills/airtable-overview/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

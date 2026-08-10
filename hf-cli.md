@@ -9,7 +9,7 @@ tags:
   - domain/cloud-devops
 domain: cloud-devops
 status: untried
-source: hf-cli/SKILL.md
+source: skills/hf-cli/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command.
 
-**Source:** [hf-cli/SKILL.md](hf-cli/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hf-cli/SKILL.md](skills/hf-cli/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

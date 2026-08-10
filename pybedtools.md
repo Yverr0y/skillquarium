@@ -7,7 +7,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: pybedtools/SKILL.md
+source: skills/pybedtools/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Python genomic interval arithmetic with BEDTools, complementing pysam, polars, and query for downstream tables. Use when intersecting, merging, subtracting, shuffling, finding closest features, computing coverage, or converting BED, GFF, GTF, VCF, BAM, and pandas DataFrames into interval operations.
 
-**Source:** [pybedtools/SKILL.md](pybedtools/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pybedtools/SKILL.md](skills/pybedtools/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

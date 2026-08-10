@@ -5,7 +5,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab/SKILL.md
+source: skills/matlab/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computing. Use when writing MATLAB/Octave scripts for linear algebra, signal processing, image processing, differential equations, optimization, statistics, or creating scientific visualizations. Also use when the user needs help with MATLAB syntax, functions, or wants to convert between MATLAB and Python code. Scripts can be executed with MATLAB or the open-source GNU Octave interpreter.
 
-**Source:** [matlab/SKILL.md](matlab/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab/SKILL.md](skills/matlab/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-notifications-alerts-advisor/SKILL.md
+source: skills/twilio-notifications-alerts-advisor/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Planning skill for transactional notifications, alerts, and reminders. Qualifies the developer's needs across urgency, channel selection, delivery confirmation, and fallback patterns to recommend the right Twilio notification architecture. Handles both "send shipping updates to customers" and "build a multi-channel alert system with delivery confirmation and fallback.
 
-**Source:** [twilio-notifications-alerts-advisor/SKILL.md](twilio-notifications-alerts-advisor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-notifications-alerts-advisor/SKILL.md](skills/twilio-notifications-alerts-advisor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

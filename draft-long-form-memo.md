@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: draft-long-form-memo/SKILL.md
+source: skills/draft-long-form-memo/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Writes a formal objective legal research memo (Questions Presented, Brief Answers, Facts, IRAC Discussion, Conclusion) as a .docx. Use to \"draft a research memo on whether…\" Predicts, never advocates.
 
-**Source:** [draft-long-form-memo/SKILL.md](draft-long-form-memo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/draft-long-form-memo/SKILL.md](skills/draft-long-form-memo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

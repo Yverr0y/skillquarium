@@ -8,7 +8,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cuopt-user-rules/SKILL.md
+source: skills/cuopt-user-rules/SKILL.md
 created: 2026-08-07
 ---
 
@@ -17,7 +17,7 @@ created: 2026-08-07
 > [!info] What it does
 > Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals — use cuopt-developer for those.
 
-**Source:** [cuopt-user-rules/SKILL.md](cuopt-user-rules/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cuopt-user-rules/SKILL.md](skills/cuopt-user-rules/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

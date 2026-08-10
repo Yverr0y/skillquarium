@@ -14,7 +14,7 @@ bridge_domains:
   - genomics-variants
   - single-cell-rnaseq
 status: untried
-source: molecular-neuroscientist/SKILL.md
+source: skills/molecular-neuroscientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Molecular Neuroscientist (wet-lab / synaptic biochemistry + optogenetics + viral tracing + region RNA-seq): Reasons from NPQ transmission, AMPAR/NMDAR trafficking, monoamine receptor/transporter systems, optogenetics (ChR2/Chrimson/ACR) with retinal-artifact controls, AAV/rabies circuit tracing, and region RNA-seq with DESeq2/SynGO—integrating synaptic biochemistry, perturbation, and omics while treating mini-detection...
 
-**Source:** [molecular-neuroscientist/SKILL.md](molecular-neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/molecular-neuroscientist/SKILL.md](skills/molecular-neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

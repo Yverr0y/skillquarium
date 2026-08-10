@@ -7,7 +7,7 @@ tags:
   - domain/clinical-medical
 domain: clinical-medical
 status: untried
-source: clinical-trial-finder/SKILL.md
+source: skills/clinical-trial-finder/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Find clinical trials for a gene, variant, or condition from ClinicalTrials.gov + EUCTR, with FHIR R4 output
 
-**Source:** [clinical-trial-finder/SKILL.md](clinical-trial-finder/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinical-trial-finder/SKILL.md](skills/clinical-trial-finder/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

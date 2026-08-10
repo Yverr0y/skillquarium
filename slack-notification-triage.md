@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: slack-notification-triage/SKILL.md
+source: skills/slack-notification-triage/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Triage recent Slack activity into a priority queue or task list for the user.
 
-**Source:** [slack-notification-triage/SKILL.md](slack-notification-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/slack-notification-triage/SKILL.md](skills/slack-notification-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

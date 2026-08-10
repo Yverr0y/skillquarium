@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-monitor/SKILL.md
+source: skills/render-monitor/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Monitor Render services in real-time. Check health, performance metrics, logs, and resource usage. Use when users want to check service status, view metrics, monitor performance, or verify deployments are healthy.
 
-**Source:** [render-monitor/SKILL.md](render-monitor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-monitor/SKILL.md](skills/render-monitor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

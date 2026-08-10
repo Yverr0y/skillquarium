@@ -1,7 +1,7 @@
 A collection of AI agent skills, organized as an Obsidian vault for easier human navigation.
 
 - managed by vercel's skills
-- place at `~/.agents/skills`
+- place at `~/.agents` (the repo root *is* the skills CLI's home; skill folders live in `skills/`)
 
 ## Screenshot
 <table width="100%">
@@ -25,9 +25,17 @@ A collection of AI agent skills, organized as an Obsidian vault for easier human
 
 ## Setup
 
+The repo root is `~/.agents` itself, so the skills CLI finds its canonical
+store at `~/.agents/skills` and its provenance lock at `~/.agents/.skill-lock.json`
+with no extra wiring. `~/.agents` usually already exists, so init-and-fetch
+rather than `git clone` (which refuses a non-empty target):
+
 ```bash
-git clone git@github.com:stanfish06/my-skills.git ~/.agents/skills
-cd ~/.agents/skills
+mkdir -p ~/.agents && cd ~/.agents
+git init
+git remote add origin git@github.com:stanfish06/my-skills.git
+git fetch origin
+git checkout -f master
 ./install-skills.sh
 ```
 

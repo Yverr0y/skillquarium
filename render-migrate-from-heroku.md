@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-migrate-from-heroku/SKILL.md
+source: skills/render-migrate-from-heroku/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Migrate from Heroku to Render by reading local project files and generating equivalent Render services. Triggers: any mention of migrating from Heroku, moving off Heroku, Heroku to Render migration, or switching from Heroku. Reads Procfile, dependency files, and app config from the local repo. Optionally uses Heroku MCP to enrich with live config vars, add-on details, and dyno sizes. Uses Render MCP or Blueprint YAML to create services.
 
-**Source:** [render-migrate-from-heroku/SKILL.md](render-migrate-from-heroku/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-migrate-from-heroku/SKILL.md](skills/render-migrate-from-heroku/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

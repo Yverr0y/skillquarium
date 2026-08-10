@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: biostudies-arrayexpress-skill/SKILL.md
+source: skills/biostudies-arrayexpress-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact BioStudies and ArrayExpress API requests for free-text search and accession-based study retrieval. Use when a user wants concise BioStudies summaries
 
-**Source:** [biostudies-arrayexpress-skill/SKILL.md](biostudies-arrayexpress-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/biostudies-arrayexpress-skill/SKILL.md](skills/biostudies-arrayexpress-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

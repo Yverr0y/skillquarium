@@ -5,7 +5,7 @@ tags:
   - domain/ml-ai
 domain: ml-ai
 status: untried
-source: crewai/SKILL.md
+source: skills/crewai/SKILL.md
 created: 2026-07-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-07-20
 > [!info] What it does
 > Role-based multi-agent orchestration framework for building "Crews" of collaborating LLM agents (each with a role, goal, backstory, and optional tools) that execute sequential or hierarchical task pipelines, plus event-driven "Flows" for precise, single-LLM-call orchestration. Use when composing specialized agents (e.g. a research agent + an analysis agent + a writer agent) into a declarative pipeline for complex multi-step tasks like automated literature review or multi-agent research workflows. Distinct from LangGraph's explicit state-machine graphs and smolagents' minimal tool-calling loop — CrewAI is standalone (no LangChain dependency) and expresses orchestration as roles and delegated tasks rather than a graph or a single ReAct loop.
 
-**Source:** [crewai/SKILL.md](crewai/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/crewai/SKILL.md](skills/crewai/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

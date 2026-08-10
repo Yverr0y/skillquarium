@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-video-sdk-react-native/SKILL.md
+source: skills/zoom-video-sdk-react-native/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Zoom Video SDK for React Native. Use when building custom mobile video session experiences with @zoom/react-native-videosdk, event listeners, helper-based APIs, and backend JWT token flows.
 
-**Source:** [zoom-video-sdk-react-native/SKILL.md](zoom-video-sdk-react-native/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-video-sdk-react-native/SKILL.md](skills/zoom-video-sdk-react-native/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

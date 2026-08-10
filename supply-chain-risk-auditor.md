@@ -7,7 +7,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: supply-chain-risk-auditor/SKILL.md
+source: skills/supply-chain-risk-auditor/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.
 
-**Source:** [supply-chain-risk-auditor/SKILL.md](supply-chain-risk-auditor/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/supply-chain-risk-auditor/SKILL.md](skills/supply-chain-risk-auditor/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

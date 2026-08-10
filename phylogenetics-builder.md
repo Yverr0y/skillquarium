@@ -8,7 +8,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: phylogenetics-builder/SKILL.md
+source: skills/phylogenetics-builder/SKILL.md
 created: 2026-06-09
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-09
 > [!info] What it does
 > End-to-end ML phylogenetic tree inference — MSA, trimming, ModelFinder, IQ-TREE2/RAxML-NG.
 
-**Source:** [phylogenetics-builder/SKILL.md](phylogenetics-builder/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/phylogenetics-builder/SKILL.md](skills/phylogenetics-builder/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

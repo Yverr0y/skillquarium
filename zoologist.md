@@ -10,7 +10,7 @@ bridge_domains:
   - sequence-phylogenetics
   - data-science-compute
 status: untried
-source: zoologist/SKILL.md
+source: skills/zoologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Zoologist (field / museum / lab / integrative animal biology): Reasons from Bauplan, homoplasy, and voucher-backed ICZN taxonomy through COL/WoRMS/GBIF IPT, VertNet/Arctos curation, Folmer COI/BOLD BIN, geomorph GPA, IQ- TREE phylogenetics, and Distance/MARK occupancy–abundance models while treating trap selectivity, checklist drift, barcode-only species, and morphometric...
 
-**Source:** [zoologist/SKILL.md](zoologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoologist/SKILL.md](skills/zoologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

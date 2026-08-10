@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: guidance-tracker/SKILL.md
+source: skills/guidance-tracker/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Track management guidance accuracy over time for a given company
 
-**Source:** [guidance-tracker/SKILL.md](guidance-tracker/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/guidance-tracker/SKILL.md](skills/guidance-tracker/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

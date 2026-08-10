@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: markdown-mermaid-writing/SKILL.md
+source: skills/markdown-mermaid-writing/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.
 
-**Source:** [markdown-mermaid-writing/SKILL.md](markdown-mermaid-writing/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/markdown-mermaid-writing/SKILL.md](skills/markdown-mermaid-writing/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

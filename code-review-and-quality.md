@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: code-review-and-quality/SKILL.md
+source: skills/code-review-and-quality/SKILL.md
 created: 2026-06-12
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-12
 > [!info] What it does
 > Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
 
-**Source:** [code-review-and-quality/SKILL.md](code-review-and-quality/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/code-review-and-quality/SKILL.md](skills/code-review-and-quality/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

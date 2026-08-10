@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: human-protein-atlas-skill/SKILL.md
+source: skills/human-protein-atlas-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Human Protein Atlas requests for gene JSON, search downloads, and page-level tissue or cell-line lookups. Use when a user wants concise Human Protein Atlas summaries; save raw JSON or HTML only on request.
 
-**Source:** [human-protein-atlas-skill/SKILL.md](human-protein-atlas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/human-protein-atlas-skill/SKILL.md](skills/human-protein-atlas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

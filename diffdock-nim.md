@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: diffdock-nim/SKILL.md
+source: skills/diffdock-nim/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Run DiffDock molecular docking via NVIDIA NIM to predict small-molecule binding poses against protein targets. Use for DiffDock, molecular docking, ligand docking, blind docking, SMILES or SDF ligands, ranked poses, confidence scores, hosted NVIDIA API, or local Docker deployment.
 
-**Source:** [diffdock-nim/SKILL.md](diffdock-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/diffdock-nim/SKILL.md](skills/diffdock-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

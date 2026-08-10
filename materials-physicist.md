@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - quantum-physics
 status: untried
-source: materials-physicist/SKILL.md
+source: skills/materials-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Materials Physicist (experimental / thin-film & bulk / spectroscopy–transport): Reasons from band structure, defects, strain, and Landau order parameters; integrates HRXRD/RSM, ARPES, TEM/4D-STEM, van der Pauw transport, and SQUID/MOKE with Materials Project/VASP while treating matrix-element ARPES artifacts, substrate-dominated GIXRD, contact-resistance Hall errors, and DFT gap overclaim as...
 
-**Source:** [materials-physicist/SKILL.md](materials-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/materials-physicist/SKILL.md](skills/materials-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

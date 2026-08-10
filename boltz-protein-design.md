@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: boltz-protein-design/SKILL.md
+source: skills/boltz-protein-design/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design new protein binders with Boltz. Use when generating protein, peptide, antibody, nanobody, or custom binder candidates for a target. Not for screening existing proteins or small molecules.
 
-**Source:** [boltz-protein-design/SKILL.md](boltz-protein-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/boltz-protein-design/SKILL.md](skills/boltz-protein-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

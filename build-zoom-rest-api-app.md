@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-rest-api-app/SKILL.md
+source: skills/build-zoom-rest-api-app/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when calling REST APIs.
 
-**Source:** [build-zoom-rest-api-app/SKILL.md](build-zoom-rest-api-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-rest-api-app/SKILL.md](skills/build-zoom-rest-api-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

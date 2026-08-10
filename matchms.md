@@ -5,7 +5,7 @@ tags:
   - domain/proteomics-metabolomics
 domain: proteomics-metabolomics
 status: untried
-source: matchms/SKILL.md
+source: skills/matchms/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms.
 
-**Source:** [matchms/SKILL.md](matchms/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matchms/SKILL.md](skills/matchms/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-meeting-sdk-app/SKILL.md
+source: skills/build-zoom-meeting-sdk-app/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Meeting SDK.
 
-**Source:** [build-zoom-meeting-sdk-app/SKILL.md](build-zoom-meeting-sdk-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-meeting-sdk-app/SKILL.md](skills/build-zoom-meeting-sdk-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

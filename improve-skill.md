@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: improve-skill/SKILL.md
+source: skills/improve-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Turn plugin-eval findings into a concrete rewrite brief for a Codex skill. Use when the user already evaluated a skill and now wants Codex to improve it, especially after asking what to fix first.
 
-**Source:** [improve-skill/SKILL.md](improve-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/improve-skill/SKILL.md](skills/improve-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

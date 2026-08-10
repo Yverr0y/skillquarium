@@ -7,7 +7,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: spec-to-code-compliance/SKILL.md
+source: skills/spec-to-code-compliance/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Check code against the documentation that specifies it - which requirements hold, which the code contradicts, which are absent, and what the code does that no document mentions. Use when comparing an implementation against a whitepaper, protocol spec, or design document.
 
-**Source:** [spec-to-code-compliance/SKILL.md](spec-to-code-compliance/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/spec-to-code-compliance/SKILL.md](skills/spec-to-code-compliance/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

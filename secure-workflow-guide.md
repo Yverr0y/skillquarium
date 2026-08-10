@@ -7,7 +7,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: secure-workflow-guide/SKILL.md
+source: skills/secure-workflow-guide/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas.
 
-**Source:** [secure-workflow-guide/SKILL.md](secure-workflow-guide/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/secure-workflow-guide/SKILL.md](skills/secure-workflow-guide/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

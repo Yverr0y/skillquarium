@@ -9,7 +9,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: cosmologist/SKILL.md
+source: skills/cosmologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Cosmologist (theoretical / observational / computational cosmology): Reasons from Friedmann/ΛCDM, r_s and transfer functions, and multi-probe inference (Planck CMB, DESI BAO, lensing, Pantheon+ SNe) through CAMB/CLASS, Cobaya, and GetDist while treating photo-z–IA coupling, CMB foreground pipelines, H0/S8 tensions, and emulator extrapolation as first-class failure modes.
 
-**Source:** [cosmologist/SKILL.md](cosmologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cosmologist/SKILL.md](skills/cosmologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

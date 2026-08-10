@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: stripe-best-practices/SKILL.md
+source: skills/stripe-best-practices/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, Treasury financial accounts, integration surfaces (Checkout, Payment Element), and migrating from deprecated Stripe APIs. Use when building, modifying, or reviewing any Stripe integration — including accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, or creating connected accounts.
 
-**Source:** [stripe-best-practices/SKILL.md](stripe-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/stripe-best-practices/SKILL.md](skills/stripe-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

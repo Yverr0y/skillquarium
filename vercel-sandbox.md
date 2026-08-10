@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: vercel-sandbox/SKILL.md
+source: skills/vercel-sandbox/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation.
 
-**Source:** [vercel-sandbox/SKILL.md](vercel-sandbox/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-sandbox/SKILL.md](skills/vercel-sandbox/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

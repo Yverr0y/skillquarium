@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: website-to-hyperframes/SKILL.md
+source: skills/website-to-hyperframes/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says "capture this site", "turn this into a video", "make a promo from my site", (3) the user wants a social ad, product tour, or any video based on an existing website, (4) the user shares a link and asks for any kind of video content. Even if the user just pastes a URL — this is the skill to use.
 
-**Source:** [website-to-hyperframes/SKILL.md](website-to-hyperframes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/website-to-hyperframes/SKILL.md](skills/website-to-hyperframes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

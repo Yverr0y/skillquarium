@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: template-instantiation/SKILL.md
+source: skills/template-instantiation/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Creates .NET projects from templates with validated parameters, smart defaults, Central Package Management adaptation, and latest NuGet version resolution. USE FOR: creating new dotnet projects, scaffolding solutions with multiple projects, installing or uninstalling template packages, creating projects that respect Directory.Packages.props (CPM), composing multi-project solutions (API + tests + library), getting latest NuGet package versions in newly created projects. DO NOT USE FOR: finding templates (use template-discovery), producing a detailed side-by-side comparison of templates (use template-comparison), authoring custom templates (use template-authoring), deciding cross-parameter defaults such as which framework to pair with native AOT or whether to keep HTTPS when auth is enabled (use template-smart-defaults), modifying existing projects or adding NuGet packages to existing projects.
 
-**Source:** [template-instantiation/SKILL.md](template-instantiation/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/template-instantiation/SKILL.md](skills/template-instantiation/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

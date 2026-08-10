@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: figma-use-slides/SKILL.md
+source: skills/figma-use-slides/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has foundational context for using the use_figma tool.
 
-**Source:** [figma-use-slides/SKILL.md](figma-use-slides/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/figma-use-slides/SKILL.md](skills/figma-use-slides/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

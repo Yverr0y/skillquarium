@@ -5,7 +5,7 @@ tags:
   - domain/imaging-signals
 domain: imaging-signals
 status: untried
-source: histolab/SKILL.md
+source: skills/histolab/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml.
 
-**Source:** [histolab/SKILL.md](histolab/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/histolab/SKILL.md](skills/histolab/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

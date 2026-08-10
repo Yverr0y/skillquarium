@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-build-toolbox/SKILL.md
+source: skills/matlab-build-toolbox/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Execute the build plan — introspect buildfile.m, run its dependency chain, and produce the .mltbx toolbox package. Mechanical execution with no human checkpoint. Works with any buildplan shape.
 
-**Source:** [matlab-build-toolbox/SKILL.md](matlab-build-toolbox/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-build-toolbox/SKILL.md](skills/matlab-build-toolbox/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

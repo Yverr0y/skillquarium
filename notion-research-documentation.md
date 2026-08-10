@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: notion-research-documentation/SKILL.md
+source: skills/notion-research-documentation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
 
-**Source:** [notion-research-documentation/SKILL.md](notion-research-documentation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/notion-research-documentation/SKILL.md](skills/notion-research-documentation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

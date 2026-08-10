@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: civil-engineer/SKILL.md
+source: skills/civil-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Civil Engineer (structural / geotechnical / water resources / LRFD design-review / codes (ASCE 7, ACI 318, AASHTO LRFD)): Reasons from load paths, factored load combinations, soil-structure interaction, and governing limit states through ASCE 7, ACI 318, AISC 360, and tools like SAP2000/ETABS, PLAXIS, and HEC-RAS while treating missing load paths, connection and foundation failures, differential settlement, and unvalidated FEA as...
 
-**Source:** [civil-engineer/SKILL.md](civil-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/civil-engineer/SKILL.md](skills/civil-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

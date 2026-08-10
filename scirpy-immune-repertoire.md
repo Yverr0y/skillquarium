@@ -10,7 +10,7 @@ tags:
   - domain/single-cell-rnaseq
 domain: single-cell-rnaseq
 status: untried
-source: scirpy-immune-repertoire/SKILL.md
+source: skills/scirpy-immune-repertoire/SKILL.md
 created: 2026-06-09
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-09
 > [!info] What it does
 > Single-cell immune receptor analysis with Scirpy for scanpy, anndata, and scvi-tools projects. Use for TCR/BCR V(D)J import, clonotype definition, clonal expansion, repertoire overlap, immune receptor QC, MuData/AnnData integration, and Scanpy-linked immune repertoire visualization.
 
-**Source:** [scirpy-immune-repertoire/SKILL.md](scirpy-immune-repertoire/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/scirpy-immune-repertoire/SKILL.md](skills/scirpy-immune-repertoire/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: biobankjapan-phewas-skill/SKILL.md
+source: skills/biobankjapan-phewas-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Fetch compact BioBank Japan PheWAS summaries for single variants by accepting rsID, GRCh38, or GRCh37 input and resolving to the required GRCh37 query. Use when a user wants concise BBJ association results for one variant
 
-**Source:** [biobankjapan-phewas-skill/SKILL.md](biobankjapan-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/biobankjapan-phewas-skill/SKILL.md](skills/biobankjapan-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

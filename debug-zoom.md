@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: debug-zoom/SKILL.md
+source: skills/debug-zoom/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when debugging issues.
 
-**Source:** [debug-zoom/SKILL.md](debug-zoom/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/debug-zoom/SKILL.md](skills/debug-zoom/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

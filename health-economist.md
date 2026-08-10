@@ -15,7 +15,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: health-economist/SKILL.md
+source: skills/health-economist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Health Economist (computational / HEOR / health technology assessment): Reasons from QALY/ICER and NMB opportunity-cost framing, NICE reference case and WTP bands, cohort Markov/PSM models with PSA (CEAC/CEAF), ISPOR transferability and DCE conjoint checklists, CHEERS 2022 and trial-based RCT-CEA reporting.
 
-**Source:** [health-economist/SKILL.md](health-economist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/health-economist/SKILL.md](skills/health-economist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

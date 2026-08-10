@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: rivet-sdk/SKILL.md
+source: skills/rivet-sdk/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Rivet SDK.
 
-**Source:** [rivet-sdk/SKILL.md](rivet-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/rivet-sdk/SKILL.md](skills/rivet-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

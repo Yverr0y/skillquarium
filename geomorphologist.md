@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: geomorphologist/SKILL.md
+source: skills/geomorphologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Geomorphologist (field mapping / DEM geomorphometry / cosmogenic dating / landscape evolution modeling): Reasons from coupled form, process, and time and from rates, thresholds, and lag times through field mapping, lidar/SfM DEM morphometry (chi profiles, Ksn in LSDTopoTools/Landlab), cosmogenic nuclide dating (CRONUS-Earth, OSL, U-Th), and landscape-evolution models, while treating equifinality, inheritance, DEM...
 
-**Source:** [geomorphologist/SKILL.md](geomorphologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geomorphologist/SKILL.md](skills/geomorphologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

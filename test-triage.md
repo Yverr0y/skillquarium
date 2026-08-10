@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: test-triage/SKILL.md
+source: skills/test-triage/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Triage macOS tests across Xcode and SwiftPM. Use when narrowing failures, explaining assertions or crashes, or separating setup from regressions.
 
-**Source:** [test-triage/SKILL.md](test-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/test-triage/SKILL.md](skills/test-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

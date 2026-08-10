@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-calendar-daily-brief/SKILL.md
+source: skills/outlook-calendar-daily-brief/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build polished one-day Outlook Calendar briefs. Use when the user asks for today, tomorrow, or a specific date summary with an agenda, conflict flags, free windows, remaining-meeting readouts, or a calendar brief, and Outlook Calendar is available.
 
-**Source:** [outlook-calendar-daily-brief/SKILL.md](outlook-calendar-daily-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-calendar-daily-brief/SKILL.md](skills/outlook-calendar-daily-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

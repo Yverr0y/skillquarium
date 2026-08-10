@@ -10,7 +10,7 @@ expert_primary: medicine-health
 bridge_domains:
   - clinical-medical
 status: untried
-source: global-health-researcher/SKILL.md
+source: skills/global-health-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Global Health Researcher (field / health systems / implementation & mixed-methods research): Reasons from burden, equity, and health- system building blocks through DHS/MICS/DHIS2/GBD triangulation, cluster and stepped- wedge designs, RE-AIM/CFIR implementation science, and CIOMS-fair partnership while treating survey weights, HMIS completeness, and GBD smoothing as first-class failure modes.
 
-**Source:** [global-health-researcher/SKILL.md](global-health-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/global-health-researcher/SKILL.md](skills/global-health-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -8,7 +8,7 @@ tags:
   - domain/clinical-medical
 domain: clinical-medical
 status: untried
-source: pharmgx-reporter/SKILL.md
+source: skills/pharmgx-reporter/SKILL.md
 created: 2026-06-09
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-09
 > [!info] What it does
 > Pharmacogenomic report from DTC genetic data (23andMe/AncestryDNA) — 12 genes, 31 SNPs, 51 drugs
 
-**Source:** [pharmgx-reporter/SKILL.md](pharmgx-reporter/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pharmgx-reporter/SKILL.md](skills/pharmgx-reporter/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

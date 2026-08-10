@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-meeting-sdk-ios/SKILL.md
+source: skills/zoom-meeting-sdk-ios/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Zoom Meeting SDK for iOS native apps. Use when embedding Zoom meetings in iOS with default/custom UI, PKCE + SDK auth, host start with ZAK, and mobile lifecycle handling.
 
-**Source:** [zoom-meeting-sdk-ios/SKILL.md](zoom-meeting-sdk-ios/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-meeting-sdk-ios/SKILL.md](skills/zoom-meeting-sdk-ios/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: handoff/SKILL.md
+source: skills/handoff/SKILL.md
 created: 2026-06-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-20
 > [!info] What it does
 > Compact the current conversation into a handoff document for another agent to pick up.
 
-**Source:** [handoff/SKILL.md](handoff/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/handoff/SKILL.md](skills/handoff/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

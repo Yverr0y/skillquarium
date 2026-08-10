@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: msbuild-antipatterns/SKILL.md
+source: skills/msbuild-antipatterns/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Detect and fix MSBuild anti-patterns in project and build files. USE WHEN asked to review, audit, lint, clean up, or code-review a .csproj/.vbproj/.fsproj/.props/.targets/.proj (or Directory.Build.props/.targets) file, when asked 'is this project file correct?' or 'what's wrong with my build file?', or when hunting subtle build bugs caused by how a project is authored. Each anti-pattern has a symptom and a concrete BAD→GOOD fix. DO NOT USE FOR: non-MSBuild build systems (npm, Maven, CMake), or migrating a project to SDK-style (use msbuild-modernization).
 
-**Source:** [msbuild-antipatterns/SKILL.md](msbuild-antipatterns/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/msbuild-antipatterns/SKILL.md](skills/msbuild-antipatterns/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

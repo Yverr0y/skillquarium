@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: supply-chain/SKILL.md
+source: skills/supply-chain/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Interactive supply chain dashboard mapping suppliers, customers, and financial interdependencies
 
-**Source:** [supply-chain/SKILL.md](supply-chain/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/supply-chain/SKILL.md](skills/supply-chain/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

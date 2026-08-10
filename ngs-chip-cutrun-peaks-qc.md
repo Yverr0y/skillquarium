@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-chip-cutrun-peaks-qc/SKILL.md
+source: skills/ngs-chip-cutrun-peaks-qc/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run or plan ChIP-seq, CUT&RUN, or CUT&Tag QC, control handling, spike-in, peak calling, broad-vs-narrow target selection, replicate, bigWig, and differential binding workflows.
 
-**Source:** [ngs-chip-cutrun-peaks-qc/SKILL.md](ngs-chip-cutrun-peaks-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-chip-cutrun-peaks-qc/SKILL.md](skills/ngs-chip-cutrun-peaks-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

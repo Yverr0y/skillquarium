@@ -9,7 +9,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: virologist/SKILL.md
+source: skills/virologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Virologist (wet-lab / clinical / viral genomics): Reasons from Baltimore groups, replication-cycle kinetics, and ICTV/MSL41 taxonomy; runs plaque/TCID50/PRNT, MIQE qPCR, ARTIC Illumina/Nanopore surveillance, antiviral TOA, VLP platforms, and BEI Resources while treating DI particles, subgenomic RNA, pseudovirus cytotoxicity, and IFN/MHC evasion as first-class failure...
 
-**Source:** [virologist/SKILL.md](virologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/virologist/SKILL.md](skills/virologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

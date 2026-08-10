@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: routing-middleware/SKILL.md
+source: skills/routing-middleware/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the platform level.
 
-**Source:** [routing-middleware/SKILL.md](routing-middleware/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/routing-middleware/SKILL.md](skills/routing-middleware/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

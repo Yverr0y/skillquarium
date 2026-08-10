@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: writing-mstest-tests/SKILL.md
+source: skills/writing-mstest-tests/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Write, create, modernize, or fix comprehensive MSTest unit tests with MSTest 3.x/4.x APIs. USE FOR: write, create, review, or modernize MSTest tests and assertions, better MSTest assertion than Assert.IsTrue, replace hard cast with IsInstanceOfType, MSTest assertion APIs (Contains, ContainsSingle, HasCount, IsEmpty, IsNotEmpty, DoesNotContain, AreSame, IsNull, StartsWith, EndsWith, MatchesRegex, IsGreaterThan, IsLessThan, IsInRange), swapped/reversed Assert.AreEqual args (Expected/Actual backwards), replace ExpectedException with Assert.Throws, data-driven (DataRow, DynamicData, ValueTuples), lifecycle (TestInitialize, TestCleanup, TestContext), async and cancellation tests, conditional execution/retry/cleanup (OSCondition, Retry), parallelization (Parallelize/DoNotParallelize), MSTest.Sdk setup, MSTESTxxxx analyzer fixes. DO NOT USE FOR: test quality audits (use test-anti-patterns), running tests (use run-tests), MSTest version migration (use migrate-mstest skills), xUnit/NUnit/TUnit, or non-.NET languages.
 
-**Source:** [writing-mstest-tests/SKILL.md](writing-mstest-tests/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/writing-mstest-tests/SKILL.md](skills/writing-mstest-tests/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

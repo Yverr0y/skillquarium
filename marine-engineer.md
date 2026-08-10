@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: marine-engineer/SKILL.md
+source: skills/marine-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Marine Engineer (shipboard / design / machinery systems / class compliance): Reasons from propulsion thermodynamics, shaft BPF/torsional barred speeds, central LT/HT cooling, class machinery surveys, and ISO 15016:2025 sea trials while treating cat fines liner wear, scavenge fire, purifier mis-set, blackout PMS logic, and tropical SW fouling as first-class failure modes.
 
-**Source:** [marine-engineer/SKILL.md](marine-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/marine-engineer/SKILL.md](skills/marine-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

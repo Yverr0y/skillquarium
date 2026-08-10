@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: vercel-api/SKILL.md
+source: skills/vercel-api/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected Vercel app or REST API.
 
-**Source:** [vercel-api/SKILL.md](vercel-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-api/SKILL.md](skills/vercel-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

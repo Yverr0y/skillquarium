@@ -7,7 +7,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: sequence-analysis/SKILL.md
+source: skills/sequence-analysis/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Analyze DNA/RNA/protein sequences. Use when the user provides a sequence and asks for analysis, translation, GC content, ORFs, motifs, restriction sites, or primer design. Triggers on "sequence", "translate", "GC content", "ORF", "primer", "restriction", "complement", "reverse complement".
 
-**Source:** [sequence-analysis/SKILL.md](sequence-analysis/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sequence-analysis/SKILL.md](skills/sequence-analysis/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

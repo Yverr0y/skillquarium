@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: dynamo-router-starter/SKILL.md
+source: skills/dynamo-router-starter/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Start or patch Dynamo router modes and run router endpoint smoke checks. Use for round-robin, KV-aware, least-loaded, or device-aware routing setup; use recipe-runner for recipe deployment and troubleshoot for failure diagnosis.
 
-**Source:** [dynamo-router-starter/SKILL.md](dynamo-router-starter/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dynamo-router-starter/SKILL.md](skills/dynamo-router-starter/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

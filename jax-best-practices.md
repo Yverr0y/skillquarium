@@ -7,7 +7,7 @@ tags:
   - domain/ml-ai
 domain: ml-ai
 status: untried
-source: jax-best-practices/SKILL.md
+source: skills/jax-best-practices/SKILL.md
 created: 2026-07-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-09
 > [!info] What it does
 > Expert in JAX for high-performance numerical computing and machine learning
 
-**Source:** [jax-best-practices/SKILL.md](jax-best-practices/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/jax-best-practices/SKILL.md](skills/jax-best-practices/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

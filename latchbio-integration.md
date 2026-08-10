@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: latchbio-integration/SKILL.md
+source: skills/latchbio-integration/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.
 
-**Source:** [latchbio-integration/SKILL.md](latchbio-integration/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/latchbio-integration/SKILL.md](skills/latchbio-integration/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

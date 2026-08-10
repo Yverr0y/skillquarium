@@ -11,7 +11,7 @@ bridge_domains:
   - drug-discovery-chem
   - imaging-signals
 status: untried
-source: structural-biologist/SKILL.md
+source: skills/structural-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Structural Biologist (wet-lab / X-ray crystallography / cryo-EM / NMR): Reasons from the phase problem, CTF, and gold-standard FSC; refines with CCP4/PHENIX/RELION/cryoSPARC; validates with MolProbity and OneDep while treating preferred orientation, twinning, and radiation damage as first-class failure modes.
 
-**Source:** [structural-biologist/SKILL.md](structural-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/structural-biologist/SKILL.md](skills/structural-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

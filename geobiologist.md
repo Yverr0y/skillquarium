@@ -10,7 +10,7 @@ expert_secondary:
 bridge_domains:
   - genomics-variants
 status: untried
-source: geobiologist/SKILL.md
+source: skills/geobiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Geobiologist (biosignature assessment / isotope geochemistry / microbe-mineral petrography / deep-biosphere -omics / astrobiology): Reasons from metabolism, redox geochemistry, microbe-mineral interactions, and diagenetic filters through stromatolite microfabric petrography, CSIA and clumped- isotopologue analysis, nanoSIMS-FISH mapping, and NASA's Ladder of Life Detection while treating Fischer-Tropsch-type synthesis, serpentinization, Rayleigh...
 
-**Source:** [geobiologist/SKILL.md](geobiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geobiologist/SKILL.md](skills/geobiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

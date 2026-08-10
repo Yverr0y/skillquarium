@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: google-calendar-free-up-time/SKILL.md
+source: skills/google-calendar-free-up-time/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Find ways to open up meaningful free time in a connected Google Calendar. Use when the user wants to clear up their day, make room for focus time, create a longer uninterrupted block, or see the smallest set of calendar changes that would give time back.
 
-**Source:** [google-calendar-free-up-time/SKILL.md](google-calendar-free-up-time/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/google-calendar-free-up-time/SKILL.md](skills/google-calendar-free-up-time/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

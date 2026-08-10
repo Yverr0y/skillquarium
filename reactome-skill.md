@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: reactome-skill/SKILL.md
+source: skills/reactome-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Reactome ContentService requests for pathway, event, participant, search, and diagram-related data. Use when a user wants concise Reactome summaries
 
-**Source:** [reactome-skill/SKILL.md](reactome-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/reactome-skill/SKILL.md](skills/reactome-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

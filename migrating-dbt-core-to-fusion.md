@@ -7,7 +7,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: migrating-dbt-core-to-fusion/SKILL.md
+source: skills/migrating-dbt-core-to-fusion/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Use when a user needs help triaging dbt-core to Fusion migration errors. Runs dbt-autofix first, then classifies remaining errors into actionable categories (auto-fixable, guided fixes, needs input, blocked).
 
-**Source:** [migrating-dbt-core-to-fusion/SKILL.md](migrating-dbt-core-to-fusion/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/migrating-dbt-core-to-fusion/SKILL.md](skills/migrating-dbt-core-to-fusion/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

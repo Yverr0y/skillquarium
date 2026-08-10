@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: web-3d-asset-pipeline/SKILL.md
+source: skills/web-3d-asset-pipeline/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Prepare and optimize browser-game 3D assets. Use when the user asks for GLB or glTF shipping work, including Blender cleanup and export, collision or LOD setup, compression, texture packaging, and runtime validation.
 
-**Source:** [web-3d-asset-pipeline/SKILL.md](web-3d-asset-pipeline/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/web-3d-asset-pipeline/SKILL.md](skills/web-3d-asset-pipeline/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -12,7 +12,7 @@ bridge_domains:
   - software-dev
   - security-auditing
 status: untried
-source: computer-security-researcher/SKILL.md
+source: skills/computer-security-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Computer Security Researcher (dry-computational / vulnerability, protocol, and empirical security research): Reasons from explicit threat models and CIA/STRIDE through AFL++/libFuzzer triage, ASan/KASAN oracles, ProVerif/Tamarin proofs, CVE/CWE/CAPEC taxonomies, CyberGym dual-execution benchmarks, Menlo/CVD ethics, and USENIX open-science artifact norms.
 
-**Source:** [computer-security-researcher/SKILL.md](computer-security-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/computer-security-researcher/SKILL.md](skills/computer-security-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

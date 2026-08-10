@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cite-check/SKILL.md
+source: skills/cite-check/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately. Returns one marked-up .docx with comments and redlines.
 
-**Source:** [cite-check/SKILL.md](cite-check/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cite-check/SKILL.md](skills/cite-check/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sharepoint-word-docs/SKILL.md
+source: skills/sharepoint-word-docs/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Edit SharePoint-hosted Word `.docx` files while preserving document structure and styling. Use when the user wants to update a real Word document in SharePoint rather than summarize it as plain text.
 
-**Source:** [sharepoint-word-docs/SKILL.md](sharepoint-word-docs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sharepoint-word-docs/SKILL.md](skills/sharepoint-word-docs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

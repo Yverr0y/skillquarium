@@ -8,7 +8,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: setup-pre-commit/SKILL.md
+source: skills/setup-pre-commit/SKILL.md
 created: 2026-06-20
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-20
 > [!info] What it does
 > Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.
 
-**Source:** [setup-pre-commit/SKILL.md](setup-pre-commit/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/setup-pre-commit/SKILL.md](skills/setup-pre-commit/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: teams-planner-task-management/SKILL.md
+source: skills/teams-planner-task-management/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Review and manage Microsoft Planner tasks from Teams workflows. Use when the user wants to inspect plans or buckets, create tasks from follow-ups, update task fields, or safely delete a Planner task.
 
-**Source:** [teams-planner-task-management/SKILL.md](teams-planner-task-management/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teams-planner-task-management/SKILL.md](skills/teams-planner-task-management/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

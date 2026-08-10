@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ui-toolkit/SKILL.md
+source: skills/ui-toolkit/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Zoom UI Toolkit.
 
-**Source:** [ui-toolkit/SKILL.md](ui-toolkit/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ui-toolkit/SKILL.md](skills/ui-toolkit/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

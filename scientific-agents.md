@@ -7,7 +7,7 @@ tags:
   - domain/scientific-expert-profiles
 domain: scientific-expert-profiles
 status: untried
-source: scientific-agents/SKILL.md
+source: skills/scientific-agents/SKILL.md
 created: 2026-06-12
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-12
 > [!info] What it does
 > Dispatcher for the K-Dense scientific-agents collection. Use when you need to choose among imported scientific and engineering expert profiles, such as bioinformatician, clinical epidemiologist, materials scientist, astrophysicist, or machine-learning researcher.
 
-**Source:** [scientific-agents/SKILL.md](scientific-agents/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/scientific-agents/SKILL.md](skills/scientific-agents/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: huggingface-gradio/SKILL.md
+source: skills/huggingface-gradio/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
 
-**Source:** [huggingface-gradio/SKILL.md](huggingface-gradio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/huggingface-gradio/SKILL.md](skills/huggingface-gradio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

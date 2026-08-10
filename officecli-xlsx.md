@@ -7,7 +7,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: officecli-xlsx/SKILL.md
+source: skills/officecli-xlsx/SKILL.md
 created: 2026-07-11
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-11
 > [!info] What it does
 > Use this skill any time a .xlsx file is involved -- as input, output, or both. This includes: creating spreadsheets, financial models, dashboards, or trackers; reading, parsing, or extracting data from any .xlsx file; editing, modifying, or updating existing workbooks; working with formulas, charts, pivot tables, or templates; importing CSV/TSV data into Excel format. Trigger whenever the user mentions 'spreadsheet', 'workbook', 'Excel', 'financial model', 'tracker', 'dashboard', or references a .xlsx/.csv filename.
 
-**Source:** [officecli-xlsx/SKILL.md](officecli-xlsx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/officecli-xlsx/SKILL.md](skills/officecli-xlsx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

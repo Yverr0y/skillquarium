@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: alphafold-skill/SKILL.md
+source: skills/alphafold-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact AlphaFold Protein Structure Database API requests for prediction, UniProt summary, sequence summary, and annotation lookups. Use when a user wants AlphaFold metadata or concise structure summaries
 
-**Source:** [alphafold-skill/SKILL.md](alphafold-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/alphafold-skill/SKILL.md](skills/alphafold-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

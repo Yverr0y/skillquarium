@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: litigation-update-post/SKILL.md
+source: skills/litigation-update-post/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Writes public-facing litigation updates — blog posts, client alerts, LinkedIn/X posts — on a federal case or legal development. Use to \"write a blog post about…,\" \"draft a client alert on…\
 
-**Source:** [litigation-update-post/SKILL.md](litigation-update-post/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/litigation-update-post/SKILL.md](skills/litigation-update-post/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

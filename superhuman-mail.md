@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: superhuman-mail/SKILL.md
+source: skills/superhuman-mail/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use Superhuman Mail MCP for email and calendar workflows such as searching inboxes, reading threads, drafting or sending mail, managing labels, checking read statuses, finding availability, and creating or updating events.
 
-**Source:** [superhuman-mail/SKILL.md](superhuman-mail/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/superhuman-mail/SKILL.md](skills/superhuman-mail/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -14,7 +14,7 @@ expert_secondary:
 bridge_domains:
   - imaging-signals
 status: untried
-source: planetary-scientist/SKILL.md
+source: skills/planetary-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Planetary Scientist (solar-system / remote-sensing & in situ / exoplanet detection-characterization / mission archives (PDS, SPICE)): Expert profile for planetary scientist — see AGENTS.md for field-specific methods and failure modes.
 
-**Source:** [planetary-scientist/SKILL.md](planetary-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/planetary-scientist/SKILL.md](skills/planetary-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

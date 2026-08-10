@@ -3,7 +3,7 @@ title: comps
 tags:
   - skill
 status: untried
-source: comps/SKILL.md
+source: skills/comps/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Trading comparables analysis with peer multiples and implied valuation
 
-**Source:** [comps/SKILL.md](comps/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/comps/SKILL.md](skills/comps/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -3,7 +3,7 @@ title: setup
 tags:
   - skill
 status: untried
-source: setup/SKILL.md
+source: skills/setup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Verify Daloopa MCP connection and show available skills
 
-**Source:** [setup/SKILL.md](setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/setup/SKILL.md](skills/setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

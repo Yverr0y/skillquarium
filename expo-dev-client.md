@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-dev-client/SKILL.md
+source: skills/expo-dev-client/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build and distribute Expo development clients locally or via TestFlight
 
-**Source:** [expo-dev-client/SKILL.md](expo-dev-client/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-dev-client/SKILL.md](skills/expo-dev-client/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

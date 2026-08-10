@@ -3,7 +3,7 @@ title: industry
 tags:
   - skill
 status: untried
-source: industry/SKILL.md
+source: skills/industry/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Cross-company industry comparison across multiple tickers
 
-**Source:** [industry/SKILL.md](industry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/industry/SKILL.md](skills/industry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

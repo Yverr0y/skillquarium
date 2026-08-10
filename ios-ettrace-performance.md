@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ios-ettrace-performance/SKILL.md
+source: skills/ios-ettrace-performance/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Capture and interpret iOS Simulator ETTrace profiles. Use when profiling launch or runtime latency, comparing traces, or finding CPU-heavy stacks.
 
-**Source:** [ios-ettrace-performance/SKILL.md](ios-ettrace-performance/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ios-ettrace-performance/SKILL.md](skills/ios-ettrace-performance/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

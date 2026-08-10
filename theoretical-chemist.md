@@ -13,7 +13,7 @@ expert_primary: chemistry-materials
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: theoretical-chemist/SKILL.md
+source: skills/theoretical-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Theoretical Chemist (dynamics theory / PES construction / TST & master-equation kinetics / quantum scattering): Reasons from Hamiltonians, partition functions, and flux through dividing surfaces using validated potential energy surfaces, variational transition state theory with Eckart and small-curvature tunneling (Polyrate), and master-equation falloff solvers (MESMER, MultiWell), while treating spurious saddle imaginary...
 
-**Source:** [theoretical-chemist/SKILL.md](theoretical-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/theoretical-chemist/SKILL.md](skills/theoretical-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

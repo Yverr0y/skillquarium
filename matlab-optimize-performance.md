@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-optimize-performance/SKILL.md
+source: skills/matlab-optimize-performance/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Read BEFORE optimizing any MATLAB code for speed. Without this workflow, agents commonly optimize the wrong target, fabricate speedup claims without measurement, or introduce regressions. Guides the 7-step workflow: baseline, profile, identify, optimize, measure, verify, report.
 
-**Source:** [matlab-optimize-performance/SKILL.md](matlab-optimize-performance/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-optimize-performance/SKILL.md](skills/matlab-optimize-performance/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

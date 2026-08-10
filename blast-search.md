@@ -7,7 +7,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: blast-search/SKILL.md
+source: skills/blast-search/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Run BLAST sequence similarity searches. Use when the user asks to BLAST a sequence, find similar sequences, identify a gene/protein, or do homology search. Triggers on "blast", "sequence similarity", "homology", "identify sequence".
 
-**Source:** [blast-search/SKILL.md](blast-search/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/blast-search/SKILL.md](skills/blast-search/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

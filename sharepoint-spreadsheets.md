@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sharepoint-spreadsheets/SKILL.md
+source: skills/sharepoint-spreadsheets/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Edit SharePoint-hosted spreadsheet files while preserving workbook structure, formulas, and formatting. Use when the user wants to update a real spreadsheet in SharePoint rather than summarize extracted sheet text.
 
-**Source:** [sharepoint-spreadsheets/SKILL.md](sharepoint-spreadsheets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sharepoint-spreadsheets/SKILL.md](skills/sharepoint-spreadsheets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

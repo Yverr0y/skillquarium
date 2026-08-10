@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: baseline-ui/SKILL.md
+source: skills/baseline-ui/SKILL.md
 created: 2026-07-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-20
 > [!info] What it does
 > Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.
 
-**Source:** [baseline-ui/SKILL.md](baseline-ui/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/baseline-ui/SKILL.md](skills/baseline-ui/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

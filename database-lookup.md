@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: database-lookup/SKILL.md
+source: skills/database-lookup/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.
 
-**Source:** [database-lookup/SKILL.md](database-lookup/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/database-lookup/SKILL.md](skills/database-lookup/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: algorithmic-art/SKILL.md
+source: skills/algorithmic-art/SKILL.md
 created: 2026-06-10
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-10
 > [!info] What it does
 > Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
 
-**Source:** [algorithmic-art/SKILL.md](algorithmic-art/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/algorithmic-art/SKILL.md](skills/algorithmic-art/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

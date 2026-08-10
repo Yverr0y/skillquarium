@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: openai-ads-conversions-setup/SKILL.md
+source: skills/openai-ads-conversions-setup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide Codex through instrumenting or extending repositories with OpenAI Ads Measurement Pixel and optional Conversions API (CAPI). Use when adding Ads conversion tracking, browser pixel events, server-side conversion events, event_id deduplication, CAPI secret placeholders, incremental conversion coverage, or validating Ads conversion setup. Applies to local repositories and PR review contexts; prioritize safe, reviewable diffs and never place API keys or secrets in source code or client bundles.
 
-**Source:** [openai-ads-conversions-setup/SKILL.md](openai-ads-conversions-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/openai-ads-conversions-setup/SKILL.md](skills/openai-ads-conversions-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

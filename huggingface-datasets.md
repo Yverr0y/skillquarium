@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: huggingface-datasets/SKILL.md
+source: skills/huggingface-datasets/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.
 
-**Source:** [huggingface-datasets/SKILL.md](huggingface-datasets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/huggingface-datasets/SKILL.md](skills/huggingface-datasets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

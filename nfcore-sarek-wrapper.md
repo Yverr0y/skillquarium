@@ -7,7 +7,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: nfcore-sarek-wrapper/SKILL.md
+source: skills/nfcore-sarek-wrapper/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > ClawBio wrapper around nf-core/sarek 3.8.1 covering mapping through annotation for germline, tumor-only, and somatic paired analyses.
 
-**Source:** [nfcore-sarek-wrapper/SKILL.md](nfcore-sarek-wrapper/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/nfcore-sarek-wrapper/SKILL.md](skills/nfcore-sarek-wrapper/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

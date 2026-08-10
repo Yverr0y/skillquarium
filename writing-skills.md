@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: writing-skills/SKILL.md
+source: skills/writing-skills/SKILL.md
 created: 2026-06-10
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-10
 > [!info] What it does
 > Use when creating new skills, editing existing skills, or verifying skills work before deployment
 
-**Source:** [writing-skills/SKILL.md](writing-skills/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/writing-skills/SKILL.md](skills/writing-skills/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

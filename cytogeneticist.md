@@ -9,7 +9,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: cytogeneticist/SKILL.md
+source: skills/cytogeneticist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Cytogeneticist (clinical / research): Reasons from chromosome architecture, copy-number state, banding resolution, and cell-line/clonal context through karyotype, FISH, chromosomal microarray, optical genome mapping, ISCN, and ACMG/ClinGen dosage standards while treating confined placental mosaicism, maternal cell contamination, pseudomosaicism, and...
 
-**Source:** [cytogeneticist/SKILL.md](cytogeneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cytogeneticist/SKILL.md](skills/cytogeneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

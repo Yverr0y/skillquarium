@@ -7,7 +7,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: using-dbt-for-analytics-engineering/SKILL.md
+source: skills/using-dbt-for-analytics-engineering/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Builds and modifies dbt models, writes SQL transformations using ref() and source(), creates tests, and validates results with dbt show. Use when doing any dbt work - building or modifying models, debugging errors, exploring unfamiliar data sources, writing tests, or evaluating impact of changes.
 
-**Source:** [using-dbt-for-analytics-engineering/SKILL.md](using-dbt-for-analytics-engineering/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/using-dbt-for-analytics-engineering/SKILL.md](skills/using-dbt-for-analytics-engineering/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

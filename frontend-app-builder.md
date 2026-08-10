@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: frontend-app-builder/SKILL.md
+source: skills/frontend-app-builder/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use for new frontend applications, dashboards, games, creative websites, hero sections, and visually driven UI from scratch, or when the user explicitly asks for a redesign/restyle/modernization. Builds from clean, airy, high-taste, readable image-generated concept design with section-specific references, faithful implementation, and browser testing.
 
-**Source:** [frontend-app-builder/SKILL.md](frontend-app-builder/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/frontend-app-builder/SKILL.md](skills/frontend-app-builder/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

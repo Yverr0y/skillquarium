@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-blueprints/SKILL.md
+source: skills/render-blueprints/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Authors and validates render.yaml Blueprints for Render infrastructure. Use when the user needs to write or edit a render.yaml, wire services together with fromDatabase/fromService/fromGroup, set up projects and environments for multi-service apps, configure preview environments, validate against the schema, or fix immutable field errors. Trigger terms: render.yaml, Blueprint, IaC, fromDatabase, fromService, envVarGroups, previews, projects, environments.
 
-**Source:** [render-blueprints/SKILL.md](render-blueprints/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-blueprints/SKILL.md](skills/render-blueprints/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

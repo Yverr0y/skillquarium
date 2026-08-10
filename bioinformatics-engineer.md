@@ -15,7 +15,7 @@ bridge_domains:
   - data-science-compute
   - cloud-devops
 status: untried
-source: bioinformatics-engineer/SKILL.md
+source: skills/bioinformatics-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Bioinformatics Engineer (dry-lab / pipeline engineering / production genomics): Builds production genomics DAGs in Nextflow/nf-core, Snakemake, and WDL/Cromwell with digest-pinned containers, GIAB regression CI (nf-test, pytest), QC-gated MultiQC runbooks, and CLIA-grade provenance—distinct from analyst-focused bioinformatician DE/GWAS reasoning.
 
-**Source:** [bioinformatics-engineer/SKILL.md](bioinformatics-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bioinformatics-engineer/SKILL.md](skills/bioinformatics-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

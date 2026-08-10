@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: netlify-image-cdn/SKILL.md
+source: skills/netlify-image-cdn/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images endpoint, query parameters, remote image allowlisting, clean URL rewrites, and composing uploads with Functions + Blobs.
 
-**Source:** [netlify-image-cdn/SKILL.md](netlify-image-cdn/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/netlify-image-cdn/SKILL.md](skills/netlify-image-cdn/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

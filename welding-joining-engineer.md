@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - imaging-signals
 status: untried
-source: welding-joining-engineer/SKILL.md
+source: skills/welding-joining-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Welding & Joining Engineer (fabrication / procedure qualification / NDT & distortion control): Reasons from heat input, t8/5, HAZ metallurgy, and restraint/shrinkage through AWS D1.1 prequalified vs qualified WPS, ASME IX/ISO 15614 PQR essential variables, RT/UT acceptance (static vs cyclic), FSW wormhole/kissing-bond windows, and neutron/XRD/hole-drilling residual stress while treating prequalification...
 
-**Source:** [welding-joining-engineer/SKILL.md](welding-joining-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/welding-joining-engineer/SKILL.md](skills/welding-joining-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

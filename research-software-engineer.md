@@ -12,7 +12,7 @@ bridge_domains:
   - cloud-devops
   - software-dev
 status: untried
-source: research-software-engineer/SKILL.md
+source: skills/research-software-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Research Software Engineer (computational / research software engineering / HPC): Reasons from Software Carpentry and FAIR4RS through SemVer releases, CITATION.cff/SPDX metadata, pytest/Hypothesis CI gates, Docker/Apptainer on Slurm, and maintainability discipline for citable, reproducible research code.
 
-**Source:** [research-software-engineer/SKILL.md](research-software-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/research-software-engineer/SKILL.md](skills/research-software-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

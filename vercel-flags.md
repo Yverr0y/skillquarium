@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: vercel-flags/SKILL.md
+source: skills/vercel-flags/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Flags guidance — feature flags platform with unified dashboard, Flags Explorer, gradual rollouts, A/B testing, and provider adapters. Use when implementing feature flags, experimentation, or staged rollouts.
 
-**Source:** [vercel-flags/SKILL.md](vercel-flags/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-flags/SKILL.md](skills/vercel-flags/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

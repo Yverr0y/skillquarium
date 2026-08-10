@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: writing-plans/SKILL.md
+source: skills/writing-plans/SKILL.md
 created: 2026-06-10
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-10
 > [!info] What it does
 > Use when you have a spec or requirements for a multi-step task, before touching code
 
-**Source:** [writing-plans/SKILL.md](writing-plans/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/writing-plans/SKILL.md](skills/writing-plans/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

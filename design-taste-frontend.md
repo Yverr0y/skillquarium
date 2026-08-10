@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: design-taste-frontend/SKILL.md
+source: skills/design-taste-frontend/SKILL.md
 created: 2026-07-07
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-07
 > [!info] What it does
 > Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.
 
-**Source:** [design-taste-frontend/SKILL.md](design-taste-frontend/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/design-taste-frontend/SKILL.md](skills/design-taste-frontend/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: ossfuzz/SKILL.md
+source: skills/ossfuzz/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > OSS-Fuzz provides free continuous fuzzing for open source projects. Use when setting up continuous fuzzing infrastructure or enrolling projects.
 
-**Source:** [ossfuzz/SKILL.md](ossfuzz/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ossfuzz/SKILL.md](skills/ossfuzz/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

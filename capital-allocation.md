@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: capital-allocation/SKILL.md
+source: skills/capital-allocation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Deep dive into capital deployment, buybacks, dividends, and shareholder yield
 
-**Source:** [capital-allocation/SKILL.md](capital-allocation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/capital-allocation/SKILL.md](skills/capital-allocation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -8,7 +8,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: jest/SKILL.md
+source: skills/jest/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > JavaScript testing with Jest — unit tests, mocks, spies, snapshot testing, code coverage, and configuration. Use when writing or running JavaScript/TypeScript tests, setting up a test suite with Jest, debugging failing tests, mocking modules or functions, measuring coverage, or configuring Jest in jest.config.*. Pairs with test-driven-development for the workflow/methodology. Works with React (Testing Library), Node.js, and any JS/TS project.
 
-**Source:** [jest/SKILL.md](jest/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/jest/SKILL.md](skills/jest/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

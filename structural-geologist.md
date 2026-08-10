@@ -10,7 +10,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: structural-geologist/SKILL.md
+source: skills/structural-geologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Structural Geologist (field mapping / balanced cross sections / microstructural petrofabrics / active tectonics & paleoseismology / fault- slip inversion): Reasons from stress, strain, kinematics, and Mohr-Coulomb failure through stereonet fault-slip analysis, area-balanced cross sections in Move, quartz/calcite paleopiezometry on EBSD-indexed CPO, and geodetic-plus-trench slip-rate estimates while treating heterogeneous-fault paleostress inversion, map-pattern vergence...
 
-**Source:** [structural-geologist/SKILL.md](structural-geologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/structural-geologist/SKILL.md](skills/structural-geologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

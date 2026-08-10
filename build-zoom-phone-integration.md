@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-phone-integration/SKILL.md
+source: skills/build-zoom-phone-integration/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building Phone.
 
-**Source:** [build-zoom-phone-integration/SKILL.md](build-zoom-phone-integration/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-phone-integration/SKILL.md](skills/build-zoom-phone-integration/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

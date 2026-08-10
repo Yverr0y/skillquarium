@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: chronograph-cashflow-forecast/SKILL.md
+source: skills/chronograph-cashflow-forecast/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Forecast private capital cashflows for existing portfolios using Chronograph MCP data and a Takahashi-Alexander style model. Use when Codex needs to analyze or forecast LP-level contributions, distributions, NAV, unfunded exposure, net cashflows, or Excel-style cashflow forecast outputs from existing Chronograph funds, commitments, groups, or portfolios.
 
-**Source:** [chronograph-cashflow-forecast/SKILL.md](chronograph-cashflow-forecast/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chronograph-cashflow-forecast/SKILL.md](skills/chronograph-cashflow-forecast/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

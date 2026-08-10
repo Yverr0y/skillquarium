@@ -3,7 +3,7 @@ title: turbopack
 tags:
   - skill
 status: untried
-source: turbopack/SKILL.md
+source: skills/turbopack/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences.
 
-**Source:** [turbopack/SKILL.md](turbopack/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/turbopack/SKILL.md](skills/turbopack/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

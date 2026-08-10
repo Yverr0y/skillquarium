@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: morning-briefing/SKILL.md
+source: skills/morning-briefing/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Generates a morning briefing that triages your inbox and previews your day using the Superhuman Mail MCP server — acting as an AI chief of staff. Use this skill whenever someone asks to "brief me on my day", "triage my inbox", "what's important in my email", "summarize my unread emails", "what do I need to deal with today", "chief of staff briefing", "morning update", "inbox summary", "what emails need my attention", "clear my inbox", or any variation of wanting a prioritized view of their email and calendar before they start working. Also trigger when someone says "I just woke up, what's going on" or "catch me up on my inbox". Trigger broadly — if someone wants to understand the state of their inbox or day at a glance, this skill should activate.
 
-**Source:** [morning-briefing/SKILL.md](morning-briefing/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/morning-briefing/SKILL.md](skills/morning-briefing/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

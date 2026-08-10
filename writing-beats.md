@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: writing-beats/SKILL.md
+source: skills/writing-beats/SKILL.md
 created: 2026-06-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-20
 > [!info] What it does
 > Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument.
 
-**Source:** [writing-beats/SKILL.md](writing-beats/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/writing-beats/SKILL.md](skills/writing-beats/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

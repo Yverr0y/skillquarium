@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: naval-architect/SKILL.md
+source: skills/naval-architect/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Naval Architect (ship & offshore design / hydrostatics / hydrodynamics / class compliance): Reasons from displacement, Bonjean/KN–GZ stability, ITTC-78 resistance extrapolation, Wageningen B-series propulsion, WAMIT/NEMOH seakeeping, and IACS CSR scantlings while treating Froude/Re scale mismatch, free- surface GM error, Holtrop range violations, and trial CA bias as first-class failure modes.
 
-**Source:** [naval-architect/SKILL.md](naval-architect/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/naval-architect/SKILL.md](skills/naval-architect/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

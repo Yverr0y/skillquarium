@@ -8,11 +8,11 @@ name: Update skills + rebuild
 # -------------------------------------------
 # The skills CLI installs "global" skills into its canonical dir,
 # $HOME/.agents/skills, and records provenance (source repo, path, ref, hash)
-# in $HOME/.agents/.skill-lock.json — which lives ABOVE this repo and so is not
-# part of it. We therefore keep a committed snapshot at
-# .skill-vault/skill-lock.json and, in CI, rebuild the layout by symlinking the
-# canonical dir to this checkout and restoring the lock next to it. The CLI then
-# updates this repo in place.
+# in $HOME/.agents/.skill-lock.json. This repo IS $HOME/.agents: the skill
+# folders are the tracked `skills/` subtree and the lock is the tracked
+# `.skill-lock.json` at the repo root. CI therefore only has to symlink
+# $HOME/.agents to the checkout — no copying a snapshot in and back out — and
+# the CLI updates this repo in place.
 #
 # Source coverage
 # ---------------
@@ -21,7 +21,7 @@ name: Update skills + rebuild
 # folder hash via the GitHub API and reinstalls the ones that changed. Skills
 # added from raw "git@github.com:..."/SSH remotes (sourceType "git") or local
 # paths are NOT auto-updated by the CLI, so this vault deliberately keeps every
-# skill as a github source (see .skill-vault/skill-lock.json). GITHUB_TOKEN is
+# skill as a github source (see .skill-lock.json). GITHUB_TOKEN is
 # used only to raise the API rate limit; all current sources are public.
 
 on:
@@ -59,19 +59,18 @@ jobs:
           CI: "true"
         run: |
           set -euo pipefail
-          # The CLI's canonical global skills dir is $HOME/.agents/skills.
-          # Point it at this checkout so the update rewrites the repo in place,
-          # and restore the committed provenance lock beside it.
-          mkdir -p "$HOME/.agents"
-          ln -sfn "$GITHUB_WORKSPACE" "$HOME/.agents/skills"
-          cp "$GITHUB_WORKSPACE/.skill-vault/skill-lock.json" "$HOME/.agents/.skill-lock.json"
+          # This repo is laid out exactly as $HOME/.agents, so pointing the
+          # CLI's home at the checkout gives it both its canonical skills dir
+          # ($HOME/.agents/skills -> skills/) and its provenance lock
+          # ($HOME/.agents/.skill-lock.json -> .skill-lock.json) for free.
+          # The update then rewrites the repo in place.
+          rm -rf "$HOME/.agents"
+          ln -sfn "$GITHUB_WORKSPACE" "$HOME/.agents"
+          test -d "$HOME/.agents/skills" && test -f "$HOME/.agents/.skill-lock.json"
 
           # Pinned for reproducibility; bump deliberately. `update -g` only
           # touches github-sourced global skills; `-y` makes it non-interactive.
           npx -y skills@1.5.10 update -g -y
-
-          # Persist the refreshed lock back into the committed snapshot.
-          cp "$HOME/.agents/.skill-lock.json" "$GITHUB_WORKSPACE/.skill-vault/skill-lock.json"
 
       - name: Rebuild navigation layer
         # --prune drops wrapper notes for skills removed upstream (and their

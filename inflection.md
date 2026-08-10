@@ -3,7 +3,7 @@ title: inflection
 tags:
   - skill
 status: untried
-source: inflection/SKILL.md
+source: skills/inflection/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Auto-detect biggest acceleration/deceleration inflections across all metrics
 
-**Source:** [inflection/SKILL.md](inflection/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/inflection/SKILL.md](skills/inflection/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

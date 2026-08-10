@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: slack-daily-digest/SKILL.md
+source: skills/slack-daily-digest/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Create a daily Slack digest from selected channels or topics. Use when the user asks for a daily Slack recap or summary of today's Slack activity.
 
-**Source:** [slack-daily-digest/SKILL.md](slack-daily-digest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/slack-daily-digest/SKILL.md](skills/slack-daily-digest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

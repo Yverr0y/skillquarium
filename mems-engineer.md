@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: mems-engineer/SKILL.md
+source: skills/mems-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for MEMS Engineer (silicon micromachining / transducer design / simulation & WLT): Reasons from scale-dependent mechanics, squeeze-film damping, and electrostatic pull-in through DRIE Bosch/surface micromachining, CoventorMP/COMSOL, foundry PDKs, LDV/WLI metrology, and AEC-Q103 qual while treating release stiction, DRIE scallop bias, package-stress offset drift, and functional-WLT-vs-reliability...
 
-**Source:** [mems-engineer/SKILL.md](mems-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mems-engineer/SKILL.md](skills/mems-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -3,7 +3,7 @@ title: telemetry
 tags:
   - skill
 status: untried
-source: telemetry/SKILL.md
+source: skills/telemetry/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Add and verify lightweight macOS runtime telemetry. Use when wiring Logger events or inspecting logs for windows, sidebars, menus, and actions.
 
-**Source:** [telemetry/SKILL.md](telemetry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/telemetry/SKILL.md](skills/telemetry/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

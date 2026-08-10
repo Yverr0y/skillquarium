@@ -7,7 +7,7 @@ tags:
   - domain/reasoning-ideation
 domain: reasoning-ideation
 status: untried
-source: caveman-compress/SKILL.md
+source: skills/caveman-compress/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md. Trigger: /caveman-compress FILEPATH or "compress memory file
 
-**Source:** [caveman-compress/SKILL.md](caveman-compress/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/caveman-compress/SKILL.md](skills/caveman-compress/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

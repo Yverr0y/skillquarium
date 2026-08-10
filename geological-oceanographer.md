@@ -12,7 +12,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - imaging-signals
 status: untried
-source: geological-oceanographer/SKILL.md
+source: skills/geological-oceanographer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Geological Oceanographer (seafloor mapping / sedimentology / marine geophysics / coring & seismic / geohazards): Reasons from sediment transport mechanics, stratigraphic context, and accommodation through multibeam (EM122/EM712) and sub-bottom/seismic imaging, gravity and piston cores with XRF/X-ray CT, CTD tow-yo ORP/Mn/CH4 plume surveys, and Bouma/Lowe facies analysis, while treating bathymetry- mimicking multipath artifacts...
 
-**Source:** [geological-oceanographer/SKILL.md](geological-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geological-oceanographer/SKILL.md](skills/geological-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: openai-api-troubleshooting/SKILL.md
+source: skills/openai-api-troubleshooting/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when an OpenAI API request fails and Codex needs to classify the likely cause, explain the next step, and route to the right follow-up. Covers common runtime failures such as blocked outbound network access, invalid credentials, exhausted API quota or credits, rate limits, and model, project, or organization access issues; delegate key provisioning to openai-platform-api-key and current documentation lookups to openai-docs.
 
-**Source:** [openai-api-troubleshooting/SKILL.md](openai-api-troubleshooting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/openai-api-troubleshooting/SKILL.md](skills/openai-api-troubleshooting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

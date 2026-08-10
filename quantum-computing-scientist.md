@@ -13,7 +13,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: quantum-computing-scientist/SKILL.md
+source: skills/quantum-computing-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Quantum Computing Scientist (experimental / computational / NISQ hardware & fault tolerance): Reasons from qubits as noisy open systems through T1/T2, gate fidelity, RB/GST/XEB, and quantum volume to surface-code QEC; compiles with Qiskit/Cirq, applies ZNE/PEC/readout mitigation, and treats crosstalk, transpilation depth, and calibration drift as first-class failure modes.
 
-**Source:** [quantum-computing-scientist/SKILL.md](quantum-computing-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/quantum-computing-scientist/SKILL.md](skills/quantum-computing-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

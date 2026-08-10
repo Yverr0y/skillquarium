@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: moody-s-company-analysis/SKILL.md
+source: skills/moody-s-company-analysis/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user asks for Moody's company profiles, ownership, ratings, credit opinions, financial statements, filings, peers, research, or credit-risk analysis for a company.
 
-**Source:** [moody-s-company-analysis/SKILL.md](moody-s-company-analysis/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/moody-s-company-analysis/SKILL.md](skills/moody-s-company-analysis/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

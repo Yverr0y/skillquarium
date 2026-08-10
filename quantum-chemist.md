@@ -16,7 +16,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: quantum-chemist/SKILL.md
+source: skills/quantum-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Quantum Chemist (computational / ab initio electronic structure theory): Reasons from the Schrödinger equation through HF, MP2/CCSD(T)/CBS, and multireference (CASSCF/CASPT2); uses ORCA/Psi4/Gaussian with GMTKN55/WTMAD-4 validation, T1/D1 diagnostics, Helgaker CBS extrapolation, and BSSE/spin-contamination checks while treating SCF near-degeneracy, intruder states, and global-vs-local...
 
-**Source:** [quantum-chemist/SKILL.md](quantum-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/quantum-chemist/SKILL.md](skills/quantum-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

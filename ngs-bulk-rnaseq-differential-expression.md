@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-bulk-rnaseq-differential-expression/SKILL.md
+source: skills/ngs-bulk-rnaseq-differential-expression/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run or plan bulk RNA-seq differential-expression analysis from count matrices with replicate, design formula, contrast, batch, normalization, QC plot, and result-table checks.
 
-**Source:** [ngs-bulk-rnaseq-differential-expression/SKILL.md](ngs-bulk-rnaseq-differential-expression/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-bulk-rnaseq-differential-expression/SKILL.md](skills/ngs-bulk-rnaseq-differential-expression/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

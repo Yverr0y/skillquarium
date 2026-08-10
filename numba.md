@@ -7,7 +7,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: numba/SKILL.md
+source: skills/numba/SKILL.md
 created: 2026-06-25
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-25
 > [!info] What it does
 > A Just-In-Time (JIT) compiler for Python that translates a subset of Python and NumPy code into fast machine code. Developed by Anaconda, Inc. Highly effective for accelerating loops, custom mathematical functions, and complex numerical algorithms. Use for @njit, @vectorize, prange, cuda.jit, numba.typed, JIT compilation, parallel loops, GPU acceleration with CUDA, Monte Carlo simulations, numerical algorithms, and high-performance Python computing.
 
-**Source:** [numba/SKILL.md](numba/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/numba/SKILL.md](skills/numba/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: langfuse/SKILL.md
+source: skills/langfuse/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Interact with Langfuse and access its documentation. Use when needing to (1) query or modify Langfuse data programmatically via the CLI — traces, prompts, datasets, scores, sessions, and any other API resource, (2) look up Langfuse documentation, concepts, integration guides, or SDK usage, or (3) understand how any Langfuse feature works. This skill covers CLI-based API access (via npx) and multiple documentation retrieval methods.
 
-**Source:** [langfuse/SKILL.md](langfuse/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/langfuse/SKILL.md](skills/langfuse/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -10,7 +10,7 @@ expert_primary: biology-life-sciences
 bridge_domains:
   - sequence-phylogenetics
 status: untried
-source: entomologist/SKILL.md
+source: skills/entomologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Entomologist (field / lab / systematics / applied IPM): Reasons from tagmata, Comstock-Needham venation, and tarsal formula through trap-guild sampling (Malaise, pitfall, pan, light), host–parasitoid ecology, ICZN vouchers and genitalia keys, BOLD/GBIF/COL/iNaturalist triage, IUCN invertebrate caveats, CITES/COSE permits, Taylor/GLMM on the correct EU, and EIL/ET with IRAC...
 
-**Source:** [entomologist/SKILL.md](entomologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/entomologist/SKILL.md](skills/entomologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

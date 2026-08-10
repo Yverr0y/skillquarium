@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: locus-to-gene-mapper-skill/SKILL.md
+source: skills/locus-to-gene-mapper-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Map GWAS loci to ranked candidate genes using a deterministic multi-skill chain (EFO -> GWAS -> coordinates -> Open Targets L2G/coloc -> eQTL -> burden/coding context), with reproducible tables and optional figures. Use when a user provides a trait/EFO term and/or lead variants and needs locus-to-gene prioritization for downstream biology decisions.
 
-**Source:** [locus-to-gene-mapper-skill/SKILL.md](locus-to-gene-mapper-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/locus-to-gene-mapper-skill/SKILL.md](skills/locus-to-gene-mapper-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

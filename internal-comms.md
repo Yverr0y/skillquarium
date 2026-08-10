@@ -7,7 +7,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: internal-comms/SKILL.md
+source: skills/internal-comms/SKILL.md
 created: 2026-06-10
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-10
 > [!info] What it does
 > A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
 
-**Source:** [internal-comms/SKILL.md](internal-comms/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/internal-comms/SKILL.md](skills/internal-comms/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

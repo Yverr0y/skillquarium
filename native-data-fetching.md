@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: native-data-fetching/SKILL.md
+source: skills/native-data-fetching/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`).
 
-**Source:** [native-data-fetching/SKILL.md](native-data-fetching/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/native-data-fetching/SKILL.md](skills/native-data-fetching/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

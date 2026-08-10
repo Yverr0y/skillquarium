@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: mgnify-skill/SKILL.md
+source: skills/mgnify-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact MGnify API requests for microbiome studies, samples, and biome metadata. Use when a user wants concise MGnify summaries
 
-**Source:** [mgnify-skill/SKILL.md](mgnify-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mgnify-skill/SKILL.md](skills/mgnify-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

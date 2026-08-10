@@ -10,7 +10,7 @@ expert_primary: mathematics-statistics
 bridge_domains:
   - data-science-compute
 status: untried
-source: mathematical-modeler/SKILL.md
+source: skills/mathematical-modeler/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mathematical Modeler (mechanistic modeling / ODE-PDE & agent-based / identifiability & UQ / calibration & inverse problems): Reasons from nondimensionalization, conservation/positivity laws, and minimal-viable model structure through mechanistic ODE/PDE, stochastic, and agent-based formulations, profile-likelihood and Fisher-information identifiability, and Sobol/Morris sensitivity analysis, while treating sloppy unidentifiable parameters...
 
-**Source:** [mathematical-modeler/SKILL.md](mathematical-modeler/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mathematical-modeler/SKILL.md](skills/mathematical-modeler/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

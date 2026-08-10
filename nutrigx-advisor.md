@@ -9,7 +9,7 @@ tags:
   - domain/clinical-medical
 domain: clinical-medical
 status: untried
-source: nutrigx-advisor/SKILL.md
+source: skills/nutrigx-advisor/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > Personalised nutrition report from consumer genetic data (23andMe, AncestryDNA, VCF) — interrogates nutritionally-relevant SNPs and generates actionable dietary guidance, all computed locally.
 
-**Source:** [nutrigx-advisor/SKILL.md](nutrigx-advisor/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/nutrigx-advisor/SKILL.md](skills/nutrigx-advisor/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

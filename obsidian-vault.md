@@ -7,7 +7,7 @@ tags:
   - domain/vault-meta
 domain: vault-meta
 status: untried
-source: obsidian-vault/SKILL.md
+source: skills/obsidian-vault/SKILL.md
 created: 2026-06-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-20
 > [!info] What it does
 > Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.
 
-**Source:** [obsidian-vault/SKILL.md](obsidian-vault/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/obsidian-vault/SKILL.md](skills/obsidian-vault/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

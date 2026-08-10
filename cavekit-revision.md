@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: cavekit-revision/SKILL.md
+source: skills/cavekit-revision/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > Trace bugs and manual fixes back to kits and prompts; fix at the source so the iteration loop can reproduce the fix autonomously. Six-step revision process plus the single-failure backpropagation protocol. Use when a manual hot-fix has been applied, when convergence stalls, or when the same class of bug keeps reappearing.
 
-**Source:** [cavekit-revision/SKILL.md](cavekit-revision/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cavekit-revision/SKILL.md](skills/cavekit-revision/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-atacseq-peaks-qc/SKILL.md
+source: skills/ngs-atacseq-peaks-qc/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run or plan ATAC-seq QC, alignment, TSS enrichment, fragment-size, blacklist, peak-calling, consensus peak, and differential accessibility workflows.
 
-**Source:** [ngs-atacseq-peaks-qc/SKILL.md](ngs-atacseq-peaks-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-atacseq-peaks-qc/SKILL.md](skills/ngs-atacseq-peaks-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

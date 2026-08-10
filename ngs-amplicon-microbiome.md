@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-amplicon-microbiome/SKILL.md
+source: skills/ngs-amplicon-microbiome/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Kick off public 16S, 18S, ITS, COI, or other marker-gene amplicon microbiome workflows using nf-core/ampliseq, QIIME2, DADA2, and Cutadapt.
 
-**Source:** [ngs-amplicon-microbiome/SKILL.md](ngs-amplicon-microbiome/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-amplicon-microbiome/SKILL.md](skills/ngs-amplicon-microbiome/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

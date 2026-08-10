@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-disks/SKILL.md
+source: skills/render-disks/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Attaches and manages persistent disks on Render services—mount paths, sizing, snapshots, file transfers, and single-instance constraints. Use when the user needs persistent storage, file uploads, a custom database on disk, CMS media storage, or needs to understand why their service can't scale horizontally or use zero-downtime deploys. Trigger terms: persistent disk, disk, storage, mount path, sizeGB, SSD, file uploads, snapshots, disk restore, ephemeral filesystem.
 
-**Source:** [render-disks/SKILL.md](render-disks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-disks/SKILL.md](skills/render-disks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

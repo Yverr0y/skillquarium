@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: api-and-interface-design/SKILL.md
+source: skills/api-and-interface-design/SKILL.md
 created: 2026-06-12
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-12
 > [!info] What it does
 > Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.
 
-**Source:** [api-and-interface-design/SKILL.md](api-and-interface-design/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/api-and-interface-design/SKILL.md](skills/api-and-interface-design/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

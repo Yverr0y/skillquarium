@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: vmd-mdanalysis-viz/SKILL.md
+source: skills/vmd-mdanalysis-viz/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Headless molecular visualization and trajectory analysis with VMD, MDAnalysis, and GROMACS. Use this skill when Claude needs to: (1) Render proteins/molecules (cartoon, licorice, VDW, surface) headlessly via vmd-python or VMD text mode, (2) Analyze MD trajectories (RMSD, RMSF, radius of gyration, hydrogen bonds, SASA, secondary structure, contacts), (3) Work with PDB/GRO/PSF/XTC/DCD/TRR structure and trajectory formats, (4) Drive GROMACS command-line analysis tools and parse XVG output.
 
-**Source:** [vmd-mdanalysis-viz/SKILL.md](vmd-mdanalysis-viz/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vmd-mdanalysis-viz/SKILL.md](skills/vmd-mdanalysis-viz/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

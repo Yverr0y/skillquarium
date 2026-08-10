@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: mechanical-engineer/SKILL.md
+source: skills/mechanical-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mechanical Engineer (design / simulation / prototyping): Reasons from equilibrium, failure physics, and code-backed allowables; designs through requirements, GD&T, DFMEA, and hand/FEA/test validation with explicit governing failure modes.
 
-**Source:** [mechanical-engineer/SKILL.md](mechanical-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mechanical-engineer/SKILL.md](skills/mechanical-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -14,7 +14,7 @@ bridge_domains:
   - sequence-phylogenetics
   - data-science-compute
 status: untried
-source: molecular-ecologist/SKILL.md
+source: skills/molecular-ecologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Molecular Ecologist (field / lab / computational population & environmental genetics): Reasons from population genetics, eDNA/metabarcoding, and marker choice (microsatellites, SNPs, mtDNA); analyzes with STRUCTURE/ADMIXTURE, hierfstat FST, DADA2 pipelines, and ddPCR; treats null alleles, Wahlund effect, batch effects, and eDNA allelic dropout as first-class failure modes.
 
-**Source:** [molecular-ecologist/SKILL.md](molecular-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/molecular-ecologist/SKILL.md](skills/molecular-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

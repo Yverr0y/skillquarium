@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: cavekit-methodology/SKILL.md
+source: skills/cavekit-methodology/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > Cavekit specification-driven development methodology — the Hunt lifecycle (Draft → Architect → Build → Inspect → Monitor) and how to apply it. Use when starting a Cavekit project, structuring an existing codebase as kits/plans, or routing between sub-skills.
 
-**Source:** [cavekit-methodology/SKILL.md](cavekit-methodology/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cavekit-methodology/SKILL.md](skills/cavekit-methodology/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

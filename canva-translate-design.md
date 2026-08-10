@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: canva-translate-design/SKILL.md
+source: skills/canva-translate-design/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Translate the text in a Canva design into another language while preserving the original layout as much as possible. Use when the user wants a localized or translated version of an existing Canva design and expects the original file to remain unchanged.
 
-**Source:** [canva-translate-design/SKILL.md](canva-translate-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/canva-translate-design/SKILL.md](skills/canva-translate-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: frontend-ui-engineering/SKILL.md
+source: skills/frontend-ui-engineering/SKILL.md
 created: 2026-06-12
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-12
 > [!info] What it does
 > Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
 
-**Source:** [frontend-ui-engineering/SKILL.md](frontend-ui-engineering/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/frontend-ui-engineering/SKILL.md](skills/frontend-ui-engineering/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

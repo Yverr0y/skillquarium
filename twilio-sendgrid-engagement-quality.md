@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-sendgrid-engagement-quality/SKILL.md
+source: skills/twilio-sendgrid-engagement-quality/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Monitor email program health with SendGrid Engagement Quality (SEQ) scores. Covers the SEQ API endpoints, the 5 scoring metrics (engagement recency, open rate, bounce classification, bounce rate, spam rate), eligibility requirements, and interpreting scores for deliverability improvement. Use when diagnosing SendGrid deliverability issues or monitoring sender reputation. Requires a SendGrid API key (SG.-prefix) — not applicable to the Twilio Email API (comms.twilio.com).
 
-**Source:** [twilio-sendgrid-engagement-quality/SKILL.md](twilio-sendgrid-engagement-quality/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-sendgrid-engagement-quality/SKILL.md](skills/twilio-sendgrid-engagement-quality/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

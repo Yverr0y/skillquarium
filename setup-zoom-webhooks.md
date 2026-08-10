@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: setup-zoom-webhooks/SKILL.md
+source: skills/setup-zoom-webhooks/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building Zoom webhooks.
 
-**Source:** [setup-zoom-webhooks/SKILL.md](setup-zoom-webhooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/setup-zoom-webhooks/SKILL.md](skills/setup-zoom-webhooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

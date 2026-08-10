@@ -13,7 +13,7 @@ bridge_domains:
   - genomics-variants
   - sequence-phylogenetics
 status: untried
-source: soil-ecologist/SKILL.md
+source: skills/soil-ecologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Soil Ecologist (field / lab biogeochemistry / molecular soil ecology): Reasons from soil food webs (nematode EI/SI/CI), PLFA phenotypes, amoA/nirK/nifH qPCR, and 16S/ITS/metagenomics through gross 15N pool dilution and C/N priming while treating tillage, compaction, and fire recovery, compositional bias, and DNA-activity gaps as first-class failure modes.
 
-**Source:** [soil-ecologist/SKILL.md](soil-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/soil-ecologist/SKILL.md](skills/soil-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

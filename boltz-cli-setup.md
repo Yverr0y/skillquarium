@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: boltz-cli-setup/SKILL.md
+source: skills/boltz-cli-setup/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Boltz CLI setup and auth. Use when installing, updating, verifying, or authenticating `boltz-api`, or fixing missing CLI, PATH, sandbox, browser login, or auth errors.
 
-**Source:** [boltz-cli-setup/SKILL.md](boltz-cli-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/boltz-cli-setup/SKILL.md](skills/boltz-cli-setup/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

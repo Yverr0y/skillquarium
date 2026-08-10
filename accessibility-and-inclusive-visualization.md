@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: accessibility-and-inclusive-visualization/SKILL.md
+source: skills/accessibility-and-inclusive-visualization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Make data visualizations accessible and inclusive. Use when the user needs chart or diagram accessibility guidance, text alternatives for complex visuals, color and contrast review, keyboard support, reduced-motion behavior for animation or parallax, or an accessibility QA workflow for exported figures, UML-like diagrams, and dashboards.
 
-**Source:** [accessibility-and-inclusive-visualization/SKILL.md](accessibility-and-inclusive-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/accessibility-and-inclusive-visualization/SKILL.md](skills/accessibility-and-inclusive-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

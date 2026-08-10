@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: hubspot-customer-prep/SKILL.md
+source: skills/hubspot-customer-prep/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when preparing HubSpot customer briefs for meetings, renewals, QBRs, sales calls, escalations, handoffs, or follow-ups.
 
-**Source:** [hubspot-customer-prep/SKILL.md](hubspot-customer-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hubspot-customer-prep/SKILL.md](skills/hubspot-customer-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

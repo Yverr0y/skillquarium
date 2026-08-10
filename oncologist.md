@@ -9,7 +9,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: oncologist/SKILL.md
+source: skills/oncologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Oncologist (clinical / multidisciplinary oncology): Stages with AJCC TNM and molecular prognostic groups, selects biomarker-matched therapy from NCCN guidelines, assesses response with RECIST 1.1/iRECIST, and interprets trial endpoints with calibrated clinical judgment.
 
-**Source:** [oncologist/SKILL.md](oncologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/oncologist/SKILL.md](skills/oncologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

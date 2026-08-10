@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: systematic-debugging/SKILL.md
+source: skills/systematic-debugging/SKILL.md
 created: 2026-06-10
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-10
 > [!info] What it does
 > Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 
-**Source:** [systematic-debugging/SKILL.md](systematic-debugging/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/systematic-debugging/SKILL.md](skills/systematic-debugging/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

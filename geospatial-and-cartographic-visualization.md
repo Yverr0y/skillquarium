@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: geospatial-and-cartographic-visualization/SKILL.md
+source: skills/geospatial-and-cartographic-visualization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design geospatial and cartographic visualizations. Use when the user needs help deciding whether to use a map, choosing projections or basemaps, building choropleths or symbol maps, or implementing thematic maps, slippy maps, or geospatial interactions with D3 geo, Leaflet, MapLibre, Mapbox GL JS, Google Maps, OpenLayers, deck.gl, ArcGIS Maps SDK, Azure Maps, HERE Maps, CesiumJS, or related tools.
 
-**Source:** [geospatial-and-cartographic-visualization/SKILL.md](geospatial-and-cartographic-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geospatial-and-cartographic-visualization/SKILL.md](skills/geospatial-and-cartographic-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

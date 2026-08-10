@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: slack-reply-drafting/SKILL.md
+source: skills/slack-reply-drafting/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Draft Slack replies from available context. Use when the user wants help finding messages that likely need a response and preparing reply drafts.
 
-**Source:** [slack-reply-drafting/SKILL.md](slack-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/slack-reply-drafting/SKILL.md](skills/slack-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

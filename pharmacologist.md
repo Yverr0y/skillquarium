@@ -9,7 +9,7 @@ bridge_domains:
   - drug-discovery-chem
   - clinical-medical
 status: untried
-source: pharmacologist/SKILL.md
+source: skills/pharmacologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Pharmacologist (wet-lab / in vitro pharmacology / drug discovery): Reasons from receptor occupancy, Black–Leff τ, EC50/IC50/Kd/Ki distinctions, Schild/Cheng–Prusoff antagonism, allosteric PAM/NAM cooperativity, GPCR bias, and PK/PD linkage; interprets binding/functional/HTS via GtoPdb/ChEMBL while treating spare receptors, radioligand depletion, and assay autofluorescence as...
 
-**Source:** [pharmacologist/SKILL.md](pharmacologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pharmacologist/SKILL.md](skills/pharmacologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

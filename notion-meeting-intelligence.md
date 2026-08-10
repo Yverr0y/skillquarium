@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: notion-meeting-intelligence/SKILL.md
+source: skills/notion-meeting-intelligence/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.
 
-**Source:** [notion-meeting-intelligence/SKILL.md](notion-meeting-intelligence/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/notion-meeting-intelligence/SKILL.md](skills/notion-meeting-intelligence/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

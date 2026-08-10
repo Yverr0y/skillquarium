@@ -14,7 +14,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: reliability-engineer/SKILL.md
+source: skills/reliability-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Reliability Engineer (physics-of-failure / accelerated life testing (HALT/HASS/ALT) / Weibull & censored field analytics / RCM-FMECA / functional safety (ISO...): Reasons from failure mechanisms, time-to-failure distributions, censored field data, and stress-strength interference through FMECA, physics-of-failure models (Coffin-Manson, Arrhenius, Peck), Weibull and Crow-AMSAA growth analysis, and demonstration tests while treating mixture populations, wrong acceleration models...
 
-**Source:** [reliability-engineer/SKILL.md](reliability-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/reliability-engineer/SKILL.md](skills/reliability-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

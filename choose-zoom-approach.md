@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: choose-zoom-approach/SKILL.md
+source: skills/choose-zoom-approach/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when choosing architecture.
 
-**Source:** [choose-zoom-approach/SKILL.md](choose-zoom-approach/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/choose-zoom-approach/SKILL.md](skills/choose-zoom-approach/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

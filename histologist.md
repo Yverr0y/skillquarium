@@ -9,7 +9,7 @@ bridge_domains:
   - clinical-medical
   - imaging-signals
 status: untried
-source: histologist/SKILL.md
+source: skills/histologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Histologist (wet-lab / clinical & research histology): Reasons from fixation-through-stain pre-analytical chain (NBF, grossing, processing, embedding orientation, microtomy); validates H&E pH/QC, CAP IHC (90% concordance, predictive scoring systems), RNAscope controls, WSI (60-case validation), and treats floaters, autolysis, crush, ice-crystal, and decalcification...
 
-**Source:** [histologist/SKILL.md](histologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/histologist/SKILL.md](skills/histologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

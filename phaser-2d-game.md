@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: phaser-2d-game/SKILL.md
+source: skills/phaser-2d-game/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Implement 2D browser games with Phaser. Use when the user wants a Phaser, TypeScript, and Vite stack for scenes, gameplay systems, cameras, sprite animation, and DOM-overlay HUD patterns.
 
-**Source:** [phaser-2d-game/SKILL.md](phaser-2d-game/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/phaser-2d-game/SKILL.md](skills/phaser-2d-game/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

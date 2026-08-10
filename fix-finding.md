@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: fix-finding/SKILL.md
+source: skills/fix-finding/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user explicitly asks to fix and verify a validated or plausible security finding. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.
 
-**Source:** [fix-finding/SKILL.md](fix-finding/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fix-finding/SKILL.md](skills/fix-finding/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

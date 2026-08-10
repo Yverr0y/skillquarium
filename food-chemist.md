@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - imaging-signals
 status: untried
-source: food-chemist/SKILL.md
+source: skills/food-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Food Chemist (analytical / regulatory food chemistry): Reasons from food matrix effects, aw and lipid oxidation, AOAC-validated HPLC/GC- MS/LC-MS/MS, FoodData Central/FNDDS, and trained sensory panels while treating matrix suppression, accelerated-shelf-life misuse, and untrained-taster data as first-class failure modes.
 
-**Source:** [food-chemist/SKILL.md](food-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/food-chemist/SKILL.md](skills/food-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

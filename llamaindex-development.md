@@ -7,7 +7,7 @@ tags:
   - domain/ml-ai
 domain: ml-ai
 status: untried
-source: llamaindex-development/SKILL.md
+source: skills/llamaindex-development/SKILL.md
 created: 2026-07-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-09
 > [!info] What it does
 > Expert guidance for LlamaIndex development including RAG applications, vector stores, document processing, query engines, and building production AI applications.
 
-**Source:** [llamaindex-development/SKILL.md](llamaindex-development/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/llamaindex-development/SKILL.md](skills/llamaindex-development/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

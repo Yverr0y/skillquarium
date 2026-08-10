@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: bio-analysis-system/SKILL.md
+source: skills/bio-analysis-system/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Step 5 of the bio-manuscript pipeline: design the analysis-method system. Use when planning which analyses, tools, and biological validations support each figure and task, mapping analyses to BioClaw-compatible tools or fallbacks, and connecting analyses to figure panels.
 
-**Source:** [bio-analysis-system/SKILL.md](bio-analysis-system/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-analysis-system/SKILL.md](skills/bio-analysis-system/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

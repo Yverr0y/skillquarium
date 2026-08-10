@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sharepoint-powerpoint/SKILL.md
+source: skills/sharepoint-powerpoint/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Create, edit, restyle, and review PowerPoint `.pptx` files fetched from SharePoint, with emphasis on style preservation, slide cloning, theme-aware updates, and rendered visual QA. Use when the user wants reliable slide edits that should match an existing deck's design language.
 
-**Source:** [sharepoint-powerpoint/SKILL.md](sharepoint-powerpoint/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sharepoint-powerpoint/SKILL.md](skills/sharepoint-powerpoint/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

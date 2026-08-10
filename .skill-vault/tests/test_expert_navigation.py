@@ -185,7 +185,7 @@ def validate_expert_wrapper_frontmatter(text, slug, assignment):
         raise ValueError(f"expert wrapper tags mismatch: {values['tags']!r}")
     if values["domain"] != expert_taxonomy.EXPERT_DOMAIN:
         raise ValueError(f"expert wrapper domain mismatch: {values['domain']}")
-    if values["source"] != f"{slug}/SKILL.md":
+    if values["source"] != f"skills/{slug}/SKILL.md":
         raise ValueError(f"expert wrapper source mismatch: {values['source']}")
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", values["created"]) is None:
         raise ValueError(f"expert wrapper created date is invalid: {values['created']}")
@@ -393,8 +393,8 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
             ),
         }
         for slug, content in fixtures.items():
-            skill_dir = root / slug
-            skill_dir.mkdir()
+            skill_dir = root / vault_build.SKILLS_SUBDIR / slug
+            skill_dir.mkdir(parents=True)
             (skill_dir / "SKILL.md").write_text(content, encoding="utf-8")
 
         with mock.patch.object(vault_build, "ROOT", str(root)):
@@ -416,7 +416,7 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
             "bridge_domains:\n"
             "  - data-science-compute\n"
             "status: untried\n"
-            "source: alpha/SKILL.md\n"
+            "source: skills/alpha/SKILL.md\n"
             "created: 2025-01-02\n"
             "---\n"
         )
@@ -440,7 +440,7 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
             "  - data-science-compute\n"
             "status: in-progress\n"
             "rating: 4.5\n"
-            "source: alpha/SKILL.md\n"
+            "source: skills/alpha/SKILL.md\n"
             "created: 2025-01-02\n"
             "---\n"
         )
@@ -911,7 +911,7 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
             if key != expert_taxonomy.EXPERT_DOMAIN
         )
         catalog_profiles = expert_taxonomy.load_catalog_profiles(
-            cls.root / "scientific-agents/references/catalog.json"
+            cls.root / "skills/scientific-agents/references/catalog.json"
         )
         with mock.patch.object(vault_build, "ROOT", str(cls.root)):
             discovered_profiles = discover_repository_profiles(vault_build)
@@ -1067,16 +1067,24 @@ class RepositoryFixedPointTests(unittest.TestCase):
         ):
             shutil.copy2(source / ".skill-vault" / name, helper_dir / name)
 
-        catalog = Path("scientific-agents/references/catalog.json")
+        catalog = Path("skills/scientific-agents/references/catalog.json")
         (destination / catalog).parent.mkdir(parents=True)
         shutil.copy2(source / catalog, destination / catalog)
 
         skill_names = []
-        for skill_path in sorted(source.glob("*/SKILL.md")):
+        for skill_path in sorted(source.glob("skills/*/SKILL.md")):
             skill = skill_path.parent.name
+            # The optional gstack extra installs each sub-skill both as a
+            # bundle tree (gstack/<name>) and as a flat gstack-<name>/ dir,
+            # which collide on one wrapper filename. Those artifacts are
+            # gitignored install state, not repository content, so a fixed-point
+            # check of the committed layer must ignore them -- otherwise this
+            # test passes in CI and fails on any machine with gstack installed.
+            if vault_build.is_gstack_subskill(skill):
+                continue
             skill_names.append(skill)
-            copied_skill = destination / skill / "SKILL.md"
-            copied_skill.parent.mkdir(exist_ok=True)
+            copied_skill = destination / "skills" / skill / "SKILL.md"
+            copied_skill.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(skill_path, copied_skill)
             wrapper = source / f"{skill}.md"
             if wrapper.is_file():
@@ -1104,7 +1112,9 @@ class RepositoryFixedPointTests(unittest.TestCase):
     def test_repository_build_is_a_byte_identical_fixed_point(self):
         source = VAULT_HELPERS.parent
         source_skills = tuple(
-            path.parent.name for path in sorted(source.glob("*/SKILL.md"))
+            path.parent.name
+            for path in sorted(source.glob("skills/*/SKILL.md"))
+            if not vault_build.is_gstack_subskill(path.parent.name)
         )
         source_before = self.snapshot_generated_tree(source, source_skills)
         sentinel = source / "maps/scientific-expert-profiles.md"

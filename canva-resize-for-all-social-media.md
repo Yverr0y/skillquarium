@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: canva-resize-for-all-social-media/SKILL.md
+source: skills/canva-resize-for-all-social-media/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Resize a Canva design into standard social media formats and prepare export-ready results. Use when the user wants one Canva design adapted across multiple social platforms such as Facebook, Instagram, and LinkedIn, especially when they want all variants produced in one pass.
 
-**Source:** [canva-resize-for-all-social-media/SKILL.md](canva-resize-for-all-social-media/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/canva-resize-for-all-social-media/SKILL.md](skills/canva-resize-for-all-social-media/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

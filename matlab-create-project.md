@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-create-project/SKILL.md
+source: skills/matlab-create-project/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Creates a MATLAB project for an existing folder of MATLAB files using the matlab.project.* APIs via MCP. Adds all existing files, configures the project path, generates a project name/description, and creates a README.md with a function table. Prompts the user before creating any new folders. Never overwrites existing files. Use when asked: "create a project", "set up a MATLAB project", "initialize project", "make this a MATLAB project", "configure project".
 
-**Source:** [matlab-create-project/SKILL.md](matlab-create-project/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-create-project/SKILL.md](skills/matlab-create-project/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

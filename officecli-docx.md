@@ -7,7 +7,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: officecli-docx/SKILL.md
+source: skills/officecli-docx/SKILL.md
 created: 2026-07-11
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-11
 > [!info] What it does
 > Use this skill any time a .docx file is involved -- as input, output, or both. This includes: creating Word documents, reports, letters, memos, or proposals; reading, parsing, or extracting text from any .docx file; editing, modifying, or updating existing documents; working with templates, tracked changes, comments, headers/footers, or tables of contents. Trigger whenever the user mentions 'Word doc', 'document', 'report', 'letter', 'memo', or references a .docx filename.
 
-**Source:** [officecli-docx/SKILL.md](officecli-docx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/officecli-docx/SKILL.md](skills/officecli-docx/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

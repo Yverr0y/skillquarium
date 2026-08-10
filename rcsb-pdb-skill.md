@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: rcsb-pdb-skill/SKILL.md
+source: skills/rcsb-pdb-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact RCSB PDB requests for core metadata, Search API queries, and FASTA downloads. Use when a user wants concise RCSB summaries; save raw JSON or FASTA only on request.
 
-**Source:** [rcsb-pdb-skill/SKILL.md](rcsb-pdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/rcsb-pdb-skill/SKILL.md](skills/rcsb-pdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

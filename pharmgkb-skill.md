@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: pharmgkb-skill/SKILL.md
+source: skills/pharmgkb-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact PharmGKB API requests for genes, variants, clinical annotations, dosing guidelines, and search. Use when a user wants concise PharmGKB summaries
 
-**Source:** [pharmgkb-skill/SKILL.md](pharmgkb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pharmgkb-skill/SKILL.md](skills/pharmgkb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

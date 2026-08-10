@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: encode-skill/SKILL.md
+source: skills/encode-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ENCODE REST API requests for object lookups, portal-style search, and metadata retrieval. Use when a user wants concise ENCODE summaries
 
-**Source:** [encode-skill/SKILL.md](encode-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/encode-skill/SKILL.md](skills/encode-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

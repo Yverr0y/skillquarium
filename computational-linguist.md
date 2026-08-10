@@ -16,7 +16,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: computational-linguist/SKILL.md
+source: skills/computational-linguist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Computational Linguist (computational / corpus & annotation / parsing & semantics): Reasons from UD/PTB formalisms, validate.py/eval.py (LAS/MLAS/ELAS), and evalb .prm settings through Stanza/UDPipe pipelines, PropBank/FrameNet/AMR/UMR layers, IAA (κ, Krippendorff α), CONDA contamination checks, and ARR reproducibility while treating tokenizer mismatch, oracle inflation, train–test leakage, and...
 
-**Source:** [computational-linguist/SKILL.md](computational-linguist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/computational-linguist/SKILL.md](skills/computational-linguist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

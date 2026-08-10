@@ -8,7 +8,7 @@ expert_primary: mathematics-statistics
 bridge_domains:
   - data-science-compute
 status: untried
-source: topologist/SKILL.md
+source: skills/topologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Topologist (proof-based / algebraic topology / low- dimensional & knot theory / TDA (persistent homology)): Reasons from continuity, compactness, connectedness, homotopy, and manifold structure through invariants and tools like π₁ via Seifert-van Kampen, cellular/simplicial homology with ∂²=0 and Smith-normal-form torsion, Mayer-Vietoris, and SnapPy/GUDHI computation, while treating lost-Hausdorffness in quotients, torsion...
 
-**Source:** [topologist/SKILL.md](topologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/topologist/SKILL.md](skills/topologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

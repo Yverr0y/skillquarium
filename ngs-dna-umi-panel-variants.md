@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-dna-umi-panel-variants/SKILL.md
+source: skills/ngs-dna-umi-panel-variants/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run or plan targeted DNA panel variant workflows that use UMIs, duplex consensus reads, molecular barcodes, low-frequency calling, target coverage, and panel-specific QC.
 
-**Source:** [ngs-dna-umi-panel-variants/SKILL.md](ngs-dna-umi-panel-variants/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-dna-umi-panel-variants/SKILL.md](skills/ngs-dna-umi-panel-variants/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

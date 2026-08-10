@@ -7,7 +7,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: creating-mermaid-dbt-dag/SKILL.md
+source: skills/creating-mermaid-dbt-dag/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Generates a Mermaid flowchart diagram of dbt model lineage using MCP tools, manifest.json, or direct code parsing as fallbacks. Use when visualizing dbt model lineage and dependencies as a Mermaid diagram in markdown format.
 
-**Source:** [creating-mermaid-dbt-dag/SKILL.md](creating-mermaid-dbt-dag/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/creating-mermaid-dbt-dag/SKILL.md](skills/creating-mermaid-dbt-dag/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

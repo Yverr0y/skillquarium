@@ -3,7 +3,7 @@ title: dcf
 tags:
   - skill
 status: untried
-source: dcf/SKILL.md
+source: skills/dcf/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Discounted cash flow valuation with sensitivity analysis
 
-**Source:** [dcf/SKILL.md](dcf/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dcf/SKILL.md](skills/dcf/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

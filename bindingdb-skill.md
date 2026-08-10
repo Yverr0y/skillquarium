@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: bindingdb-skill/SKILL.md
+source: skills/bindingdb-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact BindingDB REST API requests for ligand-target binding lookups by PDB, UniProt, or similarity search. Use when a user wants concise BindingDB summaries; save raw payloads only on request.
 
-**Source:** [bindingdb-skill/SKILL.md](bindingdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bindingdb-skill/SKILL.md](skills/bindingdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

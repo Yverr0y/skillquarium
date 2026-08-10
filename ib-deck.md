@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ib-deck/SKILL.md
+source: skills/ib-deck/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Generate an institutional-grade investment banking pitch deck (HTML)
 
-**Source:** [ib-deck/SKILL.md](ib-deck/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ib-deck/SKILL.md](skills/ib-deck/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

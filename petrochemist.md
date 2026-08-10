@@ -9,7 +9,7 @@ bridge_domains:
   - drug-discovery-chem
   - data-science-compute
 status: untried
-source: petrochemist/SKILL.md
+source: skills/petrochemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Petrochemist (refinery process chemistry / crude assay / fuels & lubricants spec testing / catalyst performance / standards (ASTM D02, EN 228/590)): Reasons from boiling range, hydrocarbon class, sulfur/nitrogen speciation, and octane/cetane drivers through SimDist and PIONA/SARA group-type analysis, CFR- engine RON/MON and cetane testing, refinery LP models, and ASTM/EN spec methods, while treating light-ends loss, assay mismatch versus plant yields, catalyst...
 
-**Source:** [petrochemist/SKILL.md](petrochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/petrochemist/SKILL.md](skills/petrochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

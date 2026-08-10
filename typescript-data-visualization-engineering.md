@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: typescript-data-visualization-engineering/SKILL.md
+source: skills/typescript-data-visualization-engineering/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build typed data visualizations in TypeScript. Use when the user wants TypeScript visualization code, typed data models, browser visualization components, UML-like diagram models, interactive graph or architecture diagram contracts, scroll-driven scene contracts, library selection guidance, or a maintainable visualization architecture beyond React- or Next-specific concerns.
 
-**Source:** [typescript-data-visualization-engineering/SKILL.md](typescript-data-visualization-engineering/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/typescript-data-visualization-engineering/SKILL.md](skills/typescript-data-visualization-engineering/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

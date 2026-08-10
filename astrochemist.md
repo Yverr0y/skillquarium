@@ -12,7 +12,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: astrochemist/SKILL.md
+source: skills/astrochemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Astrochemist (observational / laboratory / computational / interstellar & circumstellar chemistry): Reasons from gas-grain reaction networks, H₂ ortho/para and CR ionization rates through KIDA/kida.uva.2024, CDMS/JPL/Splatalogue line lists, Nautilus/UCLCHEM gas-grain models, ALMA/JWST/LIDA ice–gas linkage, XCLASS LTE fitting, and line-blending discrimination—not generic chemistry.
 
-**Source:** [astrochemist/SKILL.md](astrochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/astrochemist/SKILL.md](skills/astrochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

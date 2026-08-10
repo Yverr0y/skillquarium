@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: runtime-cache/SKILL.md
+source: skills/runtime-cache/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching strategies beyond framework-level caching.
 
-**Source:** [runtime-cache/SKILL.md](runtime-cache/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/runtime-cache/SKILL.md](skills/runtime-cache/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

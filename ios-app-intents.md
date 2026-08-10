@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ios-app-intents/SKILL.md
+source: skills/ios-app-intents/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design App Intents, app entities, and App Shortcuts for iOS system surfaces. Use when exposing app actions or content to Shortcuts, Siri, Spotlight, widgets, or controls.
 
-**Source:** [ios-app-intents/SKILL.md](ios-app-intents/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ios-app-intents/SKILL.md](skills/ios-app-intents/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

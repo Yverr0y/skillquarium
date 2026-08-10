@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: molmim-nim/SKILL.md
+source: skills/molmim-nim/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Use this skill for MolMIM, NVIDIA's BioNeMo NIM microservice for small-molecule latent-space generation and optimization. Invoke for MolMIM, molecular embeddings, hidden states, latent decoding, sampling around a seed SMILES, CMA-ES guided molecule generation, QED or plogP optimization, hosted NVIDIA API calls, or local Docker deployment.
 
-**Source:** [molmim-nim/SKILL.md](molmim-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/molmim-nim/SKILL.md](skills/molmim-nim/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

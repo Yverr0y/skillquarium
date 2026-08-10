@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: finding-discovery/SKILL.md
+source: skills/finding-discovery/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when Codex is already in the finding-discovery phase of a security scan or the user explicitly asks to discover candidate security findings in a repository or code change. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans.
 
-**Source:** [finding-discovery/SKILL.md](finding-discovery/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/finding-discovery/SKILL.md](skills/finding-discovery/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

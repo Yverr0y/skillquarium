@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: meeting-scheduler/SKILL.md
+source: skills/meeting-scheduler/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Handles end-to-end meeting scheduling using the Superhuman Mail MCP server — from finding available times to sending the invite or proposing times via email. Use this skill whenever someone asks to "schedule a meeting with [person]", "find a time to meet", "book a call", "set up a meeting", "when am I free to meet with [person]", "propose times to [person]", "send my availability", "create a meeting invite", "schedule a 1:1", "find overlap in our calendars", "reschedule my meeting with [person]", or any variation of coordinating a meeting. Also trigger when someone says "I need to find time with [person]", "can you check my calendar and suggest times", "set up a recurring sync", "block time for [task]", or when an email thread involves scheduling and the user wants to act on it. Trigger broadly — if someone needs help coordinating when people meet, this skill should activate.
 
-**Source:** [meeting-scheduler/SKILL.md](meeting-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/meeting-scheduler/SKILL.md](skills/meeting-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

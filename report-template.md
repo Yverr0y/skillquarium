@@ -7,7 +7,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: report-template/SKILL.md
+source: skills/report-template/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Publication-quality PDF report generation using Typst templates. Produces professional scientific reports with colored section bands, styled tables, figure captions, callout boxes, and page headers/footers.
 
-**Source:** [report-template/SKILL.md](report-template/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/report-template/SKILL.md](skills/report-template/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

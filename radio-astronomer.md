@@ -12,7 +12,7 @@ bridge_domains:
   - imaging-signals
   - quantum-physics
 status: untried
-source: radio-astronomer/SKILL.md
+source: skills/radio-astronomer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Radio Astronomer (interferometry / uv-plane imaging / spectral-line & polarization / time-domain (pulsars, FRBs)): Expert profile for radio astronomer — see AGENTS.md for field-specific methods and failure modes.
 
-**Source:** [radio-astronomer/SKILL.md](radio-astronomer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/radio-astronomer/SKILL.md](skills/radio-astronomer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -9,7 +9,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: anesthesiologist/SKILL.md
+source: skills/anesthesiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Anesthesiologist (perioperative medicine / airway management / hemodynamics & pharmacokinetics / regional & multimodal analgesia / perioperative trials...): Reasons from control of consciousness, analgesia, autonomic response, and oxygen delivery through the ASA Difficult Airway Algorithm, capnography and arterial-waveform trends, quantitative TOF monitoring, and ASRA/ERAS protocols while treating cannot-ventilate airways, local anesthetic systemic toxicity, malignant...
 
-**Source:** [anesthesiologist/SKILL.md](anesthesiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/anesthesiologist/SKILL.md](skills/anesthesiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

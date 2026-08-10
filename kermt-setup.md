@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: kermt-setup/SKILL.md
+source: skills/kermt-setup/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Bootstrap the KERMT agent environment — verify host docker + nvidia-container-toolkit, build the kermt:latest image from the repo's Dockerfile if it doesn't yet exist, and run a GPU smoke test inside the container. Every other kermt-* skill depends on this; invoke it first.
 
-**Source:** [kermt-setup/SKILL.md](kermt-setup/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/kermt-setup/SKILL.md](skills/kermt-setup/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

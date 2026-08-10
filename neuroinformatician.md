@@ -14,7 +14,7 @@ bridge_domains:
   - bio-databases-platforms
   - software-dev
 status: untried
-source: neuroinformatician/SKILL.md
+source: skills/neuroinformatician/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Neuroinformatician (data standards / BIDS-NWB / reproducible pipelines / archive federation (DANDI, OpenNeuro) / atlas registration): Reasons from FAIR schema, provenance, and pinned software environments through BIDS, NWB, ontologies, versioned Snakemake/Nextflow pipelines, and bids- validator/nwbinspector checks while treating silent metadata failures like wrong NWB units, colliding multi-site subject IDs, unsynced event onsets, and atlas-version...
 
-**Source:** [neuroinformatician/SKILL.md](neuroinformatician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/neuroinformatician/SKILL.md](skills/neuroinformatician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

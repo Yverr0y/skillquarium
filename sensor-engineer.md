@@ -11,7 +11,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - imaging-signals
 status: untried
-source: sensor-engineer/SKILL.md
+source: skills/sensor-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Sensor Engineer (MEMS / optical / instrumentation design and characterization): Reasons from transduction physics and error budgets through MEMS IMU Allan variance (ARW, bias instability, rate random walk), six-position and temperature calibration, piezoresistive/capacitive pressure validation, and photodiode–TIA NEP/SNR while treating vibration rectification, mag distortion, and aliased...
 
-**Source:** [sensor-engineer/SKILL.md](sensor-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sensor-engineer/SKILL.md](skills/sensor-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

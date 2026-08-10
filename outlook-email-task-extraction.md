@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-email-task-extraction/SKILL.md
+source: skills/outlook-email-task-extraction/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Extract action items, deadlines, commitments, and owners from Outlook email threads and mailbox searches. Use when the user wants a task list from one thread, several related messages, or a mailbox slice, including who owes what and when.
 
-**Source:** [outlook-email-task-extraction/SKILL.md](outlook-email-task-extraction/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-email-task-extraction/SKILL.md](skills/outlook-email-task-extraction/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

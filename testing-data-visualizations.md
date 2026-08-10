@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: testing-data-visualizations/SKILL.md
+source: skills/testing-data-visualizations/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Test data visualizations and dashboards. Use when the user needs chart or diagram test strategy, screenshot or image diff testing, visual regression, mocked or synthetic chart data, component or unit tests, E2E dashboard QA, interactive UML-like diagram verification, scroll-driven story verification, export verification, or guidance on avoiding brittle over-testing.
 
-**Source:** [testing-data-visualizations/SKILL.md](testing-data-visualizations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/testing-data-visualizations/SKILL.md](skills/testing-data-visualizations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

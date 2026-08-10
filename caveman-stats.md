@@ -7,7 +7,7 @@ tags:
   - domain/reasoning-ideation
 domain: reasoning-ideation
 status: untried
-source: caveman-stats/SKILL.md
+source: skills/caveman-stats/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.
 
-**Source:** [caveman-stats/SKILL.md](caveman-stats/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/caveman-stats/SKILL.md](skills/caveman-stats/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

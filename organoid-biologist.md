@@ -11,7 +11,7 @@ bridge_domains:
   - single-cell-rnaseq
   - bio-databases-platforms
 status: untried
-source: organoid-biologist/SKILL.md
+source: skills/organoid-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Organoid Biologist (wet-lab / stem-cell and 3D epithelial culture): Reasons from niche signaling, Matrigel scaffolds, and culture geometry; engineers Wnt/R-spondin expansion, ALI differentiation, and PDO biobanks while treating matrix lot effects and donor-level pseudoreplication as first-class failure modes.
 
-**Source:** [organoid-biologist/SKILL.md](organoid-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/organoid-biologist/SKILL.md](skills/organoid-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: deepnote-notebook-editing/SKILL.md
+source: skills/deepnote-notebook-editing/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when creating Deepnote projects or notebooks, adding or updating blocks or cells, moving existing blocks, scaffolding notebook content, inserting SQL/code/markdown/input blocks, or otherwise editing notebook structure through the Deepnote app tools.
 
-**Source:** [deepnote-notebook-editing/SKILL.md](deepnote-notebook-editing/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deepnote-notebook-editing/SKILL.md](skills/deepnote-notebook-editing/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

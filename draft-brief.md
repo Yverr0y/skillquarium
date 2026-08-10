@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: draft-brief/SKILL.md
+source: skills/draft-brief/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Drafts court filings — motions, memoranda of law, appellate briefs — as court-ready .docx, with Midpage research behind every citation. Use to \"draft a motion to dismiss,\" \"write the brief.\
 
-**Source:** [draft-brief/SKILL.md](draft-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/draft-brief/SKILL.md](skills/draft-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

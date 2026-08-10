@@ -340,11 +340,11 @@ class ExpertTaxonomyTests(unittest.TestCase):
         assert build_spec.loader is not None
         build_spec.loader.exec_module(vault_build)
         catalog = expert_taxonomy.load_catalog_profiles(
-            root / "scientific-agents/references/catalog.json"
+            root / "skills/scientific-agents/references/catalog.json"
         )
         discovered = {
             skill_dir.name
-            for skill_dir in root.iterdir()
+            for skill_dir in (root / vault_build.SKILLS_SUBDIR).iterdir()
             if skill_dir.is_dir()
             and skill_dir.name != expert_taxonomy.DISPATCHER
             and (skill_dir / "SKILL.md").is_file()
@@ -620,13 +620,13 @@ class ExpertWrapperBuildTests(unittest.TestCase):
             "  - domain/software-dev\n"
             "domain: software-dev\n"
             "status: untried\n"
-            "source: alpha/SKILL.md\n"
+            "source: skills/alpha/SKILL.md\n"
             "created: 2025-01-02\n"
             "---\n\n"
             "# alpha\n\n"
             "> [!info] What it does\n"
             "> Alpha description.\n\n"
-            "**Source:** [alpha/SKILL.md](alpha/SKILL.md)  ·  "
+            "**Source:** [skills/alpha/SKILL.md](skills/alpha/SKILL.md)  ·  "
             "**Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  "
             "**Table:** [skills.base](skills.base)  ·  "
             "**Index:** [Skills Index](index.md)\n\n"
@@ -831,9 +831,11 @@ class ExpertWrapperBuildTests(unittest.TestCase):
             overridden.TAXONOMY_PATH,
             root / ".skill-vault/scientific-expert-taxonomy.json",
         )
+        self.assertEqual(overridden.SKILLS_DIR, root / "skills")
+        self.assertEqual(overridden.skills_root(), str(root / "skills"))
         self.assertEqual(
             overridden.CATALOG_PATH,
-            root / "scientific-agents/references/catalog.json",
+            root / "skills/scientific-agents/references/catalog.json",
         )
         self.assertEqual(
             overridden.EXPERT_MAPS_DIR,

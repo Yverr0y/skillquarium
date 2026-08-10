@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: kermt-add-cmim-pretrain/SKILL.md
+source: skills/kermt-add-cmim-pretrain/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Convert a grover_base checkpoint (encoder-only or encoder + vocab heads) into a hybrid checkpoint by adding a randomly-initialized cMIM decoder + latent_dist, then continue pretraining on the user's corpus as hybrid (vocab + contrast). Effectively kermt-continue-pretrain with a one-time ckpt-conversion step prepended.
 
-**Source:** [kermt-add-cmim-pretrain/SKILL.md](kermt-add-cmim-pretrain/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/kermt-add-cmim-pretrain/SKILL.md](skills/kermt-add-cmim-pretrain/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

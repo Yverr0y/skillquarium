@@ -10,7 +10,7 @@ tags:
   - domain/proteomics-metabolomics
 domain: proteomics-metabolomics
 status: untried
-source: fragpipe-pyteomics-proteomics/SKILL.md
+source: skills/fragpipe-pyteomics-proteomics/SKILL.md
 created: 2026-06-09
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-09
 > [!info] What it does
 > DDA/DIA mass-spectrometry proteomics workflows with FragPipe, MSFragger, IonQuant, DIA-NN, Pyteomics, pyopenms, matchms, polars, and query. Use when searching raw proteomics data, controlling peptide/protein FDR, parsing mzML/mzIdentML/mzTab/MGF, or prototyping downstream proteomics analysis in Python.
 
-**Source:** [fragpipe-pyteomics-proteomics/SKILL.md](fragpipe-pyteomics-proteomics/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fragpipe-pyteomics-proteomics/SKILL.md](skills/fragpipe-pyteomics-proteomics/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

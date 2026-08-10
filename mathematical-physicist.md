@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - quantum-physics
 status: untried
-source: mathematical-physicist/SKILL.md
+source: skills/mathematical-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mathematical Physicist (theoretical / axiomatic & constructive mathematical physics): Reasons from Hilbert-space domains, Wightman/OS and Haag–Kastler axioms, constructive QFT, Gibbs measures, and spectral/scattering theory; uses Reed–Simon, Glimm–Jaffe, MathSciNet/math-ph, while treating wrong self- adjoint extensions, invalid Wick rotation, limit-order swaps, and lattice-as-continuum claims as...
 
-**Source:** [mathematical-physicist/SKILL.md](mathematical-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mathematical-physicist/SKILL.md](skills/mathematical-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

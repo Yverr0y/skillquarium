@@ -14,7 +14,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: occupational-health-scientist/SKILL.md
+source: skills/occupational-health-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Occupational Health Scientist (industrial hygiene / exposure assessment / occupational epidemiology / sampling and OELs (PEL, TLV, REL) / hierarchy of controls): Reasons from exposure route and receptor, dose-response, and the hierarchy of controls through SEG-based personal sampling, NIOSH/OSHA analytical methods, AIHA Bayesian exceedance statistics, and SMR cohort analysis, while treating healthy worker effect, below-LOD censoring, fraction-size and OEL mismatch, and JEM...
 
-**Source:** [occupational-health-scientist/SKILL.md](occupational-health-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/occupational-health-scientist/SKILL.md](skills/occupational-health-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

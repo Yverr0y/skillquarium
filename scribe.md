@@ -3,7 +3,7 @@ title: scribe
 tags:
   - skill
 status: untried
-source: scribe/SKILL.md
+source: skills/scribe/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Scribe.
 
-**Source:** [scribe/SKILL.md](scribe/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/scribe/SKILL.md](skills/scribe/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

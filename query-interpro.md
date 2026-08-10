@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: query-interpro/SKILL.md
+source: skills/query-interpro/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Query InterPro for protein domains and families. Use when user asks about protein domains, functional sites, protein families, domain architecture, or motifs. Triggers on "interpro", "protein domain", "domain architecture", "protein family", "functional site", "motif".
 
-**Source:** [query-interpro/SKILL.md](query-interpro/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/query-interpro/SKILL.md](skills/query-interpro/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

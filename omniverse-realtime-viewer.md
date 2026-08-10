@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: omniverse-realtime-viewer/SKILL.md
+source: skills/omniverse-realtime-viewer/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.
 
-**Source:** [omniverse-realtime-viewer/SKILL.md](omniverse-realtime-viewer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/omniverse-realtime-viewer/SKILL.md](skills/omniverse-realtime-viewer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

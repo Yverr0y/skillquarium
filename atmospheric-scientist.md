@@ -14,7 +14,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: atmospheric-scientist/SKILL.md
+source: skills/atmospheric-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Atmospheric Scientist (dynamics-physics / obs-model synthesis / reanalysis-NWP / multiscale (synoptic-mesoscale-tropical-stratosphere)): Reasons from scale-dependent balances, Ertel PV on isentropic surfaces, and closed moisture/energy budgets through PV/omega/Q-vector diagnostics, reanalyses (ERA5, MERRA-2) and WRF/MPAS/CMIP runs, and obs validation (GRUAN sondes, IMERG, CERES), while treating reanalysis assimilation increments, retrieval biases...
 
-**Source:** [atmospheric-scientist/SKILL.md](atmospheric-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/atmospheric-scientist/SKILL.md](skills/atmospheric-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

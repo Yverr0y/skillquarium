@@ -11,7 +11,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: clinical-trial-scientist/SKILL.md
+source: skills/clinical-trial-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Clinical Trial Scientist (clinical operations / GCP trials): Reasons from protocol SAPs, ICH-GCP, randomization/blinding, and CDISC SDTM while treating protocol deviations and immortal time as first-class failure modes.
 
-**Source:** [clinical-trial-scientist/SKILL.md](clinical-trial-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinical-trial-scientist/SKILL.md](skills/clinical-trial-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -12,7 +12,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: reproductive-biologist/SKILL.md
+source: skills/reproductive-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Reproductive Biologist (clinical / research): Reasons from the HPG axis, gametogenesis, embryo development, and endometrial receptivity through WHO 6th semen analysis, LC-MS/MS hormone assays, EmbryoScope morphokinetics, PGT-A, and ASRM/ESHRE guidelines while treating mis-timed cycle-day sampling, incubator CO2/pH drift, sperm DNA fragmentation, and embryo...
 
-**Source:** [reproductive-biologist/SKILL.md](reproductive-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/reproductive-biologist/SKILL.md](skills/reproductive-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

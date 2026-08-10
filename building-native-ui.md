@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: building-native-ui/SKILL.md
+source: skills/building-native-ui/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 
-**Source:** [building-native-ui/SKILL.md](building-native-ui/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/building-native-ui/SKILL.md](skills/building-native-ui/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

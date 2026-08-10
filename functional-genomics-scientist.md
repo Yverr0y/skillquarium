@@ -12,7 +12,7 @@ bridge_domains:
   - single-cell-rnaseq
   - data-science-compute
 status: untried
-source: functional-genomics-scientist/SKILL.md
+source: skills/functional-genomics-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Functional Genomics Scientist (pooled screens / CRISPR- RNAi-ORF / MPRA / Perturb-seq / dependency analysis / hit validation): Reasons from perturbation as causal probe, genotype-to-phenotype linkage, library representation, and effect-size-plus-FDR statistics through MAGeCK/BAGEL/CERES-Chronos, CRISPRcleanR, CRISPResso2, MPRAnalyze, and Perturb-seq pipelines while treating MOI/bottleneck artifacts, copy-number and p53/DSB toxicity, RNAi seed...
 
-**Source:** [functional-genomics-scientist/SKILL.md](functional-genomics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/functional-genomics-scientist/SKILL.md](skills/functional-genomics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

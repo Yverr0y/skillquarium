@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-create-buildfile/SKILL.md
+source: skills/matlab-create-buildfile/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Generate a MATLAB buildfile.m with tasks for static analysis, testing, coverage reporting, and packaging. Use after matlab-create-project when the project structure is in place and you need repeatable build automation.
 
-**Source:** [matlab-create-buildfile/SKILL.md](matlab-create-buildfile/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-create-buildfile/SKILL.md](skills/matlab-create-buildfile/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

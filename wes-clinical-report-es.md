@@ -7,7 +7,7 @@ tags:
   - domain/clinical-medical
 domain: clinical-medical
 status: untried
-source: wes-clinical-report-es/SKILL.md
+source: skills/wes-clinical-report-es/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Generates professional clinical PDF reports in Spanish from WES (Whole Exome Sequencing) data with clinical interpretation, pharmacogenomic alerts, and follow-up recommendations.
 
-**Source:** [wes-clinical-report-es/SKILL.md](wes-clinical-report-es/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/wes-clinical-report-es/SKILL.md](skills/wes-clinical-report-es/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

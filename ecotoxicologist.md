@@ -11,7 +11,7 @@ expert_primary: biology-life-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: ecotoxicologist/SKILL.md
+source: skills/ecotoxicologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Ecotoxicologist (regulatory / laboratory & field ERA (aquatic–terrestrial)): Reasons from bioavailability (BLM/WHAM), OECD 201–222 tiered tests, and ECx/SSD HC5–PNEC derivation; compares PEC/PNEC under REACH/PPP frames while treating third-phase BCF artifacts, mixture CA departures, and mesocosm exposure mismatch as first-class failure modes.
 
-**Source:** [ecotoxicologist/SKILL.md](ecotoxicologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ecotoxicologist/SKILL.md](skills/ecotoxicologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

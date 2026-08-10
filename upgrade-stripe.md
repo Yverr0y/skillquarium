@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: upgrade-stripe/SKILL.md
+source: skills/upgrade-stripe/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide for upgrading Stripe API versions and SDKs
 
-**Source:** [upgrade-stripe/SKILL.md](upgrade-stripe/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/upgrade-stripe/SKILL.md](skills/upgrade-stripe/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

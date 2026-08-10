@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: security-diff-scan/SKILL.md
+source: skills/security-diff-scan/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user asks for a security review of a pull request, commit, branch diff, working-tree patch, or other Git-backed change set.
 
-**Source:** [security-diff-scan/SKILL.md](security-diff-scan/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/security-diff-scan/SKILL.md](skills/security-diff-scan/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

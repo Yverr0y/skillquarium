@@ -7,7 +7,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: genome-match/SKILL.md
+source: skills/genome-match/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Score genetic compatibility across all male-female pairings in a Genomebook generation
 
-**Source:** [genome-match/SKILL.md](genome-match/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/genome-match/SKILL.md](skills/genome-match/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

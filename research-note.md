@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: research-note/SKILL.md
+source: skills/research-note/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Generate a professional Word document research note
 
-**Source:** [research-note/SKILL.md](research-note/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/research-note/SKILL.md](skills/research-note/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

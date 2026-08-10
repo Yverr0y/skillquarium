@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: brainstorming/SKILL.md
+source: skills/brainstorming/SKILL.md
 created: 2026-06-10
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-10
 > [!info] What it does
 > You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.
 
-**Source:** [brainstorming/SKILL.md](brainstorming/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/brainstorming/SKILL.md](skills/brainstorming/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

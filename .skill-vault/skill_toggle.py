@@ -18,6 +18,9 @@ from enum import Enum
 from pathlib import Path
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[1]
+# Skill folders live in their own subtree under the vault root; the generated
+# human layer lives beside it. Keep in sync with build.py's SKILLS_SUBDIR.
+SKILLS_SUBDIR = "skills"
 CLAUDE_FIELD = "disable-model-invocation"
 CODEX_FIELD = "allow_implicit_invocation"
 SNAPSHOT_SCHEMA_VERSION = 1
@@ -183,8 +186,14 @@ def _wrapper_category(root: Path, key: str) -> str:
 
 def discover_skills(root: Path) -> list[Skill]:
     root = Path(root).resolve()
+    skills_root = root / SKILLS_SUBDIR
+    if not skills_root.is_dir():
+        raise MetadataError(
+            f"{skills_root}: no skills directory under the vault root. "
+            f"Pass --root pointing at the vault (the parent of {SKILLS_SUBDIR}/)."
+        )
     skills: list[Skill] = []
-    for directory in root.iterdir():
+    for directory in skills_root.iterdir():
         if (
             directory.name.startswith(".")
             or directory.name.startswith("gstack-")
@@ -193,7 +202,7 @@ def discover_skills(root: Path) -> list[Skill]:
         ):
             continue
         try:
-            directory.resolve().relative_to(root)
+            directory.resolve().relative_to(skills_root)
         except (OSError, ValueError):
             continue
         skills.append(

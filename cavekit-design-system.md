@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: cavekit-design-system/SKILL.md
+source: skills/cavekit-design-system/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > How to write and maintain DESIGN.md as the visual specification layer for Cavekit projects. Nine-section format, design tokens, accessibility, integration with kits/plans. Use when defining or revising visual identity, importing a third-party design system, or auditing UI code against design tokens.
 
-**Source:** [cavekit-design-system/SKILL.md](cavekit-design-system/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cavekit-design-system/SKILL.md](skills/cavekit-design-system/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

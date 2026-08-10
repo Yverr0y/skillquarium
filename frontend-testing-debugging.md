@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: frontend-testing-debugging/SKILL.md
+source: skills/frontend-testing-debugging/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction bugs, console errors, responsive layout, and visual QA. Check whether the Browser plugin is available and use it first when it is; otherwise use regular Playwright with the recorded reason.
 
-**Source:** [frontend-testing-debugging/SKILL.md](frontend-testing-debugging/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/frontend-testing-debugging/SKILL.md](skills/frontend-testing-debugging/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

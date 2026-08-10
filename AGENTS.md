@@ -1,7 +1,7 @@
 # AGENTS.md — operating guide for agents
 
 You have access to a curated library of **1240 agent skills** at `~/.agents/skills/`
-(this repo). A *skill* is a folder with a `SKILL.md` holding battle-tested instructions for
+(the `skills/` subtree of this repo, which is rooted at `~/.agents`). A *skill* is a folder with a `SKILL.md` holding battle-tested instructions for
 a specific tool, library, or workflow. **Using a relevant skill is faster and more reliable
 than improvising.** This file tells you how to find and use them.
 
@@ -14,7 +14,7 @@ than improvising.** This file tells you how to find and use them.
 - **`install-skills.sh` wires them in.** The script (`npx skills add . -s '*' -g`) symlinks
   every skill in this repo into each agent's own skills folder, so your native loader picks
   them up. The skill folders here are the single source of truth.
-- **This vault is the query layer.** `~/.agents/skills/` adds an Obsidian navigation layer on
+- **This vault is the query layer.** `~/.agents/` adds an Obsidian navigation layer on
   top of the raw skills — wrapper notes, per-domain maps, an index, a filterable table,
   aliases, tags, and an optional `graphify-out/` knowledge graph. Reach for it when you
   want **comprehensive discovery** beyond your agent's built-in matching: searching by
@@ -51,11 +51,11 @@ Try these in order; stop when you have a match.
 2. **Query the vault for comprehensive discovery** (headless, ranked) — when native matching
    isn't enough, or you want everything related to a concept:
    ```bash
-   cd ~/.agents/skills
+   cd ~/.agents
    graphify query "Which skills cover single-cell batch correction?" --graph graphify-out/graph.json --budget 1500
    obsidian-cli search query="single cell batch correction" limit=8
    # zero-dependency fallback (works anywhere ripgrep is installed):
-   rg -li "batch correction|integration|harmony" ~/.agents/skills/*.md
+   rg -li "batch correction|integration|harmony" ~/.agents/*.md
    ```
    The `*.md` files at the repo root are one-line "wrapper" notes (description + domain +
    aliases) — the fast index. Read the underlying `<name>/SKILL.md` once you've picked one.
@@ -87,7 +87,7 @@ capturing as a new skill (`skill-builder` / `writing-skills`).
   `graphify`, then query it.
 - **For this skills vault itself, query the local graph when present**:
   ```bash
-  cd ~/.agents/skills
+  cd ~/.agents
   graphify query "How is the skill library organized?" --graph graphify-out/graph.json
   ```
   If the graph is missing or stale, rebuild it manually with

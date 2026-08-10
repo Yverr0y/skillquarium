@@ -11,7 +11,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: pollution-control-engineer/SKILL.md
+source: skills/pollution-control-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Pollution Control Engineer (design / engineering / regulatory compliance): Reasons from PTE, Title V Part 70, and NPDES limits through scrubber/baghouse/ESP/RTO selection, CEMS and stack-test demonstration, and parametric O&M (ΔP, pH, L/G) while treating synthetic-minor strategy, sulfite-blinded FGD, bag leaks, and WET/TIE toxicity as first-class failure modes.
 
-**Source:** [pollution-control-engineer/SKILL.md](pollution-control-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pollution-control-engineer/SKILL.md](skills/pollution-control-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

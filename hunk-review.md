@@ -9,7 +9,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: hunk-review/SKILL.md
+source: skills/hunk-review/SKILL.md
 created: 2026-07-29
 ---
 
@@ -18,7 +18,7 @@ created: 2026-07-29
 > [!info] What it does
 > Interacts with live Hunk diff review sessions via CLI. Inspects review focus, navigates files and hunks, reloads session contents, and adds inline review comments. Use when the user has a Hunk session running or wants to review diffs interactively.
 
-**Source:** [hunk-review/SKILL.md](hunk-review/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hunk-review/SKILL.md](skills/hunk-review/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

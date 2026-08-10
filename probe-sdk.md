@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: probe-sdk/SKILL.md
+source: skills/probe-sdk/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Probe SDK.
 
-**Source:** [probe-sdk/SKILL.md](probe-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/probe-sdk/SKILL.md](skills/probe-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

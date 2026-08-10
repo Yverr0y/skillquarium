@@ -11,7 +11,7 @@ tags:
   - domain/cloud-devops
 domain: cloud-devops
 status: untried
-source: chaos-engineering/SKILL.md
+source: skills/chaos-engineering/SKILL.md
 created: 2026-08-01
 ---
 
@@ -20,7 +20,7 @@ created: 2026-08-01
 > [!info] What it does
 > Design and run bounded chaos engineering experiments that test whether a system preserves measurable steady-state behavior during realistic faults. Use for resilience hypotheses, game days, fault injection, failover and recovery validation, or LitmusChaos and Chaos Mesh experiments involving pod, node, network, latency, resource, storage, DNS, time, or cloud failures. Require explicit authorization before mutating an environment, especially production; do not use as a substitute for load testing, disaster-recovery planning, penetration testing, or incident response. Pair with kubernetes-specialist when broader cluster design or workload remediation is required.
 
-**Source:** [chaos-engineering/SKILL.md](chaos-engineering/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chaos-engineering/SKILL.md](skills/chaos-engineering/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

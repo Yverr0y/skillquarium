@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: migrate-to-shoehorn/SKILL.md
+source: skills/migrate-to-shoehorn/SKILL.md
 created: 2026-06-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-20
 > [!info] What it does
 > Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.
 
-**Source:** [migrate-to-shoehorn/SKILL.md](migrate-to-shoehorn/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/migrate-to-shoehorn/SKILL.md](skills/migrate-to-shoehorn/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: tpmi-phewas-skill/SKILL.md
+source: skills/tpmi-phewas-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Fetch compact TPMI PheWAS summaries for single variants by accepting rsID, GRCh37, or GRCh38 input and resolving to the required GRCh38 query. Use when a user wants concise TPMI association results for one variant
 
-**Source:** [tpmi-phewas-skill/SKILL.md](tpmi-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/tpmi-phewas-skill/SKILL.md](skills/tpmi-phewas-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

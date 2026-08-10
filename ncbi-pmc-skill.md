@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ncbi-pmc-skill/SKILL.md
+source: skills/ncbi-pmc-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact NCBI PMC Open Access requests for article/file availability metadata. Use when a user wants concise PMC Open Access summaries; save raw XML only on request.
 
-**Source:** [ncbi-pmc-skill/SKILL.md](ncbi-pmc-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ncbi-pmc-skill/SKILL.md](skills/ncbi-pmc-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-api-routes/SKILL.md
+source: skills/expo-api-routes/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guidelines for creating API routes in Expo Router with EAS Hosting
 
-**Source:** [expo-api-routes/SKILL.md](expo-api-routes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-api-routes/SKILL.md](skills/expo-api-routes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

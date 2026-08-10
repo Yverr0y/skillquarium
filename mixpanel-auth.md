@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: mixpanel-auth/SKILL.md
+source: skills/mixpanel-auth/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Manage Mixpanel Headless authentication: check session state, list/add/use accounts, run OAuth login, switch projects/workspaces, manage targets, and check bridge credentials.
 
-**Source:** [mixpanel-auth/SKILL.md](mixpanel-auth/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mixpanel-auth/SKILL.md](skills/mixpanel-auth/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

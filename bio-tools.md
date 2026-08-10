@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: bio-tools/SKILL.md
+source: skills/bio-tools/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Biology research tools reference. Always available inside agent containers.
 
-**Source:** [bio-tools/SKILL.md](bio-tools/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-tools/SKILL.md](skills/bio-tools/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

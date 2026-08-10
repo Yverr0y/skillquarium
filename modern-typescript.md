@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: modern-typescript/SKILL.md
+source: skills/modern-typescript/SKILL.md
 created: 2026-07-24
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-24
 > [!info] What it does
 > Modern TypeScript 5.x idioms — strict tsconfig (strict, noUncheckedIndexedAccess), the type system (unions/intersections, generics + constraints, narrowing, discriminated unions, unknown vs any, utility types, satisfies, as const, template-literal types), ESM & moduleResolution, and type-safe patterns (branded types, exhaustiveness). Use when configuring a tsconfig, writing or reviewing type-safe TypeScript, designing generics or a discriminated union, or decoding a tsc error.
 
-**Source:** [modern-typescript/SKILL.md](modern-typescript/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/modern-typescript/SKILL.md](skills/modern-typescript/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

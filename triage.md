@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: triage/SKILL.md
+source: skills/triage/SKILL.md
 created: 2026-06-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-20
 > [!info] What it does
 > Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.
 
-**Source:** [triage/SKILL.md](triage/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/triage/SKILL.md](skills/triage/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

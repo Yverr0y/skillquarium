@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-cron-jobs/SKILL.md
+source: skills/render-cron-jobs/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Configures and troubleshoots scheduled tasks on Render using cron job services. Use when the user needs to run something on a schedule, write a cron expression, set up a periodic job, migrate from Heroku Scheduler, choose between cron jobs and background workers, or fix a cron that isn't firing. Trigger terms: cron job, scheduled task, periodic job, cron expression, schedule, run every, timer, Heroku Scheduler migration.
 
-**Source:** [render-cron-jobs/SKILL.md](render-cron-jobs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-cron-jobs/SKILL.md](skills/render-cron-jobs/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

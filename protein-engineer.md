@@ -15,7 +15,7 @@ bridge_domains:
   - sequence-phylogenetics
   - ml-ai
 status: untried
-source: protein-engineer/SKILL.md
+source: skills/protein-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Protein Engineer (directed evolution / display selection / biophysical characterization / ML-guided design / developability): Reasons from sequence-structure-function relationships, evolutionary constraint, and multiparameter developability through display selection, ProteinMPNN/RFdiffusion and AlphaFold modeling, SPR/BLI kinetics, and SEC/DSF/CE-SDS characterization while treating aggregation, Tm loss, proteolysis, glycoform mismatch, and...
 
-**Source:** [protein-engineer/SKILL.md](protein-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/protein-engineer/SKILL.md](skills/protein-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

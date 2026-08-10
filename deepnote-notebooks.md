@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: deepnote-notebooks/SKILL.md
+source: skills/deepnote-notebooks/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when reading, reviewing, inspecting, or reasoning about hosted Deepnote notebooks, blocks, inputs, SQL, Python, or notebook outputs through the Deepnote app tools.
 
-**Source:** [deepnote-notebooks/SKILL.md](deepnote-notebooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deepnote-notebooks/SKILL.md](skills/deepnote-notebooks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

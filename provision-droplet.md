@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: provision-droplet/SKILL.md
+source: skills/provision-droplet/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user wants to spin up / create / launch / provision a DigitalOcean droplet (or "a remote dev box on DO") and connect to it from Codex as a remote SSH workspace.
 
-**Source:** [provision-droplet/SKILL.md](provision-droplet/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/provision-droplet/SKILL.md](skills/provision-droplet/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

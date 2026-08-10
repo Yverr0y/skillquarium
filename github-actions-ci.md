@@ -10,7 +10,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: github-actions-ci/SKILL.md
+source: skills/github-actions-ci/SKILL.md
 created: 2026-06-10
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-10
 > [!info] What it does
 > Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows, and common Python/Node CI recipes. Use when creating or fixing .github/workflows/*.yml, setting up CI for tests/lint/build, adding a release or deploy pipeline, or speeding up/securing existing workflows. To audit agentic (AI-in-CI) workflows for injection, see agentic-actions-auditor.
 
-**Source:** [github-actions-ci/SKILL.md](github-actions-ci/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/github-actions-ci/SKILL.md](skills/github-actions-ci/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

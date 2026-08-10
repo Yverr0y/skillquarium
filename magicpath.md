@@ -3,7 +3,7 @@ title: magicpath
 tags:
   - skill
 status: untried
-source: magicpath/SKILL.md
+source: skills/magicpath/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user mentions MagicPath, designs, UI components, themes, canvas selections, or repo-to-canvas UI work; run magicpath-ai to search, inspect, install, or author components.
 
-**Source:** [magicpath/SKILL.md](magicpath/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/magicpath/SKILL.md](skills/magicpath/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

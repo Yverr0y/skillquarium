@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: omniverse-usd-performance-tuning/SKILL.md
+source: skills/omniverse-usd-performance-tuning/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Top-level workflow skill for USD performance diagnosis and optimization. Use for slow loading, high memory, low FPS, or 'optimize my scene' requests; delegates auth/runtime setup to Phase 0 owners.
 
-**Source:** [omniverse-usd-performance-tuning/SKILL.md](omniverse-usd-performance-tuning/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/omniverse-usd-performance-tuning/SKILL.md](skills/omniverse-usd-performance-tuning/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

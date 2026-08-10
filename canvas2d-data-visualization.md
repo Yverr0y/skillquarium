@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: canvas2d-data-visualization/SKILL.md
+source: skills/canvas2d-data-visualization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Render data visualizations with Canvas2D. Use when the visualization needs high mark counts, fast redraws, immediate-mode rendering, custom hit testing, or a hybrid Canvas plus SVG or HTML architecture.
 
-**Source:** [canvas2d-data-visualization/SKILL.md](canvas2d-data-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/canvas2d-data-visualization/SKILL.md](skills/canvas2d-data-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

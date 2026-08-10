@@ -11,7 +11,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: translational-researcher/SKILL.md
+source: skills/translational-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Translational Researcher (preclinical / IND-IDE-enabling / early clinical PoC & biomarker translation): Reasons from T0–T4 stage gates, murine vs NHP translatability, PK/PD allometric bridging, MRSD/MABEL FIH dose selection, BEST/CLIA/CAP biomarker tiers, and CONSORT/SPIRIT/STROBE reporting while treating target-wrong, model-wrong, non-predictive biomarker, and preclinical irreproducibility as first-class failure modes.
 
-**Source:** [translational-researcher/SKILL.md](translational-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/translational-researcher/SKILL.md](skills/translational-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

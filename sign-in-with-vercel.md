@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sign-in-with-vercel/SKILL.md
+source: skills/sign-in-with-vercel/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Sign in with Vercel guidance — OAuth 2.0/OIDC identity provider for user authentication via Vercel accounts. Use when implementing user login with Vercel as the identity provider.
 
-**Source:** [sign-in-with-vercel/SKILL.md](sign-in-with-vercel/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sign-in-with-vercel/SKILL.md](skills/sign-in-with-vercel/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

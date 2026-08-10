@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: vercel-firewall/SKILL.md
+source: skills/vercel-firewall/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or any security configuration on the Vercel platform.
 
-**Source:** [vercel-firewall/SKILL.md](vercel-firewall/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-firewall/SKILL.md](skills/vercel-firewall/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

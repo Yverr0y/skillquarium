@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: analytical-chemist/SKILL.md
+source: skills/analytical-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Analytical Chemist (wet-lab / separation science / spectroscopy / method validation): Reasons from the chemical measurement process through ICH Q2(R2) and USP <621> validation, CRM traceability, EURACHEM uncertainty budgets, and HPLC/GC/LC-MS/ICP-MS workflows while treating matrix effects, SST drift, peak tailing, and ion suppression as first-class failure modes.
 
-**Source:** [analytical-chemist/SKILL.md](analytical-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/analytical-chemist/SKILL.md](skills/analytical-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

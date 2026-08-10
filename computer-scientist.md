@@ -17,7 +17,7 @@ bridge_domains:
   - software-dev
   - security-auditing
 status: untried
-source: computer-scientist/SKILL.md
+source: skills/computer-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -26,7 +26,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Computer Scientist (theory + systems / algorithms & complexity / distributed data / formal methods (TLA+, Coq) / security (STRIDE, OWASP ASVS)): Reasons from computational models, abstraction contracts, invariants, and measurable complexity through CLRS-grade algorithm analysis, impossibility results (FLP, CAP, NP-hardness), property-based and chaos testing, and formal tools (TLA+, Coq, Z3) while treating partial failure, race conditions, label leakage, and...
 
-**Source:** [computer-scientist/SKILL.md](computer-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/computer-scientist/SKILL.md](skills/computer-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

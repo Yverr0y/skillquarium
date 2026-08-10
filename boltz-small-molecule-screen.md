@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: boltz-small-molecule-screen/SKILL.md
+source: skills/boltz-small-molecule-screen/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Screen existing small-molecule libraries with Boltz. Use when docking, scoring, or ranking a supplied SMILES or compound library against a target; also returns free Tier-1 ADME/ADMET (solubility, permeability, lipophilicity/logD) per molecule. Not for de novo molecule design, one-off docking, or ADME on bare SMILES with no target (use boltz-small-molecule-adme).
 
-**Source:** [boltz-small-molecule-screen/SKILL.md](boltz-small-molecule-screen/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/boltz-small-molecule-screen/SKILL.md](skills/boltz-small-molecule-screen/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

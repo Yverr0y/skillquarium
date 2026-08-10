@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: box-content-api/SKILL.md
+source: skills/box-content-api/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build and troubleshoot Box integrations for uploads, folders, folder listings, downloads and previews, shared links, collaborations, search, metadata, event-driven automations, and Box AI retrieval flows. Use when Codex needs to add Box APIs or SDKs to an app, wire Box-backed document workflows, organize or share content, react to new files, or fetch Box content for search, summarization, extraction, or question-answering.
 
-**Source:** [box-content-api/SKILL.md](box-content-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/box-content-api/SKILL.md](skills/box-content-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

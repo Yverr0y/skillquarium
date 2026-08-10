@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: investigation-mode/SKILL.md
+source: skills/investigation-mode/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env. Reports findings at every step.
 
-**Source:** [investigation-mode/SKILL.md](investigation-mode/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/investigation-mode/SKILL.md](skills/investigation-mode/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

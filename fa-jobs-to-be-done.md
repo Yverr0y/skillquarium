@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: fa-jobs-to-be-done/SKILL.md
+source: skills/fa-jobs-to-be-done/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user asks for D&B Finance Analytics workflows such as customer onboarding, credit decisioning, credit limit validation, portfolio risk management, company reports, ownership trees, folder management, or alerts. Use only the D&B Finance Analytics MCP tools for these workflows.
 
-**Source:** [fa-jobs-to-be-done/SKILL.md](fa-jobs-to-be-done/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fa-jobs-to-be-done/SKILL.md](skills/fa-jobs-to-be-done/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

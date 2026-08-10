@@ -10,7 +10,7 @@ expert_primary: physics-astronomy
 bridge_domains:
   - quantum-physics
 status: untried
-source: accelerator-physicist/SKILL.md
+source: skills/accelerator-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Accelerator Physicist (experimental / beam physics): Reasons from beam optics, RF cavities, emittance budgets, and loss maps while treating halo and impedance-driven instabilities as first-class failure modes.
 
-**Source:** [accelerator-physicist/SKILL.md](accelerator-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/accelerator-physicist/SKILL.md](skills/accelerator-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

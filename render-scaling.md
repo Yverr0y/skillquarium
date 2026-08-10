@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-scaling/SKILL.md
+source: skills/render-scaling/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Scales Render services—configures autoscaling targets, chooses instance types, sets manual instance counts, and optimizes cost. Use when the user needs to handle more traffic, set up autoscaling, pick the right instance type, reduce costs, or troubleshoot scaling behavior like slow scale-down or stuck instances.
 
-**Source:** [render-scaling/SKILL.md](render-scaling/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-scaling/SKILL.md](skills/render-scaling/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-virtual-agent/SKILL.md
+source: skills/build-zoom-virtual-agent/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Virtual Agent.
 
-**Source:** [build-zoom-virtual-agent/SKILL.md](build-zoom-virtual-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-virtual-agent/SKILL.md](skills/build-zoom-virtual-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

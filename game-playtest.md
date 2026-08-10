@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: game-playtest/SKILL.md
+source: skills/game-playtest/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run browser-game playtests and frontend QA. Use when the user asks for smoke tests, screenshot-based verification, browser automation, HUD or overlay review, or structured issue-finding in a browser game.
 
-**Source:** [game-playtest/SKILL.md](game-playtest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/game-playtest/SKILL.md](skills/game-playtest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

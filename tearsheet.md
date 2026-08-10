@@ -3,7 +3,7 @@ title: tearsheet
 tags:
   - skill
 status: untried
-source: tearsheet/SKILL.md
+source: skills/tearsheet/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Quick one-page company overview and snapshot
 
-**Source:** [tearsheet/SKILL.md](tearsheet/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/tearsheet/SKILL.md](skills/tearsheet/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

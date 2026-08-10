@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: reports-pdfs-and-slide-automation/SKILL.md
+source: skills/reports-pdfs-and-slide-automation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Lay out and export data-rich reports and documents. Use when the user needs report structure, figure packaging, PDFs, PowerPoint or Google Slides automation, or programmatic insertion of visualizations, UML-like diagrams, or architecture diagrams into documents.
 
-**Source:** [reports-pdfs-and-slide-automation/SKILL.md](reports-pdfs-and-slide-automation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/reports-pdfs-and-slide-automation/SKILL.md](skills/reports-pdfs-and-slide-automation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

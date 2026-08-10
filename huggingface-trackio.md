@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: huggingface-trackio/SKILL.md
+source: skills/huggingface-trackio/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.
 
-**Source:** [huggingface-trackio/SKILL.md](huggingface-trackio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/huggingface-trackio/SKILL.md](skills/huggingface-trackio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

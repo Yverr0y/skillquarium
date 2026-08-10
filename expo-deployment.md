@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-deployment/SKILL.md
+source: skills/expo-deployment/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes
 
-**Source:** [expo-deployment/SKILL.md](expo-deployment/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-deployment/SKILL.md](skills/expo-deployment/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

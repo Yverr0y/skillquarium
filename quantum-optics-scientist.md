@@ -11,7 +11,7 @@ bridge_domains:
   - imaging-signals
   - quantum-physics
 status: untried
-source: quantum-optics-scientist/SKILL.md
+source: skills/quantum-optics-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Quantum Optics Scientist (optical bench / single-photon & squeezed-light / cavity QED / correlation & homodyne metrology): Reasons from field quadratures, atom-photon coupling (g, κ, γ), and heralding efficiency budgets through g⁽²⁾ Hanbury Brown-Twiss measurement, balanced homodyne tomography, HOM interference, and SNSPD/APD detector calibration while treating afterpulsing-faked antibunching, LO phase drift erasing squeezing, accidentals...
 
-**Source:** [quantum-optics-scientist/SKILL.md](quantum-optics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/quantum-optics-scientist/SKILL.md](skills/quantum-optics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

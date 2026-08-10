@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: clinicaltrials-skill/SKILL.md
+source: skills/clinicaltrials-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ClinicalTrials.gov API v2 requests for study search, metadata, enums, search areas, and field statistics. Use when a user wants concise ClinicalTrials.gov summaries
 
-**Source:** [clinicaltrials-skill/SKILL.md](clinicaltrials-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinicaltrials-skill/SKILL.md](skills/clinicaltrials-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

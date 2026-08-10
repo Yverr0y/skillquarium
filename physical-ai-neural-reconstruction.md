@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: physical-ai-neural-reconstruction/SKILL.md
+source: skills/physical-ai-neural-reconstruction/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets. Do NOT use for SimReady or infra setup.
 
-**Source:** [physical-ai-neural-reconstruction/SKILL.md](physical-ai-neural-reconstruction/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/physical-ai-neural-reconstruction/SKILL.md](skills/physical-ai-neural-reconstruction/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

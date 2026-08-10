@@ -7,7 +7,7 @@ tags:
   - domain/documents-office
 domain: documents-office
 status: untried
-source: morph-ppt-3d/SKILL.md
+source: skills/morph-ppt-3d/SKILL.md
 created: 2026-07-11
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-11
 > [!info] What it does
 > 3D Morph PPT — extends morph-ppt with GLB model insertion, cinematographic camera, model-content layout, and enriched visual design system.
 
-**Source:** [morph-ppt-3d/SKILL.md](morph-ppt-3d/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/morph-ppt-3d/SKILL.md](skills/morph-ppt-3d/SKILL.md)  ·  **Domain:** [Documents, Office & Media](maps/documents-office.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

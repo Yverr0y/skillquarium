@@ -8,7 +8,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: colabfold/SKILL.md
+source: skills/colabfold/SKILL.md
 created: 2026-06-09
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-09
 > [!info] What it does
 > Fast AlphaFold2/ColabFold protein structure prediction. Use when predicting monomer or multimer protein structures from FASTA, running colabfold_batch, interpreting pLDDT/PAE, or preparing predicted structures for docking, molecular dynamics, or publication figures.
 
-**Source:** [colabfold/SKILL.md](colabfold/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/colabfold/SKILL.md](skills/colabfold/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

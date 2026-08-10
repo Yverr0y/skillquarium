@@ -7,7 +7,7 @@ tags:
   - domain/literature-discovery
 domain: literature-discovery
 status: untried
-source: pubmed-search/SKILL.md
+source: skills/pubmed-search/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Search PubMed for scientific literature. Use when the user asks to find papers, search literature, look up research, find publications, or asks about recent studies. Triggers on "pubmed", "papers", "literature", "publications", "research on", "studies about".
 
-**Source:** [pubmed-search/SKILL.md](pubmed-search/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pubmed-search/SKILL.md](skills/pubmed-search/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

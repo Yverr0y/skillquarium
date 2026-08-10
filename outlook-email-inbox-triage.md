@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-email-inbox-triage/SKILL.md
+source: skills/outlook-email-inbox-triage/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Triage an Outlook inbox into actionable buckets such as urgent, needs reply soon, waiting, and FYI using connected Outlook data. Use when the user asks to triage the inbox, rank what needs attention, find what still needs a reply, or separate important mail from noise.
 
-**Source:** [outlook-email-inbox-triage/SKILL.md](outlook-email-inbox-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-email-inbox-triage/SKILL.md](skills/outlook-email-inbox-triage/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-exclude-files/SKILL.md
+source: skills/matlab-exclude-files/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Analyze a toolbox folder and generate a toolbox.ignore file — detects files that should not ship to end users based on what actually exists in the folder. Only suggests patterns for files found. Advisory: presents suggestions with reasons before writing.
 
-**Source:** [matlab-exclude-files/SKILL.md](matlab-exclude-files/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-exclude-files/SKILL.md](skills/matlab-exclude-files/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

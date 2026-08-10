@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: full-output-enforcement/SKILL.md
+source: skills/full-output-enforcement/SKILL.md
 created: 2026-07-07
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-07
 > [!info] What it does
 > Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
 
-**Source:** [full-output-enforcement/SKILL.md](full-output-enforcement/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/full-output-enforcement/SKILL.md](skills/full-output-enforcement/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

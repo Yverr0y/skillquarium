@@ -16,7 +16,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: oral-biologist/SKILL.md
+source: skills/oral-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Oral Biologist (clinical / research): Reasons from biofilm dysbiosis, demineralization-remineralization balance, and host-mineral-microbe partitioning through pH-cycling and ligature models, 16S/shotgun metagenomics (DADA2/QIIME2, HOMD), micro-CT, and ICDAS/AAP-EFP staging, while treating saliva- ignored caries models, low-biomass contamination...
 
-**Source:** [oral-biologist/SKILL.md](oral-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/oral-biologist/SKILL.md](skills/oral-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

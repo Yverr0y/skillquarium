@@ -8,7 +8,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: test-driven-development/SKILL.md
+source: skills/test-driven-development/SKILL.md
 created: 2026-06-10
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-10
 > [!info] What it does
 > Use when implementing any feature or bugfix, before writing implementation code
 
-**Source:** [test-driven-development/SKILL.md](test-driven-development/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/test-driven-development/SKILL.md](skills/test-driven-development/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

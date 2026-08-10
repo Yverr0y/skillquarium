@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: deepnote-data-execution/SKILL.md
+source: skills/deepnote-data-execution/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when running Deepnote notebooks, inspecting notebook inputs, reviewing integration references and cached table structure, listing run history, or interpreting run status and snapshot outputs through the Deepnote app tools.
 
-**Source:** [deepnote-data-execution/SKILL.md](deepnote-data-execution/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deepnote-data-execution/SKILL.md](skills/deepnote-data-execution/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

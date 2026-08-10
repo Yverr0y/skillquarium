@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: to-issues/SKILL.md
+source: skills/to-issues/SKILL.md
 created: 2026-06-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-20
 > [!info] What it does
 > Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.
 
-**Source:** [to-issues/SKILL.md](to-issues/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/to-issues/SKILL.md](skills/to-issues/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

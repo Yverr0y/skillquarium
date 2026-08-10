@@ -5,7 +5,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: pandas/SKILL.md
+source: skills/pandas/SKILL.md
 created: 2026-07-24
 ---
 
@@ -14,7 +14,7 @@ created: 2026-07-24
 > [!info] What it does
 > The workhorse library for in-memory tabular data in Python. Use for loading, cleaning, reshaping, joining, grouping, and analyzing labeled row/column data. Trigger terms include "pandas", "dataframe", "series", "csv", "parquet", "tabular data", "groupby", "pivot", "merge", "data wrangling", "data cleaning". Covers pandas 2.x and the 3.0 changes (Copy-on-Write, default string dtype, PyArrow-backed dtypes).
 
-**Source:** [pandas/SKILL.md](pandas/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pandas/SKILL.md](skills/pandas/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

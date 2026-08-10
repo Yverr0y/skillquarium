@@ -3,7 +3,7 @@ title: start
 tags:
   - skill
 status: untried
-source: start/SKILL.md
+source: skills/start/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when starting Zoom work.
 
-**Source:** [start/SKILL.md](start/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/start/SKILL.md](skills/start/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

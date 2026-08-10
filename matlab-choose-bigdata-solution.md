@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-choose-bigdata-solution/SKILL.md
+source: skills/matlab-choose-bigdata-solution/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Guide users or agents to the correct MATLAB tool for processing large tabular data in file-based formats (CSV, Parquet, delimited text, spreadsheets, MDF) that may not fit in memory. Use when a user or agent mentions large files, big data, out-of-memory errors, OOM, scaling up, tall arrays, datastores, or needs to process multiple tabular files. Covers the decision between datastore + tall, datastore + transform, and parallel execution. Also use when a user or agent has working in-memory code (readtable, parquetread) that runs out of memory and needs a migration path. Do NOT use for MAT, XML, JSON, HTML files or Word documents.
 
-**Source:** [matlab-choose-bigdata-solution/SKILL.md](matlab-choose-bigdata-solution/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-choose-bigdata-solution/SKILL.md](skills/matlab-choose-bigdata-solution/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

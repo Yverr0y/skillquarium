@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: setup-zoom-oauth/SKILL.md
+source: skills/setup-zoom-oauth/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when setting up OAuth.
 
-**Source:** [setup-zoom-oauth/SKILL.md](setup-zoom-oauth/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/setup-zoom-oauth/SKILL.md](skills/setup-zoom-oauth/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

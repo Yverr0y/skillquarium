@@ -15,7 +15,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: nuclear-chemist/SKILL.md
+source: skills/nuclear-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Nuclear Chemist (clinical / research): Reasons from decay- corrected activity ledgers, decay modes and cross sections, and ALARA dose control through Bateman/ORIGEN modeling, extraction-chromatography separations (TRU/Sr/TEVA resins), and HPGe/alpha/LSC spectroscopy while treating daughter ingrowth, generator breakthrough, spectral pile-up and sum peaks...
 
-**Source:** [nuclear-chemist/SKILL.md](nuclear-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/nuclear-chemist/SKILL.md](skills/nuclear-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

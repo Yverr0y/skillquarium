@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: high-end-visual-design/SKILL.md
+source: skills/high-end-visual-design/SKILL.md
 created: 2026-07-07
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-07
 > [!info] What it does
 > Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
 
-**Source:** [high-end-visual-design/SKILL.md](high-end-visual-design/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/high-end-visual-design/SKILL.md](skills/high-end-visual-design/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

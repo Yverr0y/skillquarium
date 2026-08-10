@@ -10,7 +10,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: xarray-pandera-duckdb/SKILL.md
+source: skills/xarray-pandera-duckdb/SKILL.md
 created: 2026-06-09
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-09
 > [!info] What it does
 > Labeled array, schema validation, and embedded SQL analytics workflows with xarray, pandera-validation, duckdb-docs, query, read-file, and polars. Use when combining NetCDF/Zarr multidimensional arrays, DataFrame schemas, Parquet/CSV/Arrow analytics, or validation gates for scientific data pipelines.
 
-**Source:** [xarray-pandera-duckdb/SKILL.md](xarray-pandera-duckdb/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/xarray-pandera-duckdb/SKILL.md](skills/xarray-pandera-duckdb/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

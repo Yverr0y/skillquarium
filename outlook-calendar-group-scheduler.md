@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-calendar-group-scheduler/SKILL.md
+source: skills/outlook-calendar-group-scheduler/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Find and rank good meeting times for several people using Outlook Calendar data. Use when the user wants to schedule a meeting, compare candidate slots across attendees, find the best compromise time, or add a room/resource check after narrowing the attendee-compatible options.
 
-**Source:** [outlook-calendar-group-scheduler/SKILL.md](outlook-calendar-group-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-calendar-group-scheduler/SKILL.md](skills/outlook-calendar-group-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

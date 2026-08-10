@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: seismologist/SKILL.md
+source: skills/seismologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Seismologist (observational / computational / operational seismology): Reasons from elastic wave theory and Earth models through detection, HypoDD/iLoc location, moment tensors, ambient-noise and receiver-function imaging, PSHA/OpenQuake hazard, and NEIC-style operational products (ShakeMap, PAGER, EEW) with explicit artifact and magnitude-type discipline.
 
-**Source:** [seismologist/SKILL.md](seismologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/seismologist/SKILL.md](skills/seismologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

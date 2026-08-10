@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: teams-channel-summarization/SKILL.md
+source: skills/teams-channel-summarization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Summarize activity from one Microsoft Teams channel or one scoped Teams conversation and return a concise recap or post-ready follow-up.
 
-**Source:** [teams-channel-summarization/SKILL.md](teams-channel-summarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teams-channel-summarization/SKILL.md](skills/teams-channel-summarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

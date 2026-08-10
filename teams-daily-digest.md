@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: teams-daily-digest/SKILL.md
+source: skills/teams-daily-digest/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Create a daily Microsoft Teams digest from selected chats, channels, or workstreams. Use when the user asks for a daily Teams recap or summary of today's Teams activity.
 
-**Source:** [teams-daily-digest/SKILL.md](teams-daily-digest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teams-daily-digest/SKILL.md](skills/teams-daily-digest/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

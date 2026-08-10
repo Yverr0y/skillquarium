@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: game-studio/SKILL.md
+source: skills/game-studio/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Route early browser-game work. Use when the user needs stack selection and workflow planning across design, implementation, assets, and playtesting before moving to a specialist skill.
 
-**Source:** [game-studio/SKILL.md](game-studio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/game-studio/SKILL.md](skills/game-studio/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

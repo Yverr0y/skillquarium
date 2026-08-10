@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: teach/SKILL.md
+source: skills/teach/SKILL.md
 created: 2026-06-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-20
 > [!info] What it does
 > Teach the user a new skill or concept, within this workspace.
 
-**Source:** [teach/SKILL.md](teach/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teach/SKILL.md](skills/teach/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

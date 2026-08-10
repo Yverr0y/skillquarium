@@ -13,7 +13,7 @@ bridge_domains:
   - genomics-variants
   - imaging-signals
 status: untried
-source: neuroscientist/SKILL.md
+source: skills/neuroscientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Neuroscientist (integrative / multiscale circuits / in vivo electrophysiology + optogenetics / translational (ARRIVE, BIDS/NWB)): Expert profile for neuroscientist — see AGENTS.md for field-specific methods and failure modes.
 
-**Source:** [neuroscientist/SKILL.md](neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/neuroscientist/SKILL.md](skills/neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ncbi-clinicaltables-skill/SKILL.md
+source: skills/ncbi-clinicaltables-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Clinical Tables NCBI Gene requests for human gene lookup, pagination, and field selection. Use when a user wants concise autocomplete-style human gene search results
 
-**Source:** [ncbi-clinicaltables-skill/SKILL.md](ncbi-clinicaltables-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ncbi-clinicaltables-skill/SKILL.md](skills/ncbi-clinicaltables-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

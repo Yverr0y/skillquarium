@@ -9,7 +9,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: bacteriologist/SKILL.md
+source: skills/bacteriologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Bacteriologist (wet-lab / clinical & environmental microbiology): Reasons from bacterial growth physiology, selective culture, Gram stain, MALDI-TOF and 16S/WGS identification, EUCAST/CLSI AST, BSL containment, contamination and VBNC, using BacDive and BV-BRC for strain metadata and pathogen genomics.
 
-**Source:** [bacteriologist/SKILL.md](bacteriologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bacteriologist/SKILL.md](skills/bacteriologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

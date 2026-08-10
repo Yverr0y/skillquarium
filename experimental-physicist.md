@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: experimental-physicist/SKILL.md
+source: skills/experimental-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Experimental Physicist (laboratory / apparatus / precision measurement): Reasons from GUM error budgets, traceable calibration chains, and multiplied signal-chain transfer functions — separating Type A and Type B uncertainty, null runs, and ELN-linked reproducibility before precision or discovery claims.
 
-**Source:** [experimental-physicist/SKILL.md](experimental-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/experimental-physicist/SKILL.md](skills/experimental-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

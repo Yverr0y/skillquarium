@@ -3,7 +3,7 @@ title: deepnote
 tags:
   - skill
 status: untried
-source: deepnote/SKILL.md
+source: skills/deepnote/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when a task mentions Deepnote, the connected Deepnote app, Deepnote OAuth connection, Deepnote docs, projects, workspaces, notebooks, blocks, integrations, or notebook runs.
 
-**Source:** [deepnote/SKILL.md](deepnote/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deepnote/SKILL.md](skills/deepnote/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: swiftui-patterns/SKILL.md
+source: skills/swiftui-patterns/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build macOS SwiftUI scenes and components with desktop patterns. Use when shaping windows, commands, toolbars, settings, split views, or inspectors.
 
-**Source:** [swiftui-patterns/SKILL.md](swiftui-patterns/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/swiftui-patterns/SKILL.md](skills/swiftui-patterns/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

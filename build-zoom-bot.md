@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-bot/SKILL.md
+source: skills/build-zoom-bot/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building bots.
 
-**Source:** [build-zoom-bot/SKILL.md](build-zoom-bot/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-bot/SKILL.md](skills/build-zoom-bot/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

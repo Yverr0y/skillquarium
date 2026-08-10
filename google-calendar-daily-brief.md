@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: google-calendar-daily-brief/SKILL.md
+source: skills/google-calendar-daily-brief/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build polished one-day Google Calendar briefs. Use when the user asks for today, tomorrow, or a specific date summary with an agenda, conflict flags, free windows, remaining-meeting readouts, or a calendar brief, and the Google Calendar connector is available.
 
-**Source:** [google-calendar-daily-brief/SKILL.md](google-calendar-daily-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/google-calendar-daily-brief/SKILL.md](skills/google-calendar-daily-brief/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

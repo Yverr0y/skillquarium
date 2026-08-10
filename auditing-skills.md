@@ -7,7 +7,7 @@ tags:
   - domain/vault-meta
 domain: vault-meta
 status: untried
-source: auditing-skills/SKILL.md
+source: skills/auditing-skills/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Use when checking skills for security or quality issues, reviewing audit results from skills.sh or Tessl, or remediating findings across published skills.
 
-**Source:** [auditing-skills/SKILL.md](auditing-skills/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/auditing-skills/SKILL.md](skills/auditing-skills/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

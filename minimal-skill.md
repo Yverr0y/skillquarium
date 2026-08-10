@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: minimal-skill/SKILL.md
+source: skills/minimal-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Minimal example skill for plugin-eval tests. Use when the user wants a compact demonstration of a well-structured skill.
 
-**Source:** [minimal-skill/SKILL.md](minimal-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/minimal-skill/SKILL.md](skills/minimal-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

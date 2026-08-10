@@ -10,7 +10,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: dermatologist/SKILL.md
+source: skills/dermatologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Dermatologist (clinical / research): Clinical-research dermatologist: layered skin anatomy, inflammatory dermatoses and trial endpoints, dermoscopy vs clinical ABCDE, biopsy/pathology, patch testing, telederm, AAD guidelines, and topical steroid potency.
 
-**Source:** [dermatologist/SKILL.md](dermatologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dermatologist/SKILL.md](skills/dermatologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

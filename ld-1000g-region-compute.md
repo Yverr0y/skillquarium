@@ -7,7 +7,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: ld-1000g-region-compute/SKILL.md
+source: skills/ld-1000g-region-compute/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Compute pairwise r² between a lead variant and every variant in a window using the 1000 Genomes Phase 3 GRCh38 reference panel, ancestry-stratified. Use when an agent needs LD coloring for a regional plot or LD pruning around a candidate causal variant. Single client (on-demand region fetch from EBI 1000G FTP); no multi-GB cold-start.
 
-**Source:** [ld-1000g-region-compute/SKILL.md](ld-1000g-region-compute/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ld-1000g-region-compute/SKILL.md](skills/ld-1000g-region-compute/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

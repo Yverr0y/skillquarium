@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: canva-branded-presentation/SKILL.md
+source: skills/canva-branded-presentation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Create on-brand Canva presentations from a brief, outline, existing Canva doc, or design link. Use when the user wants a branded slide deck, wants to turn notes into a presentation, or needs a presentation generated in Canva with the right brand kit and a clear slide plan.
 
-**Source:** [canva-branded-presentation/SKILL.md](canva-branded-presentation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/canva-branded-presentation/SKILL.md](skills/canva-branded-presentation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

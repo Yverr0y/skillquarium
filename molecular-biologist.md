@@ -16,7 +16,7 @@ bridge_domains:
   - sequence-phylogenetics
   - imaging-signals
 status: untried
-source: molecular-biologist/SKILL.md
+source: skills/molecular-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Molecular Biologist (wet-lab / molecular genetics / functional genomics / assay validation (MIQE, ARRIVE 2.0)): Reasons from central-dogma sequence flow, binding affinity (Kd/Km/kcat), gene regulation, and biological-versus- technical replicate structure through MIQE-compliant RT-qPCR, ddPCR, Western/flow/microscopy, CRISPR editing with rescue, and IWGAV antibody validation while treating off-target reagent effects, batch...
 
-**Source:** [molecular-biologist/SKILL.md](molecular-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/molecular-biologist/SKILL.md](skills/molecular-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

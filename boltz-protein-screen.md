@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: boltz-protein-screen/SKILL.md
+source: skills/boltz-protein-screen/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Screen existing protein binders with Boltz. Use when ranking a supplied protein, peptide, antibody, nanobody, or binder library against a target. Not for designing new proteins or screening small molecules.
 
-**Source:** [boltz-protein-screen/SKILL.md](boltz-protein-screen/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/boltz-protein-screen/SKILL.md](skills/boltz-protein-screen/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

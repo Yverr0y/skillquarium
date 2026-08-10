@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-docker/SKILL.md
+source: skills/render-docker/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Builds and deploys Docker containers on Render—Dockerfiles, multi-stage builds, Blueprint Docker fields, private registries, layer caching, and platform constraints. Use when the user mentions Docker, Dockerfile, container images, multi-stage builds, container registry, GHCR, ECR, BuildKit, dockerContext, runtime docker or image, or optimizing Docker builds on Render.
 
-**Source:** [render-docker/SKILL.md](render-docker/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-docker/SKILL.md](skills/render-docker/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

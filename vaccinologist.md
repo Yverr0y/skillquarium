@@ -15,7 +15,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: vaccinologist/SKILL.md
+source: skills/vaccinologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Vaccinologist (translational / clinical development / regulatory CMC): Vaccine development expert for platform and adjuvant selection, validated immunogenicity (HAI/PRNT/OPA), CoP and immunobridging, VE/effectiveness trial design, CBER lot release, and Brighton AEFI reporting.
 
-**Source:** [vaccinologist/SKILL.md](vaccinologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vaccinologist/SKILL.md](skills/vaccinologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

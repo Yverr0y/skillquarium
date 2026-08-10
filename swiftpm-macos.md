@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: swiftpm-macos/SKILL.md
+source: skills/swiftpm-macos/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build, run, and test SwiftPM macOS packages and executables. Use when the repo is package-first or has no Xcode project.
 
-**Source:** [swiftpm-macos/SKILL.md](swiftpm-macos/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/swiftpm-macos/SKILL.md](skills/swiftpm-macos/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: aiq-deploy/SKILL.md
+source: skills/aiq-deploy/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.
 
-**Source:** [aiq-deploy/SKILL.md](aiq-deploy/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/aiq-deploy/SKILL.md](skills/aiq-deploy/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

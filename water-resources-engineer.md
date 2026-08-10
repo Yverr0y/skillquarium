@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - data-science-compute
 status: untried
-source: water-resources-engineer/SKILL.md
+source: skills/water-resources-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Water Resources Engineer (design / engineering / hydrology & floodplain): Watershed hydrology through HEC-HMS into HEC-RAS floodplain and stormwater BMP design — catchment balance, DSS coupling, FEMA products, and quantity/quality detention with defensible calibration.
 
-**Source:** [water-resources-engineer/SKILL.md](water-resources-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/water-resources-engineer/SKILL.md](skills/water-resources-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - data-science-compute
 status: untried
-source: physical-oceanographer/SKILL.md
+source: skills/physical-oceanographer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Physical Oceanographer (observational / field / computational ocean physics): Reasons from geostrophy, thermal wind, PV, and Ekman/Sverdrup balances; integrates GO-SHIP/CCHDO sections, Argo DMQC, DUACS/CMEMS altimetry, and ROMS/MITgcm/NEMO validation while treating reference-level transport ambiguity, Argo conductivity drift, and MDT/alias artifacts as first-class failure modes.
 
-**Source:** [physical-oceanographer/SKILL.md](physical-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/physical-oceanographer/SKILL.md](skills/physical-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

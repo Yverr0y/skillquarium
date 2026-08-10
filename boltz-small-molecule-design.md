@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: boltz-small-molecule-design/SKILL.md
+source: skills/boltz-small-molecule-design/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design new small-molecule binders with Boltz. Use when generating novel ligands or hits for a target without a fixed compound library. Not for screening existing molecules or one-off docking.
 
-**Source:** [boltz-small-molecule-design/SKILL.md](boltz-small-molecule-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/boltz-small-molecule-design/SKILL.md](skills/boltz-small-molecule-design/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -10,7 +10,7 @@ expert_secondary:
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: biochemist/SKILL.md
+source: skills/biochemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Biochemist (wet-lab / biophysical characterization / metabolism): Reasons from thermodynamics, enzyme mechanisms, and binding energetics; designs orthogonal purification and assay readouts while controlling oxidation, aggregation, coupled assays, and activity-vs-abundance confounds.
 
-**Source:** [biochemist/SKILL.md](biochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/biochemist/SKILL.md](skills/biochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-customer/SKILL.md
+source: skills/shopify-customer/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > The Customer Account API allows customers to access their own data including orders, payment methods, and addresses.
 
-**Source:** [shopify-customer/SKILL.md](shopify-customer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-customer/SKILL.md](skills/shopify-customer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

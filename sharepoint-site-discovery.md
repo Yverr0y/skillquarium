@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sharepoint-site-discovery/SKILL.md
+source: skills/sharepoint-site-discovery/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Resolve the right SharePoint site, library, and folder before file work. Use when the user needs to find the right site context, browse a known site, inspect document libraries, or narrow the correct folder before fetching or editing a file.
 
-**Source:** [sharepoint-site-discovery/SKILL.md](sharepoint-site-discovery/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sharepoint-site-discovery/SKILL.md](skills/sharepoint-site-discovery/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

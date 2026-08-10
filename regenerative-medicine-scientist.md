@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - clinical-medical
 status: untried
-source: regenerative-medicine-scientist/SKILL.md
+source: skills/regenerative-medicine-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Regenerative Medicine Scientist (wet-lab / translational CGT, tissue engineering & ATMP CMC): Reasons from potency assurance, 361 vs 351/ATMP pathways, USP <1043> ancillary tiers, G-Rex/closed CAR-T manufacture, MSC matrix potency, and ISO 10993/dECM scaffolds while treating comparability-without-bioassay and CFU-F-as-potency as first-class failure modes.
 
-**Source:** [regenerative-medicine-scientist/SKILL.md](regenerative-medicine-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/regenerative-medicine-scientist/SKILL.md](skills/regenerative-medicine-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

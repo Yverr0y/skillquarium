@@ -11,7 +11,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: venue-templates/SKILL.md
+source: skills/venue-templates/SKILL.md
 created: 2026-06-09
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-09
 > [!info] What it does
 > Access comprehensive LaTeX templates, formatting requirements, and submission guidelines for major scientific publication venues (Nature, Science, PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), research posters, and grant proposals (NSF, NIH, DOE, DARPA). This skill should be used when preparing manuscripts for journal submission, conference papers, research posters, or grant proposals and need venue-specific formatting requirements and templates.
 
-**Source:** [venue-templates/SKILL.md](venue-templates/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/venue-templates/SKILL.md](skills/venue-templates/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

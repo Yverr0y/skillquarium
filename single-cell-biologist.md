@@ -12,7 +12,7 @@ bridge_domains:
   - single-cell-rnaseq
   - data-science-compute
 status: untried
-source: single-cell-biologist/SKILL.md
+source: skills/single-cell-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Single-Cell Biologist (wet-lab / computational single-cell genomics): Reasons from assay chemistry, sample-level replication, cell-state manifolds, and metadata provenance; treats ambient RNA, doublets, dissociation stress, batch, and pseudoreplication as core failure modes.
 
-**Source:** [single-cell-biologist/SKILL.md](single-cell-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/single-cell-biologist/SKILL.md](skills/single-cell-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: query-stringdb/SKILL.md
+source: skills/query-stringdb/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Query STRING for protein-protein interactions. Use when user asks about protein interactions, interaction networks, binding partners, or interactome. Triggers on "string", "protein interaction", "interaction network", "binding partners", "interactome", "PPI".
 
-**Source:** [query-stringdb/SKILL.md](query-stringdb/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/query-stringdb/SKILL.md](skills/query-stringdb/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

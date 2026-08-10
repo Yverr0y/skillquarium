@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: clinvar-variation-skill/SKILL.md
+source: skills/clinvar-variation-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ClinVar Clinical Tables and NCBI Variation requests for search, VCV, RCV, SCV, and RefSNP lookups. Use when a user wants variant-level summaries or identifier mapping
 
-**Source:** [clinvar-variation-skill/SKILL.md](clinvar-variation-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinvar-variation-skill/SKILL.md](skills/clinvar-variation-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

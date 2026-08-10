@@ -7,7 +7,7 @@ tags:
   - domain/vault-meta
 domain: vault-meta
 status: untried
-source: bio-orchestrator/SKILL.md
+source: skills/bio-orchestrator/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Meta-agent that routes bioinformatics requests to specialised sub-skills. Handles file type detection, analysis planning, report generation, and reproducibility export.
 
-**Source:** [bio-orchestrator/SKILL.md](bio-orchestrator/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-orchestrator/SKILL.md](skills/bio-orchestrator/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](maps/vault-meta.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

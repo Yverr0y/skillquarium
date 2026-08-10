@@ -10,7 +10,7 @@ tags:
   - domain/ml-ai
 domain: ml-ai
 status: untried
-source: optuna/SKILL.md
+source: skills/optuna/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Hyperparameter optimization (HPO) for ML models using Optuna. Use when tuning learning rate, regularization, architecture choices, or any numeric/categorical hyperparameter. Covers create_study/optimize quickstart, sampler selection (TPE, CMA-ES, grid, random, NSGA-II), pruners for early stopping (MedianPruner, HyperbandPruner), distributed search with RDBStorage, integrations with PyTorch Lightning and scikit-learn, and built-in visualization.
 
-**Source:** [optuna/SKILL.md](optuna/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/optuna/SKILL.md](skills/optuna/SKILL.md)  ·  **Domain:** [Machine Learning & AI](maps/ml-ai.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

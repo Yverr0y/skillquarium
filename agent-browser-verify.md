@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: agent-browser-verify/SKILL.md
+source: skills/agent-browser-verify/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports pass/fail before continuing.
 
-**Source:** [agent-browser-verify/SKILL.md](agent-browser-verify/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/agent-browser-verify/SKILL.md](skills/agent-browser-verify/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

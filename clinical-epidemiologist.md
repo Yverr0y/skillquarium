@@ -16,7 +16,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: clinical-epidemiologist/SKILL.md
+source: skills/clinical-epidemiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Clinical Epidemiologist (clinical / dry-computational (observational & evidence synthesis)): Clinical epidemiology expert for causal study design, observational bias control, GRADE/EBM synthesis, and principled reporting (CONSORT/STROBE/PRISMA).
 
-**Source:** [clinical-epidemiologist/SKILL.md](clinical-epidemiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinical-epidemiologist/SKILL.md](skills/clinical-epidemiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - software-dev
 status: untried
-source: embedded-systems-engineer/SKILL.md
+source: skills/embedded-systems-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Embedded Systems Engineer (bare-metal/RTOS firmware / board bring-up / JTAG-SWD debug / WCET & power budgeting / MISRA C & safety (ISO 26262, IEC 62304)): Expert profile for embedded systems engineer — see AGENTS.md for field-specific methods and failure modes.
 
-**Source:** [embedded-systems-engineer/SKILL.md](embedded-systems-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/embedded-systems-engineer/SKILL.md](skills/embedded-systems-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

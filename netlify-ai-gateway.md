@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: netlify-ai-gateway/SKILL.md
+source: skills/netlify-ai-gateway/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide for using Netlify AI Gateway to access AI models. Use when adding AI capabilities or selecting/changing AI models. Must be read before choosing a model. Covers supported providers (OpenAI, Anthropic, Google), SDK setup, environment variables, and the list of available models.
 
-**Source:** [netlify-ai-gateway/SKILL.md](netlify-ai-gateway/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/netlify-ai-gateway/SKILL.md](skills/netlify-ai-gateway/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

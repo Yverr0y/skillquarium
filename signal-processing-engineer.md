@@ -11,7 +11,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: signal-processing-engineer/SKILL.md
+source: skills/signal-processing-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Signal Processing Engineer (DSP algorithm design / detection & estimation / spectral analysis / multirate & adaptive filtering / fixed- point bit-true sign-off): Reasons from the sampling theorem, LTI system functions H(z), and sufficient statistics for detection through Parks-McClellan filter design, Welch and multitaper spectral estimation, matched filters and CFAR detection, and bit- true fixed-point verification while treating aliasing, leakage and scalloping, IIR limit...
 
-**Source:** [signal-processing-engineer/SKILL.md](signal-processing-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/signal-processing-engineer/SKILL.md](skills/signal-processing-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

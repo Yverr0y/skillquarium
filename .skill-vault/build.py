@@ -37,10 +37,25 @@ VAULT_DIR = Path(
     os.environ.get("SKILL_VAULT_ROOT") or DEFAULT_VAULT_DIR
 ).resolve()
 ROOT = str(VAULT_DIR)
+# Skill sources live in their own subtree. The Vercel skills CLI treats
+# ~/.agents/skills as its flat canonical store, so this directory stays a flat
+# list of skill folders and the generated human layer lives beside it, not in
+# it. See .skill-vault/README.md.
+SKILLS_SUBDIR = "skills"
+SKILLS_DIR = VAULT_DIR / SKILLS_SUBDIR
 MAPS_DIR = VAULT_DIR / "maps"
 TAXONOMY_PATH = VAULT_DIR / ".skill-vault/scientific-expert-taxonomy.json"
-CATALOG_PATH = VAULT_DIR / "scientific-agents/references/catalog.json"
+CATALOG_PATH = SKILLS_DIR / "scientific-agents/references/catalog.json"
 EXPERT_MAPS_DIR = VAULT_DIR / "maps/scientific-expert-profiles"
+def skills_root():
+    """Directory holding the flat list of skill folders.
+
+    Derived from ROOT at call time rather than frozen at import, so overriding
+    ROOT relocates skill discovery with it.
+    """
+    return os.path.join(ROOT, SKILLS_SUBDIR)
+
+
 TODAY = date.today().isoformat()
 # one-time: regenerate aliases even if a wrapper already has an aliases key.
 # Do NOT use after you have hand-curated aliases.
@@ -436,7 +451,7 @@ CATEGORIES = [
 
 # ---------------------------------------------------------------------------
 def read_description(skill):
-    path = os.path.join(ROOT, skill, "SKILL.md")
+    path = os.path.join(skills_root(), skill, "SKILL.md")
     if not os.path.isfile(path):
         return None
     with open(path, "r", encoding="utf-8") as f:
@@ -500,10 +515,10 @@ def gen_aliases(skill, desc):
 
 def discover_skills():
     found = set()
-    for name in os.listdir(ROOT):
+    for name in os.listdir(skills_root()):
         if name.startswith("."):
             continue
-        p = os.path.join(ROOT, name)
+        p = os.path.join(skills_root(), name)
         if os.path.isdir(p) and os.path.isfile(os.path.join(p, "SKILL.md")):
             found.add(name)
     # Recurse into bundled skill collections (e.g. gstack/) that ship their
@@ -511,7 +526,7 @@ def discover_skills():
     # "gstack/<subskill>" IDs so source: links resolve correctly, while the
     # wrapper filename uses "gstack-<subskill>.md" (see wrapper_filename()).
     for bundle in ("gstack",):
-        bundle_dir = os.path.join(ROOT, bundle)
+        bundle_dir = os.path.join(skills_root(), bundle)
         if not os.path.isdir(bundle_dir):
             continue
         for sub in os.listdir(bundle_dir):
@@ -550,7 +565,7 @@ def is_gstack_subskill(skill):
 
 
 def is_scientific_agents_profile(skill):
-    path = os.path.join(ROOT, skill, "SKILL.md")
+    path = os.path.join(skills_root(), skill, "SKILL.md")
     if not os.path.isfile(path):
         return False
     try:
@@ -863,7 +878,7 @@ def render_wrapper(
     lines.append(f"status: {status}")
     if rating is not None:
         lines.append(f"rating: {rating}")
-    lines.append(f"source: {skill}/SKILL.md")
+    lines.append(f"source: {SKILLS_SUBDIR}/{skill}/SKILL.md")
     lines.append(f"created: {created}")
     lines += [
         "---",
@@ -875,7 +890,8 @@ def render_wrapper(
         "",
     ]
 
-    nav = [f"**Source:** [{skill}/SKILL.md]({skill}/SKILL.md)"]
+    source_rel = f"{SKILLS_SUBDIR}/{skill}/SKILL.md"
+    nav = [f"**Source:** [{source_rel}]({source_rel})"]
     if key != "uncategorized":
         nav.append(f"**Domain:** [{domain_title}](maps/{key}.md)")
     if expert_assignment is not None:
@@ -1277,7 +1293,7 @@ def main():
         # bundled gstack/ collection, not a generated wrapper. Sub-skill
         # wrappers (gstack-*.md) are gitignored and come/go with install.
         keep = {wrapper_filename(s)[:-3] for s in on_disk} | {
-            "index", "README", "gstack",
+            "index", "README", "AGENTS", "gstack",
         }
         for f in os.listdir(ROOT):
             if not f.endswith(".md") or f.startswith("."):

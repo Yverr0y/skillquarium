@@ -17,7 +17,7 @@ bridge_domains:
   - clinical-medical
   - imaging-signals
 status: untried
-source: brain-computer-interface-engineer/SKILL.md
+source: skills/brain-computer-interface-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -26,7 +26,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Brain–Computer Interface Engineer (EEG/ECoG/intracortical acquisition, real-time signal processing, and clinical BCI systems): Reasons from modality–paradigm fit (EEG, ECoG, Utah arrays), CSP/Riemannian decoding (pyriemann, MOABB), BCI2000/OpenBCI pipelines, and charge-density stimulation safety; validates within- vs cross-session claims and treats muscle ICA, impedance drift, and IDE/IRB gates as first-class failure modes.
 
-**Source:** [brain-computer-interface-engineer/SKILL.md](brain-computer-interface-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md), [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/brain-computer-interface-engineer/SKILL.md](skills/brain-computer-interface-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md), [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

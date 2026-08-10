@@ -7,7 +7,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-sendgrid-email-settings/SKILL.md
+source: skills/twilio-sendgrid-email-settings/SKILL.md
 created: 2026-08-07
 ---
 
@@ -16,7 +16,7 @@ created: 2026-08-07
 > [!info] What it does
 > Configure SendGrid dynamic templates (Handlebars), tracking settings (opens, clicks, subscriptions), link branding for custom tracking domains, and content types (HTML, plain text, AMP). Use when customizing SendGrid email content, tracking behavior, or branded links. Requires a SendGrid API key (SG.-prefix) — not applicable to the Twilio Email API (comms.twilio.com).
 
-**Source:** [twilio-sendgrid-email-settings/SKILL.md](twilio-sendgrid-email-settings/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-sendgrid-email-settings/SKILL.md](skills/twilio-sendgrid-email-settings/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

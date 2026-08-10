@@ -7,7 +7,7 @@ tags:
   - domain/proteomics-metabolomics
 domain: proteomics-metabolomics
 status: untried
-source: sec-report/SKILL.md
+source: skills/sec-report/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > SEC (size-exclusion chromatography) analysis with peak detection, oligomer classification, and publication-quality PDF report generation via Typst templates. Triggers on "SEC", "size exclusion", "chromatography", "oligomer analysis", "protein assembly", "SEC report".
 
-**Source:** [sec-report/SKILL.md](sec-report/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sec-report/SKILL.md](skills/sec-report/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

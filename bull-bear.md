@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: bull-bear/SKILL.md
+source: skills/bull-bear/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Bull/bear/base case scenario framework for a given company
 
-**Source:** [bull-bear/SKILL.md](bull-bear/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bull-bear/SKILL.md](skills/bull-bear/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

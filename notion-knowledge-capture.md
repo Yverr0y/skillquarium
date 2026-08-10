@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: notion-knowledge-capture/SKILL.md
+source: skills/notion-knowledge-capture/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.
 
-**Source:** [notion-knowledge-capture/SKILL.md](notion-knowledge-capture/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/notion-knowledge-capture/SKILL.md](skills/notion-knowledge-capture/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

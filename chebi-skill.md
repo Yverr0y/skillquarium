@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: chebi-skill/SKILL.md
+source: skills/chebi-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ChEBI 2.0 API requests for chemical search, compound lookup, ontology traversal, and structure metadata. Use when a user wants concise ChEBI summaries
 
-**Source:** [chebi-skill/SKILL.md](chebi-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chebi-skill/SKILL.md](skills/chebi-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

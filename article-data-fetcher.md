@@ -11,7 +11,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: article-data-fetcher/SKILL.md
+source: skills/article-data-fetcher/SKILL.md
 created: 2026-06-09
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-09
 > [!info] What it does
 > Given an article DOI or PubMed ID, discover and download the genomics data files deposited by the authors (VCF, FASTA, H5AD, CSV, JSON, BAM, etc.) from public repositories such as GEO, ENA, Zenodo, Figshare, Dryad, and OSF.
 
-**Source:** [article-data-fetcher/SKILL.md](article-data-fetcher/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/article-data-fetcher/SKILL.md](skills/article-data-fetcher/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

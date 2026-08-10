@@ -13,7 +13,7 @@ expert_primary: medicine-health
 bridge_domains:
   - clinical-medical
 status: untried
-source: dentist-scientist/SKILL.md
+source: skills/dentist-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Dentist-Scientist (clinical / research): Reasons from oral biofilm-host ecology, tissue healing capacity, and patient-level clinical endpoints (DMFS, PD/CAL, implant survival) through PICO/PROSPERO protocols, CAMBRA and 2017 AAP/EFP staging, ISO 4049/14801 bench tests with thermocycling, and GRADE-rated reviews while treating in-vitro-to-chairside leaps...
 
-**Source:** [dentist-scientist/SKILL.md](dentist-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dentist-scientist/SKILL.md](skills/dentist-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

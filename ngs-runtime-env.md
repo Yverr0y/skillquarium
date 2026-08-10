@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-runtime-env/SKILL.md
+source: skills/ngs-runtime-env/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Check whether public NGS tools and packages already exist before downloading, installing, or running a sequencing pipeline.
 
-**Source:** [ngs-runtime-env/SKILL.md](ngs-runtime-env/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-runtime-env/SKILL.md](skills/ngs-runtime-env/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

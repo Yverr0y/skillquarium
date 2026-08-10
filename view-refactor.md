@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: view-refactor/SKILL.md
+source: skills/view-refactor/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Refactor macOS SwiftUI views and scenes into stable structure. Use when splitting large views, tightening scene state, or narrowing AppKit escapes.
 
-**Source:** [view-refactor/SKILL.md](view-refactor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/view-refactor/SKILL.md](skills/view-refactor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

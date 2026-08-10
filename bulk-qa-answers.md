@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: bulk-qa-answers/SKILL.md
+source: skills/bulk-qa-answers/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Bulk Q&A Answers skill for Datasite deal rooms. Use this skill whenever a sell-side deal team wants to answer multiple buyer questions at once, generate AI draft responses from VDR content, produce a Q&A tracker spreadsheet, or build a Q&A management dashboard. Triggers include: "answer the Q&A", "draft responses to buyer questions", "process the question list", "generate Q&A tracker", "answer all questions", "bulk answer", "Q&A management dashboard", "respond to diligence questions", or any request to systematically work through a list of buyer questions using data room content as the source. Use this skill proactively whenever a buyer has submitted questions and the deal team wants AI-assisted drafting. Do not use for individual one-off questions outside a structured Q&A process. Do not draft answers from general knowledge — all responses must come from the data room.
 
-**Source:** [bulk-qa-answers/SKILL.md](bulk-qa-answers/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bulk-qa-answers/SKILL.md](skills/bulk-qa-answers/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

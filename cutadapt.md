@@ -8,7 +8,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: cutadapt/SKILL.md
+source: skills/cutadapt/SKILL.md
 created: 2026-07-20
 ---
 
@@ -17,7 +17,7 @@ created: 2026-07-20
 > [!info] What it does
 > Adapter, primer, and poly-A/T trimming for high-throughput sequencing reads (FASTQ/FASTA). Use for ATAC-seq (Nextera adapter removal), ChIP-seq/CUT&RUN, small RNA-seq (preserving reads as short as ~18 nt), and amplicon/primer trimming where exact or linked adapter sequences matter more than fastp's heuristic auto-detection. Covers 3'/5'/linked adapters, IUPAC wildcards, paired-end synchronization, quality/length filtering, and demultiplexing by barcode.
 
-**Source:** [cutadapt/SKILL.md](cutadapt/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cutadapt/SKILL.md](skills/cutadapt/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

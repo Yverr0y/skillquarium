@@ -3,7 +3,7 @@ title: template
 tags:
   - skill
 status: untried
-source: template/SKILL.md
+source: skills/template/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens) shared across Moody's Agentic Solutions HTML report skills (earnings-call-summary, peer-analysis, public-information-book, sector-analysis, etc.). Sibling of `skills/shared/citations/` using the same inlining pattern. Parent skills must read BOTH this `SKILL.md` (authoring rules: shared-layer classes, allowed per-skill overrides, outlook-badge usage) AND `assets/template.html` (canonical CSS + literal HTML snippets) before emitting any report. The asset is the source of truth for markup; this file is the source of truth for rules. Triggers on questions about the template, page chrome, cover, table of contents, footer, layout, design tokens, color palette, fonts, outlook badges, or any visual scaffolding of an HTML report skill.
 
-**Source:** [template/SKILL.md](template/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/template/SKILL.md](skills/template/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

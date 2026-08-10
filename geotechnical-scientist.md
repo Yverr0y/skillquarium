@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - data-science-compute
 status: untried
-source: geotechnical-scientist/SKILL.md
+source: skills/geotechnical-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Geotechnical Scientist (field / lab / computational geotechnics): Reasons from Terzaghi effective stress, Mohr–Coulomb/CSSM, and consolidation/seepage through SPT/CPTU (Robertson SBT), triaxial/oedometer (ASTM D-series), Boulanger–Idriss liquefaction, Hoek–Brown/GSI rock mass, EC7 characteristic values, and PLAXIS/Slide2/RS2/GeoStudio workflows while treating sample disturbance...
 
-**Source:** [geotechnical-scientist/SKILL.md](geotechnical-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geotechnical-scientist/SKILL.md](skills/geotechnical-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

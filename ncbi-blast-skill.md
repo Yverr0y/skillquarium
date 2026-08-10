@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ncbi-blast-skill/SKILL.md
+source: skills/ncbi-blast-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit, poll, and summarize NCBI BLAST Common URL API jobs (Blast.cgi) for nucleotide or protein sequences. Use when a user wants RID status, BLAST results, or compact top-hit summaries; fetch raw Text/JSON2 only on request.
 
-**Source:** [ncbi-blast-skill/SKILL.md](ncbi-blast-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ncbi-blast-skill/SKILL.md](skills/ncbi-blast-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

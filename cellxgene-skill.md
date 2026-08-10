@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cellxgene-skill/SKILL.md
+source: skills/cellxgene-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact CELLxGENE Discover API requests for public collection and dataset metadata. Use when a user wants concise single-cell collection summaries
 
-**Source:** [cellxgene-skill/SKILL.md](cellxgene-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cellxgene-skill/SKILL.md](skills/cellxgene-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: bio-manuscript-text/SKILL.md
+source: skills/bio-manuscript-text/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Step 7 of the bio-manuscript pipeline: draft the main manuscript text. Use when writing the Introduction, Results (around the figure logic), Discussion, and a Methods skeleton from the figure plan, metric system, and analysis system.
 
-**Source:** [bio-manuscript-text/SKILL.md](bio-manuscript-text/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-manuscript-text/SKILL.md](skills/bio-manuscript-text/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

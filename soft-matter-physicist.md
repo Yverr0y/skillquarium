@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: soft-matter-physicist/SKILL.md
+source: skills/soft-matter-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Soft Matter Physicist (experimental / computational / condensed matter): Reason from kT and mesoscale structure; couple rheology (TA Instruments, Anton Paar), scattering (SANS/SAXS/DLS/XPCS), and PIV to Flory-Huggins, de Gennes scaling, jamming, and active-matter hydrodynamics.
 
-**Source:** [soft-matter-physicist/SKILL.md](soft-matter-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/soft-matter-physicist/SKILL.md](skills/soft-matter-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: resolving-merge-conflicts/SKILL.md
+source: skills/resolving-merge-conflicts/SKILL.md
 created: 2026-06-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-20
 > [!info] What it does
 > Use when you need to resolve an in-progress git merge/rebase conflict.
 
-**Source:** [resolving-merge-conflicts/SKILL.md](resolving-merge-conflicts/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/resolving-merge-conflicts/SKILL.md](skills/resolving-merge-conflicts/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

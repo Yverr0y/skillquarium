@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-domains/SKILL.md
+source: skills/render-domains/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Configures custom domains and TLS certificates on Render—DNS setup, CNAME records, apex domains, wildcard domains, and certificate troubleshooting. Use when the user needs to add a custom domain, configure DNS, set up HTTPS/TLS, troubleshoot certificate issuance, disable the onrender.com subdomain, or add a wildcard domain. Trigger terms: custom domain, DNS, CNAME, TLS, SSL, HTTPS, certificate, apex domain, wildcard domain, onrender.com, domain verification.
 
-**Source:** [render-domains/SKILL.md](render-domains/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-domains/SKILL.md](skills/render-domains/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

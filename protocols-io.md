@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: protocols-io/SKILL.md
+source: skills/protocols-io/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Search, browse, and retrieve scientific protocols from protocols.io via REST API. Client token authentication for private protocols. Use when user mentions protocols.io, lab protocols, DOI lookup, protocol search, protocol steps, or scientific methods.
 
-**Source:** [protocols-io/SKILL.md](protocols-io/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/protocols-io/SKILL.md](skills/protocols-io/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

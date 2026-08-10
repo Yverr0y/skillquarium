@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: unit-economics/SKILL.md
+source: skills/unit-economics/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Bottoms-up unit economics decomposition for any public company
 
-**Source:** [unit-economics/SKILL.md](unit-economics/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/unit-economics/SKILL.md](skills/unit-economics/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

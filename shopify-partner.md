@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-partner/SKILL.md
+source: skills/shopify-partner/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > The Partner API lets you programmatically access data about your Partner Dashboard, including your apps, themes, and affiliate referrals.
 
-**Source:** [shopify-partner/SKILL.md](shopify-partner/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-partner/SKILL.md](skills/shopify-partner/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

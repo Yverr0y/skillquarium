@@ -3,7 +3,7 @@ title: hubspot
 tags:
   - skill
 status: untried
-source: hubspot/SKILL.md
+source: skills/hubspot/SKILL.md
 created: 2026-08-07
 ---
 
@@ -12,7 +12,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when working with HubSpot CRM records to search, summarize, create, update, associate, or analyze objects and properties.
 
-**Source:** [hubspot/SKILL.md](hubspot/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hubspot/SKILL.md](skills/hubspot/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

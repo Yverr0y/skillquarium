@@ -12,7 +12,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: ophthalmologist/SKILL.md
+source: skills/ophthalmologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Ophthalmologist (clinical / retina, glaucoma & vision trials): Reasons from structure–function pairing (OCT RNFL/CST, HVF MD/VFI, ETDRS BCVA); manages glaucoma IOP targets and anti-VEGF treat-and-extend while treating field learning effect, OCT floor effect, and 15-letter regulatory margins as first- class failure modes.
 
-**Source:** [ophthalmologist/SKILL.md](ophthalmologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ophthalmologist/SKILL.md](skills/ophthalmologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

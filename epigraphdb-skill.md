@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: epigraphdb-skill/SKILL.md
+source: skills/epigraphdb-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact EpiGraphDB API requests for ontology, literature, MR, gene-drug, and support-path evidence. Use when a user wants concise EpiGraphDB summaries
 
-**Source:** [epigraphdb-skill/SKILL.md](epigraphdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/epigraphdb-skill/SKILL.md](skills/epigraphdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

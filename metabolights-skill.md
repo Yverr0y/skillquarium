@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: metabolights-skill/SKILL.md
+source: skills/metabolights-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact MetaboLights requests for study discovery and study-level metabolomics metadata. Use when a user wants concise MetaboLights summaries
 
-**Source:** [metabolights-skill/SKILL.md](metabolights-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/metabolights-skill/SKILL.md](skills/metabolights-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

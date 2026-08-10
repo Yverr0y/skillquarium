@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-env-vars/SKILL.md
+source: skills/render-env-vars/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Configures environment variables, secrets, and env groups on Render. Use when the user needs to set env vars, wire secrets between services, create env groups, use generateValue, set sync: false, or troubleshoot missing or incorrect environment variable values in Blueprints or the Dashboard.
 
-**Source:** [render-env-vars/SKILL.md](render-env-vars/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-env-vars/SKILL.md](skills/render-env-vars/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

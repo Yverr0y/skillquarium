@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: chembl-skill/SKILL.md
+source: skills/chembl-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ChEMBL API requests for activity, molecule, target, mechanism, and text-search endpoints. Use when a user wants concise ChEMBL summaries
 
-**Source:** [chembl-skill/SKILL.md](chembl-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chembl-skill/SKILL.md](skills/chembl-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

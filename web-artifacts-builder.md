@@ -10,7 +10,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: web-artifacts-builder/SKILL.md
+source: skills/web-artifacts-builder/SKILL.md
 created: 2026-06-10
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-10
 > [!info] What it does
 > Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
 
-**Source:** [web-artifacts-builder/SKILL.md](web-artifacts-builder/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/web-artifacts-builder/SKILL.md](skills/web-artifacts-builder/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

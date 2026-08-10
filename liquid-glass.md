@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: liquid-glass/SKILL.md
+source: skills/liquid-glass/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Implement and review macOS SwiftUI Liquid Glass UI. Use when adopting system glass, removing conflicting custom chrome, or building glass surfaces.
 
-**Source:** [liquid-glass/SKILL.md](liquid-glass/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/liquid-glass/SKILL.md](skills/liquid-glass/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

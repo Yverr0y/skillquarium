@@ -10,7 +10,7 @@ expert_primary: earth-environmental-sciences
 bridge_domains:
   - imaging-signals
 status: untried
-source: wetland-scientist/SKILL.md
+source: skills/wetland-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Wetland Scientist (field / regulatory delineation / mapping / restoration & assessment): Reasons from the three-parameter delineation test (1987 Manual + Regional Supplements, NWPL, FISM), Cowardin/NWI/LLWW mapping, HGM function and Level 1–2–3 RAM, compensatory mitigation/RIBITS, and wetland carbon–GHG flux while treating legacy hydrology, 50/20 cover errors, relict redox nodules, NWI≠jurisdiction, and...
 
-**Source:** [wetland-scientist/SKILL.md](wetland-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/wetland-scientist/SKILL.md](skills/wetland-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

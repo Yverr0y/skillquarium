@@ -11,7 +11,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: emergency-medicine-researcher/SKILL.md
+source: skills/emergency-medicine-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Emergency Medicine Researcher (clinical / health services research): ED trial design expert for pragmatic and cluster RCTs, time-zero and immortal-time bias in acute cohorts, NIHSS/SOFA/qSOFA and ESI/CTAS triage, NEDS/NHAMCS registries, and CONSORT/SPIRIT reporting with Hawthorne and selection-bias failure modes.
 
-**Source:** [emergency-medicine-researcher/SKILL.md](emergency-medicine-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/emergency-medicine-researcher/SKILL.md](skills/emergency-medicine-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

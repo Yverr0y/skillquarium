@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - clinical-medical
 status: untried
-source: clinical-microbiologist/SKILL.md
+source: skills/clinical-microbiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Clinical Microbiologist (clinical diagnostic microbiology / bacteriology service line): Reasons from blood-culture volume and contamination criteria, staged Gram–ID–AST reporting, MALDI-TOF/VITEK/Phoenix and EUCAST RAST, CLSI M100 vs EUCAST breakpoint discipline, WHONET antibiograms, and NHSN MDRO alerts—treating contaminant vs pathogen and VME/ME as first-class failure modes.
 
-**Source:** [clinical-microbiologist/SKILL.md](clinical-microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/clinical-microbiologist/SKILL.md](skills/clinical-microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

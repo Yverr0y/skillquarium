@@ -15,7 +15,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: network-scientist/SKILL.md
+source: skills/network-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Network Scientist (graph theory / community detection / generative models (SBM, ERGM) / network dynamics / null-model inference): Reasons from adjacency structure, generative models, and null hypotheses through configuration- model and SBM/ERGM nulls, CSN power-law fitting with log-normal Vuong tests, and multi-algorithm community detection (Louvain, Leiden, Infomap, graph-tool) while treating artifactual scale-free tails from correlation...
 
-**Source:** [network-scientist/SKILL.md](network-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/network-scientist/SKILL.md](skills/network-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -7,7 +7,7 @@ tags:
   - domain/cloud-devops
 domain: cloud-devops
 status: untried
-source: docker-expert/SKILL.md
+source: skills/docker-expert/SKILL.md
 created: 2026-06-13
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-13
 > [!info] What it does
 > You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.
 
-**Source:** [docker-expert/SKILL.md](docker-expert/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/docker-expert/SKILL.md](skills/docker-expert/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](maps/cloud-devops.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

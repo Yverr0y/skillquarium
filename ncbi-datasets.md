@@ -8,7 +8,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: ncbi-datasets/SKILL.md
+source: skills/ncbi-datasets/SKILL.md
 created: 2026-06-09
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-09
 > [!info] What it does
 > Download genomes, genes, virus sequences, and taxonomy data from NCBI using the datasets and dataformat CLI tools.
 
-**Source:** [ncbi-datasets/SKILL.md](ncbi-datasets/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ncbi-datasets/SKILL.md](skills/ncbi-datasets/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

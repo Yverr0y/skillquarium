@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: precedent-transactions/SKILL.md
+source: skills/precedent-transactions/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Precedent M&A transactions analysis with deal multiples and acquisition history
 
-**Source:** [precedent-transactions/SKILL.md](precedent-transactions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/precedent-transactions/SKILL.md](skills/precedent-transactions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

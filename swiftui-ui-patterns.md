@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: swiftui-ui-patterns/SKILL.md
+source: skills/swiftui-ui-patterns/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build and refactor SwiftUI UI with component patterns and examples. Use when shaping navigation, state, layouts, controls, or screen composition.
 
-**Source:** [swiftui-ui-patterns/SKILL.md](swiftui-ui-patterns/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/swiftui-ui-patterns/SKILL.md](skills/swiftui-ui-patterns/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-polaris-admin-extensions/SKILL.md
+source: skills/shopify-polaris-admin-extensions/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Add custom actions and blocks from your app at contextually relevant spots throughout the Shopify Admin. Admin UI Extensions also supports scaffolding new adminextensions using Shopify CLI commands.
 
-**Source:** [shopify-polaris-admin-extensions/SKILL.md](shopify-polaris-admin-extensions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-polaris-admin-extensions/SKILL.md](skills/shopify-polaris-admin-extensions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

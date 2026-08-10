@@ -11,7 +11,7 @@ bridge_domains:
   - genomics-variants
   - sequence-phylogenetics
 status: untried
-source: environmental-microbiologist/SKILL.md
+source: skills/environmental-microbiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Environmental Microbiologist (field sampling / amplicon + shotgun metagenomics / biogeochemistry coupling / microbial ecology stats): Reasons from spatial patchiness, redox thermodynamic ceilings, and process-over-taxonomy guild function through DADA2/QIIME2 amplicons keyed to SILVA/GTDB/PR2/UNITE, metaSPAdes/MetaBAT2 MAGs vetted by CheckM/GUNC, and SIP/qSIP rate assays paired with IC/GC/ICP-MS chemistry, while treating extraction-batch effects...
 
-**Source:** [environmental-microbiologist/SKILL.md](environmental-microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/environmental-microbiologist/SKILL.md](skills/environmental-microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

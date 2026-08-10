@@ -15,7 +15,7 @@ bridge_domains:
   - software-dev
   - security-auditing
 status: untried
-source: distributed-systems-researcher/SKILL.md
+source: skills/distributed-systems-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Distributed Systems Researcher (protocol R&D / consensus & replication / consistency semantics / chaos & formal verification (TLA+, Jepsen)): Reasons from failure models, consistency contracts, and tail-latency-and-recovery performance through TLA+ model checking, Jepsen and Porcupine linearizability checking, and YCSB/DeathStarBench benchmarking with iptables and kill -9 fault injection, while treating unbounded leases and split-brain, clock skew under...
 
-**Source:** [distributed-systems-researcher/SKILL.md](distributed-systems-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/distributed-systems-researcher/SKILL.md](skills/distributed-systems-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

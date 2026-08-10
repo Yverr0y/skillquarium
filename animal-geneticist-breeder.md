@@ -16,7 +16,7 @@ bridge_domains:
   - genomics-variants
   - data-science-compute
 status: untried
-source: animal-geneticist-breeder/SKILL.md
+source: skills/animal-geneticist-breeder/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Animal Geneticist & Breeder (quantitative genetics / BLUP- REML / genomic selection / crossbreeding systems / mate allocation): Reasons from additive genetic variance, response to selection (R = i h sigma_A), accuracy, and inbreeding depression through REML/BLUP and ssGBLUP pipelines (BLUPF90, ASReml, WOMBAT), economic selection indices, optimum-contribution mate allocation, and Interbull MACE while treating confounded contemporary groups...
 
-**Source:** [animal-geneticist-breeder/SKILL.md](animal-geneticist-breeder/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/animal-geneticist-breeder/SKILL.md](skills/animal-geneticist-breeder/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

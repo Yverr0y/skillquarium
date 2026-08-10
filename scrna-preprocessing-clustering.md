@@ -7,7 +7,7 @@ tags:
   - domain/single-cell-rnaseq
 domain: single-cell-rnaseq
 status: untried
-source: scrna-preprocessing-clustering/SKILL.md
+source: skills/scrna-preprocessing-clustering/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Standard scRNA-seq preprocessing and clustering with Scanpy. Use for QC, normalization, HVG selection, PCA, neighbor graph construction, UMAP, Leiden clustering, and export of an analysis-ready AnnData object.
 
-**Source:** [scrna-preprocessing-clustering/SKILL.md](scrna-preprocessing-clustering/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/scrna-preprocessing-clustering/SKILL.md](skills/scrna-preprocessing-clustering/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

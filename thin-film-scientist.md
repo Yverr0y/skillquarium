@@ -13,7 +13,7 @@ bridge_domains:
   - drug-discovery-chem
   - imaging-signals
 status: untried
-source: thin-film-scientist/SKILL.md
+source: skills/thin-film-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Thin-Film Scientist (deposition (PVD/CVD/ALD) / thin-film metrology / stress & adhesion / optical coatings / semiconductor fab): Reasons from nucleation and growth modes, film stress, interfacial adhesion, and conformality across topography through spectroscopic ellipsometry, XRR, Stoney wafer-curvature, XPS/RBS, and standards like ASTM E2244 and ISO 9211 while treating columnar porosity, barrier pinholes, reactive-sputter hysteresis drift, and...
 
-**Source:** [thin-film-scientist/SKILL.md](thin-film-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/thin-film-scientist/SKILL.md](skills/thin-film-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: sharepoint-shared-doc-maintenance/SKILL.md
+source: skills/sharepoint-shared-doc-maintenance/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Maintain shared SharePoint strategy, roadmap, planning, or status documents from changing source documents. Use when the user wants cross-document synthesis, source-of-truth propagation, or targeted updates to a maintained shared document.
 
-**Source:** [sharepoint-shared-doc-maintenance/SKILL.md](sharepoint-shared-doc-maintenance/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/sharepoint-shared-doc-maintenance/SKILL.md](skills/sharepoint-shared-doc-maintenance/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

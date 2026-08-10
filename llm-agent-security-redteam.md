@@ -9,7 +9,7 @@ tags:
   - domain/security-auditing
 domain: security-auditing
 status: untried
-source: llm-agent-security-redteam/SKILL.md
+source: skills/llm-agent-security-redteam/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > LLM and agent security red teaming with agentic-actions-auditor, supply-chain-risk-auditor, semgrep, codeql, and sarif-parsing. Use for prompt injection, tool misuse, data exfiltration, excessive agency, insecure output handling, supply-chain risk, retrieval poisoning, and OWASP LLM Top 10 style threat modeling.
 
-**Source:** [llm-agent-security-redteam/SKILL.md](llm-agent-security-redteam/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/llm-agent-security-redteam/SKILL.md](skills/llm-agent-security-redteam/SKILL.md)  ·  **Domain:** [Security & Auditing](maps/security-auditing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

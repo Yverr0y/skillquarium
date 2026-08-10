@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: fixing-motion-performance/SKILL.md
+source: skills/fixing-motion-performance/SKILL.md
 created: 2026-07-20
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-20
 > [!info] What it does
 > Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 
-**Source:** [fixing-motion-performance/SKILL.md](fixing-motion-performance/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fixing-motion-performance/SKILL.md](skills/fixing-motion-performance/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

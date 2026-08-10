@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: genebass-gene-burden-skill/SKILL.md
+source: skills/genebass-gene-burden-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Genebass gene burden requests for one Ensembl gene ID and one burden set. Use when a user wants concise Genebass PheWAS summaries
 
-**Source:** [genebass-gene-burden-skill/SKILL.md](genebass-gene-burden-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/genebass-gene-burden-skill/SKILL.md](skills/genebass-gene-burden-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

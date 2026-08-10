@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: eva-skill/SKILL.md
+source: skills/eva-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact EVA REST requests for species metadata and archived variant lookups. Use when a user wants concise European Variation Archive summaries
 
-**Source:** [eva-skill/SKILL.md](eva-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/eva-skill/SKILL.md](skills/eva-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

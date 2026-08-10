@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: precision-engineering-specialist/SKILL.md
+source: skills/precision-engineering-specialist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Precision Engineering Specialist (GD&T / CMM metrology / ultra-precision manufacturing): Reasons from ASME Y14.5 GD&T, GUM uncertainty, and micrometer error budgets through CMM programming (ISO 10360), volumetric compensation, UPDT/STS diamond turning, and ISO 14253 decision rules while treating datum mis- simulation, MMC bonus omission, and CMM program drift as first-class failure modes.
 
-**Source:** [precision-engineering-specialist/SKILL.md](precision-engineering-specialist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/precision-engineering-specialist/SKILL.md](skills/precision-engineering-specialist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

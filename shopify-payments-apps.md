@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-payments-apps/SKILL.md
+source: skills/shopify-payments-apps/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > The Payments Apps API enables payment providers to integrate their payment solutions with Shopify's checkout.
 
-**Source:** [shopify-payments-apps/SKILL.md](shopify-payments-apps/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-payments-apps/SKILL.md](skills/shopify-payments-apps/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

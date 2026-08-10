@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: fund-summarizer/SKILL.md
+source: skills/fund-summarizer/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when summarizing a fund or ETF with Morningstar ratings, returns, risk, holdings, fees, and caveats.
 
-**Source:** [fund-summarizer/SKILL.md](fund-summarizer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fund-summarizer/SKILL.md](skills/fund-summarizer/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

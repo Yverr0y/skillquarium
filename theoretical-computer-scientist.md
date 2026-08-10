@@ -12,7 +12,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: theoretical-computer-scientist/SKILL.md
+source: skills/theoretical-computer-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Theoretical Computer Scientist (theoretical / complexity, algorithms, and formal proof): Reasons from explicit models (TM, circuit, communication, query) and resource measures; audits Karp/parsimonious/gap/fine-grained reductions against ETH/SETH/#ETH and PCP/UGC/APX barriers; uses Complexity Zoo, ECCC/arXiv cs.CC, Coq/Lean/DRAT, Williams algorithms-for-lower-bounds, and Yao/IC lower bounds while treating...
 
-**Source:** [theoretical-computer-scientist/SKILL.md](theoretical-computer-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/theoretical-computer-scientist/SKILL.md](skills/theoretical-computer-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -12,7 +12,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: neuroimaging-scientist/SKILL.md
+source: skills/neuroimaging-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Neuroimaging Scientist (clinical / research): Reasons from k-space acquisition physics, BOLD hemodynamics, and per-voxel statistical models through fMRIPrep/QSIPrep BIDS pipelines, FSL/SPM/nilearn analysis, neuroCombat harmonization, and TFCE/permutation inference while treating head motion, partial- volume and reference-region errors in PET, global-signal...
 
-**Source:** [neuroimaging-scientist/SKILL.md](neuroimaging-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/neuroimaging-scientist/SKILL.md](skills/neuroimaging-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: dashboards-and-real-time-visualization/SKILL.md
+source: skills/dashboards-and-real-time-visualization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Design dashboards and live visualization systems. Use when the user needs monitoring views, streaming charts, coordinated interactions, downsampling, or performance-aware operational visualization.
 
-**Source:** [dashboards-and-real-time-visualization/SKILL.md](dashboards-and-real-time-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dashboards-and-real-time-visualization/SKILL.md](skills/dashboards-and-real-time-visualization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -8,7 +8,7 @@ tags:
   - domain/imaging-signals
 domain: imaging-signals
 status: untried
-source: monai-medical-imaging-ai/SKILL.md
+source: skills/monai-medical-imaging-ai/SKILL.md
 created: 2026-06-09
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-09
 > [!info] What it does
 > Medical imaging deep learning with MONAI, PyTorch, pydicom, pathml, histolab, and napari-viz. Use for segmentation, classification, registration, transforms, sliding-window inference, NIfTI/DICOM workflows, medical image datasets, and reproducible clinical imaging AI pipelines.
 
-**Source:** [monai-medical-imaging-ai/SKILL.md](monai-medical-imaging-ai/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/monai-medical-imaging-ai/SKILL.md](skills/monai-medical-imaging-ai/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -9,7 +9,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cloudflare/SKILL.md
+source: skills/cloudflare/SKILL.md
 created: 2026-08-07
 ---
 
@@ -18,7 +18,7 @@ created: 2026-08-07
 > [!info] What it does
 > Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
 
-**Source:** [cloudflare/SKILL.md](cloudflare/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cloudflare/SKILL.md](skills/cloudflare/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: base44-troubleshooter/SKILL.md
+source: skills/base44-troubleshooter/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls, or diagnosing production problems in Base44 apps.
 
-**Source:** [base44-troubleshooter/SKILL.md](base44-troubleshooter/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/base44-troubleshooter/SKILL.md](skills/base44-troubleshooter/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: airtable-filters/SKILL.md
+source: skills/airtable-filters/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use this skill when the user wants to find, filter, or narrow down Airtable records by field values, even when they don't explicitly say "filter.
 
-**Source:** [airtable-filters/SKILL.md](airtable-filters/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/airtable-filters/SKILL.md](skills/airtable-filters/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

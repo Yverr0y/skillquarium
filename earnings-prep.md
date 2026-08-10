@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: earnings-prep/SKILL.md
+source: skills/earnings-prep/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Pre-earnings preparation report for the night before a company reports
 
-**Source:** [earnings-prep/SKILL.md](earnings-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/earnings-prep/SKILL.md](skills/earnings-prep/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

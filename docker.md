@@ -5,7 +5,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: docker/SKILL.md
+source: skills/docker/SKILL.md
 created: 2026-06-10
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-10
 > [!info] What it does
 > Containerizing and shipping applications with Docker — writing efficient Dockerfiles (multi-stage builds, layer caching, small/secure images), docker compose for multi-service local stacks, and the core build/run/debug commands. Use when creating a Dockerfile, debugging image builds, slimming images, or composing services (app + db + cache). For Claude Code dev sandboxes use devcontainer-setup; for serverless GPU runs use modal.
 
-**Source:** [docker/SKILL.md](docker/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/docker/SKILL.md](skills/docker/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

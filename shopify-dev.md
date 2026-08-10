@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: shopify-dev/SKILL.md
+source: skills/shopify-dev/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Search Shopify developer documentation across all APIs. Use only when no API-specific skill applies.
 
-**Source:** [shopify-dev/SKILL.md](shopify-dev/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/shopify-dev/SKILL.md](skills/shopify-dev/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

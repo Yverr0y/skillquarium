@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-build-app/SKILL.md
+source: skills/matlab-build-app/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Build MATLAB apps from requirements to working code. Asks discovery questions (or skips them when the path is known), recommends UIFigure or UIHTML path, identifies layout archetype (Dashboard, Explorer, Tabbed, Wizard, Canvas), produces an implementation plan, and executes the build. Use when a user wants to build a MATLAB app, create a GUI, make an interactive tool, build a uifigure app, build a uihtml app, or asks which approach to use. Also use when user describes spatial layout needs: dashboard, control panel, sidebar, tabs, wizard, stepper, canvas, workspace.
 
-**Source:** [matlab-build-app/SKILL.md](matlab-build-app/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-build-app/SKILL.md](skills/matlab-build-app/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: query-uniprot/SKILL.md
+source: skills/query-uniprot/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Query UniProt protein database. Use when user asks about protein sequences, functions, annotations, domains, or protein identifiers. Triggers on "uniprot", "protein function", "protein sequence", "gene product", "protein info".
 
-**Source:** [query-uniprot/SKILL.md](query-uniprot/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/query-uniprot/SKILL.md](skills/query-uniprot/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

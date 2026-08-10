@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: bio-ppt-generate/SKILL.md
+source: skills/bio-ppt-generate/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Generate a presentation package from a finalized bio-manuscript proposal. Use when producing a 10-15 slide, Markdown-first presentation outline (group-meeting / 组会 style) from FINAL_PROPOSAL.md plus demo or validation results.
 
-**Source:** [bio-ppt-generate/SKILL.md](bio-ppt-generate/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-ppt-generate/SKILL.md](skills/bio-ppt-generate/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

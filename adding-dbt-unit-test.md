@@ -7,7 +7,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: adding-dbt-unit-test/SKILL.md
+source: skills/adding-dbt-unit-test/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Creates unit test YAML definitions that mock upstream model inputs and validate expected outputs. Use when adding unit tests for a dbt model or practicing test-driven development (TDD) in dbt.
 
-**Source:** [adding-dbt-unit-test/SKILL.md](adding-dbt-unit-test/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/adding-dbt-unit-test/SKILL.md](skills/adding-dbt-unit-test/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

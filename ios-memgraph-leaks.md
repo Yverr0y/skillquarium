@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ios-memgraph-leaks/SKILL.md
+source: skills/ios-memgraph-leaks/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Capture and inspect iOS leaks and memgraphs. Use when debugging leaked objects, retain cycles, memory growth, or before/after leak evidence.
 
-**Source:** [ios-memgraph-leaks/SKILL.md](ios-memgraph-leaks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ios-memgraph-leaks/SKILL.md](skills/ios-memgraph-leaks/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

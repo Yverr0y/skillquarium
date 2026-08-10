@@ -15,7 +15,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: robotics-scientist/SKILL.md
+source: skills/robotics-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Robotics Scientist (hardware validation / kinematics & dynamics / planning & control (MPC, WBC) / SLAM & perception / sim-to-real / safety (ISO 10218, ISO/TS...): Reasons from the closed sensor-to-actuator loop, kinematic reachability, and dynamic feasibility (friction cones, actuator saturation) through DH/PoE kinematics, RRT*/CHOMP planning, MPC and whole-body control, SLAM, and ROS 2 rosbag logging while treating TF-frame and timestamp mismatches, the sim-to-real gap, grasp...
 
-**Source:** [robotics-scientist/SKILL.md](robotics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/robotics-scientist/SKILL.md](skills/robotics-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

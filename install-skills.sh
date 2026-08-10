@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# This script lives at ~/.agents/skills/install-skills.sh
+# This script lives at ~/.agents/install-skills.sh. The vault root is the repo
+# root; the skill folders themselves live in the flat ~/.agents/skills/ subtree,
+# which is also the skills CLI's canonical global store.
 VAULT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 
 # Relative paths below (`npx skills add .`, `git restore .`, the gstack cleanup
@@ -126,7 +128,7 @@ source "$VAULT_DIR/.skill-vault/install-career-ops.sh"
 # bundled collection (250MB, own .git) installed by the optional block
 # below when --extras gstack is passed, not a set of individual
 # vercel-CLI skills.
-GSTACK_DIR="$VAULT_DIR/gstack"
+GSTACK_DIR="$VAULT_DIR/skills/gstack"
 GSTACK_STASH=""
 BUN_INSTALLER=""
 
@@ -176,8 +178,11 @@ git restore .
 # Some skills-cli hosts create project-style link roots inside the vault even
 # for a global install. They are generated artifacts, not source, and Pi
 # would rediscover them as project skills when run from this directory.
+# `skills/` is scanned as a deep container (maxDepth 3), so a stale link root
+# left inside it would be rediscovered as real skills on the next run. Purge
+# both roots.
 for agent_root in .agents .pi agent; do
-  rm -rf -- "$agent_root"
+  rm -rf -- "$agent_root" "skills/$agent_root"
 done
 
 restore_gstack
@@ -185,11 +190,11 @@ restore_gstack
 # Clean up any stray gstack artifacts that gstack's own ./setup may leak
 # to the vault root on subsequent runs.
 # 1. Remove symlinks whose SKILL.md points into gstack/
-find . -maxdepth 2 -name SKILL.md -type l -lname '*gstack*' -exec sh -c '
+find skills -maxdepth 2 -name SKILL.md -type l -lname '*gstack*' -exec sh -c '
   dir=$(dirname "$1"); rm -rf "$dir"
 ' _ {} \; 2>/dev/null || true
 # 2. Remove gstack-prefixed directories created by gstack ./setup --prefix
-find . -maxdepth 1 -name 'gstack-*' -not -name 'gstack-*.md' -exec rm -rf {} \; 2>/dev/null || true
+find skills -maxdepth 1 -name 'gstack-*' -not -name 'gstack-*.md' -exec rm -rf {} \; 2>/dev/null || true
 
 if [ "$EXTRA_CAREER" -eq 1 ]; then
   install_career_ops

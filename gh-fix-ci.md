@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: gh-fix-ci/SKILL.md
+source: skills/gh-fix-ci/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix.
 
-**Source:** [gh-fix-ci/SKILL.md](gh-fix-ci/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gh-fix-ci/SKILL.md](skills/gh-fix-ci/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md
+source: skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including Kubernetes clusters, inference endpoint deployment, OSMO deployment, workload submission readiness, and infrastructure failure recovery. Trigger keywords: physical ai infrastructure, resilient scaling, SDG infrastructure, microk8s, azure aks, NVCF deployment, NIM Operator, OSMO deploy, workflow scaling. Don't trigger for: OSMO log summarization or workload-only operations unless infrastructure setup, scaling, validation, or recovery is requested.
 
-**Source:** [physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md](physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md](skills/physical-ai-infrastructure-setup-and-resilient-scaling/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

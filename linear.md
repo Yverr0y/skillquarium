@@ -9,7 +9,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: linear/SKILL.md
+source: skills/linear/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.
 
-**Source:** [linear/SKILL.md](linear/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/linear/SKILL.md](skills/linear/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

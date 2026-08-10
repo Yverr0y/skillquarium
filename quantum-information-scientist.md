@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - quantum-physics
 status: untried
-source: quantum-information-scientist/SKILL.md
+source: skills/quantum-information-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Quantum Information Scientist (theoretical / experimental QIS): Reasons from qubits as open systems, gate fidelities, and error correction while treating crosstalk and calibration drift as first-class failure modes.
 
-**Source:** [quantum-information-scientist/SKILL.md](quantum-information-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/quantum-information-scientist/SKILL.md](skills/quantum-information-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

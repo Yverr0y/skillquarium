@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: chatgpt-app-submission/SKILL.md
+source: skills/chatgpt-app-submission/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Inspect a ChatGPT Apps MCP server codebase and generate chatgpt-app-submission.json with app info suggestions, tool hint justifications, test cases, and negative test cases, then report review-check findings and outputSchema warnings for submission review.
 
-**Source:** [chatgpt-app-submission/SKILL.md](chatgpt-app-submission/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chatgpt-app-submission/SKILL.md](skills/chatgpt-app-submission/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

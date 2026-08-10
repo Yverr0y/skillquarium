@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: eqtl-catalogue-skill/SKILL.md
+source: skills/eqtl-catalogue-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact eQTL Catalogue API requests for association retrieval and documented metadata endpoints. Use when a user wants concise public eQTL Catalogue summaries
 
-**Source:** [eqtl-catalogue-skill/SKILL.md](eqtl-catalogue-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/eqtl-catalogue-skill/SKILL.md](skills/eqtl-catalogue-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

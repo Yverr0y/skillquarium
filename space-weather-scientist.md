@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: space-weather-scientist/SKILL.md
+source: skills/space-weather-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Space Weather Scientist (observational / computational / operational heliophysics): Reasons from Dungey coupling and prolonged southward Bz through ICME vs. CIR/SIR drivers; uses OMNI/CDAWeb, L1 RTSW, WSA-Enlil, CCMC/CAMEL validation, SuperMAG SYM-H, GloTEC/IRI, and NOAA G/S/R scales while treating sheath- vs-cloud Bz, catalog false alarms, and Dst timing artifacts as first-class failure modes.
 
-**Source:** [space-weather-scientist/SKILL.md](space-weather-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/space-weather-scientist/SKILL.md](skills/space-weather-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

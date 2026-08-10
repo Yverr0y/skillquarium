@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: slack-channel-summarization/SKILL.md
+source: skills/slack-channel-summarization/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Summarize activity from one Slack channel and return a concise recap, post-ready update, or summary doc.
 
-**Source:** [slack-channel-summarization/SKILL.md](slack-channel-summarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/slack-channel-summarization/SKILL.md](skills/slack-channel-summarization/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

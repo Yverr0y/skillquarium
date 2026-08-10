@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: membrane-biophysicist/SKILL.md
+source: skills/membrane-biophysicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Membrane Biophysicist (wet-lab / computational membrane biophysics): Reasons from Helfrich elasticity, Lo/Ld phase behavior, and intrinsic curvature; builds GUVs, SLBs, nanodiscs, and BLMs; reads Laurdan GP, FRAP/FCS, aspiration, and electrophysiology while treating multilamellarity, detergent carryover, and probe misinterpretation as first-class failure modes.
 
-**Source:** [membrane-biophysicist/SKILL.md](membrane-biophysicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/membrane-biophysicist/SKILL.md](skills/membrane-biophysicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

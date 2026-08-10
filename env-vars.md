@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: env-vars/SKILL.md
+source: skills/env-vars/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.
 
-**Source:** [env-vars/SKILL.md](env-vars/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/env-vars/SKILL.md](skills/env-vars/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

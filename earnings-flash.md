@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: earnings-flash/SKILL.md
+source: skills/earnings-flash/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Rapid first-read earnings flash for a given company
 
-**Source:** [earnings-flash/SKILL.md](earnings-flash/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/earnings-flash/SKILL.md](skills/earnings-flash/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

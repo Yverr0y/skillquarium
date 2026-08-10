@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: upgrading-expo/SKILL.md
+source: skills/upgrading-expo/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guidelines for upgrading Expo SDK versions and fixing dependency issues
 
-**Source:** [upgrading-expo/SKILL.md](upgrading-expo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/upgrading-expo/SKILL.md](skills/upgrading-expo/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

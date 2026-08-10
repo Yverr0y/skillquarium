@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: fund-screener/SKILL.md
+source: skills/fund-screener/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when screening funds or ETFs by Morningstar category, ratings, fees, assets, returns, or risk.
 
-**Source:** [fund-screener/SKILL.md](fund-screener/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fund-screener/SKILL.md](skills/fund-screener/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

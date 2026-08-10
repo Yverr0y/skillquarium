@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: uniprot-skill/SKILL.md
+source: skills/uniprot-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact UniProt REST API requests for UniProtKB, UniRef, UniParc, and FASTA stream endpoints. Use when a user wants concise UniProt summaries; save raw JSON or FASTA only on request.
 
-**Source:** [uniprot-skill/SKILL.md](uniprot-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/uniprot-skill/SKILL.md](skills/uniprot-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

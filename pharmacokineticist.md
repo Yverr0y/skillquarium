@@ -9,7 +9,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: pharmacokineticist/SKILL.md
+source: skills/pharmacokineticist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Pharmacokineticist (clinical / research): Reasons from mass balance, exposure-response, and separation of structural from statistical models through NCA in Phoenix WinNonlin, mixed-effects popPK in NONMEM, PBPK in Simcyp/GastroPlus, and VPC diagnostics while treating BLQ mishandling, ETA shrinkage, over-parameterization for small n, and unit/analyte/matrix...
 
-**Source:** [pharmacokineticist/SKILL.md](pharmacokineticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pharmacokineticist/SKILL.md](skills/pharmacokineticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

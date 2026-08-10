@@ -13,7 +13,7 @@ expert_primary: social-behavioral-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: cognitive-scientist/SKILL.md
+source: skills/cognitive-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Cognitive Scientist (behavioral experiments / computational modeling (DDM, ACT-R, Bayesian) / Marr levels / strong inference / preregistration): Reasons from Marr's levels of analysis, latent processes behind RT and accuracy, and strong inference through PsychoPy paradigms, signal-detection d-prime/criterion, sequential-sampling and ACT-R models, and crossed mixed-effects designs while treating speed-accuracy tradeoffs, criterion shifts, item confounds, and...
 
-**Source:** [cognitive-scientist/SKILL.md](cognitive-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cognitive-scientist/SKILL.md](skills/cognitive-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

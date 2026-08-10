@@ -7,7 +7,7 @@ tags:
   - domain/clinical-medical
 domain: clinical-medical
 status: untried
-source: profile-report/SKILL.md
+source: skills/profile-report/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Unified personal genomic profile report — reads a PatientProfile JSON and synthesizes all skill results into a single "Your Genomic Profile" document.
 
-**Source:** [profile-report/SKILL.md](profile-report/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/profile-report/SKILL.md](skills/profile-report/SKILL.md)  ·  **Domain:** [Clinical, Medical & Pharmacogenomics](maps/clinical-medical.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

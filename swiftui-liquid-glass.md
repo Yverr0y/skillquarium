@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: swiftui-liquid-glass/SKILL.md
+source: skills/swiftui-liquid-glass/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Implement and review iOS 26+ SwiftUI Liquid Glass UI. Use when adopting Liquid Glass or checking its correctness, performance, and design fit.
 
-**Source:** [swiftui-liquid-glass/SKILL.md](swiftui-liquid-glass/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/swiftui-liquid-glass/SKILL.md](skills/swiftui-liquid-glass/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

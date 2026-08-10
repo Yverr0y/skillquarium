@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: gnomad-graphql-skill/SKILL.md
+source: skills/gnomad-graphql-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact gnomAD GraphQL requests for frequency, gene constraint, and variant context queries. Use when a user wants concise gnomAD summaries
 
-**Source:** [gnomad-graphql-skill/SKILL.md](gnomad-graphql-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gnomad-graphql-skill/SKILL.md](skills/gnomad-graphql-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

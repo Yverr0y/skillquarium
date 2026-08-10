@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: web-game-foundations/SKILL.md
+source: skills/web-game-foundations/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Set browser-game architecture before implementation. Use when the user needs engine choice, simulation and render boundaries, input model, asset organization, or save/debug/performance strategy.
 
-**Source:** [web-game-foundations/SKILL.md](web-game-foundations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/web-game-foundations/SKILL.md](skills/web-game-foundations/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

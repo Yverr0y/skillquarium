@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: debug-zoom-integration/SKILL.md
+source: skills/debug-zoom-integration/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when isolating failures.
 
-**Source:** [debug-zoom-integration/SKILL.md](debug-zoom-integration/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/debug-zoom-integration/SKILL.md](skills/debug-zoom-integration/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

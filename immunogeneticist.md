@@ -9,7 +9,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: immunogeneticist/SKILL.md
+source: skills/immunogeneticist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Immunogeneticist (clinical laboratory / transplant histocompatibility / MHC population genetics): Reasons from HLA/KIR/FcγR diversity, haplotype LD, and epitope immunogenicity; adjudicates NGS typing, imputation fine- mapping, eplet/TCE matching, and DSA/crossmatch artifacts.
 
-**Source:** [immunogeneticist/SKILL.md](immunogeneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/immunogeneticist/SKILL.md](skills/immunogeneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

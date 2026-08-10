@@ -5,7 +5,7 @@ tags:
   - domain/reasoning-ideation
 domain: reasoning-ideation
 status: untried
-source: grilling/SKILL.md
+source: skills/grilling/SKILL.md
 created: 2026-06-20
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-20
 > [!info] What it does
 > Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.
 
-**Source:** [grilling/SKILL.md](grilling/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/grilling/SKILL.md](skills/grilling/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](maps/reasoning-ideation.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

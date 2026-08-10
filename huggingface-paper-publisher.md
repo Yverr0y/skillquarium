@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: huggingface-paper-publisher/SKILL.md
+source: skills/huggingface-paper-publisher/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
 
-**Source:** [huggingface-paper-publisher/SKILL.md](huggingface-paper-publisher/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/huggingface-paper-publisher/SKILL.md](skills/huggingface-paper-publisher/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

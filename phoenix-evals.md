@@ -7,7 +7,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: phoenix-evals/SKILL.md
+source: skills/phoenix-evals/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Build and run evaluators for AI/LLM applications using Phoenix.
 
-**Source:** [phoenix-evals/SKILL.md](phoenix-evals/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/phoenix-evals/SKILL.md](skills/phoenix-evals/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

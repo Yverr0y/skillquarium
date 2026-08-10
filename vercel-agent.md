@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: vercel-agent/SKILL.md
+source: skills/vercel-agent/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI development tools.
 
-**Source:** [vercel-agent/SKILL.md](vercel-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-agent/SKILL.md](skills/vercel-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

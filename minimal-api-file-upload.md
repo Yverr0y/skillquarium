@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: minimal-api-file-upload/SKILL.md
+source: skills/minimal-api-file-upload/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > File upload endpoints in ASP.NET minimal APIs (.NET 8+)
 
-**Source:** [minimal-api-file-upload/SKILL.md](minimal-api-file-upload/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/minimal-api-file-upload/SKILL.md](skills/minimal-api-file-upload/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: fastp-fastq-preprocessing/SKILL.md
+source: skills/fastp-fastq-preprocessing/SKILL.md
 created: 2026-07-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-09
 > [!info] What it does
 > All-in-one FASTQ QC and adapter trimming. Auto-detects Illumina adapters, filters low-quality reads, corrects paired-end overlaps, emits HTML+JSON QC in one pass. 3-10x faster than Trim Galore/Trimmomatic. First step before STAR, BWA-MEM2, or Salmon.
 
-**Source:** [fastp-fastq-preprocessing/SKILL.md](fastp-fastq-preprocessing/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fastp-fastq-preprocessing/SKILL.md](skills/fastp-fastq-preprocessing/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

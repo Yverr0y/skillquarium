@@ -7,7 +7,7 @@ tags:
   - domain/web-automation-frontend
 domain: web-automation-frontend
 status: untried
-source: industrial-brutalist-ui/SKILL.md
+source: skills/industrial-brutalist-ui/SKILL.md
 created: 2026-07-07
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-07
 > [!info] What it does
 > Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.
 
-**Source:** [industrial-brutalist-ui/SKILL.md](industrial-brutalist-ui/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/industrial-brutalist-ui/SKILL.md](skills/industrial-brutalist-ui/SKILL.md)  ·  **Domain:** [Web Automation, Frontend & Design](maps/web-automation-frontend.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

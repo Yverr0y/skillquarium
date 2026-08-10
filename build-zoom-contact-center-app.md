@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: build-zoom-contact-center-app/SKILL.md
+source: skills/build-zoom-contact-center-app/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Contact Center.
 
-**Source:** [build-zoom-contact-center-app/SKILL.md](build-zoom-contact-center-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/build-zoom-contact-center-app/SKILL.md](skills/build-zoom-contact-center-app/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

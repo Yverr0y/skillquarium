@@ -7,7 +7,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: viennarna-structure-prediction/SKILL.md
+source: skills/viennarna-structure-prediction/SKILL.md
 created: 2026-07-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-09
 > [!info] What it does
 > Predict RNA secondary structure, MFE folding, base-pair probabilities, RNA-RNA interactions via ViennaRNA Python bindings. Pipeline: sequence → MFE → partition function and pair-probability matrix → dot-bracket → duplex. Use for siRNA/sgRNA targeting, ribozyme design, RNA accessibility. Use RNAfold CLI for batch use without Python.
 
-**Source:** [viennarna-structure-prediction/SKILL.md](viennarna-structure-prediction/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/viennarna-structure-prediction/SKILL.md](skills/viennarna-structure-prediction/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

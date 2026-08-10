@@ -14,7 +14,7 @@ bridge_domains:
   - clinical-medical
   - software-dev
 status: untried
-source: health-informatician/SKILL.md
+source: skills/health-informatician/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Health Informatician (clinical / research): Reasons from semantic interoperability, provenance, and patient safety through FHIR/US Core, SNOMED-LOINC-RxNorm terminology mapping, OMOP/OHDSI ETL with DQD/Achilles, and chart- review PPV validation while treating immortal-time and confounding-by-indication bias, patient-matching/MPI failures, billing-code...
 
-**Source:** [health-informatician/SKILL.md](health-informatician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/health-informatician/SKILL.md](skills/health-informatician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

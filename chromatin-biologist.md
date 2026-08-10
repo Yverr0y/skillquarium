@@ -10,7 +10,7 @@ expert_primary: biology-life-sciences
 bridge_domains:
   - genomics-variants
 status: untried
-source: chromatin-biologist/SKILL.md
+source: skills/chromatin-biologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Chromatin Biologist (wet-lab / chromatin biochemistry / epigenomics): Reasons from nucleosome arrays, histone PTM crosstalk, remodelers, and 3D genome organization; validates ChIP/CUT&Tag/ATAC with spike-ins and IgG controls while separating composition from mechanism.
 
-**Source:** [chromatin-biologist/SKILL.md](chromatin-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chromatin-biologist/SKILL.md](skills/chromatin-biologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

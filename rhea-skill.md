@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: rhea-skill/SKILL.md
+source: skills/rhea-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Rhea reaction search requests for biochemical reactions and reaction IDs. Use when a user wants concise Rhea summaries
 
-**Source:** [rhea-skill/SKILL.md](rhea-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/rhea-skill/SKILL.md](skills/rhea-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

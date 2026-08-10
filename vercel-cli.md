@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: vercel-cli/SKILL.md
+source: skills/vercel-cli/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command line.
 
-**Source:** [vercel-cli/SKILL.md](vercel-cli/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/vercel-cli/SKILL.md](skills/vercel-cli/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

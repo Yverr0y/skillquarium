@@ -7,7 +7,7 @@ tags:
   - domain/proteomics-metabolomics
 domain: proteomics-metabolomics
 status: untried
-source: pyopenms/SKILL.md
+source: skills/pyopenms/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Complete mass spectrometry analysis platform. Use for proteomics and metabolomics workflows—feature detection, peptide/protein identification, label-free and isobaric quantification, adduct/accurate-mass annotation, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. For simple spectral comparison and small-molecule library matching use matchms.
 
-**Source:** [pyopenms/SKILL.md](pyopenms/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pyopenms/SKILL.md](skills/pyopenms/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

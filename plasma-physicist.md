@@ -15,7 +15,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: plasma-physicist/SKILL.md
+source: skills/plasma-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Plasma Physicist (fusion + space plasma / MHD & gyrokinetic / PIC simulation / tokamak-stellarator diagnostics / reconnection): Reasons from collective scales (Debye length, plasma frequency), dimensionless regime parameters (beta, collisionality, Lundquist number), and instability drive-versus- dissipation through Grad-Shafranov equilibria (EFIT, VMEC), gyrokinetic and MHD codes (GENE, NIMROD, XGC), PIC simulation (VPIC, OSIRIS), and...
 
-**Source:** [plasma-physicist/SKILL.md](plasma-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/plasma-physicist/SKILL.md](skills/plasma-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -1,8 +1,14 @@
 # .skill-vault — how this repo stays navigable
 
+This repo is rooted at `~/.agents`, which is also the Vercel skills CLI's home
+directory. That means `skills/` is the CLI's flat canonical store and must stay
+a flat list of skill folders — categorising it into subdirectories would make
+the CLI copy every skill back out to a flat path on the next install. The
+navigation layer is therefore what gets structured, not the skill tree.
+
 This repo is two layers over the same folders:
 
-- **Agent layer** — each `<skill>/SKILL.md` is the real, executable skill. These
+- **Agent layer** — each `skills/<skill>/SKILL.md` is the real, executable skill. These
   are managed by the [Vercel skills CLI](https://github.com/vercel-labs/skills)
   (`npx skills`). Navigation tooling never edits them; `skill-toggle` changes only
   their explicit Claude Code/Codex invocation fields at the user's request.
@@ -22,7 +28,7 @@ This directory holds the machinery that keeps the human layer in sync.
 | `build-graphify.py` | Rebuilds the optional local Graphify graph in `graphify-out/`. Manual only; can run LLM-backed extraction, so it is deliberately separate from CI's lightweight `build.py`. Run: `python3 .skill-vault/build-graphify.py` |
 | `skill_toggle.py` | Safe metadata backend for `./skill-toggle`: catalog JSON, product-specific changes, snapshots, reload, and metadata-only Git reset. |
 | `tui/` | OpenTUI 0.5.1 application with mouse/keyboard navigation, fuzzy search, status/category filters, and separate Claude Code/Codex controls. |
-| `skill-lock.json` | Committed snapshot of the CLI's global provenance lock (`~/.agents/.skill-lock.json`). Records where each skill came from so CI can update them. |
+| *(none)* | The CLI's provenance lock is the tracked `.skill-lock.json` at the repo root, not a copy in here. It records where each skill came from so CI can update them. |
 
 ## Scientific expert taxonomy
 
@@ -62,25 +68,29 @@ group so they never push at the same time):
 1. **`rebuild-index.yml`** — on every push to `master` (and manual dispatch).
    Runs `build.py` and commits the regenerated navigation layer. Fast, no network.
 2. **`update-skills.yml`** — daily at 06:17 UTC (and manual dispatch). Runs
-   `npx skills update -g -y` to pull the latest version of every skill, refreshes
-   `skill-lock.json`, rebuilds the navigation layer, and commits the result.
+   `npx skills update -g -y` to pull the latest version of every skill, rebuilds
+   the navigation layer, and commits the result (including the refreshed
+   `.skill-lock.json`).
 
 Bot commits use the default `GITHUB_TOKEN`, so they **do not** re-trigger the
 workflows (no infinite loop); the `[skip ci]` marker is belt-and-suspenders.
 
 ### How CI updates skills in place
 
-The CLI installs global skills into its canonical dir `~/.agents/skills` (this
-repo) and tracks provenance in `~/.agents/.skill-lock.json` — which sits *above*
-the repo and isn't committed. CI reconstructs that layout from the snapshot:
+The CLI installs global skills into its canonical dir `~/.agents/skills` and
+tracks provenance in `~/.agents/.skill-lock.json`. **This repo is laid out as
+`~/.agents` itself**, so both are tracked files and CI only has to point the
+CLI's home at the checkout:
 
 ```sh
-mkdir -p "$HOME/.agents"
-ln -sfn "$GITHUB_WORKSPACE" "$HOME/.agents/skills"      # canonical dir -> checkout
-cp .skill-vault/skill-lock.json "$HOME/.agents/.skill-lock.json"
-npx -y skills@1.5.10 update -g -y                        # updates the repo in place (pinned)
-cp "$HOME/.agents/.skill-lock.json" .skill-vault/skill-lock.json
+rm -rf "$HOME/.agents"
+ln -sfn "$GITHUB_WORKSPACE" "$HOME/.agents"   # CLI home -> checkout
+npx -y skills@1.5.10 update -g -y             # updates the repo in place (pinned)
 ```
+
+No snapshot copy in either direction: `$HOME/.agents/skills` resolves to the
+tracked `skills/` subtree and `$HOME/.agents/.skill-lock.json` to the tracked
+lock at the repo root.
 
 ### Source coverage in CI
 
@@ -97,22 +107,21 @@ npx skills add <owner/repo> -s <skill> -g -y   # re-tracks it as a github source
 
 `GITHUB_TOKEN` is only used to raise the API rate limit; all current sources are public.
 
-## Keeping the lock snapshot fresh
+## Keeping the lock fresh
 
-When you **add or remove** skills locally with the CLI, refresh the snapshot so
-CI knows about the change:
+`.skill-lock.json` is the CLI's own file at the repo root, so adding or removing
+a skill locally updates it in place — there is no snapshot to sync. Just
+regenerate the navigation layer and commit both:
 
 ```sh
-cp ~/.agents/.skill-lock.json .skill-vault/skill-lock.json
 python3 .skill-vault/build.py        # regenerate nav for the new/removed skills
+git add .skill-lock.json skills/     # the lock travels with the skill change
 ```
-
-(The daily `update-skills.yml` run also refreshes the snapshot automatically.)
 
 ## Vendored bundles (no lock entry)
 
 Some upstream collections are **copied in by hand** rather than installed through
-the skills CLI, so they have no `skill-lock.json` entry and the CLI will not
+the skills CLI, so they have no `.skill-lock.json` entry and the CLI will not
 update them. Record each one here and refresh it manually.
 
 | Bundle | Upstream | Vendored at | What we took |

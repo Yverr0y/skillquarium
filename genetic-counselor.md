@@ -12,7 +12,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: genetic-counselor/SKILL.md
+source: skills/genetic-counselor/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Genetic Counselor (clinical / research): Reasons from probabilistic penetrance, Bayesian pretest probability, and patient autonomy through three-generation pedigrees, ACMG/AMP variant criteria, ClinVar/ClinGen/gnomAD, NCCN and CPIC guidelines, and cascade-testing protocols while treating VUS over-upgraded to pathogenic, screening-versus-diagnostic confusion...
 
-**Source:** [genetic-counselor/SKILL.md](genetic-counselor/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/genetic-counselor/SKILL.md](skills/genetic-counselor/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

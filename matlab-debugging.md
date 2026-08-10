@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-debugging/SKILL.md
+source: skills/matlab-debugging/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Diagnose MATLAB errors and unexpected behavior. Breakpoints, workspace inspection, try-catch diagnostics, and common error patterns. Use when debugging functions, tracing errors, inspecting variables, or diagnosing runtime failures.
 
-**Source:** [matlab-debugging/SKILL.md](matlab-debugging/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-debugging/SKILL.md](skills/matlab-debugging/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

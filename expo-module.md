@@ -8,7 +8,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-module/SKILL.md
+source: skills/expo-module/SKILL.md
 created: 2026-08-07
 ---
 
@@ -17,7 +17,7 @@ created: 2026-08-07
 > [!info] What it does
 > Guide for writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system. Use when building or modifying native modules for Expo.
 
-**Source:** [expo-module/SKILL.md](expo-module/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-module/SKILL.md](skills/expo-module/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -12,7 +12,7 @@ expert_primary: chemistry-materials
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: pharmaceutical-formulation-scientist/SKILL.md
+source: skills/pharmaceutical-formulation-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Pharmaceutical Formulation Scientist (formulation development / QbD-CMC / solid-state & dissolution / regulatory (ICH Q8, USP, Module 3.2.P)): Anchor every decision in the QTPP and critical quality attributes (CQAs): assay, Classify the API before choosing a technology path. Use BCS (solubility vs.
 
-**Source:** [pharmaceutical-formulation-scientist/SKILL.md](pharmaceutical-formulation-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pharmaceutical-formulation-scientist/SKILL.md](skills/pharmaceutical-formulation-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

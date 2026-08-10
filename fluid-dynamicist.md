@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: fluid-dynamicist/SKILL.md
+source: skills/fluid-dynamicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Fluid Dynamicist (computational CFD / theoretical scaling / experimental validation): Reasons from Navier–Stokes and dimensionless scaling through RANS/LES/DNS selection, mesh/y+ strategy, OpenFOAM/Fluent workflows, and MMS + ASME V&V 20 / PIV validation.
 
-**Source:** [fluid-dynamicist/SKILL.md](fluid-dynamicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/fluid-dynamicist/SKILL.md](skills/fluid-dynamicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

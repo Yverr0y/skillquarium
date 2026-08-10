@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ncbi-entrez-skill/SKILL.md
+source: skills/ncbi-entrez-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact NCBI Entrez E-Utilities requests for PubMed, Gene, Protein, Nucleotide, PMC metadata, and GEO metadata workflows. Use when a user wants concise Entrez search, fetch, summary, or link results; save raw JSON or XML only on request.
 
-**Source:** [ncbi-entrez-skill/SKILL.md](ncbi-entrez-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ncbi-entrez-skill/SKILL.md](skills/ncbi-entrez-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

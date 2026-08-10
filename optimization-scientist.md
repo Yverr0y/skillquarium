@@ -14,7 +14,7 @@ expert_primary: mathematics-statistics
 bridge_domains:
   - data-science-compute
 status: untried
-source: optimization-scientist/SKILL.md
+source: skills/optimization-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Optimization Scientist (computational / mathematical optimization): Reasons from convexity class, KKT/complementarity, and LP/MIP relaxation gaps through interior-point and branch-and-cut (Gurobi, CPLEX, MOSEK, Ipopt) while treating loose big-M, IntegralityTol cheaters, IIS-hidden infeasibility, nonconvex KKT-as-global, and MIPGap-at-TimeLimit-as-optimal as first-class failure modes.
 
-**Source:** [optimization-scientist/SKILL.md](optimization-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/optimization-scientist/SKILL.md](skills/optimization-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

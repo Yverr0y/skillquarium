@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: cbioportal-skill/SKILL.md
+source: skills/cbioportal-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact cBioPortal API requests for studies, molecular profiles, mutations, clinical data, and samples. Use when a user wants concise cBioPortal summaries
 
-**Source:** [cbioportal-skill/SKILL.md](cbioportal-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cbioportal-skill/SKILL.md](skills/cbioportal-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

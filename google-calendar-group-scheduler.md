@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: google-calendar-group-scheduler/SKILL.md
+source: skills/google-calendar-group-scheduler/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Find and rank good meeting times for multiple people using connected Google Calendar data. Use when the user wants to schedule a group meeting, compare candidate slots across several attendees, find the best compromise time, or add a room check after narrowing the attendee-compatible options.
 
-**Source:** [google-calendar-group-scheduler/SKILL.md](google-calendar-group-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/google-calendar-group-scheduler/SKILL.md](skills/google-calendar-group-scheduler/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

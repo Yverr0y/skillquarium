@@ -11,7 +11,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: medical-geneticist/SKILL.md
+source: skills/medical-geneticist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Medical Geneticist (clinical / laboratory genetics / genetic counseling): Reasons from pedigree priors, HPO phenotype match, and ACMG/ClinGen variant classification; integrates exome/genome, CMA, RNA splicing, NBS ACT pathways, Tier 3 carrier screening, SF v3.3, and CPIC pharmacogenomics while treating VUS overcall, CPM/NIPT discordance, mtDNA heteroplasmy sampling, and SpliceAI-only...
 
-**Source:** [medical-geneticist/SKILL.md](medical-geneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/medical-geneticist/SKILL.md](skills/medical-geneticist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

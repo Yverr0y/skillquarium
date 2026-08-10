@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: appkit-interop/SKILL.md
+source: skills/appkit-interop/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Bridge macOS SwiftUI into AppKit narrowly. Use when implementing representables, reaching NSWindow or panels, handling menus, or using the responder chain.
 
-**Source:** [appkit-interop/SKILL.md](appkit-interop/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/appkit-interop/SKILL.md](skills/appkit-interop/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

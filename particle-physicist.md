@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: particle-physicist/SKILL.md
+source: skills/particle-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Particle Physicist (experimental / phenomenological high- energy physics): Reasons from SM gauge structure, parton PDFs, and detector response through ATLAS/CMS/LHCb/Belle II/DUNE workflows, Geant4+Pythia/MG5 simulation, HistFactory/Combine/pyhf likelihoods, and HEPData/Rivet preservation while treating LEE/global significance, JES/pile-up, fake leptons, and flux×cross-section systematics as...
 
-**Source:** [particle-physicist/SKILL.md](particle-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/particle-physicist/SKILL.md](skills/particle-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

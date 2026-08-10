@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: water-resources-scientist/SKILL.md
+source: skills/water-resources-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Water Resources Scientist (hydrologic modeling / groundwater-surface coupling / water-budget allocation / remote sensing (GRACE, OpenET) / climate-water planning): Reasons from hydrologic-cycle mass and energy balance, green-versus-blue water, and nonstationarity through MODFLOW, SWAT/HEC-RAS, WEAP, Budyko closure, and multi-objective KGE/NSE calibration while treating equifinality, unaccounted return flows and stream depletion, single-drought-year safe yield, and...
 
-**Source:** [water-resources-scientist/SKILL.md](water-resources-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/water-resources-scientist/SKILL.md](skills/water-resources-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

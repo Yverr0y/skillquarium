@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: hmdb-skill/SKILL.md
+source: skills/hmdb-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact HMDB search requests for metabolites, proteins, diseases, and pathways. Use when a user wants concise HMDB summaries
 
-**Source:** [hmdb-skill/SKILL.md](hmdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hmdb-skill/SKILL.md](skills/hmdb-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

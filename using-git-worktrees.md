@@ -8,7 +8,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: using-git-worktrees/SKILL.md
+source: skills/using-git-worktrees/SKILL.md
 created: 2026-06-10
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-10
 > [!info] What it does
 > Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback
 
-**Source:** [using-git-worktrees/SKILL.md](using-git-worktrees/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/using-git-worktrees/SKILL.md](skills/using-git-worktrees/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

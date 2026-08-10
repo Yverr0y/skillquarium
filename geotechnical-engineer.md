@@ -14,7 +14,7 @@ expert_secondary:
 bridge_domains:
   - data-science-compute
 status: untried
-source: geotechnical-engineer/SKILL.md
+source: skills/geotechnical-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Geotechnical Engineer (design / field investigation / construction engineering): Reasons from effective stress and LRFD/EC7 limit states through GDR/GBR/FDR deliverables, shallow and deep foundations (GEC 6/10/12), excavation support (DeepEX, LPILE), ground improvement, ASCE 7 liquefaction, observational-method triggers, and FHWA pile acceptance while treating DSC claims, setup vs. blow count, and...
 
-**Source:** [geotechnical-engineer/SKILL.md](geotechnical-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/geotechnical-engineer/SKILL.md](skills/geotechnical-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

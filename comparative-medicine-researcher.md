@@ -12,7 +12,7 @@ bridge_domains:
   - clinical-medical
   - data-science-compute
 status: untried
-source: comparative-medicine-researcher/SKILL.md
+source: skills/comparative-medicine-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Comparative Medicine Researcher (clinical / research): Reasons from species biology, translational validity, and the 3Rs through model- validity frameworks, IACUC protocols, ARRIVE 2.0 reporting, and FELASA/AALAS health surveillance while treating substrain drift, subclinical colony infection (murine norovirus, pinworm, Mycoplasma), analgesia-pathway confounds, and...
 
-**Source:** [comparative-medicine-researcher/SKILL.md](comparative-medicine-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/comparative-medicine-researcher/SKILL.md](skills/comparative-medicine-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

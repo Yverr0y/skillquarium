@@ -9,7 +9,7 @@ tags:
   - domain/analytics-engineering
 domain: analytics-engineering
 status: untried
-source: llm-observability-evals/SKILL.md
+source: skills/llm-observability-evals/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > LLM and agent observability, tracing, and evaluation workflows with langfuse, phoenix-cli, and phoenix-evals. Use when instrumenting Langfuse, Phoenix, OpenTelemetry GenAI traces, eval datasets, prompt experiments, latency/cost debugging, trace scoring, or regression testing agent behavior.
 
-**Source:** [llm-observability-evals/SKILL.md](llm-observability-evals/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/llm-observability-evals/SKILL.md](skills/llm-observability-evals/SKILL.md)  ·  **Domain:** [Analytics Engineering & LLM Operations](maps/analytics-engineering.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

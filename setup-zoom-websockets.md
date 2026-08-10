@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: setup-zoom-websockets/SKILL.md
+source: skills/setup-zoom-websockets/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building Zoom WebSockets.
 
-**Source:** [setup-zoom-websockets/SKILL.md](setup-zoom-websockets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/setup-zoom-websockets/SKILL.md](skills/setup-zoom-websockets/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

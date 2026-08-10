@@ -13,7 +13,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: transportation-engineer/SKILL.md
+source: skills/transportation-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Transportation Engineer (planning / demand modeling / geometric design / corridor evaluation): Reasons from four-step and activity-based travel demand (CUBE/Visum/EMME), AASHTO Green Book geometry, HCM capacity, MPO LRTP and NEPA 23 CFR 771 project development, and multimodal corridor MOEs while treating unvalidated TDM forecasts and capacity-without-demand balance as first-class failure modes.
 
-**Source:** [transportation-engineer/SKILL.md](transportation-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/transportation-engineer/SKILL.md](skills/transportation-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

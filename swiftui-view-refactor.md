@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: swiftui-view-refactor/SKILL.md
+source: skills/swiftui-view-refactor/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Refactor SwiftUI view files into stable, testable structure. Use when splitting large views, tightening data flow, or cleaning Observation ownership.
 
-**Source:** [swiftui-view-refactor/SKILL.md](swiftui-view-refactor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/swiftui-view-refactor/SKILL.md](skills/swiftui-view-refactor/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

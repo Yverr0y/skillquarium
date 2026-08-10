@@ -7,7 +7,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: eqtl-catalogue-region-fetch/SKILL.md
+source: skills/eqtl-catalogue-region-fetch/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Fetch a region of cis-eQTL summary statistics from EBI eQTL Catalogue v7+ via tabix-on-FTP. Use when an agent needs eQTL beta / SE / p-value for every variant in a window around a gene's TSS for one specific dataset (study × tissue × quantification method). Input: dataset_id, chromosome, start, end, optional molecular_trait_id. Output: harmonised TSV slice.
 
-**Source:** [eqtl-catalogue-region-fetch/SKILL.md](eqtl-catalogue-region-fetch/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/eqtl-catalogue-region-fetch/SKILL.md](skills/eqtl-catalogue-region-fetch/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

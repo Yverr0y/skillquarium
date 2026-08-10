@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-list-products/SKILL.md
+source: skills/matlab-list-products/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Show all installed MATLAB products and support packages for a given MATLAB installation folder. Use when listing, checking, or verifying what products or support packages are in a MATLAB installation.
 
-**Source:** [matlab-list-products/SKILL.md](matlab-list-products/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-list-products/SKILL.md](skills/matlab-list-products/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

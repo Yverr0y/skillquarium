@@ -15,7 +15,7 @@ bridge_domains:
   - genomics-variants
   - clinical-medical
 status: untried
-source: gerontologist/SKILL.md
+source: skills/gerontologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Gerontologist (clinical / research): Reasons from senescence hallmarks, frailty, multi-morbidity, and life-course exposures through validated instruments (Fried phenotype, Rockwood CFS, SPPB/gait speed), epigenetic clocks (Horvath, PhenoAge, GrimAge), competing-risk survival (Fine-Gray), and NIA cohorts (HRS, NHATS, ITP) while treating survivor bias...
 
-**Source:** [gerontologist/SKILL.md](gerontologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gerontologist/SKILL.md](skills/gerontologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

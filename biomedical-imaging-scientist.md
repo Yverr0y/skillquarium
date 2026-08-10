@@ -17,7 +17,7 @@ bridge_domains:
   - clinical-medical
   - imaging-signals
 status: untried
-source: biomedical-imaging-scientist/SKILL.md
+source: skills/biomedical-imaging-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -26,7 +26,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Biomedical Imaging Scientist (clinical / research): Reasons from contrast mechanisms, the resolution-SNR-scan-time triangle, and measurement reliability through DICOM/BIDS pipelines, QIBA profiles, phantom QC (ACR, NEMA IQ, Catphan), and blinded central reads (RECIST, RANO, PERCIST) while treating motion, partial volume effects, and cross-scanner harmonization drift as...
 
-**Source:** [biomedical-imaging-scientist/SKILL.md](biomedical-imaging-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/biomedical-imaging-scientist/SKILL.md](skills/biomedical-imaging-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

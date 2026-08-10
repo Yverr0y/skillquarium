@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: deepnote-links/SKILL.md
+source: skills/deepnote-links/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when a task asks for Deepnote URLs, links, project links, notebook links, workspace links, share links, UTM/campaign links, or when a Deepnote response should include clickable links built from Deepnote app project, notebook, or workspace data.
 
-**Source:** [deepnote-links/SKILL.md](deepnote-links/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/deepnote-links/SKILL.md](skills/deepnote-links/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

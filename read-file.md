@@ -9,7 +9,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: read-file/SKILL.md
+source: skills/read-file/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial, SQLite) or remote URL (S3, HTTPS). Use when user references a data file, asks "what's in this file", or wants to preview/profile a dataset. Not for source code.
 
-**Source:** [read-file/SKILL.md](read-file/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/read-file/SKILL.md](skills/read-file/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

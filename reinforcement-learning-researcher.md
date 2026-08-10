@@ -14,7 +14,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: reinforcement-learning-researcher/SKILL.md
+source: skills/reinforcement-learning-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Reinforcement Learning Researcher (computational / deep RL & sim-to-real): Reasons from MDP/POMDP and Bellman operators through DQN/PPO/SAC/TD3, MuJoCo/Atari/Procgen/Brax benchmarks, offline RL (CQL/IQL), reward-hacking diagnostics, Gymnasium/CleanRL/SB3 stacks, and NeurIPS/ICML/CoRL seed-stratified evaluation with bootstrap CIs.
 
-**Source:** [reinforcement-learning-researcher/SKILL.md](reinforcement-learning-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/reinforcement-learning-researcher/SKILL.md](skills/reinforcement-learning-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

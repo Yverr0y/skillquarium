@@ -5,7 +5,7 @@ tags:
   - domain/proteomics-metabolomics
 domain: proteomics-metabolomics
 status: untried
-source: proteomics/SKILL.md
+source: skills/proteomics/SKILL.md
 created: 2026-06-17
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-17
 > [!info] What it does
 > Mass spectrometry proteomics QC, quantification, comparative analysis, and export for DDA, DIA, and protein-level result tables.
 
-**Source:** [proteomics/SKILL.md](proteomics/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/proteomics/SKILL.md](skills/proteomics/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

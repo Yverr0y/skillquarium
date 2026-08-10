@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: rnacentral-skill/SKILL.md
+source: skills/rnacentral-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact RNAcentral API requests for RNA entry browsing, single-entry lookup, and cross-reference retrieval. Use when a user wants concise RNAcentral summaries
 
-**Source:** [rnacentral-skill/SKILL.md](rnacentral-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/rnacentral-skill/SKILL.md](skills/rnacentral-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

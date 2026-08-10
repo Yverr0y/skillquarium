@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: notion-spec-to-implementation/SKILL.md
+source: skills/notion-spec-to-implementation/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.
 
-**Source:** [notion-spec-to-implementation/SKILL.md](notion-spec-to-implementation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/notion-spec-to-implementation/SKILL.md](skills/notion-spec-to-implementation/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/bio-databases-platforms
 domain: bio-databases-platforms
 status: untried
-source: query-kegg/SKILL.md
+source: skills/query-kegg/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Query KEGG for biological pathways and gene info. Use when user asks about metabolic pathways, signaling pathways, pathway genes, or KEGG IDs. Triggers on "kegg", "pathway", "metabolic pathway", "signaling pathway", "pathway genes".
 
-**Source:** [query-kegg/SKILL.md](query-kegg/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/query-kegg/SKILL.md](skills/query-kegg/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

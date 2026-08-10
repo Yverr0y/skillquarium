@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-write-performance-tests/SKILL.md
+source: skills/matlab-write-performance-tests/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Writes MATLAB performance tests using the matlab.perftest.TestCase framework. Use when asked to write, create, or add performance tests for MATLAB code, benchmark functions, measure execution time with statistical rigor, or use runperf.
 
-**Source:** [matlab-write-performance-tests/SKILL.md](matlab-write-performance-tests/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-write-performance-tests/SKILL.md](skills/matlab-write-performance-tests/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

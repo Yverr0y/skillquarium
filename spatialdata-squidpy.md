@@ -11,7 +11,7 @@ tags:
   - domain/single-cell-rnaseq
 domain: single-cell-rnaseq
 status: untried
-source: spatialdata-squidpy/SKILL.md
+source: skills/spatialdata-squidpy/SKILL.md
 created: 2026-06-09
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-09
 > [!info] What it does
 > Spatial omics workflows with SpatialData and Squidpy alongside scanpy, anndata, and napari-viz. Use when working with Visium, Xenium, CosMx, MERFISH, Slide-seq, spatial transcriptomics, spatial proteomics, tissue images linked to AnnData, spatial neighbor graphs, spatial autocorrelation, ligand-receptor proximity, image features, or napari-spatialdata.
 
-**Source:** [spatialdata-squidpy/SKILL.md](spatialdata-squidpy/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/spatialdata-squidpy/SKILL.md](skills/spatialdata-squidpy/SKILL.md)  ·  **Domain:** [Single-Cell, RNA-seq & Functional Genomics](maps/single-cell-rnaseq.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

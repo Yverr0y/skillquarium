@@ -14,7 +14,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: aeronomy-scientist/SKILL.md
+source: skills/aeronomy-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Aeronomy Scientist (remote sensing / MLT-thermosphere- ionosphere / ISR + resonance lidar / tides & coupling / empirical models (IRI, NRLMSIS)): Reasons from MLT lidar and ISR profiles through IRI/NRLMSIS benchmarks, treating ion-line spectra, metal-layer winds, and storm-time TEC as distinct observables.
 
-**Source:** [aeronomy-scientist/SKILL.md](aeronomy-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/aeronomy-scientist/SKILL.md](skills/aeronomy-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

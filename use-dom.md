@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: use-dom/SKILL.md
+source: skills/use-dom/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally.
 
-**Source:** [use-dom/SKILL.md](use-dom/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/use-dom/SKILL.md](skills/use-dom/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

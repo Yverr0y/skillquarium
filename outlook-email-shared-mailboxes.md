@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-email-shared-mailboxes/SKILL.md
+source: skills/outlook-email-shared-mailboxes/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Work with delegated or shared Outlook Email mailboxes. Use when the user explicitly wants to read another mailbox, send from or on behalf of a shared mailbox, mark shared mail read or unread, move shared mail, or browse folders in a shared mailbox.
 
-**Source:** [outlook-email-shared-mailboxes/SKILL.md](outlook-email-shared-mailboxes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-email-shared-mailboxes/SKILL.md](skills/outlook-email-shared-mailboxes/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

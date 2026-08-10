@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ai-gateway/SKILL.md
+source: skills/ai-gateway/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.
 
-**Source:** [ai-gateway/SKILL.md](ai-gateway/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ai-gateway/SKILL.md](skills/ai-gateway/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

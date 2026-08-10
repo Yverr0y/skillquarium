@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: pubchem-pug-skill/SKILL.md
+source: skills/pubchem-pug-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact PubChem PUG REST requests for compound properties, descriptions, assay summaries, and substance metadata. Use when a user wants concise PubChem summaries
 
-**Source:** [pubchem-pug-skill/SKILL.md](pubchem-pug-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/pubchem-pug-skill/SKILL.md](skills/pubchem-pug-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

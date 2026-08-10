@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ngs-bulk-rnaseq-counts-qc/SKILL.md
+source: skills/ngs-bulk-rnaseq-counts-qc/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Run or plan bulk RNA-seq FASTQ-to-count processing with sample-sheet, strandedness, genome annotation, alignment or pseudoalignment, MultiQC, and count-matrix QC checks.
 
-**Source:** [ngs-bulk-rnaseq-counts-qc/SKILL.md](ngs-bulk-rnaseq-counts-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-bulk-rnaseq-counts-qc/SKILL.md](skills/ngs-bulk-rnaseq-counts-qc/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

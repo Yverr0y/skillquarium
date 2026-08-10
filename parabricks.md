@@ -5,7 +5,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: parabricks/SKILL.md
+source: skills/parabricks/SKILL.md
 created: 2026-06-28
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-28
 > [!info] What it does
 > Route NVIDIA Parabricks pbrun tools, assess GPU/runtime readiness, and provide version-aware command guidance for FASTQ/BAM processing, RNA-seq, variant calling, BAM QC, and GVCF workflows. Do NOT use for inspecting or accelerating whole pipelines — use genomics-workflow-acceleration.
 
-**Source:** [parabricks/SKILL.md](parabricks/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/parabricks/SKILL.md](skills/parabricks/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

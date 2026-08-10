@@ -15,7 +15,7 @@ bridge_domains:
   - genomics-variants
   - sequence-phylogenetics
 status: untried
-source: microbiologist/SKILL.md
+source: skills/microbiologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Microbiologist (wet-lab / culture, amplicon & shotgun microbiomics): Reasons from culturability limits, CFU/MPN enumeration, selective media, DADA2/QIIME2 16S ASVs (SILVA/GTDB), and shotgun metagenomics (Kraken2, MetaPhlAn, HUMAnN); treats plate-count anomaly, compositional stats pitfalls, kit contamination, and index hopping as first-class failure modes.
 
-**Source:** [microbiologist/SKILL.md](microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/microbiologist/SKILL.md](skills/microbiologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

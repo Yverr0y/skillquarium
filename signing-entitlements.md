@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: signing-entitlements/SKILL.md
+source: skills/signing-entitlements/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Inspect macOS signing, entitlements, and Gatekeeper issues. Use when diagnosing code signing, sandbox, hardened runtime, or trust failures.
 
-**Source:** [signing-entitlements/SKILL.md](signing-entitlements/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/signing-entitlements/SKILL.md](skills/signing-entitlements/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

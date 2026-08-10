@@ -13,7 +13,7 @@ bridge_domains:
   - drug-discovery-chem
   - data-science-compute
 status: untried
-source: surface-chemist/SKILL.md
+source: skills/surface-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Surface Chemist (experimental / UHV & ambient surface analysis / colloid & interface science): Reasons from interfacial thermodynamics, Langmuir/BET/D-R adsorption, and Young–Dupré wetting through XPS (ISO 15472/18118, AdC vacuum-level alignment, SESSA), contact-angle SFE (OWRK/vOCG, ASTM D7490), QCM-D viscoelastic modeling, ToF-SIMS, SAMs, and ISO 20579 handling while treating adventitious carbon, charging...
 
-**Source:** [surface-chemist/SKILL.md](surface-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/surface-chemist/SKILL.md](skills/surface-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

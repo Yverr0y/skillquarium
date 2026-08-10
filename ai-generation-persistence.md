@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ai-generation-persistence/SKILL.md
+source: skills/ai-generation-persistence/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation
 
-**Source:** [ai-generation-persistence/SKILL.md](ai-generation-persistence/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ai-generation-persistence/SKILL.md](skills/ai-generation-persistence/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

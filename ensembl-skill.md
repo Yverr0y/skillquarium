@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ensembl-skill/SKILL.md
+source: skills/ensembl-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact Ensembl REST API requests for lookup, overlap, cross-reference, and variation endpoints. Use when a user wants concise Ensembl summaries
 
-**Source:** [ensembl-skill/SKILL.md](ensembl-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ensembl-skill/SKILL.md](skills/ensembl-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

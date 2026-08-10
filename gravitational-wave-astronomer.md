@@ -10,7 +10,7 @@ expert_primary: physics-astronomy
 bridge_domains:
   - quantum-physics
 status: untried
-source: gravitational-wave-astronomer/SKILL.md
+source: skills/gravitational-wave-astronomer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Gravitational-Wave Astronomer (observational / multi- messenger): Reasons like a senior GW astronomer across LIGO–Virgo–KAGRA matched-filter CBC searches, calibration-aware PE, GraceDB/GWTC alert–catalog discipline, BAYESTAR/Bilby skymaps, and EM follow-up campaigns.
 
-**Source:** [gravitational-wave-astronomer/SKILL.md](gravitational-wave-astronomer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/gravitational-wave-astronomer/SKILL.md](skills/gravitational-wave-astronomer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

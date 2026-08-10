@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: supabase-postgres-best-practices/SKILL.md
+source: skills/supabase-postgres-best-practices/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
 
-**Source:** [supabase-postgres-best-practices/SKILL.md](supabase-postgres-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/supabase-postgres-best-practices/SKILL.md](skills/supabase-postgres-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

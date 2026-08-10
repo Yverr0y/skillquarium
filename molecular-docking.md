@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: molecular-docking/SKILL.md
+source: skills/molecular-docking/SKILL.md
 created: 2026-07-24
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-24
 > [!info] What it does
 > Use when running classical protein-ligand docking with AutoDock Vina, smina, or GNINA, including receptor or ligand preparation, search-box setup, docking, pose analysis, virtual screening, affinity scoring, or GNINA rescoring of DiffDock poses. Trigger terms include docking, PDBQT, binding pose, and protein-ligand.
 
-**Source:** [molecular-docking/SKILL.md](molecular-docking/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/molecular-docking/SKILL.md](skills/molecular-docking/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

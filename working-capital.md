@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: working-capital/SKILL.md
+source: skills/working-capital/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Cash conversion cycle, earnings quality, and working capital deep-dive
 
-**Source:** [working-capital/SKILL.md](working-capital/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/working-capital/SKILL.md](skills/working-capital/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: codex-expo-run-actions/SKILL.md
+source: skills/codex-expo-run-actions/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Wire Expo projects into the Codex app with project-local run scripts and .codex/environments/environment.toml actions. Use when the user wants the Codex app Run button, build/run actions, action buttons, or a stable Expo start/run workflow from Codex.
 
-**Source:** [codex-expo-run-actions/SKILL.md](codex-expo-run-actions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/codex-expo-run-actions/SKILL.md](skills/codex-expo-run-actions/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

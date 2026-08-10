@@ -11,7 +11,7 @@ bridge_domains:
   - sequence-phylogenetics
   - data-science-compute
 status: untried
-source: restoration-ecologist/SKILL.md
+source: skills/restoration-ecologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Restoration Ecologist (field / reference-ecosystem planning / native planting & monitoring): Reasons from SER International Standards (reference models, six ecosystem attributes, five-star recovery, restorative continuum), BACI/BARI monitoring, INSR seed provenance and provisional seed zones, FQA/cover-weighted metrics, and passive–active–assisted recovery while treating revegetation-as-restoration...
 
-**Source:** [restoration-ecologist/SKILL.md](restoration-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/restoration-ecologist/SKILL.md](skills/restoration-ecologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

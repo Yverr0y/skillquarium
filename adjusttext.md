@@ -10,7 +10,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: adjusttext/SKILL.md
+source: skills/adjusttext/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Use the Python adjustText package to automatically move matplotlib text labels so they do not overlap each other, points, or other artists. Use for crowded scatter plots, volcano plots, PCA/UMAP labels, line-end annotations, maps, and publication figures that need readable labels with optional arrows. Pairs with matplotlib, seaborn, scanpy, and scientific-visualization workflows.
 
-**Source:** [adjusttext/SKILL.md](adjusttext/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/adjusttext/SKILL.md](skills/adjusttext/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -14,7 +14,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: solar-physicist/SKILL.md
+source: skills/solar-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Solar Physicist (heliophysics / MHD / multi-wavelength remote sensing / space weather (SDO, PSP)): Reasons from magnetic field topology, plasma beta, reconnection, and radiative transfer through DEM inversion, NLFFF/PFSS extrapolation, coronal seismology, and WSA-ENLIL forecasting while treating single- channel AIA temperature claims, HMI disambiguation ambiguity at the PIL, limb projection artifacts, and...
 
-**Source:** [solar-physicist/SKILL.md](solar-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/solar-physicist/SKILL.md](skills/solar-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

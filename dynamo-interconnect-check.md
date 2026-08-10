@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: dynamo-interconnect-check/SKILL.md
+source: skills/dynamo-interconnect-check/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Validate that a Dynamo deployment's NIXL/UCX/NCCL interconnect is ready for disaggregated serving over RDMA/NVLink. Use after recipe-runner brings a deployment up (especially disagg/multi-node) to confirm the KV transport is correct; use troubleshoot for diagnosing already-failed pods.
 
-**Source:** [dynamo-interconnect-check/SKILL.md](dynamo-interconnect-check/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/dynamo-interconnect-check/SKILL.md](skills/dynamo-interconnect-check/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -12,7 +12,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: systems-neuroscientist/SKILL.md
+source: skills/systems-neuroscientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Systems Neuroscientist (wet-lab / in vivo neurophysiology + behavioral neuroscience + computational analysis): Reasons across circuits, Neuropixels/calcium imaging, behavior, optogenetics/chemogenetics, connectomics, and multi-timescale animal models—with rigor on sync, controls, and causal claims.
 
-**Source:** [systems-neuroscientist/SKILL.md](systems-neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/systems-neuroscientist/SKILL.md](skills/systems-neuroscientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

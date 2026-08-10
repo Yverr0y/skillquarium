@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: hubspot-crm-data-hygiene/SKILL.md
+source: skills/hubspot-crm-data-hygiene/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when auditing HubSpot data quality for missing fields, stale records, duplicates, associations, owners, or cleanup tasks.
 
-**Source:** [hubspot-crm-data-hygiene/SKILL.md](hubspot-crm-data-hygiene/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/hubspot-crm-data-hygiene/SKILL.md](skills/hubspot-crm-data-hygiene/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

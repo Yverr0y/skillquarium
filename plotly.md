@@ -5,7 +5,7 @@ tags:
   - domain/data-science-compute
 domain: data-science-compute
 status: untried
-source: plotly/SKILL.md
+source: skills/plotly/SKILL.md
 created: 2026-07-24
 ---
 
@@ -14,7 +14,7 @@ created: 2026-07-24
 > [!info] What it does
 > Use when creating interactive Python visualizations with Plotly, including pan, zoom, hover charts, dashboard figures, interactive HTML output, or 3D plots. Trigger terms include plotly, interactive chart, interactive plot, dashboard chart, hover, and plotly express. For static publication figures use matplotlib or seaborn; for visualization strategy use scientific-visualization.
 
-**Source:** [plotly/SKILL.md](plotly/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/plotly/SKILL.md](skills/plotly/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](maps/data-science-compute.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

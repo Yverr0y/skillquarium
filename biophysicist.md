@@ -15,7 +15,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: biophysicist/SKILL.md
+source: skills/biophysicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -24,7 +24,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Biophysicist (single-molecule biophysics / force spectroscopy / electrophysiology / structural (cryo-EM, NMR) / MD simulation): Reasons from energy landscapes, kT-scale thermodynamics, conformational ensembles, and the equilibrium-versus-kinetics distinction through smFRET, optical/magnetic tweezers, patch clamp, cryo-EM, and MD with force-field validation while treating photobleaching and blinking, FRET crosstalk, tether and series-resistance...
 
-**Source:** [biophysicist/SKILL.md](biophysicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/biophysicist/SKILL.md](skills/biophysicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Secondary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

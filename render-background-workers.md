@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: render-background-workers/SKILL.md
+source: skills/render-background-workers/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Sets up and configures background workers on Render for queue-based job processing. Use when the user needs to process async jobs, consume from a queue, run Celery/Sidekiq/BullMQ/Asynq/Oban workers, handle graceful shutdown with SIGTERM, wire a worker to Key Value (Redis), or choose between workers and cron jobs for background work. Trigger terms: background worker, async jobs, queue consumer, Celery, Sidekiq, BullMQ, Asynq, Oban, job processing, SIGTERM, graceful shutdown.
 
-**Source:** [render-background-workers/SKILL.md](render-background-workers/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/render-background-workers/SKILL.md](skills/render-background-workers/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

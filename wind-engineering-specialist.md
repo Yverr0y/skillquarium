@@ -10,7 +10,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: wind-engineering-specialist/SKILL.md
+source: skills/wind-engineering-specialist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Wind Engineering Specialist (BLWT / CWE / structural wind loads / pedestrian comfort): Reasons from ABL exposure, ASCE 7-22/EN 1991-1-4 wind actions, ASCE 49 BLWT Method 3, rigid vs flexible G/Gf, MWFRS vs C&C, and DAD directionality; treats enclosure GCpi, short-fetch exposure, and aeronautical-tunnel misuse as first-class failure modes.
 
-**Source:** [wind-engineering-specialist/SKILL.md](wind-engineering-specialist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/wind-engineering-specialist/SKILL.md](skills/wind-engineering-specialist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

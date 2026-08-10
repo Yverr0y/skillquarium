@@ -9,7 +9,7 @@ tags:
   - domain/imaging-signals
 domain: imaging-signals
 status: untried
-source: cellpose-stardist-bioimage/SKILL.md
+source: skills/cellpose-stardist-bioimage/SKILL.md
 created: 2026-06-09
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-09
 > [!info] What it does
 > Bioimage cell and nucleus segmentation routing with cellpose-cell-segmentation, Cellpose, StarDist, napari-viz, and monai-medical-imaging-ai. Use when choosing or comparing segmentation models for microscopy, nuclei, cells, 2D/3D images, masks, overlays, fine-tuning, and segmentation quality control.
 
-**Source:** [cellpose-stardist-bioimage/SKILL.md](cellpose-stardist-bioimage/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cellpose-stardist-bioimage/SKILL.md](skills/cellpose-stardist-bioimage/SKILL.md)  ·  **Domain:** [Imaging, Microscopy & Biosignals](maps/imaging-signals.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

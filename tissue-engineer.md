@@ -13,7 +13,7 @@ expert_secondary:
 bridge_domains:
   - clinical-medical
 status: untried
-source: tissue-engineer/SKILL.md
+source: skills/tissue-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Tissue Engineer (wet-lab / regenerative medicine): Reasons from the TE triad, Krogh transport limits, and Engler mechanobiology through perfusion bioreactors, dECM constructive remodeling, ASTM F2150/F1635 characterization, and ARRIVE/ISO 10993/21560 translation—treating hypoxic cores, acellular controls, and biological-vs-technical replicate inflation as first-class...
 
-**Source:** [tissue-engineer/SKILL.md](tissue-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md), [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/tissue-engineer/SKILL.md](skills/tissue-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Secondary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md), [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

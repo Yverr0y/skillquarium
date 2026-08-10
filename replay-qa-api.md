@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: replay-qa-api/SKILL.md
+source: skills/replay-qa-api/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when calling Replay QA's REST API directly from Codex. Covers bearer-token setup, Replay recording prerequisites, project creation from Replay recordings or target URLs, polling, bug retrieval, journeys, test runs, explorations, and fix workflow discipline.
 
-**Source:** [replay-qa-api/SKILL.md](replay-qa-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/replay-qa-api/SKILL.md](skills/replay-qa-api/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

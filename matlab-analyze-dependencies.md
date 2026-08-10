@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-analyze-dependencies/SKILL.md
+source: skills/matlab-analyze-dependencies/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Analyze the effective toolbox file set to produce a Dependency Manifest — classify all transitive dependencies as included, product, add-on, or external-unresolved, then present resolution options with tradeoffs. Use after matlab-define-toolbox-api when the spec is approved.
 
-**Source:** [matlab-analyze-dependencies/SKILL.md](matlab-analyze-dependencies/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-analyze-dependencies/SKILL.md](skills/matlab-analyze-dependencies/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

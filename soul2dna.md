@@ -5,7 +5,7 @@ tags:
   - domain/genomics-variants
 domain: genomics-variants
 status: untried
-source: soul2dna/SKILL.md
+source: skills/soul2dna/SKILL.md
 created: 2026-06-09
 ---
 
@@ -14,7 +14,7 @@ created: 2026-06-09
 > [!info] What it does
 > Compile SOUL.md character profiles into synthetic diploid genomes (.genome.json) via trait-to-allele mapping
 
-**Source:** [soul2dna/SKILL.md](soul2dna/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/soul2dna/SKILL.md](skills/soul2dna/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](maps/genomics-variants.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

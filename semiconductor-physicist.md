@@ -13,7 +13,7 @@ bridge_domains:
   - imaging-signals
   - quantum-physics
 status: untried
-source: semiconductor-physicist/SKILL.md
+source: skills/semiconductor-physicist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Semiconductor Physicist (theory / transport & defect spectroscopy / heterostructures): Reasons from ε_n(k), effective-mass tensor, and 2D subband DOS through Hall/multiband fits, mobility scattering analysis, Lang DLTS (E_T, σ, N_T), and quantum-well intersubband spectroscopy while treating compensation, rate- window artifacts, and DFT gap error as first-class failure modes.
 
-**Source:** [semiconductor-physicist/SKILL.md](semiconductor-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/semiconductor-physicist/SKILL.md](skills/semiconductor-physicist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

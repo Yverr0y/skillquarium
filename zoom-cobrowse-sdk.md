@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: zoom-cobrowse-sdk/SKILL.md
+source: skills/zoom-cobrowse-sdk/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when using Cobrowse.
 
-**Source:** [zoom-cobrowse-sdk/SKILL.md](zoom-cobrowse-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/zoom-cobrowse-sdk/SKILL.md](skills/zoom-cobrowse-sdk/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

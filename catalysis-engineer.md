@@ -13,7 +13,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: catalysis-engineer/SKILL.md
+source: skills/catalysis-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Catalysis Engineer (process catalysis / hydroprocessing & FCC / deactivation economics / regeneration / vendor qualification): Reasons from catalyst lifecycle margin, space velocity (WHSV/GHSV/LHSV), and deactivation economics through plant historian trends, MAT/pilot trickle-bed activity tests, Aspen HYSYS activity factors, and ASTM crush/attrition plus TPO/ICP spent-catalyst profiling while treating coke, poisoning, sintering, attrition...
 
-**Source:** [catalysis-engineer/SKILL.md](catalysis-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/catalysis-engineer/SKILL.md](skills/catalysis-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

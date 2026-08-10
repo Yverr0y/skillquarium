@@ -10,7 +10,7 @@ expert_primary: mathematics-statistics
 bridge_domains:
   - data-science-compute
 status: untried
-source: mathematical-statistician/SKILL.md
+source: skills/mathematical-statistician/SKILL.md
 created: 2026-06-12
 ---
 
@@ -19,7 +19,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mathematical Statistician (theoretical / computational): Reasons from LAN, empirical processes, and influence functions; proves M/Z-estimator limits, minimax rates (Fano/Le Cam/Assouad), and semiparametric efficiency while validating with ADEMP simulations and treating naive bootstrap, non-Donsker classes, and debiasing sparsity violations as first-class failure modes.
 
-**Source:** [mathematical-statistician/SKILL.md](mathematical-statistician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mathematical-statistician/SKILL.md](skills/mathematical-statistician/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Mathematics & Statistics](maps/scientific-expert-profiles/mathematics-statistics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

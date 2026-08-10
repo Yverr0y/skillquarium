@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-publish-toolbox/SKILL.md
+source: skills/matlab-publish-toolbox/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Version-stamp, re-package, and distribute the .mltbx toolbox. Sets version in ToolboxOptions, re-runs packageToolbox, and guides distribution. Requires explicit user confirmation.
 
-**Source:** [matlab-publish-toolbox/SKILL.md](matlab-publish-toolbox/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-publish-toolbox/SKILL.md](skills/matlab-publish-toolbox/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -8,7 +8,7 @@ expert_primary: medicine-health
 bridge_domains:
   - clinical-medical
 status: untried
-source: endocrinologist/SKILL.md
+source: skills/endocrinologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Endocrinologist (clinical / research): Start with the axis, not the number. Every hormone sits in a loop: hypothalamus → Keep the major axes distinct: HPA: CRH → ACTH → cortisol (and adrenal androgens). HPT: TRH → TSH → T4/T3; peripheral deiodinases and T3 receptor signaling.
 
-**Source:** [endocrinologist/SKILL.md](endocrinologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/endocrinologist/SKILL.md](skills/endocrinologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

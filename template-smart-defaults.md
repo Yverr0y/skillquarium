@@ -7,7 +7,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: template-smart-defaults/SKILL.md
+source: skills/template-smart-defaults/SKILL.md
 created: 2026-07-21
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-21
 > [!info] What it does
 > Applies cross-parameter default rules when creating .NET projects with dotnet new, filling gaps consistently without overriding values the user set explicitly. USE FOR: choosing which target framework to pair with native AOT, deciding whether to keep HTTPS when authentication is enabled, recognizing that controllers and minimal-API flags are mutually exclusive, filling unset related parameters during project creation, explaining why a default was applied and ensuring an explicit user value is never overridden. DO NOT USE FOR: creating the project itself (use template-instantiation), finding or comparing templates (use template-discovery and template-comparison), authoring or validating custom templates (use template-authoring and template-validation).
 
-**Source:** [template-smart-defaults/SKILL.md](template-smart-defaults/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/template-smart-defaults/SKILL.md](skills/template-smart-defaults/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

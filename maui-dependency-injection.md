@@ -10,7 +10,7 @@ tags:
   - domain/dotnet-development
 domain: dotnet-development
 status: untried
-source: maui-dependency-injection/SKILL.md
+source: skills/maui-dependency-injection/SKILL.md
 created: 2026-07-21
 ---
 
@@ -19,7 +19,7 @@ created: 2026-07-21
 > [!info] What it does
 > Guidance for configuring dependency injection in .NET MAUI apps — service registration in MauiProgram.cs, lifetime selection (Singleton / Transient / Scoped), constructor injection, Shell navigation auto-resolution, platform-specific registrations, and testability patterns. USE FOR: "dependency injection", "DI setup", "AddSingleton", "AddTransient", "AddScoped", "service registration", "constructor injection", "IServiceProvider", "MauiProgram DI", "register services", "BindingContext injection". DO NOT USE FOR: data binding (use maui-data-binding), Shell route configuration (use maui-shell-navigation), unit-test mocking frameworks (use standard xUnit and NSubstitute patterns).
 
-**Source:** [maui-dependency-injection/SKILL.md](maui-dependency-injection/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/maui-dependency-injection/SKILL.md](skills/maui-dependency-injection/SKILL.md)  ·  **Domain:** [.NET & C# Development](maps/dotnet-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

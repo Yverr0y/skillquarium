@@ -8,7 +8,7 @@ expert_primary: biology-life-sciences
 bridge_domains:
   - bio-databases-platforms
 status: untried
-source: herpetologist/SKILL.md
+source: skills/herpetologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Herpetologist (field / observational / lab / conservation herpetology): Reasons from detectability-limited sampling and ectotherm phenology through VES, pitfall/drift-fence and cover-board arrays, NAAMP call surveys, Program MARK CJS, unmarked/occuTTD occupancy, and Bd/Bsal MW113 qPCR biosecurity; uses AmphibiaWeb, Reptile Database, SSAR 9th ed./CNAH names, Amphibian Disease Portal...
 
-**Source:** [herpetologist/SKILL.md](herpetologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/herpetologist/SKILL.md](skills/herpetologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

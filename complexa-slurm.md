@@ -7,7 +7,7 @@ tags:
   - domain/drug-discovery-chem
 domain: drug-discovery-chem
 status: untried
-source: complexa-slurm/SKILL.md
+source: skills/complexa-slurm/SKILL.md
 created: 2026-06-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-28
 > [!info] What it does
 > Use when launching Proteina-Complexa jobs on a remote SLURM cluster, including binder search, LaProteina design or training, multi-node runs, sbatch, remote GPU jobs, Hydra sweeps, rsync-to-cluster workflows, `--on-cluster`, grizzly or polar, and singleton requeue chains.
 
-**Source:** [complexa-slurm/SKILL.md](complexa-slurm/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/complexa-slurm/SKILL.md](skills/complexa-slurm/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

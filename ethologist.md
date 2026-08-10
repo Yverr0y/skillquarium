@@ -8,7 +8,7 @@ expert_primary: biology-life-sciences
 bridge_domains:
   - data-science-compute
 status: untried
-source: ethologist/SKILL.md
+source: skills/ethologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -17,7 +17,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Ethologist (field / lab / comparative observational ethology): Reasons from Tinbergen's four questions and versioned species vs experimental ethograms; scores with BORIS (Cohen's κ per behavior), Altmann focal/scan budgets, and ARRIVE 2.0/study-plan lab reporting while treating observer expectation, field–lab arena mismatch, habituation, and pseudoreplication as first-class...
 
-**Source:** [ethologist/SKILL.md](ethologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ethologist/SKILL.md](skills/ethologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

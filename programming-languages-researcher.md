@@ -13,7 +13,7 @@ bridge_domains:
   - data-science-compute
   - software-dev
 status: untried
-source: programming-languages-researcher/SKILL.md
+source: skills/programming-languages-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -22,7 +22,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Programming Languages Researcher (formal semantics / type systems / mechanized metatheory (Coq/Ott) / verification / POPL-PLDI): Reasons from operational semantics, type-theoretic invariants, and soundness as preservation-plus- progress through Ott/LN-defined calculi, Coq/Isabelle/Agda mechanization, Hindley- Milner inference, and abstract-interpretation Galois connections while treating stuck terms, blame escaping onto well-typed pure terms...
 
-**Source:** [programming-languages-researcher/SKILL.md](programming-languages-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/programming-languages-researcher/SKILL.md](skills/programming-languages-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

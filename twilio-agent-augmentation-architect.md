@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-agent-augmentation-architect/SKILL.md
+source: skills/twilio-agent-augmentation-architect/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Planning skill for augmenting human agents with real-time AI intelligence. Qualifies the developer's use case across coaching, compliance, QA, and routing to recommend the right Conversation Intelligence + Conversation Memory + TaskRouter architecture. Handles both "I want to add AI coaching to my call center" and "configure Conversation Intelligence operators for script adherence.
 
-**Source:** [twilio-agent-augmentation-architect/SKILL.md](twilio-agent-augmentation-architect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-agent-augmentation-architect/SKILL.md](skills/twilio-agent-augmentation-architect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

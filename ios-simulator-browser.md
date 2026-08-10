@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ios-simulator-browser/SKILL.md
+source: skills/ios-simulator-browser/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Mirror an iOS Simulator into the Codex in-app browser and render SwiftUI previews from importable Swift packages in that simulator with hot reload. Use when a user wants to watch or interact with an iOS app in the browser, see a SwiftUI preview outside Xcode Canvas, iterate live on a preview, or capture browser-visible simulator proof.
 
-**Source:** [ios-simulator-browser/SKILL.md](ios-simulator-browser/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ios-simulator-browser/SKILL.md](skills/ios-simulator-browser/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

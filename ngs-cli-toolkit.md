@@ -11,7 +11,7 @@ tags:
   - domain/sequence-phylogenetics
 domain: sequence-phylogenetics
 status: untried
-source: ngs-cli-toolkit/SKILL.md
+source: skills/ngs-cli-toolkit/SKILL.md
 created: 2026-06-10
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-10
 > [!info] What it does
 > The core command-line NGS workhorses for going from raw reads to variants — bwa-mem2/minimap2/bowtie2 (alignment), samtools (BAM sort/index/stats/view), bcftools (VCF call/filter/normalize/query), GATK4 (BQSR, HaplotypeCaller, best practices), and plink2 (genotype QC, PCA, GWAS). Use for read alignment, BAM/CRAM manipulation, variant calling and VCF wrangling on the command line. For Python-native BAM/VCF access use pysam; for full managed pipelines use the nf-core wrappers.
 
-**Source:** [ngs-cli-toolkit/SKILL.md](ngs-cli-toolkit/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ngs-cli-toolkit/SKILL.md](skills/ngs-cli-toolkit/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

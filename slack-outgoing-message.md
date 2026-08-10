@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: slack-outgoing-message/SKILL.md
+source: skills/slack-outgoing-message/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Primary skill for composing, drafting, or refining any outbound Slack content. Use this whenever the task will require using `slack_send_message`, `slack_send_message_draft`, or `slack_create_canvas`. Use `slack` to read or analyze Slack context; use this skill to produce the final outgoing message.
 
-**Source:** [slack-outgoing-message/SKILL.md](slack-outgoing-message/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/slack-outgoing-message/SKILL.md](skills/slack-outgoing-message/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-call-python/SKILL.md
+source: skills/matlab-call-python/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Call Python libraries from MATLAB using the py. interface, pyrun, pyrunfile, or pyenv. Use when writing or executing MATLAB code that calls Python functions or passes data between MATLAB and Python. REQUIRED when triaging Python errors from MATLAB (ModuleNotFoundError, ImportError, "Unable to resolve the name 'py.*'"). REQUIRED when setting up Python environments for MATLAB, creating virtual environments, or installing Python packages for use with MATLAB.
 
-**Source:** [matlab-call-python/SKILL.md](matlab-call-python/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-call-python/SKILL.md](skills/matlab-call-python/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

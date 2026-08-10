@@ -7,7 +7,7 @@ tags:
   - domain/software-dev
 domain: software-dev
 status: untried
-source: spec-kit/SKILL.md
+source: skills/spec-kit/SKILL.md
 created: 2026-08-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-08-09
 > [!info] What it does
 > Runs the Spec-Kit (GitHub SDD) artifact pipeline — constitution, spec, clarify, plan, tasks, analyze, implement — using its templates. Use when a feature needs a versioned spec/plan/tasks set under specs/NNN-feature/, when requirements must be pinned before any code, or when checking spec-plan-tasks consistency before implementing.
 
-**Source:** [spec-kit/SKILL.md](spec-kit/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/spec-kit/SKILL.md](skills/spec-kit/SKILL.md)  ·  **Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

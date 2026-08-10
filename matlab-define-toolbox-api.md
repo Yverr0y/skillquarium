@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-define-toolbox-api/SKILL.md
+source: skills/matlab-define-toolbox-api/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Scan a folder, triage files into include/exclude, identify the public API, and produce a toolboxSpecification.m Interface Spec — all in one pass. Use when turning loose code into a toolbox.
 
-**Source:** [matlab-define-toolbox-api/SKILL.md](matlab-define-toolbox-api/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-define-toolbox-api/SKILL.md](skills/matlab-define-toolbox-api/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

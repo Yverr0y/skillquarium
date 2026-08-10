@@ -11,7 +11,7 @@ expert_primary: engineering-technology
 bridge_domains:
   - data-science-compute
 status: untried
-source: telecommunications-engineer/SKILL.md
+source: skills/telecommunications-engineer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Telecommunications Engineer (RAN/backhaul/core / link budgets / propagation modeling / spectrum compliance (3GPP, ITU-R, FCC Part 47)): Expert profile for telecommunications engineer — see AGENTS.md for field-specific methods and failure modes.
 
-**Source:** [telecommunications-engineer/SKILL.md](telecommunications-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/telecommunications-engineer/SKILL.md](skills/telecommunications-engineer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Engineering & Technology](maps/scientific-expert-profiles/engineering-technology.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -14,7 +14,7 @@ expert_secondary:
 bridge_domains:
   - clinical-medical
 status: untried
-source: veterinarian/SKILL.md
+source: skills/veterinarian/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Veterinarian (clinical / companion & production animal medicine / One Health): Reasons from species-specific physiology and pharmacology (Plumb's, AMDUCA, MDR1/PRiME), WSAVA 2024/AAHA/ISCAID 2025/CAPC guidelines, IDEXX/Cornell/eClinpath diagnostics, CMPS-SF/FGS pain and RECOVER 2024 CPR, and One Health zoonosis reporting while treating cat NSAID/acetaminophen toxicity, subclinical bacteriuria...
 
-**Source:** [veterinarian/SKILL.md](veterinarian/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/veterinarian/SKILL.md](skills/veterinarian/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Agriculture, Food & Animal Sciences](maps/scientific-expert-profiles/agriculture-food-animal-sciences.md)  ·  **Secondary:** [Medicine & Health](maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

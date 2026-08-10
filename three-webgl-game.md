@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: three-webgl-game/SKILL.md
+source: skills/three-webgl-game/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Implement browser-game runtimes with plain Three.js. Use when the user wants imperative scene control in TypeScript or Vite with GLB assets, loaders, physics, and low-level WebGL debugging.
 
-**Source:** [three-webgl-game/SKILL.md](three-webgl-game/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/three-webgl-game/SKILL.md](skills/three-webgl-game/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -12,7 +12,7 @@ expert_primary: chemistry-materials
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: polymer-chemist/SKILL.md
+source: skills/polymer-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Polymer Chemist (wet-lab / synthetic polymer chemistry): Designs and interprets polymer synthesis, characterization, and structure–property relationships from mechanism (chain-growth, step-growth, RDRP, ROMP) through absolute MW verification to application-relevant thermal and rheological data.
 
-**Source:** [polymer-chemist/SKILL.md](polymer-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/polymer-chemist/SKILL.md](skills/polymer-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-ui-jetpack-compose/SKILL.md
+source: skills/expo-ui-jetpack-compose/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > `@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views and modifiers in your app.
 
-**Source:** [expo-ui-jetpack-compose/SKILL.md](expo-ui-jetpack-compose/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-ui-jetpack-compose/SKILL.md](skills/expo-ui-jetpack-compose/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: cns-plot/SKILL.md
+source: skills/cns-plot/SKILL.md
 created: 2026-07-28
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-28
 > [!info] What it does
 > Create, restyle, compose, and export compact publication-ready scientific figures with the Python cnsplots library or its source-derived Cell/Nature/Science plotting patterns. Use for cnsplots code, journal-sized Matplotlib/Seaborn figures, editable vector output, semantic scientific color systems, statistical annotations, dense rasterized layers, and mixed-size multi-panel layouts with precise text, artist, padding, margin, and panel-label control. Pair with nature-figure or scientific-visualization for broader figure strategy; use matplotlib, seaborn, adjusttext, or build-complexheatmaps when their lower-level or specialized APIs are needed.
 
-**Source:** [cns-plot/SKILL.md](cns-plot/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/cns-plot/SKILL.md](skills/cns-plot/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -11,7 +11,7 @@ bridge_domains:
   - data-science-compute
   - quantum-physics
 status: untried
-source: superconductivity-scientist/SKILL.md
+source: skills/superconductivity-scientist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -20,7 +20,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Superconductivity Scientist (experimental / computational / materials discovery & applied conductors): Reasons from BCS/Eliashberg/GL order parameters, pairing symmetry, and vortex physics; validates Tc with Meissner/χ/C triads, phase-sensitive Josephson tests, ARPES/STM gaps, and EPW; uses SuperCon/3DSC and IEC 61788 Ic standards while treating filamentary transitions, pseudogap misreads, DAC flux trapping, and HTS...
 
-**Source:** [superconductivity-scientist/SKILL.md](superconductivity-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/superconductivity-scientist/SKILL.md](skills/superconductivity-scientist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Physics & Astronomy](maps/scientific-expert-profiles/physics-astronomy.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

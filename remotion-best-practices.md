@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: remotion-best-practices/SKILL.md
+source: skills/remotion-best-practices/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Best practices for Remotion - Video creation in React
 
-**Source:** [remotion-best-practices/SKILL.md](remotion-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/remotion-best-practices/SKILL.md](skills/remotion-best-practices/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

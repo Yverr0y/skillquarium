@@ -7,7 +7,7 @@ tags:
   - domain/literature-discovery
 domain: literature-discovery
 status: untried
-source: research-lookup/SKILL.md
+source: skills/research-lookup/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Look up current research information using parallel-cli search (primary, fast web search) or the Parallel Chat API (deep research). Automatically routes queries to the best backend. Use for finding papers, gathering research data, and verifying scientific information.
 
-**Source:** [research-lookup/SKILL.md](research-lookup/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/research-lookup/SKILL.md](skills/research-lookup/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

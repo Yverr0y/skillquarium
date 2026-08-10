@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: plan-zoom-product/SKILL.md
+source: skills/plan-zoom-product/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when choosing products.
 
-**Source:** [plan-zoom-product/SKILL.md](plan-zoom-product/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/plan-zoom-product/SKILL.md](skills/plan-zoom-product/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

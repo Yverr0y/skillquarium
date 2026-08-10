@@ -14,7 +14,7 @@ bridge_domains:
   - imaging-signals
   - data-science-compute
 status: untried
-source: crystallographer/SKILL.md
+source: skills/crystallographer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Crystallographer (crystal growth / X-ray & neutron diffraction / phasing & refinement / structure validation / deposition (PDB, CSD/CCDC)): Reasons from reciprocal-space diffraction data, Bragg's law, and space- group symmetry through XDS/DIALS scaling, Phaser/SHELX phasing, Coot/Olex2 building, and MolProbity/checkCIF validation while treating merohedral twinning, wrong space groups, model-bias density unsupported by omit/polder maps, and R_free...
 
-**Source:** [crystallographer/SKILL.md](crystallographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/crystallographer/SKILL.md](skills/crystallographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

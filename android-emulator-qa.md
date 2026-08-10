@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: android-emulator-qa/SKILL.md
+source: skills/android-emulator-qa/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when validating Android feature flows in an emulator with adb-driven launch, input, UI-tree inspection, screenshots, and logcat capture.
 
-**Source:** [android-emulator-qa/SKILL.md](android-emulator-qa/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/android-emulator-qa/SKILL.md](skills/android-emulator-qa/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

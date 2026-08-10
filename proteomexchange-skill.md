@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: proteomexchange-skill/SKILL.md
+source: skills/proteomexchange-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact ProteomeXchange PROXI requests for datasets, libraries, peptidoforms, proteins, PSMs, spectra, and USI examples. Use when a user wants concise PROXI summaries
 
-**Source:** [proteomexchange-skill/SKILL.md](proteomexchange-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/proteomexchange-skill/SKILL.md](skills/proteomexchange-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -12,7 +12,7 @@ expert_secondary:
 bridge_domains:
   - software-dev
 status: untried
-source: human-computer-interaction-researcher/SKILL.md
+source: skills/human-computer-interaction-researcher/SKILL.md
 created: 2026-06-12
 ---
 
@@ -21,7 +21,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Human–Computer Interaction Researcher (empirical / design / field & lab HCI research): Reasons from situated context, Fitts/GOMS/KLM, and CHI contribution types; runs contextual inquiry through LMM/CLMM analysis with SUS/NASA- TLX triangulation; uses Prolific/OSF and treats demand characteristics, novelty effects, ordinal misuse, and WEIRD samples as first-class failure modes.
 
-**Source:** [human-computer-interaction-researcher/SKILL.md](human-computer-interaction-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/human-computer-interaction-researcher/SKILL.md](skills/human-computer-interaction-researcher/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Computing & Data Science](maps/scientific-expert-profiles/computing-data-science.md)  ·  **Secondary:** [Social & Behavioral Sciences](maps/scientific-expert-profiles/social-behavioral-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

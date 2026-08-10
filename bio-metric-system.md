@@ -7,7 +7,7 @@ tags:
   - domain/research-writing
 domain: research-writing
 status: untried
-source: bio-metric-system/SKILL.md
+source: skills/bio-metric-system/SKILL.md
 created: 2026-06-17
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-17
 > [!info] What it does
 > Step 4 of the bio-manuscript pipeline: design the evaluation-metric system. Use when extracting quantitative and qualitative metrics from literature or adjacent fields, organizing them into groups, and explaining what each metric measures and how to compute it.
 
-**Source:** [bio-metric-system/SKILL.md](bio-metric-system/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/bio-metric-system/SKILL.md](skills/bio-metric-system/SKILL.md)  ·  **Domain:** [Scientific Writing, Figures & Publishing](maps/research-writing.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

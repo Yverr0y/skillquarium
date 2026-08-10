@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: aiq-research/SKILL.md
+source: skills/aiq-research/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.
 
-**Source:** [aiq-research/SKILL.md](aiq-research/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/aiq-research/SKILL.md](skills/aiq-research/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

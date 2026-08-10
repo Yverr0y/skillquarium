@@ -6,7 +6,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-agent-connect/SKILL.md
+source: skills/twilio-agent-connect/SKILL.md
 created: 2026-08-07
 ---
 
@@ -15,7 +15,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building or integrating Twilio Agent Connect (TAC) to connect third-party LLM agent runtimes with Twilio Voice, Messaging, ConversationRelay, Conversation Memory, Conversation Orchestrator, or Enterprise Knowledge.
 
-**Source:** [twilio-agent-connect/SKILL.md](twilio-agent-connect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-agent-connect/SKILL.md](skills/twilio-agent-connect/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

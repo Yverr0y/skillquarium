@@ -15,7 +15,7 @@ SPEC.loader.exec_module(skill_toggle)
 
 
 def make_skill(root: Path, name: str, *, claude=None, codex=None) -> Path:
-    directory = root / name
+    directory = root / skill_toggle.SKILLS_SUBDIR / name
     directory.mkdir(parents=True)
     claude_line = (
         "" if claude is None else f"disable-model-invocation: {str(claude).lower()}\n"
@@ -213,7 +213,11 @@ class SkillToggleTests(unittest.TestCase):
     def test_pre_commit_reset_saves_state_and_restores_only_head_metadata(self):
         directory = make_skill(self.root, "committed")
         subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
-        subprocess.run(["git", "add", "committed/SKILL.md"], cwd=self.root, check=True)
+        subprocess.run(
+            ["git", "add", f"{skill_toggle.SKILLS_SUBDIR}/committed/SKILL.md"],
+            cwd=self.root,
+            check=True,
+        )
         subprocess.run(
             [
                 "git",

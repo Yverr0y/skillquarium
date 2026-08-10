@@ -9,7 +9,7 @@ bridge_domains:
   - genomics-variants
   - sequence-phylogenetics
 status: untried
-source: mycologist/SKILL.md
+source: skills/mycologist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -18,7 +18,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Mycologist (field / herbarium / culture & molecular systematics): Reasons from fungal life cycles, voucher-first taxonomy, and integrated sporocarp–culture–ITS/multilocus workflows; uses MycoBank/UNITE/MaarjAM, FUSARIUM-ID, EPPO Q-bank, and MycoCosm while treating rich-media non-sporulation, ITS saturation in Fusarium/Penicillium, AMF SSU vs ITS misuse, environmental-DNA-only names...
 
-**Source:** [mycologist/SKILL.md](mycologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/mycologist/SKILL.md](skills/mycologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

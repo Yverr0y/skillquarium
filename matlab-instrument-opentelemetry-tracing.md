@@ -7,7 +7,7 @@ tags:
   - domain/matlab-development
 domain: matlab-development
 status: untried
-source: matlab-instrument-opentelemetry-tracing/SKILL.md
+source: skills/matlab-instrument-opentelemetry-tracing/SKILL.md
 created: 2026-07-26
 ---
 
@@ -16,7 +16,7 @@ created: 2026-07-26
 > [!info] What it does
 > Add OpenTelemetry tracing to MATLAB code. Use when the user asks to "add tracing", "instrument with spans", "add OpenTelemetry", "trace my code", "add observability" (when about tracing), or mentions "spans", "distributed tracing", or "OTel tracing" in the context of MATLAB functions. Covers span creation, parent-child context propagation, error handling, attributes, events, and semantic conventions.
 
-**Source:** [matlab-instrument-opentelemetry-tracing/SKILL.md](matlab-instrument-opentelemetry-tracing/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/matlab-instrument-opentelemetry-tracing/SKILL.md](skills/matlab-instrument-opentelemetry-tracing/SKILL.md)  ·  **Domain:** [MATLAB Development](maps/matlab-development.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

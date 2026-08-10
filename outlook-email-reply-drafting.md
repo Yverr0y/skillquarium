@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: outlook-email-reply-drafting/SKILL.md
+source: skills/outlook-email-reply-drafting/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Draft Outlook email replies safely from connected mailbox context. Use when the user wants to reply to a thread, decide whether to reply-all, prepare a draft before sending, or turn the latest Outlook message into a polished response.
 
-**Source:** [outlook-email-reply-drafting/SKILL.md](outlook-email-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/outlook-email-reply-drafting/SKILL.md](skills/outlook-email-reply-drafting/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: twilio-enterprise-knowledge/SKILL.md
+source: skills/twilio-enterprise-knowledge/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or grounding responses in approved organization content. Use this for enterprise business knowledge; use `twilio-customer-memory` for person-specific customer context.
 
-**Source:** [twilio-enterprise-knowledge/SKILL.md](twilio-enterprise-knowledge/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/twilio-enterprise-knowledge/SKILL.md](skills/twilio-enterprise-knowledge/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

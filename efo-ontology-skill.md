@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: efo-ontology-skill/SKILL.md
+source: skills/efo-ontology-skill/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Submit compact EFO OLS4 requests for search, term lookup, children, and descendants. Use when a user wants concise EFO resolution or ontology-expansion summaries
 
-**Source:** [efo-ontology-skill/SKILL.md](efo-ontology-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/efo-ontology-skill/SKILL.md](skills/efo-ontology-skill/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

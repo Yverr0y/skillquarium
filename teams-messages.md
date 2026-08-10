@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: teams-messages/SKILL.md
+source: skills/teams-messages/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Compose, route, draft, or send Microsoft Teams messages with exact destination resolution, real user mentions, and Teams-native DM or channel routing.
 
-**Source:** [teams-messages/SKILL.md](teams-messages/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/teams-messages/SKILL.md](skills/teams-messages/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

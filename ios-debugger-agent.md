@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: ios-debugger-agent/SKILL.md
+source: skills/ios-debugger-agent/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Build, run, and debug iOS apps on Simulator with XcodeBuildMCP. Use when launching an app, inspecting simulator UI or logs, or diagnosing runtime behavior.
 
-**Source:** [ios-debugger-agent/SKILL.md](ios-debugger-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/ios-debugger-agent/SKILL.md](skills/ios-debugger-agent/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

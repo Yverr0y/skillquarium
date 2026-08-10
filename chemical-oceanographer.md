@@ -16,7 +16,7 @@ expert_secondary:
 bridge_domains:
   - drug-discovery-chem
 status: untried
-source: chemical-oceanographer/SKILL.md
+source: skills/chemical-oceanographer/SKILL.md
 created: 2026-06-12
 ---
 
@@ -25,7 +25,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Chemical Oceanographer (seawater carbonate chemistry / nutrient & trace-metal biogeochemistry / isotope tracers / shipboard & autonomous sampling...): Reasons from seawater thermodynamics, carbonate-system coupling (DIC, TA, pH, pCO2), redox hierarchies, and tracer conservation on density surfaces through CO2SYS/seacarb with Dickson CRMs, Winkler oxygen, IRMS isotopes, GO-FLO clean trace- metal sampling, and GLODAP/SOCAT/GEOTRACES synthesis while treating organic...
 
-**Source:** [chemical-oceanographer/SKILL.md](chemical-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/chemical-oceanographer/SKILL.md](skills/chemical-oceanographer/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Earth & Environmental Sciences](maps/scientific-expert-profiles/earth-environmental-sciences.md)  ·  **Secondary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

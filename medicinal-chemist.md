@@ -14,7 +14,7 @@ bridge_domains:
   - drug-discovery-chem
   - data-science-compute
 status: untried
-source: medicinal-chemist/SKILL.md
+source: skills/medicinal-chemist/SKILL.md
 created: 2026-06-12
 ---
 
@@ -23,7 +23,7 @@ created: 2026-06-12
 > [!info] What it does
 > Expert-thinking profile for Medicinal Chemist (lead optimization / SAR / DMPK & ADME / structure-based design / multiparameter (LLE, Fsp3, TPP)): Reasons from structure- activity relationships, lipophilicity and unbound-fraction physicochemistry, synthetic accessibility, and target-product-profile multiparameter optimization through LLE/Fsp3/QED scoring, FEP+/Glide docking validated against co-crystal and SPR data, ELN-tracked LC-MS/NMR synthesis, and DMPK...
 
-**Source:** [medicinal-chemist/SKILL.md](medicinal-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/medicinal-chemist/SKILL.md](skills/medicinal-chemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Relevant capability domains
 

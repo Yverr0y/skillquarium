@@ -5,7 +5,7 @@ aliases:
 tags:
   - skill
 status: untried
-source: expo-cicd-workflows/SKILL.md
+source: skills/expo-cicd-workflows/SKILL.md
 created: 2026-08-07
 ---
 
@@ -14,7 +14,7 @@ created: 2026-08-07
 > [!info] What it does
 > Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
 
-**Source:** [expo-cicd-workflows/SKILL.md](expo-cicd-workflows/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/expo-cicd-workflows/SKILL.md](skills/expo-cicd-workflows/SKILL.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 

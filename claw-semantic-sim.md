@@ -7,7 +7,7 @@ tags:
   - domain/literature-discovery
 domain: literature-discovery
 status: untried
-source: claw-semantic-sim/SKILL.md
+source: skills/claw-semantic-sim/SKILL.md
 created: 2026-06-09
 ---
 
@@ -16,7 +16,7 @@ created: 2026-06-09
 > [!info] What it does
 > Semantic Similarity Index for disease research literature using PubMedBERT embeddings
 
-**Source:** [claw-semantic-sim/SKILL.md](claw-semantic-sim/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
+**Source:** [skills/claw-semantic-sim/SKILL.md](skills/claw-semantic-sim/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](maps/literature-discovery.md)  ·  **Table:** [skills.base](skills.base)  ·  **Index:** [Skills Index](index.md)
 
 ## Related skills
 
