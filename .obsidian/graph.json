@@ -237,6 +237,62 @@
         "a": 1,
         "rgb": 13382451
       }
+    },
+    {
+      "query": "tag:#domain/saas-platforms",
+      "color": {
+        "a": 1,
+        "rgb": 14702492
+      }
+    },
+    {
+      "query": "tag:#domain/hosting-edge-platforms",
+      "color": {
+        "a": 1,
+        "rgb": 3064502
+      }
+    },
+    {
+      "query": "tag:#domain/comms-productivity",
+      "color": {
+        "a": 1,
+        "rgb": 8085503
+      }
+    },
+    {
+      "query": "tag:#domain/finance-investment",
+      "color": {
+        "a": 1,
+        "rgb": 3050327
+      }
+    },
+    {
+      "query": "tag:#domain/mobile-native-dev",
+      "color": {
+        "a": 1,
+        "rgb": 16747074
+      }
+    },
+    {
+      "query": "tag:#domain/game-development",
+      "color": {
+        "a": 1,
+        "rgb": 10233776
+      }
+    },
+    {
+      "query": "tag:#domain/data-visualization",
+      "color": {
+        "a": 1,
+        "rgb": 42733
+      }
+    },
+    {
+      "query": "tag:#domain/matlab-development",
+      "color": {
+        "a": 1,
+        "rgb": 30376
+      }
     }
   ],
   "collapse-display": false,
