@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "saved_at": "2026-08-09T13:18:39.730528+00:00",
+  "saved_at": "2026-08-10T01:22:20.791837+00:00",
   "root": "/Users/stan/.agents/skills",
   "skills": {
     "academic-paper": {
@@ -6000,6 +6000,10 @@
       "codex_enabled": true
     },
     "spec-driven-development": {
+      "claude_enabled": true,
+      "codex_enabled": true
+    },
+    "spec-kit": {
       "claude_enabled": true,
       "codex_enabled": true
     },
