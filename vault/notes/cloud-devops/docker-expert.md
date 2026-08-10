@@ -21,7 +21,7 @@ created: 2026-06-13
 ## Related skills
 
 - [docker](../../notes/software-dev/docker.md) — Containerizing and shipping applications with Docker — writing efficient Dockerfiles (multi-stage builds, layer caching, small/secure images), docker compose for multi-service local...
-- [industry](../../notes/uncategorized/industry.md) — Cross-company industry comparison across multiple tickers
+- [industry](../../notes/finance-investment/industry.md) — Cross-company industry comparison across multiple tickers
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

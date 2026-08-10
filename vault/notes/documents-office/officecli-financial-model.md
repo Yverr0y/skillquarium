@@ -20,7 +20,7 @@ created: 2026-07-11
 
 ## Related skills
 
-- [dcf](../../notes/uncategorized/dcf.md) — Discounted cash flow valuation with sensitivity analysis
+- [dcf](../../notes/finance-investment/dcf.md) — Discounted cash flow valuation with sensitivity analysis
 - [officecli-xlsx](../../notes/documents-office/officecli-xlsx.md) — Use this skill any time a .xlsx file is involved -- as input, output, or both
 - [xlsx](../../notes/documents-office/xlsx.md) — Spreadsheet toolkit (.xlsx/.csv). Create/edit with formulas/formatting, analyze data, visualization, recalculate formulas, for spreadsheet processing and analysis
 

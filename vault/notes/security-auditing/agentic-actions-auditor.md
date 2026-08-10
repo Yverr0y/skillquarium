@@ -20,10 +20,10 @@ created: 2026-06-09
 
 ## Related skills
 
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [github-actions-ci](../../notes/software-dev/github-actions-ci.md) — Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows...
 - [llm-agent-security-redteam](../../notes/security-auditing/llm-agent-security-redteam.md) — LLM and agent security red teaming with agentic-actions-auditor, supply-chain-risk-auditor, semgrep, codeql, and sarif-parsing
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -19,7 +19,7 @@ created: 2026-06-09
 ## Related skills
 
 - [academic-paper](../../notes/academic-pipelines/academic-paper.md) — 12-agent academic paper writing pipeline
-- [cite-check](../../notes/uncategorized/cite-check.md) — Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately
+- [cite-check](../../notes/literature-discovery/cite-check.md) — Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately
 - [clinical-decision-support](../../notes/clinical-medical/clinical-decision-support.md) — Generate professional clinical decision support (CDS) documents for pharmaceutical and clinical research settings, including patient cohort analyses (biomarker-stratified with...
 - [etetoolkit](../../notes/sequence-phylogenetics/etetoolkit.md) — Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics
 - [liteparse](../../notes/documents-office/liteparse.md) — Local document and PDF parsing with spatial text and bounding boxes
@@ -35,7 +35,7 @@ created: 2026-06-09
 - [report-template](../../notes/documents-office/report-template.md) — Publication-quality PDF report generation using Typst templates
 - [sec-report](../../notes/proteomics-metabolomics/sec-report.md) — SEC (size-exclusion chromatography) analysis with peak detection, oligomer classification, and publication-quality PDF report generation via Typst templates
 - [treatment-plans](../../notes/clinical-medical/treatment-plans.md) — Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties
-- [twilio-enterprise-knowledge](../../notes/uncategorized/twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
+- [twilio-enterprise-knowledge](../../notes/saas-platforms/twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
 - [wes-clinical-report-en](../../notes/clinical-medical/wes-clinical-report-en.md) — Generates professional clinical PDF reports in English from WES (Whole Exome Sequencing) data with clinical interpretation summary, pharmacogenomic alerts, and follow-up recommendations
 - [wes-clinical-report-es](../../notes/clinical-medical/wes-clinical-report-es.md) — Generates professional clinical PDF reports in Spanish from WES (Whole Exome Sequencing) data with clinical interpretation, pharmacogenomic alerts, and follow-up recommendations
 

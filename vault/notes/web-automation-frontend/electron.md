@@ -21,7 +21,7 @@ created: 2026-06-09
 - [agent-browser](../../notes/web-automation-frontend/agent-browser.md) — Browser automation CLI for AI agents. Use when the user needs to interact with websites, verify dev server output, test web apps, navigate pages, fill forms, click buttons, take...
 - [playwright-best-practices](../../notes/web-automation-frontend/playwright-best-practices.md) — Use when writing Playwright tests, fixing flaky tests, debugging failures, implementing Page Object Model, configuring CI/CD, optimizing performance, mocking APIs, handling...
 - [slack](../../notes/web-automation-frontend/slack.md) — Read Slack context, route to the right Slack workflow, and prepare or perform Slack writes that match the user's intent
-- [zoom-meeting-sdk-electron](../../notes/uncategorized/zoom-meeting-sdk-electron.md) — Zoom Meeting SDK for Electron desktop applications
+- [zoom-meeting-sdk-electron](../../notes/saas-platforms/zoom-meeting-sdk-electron.md) — Zoom Meeting SDK for Electron desktop applications
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

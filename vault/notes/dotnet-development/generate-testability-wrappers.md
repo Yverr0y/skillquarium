@@ -22,7 +22,7 @@ created: 2026-07-21
 
 - [detect-static-dependencies](../../notes/dotnet-development/detect-static-dependencies.md) — Scan C# source files for hard-to-test static dependencies — DateTime.Now/UtcNow, File.*, Directory.*, Environment.*, HttpClient, Console.*, Process.*, and other untestable statics
 - [migrate-static-to-wrapper](../../notes/dotnet-development/migrate-static-to-wrapper.md) — Replace existing static dependency call sites with a wrapper or built-in abstraction that already exists or is registered in DI
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

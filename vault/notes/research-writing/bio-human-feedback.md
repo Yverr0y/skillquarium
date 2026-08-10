@@ -21,7 +21,7 @@ created: 2026-06-17
 ## Related skills
 
 - [review](../../notes/software-dev/review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

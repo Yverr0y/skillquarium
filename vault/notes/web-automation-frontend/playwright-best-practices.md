@@ -23,12 +23,12 @@ created: 2026-06-09
 
 ## Related skills
 
-- [auth](../../notes/uncategorized/auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
+- [auth](../../notes/security-auditing/auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
 - [electron](../../notes/web-automation-frontend/electron.md) — Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol
-- [email](../../notes/uncategorized/email.md) — Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates
-- [payments](../../notes/uncategorized/payments.md) — Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
-- [verification](../../notes/uncategorized/verification.md) — Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response
+- [email](../../notes/comms-productivity/email.md) — Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates
+- [payments](../../notes/saas-platforms/payments.md) — Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
+- [verification](../../notes/software-dev/verification.md) — Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

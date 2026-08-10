@@ -26,7 +26,7 @@ created: 2026-07-21
 - [maui-app-lifecycle](../../notes/dotnet-development/maui-app-lifecycle.md) — .NET MAUI app lifecycle guidance — the four app states, cross-platform Window lifecycle events (Created, Activated, Deactivated, Stopped, Resumed, Destroying), platform-specific...
 - [maui-data-binding](../../notes/dotnet-development/maui-data-binding.md) — Guidance for .NET MAUI XAML and C# data bindings — compiled bindings, INotifyPropertyChanged / ObservableObject, value converters, binding modes, multi-binding, relative bindings...
 - [maui-shell-navigation](../../notes/dotnet-development/maui-shell-navigation.md) — Guide for implementing Shell-based navigation in .NET MAUI apps
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

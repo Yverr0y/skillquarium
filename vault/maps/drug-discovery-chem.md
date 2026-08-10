@@ -14,10 +14,22 @@ created: 2026-06-13
 
 **Related maps:** [Proteomics & Metabolomics](proteomics-metabolomics.md) | [Sequence Analysis, NGS & Phylogenetics](sequence-phylogenetics.md) | [Bio Databases, Lab & Cloud Platforms](bio-databases-platforms.md) | [Machine Learning & AI](ml-ai.md)
 
-## Skills (48)
+## Skills (65)
 
 - [adaptyv](../notes/drug-discovery-chem/adaptyv.md) — How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval
+- [alphafold-skill](../notes/drug-discovery-chem/alphafold-skill.md) — Submit compact AlphaFold Protein Structure Database API requests for prediction, UniProt summary, sequence summary, and annotation lookups
+- [bindingdb-skill](../notes/drug-discovery-chem/bindingdb-skill.md) — Submit compact BindingDB REST API requests for ligand-target binding lookups by PDB, UniProt, or similarity search
+- [boltz-check-status](../notes/drug-discovery-chem/boltz-check-status.md) — Boltz job status and result recovery. Use when listing jobs, checking progress, resuming downloads, recovering results, or downloading an existing job ID
+- [boltz-cli-setup](../notes/drug-discovery-chem/boltz-cli-setup.md) — Boltz CLI setup and auth. Use when installing, updating, verifying, or authenticating `boltz-api`, or fixing missing CLI, PATH, sandbox, browser login, or auth errors
+- [boltz-protein-design](../notes/drug-discovery-chem/boltz-protein-design.md) — Design new protein binders with Boltz. Use when generating protein, peptide, antibody, nanobody, or custom binder candidates for a target
+- [boltz-protein-screen](../notes/drug-discovery-chem/boltz-protein-screen.md) — Screen existing protein binders with Boltz
+- [boltz-small-molecule-adme](../notes/drug-discovery-chem/boltz-small-molecule-adme.md) — Predict Tier-1 ADME/ADMET for small molecules with Boltz from bare SMILES — no target, no docking
+- [boltz-small-molecule-design](../notes/drug-discovery-chem/boltz-small-molecule-design.md) — Design new small-molecule binders with Boltz
+- [boltz-small-molecule-screen](../notes/drug-discovery-chem/boltz-small-molecule-screen.md) — Screen existing small-molecule libraries with Boltz
+- [boltz-structure-and-binding](../notes/drug-discovery-chem/boltz-structure-and-binding.md) — Predict structures and binding for one defined complex with Boltz
 - [boltz2-nim](../notes/drug-discovery-chem/boltz2-nim.md) — Use Boltz2 NIM for biomolecular structure prediction and binding affinity
+- [chebi-skill](../notes/drug-discovery-chem/chebi-skill.md) — Submit compact ChEBI 2.0 API requests for chemical search, compound lookup, ontology traversal, and structure metadata
+- [chembl-skill](../notes/drug-discovery-chem/chembl-skill.md) — Submit compact ChEMBL API requests for activity, molecule, target, mechanism, and text-search endpoints
 - [cobrapy](../notes/drug-discovery-chem/cobrapy.md) — Constraint-based metabolic modeling (COBRA)
 - [colabfold](../notes/drug-discovery-chem/colabfold.md) — Fast AlphaFold2/ColabFold protein structure prediction
 - [complexa-design](../notes/drug-discovery-chem/complexa-design.md) — End-to-end Proteina-Complexa design pipeline driver
@@ -36,6 +48,7 @@ created: 2026-06-13
 - [drug-repurposing-screen](../notes/drug-discovery-chem/drug-repurposing-screen.md) — Objective-driven pooled viability screen analysis: QC, hit calling, context-selectivity, biomarker sweep, and ranked repurposing candidates
 - [esm](../notes/drug-discovery-chem/esm.md) — Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows
 - [genmol-nim](../notes/drug-discovery-chem/genmol-nim.md) — Generate novel drug-like molecules using the GenMol NIM microservice
+- [hmdb-skill](../notes/drug-discovery-chem/hmdb-skill.md) — Submit compact HMDB search requests for metabolites, proteins, diseases, and pathways
 - [kermt-add-cmim-pretrain](../notes/drug-discovery-chem/kermt-add-cmim-pretrain.md) — Convert a grover_base checkpoint (encoder-only or encoder + vocab heads) into a hybrid checkpoint by adding a randomly-initialized cMIM decoder + latent_dist, then continue pretraining...
 - [kermt-continue-pretrain](../notes/drug-discovery-chem/kermt-continue-pretrain.md) — Continue pretraining from an existing KERMT checkpoint
 - [kermt-embed](../notes/drug-discovery-chem/kermt-embed.md) — Extract per-molecule embeddings from any encoder-bearing KERMT checkpoint (grover_base / cmim / hybrid / finetuned)
@@ -53,11 +66,15 @@ created: 2026-06-13
 - [omics-target-evidence-mapper](../notes/drug-discovery-chem/omics-target-evidence-mapper.md) — Aggregate public target-level evidence across omics and translational sources for research triage
 - [openfold2-nim](../notes/drug-discovery-chem/openfold2-nim.md) — Use this skill for OpenFold2, NVIDIA's BioNeMo NIM microservice for monomer protein structure prediction
 - [openfold3-nim](../notes/drug-discovery-chem/openfold3-nim.md) — Use this skill for OpenFold3, NVIDIA's BioNeMo NIM microservice for biomolecular structure prediction
+- [pharmgkb-skill](../notes/drug-discovery-chem/pharmgkb-skill.md) — Submit compact PharmGKB API requests for genes, variants, clinical annotations, dosing guidelines, and search
 - [proteinmpnn-nim](../notes/drug-discovery-chem/proteinmpnn-nim.md) — Run ProteinMPNN inverse folding via NVIDIA NIM to design protein sequences for a target backbone
+- [pubchem-pug-skill](../notes/drug-discovery-chem/pubchem-pug-skill.md) — Submit compact PubChem PUG REST requests for compound properties, descriptions, assay summaries, and substance metadata
 - [pymol](../notes/drug-discovery-chem/pymol.md) — Visualize, analyze, and render protein and molecular structures using PyMOL
 - [pytdc](../notes/drug-discovery-chem/pytdc.md) — Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction
+- [rcsb-pdb-skill](../notes/drug-discovery-chem/rcsb-pdb-skill.md) — Submit compact RCSB PDB requests for core metadata, Search API queries, and FASTA downloads
 - [rdkit](../notes/drug-discovery-chem/rdkit.md) — Cheminformatics toolkit for fine-grained molecular control
 - [rfdiffusion-nim](../notes/drug-discovery-chem/rfdiffusion-nim.md) — Run RFDiffusion protein backbone design via NVIDIA NIM
+- [rhea-skill](../notes/drug-discovery-chem/rhea-skill.md) — Submit compact Rhea reaction search requests for biochemical reactions and reaction IDs
 - [rowan](../notes/drug-discovery-chem/rowan.md) — Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API
 - [struct-predictor](../notes/drug-discovery-chem/struct-predictor.md) — Protein structure prediction with Boltz-2
 - [structural-biology](../notes/drug-discovery-chem/structural-biology.md) — Structure retrieval, confidence-aware AlphaFold DB usage, coordinate download, PAE and pLDDT interpretation, and structure-guided biological annotation

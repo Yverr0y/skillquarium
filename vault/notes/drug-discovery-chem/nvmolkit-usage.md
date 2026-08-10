@@ -21,7 +21,7 @@ created: 2026-06-28
 ## Related skills
 
 - [rdkit](../../notes/drug-discovery-chem/rdkit.md) — Cheminformatics toolkit for fine-grained molecular control
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

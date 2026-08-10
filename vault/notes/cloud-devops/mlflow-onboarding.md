@@ -20,7 +20,7 @@ created: 2026-06-25
 
 ## Related skills
 
-- [observability](../../notes/uncategorized/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
+- [observability](../../notes/hosting-edge-platforms/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

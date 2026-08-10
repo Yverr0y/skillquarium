@@ -14,16 +14,41 @@ created: 2026-06-13
 
 **Related maps:** [Data Science, Stats & Scientific Computing](data-science-compute.md) | [Drug Discovery, Cheminformatics & Structural Biology](drug-discovery-chem.md) | [Cloud, Infra & MLOps](cloud-devops.md)
 
-## Skills (22)
+## Skills (48)
 
 - [aeon](../notes/ml-ai/aeon.md) — This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search
+- [agents-sdk](../notes/ml-ai/agents-sdk.md) — Build AI agents on Cloudflare Workers using the Agents SDK
+- [ai-elements](../notes/ml-ai/ai-elements.md) — AI Elements component library guidance — pre-built React components for AI interfaces built on shadcn/ui
+- [ai-gateway](../notes/ml-ai/ai-gateway.md) — Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API
+- [ai-generation-persistence](../notes/ml-ai/ai-generation-persistence.md) — AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation
+- [ai-sdk](../notes/ml-ai/ai-sdk.md) — Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming...
+- [aiq-deploy](../notes/ml-ai/aiq-deploy.md) — Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure
+- [aiq-research](../notes/ml-ai/aiq-research.md) — Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend
+- [build-chatgpt-app](../notes/ml-ai/build-chatgpt-app.md) — Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI
+- [build-model](../notes/ml-ai/build-model.md) — Build a multi-tab Excel financial model
 - [building-pydantic-ai-agents](../notes/ml-ai/building-pydantic-ai-agents.md) — Build AI agents with Pydantic AI — tools, capabilities (including on-demand loading), structured output, streaming, testing, and multi-agent patterns
+- [chatgpt-app-submission](../notes/ml-ai/chatgpt-app-submission.md) — Inspect a ChatGPT Apps MCP server codebase and generate chatgpt-app-submission.json with app info suggestions, tool hint justifications, test cases, and negative test cases, then...
+- [chunk](../notes/ml-ai/chunk.md) — Use CircleCI Chunk for AI-assisted CI/CD work through either the Chunk web UI or the chunk-cli
 - [crewai](../notes/ml-ai/crewai.md) — Role-based multi-agent orchestration framework for building "Crews" of collaborating LLM agents (each with a role, goal, backstory, and optional tools) that execute sequential or...
 - [cuequivariance](../notes/ml-ai/cuequivariance.md) — Define custom groups (Irrep subclasses), build segmented tensor products with CG coefficients, create equivariant polynomials and IrDictPolynomials, and use built-in descriptors...
+- [cuopt-user-rules](../notes/ml-ai/cuopt-user-rules.md) — Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server)
 - [dspy](../notes/ml-ai/dspy.md) — DSPy declarative framework for automatic prompt optimization treating prompts as code with systematic evaluation and compilers
 - [hugging-science](../notes/ml-ai/hugging-science.md) — Use when the user is doing AI/ML work in a scientific domain such as biology, chemistry, physics, astronomy, climate, genomics, materials, medicine, ecology, energy, engineering, math...
+- [huggingface-community-evals](../notes/ml-ai/huggingface-community-evals.md) — Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware
+- [huggingface-datasets](../notes/ml-ai/huggingface-datasets.md) — Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or...
+- [huggingface-gradio](../notes/ml-ai/huggingface-gradio.md) — Build Gradio web UIs and demos in Python
+- [huggingface-jobs](../notes/ml-ai/huggingface-jobs.md) — This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure
+- [huggingface-llm-trainer](../notes/ml-ai/huggingface-llm-trainer.md) — This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure
+- [huggingface-paper-publisher](../notes/ml-ai/huggingface-paper-publisher.md) — Publish and manage research papers on Hugging Face Hub
+- [huggingface-papers](../notes/ml-ai/huggingface-papers.md) — Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page
+- [huggingface-trackio](../notes/ml-ai/huggingface-trackio.md) — Track and visualize ML training experiments with Trackio
+- [huggingface-vision-trainer](../notes/ml-ai/huggingface-vision-trainer.md) — Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any...
 - [jax-best-practices](../notes/ml-ai/jax-best-practices.md) — Expert in JAX for high-performance numerical computing and machine learning
 - [llamaindex-development](../notes/ml-ai/llamaindex-development.md) — Expert guidance for LlamaIndex development including RAG applications, vector stores, document processing, query engines, and building production AI applications
+- [nemoclaw-user-get-started](../notes/ml-ai/nemoclaw-user-get-started.md) — Installs NemoClaw, launches a sandbox, and runs the first agent prompt
+- [openai-ads-conversions-setup](../notes/ml-ai/openai-ads-conversions-setup.md) — Guide Codex through instrumenting or extending repositories with OpenAI Ads Measurement Pixel and optional Conversions API (CAPI)
+- [openai-api-troubleshooting](../notes/ml-ai/openai-api-troubleshooting.md) — Use when an OpenAI API request fails and Codex needs to classify the likely cause, explain the next step, and route to the right follow-up
+- [openai-platform-api-key](../notes/ml-ai/openai-platform-api-key.md) — Use when Codex is asked to build, run, test, debug, or configure an OpenAI-backed or provider-unspecified AI app, UI, script, CLI, generator, or tool, especially requests phrased only...
 - [optuna](../notes/ml-ai/optuna.md) — Hyperparameter optimization (HPO) for ML models using Optuna
 - [pufferlib](../notes/ml-ai/pufferlib.md) — High-performance reinforcement learning framework optimized for speed and scale
 - [pufferlib-v2](../notes/ml-ai/pufferlib-v2.md) — PufferLib 2.x reinforcement learning workflows for the Dec 2024 API generation
@@ -37,4 +62,5 @@ created: 2026-06-13
 - [timesfm-forecasting](../notes/ml-ai/timesfm-forecasting.md) — Zero-shot time series forecasting with Google's TimesFM foundation model
 - [torch-geometric](../notes/ml-ai/torch-geometric.md) — PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom...
 - [transformers](../notes/ml-ai/transformers.md) — Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks
+- [transformers-js](../notes/ml-ai/transformers-js.md) — Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript
 - [umap-learn](../notes/ml-ai/umap-learn.md) — Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP...

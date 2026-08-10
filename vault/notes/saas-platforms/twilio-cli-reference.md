@@ -1,0 +1,27 @@
+---
+title: twilio-cli-reference
+aliases:
+  - twilio cli reference
+tags:
+  - skill
+  - domain/saas-platforms
+domain: saas-platforms
+status: untried
+source: skills/twilio-cli-reference/SKILL.md
+created: 2026-08-07
+---
+
+# twilio-cli-reference
+
+> [!info] What it does
+> Twilio CLI reference for managing Twilio resources from the terminal. Covers installation, credential profiles, phone number provisioning, sending SMS and email, webhook configuration, local development with a tunneling service, debugging with watch and logs, serverless deployment, and plugin ecosystem. Use when the developer asks to "just do it", "set this up", "run a command", mentions "CLI", "command line", or "terminal", or when an AI agent can execute a task directly instead of writing application code.
+
+**Source:** [skills/twilio-cli-reference/SKILL.md](../../../skills/twilio-cli-reference/SKILL.md)  ·  **Domain:** [SaaS & Vendor Platform Integrations](../../maps/saas-platforms.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [email](../../notes/comms-productivity/email.md) — Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

@@ -24,7 +24,7 @@ created: 2026-08-06
 
 ## Related skills
 
-- [start](../../notes/uncategorized/start.md) — Use when starting Zoom work
+- [start](../../notes/vault-meta/start.md) — Use when starting Zoom work
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

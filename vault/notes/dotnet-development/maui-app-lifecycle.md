@@ -23,7 +23,7 @@ created: 2026-07-21
 - [maui-dependency-injection](../../notes/dotnet-development/maui-dependency-injection.md) — Guidance for configuring dependency injection in .NET MAUI apps — service registration in MauiProgram.cs, lifetime selection (Singleton / Transient / Scoped), constructor injection...
 - [maui-safe-area](../../notes/dotnet-development/maui-safe-area.md) — .NET MAUI safe area and edge-to-edge layout guidance for .NET 10+
 - [maui-shell-navigation](../../notes/dotnet-development/maui-shell-navigation.md) — Guide for implementing Shell-based navigation in .NET MAUI apps
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

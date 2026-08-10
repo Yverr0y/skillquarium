@@ -20,7 +20,7 @@ created: 2026-06-28
 
 ## Related skills
 
-- [bootstrap](../../notes/uncategorized/bootstrap.md) — Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations)
+- [bootstrap](../../notes/web-automation-frontend/bootstrap.md) — Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations)
 - [docker](../../notes/software-dev/docker.md) — Containerizing and shipping applications with Docker — writing efficient Dockerfiles (multi-stage builds, layer caching, small/secure images), docker compose for multi-service local...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

@@ -26,7 +26,7 @@ created: 2026-07-21
 - [grade-tests](../../notes/dotnet-development/grade-tests.md) — Grades a specified set of test methods individually and produces a concise table mapping each test (fully-qualified name) to a letter grade (A–F), a score band, and a one-line note —...
 - [review](../../notes/software-dev/review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
 - [run-tests](../../notes/dotnet-development/run-tests.md) — Recommend or run the exact `dotnet test` command
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 - [test-anti-patterns](../../notes/dotnet-development/test-anti-patterns.md) — Audits an existing test file or suite in any language for anti-patterns and quality issues — produces a severity-ranked report (Critical/Warning/Info)
 - [test-gap-analysis](../../notes/dotnet-development/test-gap-analysis.md) — Performs pseudo-mutation analysis on production code in any language to find gaps in existing tests
 - [test-smell-detection](../../notes/dotnet-development/test-smell-detection.md) — Deep-dive audit using the full testsmells.org 19-smell academic catalog for tests in any language

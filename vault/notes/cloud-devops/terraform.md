@@ -21,7 +21,7 @@ created: 2026-07-24
 ## Related skills
 
 - [aws-cdk-development](../../notes/cloud-devops/aws-cdk-development.md) — AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python
-- [cloudflare](../../notes/uncategorized/cloudflare.md) — Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and...
+- [cloudflare](../../notes/hosting-edge-platforms/cloudflare.md) — Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), networking (Tunnel, Spectrum), security (WAF, DDoS), and...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

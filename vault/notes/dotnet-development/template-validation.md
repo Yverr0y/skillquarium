@@ -20,7 +20,7 @@ created: 2026-07-21
 
 ## Related skills
 
-- [template](../../notes/uncategorized/template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
+- [template](../../notes/vault-meta/template.md) — Canonical rules and HTML/CSS contract for the page chrome (head boilerplate, cover, table of contents, section block, sources-section wrapper, footer, outlook-badge, design tokens)...
 - [template-authoring](../../notes/dotnet-development/template-authoring.md) — Guides creation and validation of custom dotnet new templates from existing projects
 - [template-comparison](../../notes/dotnet-development/template-comparison.md) — Compares two or more dotnet new templates side by side to help users choose between them based on parameters, feature support, frameworks, and classifications
 - [template-discovery](../../notes/dotnet-development/template-discovery.md) — Helps find, inspect, and compare (at a high level) .NET project templates

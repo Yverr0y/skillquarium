@@ -18,9 +18,9 @@ created: 2026-06-09
 
 ## Related skills
 
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
-- [validation](../../notes/uncategorized/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
+- [validation](../../notes/software-dev/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

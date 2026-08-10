@@ -1,0 +1,184 @@
+---
+title: SaaS & Vendor Platform Integrations
+tags:
+  - skill-map
+created: 2026-08-09
+---
+
+# SaaS & Vendor Platform Integrations
+
+> [!abstract] Scope
+> Vendor product platforms and their SDKs: messaging and voice, commerce, CRM, analytics, and design/collaboration SaaS.
+
+[Back to Skill Index](../index.md)
+
+**Related maps:** [Hosting, Edge & Deployment Platforms](hosting-edge-platforms.md) | [Communication & Productivity Suites](comms-productivity.md) | [Web Automation, Frontend & Design](web-automation-frontend.md) | [Software Development & Engineering](software-dev.md)
+
+## Skills (166)
+
+- [airtable-cli](../notes/saas-platforms/airtable-cli.md) — Lists bases, reads and writes records, manages tables and fields, filters and searches data in Airtable via the `airtable-mcp` CLI
+- [airtable-filters](../notes/saas-platforms/airtable-filters.md) — Use this skill when the user wants to find, filter, or narrow down Airtable records by field values, even when they don't explicitly say "filter
+- [airtable-overview](../notes/saas-platforms/airtable-overview.md) — Explains what Airtable is and how data is structured — bases, tables, fields, records, views, automations, and interfaces
+- [base44-cli](../notes/saas-platforms/base44-cli.md) — The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions, ai agents), initialization and actions (resource creation...
+- [base44-sdk](../notes/saas-platforms/base44-sdk.md) — The base44 SDK is the library to communicate with base44 services
+- [base44-troubleshooter](../notes/saas-platforms/base44-troubleshooter.md) — Troubleshoot production issues using backend function logs
+- [box-content-api](../notes/saas-platforms/box-content-api.md) — Build and troubleshoot Box integrations for uploads, folders, folder listings, downloads and previews, shared links, collaborations, search, metadata, event-driven automations, and Box...
+- [brighthire](../notes/saas-platforms/brighthire.md) — Use BrightHire tools when a user asks about BrightHire interview intelligence, calls, candidates, roles, scorecards, transcripts, hiring decisions, or organization-level interview data
+- [build-zoom-bot](../notes/saas-platforms/build-zoom-bot.md) — Use when building bots
+- [build-zoom-contact-center-app](../notes/saas-platforms/build-zoom-contact-center-app.md) — Use when using Contact Center
+- [build-zoom-meeting-app](../notes/saas-platforms/build-zoom-meeting-app.md) — Use when embedding meetings
+- [build-zoom-meeting-sdk-app](../notes/saas-platforms/build-zoom-meeting-sdk-app.md) — Use when using Meeting SDK
+- [build-zoom-phone-integration](../notes/saas-platforms/build-zoom-phone-integration.md) — Use when building Phone
+- [build-zoom-rest-api-app](../notes/saas-platforms/build-zoom-rest-api-app.md) — Use when calling REST APIs
+- [build-zoom-team-chat-app](../notes/saas-platforms/build-zoom-team-chat-app.md) — Use when building Team Chat
+- [build-zoom-video-sdk-app](../notes/saas-platforms/build-zoom-video-sdk-app.md) — Use when using Video SDK
+- [build-zoom-virtual-agent](../notes/saas-platforms/build-zoom-virtual-agent.md) — Use when using Virtual Agent
+- [canva-branded-presentation](../notes/saas-platforms/canva-branded-presentation.md) — Create on-brand Canva presentations from a brief, outline, existing Canva doc, or design link
+- [canva-resize-for-all-social-media](../notes/saas-platforms/canva-resize-for-all-social-media.md) — Resize a Canva design into standard social media formats and prepare export-ready results
+- [canva-translate-design](../notes/saas-platforms/canva-translate-design.md) — Translate the text in a Canva design into another language while preserving the original layout as much as possible
+- [catalyst-by-zoho](../notes/saas-platforms/catalyst-by-zoho.md) — Expert coding assistant for Catalyst by Zoho — full-stack serverless cloud platform
+- [chat-sdk](../notes/saas-platforms/chat-sdk.md) — Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase
+- [choose-zoom-approach](../notes/saas-platforms/choose-zoom-approach.md) — Use when choosing architecture
+- [conversation-intelligence](../notes/saas-platforms/conversation-intelligence.md) — Twilio Conversation Intelligence development guide
+- [debug-zoom](../notes/saas-platforms/debug-zoom.md) — Use when debugging issues
+- [debug-zoom-integration](../notes/saas-platforms/debug-zoom-integration.md) — Use when isolating failures
+- [hex](../notes/saas-platforms/hex.md) — Search Hex projects and ask Hex Threads questions
+- [heygen-avatar](../notes/saas-platforms/heygen-avatar.md) — Use when creating or configuring a persistent HeyGen avatar or digital twin for the agent, the user, or a named presenter, including prompt-based avatar creation, photo-based identity...
+- [heygen-video](../notes/saas-platforms/heygen-video.md) — Use when generating a HeyGen presenter video, personalized video message, talking-head explainer, tutorial, product demo, video pitch, or avatar-led update
+- [hubspot](../notes/saas-platforms/hubspot.md) — Use when working with HubSpot CRM records to search, summarize, create, update, associate, or analyze objects and properties
+- [hubspot-crm-data-hygiene](../notes/saas-platforms/hubspot-crm-data-hygiene.md) — Use when auditing HubSpot data quality for missing fields, stale records, duplicates, associations, owners, or cleanup tasks
+- [hubspot-customer-prep](../notes/saas-platforms/hubspot-customer-prep.md) — Use when preparing HubSpot customer briefs for meetings, renewals, QBRs, sales calls, escalations, handoffs, or follow-ups
+- [hubspot-pipeline-health](../notes/saas-platforms/hubspot-pipeline-health.md) — Use when reviewing HubSpot pipeline health, forecasts, stale deals, slipping close dates, or open deal risks
+- [hyperframes](../notes/saas-platforms/hyperframes.md) — Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML
+- [hyperframes-cli](../notes/saas-platforms/hyperframes-cli.md) — HyperFrames CLI tool — hyperframes init, lint, inspect, preview, render, transcribe, tts, doctor, browser, info, upgrade, compositions, docs, benchmark
+- [hyperframes-registry](../notes/saas-platforms/hyperframes-registry.md) — Install and wire registry blocks and components into HyperFrames compositions
+- [inflection](../notes/saas-platforms/inflection.md) — Auto-detect biggest acceleration/deceleration inflections across all metrics
+- [magicpath](../notes/saas-platforms/magicpath.md) — Use when the user mentions MagicPath, designs, UI components, themes, canvas selections, or repo-to-canvas UI work
+- [marketplace](../notes/saas-platforms/marketplace.md) — Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI
+- [mixpanel-auth](../notes/saas-platforms/mixpanel-auth.md) — Manage Mixpanel Headless authentication: check session state, list/add/use accounts, run OAuth login, switch projects/workspaces, manage targets, and check bridge credentials
+- [mixpanel-headless-setup](../notes/saas-platforms/mixpanel-headless-setup.md) — This skill installs mixpanel_headless, pandas, numpy, matplotlib, seaborn, networkx, anytree, scipy (and pyarrow on Python 3.11+), then verifies Mixpanel credentials
+- [mixpanelyst](../notes/saas-platforms/mixpanelyst.md) — This skill should be used when the user asks about Mixpanel product analytics, event data, funnel analysis, retention curves, cohort analysis, segmentation queries, user behavior...
+- [payments](../notes/saas-platforms/payments.md) — Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK
+- [plan-zoom-integration](../notes/saas-platforms/plan-zoom-integration.md) — Use when planning Zoom integrations
+- [plan-zoom-product](../notes/saas-platforms/plan-zoom-product.md) — Use when choosing products
+- [posthog](../notes/saas-platforms/posthog.md) — Analyze product data and manage product tooling in PostHog
+- [probe-sdk](../notes/saas-platforms/probe-sdk.md) — Use when using Probe SDK
+- [replay-qa-api](../notes/saas-platforms/replay-qa-api.md) — Use when calling Replay QA's REST API directly from Codex
+- [replayio](../notes/saas-platforms/replayio.md) — Use when you need to record or inspect an agent browser run in Replay, test a local app with the host agent browser using Replay Chromium, or use the Replay MCP server for deeper...
+- [rivet-sdk](../notes/saas-platforms/rivet-sdk.md) — Use when using Rivet SDK
+- [search-company-knowledge](../notes/saas-platforms/search-company-knowledge.md) — Search across company knowledge bases (Confluence, Jira, internal docs) to find and explain internal concepts, processes, and technical details
+- [sentry](../notes/saas-platforms/sentry.md) — Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API
+- [setup-zoom-oauth](../notes/saas-platforms/setup-zoom-oauth.md) — Use when setting up OAuth
+- [setup-zoom-webhooks](../notes/saas-platforms/setup-zoom-webhooks.md) — Use when building Zoom webhooks
+- [setup-zoom-websockets](../notes/saas-platforms/setup-zoom-websockets.md) — Use when building Zoom WebSockets
+- [shopify-admin](../notes/saas-platforms/shopify-admin.md) — Write or explain **Admin GraphQL** queries and mutations for apps and integrations that extend the Shopify admin
+- [shopify-app-store-review](../notes/saas-platforms/shopify-app-store-review.md) — Run a pre-submission compliance check against your Shopify app's codebase
+- [shopify-custom-data](../notes/saas-platforms/shopify-custom-data.md) — MUST be used first when prompts mention Metafields or Metaobjects
+- [shopify-customer](../notes/saas-platforms/shopify-customer.md) — The Customer Account API allows customers to access their own data including orders, payment methods, and addresses
+- [shopify-dev](../notes/saas-platforms/shopify-dev.md) — Search Shopify developer documentation across all APIs
+- [shopify-functions](../notes/saas-platforms/shopify-functions.md) — Shopify Functions allow developers to customize the backend logic that powers parts of Shopify
+- [shopify-hydrogen](../notes/saas-platforms/shopify-hydrogen.md) — Hydrogen storefront implementation cookbooks
+- [shopify-liquid](../notes/saas-platforms/shopify-liquid.md) — Liquid is an open-source templating language created by Shopify
+- [shopify-onboarding-dev](../notes/saas-platforms/shopify-onboarding-dev.md) — Get started building on Shopify. Use when a developer asks to build an app, build a theme, create a dev store, set up a partner account, scaffold a project, or get started developing...
+- [shopify-onboarding-merchant](../notes/saas-platforms/shopify-onboarding-merchant.md) — Set up and connect a Shopify store from your AI assistant
+- [shopify-partner](../notes/saas-platforms/shopify-partner.md) — The Partner API lets you programmatically access data about your Partner Dashboard, including your apps, themes, and affiliate referrals
+- [shopify-payments-apps](../notes/saas-platforms/shopify-payments-apps.md) — The Payments Apps API enables payment providers to integrate their payment solutions with Shopify's checkout
+- [shopify-polaris-admin-extensions](../notes/saas-platforms/shopify-polaris-admin-extensions.md) — Add custom actions and blocks from your app at contextually relevant spots throughout the Shopify Admin
+- [shopify-polaris-app-home](../notes/saas-platforms/shopify-polaris-app-home.md) — Build your app's primary user interface embedded in the Shopify admin
+- [shopify-polaris-checkout-extensions](../notes/saas-platforms/shopify-polaris-checkout-extensions.md) — Build custom functionality that merchants can install at defined points in the checkout flow, including product information, shipping, payment, order summary, and Shop Pay
+- [shopify-polaris-customer-account-extensions](../notes/saas-platforms/shopify-polaris-customer-account-extensions.md) — Build custom functionality that merchants can install at defined points on the Order index, Order status, and Profile pages in customer accounts
+- [shopify-pos-ui](../notes/saas-platforms/shopify-pos-ui.md) — Build retail point-of-sale applications using Shopify's POS UI components
+- [shopify-storefront-graphql](../notes/saas-platforms/shopify-storefront-graphql.md) — Use for custom storefronts requiring direct GraphQL queries/mutations for data fetching and cart operations
+- [shopify-use-shopify-cli](../notes/saas-platforms/shopify-use-shopify-cli.md) — Choose when the user needs **Shopify CLI** to run or fix something now: validate app or extension config on disk (`shopify.app.toml`, `shopify.app.<name>.toml`...
+- [stripe-best-practices](../notes/saas-platforms/stripe-best-practices.md) — Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, Treasury...
+- [superhuman-mail](../notes/saas-platforms/superhuman-mail.md) — Use Superhuman Mail MCP for email and calendar workflows such as searching inboxes, reading threads, drafting or sending mail, managing labels, checking read statuses, finding...
+- [twilio-account-setup](../notes/saas-platforms/twilio-account-setup.md) — Create and configure a Twilio account from scratch
+- [twilio-agent-augmentation-architect](../notes/saas-platforms/twilio-agent-augmentation-architect.md) — Planning skill for augmenting human agents with real-time AI intelligence
+- [twilio-agent-connect](../notes/saas-platforms/twilio-agent-connect.md) — Use when building or integrating Twilio Agent Connect (TAC) to connect third-party LLM agent runtimes with Twilio Voice, Messaging, ConversationRelay, Conversation Memory, Conversation...
+- [twilio-ai-agent-architect](../notes/saas-platforms/twilio-ai-agent-architect.md) — Planning skill for AI-powered conversational agents
+- [twilio-call-recordings](../notes/saas-platforms/twilio-call-recordings.md) — Record Twilio voice calls correctly. Covers the critical distinction between Record verb (voicemail) and Dial record (call recording), dual-channel for QA, mid-call pause for PCI...
+- [twilio-cli-reference](../notes/saas-platforms/twilio-cli-reference.md) — Twilio CLI reference for managing Twilio resources from the terminal
+- [twilio-compliance-onboarding](../notes/saas-platforms/twilio-compliance-onboarding.md) — Registrations required BEFORE Twilio traffic works
+- [twilio-compliance-traffic](../notes/saas-platforms/twilio-compliance-traffic.md) — Rules you must follow for Twilio messaging and voice traffic
+- [twilio-conference-calls](../notes/saas-platforms/twilio-conference-calls.md) — Build multi-party calls using Twilio Conference
+- [twilio-content-template-builder](../notes/saas-platforms/twilio-content-template-builder.md) — Create, manage, and send message templates using Twilio's Content API
+- [twilio-conversation-orchestrator](../notes/saas-platforms/twilio-conversation-orchestrator.md) — Configure automatic conversation capture and routing with Twilio Conversation Orchestrator
+- [twilio-conversations-classic-api](../notes/saas-platforms/twilio-conversations-classic-api.md) — Build multi-channel messaging experiences using Twilio Conversations (classic) API
+- [twilio-customer-memory](../notes/saas-platforms/twilio-customer-memory.md) — Store and retrieve customer context using Twilio Conversation Memory
+- [twilio-customer-support-architect](../notes/saas-platforms/twilio-customer-support-architect.md) — Planning skill for building customer service and support systems
+- [twilio-debugging-observability](../notes/saas-platforms/twilio-debugging-observability.md) — Debug Twilio integrations and set up production observability
+- [twilio-email-deliverability-advisor](../notes/saas-platforms/twilio-email-deliverability-advisor.md) — Deliverability advisor for the Twilio Email API specifically
+- [twilio-email-send](../notes/saas-platforms/twilio-email-send.md) — Use when the caller has Twilio credentials (Account SID + Auth Token or API Key SID + Secret) and needs to send email via comms.twilio.com/v1/Emails
+- [twilio-enterprise-knowledge](../notes/saas-platforms/twilio-enterprise-knowledge.md) — Use when building Twilio Enterprise Knowledge workflows for AI or human agents, including provisioning a knowledge base, adding website, PDF, or text sources, semantic search, or...
+- [twilio-iam-auth-setup](../notes/saas-platforms/twilio-iam-auth-setup.md) — Set up and manage Twilio authentication credentials: Auth Tokens, API keys (Standard, Main, Restricted), Access Tokens for client-side SDKs, and credential rotation
+- [twilio-identity-verification-advisor](../notes/saas-platforms/twilio-identity-verification-advisor.md) — Planning skill for identity verification and fraud prevention
+- [twilio-isv-sms-best-practices](../notes/saas-platforms/twilio-isv-sms-best-practices.md) — Best practices for ISVs (Independent Software Vendors) building SMS features into multi-tenant SaaS platforms using Twilio
+- [twilio-lookup-phone-intelligence](../notes/saas-platforms/twilio-lookup-phone-intelligence.md) — Look up phone number intelligence via Twilio Lookup v2 API
+- [twilio-marketing-promotions-advisor](../notes/saas-platforms/twilio-marketing-promotions-advisor.md) — Planning skill for marketing and promotional messaging
+- [twilio-messaging-channel-advisor](../notes/saas-platforms/twilio-messaging-channel-advisor.md) — Planning skill that helps the developer pick the right Twilio messaging channel — SMS, MMS, RCS, or WhatsApp — for a given use case
+- [twilio-messaging-overview](../notes/saas-platforms/twilio-messaging-overview.md) — Twilio Messaging channel overview and onboarding guide
+- [twilio-messaging-services](../notes/saas-platforms/twilio-messaging-services.md) — Create and configure Twilio Messaging Services for production messaging
+- [twilio-messaging-webhooks](../notes/saas-platforms/twilio-messaging-webhooks.md) — Receive and respond to inbound messages and track outbound delivery status via Twilio webhooks — across SMS, MMS, WhatsApp, and RCS
+- [twilio-notifications-alerts-advisor](../notes/saas-platforms/twilio-notifications-alerts-advisor.md) — Planning skill for transactional notifications, alerts, and reminders
+- [twilio-numbers-senders](../notes/saas-platforms/twilio-numbers-senders.md) — Choose the right Twilio number type and sender BEFORE building
+- [twilio-organizations-setup](../notes/saas-platforms/twilio-organizations-setup.md) — Set up and manage Twilio Organizations for centralized account and user governance
+- [twilio-rcs-messaging](../notes/saas-platforms/twilio-rcs-messaging.md) — Send RCS Business Messages via Twilio. Covers compliance onboarding (7-part US process), sender profile setup, sending rich cards and carousels, SMS fallback, device support (Android +...
+- [twilio-regulatory-compliance-bundles](../notes/saas-platforms/twilio-regulatory-compliance-bundles.md) — Manage regulatory compliance for international phone numbers
+- [twilio-reliability-patterns](../notes/saas-platforms/twilio-reliability-patterns.md) — Handle rate limits, retries, and failures when building on Twilio at scale
+- [twilio-security-api-auth](../notes/saas-platforms/twilio-security-api-auth.md) — Choose the right Twilio authentication method and implement it correctly
+- [twilio-security-compliance-hipaa](../notes/saas-platforms/twilio-security-compliance-hipaa.md) — Configure Twilio accounts for HIPAA compliance
+- [twilio-security-hardening](../notes/saas-platforms/twilio-security-hardening.md) — Secure Twilio applications against common attacks
+- [twilio-send-message](../notes/saas-platforms/twilio-send-message.md) — Send messages via Twilio's Programmable Messaging API across all channels — SMS, MMS, RCS, and WhatsApp
+- [twilio-sendgrid-account-setup](../notes/saas-platforms/twilio-sendgrid-account-setup.md) — Set up a SendGrid account for email delivery
+- [twilio-sendgrid-deliverability-advisor](../notes/saas-platforms/twilio-sendgrid-deliverability-advisor.md) — Diagnostic and advisory skill for email deliverability problems
+- [twilio-sendgrid-email-send](../notes/saas-platforms/twilio-sendgrid-email-send.md) — Send transactional and bulk email via the SendGrid v3 Mail Send API
+- [twilio-sendgrid-email-settings](../notes/saas-platforms/twilio-sendgrid-email-settings.md) — Configure SendGrid dynamic templates (Handlebars), tracking settings (opens, clicks, subscriptions), link branding for custom tracking domains, and content types (HTML, plain text, AMP)
+- [twilio-sendgrid-engagement-quality](../notes/saas-platforms/twilio-sendgrid-engagement-quality.md) — Monitor email program health with SendGrid Engagement Quality (SEQ) scores
+- [twilio-sendgrid-inbound-parse](../notes/saas-platforms/twilio-sendgrid-inbound-parse.md) — Receive inbound email via SendGrid Inbound Parse webhook
+- [twilio-sendgrid-suppressions](../notes/saas-platforms/twilio-sendgrid-suppressions.md) — Manage SendGrid email suppressions: bounces, blocks, spam reports, invalid emails, global unsubscribes, and ASM suppression groups
+- [twilio-sendgrid-webhooks](../notes/saas-platforms/twilio-sendgrid-webhooks.md) — Track email delivery and engagement via SendGrid Event Webhooks
+- [twilio-sms-send-message](../notes/saas-platforms/twilio-sms-send-message.md) — SMS and MMS deep-dive reference. Covers SMS-specific error codes, message filtering troubleshooting ("Messages Being Filtered or Blocked?" diagnostic checklist), MMS media support...
+- [twilio-taskrouter-routing](../notes/saas-platforms/twilio-taskrouter-routing.md) — Route tasks to agents using Twilio TaskRouter
+- [twilio-verify-send-otp](../notes/saas-platforms/twilio-verify-send-otp.md) — Send and verify one-time passcodes (OTPs) via Twilio Verify over SMS, RCS, voice, email, or WhatsApp
+- [twilio-voice-conversation-relay](../notes/saas-platforms/twilio-voice-conversation-relay.md) — Build AI-powered voice agents using Twilio ConversationRelay
+- [twilio-voice-outbound-calls](../notes/saas-platforms/twilio-voice-outbound-calls.md) — Make outbound phone calls via Twilio's Programmable Voice REST API
+- [twilio-voice-twiml](../notes/saas-platforms/twilio-voice-twiml.md) — Build voice call logic using TwiML (Twilio Markup Language)
+- [twilio-webhook-architecture](../notes/saas-platforms/twilio-webhook-architecture.md) — Design, secure, and operate Twilio webhook endpoints
+- [twilio-whatsapp-manage-senders](../notes/saas-platforms/twilio-whatsapp-manage-senders.md) — Create, configure, and manage WhatsApp Business senders via Twilio's Channels Senders API
+- [twilio-whatsapp-send-message](../notes/saas-platforms/twilio-whatsapp-send-message.md) — WhatsApp messaging deep-dive reference. Covers the 24-hour service window rules (free-form vs template mode), sandbox setup for testing, template approval workflow, production sender...
+- [ucp](../notes/saas-platforms/ucp.md) — Use when the user wants to use the UCP CLI to find, compare, buy, or track products from online merchants, or to set up and troubleshoot the local UCP profile required for...
+- [upgrade-stripe](../notes/saas-platforms/upgrade-stripe.md) — Guide for upgrading Stripe API versions and SDKs
+- [website-to-hyperframes](../notes/saas-platforms/website-to-hyperframes.md) — Capture a website and create a HyperFrames video from it
+- [wix-app](../notes/saas-platforms/wix-app.md) — Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Editor React components, site plugins, embedded scripts, backend APIs...
+- [wix-design-system](../notes/saas-platforms/wix-design-system.md) — Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking props and examples, or writing tests with component testkits
+- [wix-headless](../notes/saas-platforms/wix-headless.md) — Build a complete Wix Managed Headless site from a single prompt, OR connect an existing project (HTML/JSX/Vite app, Claude Design output, etc.) to Wix Headless for hosting + Business...
+- [wix-manage](../notes/saas-platforms/wix-manage.md) — Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions
+- [zoom-apps-sdk](../notes/saas-platforms/zoom-apps-sdk.md) — Use when using Apps SDK
+- [zoom-cobrowse-sdk](../notes/saas-platforms/zoom-cobrowse-sdk.md) — Use when using Cobrowse
+- [zoom-contact-center-android](../notes/saas-platforms/zoom-contact-center-android.md) — Zoom Contact Center SDK for Android. Use for native Android chat/video/ZVA/scheduled callback integrations, campaign mode, service lifecycle, and rejoin handling
+- [zoom-contact-center-ios](../notes/saas-platforms/zoom-contact-center-ios.md) — Zoom Contact Center SDK for iOS. Use for native iOS chat/video/ZVA/scheduled callback integrations, app lifecycle bridging, rejoin flow, and callback handling
+- [zoom-contact-center-web](../notes/saas-platforms/zoom-contact-center-web.md) — Zoom Contact Center SDK for Web. Use for web chat/video/campaign embeds, engagement event handling, app-context integrations, and Smart Embed postMessage workflows
+- [zoom-general](../notes/saas-platforms/zoom-general.md) — Use when comparing products
+- [zoom-meeting-sdk-android](../notes/saas-platforms/zoom-meeting-sdk-android.md) — Zoom Meeting SDK for Android native apps
+- [zoom-meeting-sdk-electron](../notes/saas-platforms/zoom-meeting-sdk-electron.md) — Zoom Meeting SDK for Electron desktop applications
+- [zoom-meeting-sdk-ios](../notes/saas-platforms/zoom-meeting-sdk-ios.md) — Zoom Meeting SDK for iOS native apps. Use when embedding Zoom meetings in iOS with default/custom UI, PKCE + SDK auth, host start with ZAK, and mobile lifecycle handling
+- [zoom-meeting-sdk-linux](../notes/saas-platforms/zoom-meeting-sdk-linux.md) — Zoom Meeting SDK for Linux - C++ headless meeting bots with raw audio/video access, transcription, recording, and AI integration for server-side automation
+- [zoom-meeting-sdk-macos](../notes/saas-platforms/zoom-meeting-sdk-macos.md) — Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in macOS with default/custom UI, PKCE + SDK auth, host start/join flows, and desktop meeting feature controllers
+- [zoom-meeting-sdk-react-native](../notes/saas-platforms/zoom-meeting-sdk-react-native.md) — Zoom Meeting SDK for React Native. Use when embedding Zoom meetings in React Native iOS/Android apps with @zoom/meetingsdk-react-native, JWT auth, join/start flows, platform setup, and...
+- [zoom-meeting-sdk-unreal](../notes/saas-platforms/zoom-meeting-sdk-unreal.md) — Zoom Meeting SDK for Unreal Engine wrapper integrations
+- [zoom-meeting-sdk-web](../notes/saas-platforms/zoom-meeting-sdk-web.md) — Zoom Meeting SDK for Web - Embed Zoom meeting capabilities into web applications
+- [zoom-meeting-sdk-windows](../notes/saas-platforms/zoom-meeting-sdk-windows.md) — Zoom Meeting SDK for Windows - Native C++ SDK for embedding Zoom meetings into Windows desktop applications
+- [zoom-oauth](../notes/saas-platforms/zoom-oauth.md) — Use when implementing OAuth
+- [zoom-rtms](../notes/saas-platforms/zoom-rtms.md) — Use when using RTMS
+- [zoom-video-sdk-android](../notes/saas-platforms/zoom-video-sdk-android.md) — Zoom Video SDK for Android native apps. Use when building custom Android video experiences with full UI control, session tokens, raw media options, and event-driven participant state
+- [zoom-video-sdk-flutter](../notes/saas-platforms/zoom-video-sdk-flutter.md) — Zoom Video SDK for Flutter. Use when building custom video session apps in Flutter with flutter_zoom_videosdk, event-driven architecture, session lifecycle handling, and mobile...
+- [zoom-video-sdk-ios](../notes/saas-platforms/zoom-video-sdk-ios.md) — Zoom Video SDK for iOS native apps. Use when building custom iOS video sessions with full UI control, token-based session auth, and event-driven media/participant flows
+- [zoom-video-sdk-linux](../notes/saas-platforms/zoom-video-sdk-linux.md) — Zoom Video SDK for Linux - C++ headless bots, raw audio/video capture/injection, Qt/GTK integration, Docker support
+- [zoom-video-sdk-macos](../notes/saas-platforms/zoom-video-sdk-macos.md) — Zoom Video SDK for macOS native desktop apps
+- [zoom-video-sdk-react-native](../notes/saas-platforms/zoom-video-sdk-react-native.md) — Zoom Video SDK for React Native. Use when building custom mobile video session experiences with @zoom/react-native-videosdk, event listeners, helper-based APIs, and backend JWT token...
+- [zoom-video-sdk-unity](../notes/saas-platforms/zoom-video-sdk-unity.md) — Zoom Video SDK for Unity wrapper integrations
+- [zoom-video-sdk-web](../notes/saas-platforms/zoom-video-sdk-web.md) — Zoom Video SDK for Web - JavaScript/TypeScript integration for browser-based video sessions, real-time communication, screen sharing, recording, and live transcription
+- [zoom-video-sdk-windows](../notes/saas-platforms/zoom-video-sdk-windows.md) — Zoom Video SDK for Windows - C++ integration for video sessions, raw audio/video capture, screen sharing, recording, and real-time communication
+- [zoom-virtual-agent-android](../notes/saas-platforms/zoom-virtual-agent-android.md) — Zoom Virtual Agent Android integration via WebView
+- [zoom-virtual-agent-ios](../notes/saas-platforms/zoom-virtual-agent-ios.md) — Zoom Virtual Agent iOS integration via WKWebView
+- [zoom-virtual-agent-web](../notes/saas-platforms/zoom-virtual-agent-web.md) — Zoom Virtual Agent SDK for web embeds. Use for campaign or entry ID chat launch, event-driven controls, user context updates, and CSP-safe deployment

@@ -1,0 +1,27 @@
+---
+title: build-run-debug
+aliases:
+  - build run debug
+tags:
+  - skill
+  - domain/software-dev
+domain: software-dev
+status: untried
+source: skills/build-run-debug/SKILL.md
+created: 2026-08-07
+---
+
+# build-run-debug
+
+> [!info] What it does
+> Build, run, and debug macOS apps with shell-first Xcode and Swift workflows. Use when launching apps or diagnosing build, startup, or runtime failures.
+
+**Source:** [skills/build-run-debug/SKILL.md](../../../skills/build-run-debug/SKILL.md)  ·  **Domain:** [Software Development & Engineering](../../maps/software-dev.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

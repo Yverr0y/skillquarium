@@ -21,7 +21,7 @@ created: 2026-07-21
 ## Related skills
 
 - [logfire-ui](../../notes/analytics-engineering/logfire-ui.md) — Open or return Logfire project pages, live views, trace links, and Explore pages in the Codex browser without querying telemetry first
-- [telemetry](../../notes/uncategorized/telemetry.md) — Add and verify lightweight macOS runtime telemetry
+- [telemetry](../../notes/hosting-edge-platforms/telemetry.md) — Add and verify lightweight macOS runtime telemetry
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

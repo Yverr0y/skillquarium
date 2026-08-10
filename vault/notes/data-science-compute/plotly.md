@@ -21,7 +21,7 @@ created: 2026-07-24
 - [matplotlib](../../notes/data-science-compute/matplotlib.md) — Low-level plotting library for full customization
 - [scientific-visualization](../../notes/research-writing/scientific-visualization.md) — Meta-skill for publication-ready figures
 - [seaborn](../../notes/data-science-compute/seaborn.md) — Statistical visualization with pandas integration
-- [threejs-data-visualization](../../notes/uncategorized/threejs-data-visualization.md) — Render WebGL-accelerated data visualizations with Three.js, raw WebGL, deck.gl, luma.gl, PixiJS, Sigma.js, Plotly WebGL traces, ECharts GL, CesiumJS, Babylon.js, or related GPU...
+- [threejs-data-visualization](../../notes/data-visualization/threejs-data-visualization.md) — Render WebGL-accelerated data visualizations with Three.js, raw WebGL, deck.gl, luma.gl, PixiJS, Sigma.js, Plotly WebGL traces, ECharts GL, CesiumJS, Babylon.js, or related GPU...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

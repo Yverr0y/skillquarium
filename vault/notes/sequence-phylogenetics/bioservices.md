@@ -20,7 +20,7 @@ created: 2026-06-09
 
 - [biopython](../../notes/sequence-phylogenetics/biopython.md) — Comprehensive molecular biology toolkit
 - [gget](../../notes/sequence-phylogenetics/gget.md) — Fast CLI/Python queries to 20+ bioinformatics databases
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

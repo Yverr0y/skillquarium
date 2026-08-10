@@ -20,7 +20,7 @@ created: 2026-07-21
 
 ## Related skills
 
-- [auth](../../notes/uncategorized/auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
+- [auth](../../notes/security-auditing/auth.md) — Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications
 - [author-component](../../notes/dotnet-development/author-component.md) — Create or review Blazor components (.razor files) with correct architecture
 - [coordinate-components](../../notes/dotnet-development/coordinate-components.md) — Share state between components that don't have a direct parent-child parameter relationship, using cascading values, scoped services with change events, or CascadingValueSource via DI
 - [support-prerendering](../../notes/dotnet-development/support-prerendering.md) — Make interactive Blazor components work correctly with prerendering

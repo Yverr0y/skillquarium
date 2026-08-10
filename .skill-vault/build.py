@@ -117,6 +117,13 @@ PALETTE = {
     "web-automation-frontend": 5832703, "analytics-engineering": 16753920,
     "security-auditing": 13382451, "software-dev": 1752220,
     "scientific-expert-profiles": 10040012, "matlab-development": 30376,
+    "saas-platforms": 14702492,
+    "hosting-edge-platforms": 3064502,
+    "comms-productivity": 8085503,
+    "finance-investment": 3050327,
+    "mobile-native-dev": 16747074,
+    "game-development": 10233776,
+    "data-visualization": 42733,
 }
 EXPERT_PALETTE = {
     "biology-life-sciences": 0x2CA02C,
@@ -427,6 +434,173 @@ CATEGORIES = [
       "zeroize-audit", "fp-check", "guidelines-advisor", "entry-point-analyzer",
       "token-integration-analyzer", "spec-to-code-compliance", "security-and-hardening"]),
 
+    ("saas-platforms", "SaaS & Vendor Platform Integrations",
+     "Vendor product platforms and their SDKs: messaging and voice, commerce, CRM, analytics, and design/collaboration SaaS.",
+     ["hosting-edge-platforms", "comms-productivity", "web-automation-frontend", "software-dev"],
+     [
+      "airtable-cli", "airtable-filters", "airtable-overview", "base44-cli", "base44-sdk",
+      "base44-troubleshooter", "box-content-api", "brighthire", "build-zoom-bot",
+      "build-zoom-contact-center-app", "build-zoom-meeting-app", "build-zoom-meeting-sdk-app",
+      "build-zoom-phone-integration", "build-zoom-rest-api-app", "build-zoom-team-chat-app",
+      "build-zoom-video-sdk-app", "build-zoom-virtual-agent", "canva-branded-presentation",
+      "canva-resize-for-all-social-media", "canva-translate-design", "catalyst-by-zoho",
+      "chat-sdk", "choose-zoom-approach", "conversation-intelligence", "debug-zoom",
+      "debug-zoom-integration", "hex", "heygen-avatar", "heygen-video", "hubspot",
+      "hubspot-crm-data-hygiene", "hubspot-customer-prep", "hubspot-pipeline-health",
+      "hyperframes", "hyperframes-cli", "hyperframes-registry", "inflection", "magicpath",
+      "marketplace", "mixpanel-auth", "mixpanel-headless-setup", "mixpanelyst", "payments",
+      "plan-zoom-integration", "plan-zoom-product", "posthog", "probe-sdk", "replay-qa-api",
+      "replayio", "rivet-sdk", "search-company-knowledge", "sentry", "setup-zoom-oauth",
+      "setup-zoom-webhooks", "setup-zoom-websockets", "shopify-admin",
+      "shopify-app-store-review", "shopify-custom-data", "shopify-customer", "shopify-dev",
+      "shopify-functions", "shopify-hydrogen", "shopify-liquid", "shopify-onboarding-dev",
+      "shopify-onboarding-merchant", "shopify-partner", "shopify-payments-apps",
+      "shopify-polaris-admin-extensions", "shopify-polaris-app-home",
+      "shopify-polaris-checkout-extensions", "shopify-polaris-customer-account-extensions",
+      "shopify-pos-ui", "shopify-storefront-graphql", "shopify-use-shopify-cli",
+      "stripe-best-practices", "superhuman-mail", "twilio-account-setup",
+      "twilio-agent-augmentation-architect", "twilio-agent-connect",
+      "twilio-ai-agent-architect", "twilio-call-recordings", "twilio-cli-reference",
+      "twilio-compliance-onboarding", "twilio-compliance-traffic", "twilio-conference-calls",
+      "twilio-content-template-builder", "twilio-conversation-orchestrator",
+      "twilio-conversations-classic-api", "twilio-customer-memory",
+      "twilio-customer-support-architect", "twilio-debugging-observability",
+      "twilio-email-deliverability-advisor", "twilio-email-send",
+      "twilio-enterprise-knowledge", "twilio-iam-auth-setup",
+      "twilio-identity-verification-advisor", "twilio-isv-sms-best-practices",
+      "twilio-lookup-phone-intelligence", "twilio-marketing-promotions-advisor",
+      "twilio-messaging-channel-advisor", "twilio-messaging-overview",
+      "twilio-messaging-services", "twilio-messaging-webhooks",
+      "twilio-notifications-alerts-advisor", "twilio-numbers-senders",
+      "twilio-organizations-setup", "twilio-rcs-messaging",
+      "twilio-regulatory-compliance-bundles", "twilio-reliability-patterns",
+      "twilio-security-api-auth", "twilio-security-compliance-hipaa",
+      "twilio-security-hardening", "twilio-send-message", "twilio-sendgrid-account-setup",
+      "twilio-sendgrid-deliverability-advisor", "twilio-sendgrid-email-send",
+      "twilio-sendgrid-email-settings", "twilio-sendgrid-engagement-quality",
+      "twilio-sendgrid-inbound-parse", "twilio-sendgrid-suppressions",
+      "twilio-sendgrid-webhooks", "twilio-sms-send-message", "twilio-taskrouter-routing",
+      "twilio-verify-send-otp", "twilio-voice-conversation-relay",
+      "twilio-voice-outbound-calls", "twilio-voice-twiml", "twilio-webhook-architecture",
+      "twilio-whatsapp-manage-senders", "twilio-whatsapp-send-message", "ucp",
+      "upgrade-stripe", "website-to-hyperframes", "wix-app", "wix-design-system",
+      "wix-headless", "wix-manage", "zoom-apps-sdk", "zoom-cobrowse-sdk",
+      "zoom-contact-center-android", "zoom-contact-center-ios", "zoom-contact-center-web",
+      "zoom-general", "zoom-meeting-sdk-android", "zoom-meeting-sdk-electron",
+      "zoom-meeting-sdk-ios", "zoom-meeting-sdk-linux", "zoom-meeting-sdk-macos",
+      "zoom-meeting-sdk-react-native", "zoom-meeting-sdk-unreal", "zoom-meeting-sdk-web",
+      "zoom-meeting-sdk-windows", "zoom-oauth", "zoom-rtms", "zoom-video-sdk-android",
+      "zoom-video-sdk-flutter", "zoom-video-sdk-ios", "zoom-video-sdk-linux",
+      "zoom-video-sdk-macos", "zoom-video-sdk-react-native", "zoom-video-sdk-unity",
+      "zoom-video-sdk-web", "zoom-video-sdk-windows", "zoom-virtual-agent-android",
+      "zoom-virtual-agent-ios", "zoom-virtual-agent-web"
+     ]),
+
+    ("hosting-edge-platforms", "Hosting, Edge & Deployment Platforms",
+     "Application hosting and edge runtimes, managed databases, CI providers, and the deploy/runtime plumbing that goes with them.",
+     ["cloud-devops", "saas-platforms", "web-automation-frontend", "software-dev"],
+     [
+      "building-ai-agent-on-cloudflare", "building-mcp-server-on-cloudflare",
+      "circleci-builds", "circleci-cli", "circleci-config", "cloudflare", "cron-jobs",
+      "deployments-cicd", "durable-objects", "env-vars", "native-data-fetching", "ncc",
+      "neon-postgres", "neon-postgres-egress-optimizer", "netlify-ai-gateway", "netlify-blobs",
+      "netlify-caching", "netlify-cli-and-deploy", "netlify-config", "netlify-deploy",
+      "netlify-edge-functions", "netlify-forms", "netlify-frameworks", "netlify-functions",
+      "netlify-identity", "netlify-image-cdn", "observability", "provision-droplet",
+      "render-background-workers", "render-blueprints", "render-cli", "render-cron-jobs",
+      "render-debug", "render-deploy", "render-disks", "render-docker", "render-domains",
+      "render-env-vars", "render-keyvalue", "render-mcp", "render-migrate-from-heroku",
+      "render-monitor", "render-networking", "render-postgres", "render-private-services",
+      "render-scaling", "render-static-sites", "render-web-services", "render-workflows",
+      "routing-middleware", "runtime-cache", "sandbox-sdk", "sign-in-with-vercel", "supabase",
+      "supabase-postgres-best-practices", "telemetry", "temporal-developer", "vercel-agent",
+      "vercel-api", "vercel-cli", "vercel-firewall", "vercel-flags", "vercel-functions",
+      "vercel-queues", "vercel-services", "vercel-storage", "workers-best-practices",
+      "wrangler"
+     ]),
+
+    ("comms-productivity", "Communication & Productivity Suites",
+     "Mail, calendar, chat and document suites (Outlook, Google Workspace, Teams, Slack, SharePoint, Notion) plus the briefing and triage workflows over them.",
+     ["documents-office", "saas-platforms", "reasoning-ideation"],
+     [
+      "batch-draft-writer", "bulk-qa-answers", "capture-tasks-from-meeting-notes", "email",
+      "eod-wrapup", "generate-status-report", "gmail", "gmail-inbox-triage", "google-calendar",
+      "google-calendar-daily-brief", "google-calendar-free-up-time",
+      "google-calendar-group-scheduler", "google-calendar-meeting-prep", "google-docs",
+      "google-drive", "google-drive-comments", "google-sheets", "google-slides", "irl-tracker",
+      "meeting-scheduler", "morning-briefing", "notion-knowledge-capture",
+      "notion-meeting-intelligence", "notion-research-documentation",
+      "notion-spec-to-implementation", "outlook-calendar", "outlook-calendar-daily-brief",
+      "outlook-calendar-free-up-time", "outlook-calendar-group-scheduler",
+      "outlook-calendar-meeting-prep", "outlook-calendar-shared-calendars", "outlook-email",
+      "outlook-email-inbox-triage", "outlook-email-reply-drafting",
+      "outlook-email-shared-mailboxes", "outlook-email-subscription-cleanup",
+      "outlook-email-task-extraction", "scribe", "sharepoint", "sharepoint-powerpoint",
+      "sharepoint-shared-doc-maintenance", "sharepoint-site-discovery",
+      "sharepoint-spreadsheet-formula-builder", "sharepoint-spreadsheets",
+      "sharepoint-word-docs", "slack-channel-summarization", "slack-daily-digest",
+      "slack-notification-triage", "slack-outgoing-message", "slack-reply-drafting",
+      "smart-file-renaming", "teams", "teams-channel-summarization", "teams-daily-digest",
+      "teams-messages", "teams-notification-triage", "teams-planner-task-management",
+      "teams-reply-drafting", "window-management"
+     ]),
+
+    ("finance-investment", "Finance, Investment & Business Analysis",
+     "Valuation and deal work, fund and issuer research, earnings workflows, and recurring business reporting.",
+     ["analytics-engineering", "documents-office", "reasoning-ideation"],
+     [
+      "bull-bear", "capital-allocation", "chronograph-cashflow-forecast",
+      "chronograph-gp-meeting-prep", "chronograph-portfolio-company-one-pager", "comp-sheet",
+      "comps", "dcf", "deal-tracker", "draft-brief", "draft-long-form-memo", "earnings-flash",
+      "earnings-prep", "earnings-review", "fa-jobs-to-be-done", "fund-comparison",
+      "fund-screener", "fund-summarizer", "guidance-tracker", "ib-deck", "industry",
+      "litigation-update-post", "metric-pack-designer", "moody-s-company-analysis",
+      "moody-s-earnings-brief", "moody-s-explore-mcp", "moody-s-issuer-brief",
+      "moody-s-peer-analysis", "moody-s-rating-analysis", "moody-s-sector-brief",
+      "precedent-transactions", "risk-analysis-audit", "supply-chain", "tearsheet",
+      "unit-economics", "vdr-index-setup", "working-capital"
+     ]),
+
+    ("mobile-native-dev", "Mobile & Native App Development",
+     "iOS, Android and desktop-native development: Expo/React Native, SwiftUI and AppKit, device debugging, signing and distribution.",
+     ["web-automation-frontend", "software-dev", "game-development"],
+     [
+      "android-emulator-qa", "android-performance", "appkit-interop", "building-native-ui",
+      "codex-expo-run-actions", "expo-api-routes", "expo-cicd-workflows", "expo-deployment",
+      "expo-dev-client", "expo-module", "expo-tailwind-setup", "expo-ui-jetpack-compose",
+      "expo-ui-swift-ui", "ios-app-intents", "ios-debugger-agent", "ios-ettrace-performance",
+      "ios-memgraph-leaks", "ios-simulator-browser", "liquid-glass", "packaging-notarization",
+      "signing-entitlements", "swiftpm-macos", "swiftui-liquid-glass", "swiftui-patterns",
+      "swiftui-performance-audit", "swiftui-ui-patterns", "swiftui-view-refactor",
+      "upgrading-expo", "use-dom"
+     ]),
+
+    ("game-development", "Game Development & Interactive 3D",
+     "Game engines and loops, sprite and 3D asset pipelines, real-time rendering, and simulation/digital-twin tooling.",
+     ["web-automation-frontend", "mobile-native-dev", "imaging-signals"],
+     [
+      "game-playtest", "game-studio", "game-ui-frontend", "omniverse-cad-to-simready",
+      "omniverse-realtime-viewer", "omniverse-usd-performance-tuning", "phaser-2d-game",
+      "physical-ai-infrastructure-setup-and-resilient-scaling",
+      "physical-ai-neural-reconstruction", "react-three-fiber-game", "sprite-pipeline",
+      "three-webgl-game", "web-3d-asset-pipeline", "web-game-foundations"
+     ]),
+
+    ("data-visualization", "Data Visualization & Charting",
+     "Charting and dashboard libraries, diagram and layout engines, and the craft guidance for building and critiquing visualizations.",
+     ["data-science-compute", "web-automation-frontend", "research-writing"],
+     [
+      "canvas2d-data-visualization", "d3-data-visualization", "dashboard-expert",
+      "dashboards-and-real-time-visualization", "data-visualization",
+      "gantt-chart-visualization", "geospatial-and-cartographic-visualization",
+      "grammar-of-graphics-and-declarative-visualization", "json-render",
+      "node-link-and-diagram-layout", "react-and-nextjs-data-visualization", "satori",
+      "scrollytelling-and-parallax-data-visualization",
+      "statistical-and-uncertainty-visualization", "testing-data-visualizations",
+      "threejs-data-visualization", "typescript-data-visualization-engineering",
+      "uml-and-software-architecture-visualization", "visualization-strategy-and-critique"
+     ]),
+
     ("dotnet-development", ".NET & C# Development",
      "The official dotnet/skills catalog: C# language/runtime tooling, MSBuild build performance and modernization, .NET/xUnit/MSTest testing and migration, ASP.NET Core and Blazor web development, .NET MAUI mobile/desktop, EF Core, native interop, crash/performance diagnostics, project templates, and cross-version migration.",
      ["software-dev", "cloud-devops", "web-automation-frontend", "security-auditing"],
@@ -652,10 +826,34 @@ def build_related_excluding(skills, full_desc, excluded):
     return related
 
 
+def find_existing_note(skill, key):
+    """Locate a skill's current wrapper note, wherever it currently sits.
+
+    Normally that is notes/<key>/<skill>.md. When a skill is recategorised the
+    note is still in its previous domain folder, so fall back to a scan: without
+    it the rebuild would start from scratch and silently reset `created`,
+    `status`, `rating`, aliases and the personal-notes section. --prune removes
+    the stale copy afterwards.
+    """
+    path = note_path(skill, key)
+    if os.path.isfile(path):
+        return path
+    filename = wrapper_filename(skill)
+    try:
+        domains = sorted(os.listdir(notes_root()))
+    except OSError:
+        return None
+    for domain in domains:
+        candidate = os.path.join(notes_root(), domain, filename)
+        if os.path.isfile(candidate):
+            return candidate
+    return None
+
+
 def parse_existing(skill, key):
     """Read user-editable bits from an existing wrapper so re-runs preserve them."""
-    path = note_path(skill, key)
-    if not os.path.isfile(path):
+    path = find_existing_note(skill, key)
+    if path is None:
         return None
     with open(path, encoding="utf-8") as wrapper_file:
         txt = wrapper_file.read()
@@ -1048,6 +1246,133 @@ def update_graph(taxonomy):
 # Keys must be valid CATEGORIES domain keys; applied only if the skill exists on disk
 # and is not already assigned via CATEGORIES.
 EXTRA_ASSIGNMENTS = {
+    # Bulk-imported vendor and tool packs routed into existing domains
+    # (2026-08-09 sweep of the 574 previously uncategorized skills).
+    # -> bio-databases-platforms
+    "biostudies-arrayexpress-skill": "bio-databases-platforms",
+    "cbioportal-skill": "bio-databases-platforms",
+    "cellxgene-skill": "bio-databases-platforms",
+    "clinicaltrials-skill": "bio-databases-platforms",
+    "efo-ontology-skill": "bio-databases-platforms",
+    "ensembl-skill": "bio-databases-platforms", "epigraphdb-skill": "bio-databases-platforms",
+    "eva-skill": "bio-databases-platforms",
+    "human-protein-atlas-skill": "bio-databases-platforms",
+    "ipd-skill": "bio-databases-platforms", "metabolights-skill": "bio-databases-platforms",
+    "mgnify-skill": "bio-databases-platforms",
+    "ncbi-clinicaltables-skill": "bio-databases-platforms",
+    "ncbi-entrez-skill": "bio-databases-platforms",
+    "opentargets-skill": "bio-databases-platforms", "pride-skill": "bio-databases-platforms",
+    "proteomexchange-skill": "bio-databases-platforms",
+    "quickgo-skill": "bio-databases-platforms", "reactome-skill": "bio-databases-platforms",
+    "research-router-skill": "bio-databases-platforms",
+    "string-skill": "bio-databases-platforms", "uniprot-skill": "bio-databases-platforms",
+    # -> data-science-compute
+    "deepnote": "data-science-compute", "deepnote-data-execution": "data-science-compute",
+    "deepnote-links": "data-science-compute",
+    "deepnote-notebook-editing": "data-science-compute",
+    "deepnote-notebooks": "data-science-compute",
+    # -> documents-office
+    "reports-pdfs-and-slide-automation": "documents-office",
+    # -> drug-discovery-chem
+    "alphafold-skill": "drug-discovery-chem", "bindingdb-skill": "drug-discovery-chem",
+    "boltz-check-status": "drug-discovery-chem", "boltz-cli-setup": "drug-discovery-chem",
+    "boltz-protein-design": "drug-discovery-chem",
+    "boltz-protein-screen": "drug-discovery-chem",
+    "boltz-small-molecule-adme": "drug-discovery-chem",
+    "boltz-small-molecule-design": "drug-discovery-chem",
+    "boltz-small-molecule-screen": "drug-discovery-chem",
+    "boltz-structure-and-binding": "drug-discovery-chem", "chebi-skill": "drug-discovery-chem",
+    "chembl-skill": "drug-discovery-chem", "hmdb-skill": "drug-discovery-chem",
+    "pharmgkb-skill": "drug-discovery-chem", "pubchem-pug-skill": "drug-discovery-chem",
+    "rcsb-pdb-skill": "drug-discovery-chem", "rhea-skill": "drug-discovery-chem",
+    # -> genomics-variants
+    "biobankjapan-phewas-skill": "genomics-variants", "civic-skill": "genomics-variants",
+    "clinvar-variation-skill": "genomics-variants",
+    "eqtl-catalogue-skill": "genomics-variants", "finngen-phewas-skill": "genomics-variants",
+    "genebass-gene-burden-skill": "genomics-variants",
+    "gnomad-graphql-skill": "genomics-variants", "gtex-eqtl-skill": "genomics-variants",
+    "gwas-catalog-skill": "genomics-variants",
+    "locus-to-gene-mapper-skill": "genomics-variants",
+    "ncbi-datasets-skill": "genomics-variants", "ngs-analysis-router": "genomics-variants",
+    "ngs-dna-germline-variants": "genomics-variants",
+    "ngs-dna-somatic-variants": "genomics-variants",
+    "ngs-dna-umi-panel-variants": "genomics-variants",
+    "ngs-dna-variant-calling": "genomics-variants", "tpmi-phewas-skill": "genomics-variants",
+    "ukb-topmed-phewas-skill": "genomics-variants",
+    # -> literature-discovery
+    "biorxiv-skill": "literature-discovery", "citations": "literature-discovery",
+    "cite-check": "literature-discovery", "ncbi-pmc-skill": "literature-discovery",
+    "research-note": "literature-discovery", "zotero": "literature-discovery",
+    # -> ml-ai
+    "agents-sdk": "ml-ai", "ai-elements": "ml-ai", "ai-gateway": "ml-ai",
+    "ai-generation-persistence": "ml-ai", "ai-sdk": "ml-ai", "aiq-deploy": "ml-ai",
+    "aiq-research": "ml-ai", "build-chatgpt-app": "ml-ai", "build-model": "ml-ai",
+    "chatgpt-app-submission": "ml-ai", "chunk": "ml-ai", "cuopt-user-rules": "ml-ai",
+    "huggingface-community-evals": "ml-ai", "huggingface-datasets": "ml-ai",
+    "huggingface-gradio": "ml-ai", "huggingface-jobs": "ml-ai",
+    "huggingface-llm-trainer": "ml-ai", "huggingface-paper-publisher": "ml-ai",
+    "huggingface-papers": "ml-ai", "huggingface-trackio": "ml-ai",
+    "huggingface-vision-trainer": "ml-ai", "nemoclaw-user-get-started": "ml-ai",
+    "openai-ads-conversions-setup": "ml-ai", "openai-api-troubleshooting": "ml-ai",
+    "openai-platform-api-key": "ml-ai", "transformers-js": "ml-ai",
+    # -> security-auditing
+    "attack-path-analysis": "security-auditing", "auth": "security-auditing",
+    "deep-security-scan": "security-auditing", "finding-discovery": "security-auditing",
+    "fix-finding": "security-auditing", "propose-security-hardening": "security-auditing",
+    "security-diff-scan": "security-auditing", "security-scan": "security-auditing",
+    "threat-model": "security-auditing", "track-findings": "security-auditing",
+    "triage-finding": "security-auditing", "vulnerability-writeup": "security-auditing",
+    # -> sequence-phylogenetics
+    "ncbi-blast-skill": "sequence-phylogenetics",
+    "ngs-amplicon-microbiome": "sequence-phylogenetics",
+    "ngs-bcl-to-fastq": "sequence-phylogenetics", "ngs-fastq-qc": "sequence-phylogenetics",
+    "ngs-runtime-env": "sequence-phylogenetics",
+    "ngs-shotgun-metagenomics": "sequence-phylogenetics",
+    "rnacentral-skill": "sequence-phylogenetics",
+    # -> single-cell-rnaseq
+    "bgee-skill": "single-cell-rnaseq", "encode-skill": "single-cell-rnaseq",
+    "ngs-atacseq-peaks-qc": "single-cell-rnaseq", "ngs-bulk-rnaseq": "single-cell-rnaseq",
+    "ngs-bulk-rnaseq-counts-qc": "single-cell-rnaseq",
+    "ngs-bulk-rnaseq-differential-expression": "single-cell-rnaseq",
+    "ngs-chip-cutrun-peaks-qc": "single-cell-rnaseq",
+    "ngs-epigenomics-peaks": "single-cell-rnaseq", "ngs-scrna-seq": "single-cell-rnaseq",
+    "scrna-seq-qc": "single-cell-rnaseq",
+    # -> software-dev
+    "build-run-debug": "software-dev", "code-review": "software-dev",
+    "document-quality-check": "software-dev", "dynamo-interconnect-check": "software-dev",
+    "dynamo-router-starter": "software-dev", "gap-analysis": "software-dev",
+    "gh-address-comments": "software-dev", "gh-fix-ci": "software-dev",
+    "github": "software-dev", "investigation-mode": "software-dev",
+    "launch-readiness-orchestrator": "software-dev", "spec-to-backlog": "software-dev",
+    "test-triage": "software-dev", "triage-issue": "software-dev",
+    "validation": "software-dev", "verification": "software-dev",
+    "view-refactor": "software-dev", "workflow": "software-dev",
+    # -> vault-meta
+    "evaluate-plugin": "vault-meta", "evaluate-skill": "vault-meta",
+    "improve-skill": "vault-meta", "initiate": "vault-meta", "minimal-skill": "vault-meta",
+    "plugin-eval": "vault-meta", "setup": "vault-meta", "start": "vault-meta",
+    "template": "vault-meta", "yeet": "vault-meta",
+    # -> web-automation-frontend
+    "accessibility-and-inclusive-visualization": "web-automation-frontend",
+    "agent-browser-verify": "web-automation-frontend", "bootstrap": "web-automation-frontend",
+    "cms": "web-automation-frontend", "figma-code-connect": "web-automation-frontend",
+    "figma-create-new-file": "web-automation-frontend",
+    "figma-design-to-code": "web-automation-frontend",
+    "figma-generate-diagram": "web-automation-frontend",
+    "figma-implement-motion": "web-automation-frontend",
+    "figma-swiftui": "web-automation-frontend", "figma-use-figjam": "web-automation-frontend",
+    "figma-use-motion": "web-automation-frontend",
+    "figma-use-slides": "web-automation-frontend",
+    "frontend-app-builder": "web-automation-frontend",
+    "frontend-testing-debugging": "web-automation-frontend",
+    "geist": "web-automation-frontend", "geistdocs": "web-automation-frontend",
+    "gsap": "web-automation-frontend", "micro": "web-automation-frontend",
+    "next-forge": "web-automation-frontend", "nextjs": "web-automation-frontend",
+    "react-best-practices": "web-automation-frontend",
+    "remotion-best-practices": "web-automation-frontend", "shadcn": "web-automation-frontend",
+    "swr": "web-automation-frontend", "turbopack": "web-automation-frontend",
+    "turborepo": "web-automation-frontend", "ui-toolkit": "web-automation-frontend",
+    "v0-dev": "web-automation-frontend", "web-perf": "web-automation-frontend",
     # Cloud, Infra & MLOps
     "airflow": "cloud-devops", "mlflow-onboarding": "cloud-devops",
     "vllm-deploy-simple": "cloud-devops", "wandb-primary": "cloud-devops",

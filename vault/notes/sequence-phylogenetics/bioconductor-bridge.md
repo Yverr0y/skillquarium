@@ -20,8 +20,8 @@ created: 2026-06-09
 
 ## Related skills
 
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

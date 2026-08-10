@@ -20,8 +20,8 @@ created: 2026-07-21
 
 ## Related skills
 
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
-- [telemetry](../../notes/uncategorized/telemetry.md) — Add and verify lightweight macOS runtime telemetry
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
+- [telemetry](../../notes/hosting-edge-platforms/telemetry.md) — Add and verify lightweight macOS runtime telemetry
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

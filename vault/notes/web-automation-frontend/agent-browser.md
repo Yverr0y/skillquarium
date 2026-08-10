@@ -20,7 +20,7 @@ created: 2026-06-09
 
 ## Related skills
 
-- [agent-browser-verify](../../notes/uncategorized/agent-browser-verify.md) — Automated browser verification for dev servers
+- [agent-browser-verify](../../notes/web-automation-frontend/agent-browser-verify.md) — Automated browser verification for dev servers
 - [agentcore](../../notes/web-automation-frontend/agentcore.md) — Run agent-browser on AWS Bedrock AgentCore cloud browsers
 - [core](../../notes/web-automation-frontend/core.md) — Core agent-browser usage guide. Read this before running any agent-browser commands
 - [electron](../../notes/web-automation-frontend/electron.md) — Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol

@@ -25,7 +25,7 @@ created: 2026-06-17
 - [matchms](../../notes/proteomics-metabolomics/matchms.md) — Spectral similarity and compound identification for metabolomics
 - [mofaplus-multi-omics](../../notes/single-cell-rnaseq/mofaplus-multi-omics.md) — Multi-Omics Factor Analysis v2 (MOFA+) with mofapy2
 - [pathway-enrichment](../../notes/single-cell-rnaseq/pathway-enrichment.md) — Run pathway and gene-set enrichment analysis on gene lists or ranked gene data, then interpret the results
-- [pride-skill](../../notes/uncategorized/pride-skill.md) — Submit compact PRIDE Archive API requests for proteomics project discovery and project-level metadata
+- [pride-skill](../../notes/bio-databases-platforms/pride-skill.md) — Submit compact PRIDE Archive API requests for proteomics project discovery and project-level metadata
 - [pyopenms](../../notes/proteomics-metabolomics/pyopenms.md) — Complete mass spectrometry analysis platform
 - [spatialdata-squidpy](../../notes/single-cell-rnaseq/spatialdata-squidpy.md) — Spatial omics workflows with SpatialData and Squidpy alongside scanpy, anndata, and napari-viz
 - [ukb-ppp-region-fetch](../../notes/genomics-variants/ukb-ppp-region-fetch.md) — Fetch a regional slice of plasma pQTL summary statistics from the UK Biobank Pharma Proteomics Project (UKB-PPP

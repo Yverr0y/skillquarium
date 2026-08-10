@@ -18,7 +18,7 @@ created: 2026-06-09
 
 ## Related skills
 
-- [initiate](../../notes/uncategorized/initiate.md) — Initiate coverage — generate both research note (HTML) and Excel model (.xlsx)
+- [initiate](../../notes/vault-meta/initiate.md) — Initiate coverage — generate both research note (HTML) and Excel model (.xlsx)
 - [markitdown](../../notes/documents-office/markitdown.md) — Convert files and office documents to Markdown
 - [officecli](../../notes/documents-office/officecli.md) — Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool
 - [officecli-data-dashboard](../../notes/documents-office/officecli-data-dashboard.md) — Use this skill to build a multi-element Excel dashboard — Dashboard sheet on open, multiple formula-driven KPI cards, multiple charts, sparklines, and conditional formatting — from CSV...

@@ -19,8 +19,8 @@ created: 2026-06-17
 ## Related skills
 
 - [claw-metagenomics](../../notes/sequence-phylogenetics/claw-metagenomics.md) — Shotgun metagenomics profiling — taxonomy, resistome, and functional pathways
-- [ngs-shotgun-metagenomics](../../notes/uncategorized/ngs-shotgun-metagenomics.md) — Kick off public shotgun metagenomics QC, host-depletion, taxonomic profiling, and functional profiling workflows using nf-core/taxprofiler, Kraken2, Bracken, MetaPhlAn, and HUMAnN
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [ngs-shotgun-metagenomics](../../notes/sequence-phylogenetics/ngs-shotgun-metagenomics.md) — Kick off public shotgun metagenomics QC, host-depletion, taxonomic profiling, and functional profiling workflows using nf-core/taxprofiler, Kraken2, Bracken, MetaPhlAn, and HUMAnN
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

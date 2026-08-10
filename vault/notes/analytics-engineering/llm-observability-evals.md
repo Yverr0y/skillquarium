@@ -23,7 +23,7 @@ created: 2026-06-09
 ## Related skills
 
 - [langfuse](../../notes/analytics-engineering/langfuse.md) — Interact with Langfuse and access its documentation
-- [observability](../../notes/uncategorized/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
+- [observability](../../notes/hosting-edge-platforms/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
 - [phoenix-cli](../../notes/analytics-engineering/phoenix-cli.md) — Debug LLM applications using the Phoenix CLI
 - [phoenix-evals](../../notes/analytics-engineering/phoenix-evals.md) — Build and run evaluators for AI/LLM applications using Phoenix
 

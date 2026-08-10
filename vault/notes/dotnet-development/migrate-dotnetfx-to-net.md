@@ -21,7 +21,7 @@ created: 2026-07-24
 ## Related skills
 
 - [dotnet-aot-compat](../../notes/dotnet-development/dotnet-aot-compat.md) — Make .NET projects compatible with Native AOT and trimming by systematically resolving IL trim/AOT analyzer warnings
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

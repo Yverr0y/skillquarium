@@ -21,8 +21,8 @@ created: 2026-07-21
 
 ## Related skills
 
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

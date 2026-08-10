@@ -22,7 +22,7 @@ created: 2026-06-09
 ## Related skills
 
 - [dask](../../notes/data-science-compute/dask.md) — Distributed computing for larger-than-RAM pandas/NumPy workflows
-- [start](../../notes/uncategorized/start.md) — Use when starting Zoom work
+- [start](../../notes/vault-meta/start.md) — Use when starting Zoom work
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

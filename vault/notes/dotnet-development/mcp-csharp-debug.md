@@ -20,11 +20,11 @@ created: 2026-07-21
 
 ## Related skills
 
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [mcp-csharp-create](../../notes/dotnet-development/mcp-csharp-create.md) — Create MCP servers using the C# SDK and .NET project templates
 - [mcp-csharp-publish](../../notes/dotnet-development/mcp-csharp-publish.md) — Publish and deploy C# MCP servers. Covers NuGet packaging for stdio servers, Docker containerization for HTTP servers, Azure Container Apps and App Service deployment, and publishing...
 - [mcp-csharp-test](../../notes/dotnet-development/mcp-csharp-test.md) — Test C# MCP servers at multiple levels: unit tests for individual tools and integration tests using the MCP client SDK
-- [setup](../../notes/uncategorized/setup.md) — Verify Daloopa MCP connection and show available skills
+- [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

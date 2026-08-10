@@ -18,18 +18,18 @@ created: 2026-06-20
 
 ## Related skills
 
-- [accessibility-and-inclusive-visualization](../../notes/uncategorized/accessibility-and-inclusive-visualization.md) — Make data visualizations accessible and inclusive
+- [accessibility-and-inclusive-visualization](../../notes/web-automation-frontend/accessibility-and-inclusive-visualization.md) — Make data visualizations accessible and inclusive
 - [dogfood](../../notes/web-automation-frontend/dogfood.md) — Systematically explore and test a web application to find bugs, UX issues, and other problems
-- [frontend-testing-debugging](../../notes/uncategorized/frontend-testing-debugging.md) — Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction...
-- [game-playtest](../../notes/uncategorized/game-playtest.md) — Run browser-game playtests and frontend QA
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [frontend-testing-debugging](../../notes/web-automation-frontend/frontend-testing-debugging.md) — Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction...
+- [game-playtest](../../notes/game-development/game-playtest.md) — Run browser-game playtests and frontend QA
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [gstack](../../notes/software-dev/gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [nature-paper2ppt](../../notes/academic-pipelines/nature-paper2ppt.md) — Build a complete Nature-style Chinese PPTX presentation from a scientific paper, preprint, PDF, article text, figure legends, or reading notes
-- [replay-qa-api](../../notes/uncategorized/replay-qa-api.md) — Use when calling Replay QA's REST API directly from Codex
-- [sharepoint-powerpoint](../../notes/uncategorized/sharepoint-powerpoint.md) — Create, edit, restyle, and review PowerPoint `.pptx` files fetched from SharePoint, with emphasis on style preservation, slide cloning, theme-aware updates, and rendered visual QA
-- [testing-data-visualizations](../../notes/uncategorized/testing-data-visualizations.md) — Test data visualizations and dashboards
-- [twilio-agent-augmentation-architect](../../notes/uncategorized/twilio-agent-augmentation-architect.md) — Planning skill for augmenting human agents with real-time AI intelligence
-- [twilio-call-recordings](../../notes/uncategorized/twilio-call-recordings.md) — Record Twilio voice calls correctly. Covers the critical distinction between Record verb (voicemail) and Dial record (call recording), dual-channel for QA, mid-call pause for PCI...
+- [replay-qa-api](../../notes/saas-platforms/replay-qa-api.md) — Use when calling Replay QA's REST API directly from Codex
+- [sharepoint-powerpoint](../../notes/comms-productivity/sharepoint-powerpoint.md) — Create, edit, restyle, and review PowerPoint `.pptx` files fetched from SharePoint, with emphasis on style preservation, slide cloning, theme-aware updates, and rendered visual QA
+- [testing-data-visualizations](../../notes/data-visualization/testing-data-visualizations.md) — Test data visualizations and dashboards
+- [twilio-agent-augmentation-architect](../../notes/saas-platforms/twilio-agent-augmentation-architect.md) — Planning skill for augmenting human agents with real-time AI intelligence
+- [twilio-call-recordings](../../notes/saas-platforms/twilio-call-recordings.md) — Record Twilio voice calls correctly. Covers the critical distinction between Record verb (voicemail) and Dial record (call recording), dual-channel for QA, mid-call pause for PCI...
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

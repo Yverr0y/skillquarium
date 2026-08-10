@@ -33,14 +33,14 @@ created: 2026-06-10
 - [modal](../../notes/cloud-devops/modal.md) — Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs
 - [molmim-nim](../../notes/drug-discovery-chem/molmim-nim.md) — Use this skill for MolMIM, NVIDIA's BioNeMo NIM microservice for small-molecule latent-space generation and optimization
 - [msa-search-nim](../../notes/sequence-phylogenetics/msa-search-nim.md) — Generate multiple sequence alignments (MSAs) for protein sequences using the ColabFold MSA-Search NIM
-- [nemoclaw-user-get-started](../../notes/uncategorized/nemoclaw-user-get-started.md) — Installs NemoClaw, launches a sandbox, and runs the first agent prompt
+- [nemoclaw-user-get-started](../../notes/ml-ai/nemoclaw-user-get-started.md) — Installs NemoClaw, launches a sandbox, and runs the first agent prompt
 - [nextflow](../../notes/cloud-devops/nextflow.md) — Build, run, and debug Nextflow data pipelines and nf-core workflows end to end
 - [openfold2-nim](../../notes/drug-discovery-chem/openfold2-nim.md) — Use this skill for OpenFold2, NVIDIA's BioNeMo NIM microservice for monomer protein structure prediction
 - [openfold3-nim](../../notes/drug-discovery-chem/openfold3-nim.md) — Use this skill for OpenFold3, NVIDIA's BioNeMo NIM microservice for biomolecular structure prediction
 - [proteinmpnn-nim](../../notes/drug-discovery-chem/proteinmpnn-nim.md) — Run ProteinMPNN inverse folding via NVIDIA NIM to design protein sequences for a target backbone
-- [render-docker](../../notes/uncategorized/render-docker.md) — Builds and deploys Docker containers on Render—Dockerfiles, multi-stage builds, Blueprint Docker fields, private registries, layer caching, and platform constraints
+- [render-docker](../../notes/hosting-edge-platforms/render-docker.md) — Builds and deploys Docker containers on Render—Dockerfiles, multi-stage builds, Blueprint Docker fields, private registries, layer caching, and platform constraints
 - [rfdiffusion-nim](../../notes/drug-discovery-chem/rfdiffusion-nim.md) — Run RFDiffusion protein backbone design via NVIDIA NIM
-- [zoom-video-sdk-linux](../../notes/uncategorized/zoom-video-sdk-linux.md) — Zoom Video SDK for Linux - C++ headless bots, raw audio/video capture/injection, Qt/GTK integration, Docker support
+- [zoom-video-sdk-linux](../../notes/saas-platforms/zoom-video-sdk-linux.md) — Zoom Video SDK for Linux - C++ headless bots, raw audio/video capture/injection, Qt/GTK integration, Docker support
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

@@ -27,7 +27,7 @@ created: 2026-06-09
 - [pandera-validation](../../notes/data-science-compute/pandera-validation.md) — DataFrame schema validation using pandera
 - [polars](../../notes/data-science-compute/polars.md) — High-performance DataFrame library for Python ETL, analytics, and pandas migration
 - [read-file](../../notes/data-science-compute/read-file.md) — Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial, SQLite) or remote URL (S3, HTTPS)
-- [validation](../../notes/uncategorized/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
+- [validation](../../notes/software-dev/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 - [xarray](../../notes/data-science-compute/xarray.md) — N-dimensional labeled arrays and datasets in Python
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

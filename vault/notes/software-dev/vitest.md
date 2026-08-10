@@ -22,7 +22,7 @@ created: 2026-06-12
 ## Related skills
 
 - [code-testing-agent](../../notes/dotnet-development/code-testing-agent.md) — Generates and writes new unit tests for any programming language — scaffolds test projects and configures coverage tooling (coverlet, pytest-cov, @vitest/coverage-v8) as part of test...
-- [durable-objects](../../notes/uncategorized/durable-objects.md) — Create and review Cloudflare Durable Objects
+- [durable-objects](../../notes/hosting-edge-platforms/durable-objects.md) — Create and review Cloudflare Durable Objects
 - [jest](../../notes/software-dev/jest.md) — JavaScript testing with Jest — unit tests, mocks, spies, snapshot testing, code coverage, and configuration
 - [test-analysis-extensions](../../notes/dotnet-development/test-analysis-extensions.md) — Provides file paths to language-specific reference files for the test ANALYSIS skills (assertion-quality, test-anti-patterns, test-gap-analysis, test-smell-detection, test-tagging)
 - [test-driven-development](../../notes/software-dev/test-driven-development.md) — Use when implementing any feature or bugfix, before writing implementation code

@@ -1,0 +1,27 @@
+---
+title: twilio-compliance-onboarding
+aliases:
+  - twilio compliance onboarding
+tags:
+  - skill
+  - domain/saas-platforms
+domain: saas-platforms
+status: untried
+source: skills/twilio-compliance-onboarding/SKILL.md
+created: 2026-08-07
+---
+
+# twilio-compliance-onboarding
+
+> [!info] What it does
+> Registrations required BEFORE Twilio traffic works. Covers messaging programs (A2P 10DLC, toll-free verification, WhatsApp WABA, RCS, short code, alphanumeric sender) and voice trust programs (STIR/SHAKEN, Voice Integrity, Branded Calling, CNAM). Each number/sender type has its own program — registration blocks traffic until complete.
+
+**Source:** [skills/twilio-compliance-onboarding/SKILL.md](../../../skills/twilio-compliance-onboarding/SKILL.md)  ·  **Domain:** [SaaS & Vendor Platform Integrations](../../maps/saas-platforms.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [verification](../../notes/software-dev/verification.md) — Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

@@ -20,8 +20,8 @@ created: 2026-06-09
 
 - [docker](../../notes/software-dev/docker.md) — Containerizing and shipping applications with Docker — writing efficient Dockerfiles (multi-stage builds, layer caching, small/secure images), docker compose for multi-service local...
 - [figma-generate-design](../../notes/web-automation-frontend/figma-generate-design.md) — Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma
-- [wix-app](../../notes/uncategorized/wix-app.md) — Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Editor React components, site plugins, embedded scripts, backend APIs...
-- [wix-design-system](../../notes/uncategorized/wix-design-system.md) — Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking props and examples, or writing tests with component testkits
+- [wix-app](../../notes/saas-platforms/wix-app.md) — Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Editor React components, site plugins, embedded scripts, backend APIs...
+- [wix-design-system](../../notes/saas-platforms/wix-design-system.md) — Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking props and examples, or writing tests with component testkits
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

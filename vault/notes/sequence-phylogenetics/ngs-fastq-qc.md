@@ -1,0 +1,27 @@
+---
+title: ngs-fastq-qc
+aliases:
+  - ngs fastq qc
+tags:
+  - skill
+  - domain/sequence-phylogenetics
+domain: sequence-phylogenetics
+status: untried
+source: skills/ngs-fastq-qc/SKILL.md
+created: 2026-08-07
+---
+
+# ngs-fastq-qc
+
+> [!info] What it does
+> Validate FASTQ inputs, run local FastQC/MultiQC QC, interpret QC signals, and optionally execute fastp or Cutadapt trimming branches without overwriting raw reads.
+
+**Source:** [skills/ngs-fastq-qc/SKILL.md](../../../skills/ngs-fastq-qc/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](../../maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [cutadapt](../../notes/sequence-phylogenetics/cutadapt.md) — Adapter, primer, and poly-A/T trimming for high-throughput sequencing reads (FASTQ/FASTA)
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

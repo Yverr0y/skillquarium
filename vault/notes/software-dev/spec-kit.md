@@ -20,7 +20,7 @@ created: 2026-08-09
 
 ## Related skills
 
-- [github](../../notes/uncategorized/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
+- [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [implement](../../notes/software-dev/implement.md) — Implement a piece of work based on a PRD or set of issues
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%

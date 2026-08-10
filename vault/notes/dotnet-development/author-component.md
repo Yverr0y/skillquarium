@@ -29,7 +29,7 @@ created: 2026-07-21
 - [review](../../notes/software-dev/review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
 - [support-prerendering](../../notes/dotnet-development/support-prerendering.md) — Make interactive Blazor components work correctly with prerendering
 - [use-js-interop](../../notes/dotnet-development/use-js-interop.md) — Add, review, or fix JavaScript interop in Blazor components
-- [validation](../../notes/uncategorized/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
+- [validation](../../notes/software-dev/validation.md) — Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

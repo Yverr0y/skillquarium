@@ -24,7 +24,7 @@ created: 2026-06-10
 - [test-driven-development](../../notes/software-dev/test-driven-development.md) — Use when implementing any feature or bugfix, before writing implementation code
 - [test-smell-detection](../../notes/dotnet-development/test-smell-detection.md) — Deep-dive audit using the full testsmells.org 19-smell academic catalog for tests in any language
 - [test-tagging](../../notes/dotnet-development/test-tagging.md) — Analyzes test suites in any language and tags each test with standardized traits (positive, negative, critical-path, boundary, smoke, regression, integration, performance, security)
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

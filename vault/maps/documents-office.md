@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Scientific Writing, Figures & Publishing](research-writing.md) | [Literature Search & Knowledge Discovery](literature-discovery.md)
 
-## Skills (23)
+## Skills (24)
 
 - [doc-coauthoring](../notes/documents-office/doc-coauthoring.md) — Guide users through a structured workflow for co-authoring documentation
 - [docx](../notes/documents-office/docx.md) — Document toolkit (.docx). Create/edit documents, tracked changes, comments, formatting preservation, text extraction, for professional document processing
@@ -38,4 +38,5 @@ created: 2026-06-13
 - [pdf](../notes/documents-office/pdf.md) — PDF manipulation toolkit. Extract text/tables, create PDFs, merge/split, fill forms, for programmatic document processing and analysis
 - [pptx](../notes/documents-office/pptx.md) — Presentation toolkit (.pptx). Create/edit slides, layouts, content, speaker notes, comments, for programmatic presentation creation and modification
 - [report-template](../notes/documents-office/report-template.md) — Publication-quality PDF report generation using Typst templates
+- [reports-pdfs-and-slide-automation](../notes/documents-office/reports-pdfs-and-slide-automation.md) — Lay out and export data-rich reports and documents
 - [xlsx](../notes/documents-office/xlsx.md) — Spreadsheet toolkit (.xlsx/.csv). Create/edit with formulas/formatting, analyze data, visualization, recalculate formulas, for spreadsheet processing and analysis

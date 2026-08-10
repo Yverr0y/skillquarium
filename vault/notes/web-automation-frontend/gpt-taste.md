@@ -20,7 +20,7 @@ created: 2026-07-07
 
 ## Related skills
 
-- [gsap](../../notes/uncategorized/gsap.md) — GSAP animation reference for HyperFrames
+- [gsap](../../notes/web-automation-frontend/gsap.md) — GSAP animation reference for HyperFrames
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

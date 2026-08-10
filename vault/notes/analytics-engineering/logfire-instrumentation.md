@@ -20,8 +20,8 @@ created: 2026-07-21
 
 ## Related skills
 
-- [observability](../../notes/uncategorized/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
-- [telemetry](../../notes/uncategorized/telemetry.md) — Add and verify lightweight macOS runtime telemetry
+- [observability](../../notes/hosting-edge-platforms/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
+- [telemetry](../../notes/hosting-edge-platforms/telemetry.md) — Add and verify lightweight macOS runtime telemetry
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

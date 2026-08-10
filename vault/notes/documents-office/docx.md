@@ -18,16 +18,16 @@ created: 2026-06-09
 
 ## Related skills
 
-- [cite-check](../../notes/uncategorized/cite-check.md) — Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately
-- [draft-brief](../../notes/uncategorized/draft-brief.md) — Drafts court filings — motions, memoranda of law, appellate briefs — as court-ready .docx, with Midpage research behind every citation
-- [draft-long-form-memo](../../notes/uncategorized/draft-long-form-memo.md) — Writes a formal objective legal research memo (Questions Presented, Brief Answers, Facts, IRAC Discussion, Conclusion) as a .docx
+- [cite-check](../../notes/literature-discovery/cite-check.md) — Cite-checks a brief, motion, or memo (PDF/Word): verifies each cited case is real, supports the proposition, is good law, and quoted accurately
+- [draft-brief](../../notes/finance-investment/draft-brief.md) — Drafts court filings — motions, memoranda of law, appellate briefs — as court-ready .docx, with Midpage research behind every citation
+- [draft-long-form-memo](../../notes/finance-investment/draft-long-form-memo.md) — Writes a formal objective legal research memo (Questions Presented, Brief Answers, Facts, IRAC Discussion, Conclusion) as a .docx
 - [liteparse](../../notes/documents-office/liteparse.md) — Local document and PDF parsing with spatial text and bounding boxes
 - [markitdown](../../notes/documents-office/markitdown.md) — Convert files and office documents to Markdown
 - [officecli](../../notes/documents-office/officecli.md) — Create, analyze, proofread, and modify Office documents (.docx, .xlsx, .pptx) using the officecli CLI tool
 - [officecli-academic-paper](../../notes/documents-office/officecli-academic-paper.md) — Use this skill to build academic-style .docx output: journal / conference / thesis chapters carrying formal citation style (APA, Chicago, IEEE, MLA), numbered equations, figure & table...
 - [officecli-docx](../../notes/documents-office/officecli-docx.md) — Use this skill any time a .docx file is involved -- as input, output, or both
 - [officecli-word-form](../../notes/documents-office/officecli-word-form.md) — Use this skill to create fillable Word forms (.docx) with real Content Controls (SDT) + legacy FormField checkboxes + MERGEFIELD mail-merge placeholders + document protection
-- [sharepoint-word-docs](../../notes/uncategorized/sharepoint-word-docs.md) — Edit SharePoint-hosted Word `.docx` files while preserving document structure and styling
+- [sharepoint-word-docs](../../notes/comms-productivity/sharepoint-word-docs.md) — Edit SharePoint-hosted Word `.docx` files while preserving document structure and styling
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

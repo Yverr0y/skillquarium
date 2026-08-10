@@ -28,7 +28,7 @@ created: 2026-06-09
 - [repro-enforcer](../../notes/vault-meta/repro-enforcer.md) — Export any bioinformatics analysis as a reproducible bundle with Conda environment, Singularity container definition, and Nextflow pipeline
 - [snakemake-workflow-engine](../../notes/cloud-devops/snakemake-workflow-engine.md) — Python-based workflow manager for reproducible, scalable pipelines
 - [sourmash](../../notes/sequence-phylogenetics/sourmash.md) — MinHash/FracMinHash sketching for alignment-free comparison of genomes and metagenomes
-- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+- [workflow](../../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

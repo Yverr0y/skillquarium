@@ -23,7 +23,7 @@ created: 2026-06-10
 
 ## Related skills
 
-- [shadcn](../../notes/uncategorized/shadcn.md) — Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI
+- [shadcn](../../notes/web-automation-frontend/shadcn.md) — Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

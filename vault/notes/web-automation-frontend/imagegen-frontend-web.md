@@ -20,7 +20,7 @@ created: 2026-07-07
 
 ## Related skills
 
-- [comps](../../notes/uncategorized/comps.md) — Trading comparables analysis with peer multiples and implied valuation
+- [comps](../../notes/finance-investment/comps.md) — Trading comparables analysis with peer multiples and implied valuation
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 

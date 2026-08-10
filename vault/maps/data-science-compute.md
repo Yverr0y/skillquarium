@@ -14,12 +14,17 @@ created: 2026-06-13
 
 **Related maps:** [Machine Learning & AI](ml-ai.md) | [Quantum, Physics & Materials](quantum-physics.md) | [Scientific Writing, Figures & Publishing](research-writing.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (37)
+## Skills (42)
 
 - [adjusttext](../notes/data-science-compute/adjusttext.md) — Use the Python adjustText package to automatically move matplotlib text labels so they do not overlap each other, points, or other artists
 - [attach-db](../notes/data-science-compute/attach-db.md) — Attach a DuckDB database file for use with /duckdb-skills:query
 - [build-complexheatmaps](../notes/data-science-compute/build-complexheatmaps.md) — Build, debug, and polish ComplexHeatmap figures in R, including HeatmapList sizing, unequal-row multi-panel layouts, row and column annotations, anno_mark labels, shared legends, title...
 - [dask](../notes/data-science-compute/dask.md) — Distributed computing for larger-than-RAM pandas/NumPy workflows
+- [deepnote](../notes/data-science-compute/deepnote.md) — Use when a task mentions Deepnote, the connected Deepnote app, Deepnote OAuth connection, Deepnote docs, projects, workspaces, notebooks, blocks, integrations, or notebook runs
+- [deepnote-data-execution](../notes/data-science-compute/deepnote-data-execution.md) — Use when running Deepnote notebooks, inspecting notebook inputs, reviewing integration references and cached table structure, listing run history, or interpreting run status and...
+- [deepnote-links](../notes/data-science-compute/deepnote-links.md) — Use when a task asks for Deepnote URLs, links, project links, notebook links, workspace links, share links, UTM/campaign links, or when a Deepnote response should include clickable...
+- [deepnote-notebook-editing](../notes/data-science-compute/deepnote-notebook-editing.md) — Use when creating Deepnote projects or notebooks, adding or updating blocks or cells, moving existing blocks, scaffolding notebook content, inserting SQL/code/markdown/input blocks, or...
+- [deepnote-notebooks](../notes/data-science-compute/deepnote-notebooks.md) — Use when reading, reviewing, inspecting, or reasoning about hosted Deepnote notebooks, blocks, inputs, SQL, Python, or notebook outputs through the Deepnote app tools
 - [duckdb-docs](../notes/data-science-compute/duckdb-docs.md) — Search DuckDB and DuckLake documentation and blog posts
 - [exploratory-data-analysis](../notes/data-science-compute/exploratory-data-analysis.md) — Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats
 - [geomaster](../notes/data-science-compute/geomaster.md) — Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains

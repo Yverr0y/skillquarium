@@ -23,7 +23,7 @@ created: 2026-07-21
 - [build-parallelism](../../notes/dotnet-development/build-parallelism.md) — Diagnose and fix under-parallelized MSBuild builds
 - [build-perf-diagnostics](../../notes/dotnet-development/build-perf-diagnostics.md) — Diagnose MSBuild build performance bottlenecks using binary log analysis
 - [incremental-build](../../notes/dotnet-development/incremental-build.md) — Guide for optimizing MSBuild incremental builds
-- [start](../../notes/uncategorized/start.md) — Use when starting Zoom work
+- [start](../../notes/vault-meta/start.md) — Use when starting Zoom work
 
 %% ---8<--- personal notes below are preserved on re-run ---8<--- %%
 
