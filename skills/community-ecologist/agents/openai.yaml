@@ -2,6 +2,3 @@ interface:
   display_name: "Community Ecologist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $community-ecologist for this task."
-
-policy:
-  allow_implicit_invocation: false

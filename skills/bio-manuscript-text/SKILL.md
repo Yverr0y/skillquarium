@@ -1,7 +1,6 @@
 ---
 name: bio-manuscript-text
 description: "Step 7 of the bio-manuscript pipeline: draft the main manuscript text. Use when writing the Introduction, Results (around the figure logic), Discussion, and a Methods skeleton from the figure plan, metric system, and analysis system."
-disable-model-invocation: true
 ---
 
 # bio-manuscript-text

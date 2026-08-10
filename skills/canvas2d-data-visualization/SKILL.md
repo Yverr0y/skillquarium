@@ -1,7 +1,6 @@
 ---
 name: canvas2d-data-visualization
 description: Render data visualizations with Canvas2D. Use when the visualization needs high mark counts, fast redraws, immediate-mode rendering, custom hit testing, or a hybrid Canvas plus SVG or HTML architecture.
-disable-model-invocation: false
 ---
 
 # Canvas2D Data Visualization

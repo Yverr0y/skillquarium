@@ -2,6 +2,3 @@ interface:
   display_name: "Semiconductor Materials Scientist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $semiconductor-materials-scientist for this task."
-
-policy:
-  allow_implicit_invocation: false

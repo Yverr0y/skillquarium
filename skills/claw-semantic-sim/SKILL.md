@@ -41,7 +41,6 @@ metadata:
     - NTDs
     - SII
     - knowledge silo
-disable-model-invocation: true
 ---
 
 # 🦖 Semantic Similarity Index

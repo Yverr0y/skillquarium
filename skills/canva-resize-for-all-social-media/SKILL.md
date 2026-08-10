@@ -1,7 +1,6 @@
 ---
 name: canva-resize-for-all-social-media
 description: Resize a Canva design into standard social media formats and prepare export-ready results. Use when the user wants one Canva design adapted across multiple social platforms such as Facebook, Instagram, and LinkedIn, especially when they want all variants produced in one pass.
-disable-model-invocation: true
 ---
 
 # Canva Resize For Social Media

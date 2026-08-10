@@ -83,7 +83,6 @@ metadata:
       bins:
       - python3
     always: false
-disable-model-invocation: true
 ---
 
 # Shotgun Metagenomics Profiler

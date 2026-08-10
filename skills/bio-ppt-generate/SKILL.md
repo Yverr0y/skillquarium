@@ -1,7 +1,6 @@
 ---
 name: bio-ppt-generate
 description: "Generate a presentation package from a finalized bio-manuscript proposal. Use when producing a 10-15 slide, Markdown-first presentation outline (group-meeting / 组会 style) from FINAL_PROPOSAL.md plus demo or validation results."
-disable-model-invocation: true
 ---
 
 # bio-ppt-generate

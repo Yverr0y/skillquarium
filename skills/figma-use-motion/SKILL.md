@@ -1,7 +1,6 @@
 ---
 name: figma-use-motion
 description: "Motion / animation context for the `use_figma` MCP tool — animating Figma nodes via manual keyframes, animation styles, easing, and timeline duration. Load alongside figma-use whenever a task involves adding, editing, or inspecting animation on a node."
-disable-model-invocation: false
 ---
 
 # use_figma — Figma Plugin API Skill for Motion

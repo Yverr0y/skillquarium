@@ -2,6 +2,3 @@ interface:
   display_name: "Hydrogeologist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $hydrogeologist for this task."
-
-policy:
-  allow_implicit_invocation: false

@@ -2,6 +2,3 @@ interface:
   display_name: "Cryo Em Structural Biologist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $cryo-em-structural-biologist for this task."
-
-policy:
-  allow_implicit_invocation: false

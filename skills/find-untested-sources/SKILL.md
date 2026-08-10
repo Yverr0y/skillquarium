@@ -14,7 +14,6 @@ license: MIT
 # code-testing pipeline); kept out of the model-facing skill menu so it does not
 # consume the plugin's 15,000-char skill-menu budget or add routing noise that
 # suppresses activation of the user-facing test skills. Still invocable by name.
-disable-model-invocation: true
 ---
 
 # Find Untested Sources

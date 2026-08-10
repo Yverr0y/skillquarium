@@ -2,7 +2,6 @@
 name: capital-allocation
 description: Deep dive into capital deployment, buybacks, dividends, and shareholder
   yield
-disable-model-invocation: true
 ---
 
 Perform a deep dive into capital allocation for the company named in the user's request. If no ticker or company is provided, ask for one before proceeding.

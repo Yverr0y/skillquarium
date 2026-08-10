@@ -5,6 +5,3 @@ interface:
   icon_large: "./assets/icon-large.png"
   brand_color: "#EF223A"
   default_prompt: "How do I build an AI agent that is context aware across channels on Twilio?"
-
-policy:
-  allow_implicit_invocation: true

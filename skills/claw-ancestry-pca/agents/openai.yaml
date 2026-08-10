@@ -2,6 +2,3 @@ interface:
   display_name: "Claw Ancestry Pca"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $claw-ancestry-pca for this task."
-
-policy:
-  allow_implicit_invocation: false

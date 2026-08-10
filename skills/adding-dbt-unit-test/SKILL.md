@@ -4,7 +4,6 @@ description: Creates unit test YAML definitions that mock upstream model inputs 
 user-invocable: false
 metadata:
   author: dbt-labs
-disable-model-invocation: true
 ---
 
 # Add unit test for a dbt model

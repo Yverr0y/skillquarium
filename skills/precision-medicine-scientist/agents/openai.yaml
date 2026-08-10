@@ -2,6 +2,3 @@ interface:
   display_name: "Precision Medicine Scientist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $precision-medicine-scientist for this task."
-
-policy:
-  allow_implicit_invocation: false

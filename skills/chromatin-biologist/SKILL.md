@@ -15,7 +15,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 75
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Chromatin Biologist Expert Profile

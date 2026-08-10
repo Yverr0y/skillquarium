@@ -2,6 +2,3 @@ interface:
   display_name: "High Performance Computing Specialist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $high-performance-computing-specialist for this task."
-
-policy:
-  allow_implicit_invocation: false

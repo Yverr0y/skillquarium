@@ -5,6 +5,3 @@ interface:
   icon_large: "./assets/canva.svg"
   brand_color: "#00C4CC"
   default_prompt: "Use $canva-translate-design to create a translated copy of my Canva design in another language."
-
-policy:
-  allow_implicit_invocation: false

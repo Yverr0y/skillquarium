@@ -2,6 +2,3 @@ interface:
   display_name: "Virologist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $virologist for this task."
-
-policy:
-  allow_implicit_invocation: false

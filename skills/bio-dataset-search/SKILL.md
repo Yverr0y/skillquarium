@@ -1,7 +1,6 @@
 ---
 name: bio-dataset-search
 description: "Step 3 of the bio-manuscript pipeline: find and match public datasets to manuscript tasks. Use when extracting datasets from related papers or searching repositories (e.g. GEO), normalizing dataset metadata, and mapping datasets to the task system."
-disable-model-invocation: true
 ---
 
 # bio-dataset-search

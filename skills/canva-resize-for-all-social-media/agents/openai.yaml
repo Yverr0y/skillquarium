@@ -5,6 +5,3 @@ interface:
   icon_large: "./assets/canva.svg"
   brand_color: "#00C4CC"
   default_prompt: "Use $canva-resize-for-all-social-media to turn one Canva design into Facebook, Instagram, and LinkedIn-ready versions."
-
-policy:
-  allow_implicit_invocation: false

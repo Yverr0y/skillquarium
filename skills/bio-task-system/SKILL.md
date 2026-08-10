@@ -1,7 +1,6 @@
 ---
 name: bio-task-system
 description: "Step 2 of the bio-manuscript pipeline: design the task system. Use when identifying the dominant task taxonomy in a field and organizing it into a staged Level 1-4 difficulty ladder to prepare for downstream dataset and metric design."
-disable-model-invocation: true
 ---
 
 # bio-task-system

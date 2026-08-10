@@ -16,7 +16,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 38
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Bacteriologist Expert Profile

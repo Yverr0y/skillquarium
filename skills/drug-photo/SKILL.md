@@ -25,7 +25,6 @@ metadata:
     - medication photo
     - pill photo
     - drug image
-disable-model-invocation: true
 ---
 
 # 📸 Drug Photo

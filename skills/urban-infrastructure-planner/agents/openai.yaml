@@ -2,6 +2,3 @@ interface:
   display_name: "Urban Infrastructure Planner"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $urban-infrastructure-planner for this task."
-
-policy:
-  allow_implicit_invocation: false

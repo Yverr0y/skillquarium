@@ -17,7 +17,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 85
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Nonlinear Dynamics & Chaos Scientist Expert Profile

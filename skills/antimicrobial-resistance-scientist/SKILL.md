@@ -17,7 +17,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 43
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Antimicrobial Resistance Scientist Expert Profile

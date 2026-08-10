@@ -1,7 +1,6 @@
 ---
 name: bio-manuscript-refine
 description: "Refinement loop for the bio-manuscript pipeline: three-reviewer iterative optimization (editor, computational, biological). Use when reviewing a manuscript plan, producing structured review comments, revising round by round, and tracking score and revision history toward a target journal."
-disable-model-invocation: true
 ---
 
 # bio-manuscript-refine

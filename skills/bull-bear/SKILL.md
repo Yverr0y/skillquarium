@@ -1,7 +1,6 @@
 ---
 name: bull-bear
 description: Bull/bear/base case scenario framework for a given company
-disable-model-invocation: true
 ---
 
 Build a bull/bear/base case scenario framework for the company named in the user's request. If no ticker or company is provided, ask for one before proceeding.

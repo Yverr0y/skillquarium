@@ -5,7 +5,6 @@ description: "How to use the Adaptyv Bio Foundry API and Python SDK for protein 
 license: MIT
 compatibility: Requires Python 3.10+, an Adaptyv Foundry account, and an API key from foundry.adaptyvbio.com. Install adaptyv-sdk from GitHub with uv pip install.
 metadata: {"version": "1.2", "skill-author": "K-Dense Inc."}
-disable-model-invocation: true
 ---
 
 # Adaptyv Bio Foundry API

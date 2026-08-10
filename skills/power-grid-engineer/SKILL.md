@@ -16,7 +16,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 36
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Power Grid Engineer Expert Profile

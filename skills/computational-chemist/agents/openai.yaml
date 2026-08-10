@@ -2,6 +2,3 @@ interface:
   display_name: "Computational Chemist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $computational-chemist for this task."
-
-policy:
-  allow_implicit_invocation: false

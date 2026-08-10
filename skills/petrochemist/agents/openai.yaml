@@ -2,6 +2,3 @@ interface:
   display_name: "Petrochemist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $petrochemist for this task."
-
-policy:
-  allow_implicit_invocation: false

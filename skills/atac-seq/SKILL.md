@@ -3,7 +3,6 @@ name: atac-seq
 description: ATAC-seq processing with assay QC, MACS3 peak calling, consensus peak matrices, differential accessibility, and motif or footprint follow-up.
 tool_type: mixed
 primary_tool: MACS3
-disable-model-invocation: true
 ---
 
 # ATAC Seq

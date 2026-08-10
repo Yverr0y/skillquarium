@@ -5,6 +5,3 @@ interface:
   icon_large: "../../assets/logo.svg"
   brand_color: "#2563EB"
   default_prompt: "Use $brighthire to find interviews, candidates, calls, scorecards, and transcripts from BrightHire."
-
-policy:
-  allow_implicit_invocation: true

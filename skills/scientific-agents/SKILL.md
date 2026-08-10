@@ -12,7 +12,6 @@ metadata:
   source-commit: 896ed6ed1e1a6686572db06ca59fd1c1b0055ca7
   source-path: catalog.json
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Scientific Agents Profile Dispatcher

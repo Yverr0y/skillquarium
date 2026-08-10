@@ -2,6 +2,3 @@ interface:
   display_name: "Brain Computer Interface Engineer"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $brain-computer-interface-engineer for this task."
-
-policy:
-  allow_implicit_invocation: false

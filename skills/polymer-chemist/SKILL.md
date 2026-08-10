@@ -15,7 +15,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 92
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Polymer Chemist Expert Profile

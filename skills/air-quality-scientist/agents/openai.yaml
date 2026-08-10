@@ -2,6 +2,3 @@ interface:
   display_name: "Air Quality Scientist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $air-quality-scientist for this task."
-
-policy:
-  allow_implicit_invocation: false

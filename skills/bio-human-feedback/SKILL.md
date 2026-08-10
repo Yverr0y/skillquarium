@@ -1,7 +1,6 @@
 ---
 name: bio-human-feedback
 description: "Phase 2.6 of the bio-manuscript pipeline: human review checkpoint. Use when presenting a refined proposal to a human reviewer, collecting explicit feedback, recording approval or requested changes, and routing the workflow back to the correct phase."
-disable-model-invocation: true
 ---
 
 # bio-human-feedback

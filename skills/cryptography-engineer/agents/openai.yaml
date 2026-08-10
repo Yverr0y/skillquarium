@@ -2,6 +2,3 @@ interface:
   display_name: "Cryptography Engineer"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $cryptography-engineer for this task."
-
-policy:
-  allow_implicit_invocation: false

@@ -16,7 +16,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 52
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Clinical Embryologist Expert Profile

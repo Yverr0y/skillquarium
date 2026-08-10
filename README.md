@@ -120,10 +120,12 @@ The table shows four combined states:
 - `error` — malformed metadata must be repaired before the tool will change it.
 
 Save writes `.skill-vault/skill-toggle-state.json` . Reload reapplies both
-products from that snapshot. **Reset HEAD** requires a second click or Ctrl-P within five
-seconds: it saves the current state, then restores only the invocation fields to Git HEAD,
-leaving unrelated working edits untouched. Reload the snapshot after committing to restore
-your personal settings.
+products from that snapshot. **Activate all** requires a second click or Ctrl-P within five
+seconds: it saves the current state, then activates every skill for both products by
+dropping the two invocation fields, so what gets committed is the shared default — all
+skills on — rather than your personal opt-outs. Only those fields change; unrelated working
+edits are left untouched. Reload the snapshot after committing to restore your personal
+settings.
 
 The tool writes `disable-model-invocation` in `SKILL.md` for Claude Code and
 `policy.allow_implicit_invocation` in `agents/openai.yaml` for Codex. This prevents

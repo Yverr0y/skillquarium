@@ -16,7 +16,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 44
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Semiconductor Physicist Expert Profile

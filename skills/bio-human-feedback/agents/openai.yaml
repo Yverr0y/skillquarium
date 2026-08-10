@@ -2,6 +2,3 @@ interface:
   display_name: "Bio Human Feedback"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $bio-human-feedback for this task."
-
-policy:
-  allow_implicit_invocation: false

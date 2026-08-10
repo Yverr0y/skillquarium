@@ -2,6 +2,3 @@ interface:
   display_name: "Clinical Data Manager"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $clinical-data-manager for this task."
-
-policy:
-  allow_implicit_invocation: false

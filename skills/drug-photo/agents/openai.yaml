@@ -2,6 +2,3 @@ interface:
   display_name: "Drug Photo"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $drug-photo for this task."
-
-policy:
-  allow_implicit_invocation: false

@@ -562,20 +562,6 @@ def load_snapshot(root: Path, path: Path | None = None) -> tuple[Path, int]:
     return source, changed
 
 
-def _boolean_field_presence(
-    text: str, field: str, *, path: Path, top_level: bool
-) -> bool | None:
-    if not re.search(rf"(?m)^[ \t]*{re.escape(field)}:[^\n]*$", text):
-        return None
-    return _read_boolean_field(
-        text,
-        field,
-        default=False,
-        path=path,
-        top_level=top_level,
-    )
-
-
 def _git_head_texts(root: Path, paths: Sequence[Path]) -> dict[Path, str | None]:
     relative_paths = [path.relative_to(root).as_posix() for path in paths]
     process = subprocess.Popen(
@@ -624,72 +610,55 @@ def _matches_generated_openai_yaml(skill: Skill, text: str) -> bool:
 
 
 def pre_commit_reset(root: Path, snapshot_path: Path | None = None) -> tuple[Path, int]:
+    """Save the current invocation states, then activate every skill.
+
+    Committed skills are model-invocable by default, so the reset drops the two
+    opt-out fields instead of restoring them: `SKILL.md` loses
+    `disable-model-invocation` and `agents/openai.yaml` loses
+    `policy.allow_implicit_invocation`, which both products read as enabled. An
+    `agents/openai.yaml` this tool generated for a skill that has none in Git
+    HEAD is removed outright, since a missing file also means enabled. Personal
+    opt-outs live on in the snapshot, so `load` restores them after committing.
+    Unrelated working edits are left untouched.
+    """
     root = root.resolve()
     snapshot = save_snapshot(root, snapshot_path)
     skills = discover_skills(root)
-    relevant_paths = [
-        path
-        for skill in skills
-        for path in (
-            skill.directory / "SKILL.md",
-            skill.directory / "agents" / "openai.yaml",
-        )
-    ]
-    head = _git_head_texts(root, relevant_paths)
+    openai_paths = [skill.directory / "agents" / "openai.yaml" for skill in skills]
+    head = _git_head_texts(root, openai_paths)
     operations: list[tuple[Path, str | None, str | None, int | None]] = []
 
     for skill in skills:
         skill_path = skill.directory / "SKILL.md"
         openai_path = skill.directory / "agents" / "openai.yaml"
         current_skill = skill_path.read_text(encoding="utf-8")
-        head_skill = head[skill_path]
-        if head_skill is not None:
-            desired_claude = _boolean_field_presence(
-                head_skill,
-                CLAUDE_FIELD,
-                path=skill_path,
-                top_level=True,
-            )
-            updated_skill = _transform_skill_md_field(
-                current_skill,
-                skill_path,
-                disabled=desired_claude,
-            )
-            if updated_skill != current_skill:
-                operations.append(
-                    (
-                        skill_path,
-                        current_skill,
-                        updated_skill,
-                        skill_path.stat().st_mode,
-                    )
-                )
-
-        current_openai = (
-            openai_path.read_text(encoding="utf-8") if openai_path.exists() else None
+        updated_skill = _transform_skill_md_field(
+            current_skill,
+            skill_path,
+            disabled=None,
         )
-        head_openai = head[openai_path]
-        if current_openai is None:
+        if updated_skill != current_skill:
+            operations.append(
+                (
+                    skill_path,
+                    current_skill,
+                    updated_skill,
+                    skill_path.stat().st_mode,
+                )
+            )
+
+        if not openai_path.exists():
             continue
-        if head_openai is None and _matches_generated_openai_yaml(
+        current_openai = openai_path.read_text(encoding="utf-8")
+        if head[openai_path] is None and _matches_generated_openai_yaml(
             skill, current_openai
         ):
             updated_openai = None
         else:
-            desired_codex = (
-                None
-                if head_openai is None
-                else _boolean_field_presence(
-                    head_openai,
-                    CODEX_FIELD,
-                    path=openai_path,
-                    top_level=False,
-                )
-            )
             updated_openai = _transform_openai_yaml_field(
                 current_openai,
                 openai_path,
-                enabled=desired_codex,
+                enabled=None,
             )
         if updated_openai != current_openai:
             operations.append(
@@ -795,7 +764,7 @@ def _build_parser() -> argparse.ArgumentParser:
     load.add_argument("path", nargs="?", type=Path)
     reset = subparsers.add_parser(
         "pre-commit-reset",
-        help="save current states and restore invocation metadata from Git HEAD",
+        help="save current states and activate every skill for both products",
     )
     reset.add_argument("--snapshot", type=Path)
     return parser

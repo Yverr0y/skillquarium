@@ -2,6 +2,3 @@ interface:
   display_name: "Astroparticle Physicist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $astroparticle-physicist for this task."
-
-policy:
-  allow_implicit_invocation: false

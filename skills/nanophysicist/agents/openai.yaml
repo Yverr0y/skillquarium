@@ -2,6 +2,3 @@ interface:
   display_name: "Nanophysicist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $nanophysicist for this task."
-
-policy:
-  allow_implicit_invocation: false

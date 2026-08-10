@@ -2,6 +2,3 @@ interface:
   display_name: "Infectious Disease Specialist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $infectious-disease-specialist for this task."
-
-policy:
-  allow_implicit_invocation: false

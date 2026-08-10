@@ -56,7 +56,6 @@ metadata:
       bins:
       - python3
     always: false
-disable-model-invocation: true
 ---
 
 # 🦖 Ancestry Decomposition PCA

@@ -247,7 +247,7 @@ export class SkillToggleApp {
     searchBar.add(this.search)
     searchBar.add(this.createButton("save", "Save", 9, () => void this.saveSnapshot()).box)
     searchBar.add(this.createButton("reload", "Reload", 10, () => void this.loadSnapshot()).box)
-    searchBar.add(this.createButton("reset", "Reset HEAD", 14, () => void this.armOrReset()).box)
+    searchBar.add(this.createButton("reset", "Activate all", 14, () => void this.armOrReset()).box)
     this.root.add(searchBar)
 
     const filters = new BoxRenderable(renderer, {
@@ -821,13 +821,13 @@ export class SkillToggleApp {
     const now = Date.now()
     if (now - this.resetArmedAt > 5_000) {
       this.resetArmedAt = now
-      this.setMessage("Pre-commit reset armed: click Reset HEAD or press Ctrl-P again within 5 seconds")
+      this.setMessage("Pre-commit reset armed: click Activate all or press Ctrl-P again within 5 seconds")
       return
     }
     if (this.busy) return
     this.resetArmedAt = 0
     this.busy = true
-    this.setMessage("Saving current state and restoring invocation metadata from Git HEAD…")
+    this.setMessage("Saving current state and activating every skill for both products…")
     try {
       this.setMessage(await this.backend.preCommitReset())
       await this.refreshCatalog()

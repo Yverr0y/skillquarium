@@ -2,6 +2,3 @@ interface:
   display_name: "Bio Manuscript Refine"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $bio-manuscript-refine for this task."
-
-policy:
-  allow_implicit_invocation: false

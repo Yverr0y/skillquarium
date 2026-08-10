@@ -4,7 +4,6 @@ description: Extract cognitive patterns and thinking fingerprints from any text.
 allowed-tools: Read Write
 license: MIT license
 metadata: {"version": "1.0", "skill-author": "AHK Strategies (ashrafkahoush-ux)"}
-disable-model-invocation: true
 ---
 
 # DHDNA Profiler — Cognitive Pattern Extraction

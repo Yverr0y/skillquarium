@@ -12,7 +12,6 @@ metadata:
     - deep-research
     - academic-paper
     - academic-paper-reviewer
-disable-model-invocation: true
 ---
 
 # Academic Pipeline v3.15.0 — Full Academic Research Workflow Orchestrator

@@ -14,6 +14,25 @@ sys.modules[SPEC.name] = skill_toggle
 SPEC.loader.exec_module(skill_toggle)
 
 
+def commit_fixture(root: Path, *paths: str) -> None:
+    subprocess.run(["git", "init", "-q"], cwd=root, check=True)
+    subprocess.run(["git", "add", *(paths or ["."])], cwd=root, check=True)
+    subprocess.run(
+        [
+            "git",
+            "-c",
+            "user.name=Skill Toggle Test",
+            "-c",
+            "user.email=skill-toggle@example.test",
+            "commit",
+            "-qm",
+            "fixture",
+        ],
+        cwd=root,
+        check=True,
+    )
+
+
 def make_skill(root: Path, name: str, *, claude=None, codex=None) -> Path:
     directory = root / skill_toggle.SKILLS_SUBDIR / name
     directory.mkdir(parents=True)
@@ -213,28 +232,9 @@ class SkillToggleTests(unittest.TestCase):
             skill_toggle.InvocationState.ENABLED,
         )
 
-    def test_pre_commit_reset_saves_state_and_restores_only_head_metadata(self):
+    def test_pre_commit_reset_saves_state_and_activates_working_tree(self):
         directory = make_skill(self.root, "committed")
-        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
-        subprocess.run(
-            ["git", "add", f"{skill_toggle.SKILLS_SUBDIR}/committed/SKILL.md"],
-            cwd=self.root,
-            check=True,
-        )
-        subprocess.run(
-            [
-                "git",
-                "-c",
-                "user.name=Skill Toggle Test",
-                "-c",
-                "user.email=skill-toggle@example.test",
-                "commit",
-                "-qm",
-                "fixture",
-            ],
-            cwd=self.root,
-            check=True,
-        )
+        commit_fixture(self.root, f"{skill_toggle.SKILLS_SUBDIR}/committed/SKILL.md")
         skill_toggle.set_skill_enabled(
             skill_toggle.load_skill(directory), enabled=False
         )
@@ -267,22 +267,7 @@ class SkillToggleTests(unittest.TestCase):
             '  short_description: "Preserve exact formatting."\n'
         )
         openai_path.write_text(original, encoding="utf-8")
-        subprocess.run(["git", "init", "-q"], cwd=self.root, check=True)
-        subprocess.run(["git", "add", "."], cwd=self.root, check=True)
-        subprocess.run(
-            [
-                "git",
-                "-c",
-                "user.name=Skill Toggle Test",
-                "-c",
-                "user.email=skill-toggle@example.test",
-                "commit",
-                "-qm",
-                "fixture",
-            ],
-            cwd=self.root,
-            check=True,
-        )
+        commit_fixture(self.root)
         skill_toggle.set_skill_product_states(
             skill_toggle.load_skill(directory), codex_enabled=False
         )
@@ -290,6 +275,25 @@ class SkillToggleTests(unittest.TestCase):
         skill_toggle.pre_commit_reset(self.root)
 
         self.assertEqual(openai_path.read_text(encoding="utf-8"), original)
+
+    def test_pre_commit_reset_activates_skills_disabled_in_head(self):
+        directory = make_skill(self.root, "head-disabled", claude=True, codex=False)
+        commit_fixture(self.root)
+
+        _, changed = skill_toggle.pre_commit_reset(self.root)
+
+        openai_text = (directory / "agents" / "openai.yaml").read_text(encoding="utf-8")
+        self.assertEqual(changed, 2)
+        self.assertNotIn(
+            "disable-model-invocation",
+            (directory / "SKILL.md").read_text(encoding="utf-8"),
+        )
+        self.assertNotIn("allow_implicit_invocation", openai_text)
+        self.assertIn("- codex", openai_text)
+        self.assertEqual(
+            skill_toggle.load_skill(directory).state,
+            skill_toggle.InvocationState.ENABLED,
+        )
 
 
 if __name__ == "__main__":

@@ -7,7 +7,6 @@ description: >
   `--on-cluster`, grizzly or polar, and singleton requeue chains.
 compatibility: "complexa CLI installed; bash 4+; .env Section 5 populated; SSH key to CLUSTER_HOST"
 allowed-tools: Bash, Read, Write, AskUserQuestion
-disable-model-invocation: true
 ---
 
 # Complexa SLURM Skill

@@ -1,5 +1,3 @@
 interface:
   display_name: "Dashboards and Real-Time Visualization"
   short_description: "Design dashboards and live visualization systems"
-policy:
-  allow_implicit_invocation: true

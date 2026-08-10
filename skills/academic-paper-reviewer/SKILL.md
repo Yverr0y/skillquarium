@@ -10,7 +10,6 @@ metadata:
   related_skills:
     - academic-paper
     - academic-pipeline
-disable-model-invocation: true
 ---
 
 # Academic Paper Reviewer v1.10.0 — Multi-Perspective Academic Paper Review Agent Team

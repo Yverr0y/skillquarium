@@ -2,6 +2,3 @@ interface:
   display_name: "Conservation Biologist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $conservation-biologist for this task."
-
-policy:
-  allow_implicit_invocation: false

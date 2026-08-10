@@ -1,7 +1,6 @@
 ---
 name: bio-metric-system
 description: "Step 4 of the bio-manuscript pipeline: design the evaluation-metric system. Use when extracting quantitative and qualitative metrics from literature or adjacent fields, organizing them into groups, and explaining what each metric measures and how to compute it."
-disable-model-invocation: true
 ---
 
 # bio-metric-system

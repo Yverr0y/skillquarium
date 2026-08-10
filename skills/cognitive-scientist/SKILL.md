@@ -18,7 +18,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 48
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Cognitive Scientist Expert Profile

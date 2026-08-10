@@ -1,7 +1,6 @@
 ---
 name: bio-innovation-check
 description: "Step 1 of the bio-manuscript pipeline: assess research-idea novelty. Use when expanding a topic into variants/synonyms, searching PubMed/bioRxiv/arXiv q-bio, de-duplicating related papers, assigning a novelty level, and suggesting how to sharpen or reposition the idea."
-disable-model-invocation: true
 ---
 
 # bio-innovation-check

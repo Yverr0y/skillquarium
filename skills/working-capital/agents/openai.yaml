@@ -3,5 +3,3 @@ interface:
   short_description: Cash conversion cycle, earnings quality, and working capital
     deep-dive
   default_prompt: Analyze AAPL working capital and cash conversion.
-policy:
-  allow_implicit_invocation: true

@@ -4,7 +4,6 @@ type: fuzzer
 description: >
   AFL++ is a fork of AFL with better fuzzing performance and advanced features.
   Use for multi-core fuzzing of C/C++ projects.
-disable-model-invocation: true
 ---
 
 # AFL++

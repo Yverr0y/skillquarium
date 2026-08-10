@@ -17,7 +17,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 62
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Low-Temperature Physicist Expert Profile

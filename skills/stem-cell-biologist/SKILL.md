@@ -15,7 +15,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 45
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Stem Cell Biologist Expert Profile

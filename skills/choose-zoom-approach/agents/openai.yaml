@@ -1,5 +1,3 @@
 interface:
   display_name: Choose Zoom Approach
   short_description: Use when choosing architecture.
-policy:
-  allow_implicit_invocation: false

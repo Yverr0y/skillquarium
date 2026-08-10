@@ -2,6 +2,3 @@ interface:
   display_name: "Quality Six Sigma Engineer"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $quality-six-sigma-engineer for this task."
-
-policy:
-  allow_implicit_invocation: false

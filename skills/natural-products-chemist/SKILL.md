@@ -17,7 +17,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 42
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Natural Products Chemist Expert Profile

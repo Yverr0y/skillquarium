@@ -2,6 +2,3 @@ interface:
   display_name: "Bio Manuscript Pipeline"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $bio-manuscript-pipeline for this task."
-
-policy:
-  allow_implicit_invocation: false

@@ -17,7 +17,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 20
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # High-Performance Computing Specialist Expert Profile

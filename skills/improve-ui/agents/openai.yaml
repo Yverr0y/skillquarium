@@ -9,4 +9,3 @@ policy:
   - chatgpt
   - codex
   - atlas
-  allow_implicit_invocation: true

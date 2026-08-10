@@ -1,83 +1,83 @@
 {
   "schema_version": 1,
-  "saved_at": "2026-08-10T01:22:20.791837+00:00",
-  "root": "/Users/stan/.agents/skills",
+  "saved_at": "2026-08-10T05:01:16.585689+00:00",
+  "root": "/home/stan/.agents",
   "skills": {
     "academic-paper": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "academic-paper-reviewer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "academic-pipeline": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "accelerator-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "accessibility-and-inclusive-visualization": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "acoustical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "acoustics-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "actuarial-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "adaptyv": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "adding-dbt-unit-test": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "additive-manufacturing-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "adjusttext": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "aeon": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aerodynamicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aeronautical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aeronomy-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aerospace-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "affinity-proteomics": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aflpp": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "agent-browser": {
       "claude_enabled": true,
@@ -100,20 +100,20 @@
       "codex_enabled": true
     },
     "agricultural-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "agricultural-entomologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "agroecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "agronomist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ai-elements": {
       "claude_enabled": true,
@@ -128,8 +128,8 @@
       "codex_enabled": true
     },
     "ai-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ai-sdk": {
       "claude_enabled": true,
@@ -144,8 +144,8 @@
       "codex_enabled": true
     },
     "air-quality-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "airflow": {
       "claude_enabled": true,
@@ -164,16 +164,16 @@
       "codex_enabled": true
     },
     "algebraist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "algorithmic-art": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "algorithms-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "alphafold-skill": {
       "claude_enabled": true,
@@ -184,8 +184,8 @@
       "codex_enabled": true
     },
     "analytical-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "analyze-fasta": {
       "claude_enabled": true,
@@ -196,8 +196,8 @@
       "codex_enabled": true
     },
     "anatomist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "android-emulator-qa": {
       "claude_enabled": true,
@@ -212,20 +212,20 @@
       "codex_enabled": true
     },
     "anesthesiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "animal-geneticist-breeder": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "animal-nutritionist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "animal-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "anndata": {
       "claude_enabled": true,
@@ -236,12 +236,12 @@
       "codex_enabled": true
     },
     "antenna-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "antimicrobial-resistance-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "api-and-interface-design": {
       "claude_enabled": true,
@@ -256,12 +256,12 @@
       "codex_enabled": true
     },
     "applied-mathematician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "aquaculture-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "arboreto": {
       "claude_enabled": true,
@@ -276,72 +276,72 @@
       "codex_enabled": true
     },
     "ask-matt": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "assertion-quality": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "astrobiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astrochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astrodynamicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astronautical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astronomer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astronomical-instrumentation-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astroparticle-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astrophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "astropy": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "astrostatistician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "atac-seq": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "atheris": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "atmospheric-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "atmospheric-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "atomic-molecular-optical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "attach-db": {
       "claude_enabled": true,
@@ -352,8 +352,8 @@
       "codex_enabled": true
     },
     "audiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "audit-context-building": {
       "claude_enabled": true,
@@ -380,8 +380,8 @@
       "codex_enabled": true
     },
     "automotive-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "autoskill": {
       "claude_enabled": true,
@@ -408,8 +408,8 @@
       "codex_enabled": true
     },
     "bacteriologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "base44-cli": {
       "claude_enabled": true,
@@ -432,16 +432,16 @@
       "codex_enabled": true
     },
     "bayesian-statistician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "behavioral-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "behavioral-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "benchling-integration": {
       "claude_enabled": true,
@@ -480,116 +480,116 @@
       "codex_enabled": true
     },
     "bio-analysis-system": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-dataset-search": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-figure-design": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-human-feedback": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-innovation-check": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-manuscript-pipeline": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-manuscript-refine": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-manuscript-text": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-metric-system": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-orchestrator": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-ppt-generate": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-task-system": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bio-tools": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biobankjapan-phewas-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "biochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bioconductor-bridge": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "biogeochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biogeographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bioinformatician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bioinformatics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biological-oceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biomaterials-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biomedical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biomedical-imaging-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biophysical-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bioprocess-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bioprocess-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biopython": {
       "claude_enabled": true,
@@ -608,16 +608,16 @@
       "codex_enabled": true
     },
     "biostatistician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "biostudies-arrayexpress-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "biosystems-agricultural-process-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "blast-search": {
       "claude_enabled": true,
@@ -664,16 +664,16 @@
       "codex_enabled": true
     },
     "botanist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "box-content-api": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "brain-computer-interface-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "brainstorming": {
       "claude_enabled": true,
@@ -688,8 +688,8 @@
       "codex_enabled": true
     },
     "bridge-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "brighthire": {
       "claude_enabled": true,
@@ -728,40 +728,40 @@
       "codex_enabled": true
     },
     "build-zoom-bot": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-contact-center-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-meeting-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-meeting-sdk-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-phone-integration": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-rest-api-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-team-chat-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-video-sdk-app": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "build-zoom-virtual-agent": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "building-ai-agent-on-cloudflare": {
       "claude_enabled": true,
@@ -784,8 +784,8 @@
       "codex_enabled": true
     },
     "building-science-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "bulk-qa-answers": {
       "claude_enabled": true,
@@ -796,8 +796,8 @@
       "codex_enabled": true
     },
     "bull-bear": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "busco-assessor": {
       "claude_enabled": true,
@@ -808,60 +808,60 @@
       "codex_enabled": true
     },
     "cancer-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "canva-branded-presentation": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "canva-resize-for-all-social-media": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "canva-translate-design": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "canvas2d-data-visualization": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "capital-allocation": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "capture-tasks-from-meeting-notes": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "carbon-cycle-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cardiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cargo-fuzz": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "catalysis-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "catalysis-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "catalyst-by-zoho": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "causal-inference-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cavecrew": {
       "claude_enabled": true,
@@ -916,8 +916,8 @@
       "codex_enabled": true
     },
     "cell-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cell-communication": {
       "claude_enabled": true,
@@ -928,8 +928,8 @@
       "codex_enabled": true
     },
     "cell-signaling-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cellpose-cell-segmentation": {
       "claude_enabled": true,
@@ -940,8 +940,8 @@
       "codex_enabled": true
     },
     "cellular-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cellxgene-census": {
       "claude_enabled": true,
@@ -952,8 +952,8 @@
       "codex_enabled": true
     },
     "ceramics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chaos-engineering": {
       "claude_enabled": true,
@@ -984,36 +984,36 @@
       "codex_enabled": true
     },
     "chemical-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chemical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chemical-oceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cheminformatician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chip-seq": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "choose-zoom-approach": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chromatin-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chronobiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "chronograph-cashflow-forecast": {
       "claude_enabled": true,
@@ -1048,8 +1048,8 @@
       "codex_enabled": true
     },
     "cirq": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "citation-management": {
       "claude_enabled": true,
@@ -1068,84 +1068,84 @@
       "codex_enabled": true
     },
     "civil-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "claw-ancestry-pca": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "claw-metagenomics": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "claw-semantic-sim": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clawpathy-autoresearch": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "climate-risk-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "climate-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "climatologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-data-manager": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-decision-support": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-embryologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-epidemiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-laboratory-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-pharmacologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-reports": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-trial-finder": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-trial-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinical-variant-reporter": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinicaltrials-skill": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "clinpgx": {
       "claude_enabled": true,
@@ -1172,8 +1172,8 @@
       "codex_enabled": true
     },
     "coastal-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cobrapy": {
       "claude_enabled": true,
@@ -1200,7 +1200,7 @@
       "codex_enabled": true
     },
     "code-testing-extensions": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "codebase-design": {
@@ -1216,12 +1216,12 @@
       "codex_enabled": true
     },
     "cognitive-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cognitive-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "colabfold": {
       "claude_enabled": true,
@@ -1232,124 +1232,124 @@
       "codex_enabled": true
     },
     "colloid-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "combinatorialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "combustion-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "communications-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "community-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "comp-sheet": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "comparative-medicine-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "comparative-physiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "complexa-design": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "complexa-evaluate-pdbs": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "complexa-setup": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "complexa-slurm": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "complexa-sweep": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "complexa-target": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "composites-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "comps": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "computational-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computational-linguist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computational-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computational-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computational-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computational-social-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-architecture-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-graphics-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-hardware-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-security-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "computer-vision-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "conda-bioconda": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "condensed-matter-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "configure-auth": {
       "claude_enabled": true,
@@ -1364,20 +1364,20 @@
       "codex_enabled": true
     },
     "connectomics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "consciousness-council": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "conservation-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "conservation-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "constant-time-analysis": {
       "claude_enabled": true,
@@ -1388,16 +1388,16 @@
       "codex_enabled": true
     },
     "construction-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "context-engineering": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "control-systems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "conversation-intelligence": {
       "claude_enabled": true,
@@ -1424,16 +1424,16 @@
       "codex_enabled": true
     },
     "corrosion-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cosmochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cosmologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "coverage-analysis": {
       "claude_enabled": true,
@@ -1460,40 +1460,40 @@
       "codex_enabled": true
     },
     "critical-care-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cron-jobs": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "crop-protection-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "crop-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cryo-em-structural-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cryptographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "cryptography-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "crystal-growth-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "crystallographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "csharp-scripts": {
       "claude_enabled": true,
@@ -1512,16 +1512,16 @@
       "codex_enabled": true
     },
     "cytogeneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "d3-data-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "dairy-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "dashboard-expert": {
       "claude_enabled": true,
@@ -1536,16 +1536,16 @@
       "codex_enabled": true
     },
     "data-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "data-extractor": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "data-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "data-visualization": {
       "claude_enabled": true,
@@ -1556,8 +1556,8 @@
       "codex_enabled": true
     },
     "database-systems-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "datamol": {
       "claude_enabled": true,
@@ -1576,24 +1576,24 @@
       "codex_enabled": true
     },
     "debug-zoom": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "debug-zoom-integration": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "debugging-and-error-recovery": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "decision-mapping": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "deep-learning-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "deep-research": {
       "claude_enabled": true,
@@ -1636,8 +1636,8 @@
       "codex_enabled": true
     },
     "dentist-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "deployments-cicd": {
       "claude_enabled": true,
@@ -1652,8 +1652,8 @@
       "codex_enabled": true
     },
     "dermatologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "design-an-interface": {
       "claude_enabled": true,
@@ -1680,16 +1680,16 @@
       "codex_enabled": true
     },
     "developmental-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "developmental-psychologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "dhdna-profiler": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "diagnosing-bugs": {
       "claude_enabled": true,
@@ -1712,16 +1712,16 @@
       "codex_enabled": true
     },
     "differential-geometer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "differential-review": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "digital-pathology-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "directory-build-organization": {
       "claude_enabled": true,
@@ -1732,8 +1732,8 @@
       "codex_enabled": true
     },
     "distributed-systems-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "dnanexus-integration": {
       "claude_enabled": true,
@@ -1812,19 +1812,19 @@
       "codex_enabled": true
     },
     "drug-discovery-pipeline": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "drug-photo": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "drug-repurposing-screen": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "dspy": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "duckdb-docs": {
@@ -1844,8 +1844,8 @@
       "codex_enabled": true
     },
     "dynamical-systems-theorist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "dynamo-interconnect-check": {
       "claude_enabled": true,
@@ -1872,31 +1872,31 @@
       "codex_enabled": true
     },
     "earthquake-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "economic-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ecosystem-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ecotoxicologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "edge-embedded-ai-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "edit-article": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "efo-ontology-skill": {
@@ -1904,72 +1904,72 @@
       "codex_enabled": true
     },
     "electric-machines-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electrical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electrochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electromagnetics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electron": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "electronic-materials-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electronics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "electrophysiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "email": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "embedded-systems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "emergency-medicine-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "encode-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "endocrinologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "energy-storage-battery-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "energy-systems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ensembl-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "entomologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "entry-point-analyzer": {
       "claude_enabled": true,
@@ -1980,44 +1980,44 @@
       "codex_enabled": true
     },
     "environmental-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "environmental-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "environmental-health-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "environmental-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "environmental-policy-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "environmental-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "enzymologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "eod-wrapup": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "epidemiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "epigeneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "epigraphdb-skill": {
       "claude_enabled": true,
@@ -2044,8 +2044,8 @@
       "codex_enabled": true
     },
     "ethologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "eva-skill": {
       "claude_enabled": true,
@@ -2068,8 +2068,8 @@
       "codex_enabled": true
     },
     "evolutionary-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "exa-search": {
       "claude_enabled": true,
@@ -2080,12 +2080,12 @@
       "codex_enabled": true
     },
     "exercise-physiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "exoplanet-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "exp-mock-usage-analysis": {
       "claude_enabled": true,
@@ -2100,8 +2100,8 @@
       "codex_enabled": true
     },
     "experimental-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "exploratory-data-analysis": {
       "claude_enabled": true,
@@ -2144,8 +2144,8 @@
       "codex_enabled": true
     },
     "extremophile-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fa-jobs-to-be-done": {
       "claude_enabled": true,
@@ -2164,8 +2164,8 @@
       "codex_enabled": true
     },
     "fermentation-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fetch-and-send-data": {
       "claude_enabled": true,
@@ -2232,7 +2232,7 @@
       "codex_enabled": true
     },
     "filter-syntax": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "find-skills": {
@@ -2240,7 +2240,7 @@
       "codex_enabled": true
     },
     "find-untested-sources": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "finding-discovery": {
@@ -2256,20 +2256,20 @@
       "codex_enabled": true
     },
     "finite-element-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "finngen-phewas-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "fire-protection-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fisheries-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fitness-nutrition": {
       "claude_enabled": true,
@@ -2292,8 +2292,8 @@
       "codex_enabled": true
     },
     "flavor-fragrance-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "flow-bio": {
       "claude_enabled": true,
@@ -2304,56 +2304,56 @@
       "codex_enabled": true
     },
     "fluid-dynamicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fluid-mechanics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fluidsim": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "food-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "food-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "food-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "food-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "forensic-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "forestry-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "formal-methods-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "foundation-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fp-check": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "fpga-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fragpipe-pyteomics-proteomics": {
       "claude_enabled": true,
@@ -2380,8 +2380,8 @@
       "codex_enabled": true
     },
     "functional-genomics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fund-comparison": {
       "claude_enabled": true,
@@ -2396,8 +2396,8 @@
       "codex_enabled": true
     },
     "fusion-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "fuzzing-dictionary": {
       "claude_enabled": true,
@@ -2408,8 +2408,8 @@
       "codex_enabled": true
     },
     "galactic-astronomer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "galaxy-bridge": {
       "claude_enabled": true,
@@ -2429,7 +2429,7 @@
     },
     "gantt-chart-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "gap-analysis": {
       "claude_enabled": true,
@@ -2444,8 +2444,8 @@
       "codex_enabled": true
     },
     "gene-therapy-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "genebass-gene-burden-skill": {
       "claude_enabled": true,
@@ -2464,12 +2464,12 @@
       "codex_enabled": true
     },
     "genetic-counselor": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geniml": {
       "claude_enabled": true,
@@ -2484,84 +2484,84 @@
       "codex_enabled": true
     },
     "genome-engineering-crispr-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "genome-match": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "genomicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "genomics-workflow-acceleration": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "geobiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geodesist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geodynamics-tectonics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geographic-information-scientist-gis": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geological-oceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geomagnetist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geomaster": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "geomorphologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geopandas": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "geophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geospatial-and-cartographic-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "geotechnical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "geotechnical-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "gerontologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "get-available-resources": {
       "claude_enabled": true,
@@ -2628,16 +2628,16 @@
       "codex_enabled": true
     },
     "glaciologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "global-health-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "glycobiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "glycoengineering": {
       "claude_enabled": true,
@@ -2705,23 +2705,23 @@
     },
     "grammar-of-graphics-and-declarative-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "gravitational-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "gravitational-wave-astronomer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "great-expectations": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "green-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "greploop": {
       "claude_enabled": true,
@@ -2740,10 +2740,6 @@
       "codex_enabled": true
     },
     "gsap": {
-      "claude_enabled": true,
-      "codex_enabled": true
-    },
-    "gstack": {
       "claude_enabled": true,
       "codex_enabled": true
     },
@@ -2784,7 +2780,7 @@
       "codex_enabled": true
     },
     "handoff": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "harmonypy": {
@@ -2796,32 +2792,32 @@
       "codex_enabled": true
     },
     "health-economist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "health-informatician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "heat-transfer-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "heliophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hematologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hepatologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "herpetologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hex": {
       "claude_enabled": true,
@@ -2844,20 +2840,20 @@
       "codex_enabled": true
     },
     "high-energy-astrophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "high-performance-computing-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "histolab": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "histologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hla-typing": {
       "claude_enabled": true,
@@ -2868,8 +2864,8 @@
       "codex_enabled": true
     },
     "horticulturist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hubspot": {
       "claude_enabled": true,
@@ -2928,8 +2924,8 @@
       "codex_enabled": true
     },
     "human-computer-interaction-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "human-protein-atlas-skill": {
       "claude_enabled": true,
@@ -2940,20 +2936,20 @@
       "codex_enabled": true
     },
     "hvac-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hydraulic-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hydrogeologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hydrologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "hyperframes": {
       "claude_enabled": true,
@@ -2980,8 +2976,8 @@
       "codex_enabled": true
     },
     "ichthyologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "idea-evaluator": {
       "claude_enabled": true,
@@ -3012,23 +3008,23 @@
       "codex_enabled": true
     },
     "immunogeneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "immunologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "immunotherapy-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "implement": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "improve-codebase-architecture": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "improve-skill": {
@@ -3056,24 +3052,24 @@
       "codex_enabled": true
     },
     "industrial-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "industrial-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "industrial-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "industry": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "infectious-disease-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "inflection": {
       "claude_enabled": true,
@@ -3084,16 +3080,16 @@
       "codex_enabled": true
     },
     "information-retrieval-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "initiate": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "inorganic-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "insecure-defaults": {
       "claude_enabled": true,
@@ -3104,12 +3100,12 @@
       "codex_enabled": true
     },
     "instrumentation-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "integrated-circuit-designer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "internal-comms": {
       "claude_enabled": true,
@@ -3160,8 +3156,8 @@
       "codex_enabled": true
     },
     "isotope-geochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "item-management": {
       "claude_enabled": true,
@@ -3216,8 +3212,8 @@
       "codex_enabled": true
     },
     "knowledge-representation-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "kubernetes-specialist": {
       "claude_enabled": true,
@@ -3236,16 +3232,16 @@
       "codex_enabled": true
     },
     "landscape-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "langfuse": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "laser-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "latchbio-integration": {
       "claude_enabled": true,
@@ -3268,16 +3264,16 @@
       "codex_enabled": true
     },
     "life-cycle-assessment-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "lifelines": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "limnologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "linear": {
       "claude_enabled": true,
@@ -3336,44 +3332,44 @@
       "codex_enabled": true
     },
     "logician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "low-temperature-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "machine-learning-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "machine-learning-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "magicpath": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "mammalogist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "manufacturing-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "marine-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "marine-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "marine-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "markdown-mermaid-writing": {
       "claude_enabled": true,
@@ -3396,40 +3392,40 @@
       "codex_enabled": true
     },
     "mass-spectrometrist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "matchms": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "materials-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "materials-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "materials-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mathematical-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mathematical-modeler": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mathematical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mathematical-statistician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "matlab": {
       "claude_enabled": true,
@@ -3608,52 +3604,52 @@
       "codex_enabled": true
     },
     "mechanical-design-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mechanical-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mechatronics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "medchem": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "medical-geneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "medical-mycologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "medical-parasitologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "medical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "medicinal-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "meeting-scheduler": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "membrane-biophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mendelian-randomisation": {
       "claude_enabled": true,
@@ -3664,20 +3660,20 @@
       "codex_enabled": true
     },
     "metabolomics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "metagenomics": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "metallurgist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "meteorologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "methylation-clock": {
       "claude_enabled": true,
@@ -3688,8 +3684,8 @@
       "codex_enabled": true
     },
     "metrology-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mgnify-skill": {
       "claude_enabled": true,
@@ -3704,24 +3700,24 @@
       "codex_enabled": true
     },
     "microbial-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "microbial-physiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "microbiome-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "microelectronics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "migrate-dotnet10-to-dotnet11": {
       "claude_enabled": true,
@@ -3780,8 +3776,8 @@
       "codex_enabled": true
     },
     "mineralogist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "minimal-api-file-upload": {
       "claude_enabled": true,
@@ -3796,8 +3792,8 @@
       "codex_enabled": true
     },
     "mining-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mixpanel-auth": {
       "claude_enabled": true,
@@ -3816,8 +3812,8 @@
       "codex_enabled": true
     },
     "mlops-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "modal": {
       "claude_enabled": true,
@@ -3836,8 +3832,8 @@
       "codex_enabled": true
     },
     "molecular-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molecular-docking": {
       "claude_enabled": true,
@@ -3848,24 +3844,24 @@
       "codex_enabled": true
     },
     "molecular-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molecular-geneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molecular-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molecular-pathologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molecular-virologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "molfeat": {
       "claude_enabled": true,
@@ -3952,24 +3948,24 @@
       "codex_enabled": true
     },
     "mycobacteriologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "mycologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nanomaterials-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nanophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nanotechnologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "napari-viz": {
       "claude_enabled": true,
@@ -3980,12 +3976,12 @@
       "codex_enabled": true
     },
     "natural-language-processing-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "natural-products-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nature-academic-search": {
       "claude_enabled": true,
@@ -4028,8 +4024,8 @@
       "codex_enabled": true
     },
     "naval-architect": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ncbi-blast-skill": {
       "claude_enabled": true,
@@ -4120,60 +4116,60 @@
       "codex_enabled": true
     },
     "network-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "network-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "networkx": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "neuroanatomist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuroendocrinologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuroengineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuroimaging-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuroinformatician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neurokit2": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "neurologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuropharmacologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neurophysiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "neuropixels-analysis": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "next-forge": {
       "claude_enabled": true,
@@ -4273,11 +4269,11 @@
     },
     "node-link-and-diagram-layout": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "nonlinear-dynamics-chaos-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "notion-knowledge-capture": {
       "claude_enabled": true,
@@ -4296,20 +4292,20 @@
       "codex_enabled": true
     },
     "nuclear-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nuclear-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nuclear-medicine-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nuclear-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nuget-trusted-publishing": {
       "claude_enabled": true,
@@ -4320,20 +4316,20 @@
       "codex_enabled": true
     },
     "number-theorist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "numerical-analyst": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nutrigx-advisor": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "nutrition-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "nvmolkit-usage": {
       "claude_enabled": true,
@@ -4348,8 +4344,8 @@
       "codex_enabled": true
     },
     "observational-astronomer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "obsidian-bases": {
       "claude_enabled": true,
@@ -4368,12 +4364,12 @@
       "codex_enabled": true
     },
     "occupational-health-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "oceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "officecli": {
       "claude_enabled": true,
@@ -4432,8 +4428,8 @@
       "codex_enabled": true
     },
     "oncologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "open-notebook": {
       "claude_enabled": true,
@@ -4472,20 +4468,20 @@
       "codex_enabled": true
     },
     "operations-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ophthalmologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "optical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "optimization-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "optimize-for-gpu": {
       "claude_enabled": true,
@@ -4496,36 +4492,36 @@
       "codex_enabled": true
     },
     "optoelectronics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "optuna": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "oral-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "organic-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "organoid-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "organometallic-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ornithologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "orthopedic-biomechanist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "ossfuzz": {
       "claude_enabled": true,
@@ -4588,24 +4584,24 @@
       "codex_enabled": true
     },
     "paleobotanist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "paleoceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "paleoclimatologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "paleontologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "palliative-care-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pandas": {
       "claude_enabled": true,
@@ -4636,24 +4632,24 @@
       "codex_enabled": true
     },
     "parasitologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "paraview": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "particle-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pathml": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "pathologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pathway-enricher": {
       "claude_enabled": true,
@@ -4664,8 +4660,8 @@
       "codex_enabled": true
     },
     "pavement-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "payments": {
       "claude_enabled": true,
@@ -4676,8 +4672,8 @@
       "codex_enabled": true
     },
     "pedologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "peer-review": {
       "claude_enabled": true,
@@ -4692,40 +4688,40 @@
       "codex_enabled": true
     },
     "petrochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "petroleum-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "petroleum-reservoir-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "petrologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "phage-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pharmaceutical-formulation-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pharmacokineticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pharmacologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pharmacovigilance-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pharmgkb-skill": {
       "claude_enabled": true,
@@ -4748,24 +4744,24 @@
       "codex_enabled": true
     },
     "photochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "photonics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "photonics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "photovoltaics-solar-cell-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "phylogeneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "phylogenetics": {
       "claude_enabled": true,
@@ -4784,59 +4780,59 @@
       "codex_enabled": true
     },
     "physical-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "physical-oceanographer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "physician-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "plan-ui-change": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "plan-zoom-integration": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "plan-zoom-product": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "planetary-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "planetary-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "planning-and-task-breakdown": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "plant-breeder": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "plant-pathologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "plant-physiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "plasma-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "platform-detection": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "playwright-best-practices": {
@@ -4868,40 +4864,40 @@
       "codex_enabled": true
     },
     "pollution-control-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "polymer-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "polymer-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "population-geneticist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "posthog": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "poultry-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "power-electronics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "power-grid-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "power-systems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pptx": {
       "claude_enabled": true,
@@ -4920,52 +4916,52 @@
       "codex_enabled": true
     },
     "precision-agriculture-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "precision-engineering-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "precision-medicine-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pride-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "primatologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "primekg": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "probabilist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "probe-sdk": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "process-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "process-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "profile-report": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "programming-languages-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "property-based-testing": {
       "claude_enabled": true,
@@ -4980,12 +4976,12 @@
       "codex_enabled": true
     },
     "propulsion-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "protein-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "proteinmpnn-nim": {
       "claude_enabled": true,
@@ -5008,12 +5004,12 @@
       "codex_enabled": true
     },
     "proteomics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "protistologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "protocols-io": {
       "claude_enabled": true,
@@ -5032,20 +5028,20 @@
       "codex_enabled": true
     },
     "psycholinguist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "psychophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pubchem-pug-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "public-health-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pubmed-search": {
       "claude_enabled": true,
@@ -5068,8 +5064,8 @@
       "codex_enabled": true
     },
     "pure-mathematician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "pybedtools": {
       "claude_enabled": true,
@@ -5152,36 +5148,36 @@
       "codex_enabled": true
     },
     "quality-six-sigma-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantitative-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantum-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantum-computing-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantum-information-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantum-optics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quantum-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "quaternary-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "query": {
       "claude_enabled": true,
@@ -5240,20 +5236,20 @@
       "codex_enabled": true
     },
     "radiation-oncology-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "radio-astronomer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "radiochemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "radiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "rare-disease-rnaseq": {
       "claude_enabled": true,
@@ -5273,7 +5269,7 @@
     },
     "react-and-nextjs-data-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "react-best-practices": {
       "claude_enabled": true,
@@ -5284,8 +5280,8 @@
       "codex_enabled": true
     },
     "reaction-engineering-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "reactome-skill": {
       "claude_enabled": true,
@@ -5308,28 +5304,28 @@
       "codex_enabled": true
     },
     "regenerative-medicine-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "regulatory-affairs-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "rehabilitation-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "reinforcement-learning-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "reliability-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "remote-sensing-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "remotion-best-practices": {
       "claude_enabled": true,
@@ -5420,8 +5416,8 @@
       "codex_enabled": true
     },
     "renewable-energy-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "replay-qa-api": {
       "claude_enabled": true,
@@ -5437,15 +5433,15 @@
     },
     "reports-pdfs-and-slide-automation": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "repro-enforcer": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "reproductive-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "request-refactor-plan": {
       "claude_enabled": true,
@@ -5472,8 +5468,8 @@
       "codex_enabled": true
     },
     "research-software-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "resolve-project-references": {
       "claude_enabled": true,
@@ -5484,16 +5480,16 @@
       "codex_enabled": true
     },
     "restoration-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "review": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "rf-microwave-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "rfdiffusion-nim": {
       "claude_enabled": true,
@@ -5509,11 +5505,11 @@
     },
     "rivet-sdk": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "rna-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "rnacentral-skill": {
       "claude_enabled": true,
@@ -5524,12 +5520,12 @@
       "codex_enabled": true
     },
     "robotics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "robotics-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "routing-middleware": {
       "claude_enabled": true,
@@ -5580,8 +5576,8 @@
       "codex_enabled": true
     },
     "scientific-agents": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "scientific-brainstorming": {
       "claude_enabled": true,
@@ -5633,7 +5629,7 @@
     },
     "scribe": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "scrna-embedding": {
       "claude_enabled": true,
@@ -5653,7 +5649,7 @@
     },
     "scrollytelling-and-parallax-data-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "scvelo": {
       "claude_enabled": true,
@@ -5696,12 +5692,12 @@
       "codex_enabled": true
     },
     "sedimentologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "seismologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "semgrep": {
       "claude_enabled": true,
@@ -5712,28 +5708,28 @@
       "codex_enabled": true
     },
     "semiconductor-device-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "semiconductor-materials-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "semiconductor-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "sensor-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "sentry": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "separation-processes-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "seq-wrangler": {
       "claude_enabled": true,
@@ -5752,7 +5748,7 @@
       "codex_enabled": true
     },
     "setup-matt-pocock-skills": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "setup-pre-commit": {
@@ -5760,16 +5756,16 @@
       "codex_enabled": true
     },
     "setup-zoom-oauth": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "setup-zoom-webhooks": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "setup-zoom-websockets": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "seurat": {
       "claude_enabled": true,
@@ -5900,8 +5896,8 @@
       "codex_enabled": true
     },
     "signal-processing-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "signing-entitlements": {
       "claude_enabled": true,
@@ -5912,8 +5908,8 @@
       "codex_enabled": true
     },
     "single-cell-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "skill-builder": {
       "claude_enabled": true,
@@ -5948,8 +5944,8 @@
       "codex_enabled": true
     },
     "sleep-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "smart-file-renaming": {
       "claude_enabled": true,
@@ -5960,24 +5956,24 @@
       "codex_enabled": true
     },
     "soft-matter-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "soil-ecologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "soil-fertility-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "soil-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "solar-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "soul2dna": {
       "claude_enabled": true,
@@ -5992,8 +5988,8 @@
       "codex_enabled": true
     },
     "space-weather-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "spatialdata-squidpy": {
       "claude_enabled": true,
@@ -6016,16 +6012,16 @@
       "codex_enabled": true
     },
     "spectroscopist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "spintronics-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "sports-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "sprite-pipeline": {
       "claude_enabled": true,
@@ -6045,43 +6041,43 @@
     },
     "statistical-and-uncertainty-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "statistical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "statistician": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "statsmodels": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "stellar-astrophysicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "stem-cell-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "stitch-design-taste": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "stratigrapher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "string-skill": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "string-theorist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "stripe-best-practices": {
       "claude_enabled": true,
@@ -6092,20 +6088,20 @@
       "codex_enabled": true
     },
     "structural-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "structural-biology": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "structural-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "structural-geologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "subagent-driven-development": {
       "claude_enabled": true,
@@ -6120,8 +6116,8 @@
       "codex_enabled": true
     },
     "superconductivity-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "superhuman-mail": {
       "claude_enabled": true,
@@ -6140,32 +6136,32 @@
       "codex_enabled": true
     },
     "supramolecular-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "surface-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "surface-engineering-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "surface-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "surgeon-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "surveyor-geomatics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "sustainability-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "swiftpm-macos": {
       "claude_enabled": true,
@@ -6200,8 +6196,8 @@
       "codex_enabled": true
     },
     "synthetic-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "system-text-json-net11": {
       "claude_enabled": true,
@@ -6212,16 +6208,16 @@
       "codex_enabled": true
     },
     "systems-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "systems-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "systems-neuroscientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "target-authoring": {
       "claude_enabled": true,
@@ -6232,15 +6228,15 @@
       "codex_enabled": true
     },
     "taxonomist-systematist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "tdd": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "teach": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "teams": {
@@ -6284,8 +6280,8 @@
       "codex_enabled": true
     },
     "telecommunications-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "telemetry": {
       "claude_enabled": true,
@@ -6328,7 +6324,7 @@
       "codex_enabled": true
     },
     "test-analysis-extensions": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "test-anti-patterns": {
@@ -6357,31 +6353,31 @@
     },
     "testing-data-visualizations": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "theme-factory": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "theoretical-chemist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "theoretical-computer-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "theoretical-physicist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "thermodynamics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "thin-film-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "thread-abort-migration": {
       "claude_enabled": true,
@@ -6397,7 +6393,7 @@
     },
     "threejs-data-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "tiledbvcf": {
       "claude_enabled": true,
@@ -6408,11 +6404,11 @@
       "codex_enabled": true
     },
     "tissue-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "to-issues": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "to-prd": {
@@ -6424,8 +6420,8 @@
       "codex_enabled": true
     },
     "topologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "torch-geometric": {
       "claude_enabled": true,
@@ -6436,8 +6432,8 @@
       "codex_enabled": true
     },
     "toxicologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "tpmi-phewas-skill": {
       "claude_enabled": true,
@@ -6448,8 +6444,8 @@
       "codex_enabled": true
     },
     "traffic-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "transformers": {
       "claude_enabled": true,
@@ -6460,19 +6456,19 @@
       "codex_enabled": true
     },
     "translational-researcher": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "transportation-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "treatment-plans": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "triage": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "triage-finding": {
@@ -6484,8 +6480,8 @@
       "codex_enabled": true
     },
     "tribologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "troubleshooting-dbt-job-errors": {
       "claude_enabled": true,
@@ -6496,12 +6492,12 @@
       "codex_enabled": true
     },
     "tunnel-underground-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "turbomachinery-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "turbopack": {
       "claude_enabled": true,
@@ -6733,10 +6729,10 @@
     },
     "typescript-data-visualization-engineering": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "ubiquitous-language": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "ucp": {
@@ -6769,7 +6765,7 @@
     },
     "uml-and-software-architecture-visualization": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "uniprot-skill": {
       "claude_enabled": true,
@@ -6788,8 +6784,8 @@
       "codex_enabled": true
     },
     "urban-infrastructure-planner": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "use-dom": {
       "claude_enabled": true,
@@ -6824,12 +6820,12 @@
       "codex_enabled": true
     },
     "vaccinologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vacuum-science-technology-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vaex": {
       "claude_enabled": true,
@@ -6920,24 +6916,24 @@
       "codex_enabled": true
     },
     "veterinarian": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "veterinary-epidemiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "veterinary-microbiologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vibe-research-workflow": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "vibration-dynamics-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "viennarna-structure-prediction": {
       "claude_enabled": true,
@@ -6948,36 +6944,36 @@
       "codex_enabled": true
     },
     "virologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "visualization-strategy-and-critique": {
       "claude_enabled": true,
-      "codex_enabled": false
+      "codex_enabled": true
     },
     "vitest": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "viticulturist-enologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vllm-deploy-simple": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "vlsi-chip-design-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vmd-mdanalysis-viz": {
       "claude_enabled": true,
       "codex_enabled": true
     },
     "volcanologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "vulnerability-writeup": {
       "claude_enabled": true,
@@ -6988,12 +6984,12 @@
       "codex_enabled": true
     },
     "water-resources-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "water-resources-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "web-3d-asset-pipeline": {
       "claude_enabled": true,
@@ -7024,12 +7020,12 @@
       "codex_enabled": true
     },
     "weed-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "welding-joining-engineer": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "wes-clinical-report-en": {
       "claude_enabled": true,
@@ -7040,8 +7036,8 @@
       "codex_enabled": true
     },
     "wetland-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "wgs-prs": {
       "claude_enabled": true,
@@ -7052,12 +7048,12 @@
       "codex_enabled": true
     },
     "wildlife-biologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "wind-engineering-specialist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "window-management": {
       "claude_enabled": true,
@@ -7108,7 +7104,7 @@
       "codex_enabled": true
     },
     "writing-great-skills": {
-      "claude_enabled": false,
+      "claude_enabled": true,
       "codex_enabled": true
     },
     "writing-mstest-tests": {
@@ -7128,8 +7124,8 @@
       "codex_enabled": true
     },
     "x-ray-synchrotron-scientist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "xarray": {
       "claude_enabled": true,
@@ -7156,128 +7152,128 @@
       "codex_enabled": true
     },
     "zoologist": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-apps-sdk": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-cobrowse-sdk": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-contact-center-android": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-contact-center-ios": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-contact-center-web": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-general": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-android": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-electron": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-ios": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-linux": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-macos": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-react-native": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-unreal": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-web": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-meeting-sdk-windows": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-oauth": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-rtms": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-android": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-flutter": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-ios": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-linux": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-macos": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-react-native": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-unity": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-web": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-video-sdk-windows": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-virtual-agent-android": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-virtual-agent-ios": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zoom-virtual-agent-web": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     },
     "zotero": {
-      "claude_enabled": false,
-      "codex_enabled": false
+      "claude_enabled": true,
+      "codex_enabled": true
     }
   }
 }

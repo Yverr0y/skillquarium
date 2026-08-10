@@ -2,6 +2,3 @@ interface:
   display_name: "Finite Element Analyst"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $finite-element-analyst for this task."
-
-policy:
-  allow_implicit_invocation: false

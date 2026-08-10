@@ -15,7 +15,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 58
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Soft Matter Physicist Expert Profile

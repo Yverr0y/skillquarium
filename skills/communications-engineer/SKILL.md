@@ -16,7 +16,6 @@ metadata:
   upstream-updated: 2026-06-02
   source-count: 47
   scientific-agents-profile: true
-disable-model-invocation: true
 ---
 
 # Communications Engineer Expert Profile

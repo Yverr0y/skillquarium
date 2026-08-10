@@ -2,6 +2,3 @@ interface:
   display_name: "Energy Storage Battery Scientist"
   short_description: "Invoke this skill explicitly when needed."
   default_prompt: "Use $energy-storage-battery-scientist for this task."
-
-policy:
-  allow_implicit_invocation: false
