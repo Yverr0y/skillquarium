@@ -1,0 +1,25 @@
+---
+title: defuddle
+tags:
+  - skill
+  - domain/literature-discovery
+domain: literature-discovery
+status: untried
+source: skills/defuddle/SKILL.md
+created: 2026-06-09
+---
+
+# defuddle
+
+> [!info] What it does
+> Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.
+
+**Source:** [skills/defuddle/SKILL.md](../../../skills/defuddle/SKILL.md)  ·  **Domain:** [Literature Search & Knowledge Discovery](../../maps/literature-discovery.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

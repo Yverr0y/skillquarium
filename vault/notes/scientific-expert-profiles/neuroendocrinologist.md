@@ -1,0 +1,34 @@
+---
+title: neuroendocrinologist
+aliases:
+  - HPA
+  - HPG
+  - HPT
+tags:
+  - skill
+  - domain/scientific-expert-profiles
+domain: scientific-expert-profiles
+expert_primary: medicine-health
+bridge_domains:
+  - genomics-variants
+  - clinical-medical
+status: untried
+source: skills/neuroendocrinologist/SKILL.md
+created: 2026-06-12
+---
+
+# neuroendocrinologist
+
+> [!info] What it does
+> Expert-thinking profile for Neuroendocrinologist (wet-lab / in vivo physiology + translational neuroendocrine): Reasons from hypothalamic–pituitary portal axes (HPA, HPG, HPT), KNDy/GnRH pulsatility, SCN circadian gating, and SON/PVN neuropeptide release; uses HypoMap/HYPOMAP, stereotaxics with opto/chemogenetics, validated ELISA/RIA/FCM and LC-MS/MS, CoAL/CAR reporting, while treating bleed-stress corticosterone, pulse...
+
+**Source:** [skills/neuroendocrinologist/SKILL.md](../../../skills/neuroendocrinologist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](../../maps/scientific-expert-profiles.md)  ·  **Primary:** [Medicine & Health](../../maps/scientific-expert-profiles/medicine-health.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Relevant capability domains
+
+- [Genomics, Variants & Population Genetics](../../maps/genomics-variants.md)
+- [Clinical, Medical & Pharmacogenomics](../../maps/clinical-medical.md)
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

@@ -1,0 +1,30 @@
+---
+title: repro-enforcer
+aliases:
+  - repro enforcer
+tags:
+  - skill
+  - domain/vault-meta
+domain: vault-meta
+status: untried
+source: skills/repro-enforcer/SKILL.md
+created: 2026-06-09
+---
+
+# repro-enforcer
+
+> [!info] What it does
+> Export any bioinformatics analysis as a reproducible bundle with Conda environment, Singularity container definition, and Nextflow pipeline.
+
+**Source:** [skills/repro-enforcer/SKILL.md](../../../skills/repro-enforcer/SKILL.md)  ·  **Domain:** [Vault, Skills & Workflow Meta](../../maps/vault-meta.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [nextflow](../../notes/cloud-devops/nextflow.md) — Build, run, and debug Nextflow data pipelines and nf-core workflows end to end
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes
+
+> [!warning] Vault audit 2026-07-24 — DEP-3 (unimplemented stub)
+> SKILL.md is an unimplemented stub ("Planned — Week 6", no `repro_enforcer.py`) yet claims executable capabilities. NOT deleted: `bio-orchestrator` (`orchestrator.py`), `protocols-io`, `multiqc-reporter`, and `nextflow` reference it as a pipeline stage — deleting would break them. Either implement it or remove those references first.

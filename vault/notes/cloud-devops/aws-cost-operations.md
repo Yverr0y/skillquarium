@@ -1,0 +1,27 @@
+---
+title: aws-cost-operations
+aliases:
+  - aws cost operations
+tags:
+  - skill
+  - domain/cloud-devops
+domain: cloud-devops
+status: untried
+source: skills/aws-cost-operations/SKILL.md
+created: 2026-06-09
+---
+
+# aws-cost-operations
+
+> [!info] What it does
+> AWS cost optimization, monitoring, and operational excellence expert. Use when analyzing AWS bills, estimating costs, setting up CloudWatch alarms, querying logs, auditing CloudTrail activity, or assessing security posture. Essential when user mentions AWS costs, spending, billing, budget, pricing, CloudWatch, observability, monitoring, alerting, CloudTrail, audit, or wants to optimize AWS infrastructure costs and operational efficiency.
+
+**Source:** [skills/aws-cost-operations/SKILL.md](../../../skills/aws-cost-operations/SKILL.md)  ·  **Domain:** [Cloud, Infra & MLOps](../../maps/cloud-devops.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [observability](../../notes/uncategorized/observability.md) — Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and...
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

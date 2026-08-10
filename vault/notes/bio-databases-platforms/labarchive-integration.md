@@ -1,0 +1,27 @@
+---
+title: labarchive-integration
+aliases:
+  - labarchive integration
+tags:
+  - skill
+  - domain/bio-databases-platforms
+domain: bio-databases-platforms
+status: untried
+source: skills/labarchive-integration/SKILL.md
+created: 2026-06-09
+---
+
+# labarchive-integration
+
+> [!info] What it does
+> Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.
+
+**Source:** [skills/labarchive-integration/SKILL.md](../../../skills/labarchive-integration/SKILL.md)  ·  **Domain:** [Bio Databases, Lab & Cloud Platforms](../../maps/bio-databases-platforms.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

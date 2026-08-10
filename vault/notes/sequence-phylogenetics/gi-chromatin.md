@@ -1,0 +1,28 @@
+---
+title: gi-chromatin
+aliases:
+  - gi chromatin
+  - DeepSEA-style
+tags:
+  - skill
+  - domain/sequence-phylogenetics
+domain: sequence-phylogenetics
+status: untried
+source: skills/gi-chromatin/SKILL.md
+created: 2026-06-09
+---
+
+# gi-chromatin
+
+> [!info] What it does
+> Predict chromatin state — histone marks, DNase, TF binding — across 919 tracks (DeepSEA-style) for DNA sequences, via the hosted Genomic Intelligence /v1/tasks/chromatin/predict API.
+
+**Source:** [skills/gi-chromatin/SKILL.md](../../../skills/gi-chromatin/SKILL.md)  ·  **Domain:** [Sequence Analysis, NGS & Phylogenetics](../../maps/sequence-phylogenetics.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

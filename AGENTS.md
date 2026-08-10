@@ -57,14 +57,16 @@ Try these in order; stop when you have a match.
    # zero-dependency fallback (works anywhere ripgrep is installed):
    rg -li "batch correction|integration|harmony" ~/.agents/*.md
    ```
-   The `*.md` files at the repo root are one-line "wrapper" notes (description + domain +
+   The `*.md` files under `vault/notes/<domain>/` are one-line "wrapper" notes (description + domain +
    aliases) — the fast index. Read the underlying `<name>/SKILL.md` once you've picked one.
 
-3. **Browse by domain.** [`index.md`](index.md) groups all skills into 25 domains;
-   [`maps/`](maps) has one note per domain; [`skills.base`](skills.base) is a filterable
-   table. Coding work lives mostly in [`maps/software-dev.md`](maps/software-dev.md),
-   [`maps/cloud-devops.md`](maps/cloud-devops.md), and
-   [`maps/security-auditing.md`](maps/security-auditing.md).
+3. **Browse by domain.** [`vault/index.md`](vault/index.md) groups all skills into 25
+   domains; [`vault/maps/`](vault/maps) has one note per domain and
+   [`vault/notes/<domain>/`](vault/notes) holds the wrapper notes themselves;
+   [`vault/skills.base`](vault/skills.base) is a filterable table. Coding work lives
+   mostly in [`vault/maps/software-dev.md`](vault/maps/software-dev.md),
+   [`vault/maps/cloud-devops.md`](vault/maps/cloud-devops.md), and
+   [`vault/maps/security-auditing.md`](vault/maps/security-auditing.md).
 
 4. **Not in the vault?** Search the open ecosystem with the `find-skills` skill or
    `npx skills find "<query>"`, then install with `npx skills add <owner/repo> -s <skill>`.
@@ -82,7 +84,7 @@ capturing as a new skill (`skill-builder` / `writing-skills`).
   cat $(opensrc path pypi:fastapi)/fastapi/routing.py   # PyPI; also crates:, owner/repo
   ```
   Pin a version with `pkg@1.2.3` when it must match what's installed. See
-  [`opensrc/SKILL.md`](opensrc/SKILL.md).
+  [`skills/opensrc/SKILL.md`](skills/opensrc/SKILL.md).
 - **Understand an unfamiliar codebase or doc set** by turning it into a knowledge graph with
   `graphify`, then query it.
 - **For this skills vault itself, query the local graph when present**:
@@ -163,7 +165,7 @@ Know these by name so you reach for them automatically.
 
 ## Maintaining this library
 
-- Skills are managed by the Vercel `skills` CLI; folders live at the repo root and are never
+- Skills are managed by the Vercel `skills` CLI; folders live in `skills/` and are never
   hand-edited by the navigation layer.
 - Run [`install-skills.sh`](install-skills.sh) to symlink every skill here into each agent's
   skills folder so their native loaders pick them up. gstack and career-ops are optional

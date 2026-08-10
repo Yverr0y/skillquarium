@@ -1,0 +1,38 @@
+---
+title: Analytics Engineering & LLM Operations
+tags:
+  - skill-map
+created: 2026-06-13
+---
+
+# Analytics Engineering & LLM Operations
+
+> [!abstract] Scope
+> dbt analytics engineering, semantic layers, warehouse querying, lineage diagrams, LLM observability, prompt tracing, and evaluation workflows.
+
+[Back to Skill Index](../index.md)
+
+**Related maps:** [Data Science, Stats & Scientific Computing](data-science-compute.md) | [Cloud, Infra & MLOps](cloud-devops.md) | [Machine Learning & AI](ml-ai.md) | [Security & Auditing](security-auditing.md)
+
+## Skills (20)
+
+- [adding-dbt-unit-test](../notes/analytics-engineering/adding-dbt-unit-test.md) — Creates unit test YAML definitions that mock upstream model inputs and validate expected outputs
+- [answering-natural-language-questions-with-dbt](../notes/analytics-engineering/answering-natural-language-questions-with-dbt.md) — Writes and executes SQL queries against the data warehouse using dbt's Semantic Layer or ad-hoc SQL to answer business questions
+- [building-dbt-semantic-layer](../notes/analytics-engineering/building-dbt-semantic-layer.md) — Use when creating or modifying dbt Semantic Layer components — semantic models, metrics, dimensions, entities, measures, or time spines
+- [configuring-dbt-mcp-server](../notes/analytics-engineering/configuring-dbt-mcp-server.md) — Generates MCP server configuration JSON, resolves authentication setup, and validates server connectivity for dbt
+- [creating-mermaid-dbt-dag](../notes/analytics-engineering/creating-mermaid-dbt-dag.md) — Generates a Mermaid flowchart diagram of dbt model lineage using MCP tools, manifest.json, or direct code parsing as fallbacks
+- [fetching-dbt-docs](../notes/analytics-engineering/fetching-dbt-docs.md) — Retrieves and searches dbt documentation pages in LLM-friendly markdown format
+- [langfuse](../notes/analytics-engineering/langfuse.md) — Interact with Langfuse and access its documentation
+- [llm-observability-evals](../notes/analytics-engineering/llm-observability-evals.md) — LLM and agent observability, tracing, and evaluation workflows with langfuse, phoenix-cli, and phoenix-evals
+- [logfire-instrumentation](../notes/analytics-engineering/logfire-instrumentation.md) — Add Pydantic Logfire observability to applications and send as much useful telemetry as possible
+- [logfire-query](../notes/analytics-engineering/logfire-query.md) — Query and analyze Logfire telemetry data — traces, logs, spans, metrics, summaries, and SQL results
+- [logfire-ui](../notes/analytics-engineering/logfire-ui.md) — Open or return Logfire project pages, live views, trace links, and Explore pages in the Codex browser without querying telemetry first
+- [migrating-dbt-core-to-fusion](../notes/analytics-engineering/migrating-dbt-core-to-fusion.md) — Use when a user needs help triaging dbt-core to Fusion migration errors
+- [migrating-dbt-project-across-platforms](../notes/analytics-engineering/migrating-dbt-project-across-platforms.md) — Use when migrating a dbt project from one data platform or data warehouse to another (e.g., Snowflake to Databricks, Databricks to Snowflake) using dbt Fusion's real-time compilation...
+- [observability-and-instrumentation](../notes/analytics-engineering/observability-and-instrumentation.md) — Instruments code so production behavior is visible and diagnosable
+- [phoenix-cli](../notes/analytics-engineering/phoenix-cli.md) — Debug LLM applications using the Phoenix CLI
+- [phoenix-evals](../notes/analytics-engineering/phoenix-evals.md) — Build and run evaluators for AI/LLM applications using Phoenix
+- [running-dbt-commands](../notes/analytics-engineering/running-dbt-commands.md) — Formats and executes dbt CLI commands, selects the correct dbt executable, and structures command parameters
+- [troubleshooting-dbt-job-errors](../notes/analytics-engineering/troubleshooting-dbt-job-errors.md) — Diagnoses dbt Cloud/platform job failures by analyzing run logs, querying the Admin API, reviewing git history, and investigating data issues
+- [using-dbt-for-analytics-engineering](../notes/analytics-engineering/using-dbt-for-analytics-engineering.md) — Builds and modifies dbt models, writes SQL transformations using ref() and source(), creates tests, and validates results with dbt show
+- [working-with-dbt-mesh](../notes/analytics-engineering/working-with-dbt-mesh.md) — Implements dbt Mesh governance features (model contracts, access modifiers, groups, versioning) and multi-project collaboration with cross-project refs

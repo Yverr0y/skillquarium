@@ -131,7 +131,10 @@ class SkillToggleTests(unittest.TestCase):
 
     def test_discovery_reads_categories_from_wrapper_frontmatter(self):
         make_skill(self.root, "categorized")
-        (self.root / "categorized.md").write_text(
+        # The domain is the notes/<domain>/ folder name, not a frontmatter field.
+        note = self.root / skill_toggle.NOTES_SUBDIR / "single-cell-omics"
+        note.mkdir(parents=True)
+        (note / "categorized.md").write_text(
             "---\ntitle: categorized\ndomain: single-cell-omics\n---\n",
             encoding="utf-8",
         )

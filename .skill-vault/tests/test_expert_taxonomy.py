@@ -523,7 +523,7 @@ class ExpertWrapperBuildTests(unittest.TestCase):
         (root / "alpha.md").write_text(first, encoding="utf-8")
 
         with mock.patch.object(vault_build, "ROOT", str(root)):
-            existing = vault_build.parse_existing("alpha")
+            existing = vault_build.parse_existing("alpha", "uncategorized")
         second = vault_build.render_wrapper(
             "alpha", existing=existing, **arguments
         )
@@ -575,12 +575,12 @@ class ExpertWrapperBuildTests(unittest.TestCase):
             "expert_secondary:\n  - physics-astronomy",
             "bridge_domains:\n  - imaging-signals\n  - data-science-compute",
             "[Biology & Life Sciences]"
-            "(maps/scientific-expert-profiles/biology-life-sciences.md)",
+            "(../../maps/scientific-expert-profiles/biology-life-sciences.md)",
             "[Physics & Astronomy]"
-            "(maps/scientific-expert-profiles/physics-astronomy.md)",
+            "(../../maps/scientific-expert-profiles/physics-astronomy.md)",
             "## Relevant capability domains",
-            "[Imaging, Microscopy & Biosignals](maps/imaging-signals.md)",
-            "[Data Science, Stats & Scientific Computing](maps/data-science-compute.md)",
+            "[Imaging, Microscopy & Biosignals](../../maps/imaging-signals.md)",
+            "[Data Science, Stats & Scientific Computing](../../maps/data-science-compute.md)",
             "status: favorite",
             "rating: 5",
             "aliases:\n  - Bio Physicist\n  - \"Custom: Alias\"",
@@ -626,12 +626,12 @@ class ExpertWrapperBuildTests(unittest.TestCase):
             "# alpha\n\n"
             "> [!info] What it does\n"
             "> Alpha description.\n\n"
-            "**Source:** [skills/alpha/SKILL.md](skills/alpha/SKILL.md)  ·  "
-            "**Domain:** [Software Development & Engineering](maps/software-dev.md)  ·  "
-            "**Table:** [skills.base](skills.base)  ·  "
-            "**Index:** [Skills Index](index.md)\n\n"
+            "**Source:** [skills/alpha/SKILL.md](../../../skills/alpha/SKILL.md)  ·  "
+            "**Domain:** [Software Development & Engineering](../../maps/software-dev.md)  ·  "
+            "**Table:** [skills.base](../../skills.base)  ·  "
+            "**Index:** [Skills Index](../../index.md)\n\n"
             "## Related skills\n\n"
-            "- [beta](beta.md) — Beta summary\n\n"
+            "- [beta](../../notes/uncategorized/beta.md) — Beta summary\n\n"
             f"{vault_build.PERSONAL_MARKER}\n\n"
             "## Notes\n",
         )
@@ -826,7 +826,9 @@ class ExpertWrapperBuildTests(unittest.TestCase):
 
         self.assertEqual(overridden.VAULT_DIR, root)
         self.assertEqual(overridden.ROOT, str(root))
-        self.assertEqual(overridden.MAPS_DIR, root / "maps")
+        self.assertEqual(overridden.HUMAN_DIR, root / "vault")
+        self.assertEqual(overridden.NOTES_DIR, root / "vault/notes")
+        self.assertEqual(overridden.MAPS_DIR, root / "vault/maps")
         self.assertEqual(
             overridden.TAXONOMY_PATH,
             root / ".skill-vault/scientific-expert-taxonomy.json",
@@ -839,7 +841,7 @@ class ExpertWrapperBuildTests(unittest.TestCase):
         )
         self.assertEqual(
             overridden.EXPERT_MAPS_DIR,
-            root / "maps/scientific-expert-profiles",
+            root / "vault/maps/scientific-expert-profiles",
         )
 
     def test_empty_root_override_falls_back_to_repository_root(self):

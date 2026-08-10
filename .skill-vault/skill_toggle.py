@@ -21,6 +21,8 @@ DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 # Skill folders live in their own subtree under the vault root; the generated
 # human layer lives beside it. Keep in sync with build.py's SKILLS_SUBDIR.
 SKILLS_SUBDIR = "skills"
+# Generated wrapper notes, grouped by domain. Keep in sync with build.py.
+NOTES_SUBDIR = "vault/notes"
 CLAUDE_FIELD = "disable-model-invocation"
 CODEX_FIELD = "allow_implicit_invocation"
 SNAPSHOT_SCHEMA_VERSION = 1
@@ -174,14 +176,23 @@ def load_skill(directory: Path, *, category: str = "uncategorized") -> Skill:
         )
 
 
-def _wrapper_category(root: Path, key: str) -> str:
-    wrapper = root / f"{key}.md"
-    try:
-        text = wrapper.read_text(encoding="utf-8")
-        lines, closing_index = _frontmatter_lines(text, wrapper)
-        return _frontmatter_scalar(lines, closing_index, "domain") or "uncategorized"
-    except (MetadataError, OSError, UnicodeError):
-        return "uncategorized"
+def _wrapper_categories(root: Path) -> dict[str, str]:
+    """Map skill key -> domain.
+
+    Wrapper notes live at vault/notes/<domain>/<skill>.md, so the domain is the
+    folder name -- no frontmatter parsing, and one directory scan instead of one
+    file read per skill.
+    """
+    categories: dict[str, str] = {}
+    notes = root / NOTES_SUBDIR
+    if not notes.is_dir():
+        return categories
+    for domain_directory in notes.iterdir():
+        if not domain_directory.is_dir():
+            continue
+        for note in domain_directory.glob("*.md"):
+            categories[note.stem] = domain_directory.name
+    return categories
 
 
 def discover_skills(root: Path) -> list[Skill]:
@@ -192,6 +203,7 @@ def discover_skills(root: Path) -> list[Skill]:
             f"{skills_root}: no skills directory under the vault root. "
             f"Pass --root pointing at the vault (the parent of {SKILLS_SUBDIR}/)."
         )
+    categories = _wrapper_categories(root)
     skills: list[Skill] = []
     for directory in skills_root.iterdir():
         if (
@@ -206,7 +218,10 @@ def discover_skills(root: Path) -> list[Skill]:
         except (OSError, ValueError):
             continue
         skills.append(
-            load_skill(directory, category=_wrapper_category(root, directory.name))
+            load_skill(
+                directory,
+                category=categories.get(directory.name, "uncategorized"),
+            )
         )
     return sorted(
         skills, key=lambda skill: (skill.name.casefold(), skill.key.casefold())

@@ -16,14 +16,17 @@ skills-lock.json
 # leading `_` puts them outside it.
 #
 # The skill folders live under `/skills/`; the generated wrapper notes live in
-# the human layer at the repo root. Both roots need the patterns. `/gstack/`
-# also covers the empty extras stub the installer keeps beside `skills/`.
+# the human layer under `/vault/notes/<domain>/`. Both roots need the patterns.
+# `/gstack/` also covers the empty extras stub the installer keeps beside
+# `skills/`.
 /gstack/
 /gstack-*
 /_gstack*
 /skills/gstack/
 /skills/gstack-*
 /skills/_gstack*
+/vault/notes/*/gstack-*.md
+/vault/notes/*/_gstack*.md
 
 # Agent install-time skill link roots created inside the vault by some
 # `npx skills add` hosts. Not part of the skill source tree.

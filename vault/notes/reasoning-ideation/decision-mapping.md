@@ -1,0 +1,27 @@
+---
+title: decision-mapping
+aliases:
+  - decision mapping
+tags:
+  - skill
+  - domain/reasoning-ideation
+domain: reasoning-ideation
+status: untried
+source: skills/decision-mapping/SKILL.md
+created: 2026-06-20
+---
+
+# decision-mapping
+
+> [!info] What it does
+> Turn a loose idea into a sequenced map of investigation tickets, then drive them to resolution one at a time.
+
+**Source:** [skills/decision-mapping/SKILL.md](../../../skills/decision-mapping/SKILL.md)  ·  **Domain:** [Reasoning, Ideation & Decision](../../maps/reasoning-ideation.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

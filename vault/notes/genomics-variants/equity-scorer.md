@@ -1,0 +1,27 @@
+---
+title: equity-scorer
+aliases:
+  - equity scorer
+tags:
+  - skill
+  - domain/genomics-variants
+domain: genomics-variants
+status: untried
+source: skills/equity-scorer/SKILL.md
+created: 2026-06-09
+---
+
+# equity-scorer
+
+> [!info] What it does
+> Compute HEIM diversity and equity metrics from VCF or ancestry data. Generates heterozygosity, FST, PCA plots, and a composite HEIM Equity Score with markdown reports.
+
+**Source:** [skills/equity-scorer/SKILL.md](../../../skills/equity-scorer/SKILL.md)  ·  **Domain:** [Genomics, Variants & Population Genetics](../../maps/genomics-variants.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+_None auto-detected. Add your own links here, e.g. `[[scanpy]]`._
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

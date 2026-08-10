@@ -12,11 +12,18 @@ This repo is two layers over the same folders:
   are managed by the [Vercel skills CLI](https://github.com/vercel-labs/skills)
   (`npx skills`). Navigation tooling never edits them; `skill-toggle` changes only
   their explicit Claude Code/Codex invocation fields at the user's request.
-- **Human layer** — generated for Obsidian / Neovim navigation:
-  - `<skill>.md` — a wrapper note per skill (your *Personal notes* section and
-    your `status` / `rating` / `aliases` frontmatter edits survive every rebuild)
-  - `maps/<domain>.md` — one map (MOC) per domain
-  - `index.md` — the master A–Z + by-domain index
+- **Human layer** — generated for Obsidian / Neovim navigation, all under `vault/`:
+  - `vault/notes/<domain>/<skill>.md` — a wrapper note per skill, grouped by
+    domain (your *Personal notes* section and your `status` / `rating` /
+    `aliases` frontmatter edits survive every rebuild)
+  - `vault/maps/<domain>.md` — one map (MOC) per domain
+  - `vault/index.md` — the master A–Z + by-domain index
+  - `vault/skills.base` — the filterable table
+  - `vault/recipes/` — hand-written, goal-oriented workflows
+
+  Generated links are emitted as true relative paths, so they resolve in
+  Obsidian and in any plain markdown renderer. `build.py` is the only writer of
+  everything above except `recipes/`.
 
 This directory holds the machinery that keeps the human layer in sync.
 

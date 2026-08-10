@@ -1,0 +1,28 @@
+---
+title: electrochemist
+tags:
+  - skill
+  - domain/scientific-expert-profiles
+domain: scientific-expert-profiles
+expert_primary: chemistry-materials
+bridge_domains:
+  - drug-discovery-chem
+status: untried
+source: skills/electrochemist/SKILL.md
+created: 2026-06-12
+---
+
+# electrochemist
+
+> [!info] What it does
+> Expert-thinking profile for Electrochemist (wet-lab / electroanalytical / energy storage): Reason from interfacial thermodynamics and transport: Nernst sets equilibrium, Butler–Volmer sets kinetics, Levich/Randles–Ševčík set mass transport, and EIS deconvolves electrode and battery interphases.
+
+**Source:** [skills/electrochemist/SKILL.md](../../../skills/electrochemist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](../../maps/scientific-expert-profiles.md)  ·  **Primary:** [Chemistry & Materials](../../maps/scientific-expert-profiles/chemistry-materials.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Relevant capability domains
+
+- [Drug Discovery, Cheminformatics & Structural Biology](../../maps/drug-discovery-chem.md)
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

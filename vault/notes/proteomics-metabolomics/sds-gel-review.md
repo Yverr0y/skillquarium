@@ -1,0 +1,27 @@
+---
+title: sds-gel-review
+aliases:
+  - sds gel review
+tags:
+  - skill
+  - domain/proteomics-metabolomics
+domain: proteomics-metabolomics
+status: untried
+source: skills/sds-gel-review/SKILL.md
+created: 2026-06-17
+---
+
+# sds-gel-review
+
+> [!info] What it does
+> Review SDS-PAGE or protein purification gel images using DNA sequence, protein sequence, base-pair length, expected protein size, and lane labels. Use when the user wants to judge whether a gel ran well, whether the main band matches the expected product, or whether there may be impurities, degradation, aggregation, or low expression.
+
+**Source:** [skills/sds-gel-review/SKILL.md](../../../skills/sds-gel-review/SKILL.md)  ·  **Domain:** [Proteomics & Metabolomics](../../maps/proteomics-metabolomics.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [review](../../notes/software-dev/review.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does...
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

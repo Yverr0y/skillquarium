@@ -1,0 +1,29 @@
+---
+title: nvmolkit-usage
+aliases:
+  - nvmolkit usage
+tags:
+  - skill
+  - domain/drug-discovery-chem
+domain: drug-discovery-chem
+status: untried
+source: skills/nvmolkit-usage/SKILL.md
+created: 2026-06-28
+---
+
+# nvmolkit-usage
+
+> [!info] What it does
+> Write code that calls the installed nvMolKit Python API for GPU-accelerated, batched RDKit-style operations - Morgan fingerprints, Tanimoto/cosine similarity, ETKDG conformer embedding, MMFF/UFF optimization, TFD, conformer RMSD, Butina clustering, and substructure search. Use when the user is importing `nvmolkit.*`, debugging an `nvmolkit` call, choosing between nvMolKit and RDKit for a batched cheminformatics workflow, or wiring nvMolKit results into a torch/numpy pipeline. Out of scope: building nvMolKit from source.
+
+**Source:** [skills/nvmolkit-usage/SKILL.md](../../../skills/nvmolkit-usage/SKILL.md)  ·  **Domain:** [Drug Discovery, Cheminformatics & Structural Biology](../../maps/drug-discovery-chem.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [rdkit](../../notes/drug-discovery-chem/rdkit.md) — Cheminformatics toolkit for fine-grained molecular control
+- [workflow](../../notes/uncategorized/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes
+

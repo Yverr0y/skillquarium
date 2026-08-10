@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use adjustText to make matplotlib text labels readable without overlaps."
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

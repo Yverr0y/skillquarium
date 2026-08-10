@@ -1,0 +1,25 @@
+---
+title: pymc
+tags:
+  - skill
+  - domain/data-science-compute
+domain: data-science-compute
+status: untried
+source: skills/pymc/SKILL.md
+created: 2026-06-09
+---
+
+# pymc
+
+> [!info] What it does
+> Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.
+
+**Source:** [skills/pymc/SKILL.md](../../../skills/pymc/SKILL.md)  ·  **Domain:** [Data Science, Stats & Scientific Computing](../../maps/data-science-compute.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Related skills
+
+- [statistical-analysis](../../notes/data-science-compute/statistical-analysis.md) — Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes

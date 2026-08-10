@@ -43,10 +43,16 @@ ROOT = str(VAULT_DIR)
 # it. See .skill-vault/README.md.
 SKILLS_SUBDIR = "skills"
 SKILLS_DIR = VAULT_DIR / SKILLS_SUBDIR
-MAPS_DIR = VAULT_DIR / "maps"
+# The generated human layer lives under vault/, keeping the repo root down to a
+# handful of entries. Wrapper notes are grouped by domain under vault/notes/ so
+# the tree is browsable; maps and the index keep their relative positions.
+HUMAN_SUBDIR = "vault"
+HUMAN_DIR = VAULT_DIR / HUMAN_SUBDIR
+NOTES_DIR = HUMAN_DIR / "notes"
+MAPS_DIR = HUMAN_DIR / "maps"
 TAXONOMY_PATH = VAULT_DIR / ".skill-vault/scientific-expert-taxonomy.json"
 CATALOG_PATH = SKILLS_DIR / "scientific-agents/references/catalog.json"
-EXPERT_MAPS_DIR = VAULT_DIR / "maps/scientific-expert-profiles"
+EXPERT_MAPS_DIR = HUMAN_DIR / "maps/scientific-expert-profiles"
 def skills_root():
     """Directory holding the flat list of skill folders.
 
@@ -54,6 +60,31 @@ def skills_root():
     ROOT relocates skill discovery with it.
     """
     return os.path.join(ROOT, SKILLS_SUBDIR)
+
+
+def human_root():
+    """Directory holding the generated human layer (notes, maps, index)."""
+    return os.path.join(ROOT, HUMAN_SUBDIR)
+
+
+def notes_root():
+    """Directory holding the per-skill wrapper notes, grouped by domain."""
+    return os.path.join(human_root(), "notes")
+
+
+def note_path(skill, key):
+    """Absolute path of a skill's wrapper note."""
+    return os.path.join(notes_root(), key, wrapper_filename(skill))
+
+
+def note_link(skill, domain_by_skill, prefix=""):
+    """Link to a skill's wrapper note from an emitter `prefix` above vault/.
+
+    Maps and the index keep their positions relative to each other, so only
+    links that point *at a note* need the notes/<domain>/ component.
+    """
+    key = domain_by_skill.get(skill, "uncategorized")
+    return f"{prefix}notes/{key}/{wrapper_filename(skill)}"
 
 
 TODAY = date.today().isoformat()
@@ -614,9 +645,9 @@ def build_related_excluding(skills, full_desc, excluded):
     return related
 
 
-def parse_existing(skill):
+def parse_existing(skill, key):
     """Read user-editable bits from an existing wrapper so re-runs preserve them."""
-    path = os.path.join(ROOT, wrapper_filename(skill))
+    path = note_path(skill, key)
     if not os.path.isfile(path):
         return None
     with open(path, encoding="utf-8") as wrapper_file:
@@ -701,8 +732,9 @@ def atomic_write_text(path, content):
         raise
 
 
-def render_expert_master_map(*, taxonomy, title, scope, created):
+def render_expert_master_map(*, taxonomy, title, scope, created, domain_by_skill=None):
     """Render the scientific expert profile master map."""
+    domain_by_skill = domain_by_skill or {}
     lines = [
         "---",
         f"title: {title}",
@@ -721,7 +753,8 @@ def render_expert_master_map(*, taxonomy, title, scope, created):
         "",
         "## Profile Dispatcher",
         "",
-        "- [scientific-agents](../scientific-agents.md) - Route a question "
+        f"- [scientific-agents]("
+        f"{note_link('scientific-agents', domain_by_skill, '../')}) - Route a question "
         "to the most relevant scientific expert profile.",
         "",
         "## Browse By Discipline",
@@ -747,8 +780,10 @@ def render_expert_discipline_map(
     category_titles,
     bridge_domain_order,
     created,
+    domain_by_skill=None,
 ):
     """Render one scientific expert discipline map."""
+    domain_by_skill = domain_by_skill or {}
     primary = taxonomy.primary_profiles(discipline.id)
     secondary = taxonomy.secondary_profiles(discipline.id)
     bridges = taxonomy.bridge_domains_for_discipline(
@@ -783,7 +818,8 @@ def render_expert_discipline_map(
     lines += ["", "## Primary experts", ""]
     if primary:
         lines += [
-            f"- [{slug}](../../{slug}.md) - {short_descriptions[slug]}"
+            f"- [{slug}]({note_link(slug, domain_by_skill, '../../')}) - "
+            f"{short_descriptions[slug]}"
             for slug in primary
         ]
     else:
@@ -791,7 +827,8 @@ def render_expert_discipline_map(
     lines += ["", "## Cross-disciplinary experts", ""]
     if secondary:
         lines += [
-            f"- [{slug}](../../{slug}.md) - {short_descriptions[slug]}"
+            f"- [{slug}]({note_link(slug, domain_by_skill, '../../')}) - "
+            f"{short_descriptions[slug]}"
             for slug in secondary
         ]
     else:
@@ -841,12 +878,14 @@ def render_wrapper(
     existing,
     today,
     force_aliases,
+    domain_by_skill=None,
     expert_assignment: ProfileAssignment | None = None,
     discipline_titles=None,
     category_titles=None,
     bridge_domain_order=(),
 ):
     """Render one wrapper without reading from or writing to the vault."""
+    domain_by_skill = domain_by_skill or {}
     discipline_titles = discipline_titles or {}
     category_titles = category_titles or {}
     if existing:
@@ -890,27 +929,29 @@ def render_wrapper(
         "",
     ]
 
+    # A note sits at vault/notes/<key>/<skill>.md: ../.. reaches vault/, and
+    # ../../.. reaches the repo root where skills/ lives.
     source_rel = f"{SKILLS_SUBDIR}/{skill}/SKILL.md"
-    nav = [f"**Source:** [{source_rel}]({source_rel})"]
+    nav = [f"**Source:** [{source_rel}](../../../{source_rel})"]
     if key != "uncategorized":
-        nav.append(f"**Domain:** [{domain_title}](maps/{key}.md)")
+        nav.append(f"**Domain:** [{domain_title}](../../maps/{key}.md)")
     if expert_assignment is not None:
         primary = expert_assignment.primary
         nav.append(
             "**Primary:** "
             f"[{discipline_titles[primary]}]"
-            f"(maps/{EXPERT_DOMAIN}/{primary}.md)"
+            f"(../../maps/{EXPERT_DOMAIN}/{primary}.md)"
         )
         if expert_assignment.secondary:
             secondary_links = ", ".join(
                 f"[{discipline_titles[value]}]"
-                f"(maps/{EXPERT_DOMAIN}/{value}.md)"
+                f"(../../maps/{EXPERT_DOMAIN}/{value}.md)"
                 for value in expert_assignment.secondary
             )
             nav.append(f"**Secondary:** {secondary_links}")
     nav += [
-        "**Table:** [skills.base](skills.base)",
-        "**Index:** [Skills Index](index.md)",
+        "**Table:** [skills.base](../../skills.base)",
+        "**Index:** [Skills Index](../../index.md)",
     ]
     lines += ["  ·  ".join(nav), ""]
 
@@ -918,7 +959,7 @@ def render_wrapper(
         lines += ["## Relevant capability domains", ""]
         bridges = set(expert_assignment.bridge_domains)
         lines += [
-            f"- [{category_titles[domain]}](maps/{domain}.md)"
+            f"- [{category_titles[domain]}](../../maps/{domain}.md)"
             for domain in bridge_domain_order
             if domain in bridges
         ]
@@ -927,13 +968,14 @@ def render_wrapper(
         rel = sorted(related)
         if rel:
             lines += [
-                f"- [{other}]({wrapper_filename(other)}) — {short_descriptions[other]}"
+                f"- [{other}]({note_link(other, domain_by_skill, '../../')}) — "
+                f"{short_descriptions[other]}"
                 for other in rel
             ]
         else:
             lines.append(
                 "_None auto-detected. Add your own links here, e.g. "
-                "`[scanpy](scanpy.md)`._"
+                "`[[scanpy]]`._"
             )
     lines.append("")
     if personal:
@@ -1101,6 +1143,8 @@ def main():
             print(exc, file=sys.stderr)
             return 1
 
+    os.makedirs(human_root(), exist_ok=True)
+    os.makedirs(notes_root(), exist_ok=True)
     os.makedirs(MAPS_DIR, exist_ok=True)
     os.makedirs(EXPERT_MAPS_DIR, exist_ok=True)
 
@@ -1157,7 +1201,7 @@ def main():
     for s in skills_sorted:
         key = key_by_skill.get(s, "uncategorized")
         dtitle = title_by_key.get(key, "Uncategorized")
-        ex = parse_existing(s)
+        ex = parse_existing(s, key)
         rendered = render_wrapper(
             s,
             key=key,
@@ -1168,12 +1212,15 @@ def main():
             existing=ex,
             today=TODAY,
             force_aliases=FORCE_ALIASES,
+            domain_by_skill=key_by_skill,
             expert_assignment=taxonomy.profiles.get(s),
             discipline_titles=discipline_titles,
             category_titles=title_by_key,
             bridge_domain_order=valid_bridge_domains,
         )
-        with open(os.path.join(ROOT, wrapper_filename(s)), "w", encoding="utf-8") as f:
+        destination = note_path(s, key)
+        os.makedirs(os.path.dirname(destination), exist_ok=True)
+        with open(destination, "w", encoding="utf-8") as f:
             f.write(rendered)
 
     # ---- map notes ---------------------------------------------------------
@@ -1189,6 +1236,7 @@ def main():
                         title=title,
                         scope=scope,
                         created=created,
+                        domain_by_skill=key_by_skill,
                     ),
                 )
             ]
@@ -1205,6 +1253,7 @@ def main():
                             category_titles=title_by_key,
                             bridge_domain_order=valid_bridge_domains,
                             created=discipline_created,
+                            domain_by_skill=key_by_skill,
                         ),
                     )
                 )
@@ -1221,7 +1270,9 @@ def main():
         if rel:
             L += ["**Related maps:** " + " | ".join(rel), ""]
         L += [f"## Skills ({len(live)})", ""]
-        L += [f"- [{s}](../{wrapper_filename(s)}) — {short[s]}" for s in live]
+        L += [
+            f"- [{s}]({note_link(s, key_by_skill, '../')}) — {short[s]}" for s in live
+        ]
         L.append("")
         with open(path, "w", encoding="utf-8") as f:
             f.write("\n".join(L))
@@ -1229,7 +1280,7 @@ def main():
     # ---- index -------------------------------------------------------------
     # Count excludes transient gstack bundle sub-skills (SCALE-3 / MNT-12).
     total = sum(1 for s in on_disk if not is_gstack_subskill(s))
-    index_path = os.path.join(ROOT, "index.md")
+    index_path = os.path.join(human_root(), "index.md")
     index_created = existing_created(index_path)
     I = ["---", "title: Skills Index", "tags:", "  - moc", "  - skill-index",
          f"created: {index_created}", "---", "", "# Skills Index", "",
@@ -1250,7 +1301,7 @@ def main():
         live = sorted(skills_by_key.get(key, []))
         I += [f"### [{title}](maps/{key}.md)  ·  {len(live)} skills", "", scope, ""]
         preview = live[:6]
-        chips = ", ".join(f"[{s}]({wrapper_filename(s)})" for s in preview)
+        chips = ", ".join(f"[{s}]({note_link(s, key_by_skill)})" for s in preview)
         more = f" … [see all {len(live)} →](maps/{key}.md)" if len(live) > len(preview) else ""
         I += [chips + more, ""]
     # Flat A–Z excludes the expert-persona profiles (browse them via the
@@ -1276,12 +1327,15 @@ def main():
         letter = s[0].upper()
         if letter != cur:
             flush(); bucket = []; cur = letter; I.append(f"**{letter}**")
-        bucket.append(f"[{s}]({wrapper_filename(s)})")
+        bucket.append(f"[{s}]({note_link(s, key_by_skill)})")
     flush()
     unsorted_display = [s for s in unsorted if not is_gstack_subskill(s)]
     if unsorted_display:
         I += ["## Uncategorized", ""]
-        I += [f"- [{s}]({wrapper_filename(s)}) — {short[s]}" for s in unsorted_display]
+        I += [
+            f"- [{s}]({note_link(s, key_by_skill)}) — {short[s]}"
+            for s in unsorted_display
+        ]
         I.append("")
     with open(index_path, "w", encoding="utf-8") as f:
         f.write("\n".join(I))
@@ -1289,27 +1343,29 @@ def main():
     # ---- prune orphaned wrappers ------------------------------------------
     pruned = []
     if PRUNE:
-        # Always keep gstack.md — it's a committed entry point for the
-        # bundled gstack/ collection, not a generated wrapper. Sub-skill
-        # wrappers (gstack-*.md) are gitignored and come/go with install.
-        keep = {wrapper_filename(s)[:-3] for s in on_disk} | {
-            "index", "README", "AGENTS", "gstack",
-        }
-        for f in os.listdir(ROOT):
-            if not f.endswith(".md") or f.startswith("."):
-                continue
-            name = f[:-3]
-            if name in keep:
-                continue
-            p = os.path.join(ROOT, f)
-            try:
-                txt = open(p, encoding="utf-8").read()
-            except OSError:
-                continue
-            # only delete files that are clearly generated wrappers
-            if re.search(r"^source:\s*.+/SKILL\.md\s*$", txt, re.MULTILINE) or PERSONAL_MARKER in txt:
-                os.remove(p)
-                pruned.append(name)
+        # A wrapper is live if it sits at the exact path this build would write
+        # it to; anything else under vault/notes/ is an orphan, including notes
+        # left behind at a previous domain when a skill was recategorised.
+        live_notes = {note_path(s, key_by_skill.get(s, "uncategorized")) for s in on_disk}
+        for directory, _, filenames in os.walk(notes_root()):
+            for f in filenames:
+                if not f.endswith(".md") or f.startswith("."):
+                    continue
+                p = os.path.join(directory, f)
+                if p in live_notes:
+                    continue
+                try:
+                    txt = open(p, encoding="utf-8").read()
+                except OSError:
+                    continue
+                # only delete files that are clearly generated wrappers
+                if re.search(r"^source:\s*.+/SKILL\.md\s*$", txt, re.MULTILINE) or PERSONAL_MARKER in txt:
+                    os.remove(p)
+                    pruned.append(f[:-3])
+        # Drop domain folders emptied by the sweep.
+        for directory, _, _ in sorted(os.walk(notes_root()), reverse=True):
+            if directory != notes_root() and not os.listdir(directory):
+                os.rmdir(directory)
         if pruned:
             print(f"PRUNED {len(pruned)} orphan wrapper(s): {', '.join(sorted(pruned))}",
                   file=sys.stderr)

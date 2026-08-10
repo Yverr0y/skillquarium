@@ -215,11 +215,17 @@ def validate_generated_map_links(text, expected_links):
     return actual_links
 
 
+EXPERT_DOMAIN_BY_SKILL = {'scientific-agents': 'scientific-expert-profiles', 'alpha-physicist': 'scientific-expert-profiles', 'beta-physicist': 'scientific-expert-profiles', 'zeta-physicist': 'scientific-expert-profiles', 'omega-biologist': 'scientific-expert-profiles', 'algebraist': 'scientific-expert-profiles'}
+
+
 def _profile_bullet_slugs(section):
     slugs = []
+    # Discipline maps sit at vault/maps/<expert-domain>/<id>.md and link to
+    # wrapper notes at vault/notes/<expert-domain>/<slug>.md.
     pattern = re.compile(
         r"^- \[([a-z0-9]+(?:-[a-z0-9]+)*)\]"
-        r"\(\.\./\.\./([a-z0-9]+(?:-[a-z0-9]+)*)\.md\) - .+$"
+        r"\(\.\./\.\./notes/" + re.escape(expert_taxonomy.EXPERT_DOMAIN) + r"/"
+        r"([a-z0-9]+(?:-[a-z0-9]+)*)\.md\) - .+$"
     )
     for line in section.splitlines():
         if not line.startswith("- "):
@@ -256,7 +262,9 @@ def validate_discipline_profile_sections(
     expected_cross = tuple(expected_cross)
     all_linked_slugs = tuple(
         re.findall(
-            r"\]\(\.\./\.\./([a-z0-9]+(?:-[a-z0-9]+)*)\.md\)",
+            r"\]\(\.\./\.\./notes/"
+            + re.escape(expert_taxonomy.EXPERT_DOMAIN)
+            + r"/([a-z0-9]+(?:-[a-z0-9]+)*)\.md\)",
             text,
         )
     )
@@ -301,11 +309,11 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
     def test_discipline_section_validator_rejects_extra_or_duplicate_members(self):
         text = (
             "## Primary experts\n\n"
-            "- [alpha](../../alpha.md) - Alpha.\n"
-            "- [alpha](../../alpha.md) - Duplicate.\n\n"
+            "- [alpha](../../notes/scientific-expert-profiles/alpha.md) - Alpha.\n"
+            "- [alpha](../../notes/scientific-expert-profiles/alpha.md) - Duplicate.\n\n"
             "## Cross-disciplinary experts\n\n"
-            "- [omega](../../omega.md) - Omega.\n"
-            "- [extra](../../extra.md) - Extra.\n"
+            "- [omega](../../notes/scientific-expert-profiles/omega.md) - Omega.\n"
+            "- [extra](../../notes/scientific-expert-profiles/extra.md) - Extra.\n"
         )
 
         with self.assertRaisesRegex(ValueError, "profile section mismatch"):
@@ -319,9 +327,9 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
         text = (
             "```markdown\n"
             "## Primary experts\n\n"
-            "- [alpha](../../alpha.md) - Alpha.\n\n"
+            "- [alpha](../../notes/scientific-expert-profiles/alpha.md) - Alpha.\n\n"
             "## Cross-disciplinary experts\n\n"
-            "- [omega](../../omega.md) - Omega.\n"
+            "- [omega](../../notes/scientific-expert-profiles/omega.md) - Omega.\n"
             "```\n"
         )
 
@@ -335,9 +343,9 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
     def test_discipline_section_validator_rejects_inline_heading_substrings(self):
         text = (
             "paragraph ## Primary experts\n\n"
-            "- [alpha](../../alpha.md) - Alpha.\n\n"
+            "- [alpha](../../notes/scientific-expert-profiles/alpha.md) - Alpha.\n\n"
             "paragraph ## Cross-disciplinary experts\n\n"
-            "- [omega](../../omega.md) - Omega.\n"
+            "- [omega](../../notes/scientific-expert-profiles/omega.md) - Omega.\n"
         )
 
         with self.assertRaisesRegex(ValueError, "headings"):
@@ -352,15 +360,15 @@ class ExpertNavigationAuditParserTests(unittest.TestCase):
             "<!--\n"
             "[Back](../index.md)\n\n"
             "## Primary experts\n\n"
-            "- [alpha](../../alpha.md) - Alpha.\n\n"
+            "- [alpha](../../notes/scientific-expert-profiles/alpha.md) - Alpha.\n\n"
             "## Cross-disciplinary experts\n\n"
-            "- [omega](../../omega.md) - Omega.\n"
+            "- [omega](../../notes/scientific-expert-profiles/omega.md) - Omega.\n"
             "-->\n"
         )
         expected_links = (
             ("Back", "../index.md"),
-            ("alpha", "../../alpha.md"),
-            ("omega", "../../omega.md"),
+            ("alpha", "../../notes/scientific-expert-profiles/alpha.md"),
+            ("omega", "../../notes/scientific-expert-profiles/omega.md"),
         )
 
         with self.assertRaisesRegex(ValueError, "HTML comment"):
@@ -537,6 +545,7 @@ class ExpertNavigationRenderTests(unittest.TestCase):
             title="Scientific Expert Profiles",
             scope="Discipline-specific scientific and engineering profiles.",
             created="2025-01-02",
+            domain_by_skill=EXPERT_DOMAIN_BY_SKILL,
         )
 
         self.assertIn(
@@ -548,7 +557,11 @@ class ExpertNavigationRenderTests(unittest.TestCase):
         )
         self.assertIn("[Back to Skill Index](../index.md)", rendered)
         self.assertIn("## Profile Dispatcher", rendered)
-        self.assertIn("[scientific-agents](../scientific-agents.md)", rendered)
+        self.assertIn(
+            "[scientific-agents](../notes/"
+            f"{expert_taxonomy.EXPERT_DOMAIN}/scientific-agents.md)",
+            rendered,
+        )
         self.assertIn("## Browse By Discipline", rendered)
         physics = (
             "[Physics & Astronomy]"
@@ -571,6 +584,7 @@ class ExpertNavigationRenderTests(unittest.TestCase):
         rendered = vault_build.render_expert_discipline_map(
             discipline=taxonomy.disciplines[0],
             taxonomy=taxonomy,
+            domain_by_skill=EXPERT_DOMAIN_BY_SKILL,
             short_descriptions={
                 "alpha-physicist": "Alpha summary.",
                 "beta-physicist": "Beta summary.",
@@ -609,14 +623,14 @@ class ExpertNavigationRenderTests(unittest.TestCase):
         cross_heading = rendered.index("## Cross-disciplinary experts")
         self.assertLess(primary_heading, cross_heading)
         primary_links = (
-            "[alpha-physicist](../../alpha-physicist.md) - Alpha summary.",
-            "[beta-physicist](../../beta-physicist.md) - Beta summary.",
-            "[zeta-physicist](../../zeta-physicist.md) - Zeta summary.",
+            "[alpha-physicist](../../notes/scientific-expert-profiles/alpha-physicist.md) - Alpha summary.",
+            "[beta-physicist](../../notes/scientific-expert-profiles/beta-physicist.md) - Beta summary.",
+            "[zeta-physicist](../../notes/scientific-expert-profiles/zeta-physicist.md) - Zeta summary.",
         )
         self.assertLess(rendered.index(primary_links[0]), rendered.index(primary_links[1]))
         self.assertLess(rendered.index(primary_links[1]), rendered.index(primary_links[2]))
         self.assertIn(
-            "[omega-biologist](../../omega-biologist.md) - Omega summary.",
+            "[omega-biologist](../../notes/scientific-expert-profiles/omega-biologist.md) - Omega summary.",
             rendered,
         )
         self.assertNotIn("Profile Dispatcher", rendered)
@@ -640,6 +654,7 @@ class ExpertNavigationRenderTests(unittest.TestCase):
         rendered = vault_build.render_expert_discipline_map(
             discipline=discipline,
             taxonomy=taxonomy,
+            domain_by_skill=EXPERT_DOMAIN_BY_SKILL,
             short_descriptions={"algebraist": "Studies algebraic structures."},
             category_titles={
                 "data-science-compute": "Data Science, Stats & Scientific Computing"
@@ -921,10 +936,10 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
             discovered_profiles=discovered_profiles,
             valid_bridge_domains=cls.bridge_domain_order,
         )
-        cls.master_map = cls.root / "maps/scientific-expert-profiles.md"
+        cls.master_map = cls.root / "vault/maps/scientific-expert-profiles.md"
         cls.discipline_maps = {
             discipline.id: cls.root
-            / "maps/scientific-expert-profiles"
+            / "vault/maps/scientific-expert-profiles"
             / f"{discipline.id}.md"
             for discipline in cls.taxonomy.disciplines
         }
@@ -932,18 +947,27 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
             key: title for key, title, *_ in vault_build.CATEGORIES
         }
 
+    def wrapper_path(self, slug):
+        """Wrapper notes are grouped by domain under vault/notes/."""
+        return (
+            self.root
+            / "vault/notes"
+            / expert_taxonomy.EXPERT_DOMAIN
+            / f"{slug}.md"
+        )
+
     def test_all_503_wrappers_match_manifest_metadata_and_navigation(self):
         self.assertEqual(len(self.taxonomy.profiles), 503)
 
         for slug, assignment in self.taxonomy.profiles.items():
             with self.subTest(slug=slug):
-                text = (self.root / f"{slug}.md").read_text(encoding="utf-8")
+                text = self.wrapper_path(slug).read_text(encoding="utf-8")
                 validate_expert_wrapper_frontmatter(text, slug, assignment)
                 self.assertTrue(assignment.bridge_domains)
                 primary = self.taxonomy.discipline_by_id[assignment.primary]
                 primary_link = (
                     f"[{primary.title}]"
-                    "(maps/scientific-expert-profiles/"
+                    "(../../maps/scientific-expert-profiles/"
                     f"{primary.id}.md)"
                 )
                 self.assertEqual(text.count(primary_link), 1)
@@ -951,12 +975,12 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
                     secondary = self.taxonomy.discipline_by_id[discipline_id]
                     secondary_link = (
                         f"[{secondary.title}]"
-                        "(maps/scientific-expert-profiles/"
+                        "(../../maps/scientific-expert-profiles/"
                         f"{secondary.id}.md)"
                     )
                     self.assertEqual(text.count(secondary_link), 1)
                 for domain in assignment.bridge_domains:
-                    self.assertIn(f"(maps/{domain}.md)", text)
+                    self.assertIn(f"(../../maps/{domain}.md)", text)
 
     def test_discipline_maps_place_profiles_in_declared_sections(self):
         for discipline in self.taxonomy.disciplines:
@@ -976,7 +1000,11 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
     def test_dispatcher_appears_only_in_master_map(self):
         master = self.master_map.read_text(encoding="utf-8")
         self.assertEqual(
-            master.count("[scientific-agents](../scientific-agents.md)"), 1
+            master.count(
+                "[scientific-agents](../notes/"
+                f"{expert_taxonomy.EXPERT_DOMAIN}/scientific-agents.md)"
+            ),
+            1,
         )
         for discipline_id, path in self.discipline_maps.items():
             with self.subTest(discipline=discipline_id):
@@ -987,7 +1015,7 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
     def test_generated_map_links_match_taxonomy_and_resolve(self):
         expected_master = [
             ("Back to Skill Index", "../index.md"),
-            ("scientific-agents", "../scientific-agents.md"),
+            ("scientific-agents", f"../notes/{expert_taxonomy.EXPERT_DOMAIN}/scientific-agents.md"),
         ]
         expected_master.extend(
             (
@@ -1016,11 +1044,11 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
                 for domain in bridges
             )
             expected_nested.extend(
-                (slug, f"../../{slug}.md")
+                (slug, f"../../notes/scientific-expert-profiles/{slug}.md")
                 for slug in self.taxonomy.primary_profiles(discipline.id)
             )
             expected_nested.extend(
-                (slug, f"../../{slug}.md")
+                (slug, f"../../notes/scientific-expert-profiles/{slug}.md")
                 for slug in self.taxonomy.secondary_profiles(discipline.id)
             )
             map_contracts.append(
@@ -1049,7 +1077,7 @@ class RepositoryGeneratedNavigationAuditTests(unittest.TestCase):
             "health-informatician",
         ):
             with self.subTest(slug=slug):
-                text = (self.root / f"{slug}.md").read_text(encoding="utf-8")
+                text = self.wrapper_path(slug).read_text(encoding="utf-8")
                 self.assertIn("## Relevant capability domains", text)
                 self.assertNotIn("## Related skills", text)
                 for target in former_targets:
@@ -1086,12 +1114,15 @@ class RepositoryFixedPointTests(unittest.TestCase):
             copied_skill = destination / "skills" / skill / "SKILL.md"
             copied_skill.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(skill_path, copied_skill)
-            wrapper = source / f"{skill}.md"
-            if wrapper.is_file():
-                shutil.copy2(wrapper, destination / wrapper.name)
+            wrapper = next(source.glob(f"vault/notes/*/{skill}.md"), None)
+            if wrapper is not None:
+                copied_wrapper = destination / wrapper.relative_to(source)
+                copied_wrapper.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(wrapper, copied_wrapper)
 
-        shutil.copy2(source / "index.md", destination / "index.md")
-        for map_path in (source / "maps").rglob("*.md"):
+        (destination / "vault").mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source / "vault/index.md", destination / "vault/index.md")
+        for map_path in (source / "vault/maps").rglob("*.md"):
             relative = map_path.relative_to(source)
             copied_map = destination / relative
             copied_map.parent.mkdir(parents=True, exist_ok=True)
@@ -1099,9 +1130,14 @@ class RepositoryFixedPointTests(unittest.TestCase):
         return tuple(skill_names)
 
     def snapshot_generated_tree(self, root, skill_names):
-        paths = {root / f"{skill}.md" for skill in skill_names}
-        paths.add(root / "index.md")
-        paths.update((root / "maps").rglob("*.md"))
+        wanted = set(skill_names)
+        paths = {
+            note
+            for note in (root / "vault/notes").rglob("*.md")
+            if note.stem in wanted
+        }
+        paths.add(root / "vault/index.md")
+        paths.update((root / "vault/maps").rglob("*.md"))
         return {
             path.relative_to(root).as_posix(): hashlib.sha256(
                 path.read_bytes()
@@ -1117,7 +1153,7 @@ class RepositoryFixedPointTests(unittest.TestCase):
             if not vault_build.is_gstack_subskill(path.parent.name)
         )
         source_before = self.snapshot_generated_tree(source, source_skills)
-        sentinel = source / "maps/scientific-expert-profiles.md"
+        sentinel = source / "vault/maps/scientific-expert-profiles.md"
         sentinel_before = hashlib.sha256(sentinel.read_bytes()).hexdigest()
 
         temporary = tempfile.TemporaryDirectory()

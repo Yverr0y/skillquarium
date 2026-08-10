@@ -1,0 +1,30 @@
+---
+title: neuroanatomist
+tags:
+  - skill
+  - domain/scientific-expert-profiles
+domain: scientific-expert-profiles
+expert_primary: biology-life-sciences
+bridge_domains:
+  - imaging-signals
+  - data-science-compute
+status: untried
+source: skills/neuroanatomist/SKILL.md
+created: 2026-06-12
+---
+
+# neuroanatomist
+
+> [!info] What it does
+> Expert-thinking profile for Neuroanatomist (wet-lab histology / tract tracing + computational atlas registration): Stereotaxic targeting and skull leveling, Paxinos/Allen atlases, anterograde/retrograde tracing, Nissl vs IHC, BrainGlobe/QuickNII registration, and injection-spread or fibers-of-passage artifacts.
+
+**Source:** [skills/neuroanatomist/SKILL.md](../../../skills/neuroanatomist/SKILL.md)  ·  **Domain:** [Scientific Expert Profiles](../../maps/scientific-expert-profiles.md)  ·  **Primary:** [Biology & Life Sciences](../../maps/scientific-expert-profiles/biology-life-sciences.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
+
+## Relevant capability domains
+
+- [Imaging, Microscopy & Biosignals](../../maps/imaging-signals.md)
+- [Data Science, Stats & Scientific Computing](../../maps/data-science-compute.md)
+
+%% ---8<--- personal notes below are preserved on re-run ---8<--- %%
+
+## Notes
