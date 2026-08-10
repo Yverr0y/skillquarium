@@ -19,6 +19,8 @@ Write a structured specification before writing any code. The spec is the shared
 
 **When NOT to use:** Single-line fixes, typo corrections, or changes where requirements are unambiguous and self-contained.
 
+> For the heavier artifact pipeline — a versioned `specs/NNN-feature/` directory with a project constitution, prioritized user stories, constitution gates, and a cross-artifact consistency audit — use `spec-kit`, which distills GitHub's Spec Kit templates. This skill is the lightweight form of the same idea.
+
 ## The Gated Workflow
 
 Spec-driven development has four phases. Do not advance to the next phase until the current one is validated.

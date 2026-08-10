@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Vault, Skills & Workflow Meta](vault-meta.md) | [Security & Auditing](security-auditing.md) | [Cloud, Infra & MLOps](cloud-devops.md) | [Reasoning, Ideation & Decision](reasoning-ideation.md) | [.NET & C# Development](dotnet-development.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (65)
+## Skills (67)
 
 - [api-and-interface-design](../api-and-interface-design.md) — Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface
 - [brainstorming](../brainstorming.md) — You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior
@@ -42,6 +42,7 @@ created: 2026-06-13
 - [git-workflow-and-versioning](../git-workflow-and-versioning.md) — Structures git workflow practices. Use when making any code change
 - [github-actions-ci](../github-actions-ci.md) — Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows...
 - [greploop](../greploop.md) — Iteratively improves a PR (GitHub), MR (GitLab), or shelved changelist (Perforce) until Greptile gives it a 5/5 confidence score with zero unresolved comments
+- [gstack](../gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [handoff](../handoff.md) — Compact the current conversation into a handoff document for another agent to pick up
 - [hunk-review](../hunk-review.md) — Interacts with live Hunk diff review sessions via CLI
 - [implement](../implement.md) — Implement a piece of work based on a PRD or set of issues
@@ -65,6 +66,7 @@ created: 2026-06-13
 - [setup-pre-commit](../setup-pre-commit.md) — Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo
 - [source-driven-development](../source-driven-development.md) — Grounds every implementation decision in official documentation
 - [spec-driven-development](../spec-driven-development.md) — Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet
+- [spec-kit](../spec-kit.md) — Runs the Spec-Kit (GitHub SDD) artifact pipeline — constitution, spec, clarify, plan, tasks, analyze, implement — using its templates
 - [subagent-driven-development](../subagent-driven-development.md) — Use when executing implementation plans with independent tasks in the current session
 - [systematic-debugging](../systematic-debugging.md) — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 - [tdd](../tdd.md) — Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests
