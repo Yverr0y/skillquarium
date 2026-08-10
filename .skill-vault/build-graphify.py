@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GRAPH_DIR = ROOT / "graphify-out"
-DEFAULT_INCLUDE_DIRS = {"maps", ".github", ".skill-vault"}
+DEFAULT_INCLUDE_DIRS = {"vault", ".github", ".skill-vault"}
 SUPPORTED_BACKENDS = (
     "azure",
     "bedrock",
@@ -42,7 +42,7 @@ DEFAULT_EXTRA_EXCLUDES = [
     "graphify-out/",
     ".git/",
     ".obsidian/",
-    ".skill-vault/skill-lock.json",
+    ".skill-lock.json",
     "__pycache__/",
     "screenshot.png",
     "Untitled.*",

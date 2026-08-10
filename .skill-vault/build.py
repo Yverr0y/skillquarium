@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
 """Build the human-navigation layer for the skills vault.
 
-Generates, for every skill folder that contains a SKILL.md:
-  - <skill>.md            a root-level wrapper note (safe to hand-edit; the
-                          "Personal notes" section AND your frontmatter edits
-                          to status / rating / aliases are preserved on re-run)
-  - maps/<domain>.md      one map (MOC) note per domain, linking to wrappers
-  - index.md              master index linking to maps + every wrapper (A-Z)
+Generates, for every skill folder in skills/ that contains a SKILL.md:
+  - vault/notes/<domain>/<skill>.md
+                          a wrapper note, grouped by domain (safe to hand-edit;
+                          the "Personal notes" section AND your frontmatter
+                          edits to status / rating / aliases survive a re-run)
+  - vault/maps/<domain>.md
+                          one map (MOC) note per domain, linking to wrappers
+  - vault/index.md        master index linking to maps + every wrapper (A-Z)
 
-The original <skill>/SKILL.md files are never touched, so an external skills
-CLI can keep managing them remotely. Hand-authored files (skills.base,
-recipes/*, README.md, .obsidian/*) are also never touched.
+Links are emitted as true relative paths so they resolve both in Obsidian and
+in plain markdown renderers.
+
+The original skills/<skill>/SKILL.md files are never touched, so an external
+skills CLI can keep managing them remotely — skills/ is that CLI's flat
+canonical store and must stay a flat list of skill folders. Hand-authored files
+(vault/skills.base, vault/recipes/*, README.md, .obsidian/*) are also never
+touched.
 
 Usage:  python3 .skill-vault/build.py
 """
