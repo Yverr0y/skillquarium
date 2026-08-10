@@ -34,6 +34,7 @@ created: 2026-08-07
 - [opensrc](opensrc.md) — Give coding agents the actual source code of any dependency
 - [qa](qa.md) — Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues
 - [request-refactor-plan](request-refactor-plan.md) — Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue
+- [spec-kit](spec-kit.md) — Runs the Spec-Kit (GitHub SDD) artifact pipeline — constitution, spec, clarify, plan, tasks, analyze, implement — using its templates
 - [technology-selection](technology-selection.md) — Guides technology selection and implementation of AI and ML features in .NET 8+ applications using ML.NET, Microsoft.Extensions.AI (MEAI), Microsoft Agent Framework (MAF), GitHub...
 - [track-findings](track-findings.md) — Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories
 - [triage](triage.md) — Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs

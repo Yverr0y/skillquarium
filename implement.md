@@ -32,6 +32,7 @@ created: 2026-06-20
 - [phaser-2d-game](phaser-2d-game.md) — Implement 2D browser games with Phaser. Use when the user wants a Phaser, TypeScript, and Vite stack for scenes, gameplay systems, cameras, sprite animation, and DOM-overlay HUD...
 - [pytorch-lightning](pytorch-lightning.md) — Deep learning framework (PyTorch Lightning / lightning package)
 - [scrollytelling-and-parallax-data-visualization](scrollytelling-and-parallax-data-visualization.md) — Design and implement parallax scrolling and scrollytelling data visualizations
+- [spec-kit](spec-kit.md) — Runs the Spec-Kit (GitHub SDD) artifact pipeline — constitution, spec, clarify, plan, tasks, analyze, implement — using its templates
 - [swiftui-liquid-glass](swiftui-liquid-glass.md) — Implement and review iOS 26+ SwiftUI Liquid Glass UI
 - [three-webgl-game](three-webgl-game.md) — Implement browser-game runtimes with plain Three.js
 - [twilio-security-api-auth](twilio-security-api-auth.md) — Choose the right Twilio authentication method and implement it correctly
