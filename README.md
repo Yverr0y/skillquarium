@@ -111,15 +111,18 @@ The table shows four combined states:
 - `mixed` — the Claude Code and Codex fields disagree; toggling makes both enabled.
 - `error` — malformed metadata must be repaired before the tool will change it.
 
-Save writes `.skill-vault/skill-toggle-state.json` (gitignored). Reload reapplies both
+Save writes `.skill-vault/skill-toggle-state.json` . Reload reapplies both
 products from that snapshot. **Reset HEAD** requires a second click or Ctrl-P within five
 seconds: it saves the current state, then restores only the invocation fields to Git HEAD,
 leaving unrelated working edits untouched. Reload the snapshot after committing to restore
 your personal settings.
 
 The tool writes `disable-model-invocation` in `SKILL.md` for Claude Code and
-`policy.allow_implicit_invocation` in `agents/openai.yaml` for Codex. Scriptable commands
-use the same safe backend:
+`policy.allow_implicit_invocation` in `agents/openai.yaml` for Codex. This prevents
+skills from loading into agent's context window automatically, but you can still 
+invoke them manually if needed.
+
+Scriptable commands use the same safe backend:
 
 ```bash
 ./skill-toggle list
@@ -138,9 +141,10 @@ Each skill has a wrapper note (e.g. `scanpy.md`) at the vault root that links to
 source `SKILL.md`, lists related skills, and holds your personal notes / status / aliases.
 Navigation generation never modifies the original `*/SKILL.md` folders, so the skills CLI
 can manage them remotely. `skill-toggle` is the deliberate exception: it changes only the
-two product invocation fields described above.
+two product invocation fields described above. 
 
 As of 2026-08-09, claude code and pi can reliably toggle skills and reduce context usage, codex is not working well.
+As a workaround, one can use pi as the harness for gpt models.
 
 ## Regenerating the navigation layer
 
