@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Vault, Skills & Workflow Meta](vault-meta.md) | [Security & Auditing](security-auditing.md) | [Cloud, Infra & MLOps](cloud-devops.md) | [Reasoning, Ideation & Decision](reasoning-ideation.md) | [.NET & C# Development](dotnet-development.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (85)
+## Skills (84)
 
 - [api-and-interface-design](../notes/software-dev/api-and-interface-design.md) — Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface
 - [brainstorming](../notes/software-dev/brainstorming.md) — You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior
@@ -51,7 +51,6 @@ created: 2026-06-13
 - [github](../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [github-actions-ci](../notes/software-dev/github-actions-ci.md) — Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows...
 - [greploop](../notes/software-dev/greploop.md) — Iteratively improves a PR (GitHub), MR (GitLab), or shelved changelist (Perforce) until Greptile gives it a 5/5 confidence score with zero unresolved comments
-- [gstack](../notes/software-dev/gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [handoff](../notes/software-dev/handoff.md) — Compact the current conversation into a handoff document for another agent to pick up
 - [hunk-review](../notes/software-dev/hunk-review.md) — Interacts with live Hunk diff review sessions via CLI
 - [implement](../notes/software-dev/implement.md) — Implement a piece of work based on a PRD or set of issues

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "985b07317ab381ab",
+        "id": "79aa812d307360e3",
         "type": "tabs",
         "children": [
           {
-            "id": "0d51df94648d8e18",
+            "id": "7d39b2fabdd9663d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -178,7 +182,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "0d51df94648d8e18",
+  "active": "7d39b2fabdd9663d",
   "lastOpenFiles": [
     "Untitled 1.canvas",
     "vault/notes/literature-discovery/zotero.md",

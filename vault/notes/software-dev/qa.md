@@ -23,7 +23,6 @@ created: 2026-06-20
 - [frontend-testing-debugging](../../notes/web-automation-frontend/frontend-testing-debugging.md) — Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction...
 - [game-playtest](../../notes/game-development/game-playtest.md) — Run browser-game playtests and frontend QA
 - [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
-- [gstack](../../notes/software-dev/gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [nature-paper2ppt](../../notes/academic-pipelines/nature-paper2ppt.md) — Build a complete Nature-style Chinese PPTX presentation from a scientific paper, preprint, PDF, article text, figure legends, or reading notes
 - [replay-qa-api](../../notes/saas-platforms/replay-qa-api.md) — Use when calling Replay QA's REST API directly from Codex
 - [sharepoint-powerpoint](../../notes/comms-productivity/sharepoint-powerpoint.md) — Create, edit, restyle, and review PowerPoint `.pptx` files fetched from SharePoint, with emphasis on style preservation, slide cloning, theme-aware updates, and rendered visual QA
