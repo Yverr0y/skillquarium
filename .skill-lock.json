@@ -1538,9 +1538,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "94f16012fa78e9db40d0b6ea026c328616427ee7",
+      "skillFolderHash": "2de7ac1e4bd0e102cf8d16ab0a05b3bd8bfa37e6",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-08-10T04:45:09.833Z"
+      "updatedAt": "2026-08-11T07:34:17.142Z"
     },
     "figma-generate-design": {
       "source": "openai/plugins",
@@ -1790,9 +1790,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/static-analysis/skills/semgrep/SKILL.md",
-      "skillFolderHash": "295f91c69edd97f9046383887ed6e0458d6cc873",
+      "skillFolderHash": "4bab3a7eb469ce14316042c5dafc0cfae2853081",
       "installedAt": "2026-06-09T19:28:14.020Z",
-      "updatedAt": "2026-06-09T19:28:14.020Z"
+      "updatedAt": "2026-08-11T07:34:19.179Z"
     },
     "spec-to-code-compliance": {
       "source": "trailofbits/skills",
@@ -1934,9 +1934,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
-      "skillFolderHash": "a8c2b21bbedc82f4a18d7b5ed50b926fdf127b40",
+      "skillFolderHash": "e0f446332d689ade2947cfba3480a8c194231640",
       "installedAt": "2026-06-09T19:28:14.033Z",
-      "updatedAt": "2026-06-09T19:28:14.033Z"
+      "updatedAt": "2026-08-11T07:34:21.597Z"
     },
     "zeroize-audit": {
       "source": "trailofbits/skills",
