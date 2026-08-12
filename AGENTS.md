@@ -168,9 +168,9 @@ Know these by name so you reach for them automatically.
 - Skills are managed by the Vercel `skills` CLI; folders live in `skills/` and are never
   hand-edited by the navigation layer.
 - Run [`install-skills.sh`](install-skills.sh) to symlink every skill here into each agent's
-  skills folder so their native loaders pick them up. gstack and career-ops are optional
-  extras: pass `--extras gstack`, `--extras career`, or `--extras all` to install them
-  (skipped by default).
+  skills folder so their native loaders pick them up. gstack, career-ops, and UI/UX Pro Max
+  are optional extras: pass `--extras gstack`, `--extras career`, `--extras ui-ux`, or
+  `--extras all` to install them (skipped by default).
 - After adding/removing a skill, regenerate wrappers/maps/index:
   `python3 .skill-vault/build.py` (see [`README.md`](README.md)).
 - To refresh the optional local graphify graph for vault queries, run
