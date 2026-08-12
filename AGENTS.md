@@ -1,6 +1,6 @@
 # AGENTS.md — operating guide for agents
 
-You have access to a curated library of **1240 agent skills** at `~/.agents/skills/`
+You have access to a curated library of **1818 agent skills** at `~/.agents/skills/`
 (the `skills/` subtree of this repo, which is rooted at `~/.agents`). A *skill* is a folder with a `SKILL.md` holding battle-tested instructions for
 a specific tool, library, or workflow. **Using a relevant skill is faster and more reliable
 than improvising.** This file tells you how to find and use them.
@@ -60,7 +60,7 @@ Try these in order; stop when you have a match.
    The `*.md` files under `vault/notes/<domain>/` are one-line "wrapper" notes (description + domain +
    aliases) — the fast index. Read the underlying `<name>/SKILL.md` once you've picked one.
 
-3. **Browse by domain.** [`vault/index.md`](vault/index.md) groups all skills into 25
+3. **Browse by domain.** [`vault/index.md`](vault/index.md) groups all skills into 32
    domains; [`vault/maps/`](vault/maps) has one note per domain and
    [`vault/notes/<domain>/`](vault/notes) holds the wrapper notes themselves;
    [`vault/skills.base`](vault/skills.base) is a filterable table. Coding work lives
