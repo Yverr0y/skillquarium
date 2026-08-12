@@ -1772,9 +1772,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/static-analysis/skills/codeql/SKILL.md",
-      "skillFolderHash": "d0c3bbeb25f433fe840941a21bcdf230bf8786ae",
+      "skillFolderHash": "133904ce64269ea30c935b45f649f5490dcf3e47",
       "installedAt": "2026-06-09T19:28:14.018Z",
-      "updatedAt": "2026-06-09T19:28:14.018Z"
+      "updatedAt": "2026-08-12T07:49:40.412Z"
     },
     "sarif-parsing": {
       "source": "trailofbits/skills",
@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "0fca830ebfbf51481ebcf285fd5c67d892ad3ee5",
+      "skillFolderHash": "b251ec60119a86c4d0da6651b0d2b0cbe06d3c97",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-08-10T04:45:30.238Z"
+      "updatedAt": "2026-08-12T07:49:41.804Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -2069,9 +2069,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-help/SKILL.md",
-      "skillFolderHash": "686974193bba1a8a12029032fcf730d03e5ffdea",
+      "skillFolderHash": "b4f5ebc5f3ce9bfa652996b5161bbe3cc0b88297",
       "installedAt": "2026-06-13T13:42:44.380Z",
-      "updatedAt": "2026-08-10T04:45:32.872Z"
+      "updatedAt": "2026-08-12T07:49:42.999Z"
     },
     "caveman-review": {
       "source": "juliusbrussee/caveman",
