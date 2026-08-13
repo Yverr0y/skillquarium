@@ -8805,6 +8805,15 @@
       "skillFolderHash": "dd9938367f3e6c6bce3a3873059106041cd7a005",
       "installedAt": "2026-07-29T08:40:36.012Z",
       "updatedAt": "2026-07-29T08:40:36.012Z"
+    },
+    "worktrunk": {
+      "source": "max-sixty/worktrunk",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
+      "skillPath": "skills/worktrunk/SKILL.md",
+      "skillFolderHash": "6a2b6a35bdb7421531be700721860197dddad37c",
+      "installedAt": "2026-08-13T09:15:09.693Z",
+      "updatedAt": "2026-08-13T09:15:09.693Z"
     }
   },
   "dismissed": {
