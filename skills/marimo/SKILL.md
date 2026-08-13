@@ -1,6 +1,6 @@
 ---
 name: marimo
-description: Reactive Python notebooks stored as pure .py files — cells form a dependency DAG, so changing one cell automatically reruns its dependents and stale hidden state cannot exist. Covers the notebook file format, marimo edit/run/export CLI, mo.ui interactive elements, SQL cells, running notebooks as apps or scripts, and sandboxed notebooks with PEP 723 inline dependencies. Use when creating or editing marimo notebooks, building interactive data apps or dashboards in pure Python, converting Jupyter notebooks, or when reproducibility/git-friendliness rules out .ipynb.
+description: Reactive Python notebooks stored as pure .py files — cells form a dependency DAG, so changing one cell automatically reruns its dependents (or marks them stale under the lazy runtime) and hidden state cannot exist. Covers the notebook file format, marimo edit/run/export CLI, mo.ui interactive elements, SQL cells, running notebooks as apps or scripts, and sandboxed notebooks with PEP 723 inline dependencies. Use when creating or editing marimo notebooks, building interactive data apps or dashboards in pure Python, converting Jupyter notebooks, or when reproducibility/git-friendliness rules out .ipynb.
 ---
 
 # marimo — reactive Python notebooks
@@ -75,6 +75,7 @@ n = mo.ui.slider(1, 100, value=10)       # assign to a GLOBAL, display it
 text = mo.ui.text(placeholder="query")
 pick = mo.ui.dropdown(["a", "b"], value="a")
 run = mo.ui.run_button()                  # gate expensive cells
+mo.vstack([n, text, pick, run])           # last expression: renders the elements
 ```
 
 Interacting with an element updates `element.value` and reruns cells that read it —
@@ -93,7 +94,8 @@ df = mo.sql(f"SELECT city, count(*) FROM users_df GROUP BY city")
 SQL cells (`uv add "marimo[sql]"` for DuckDB + friends) query dataframes, CSVs, or
 attached databases in place; the result is a dataframe, and `{python_expr}` values
 interpolate into the query. Reactivity crosses the language boundary — the SQL cell
-reruns when `users_df` changes. See [[duckdb-docs]] for SQL specifics.
+reruns when the cell defining `users_df` reruns (rebinding, not in-place mutation).
+See [[duckdb-docs]] for SQL specifics.
 
 ## Apps, scripts, exports
 
@@ -102,7 +104,7 @@ marimo run nb.py --host 0.0.0.0 -p 8080   # deploy as interactive app
 python nb.py                               # run as a plain script
 marimo run app.py -- --arg value           # pass CLI args through
 marimo export html-wasm nb.py -o out.html  # self-contained, runs in browser (Pyodide)
-marimo export ipynb|md|script|html|pdf nb.py
+marimo export ipynb nb.py -o nb.ipynb      # also: html, md, pdf, script
 ```
 
 ## Sandboxed notebooks (inline dependencies)
@@ -112,13 +114,13 @@ marimo edit --sandbox nb.py    # also: run --sandbox, new --sandbox (requires uv
 ```
 
 `--sandbox` runs the notebook in an isolated venv and records imports as PEP 723
-inline metadata in the file header, so a single `.py` file is fully reproducible —
+inline metadata in the file header, so a single `.py` file carries its environment —
 `uv run nb.py` recreates the environment anywhere:
 
 ```python
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["pandas", "altair"]   # marimo pins exact versions as you import
+# dependencies = ["pandas==3.0.5", "altair==6.2.2"]
 # ///
 ```
 
