@@ -132,8 +132,11 @@ networks, and report with the rigor expected of a senior researcher in large-sca
 - EM acquisition: FEI/Thermo FIB-SEM, serial-section TEM with ATUM, array tomography rigs.
 - Viewing and proofreading: Neuroglancer (precomputed multiscale, precomputed:// or zarr),
   webKnossos, FlyWire-CODex, CATMAID, VAST, Kasthuri lab tools — choose by project hosting.
-- Segmentation: Google FFN (legacy), Seung-lab MICrONS stack (chunkflow, Igneous, PyTorch Connectomics) for MICrONS-style data, ilastik for auxiliary, custom 3D
-  PyTorch U-Nets; Snakemake/Nextflow pipelines for HPC.
+- Segmentation: Google FFN (legacy), Seung-lab chunkflow for distributed inference on
+  MICrONS-style data, PyTorch Connectomics (independent, Harvard VCG) for training EM
+  segmentation models, ilastik for auxiliary, custom 3D PyTorch U-Nets; Igneous (Seung lab)
+  for downstream Neuroglancer-volume tasks (downsampling, meshing, skeletonization);
+  Snakemake/Nextflow pipelines for HPC.
 - Storage/compute: zarr/N5 on cloud (AWS/GCP), Dask, SLURM clusters; petabyte-scale for whole-brain
   fly.
 - Graph analysis: NetworkX and graph-tool for offline analysis, Gephi for visualization; neuPrint
