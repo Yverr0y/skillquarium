@@ -152,7 +152,7 @@ The description should briefly state the skill's capability and describe its tri
 
 **Why this matters:** Testing revealed that when a description summarizes the skill's workflow, Claude may follow the description instead of reading the full skill content. A description saying "code review between tasks" caused Claude to do ONE review, even though the skill's flowchart clearly showed TWO reviews (spec compliance then code quality).
 
-When the description omitted the workflow summary and retained only a concise capability plus triggering conditions, Claude correctly read the flowchart and followed the two-stage review process.
+When the description was changed to just "Use when executing implementation plans with independent tasks" — omitting the workflow summary — Claude correctly read the flowchart and followed the two-stage review process. The experiment isolates the workflow summary as the culprit; it says nothing against also stating the capability, per the What + When format above.
 
 **The trap:** Descriptions that summarize workflow create a shortcut Claude will take. The skill body becomes documentation Claude skips.
 
