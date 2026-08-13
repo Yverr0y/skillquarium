@@ -99,4 +99,4 @@ created: 2026-06-13
 - [vitest](../notes/software-dev/vitest.md) — JavaScript/TypeScript unit testing with Vitest — fast Vite-native test runner with Jest-compatible API
 - [workflow](../notes/software-dev/workflow.md) — Vercel Workflow DevKit (WDK) expert guidance
 - [writing-plans](../notes/software-dev/writing-plans.md) — Use when you have a spec or requirements for a multi-step task, before touching code
-- [writing-skills](../notes/software-dev/writing-skills.md) — Use when creating new skills, editing existing skills, or verifying skills work before deployment
+- [writing-skills](../notes/software-dev/writing-skills.md) — Provides a test-driven method for creating and validating agent skills
