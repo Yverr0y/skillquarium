@@ -8811,9 +8811,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "6a2b6a35bdb7421531be700721860197dddad37c",
+      "skillFolderHash": "794e81f863c982ce836e6beb478b9609c76a0ae6",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-13T09:15:09.693Z"
+      "updatedAt": "2026-08-14T07:47:53.743Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
