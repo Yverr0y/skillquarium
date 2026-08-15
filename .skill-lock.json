@@ -1574,9 +1574,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/computesdk/sandbox-skills.git",
       "skillPath": "skills/e2b-sandbox/SKILL.md",
-      "skillFolderHash": "d599ccb38da91aa94fcce8ddf661d336ab87a5d8",
+      "skillFolderHash": "d09eb8666eefa92389aec906775e15422cb67a76",
       "installedAt": "2026-06-09T19:27:13.273Z",
-      "updatedAt": "2026-06-09T19:27:13.273Z"
+      "updatedAt": "2026-08-15T06:55:44.468Z"
     },
     "attach-db": {
       "source": "duckdb/duckdb-skills",
@@ -8802,18 +8802,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/modem-dev/hunk.git",
       "skillPath": "skills/hunk-review/SKILL.md",
-      "skillFolderHash": "dd9938367f3e6c6bce3a3873059106041cd7a005",
+      "skillFolderHash": "8c78e66fe408c6a9ca156be8d4b109668e1fe690",
       "installedAt": "2026-07-29T08:40:36.012Z",
-      "updatedAt": "2026-07-29T08:40:36.012Z"
+      "updatedAt": "2026-08-15T06:55:47.213Z"
     },
     "worktrunk": {
       "source": "max-sixty/worktrunk",
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "794e81f863c982ce836e6beb478b9609c76a0ae6",
+      "skillFolderHash": "75ded5bf80560d638e56470847f96f0042c7d3db",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-14T07:47:53.743Z"
+      "updatedAt": "2026-08-15T06:55:49.905Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
