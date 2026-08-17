@@ -19,6 +19,8 @@ safe-outputs:
   noop:
 
 name: Markdown Linter
+# copilot rejects the default "auto" alias on this token; pin a concrete model
+model: claude-sonnet-4.6
 timeout-minutes: 15
 
 imports:
