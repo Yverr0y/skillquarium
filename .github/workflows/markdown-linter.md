@@ -41,6 +41,8 @@ jobs:
       - name: Super-linter
         uses: super-linter/super-linter@v8.7.0
         id: super-linter
+        # lint violations are input for the agent report, not a job failure
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CREATE_LOG_FILE: "true"
@@ -63,6 +65,14 @@ jobs:
             fi
           else
             echo "needs-linting=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fix log file ownership
+        if: always()
+        # the super-linter container writes the log as root
+        run: |
+          if [ -f super-linter.log ]; then
+            sudo chown "$(id -u):$(id -g)" super-linter.log
           fi
 
       - name: Upload super-linter log
