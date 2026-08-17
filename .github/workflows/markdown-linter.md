@@ -19,26 +19,9 @@ safe-outputs:
   noop:
 
 name: Markdown Linter
-# this account's Copilot plan is served from the individual endpoint;
-# the default api.githubcopilot.com rejects its models with 400
-engine:
-  id: copilot
-  env:
-    GITHUB_COPILOT_BASE_URL: "https://api.individual.githubcopilot.com"
-    # the /responses wire route 400s on this endpoint; use chat completions
-    COPILOT_PROVIDER_WIRE_API: "completions"
-network:
-  allowed:
-    - defaults
-    - api.individual.githubcopilot.com
-# claude-haiku-4.5 is unrestricted and policy-enabled for this plan (per CAPI
-# metadata); the copilot/ prefix skips gh-aw's alias resolution
-model: copilot/claude-haiku-4.5
-# fallback rate so the proxy's credit metering accepts models missing from its table
-models:
-  default-ai-credits-pricing:
-    input: 3
-    output: 15
+# copilot engine is unusable on this account's plan via PAT (gh-aw#46531);
+# claude engine requires the ANTHROPIC_API_KEY repo secret
+engine: claude
 timeout-minutes: 15
 
 imports:
