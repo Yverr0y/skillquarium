@@ -177,7 +177,7 @@ SYNONYMS = {
     "adjusttext": ["adjustText", "ggrepel", "label placement", "text labels"],
     "conda-bioconda": ["conda", "mamba", "micromamba", "Bioconda"],
     "github-actions-ci": ["GitHub Actions", "CI/CD", "workflows"],
-    "agentic-workflows": ["gh-aw", "GitHub Agentic Workflows", "agentic Actions"],
+    "agentic-workflows": ["gh-aw", "GitHub Agentic Workflows", "Agentics templates", "agentic Actions"],
     "test-driven-development": ["TDD"], "using-git-worktrees": ["git worktree"],
     "worktrunk": ["git worktree", "worktree manager", "parallel agents"],
     "caveman": ["plain language", "ELI5", "dumb it down", "no jargon"],
