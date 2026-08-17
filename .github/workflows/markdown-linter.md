@@ -29,6 +29,9 @@ network:
   allowed:
     - defaults
     - api.individual.githubcopilot.com
+# this plan entitles no named models, only server-side "auto"; the copilot/
+# prefix skips gh-aw's alias resolution so the CLI gets literal "auto"
+model: copilot/auto
 timeout-minutes: 15
 
 imports:
