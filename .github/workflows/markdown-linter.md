@@ -32,6 +32,11 @@ network:
 # this plan entitles no named models, only server-side "auto"; the copilot/
 # prefix skips gh-aw's alias resolution so the CLI gets literal "auto"
 model: copilot/auto
+# "auto" is absent from the proxy's pricing table; give credit metering a fallback rate
+models:
+  default-ai-credits-pricing:
+    input: 3
+    output: 15
 timeout-minutes: 15
 
 imports:
