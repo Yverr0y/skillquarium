@@ -66,6 +66,8 @@ jobs:
           ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: "true"
           VALIDATE_MARKDOWN: "true"
           VALIDATE_ALL_CODEBASE: "true"
+          # super-linter's default markdown config name is .markdown-lint.yml
+          MARKDOWN_CONFIG_FILE: ".markdownlint.json"
           # skills/ holds vendored/synced skill files; lint only vault notes and repo docs
           FILTER_REGEX_EXCLUDE: ".*/skills/.*"
 
