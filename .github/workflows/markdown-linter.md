@@ -25,13 +25,15 @@ engine:
   id: copilot
   env:
     GITHUB_COPILOT_BASE_URL: "https://api.individual.githubcopilot.com"
+    # the /responses wire route 400s on this endpoint; use chat completions
+    COPILOT_PROVIDER_WIRE_API: "completions"
 network:
   allowed:
     - defaults
     - api.individual.githubcopilot.com
-# gpt-5-mini is what this plan's server-side "auto" resolves to on the wire;
-# the copilot/ prefix skips gh-aw's alias resolution so the ID passes through
-model: copilot/gpt-5-mini
+# claude-haiku-4.5 is unrestricted and policy-enabled for this plan (per CAPI
+# metadata); the copilot/ prefix skips gh-aw's alias resolution
+model: copilot/claude-haiku-4.5
 # fallback rate so the proxy's credit metering accepts models missing from its table
 models:
   default-ai-credits-pricing:
