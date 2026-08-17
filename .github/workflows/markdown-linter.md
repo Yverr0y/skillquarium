@@ -19,8 +19,16 @@ safe-outputs:
   noop:
 
 name: Markdown Linter
-# copilot rejects the default "auto" alias on this token; pin a concrete model
-model: claude-sonnet-4.6
+# this account's Copilot plan is served from the individual endpoint;
+# the default api.githubcopilot.com rejects its models with 400
+engine:
+  id: copilot
+  env:
+    GITHUB_COPILOT_BASE_URL: "https://api.individual.githubcopilot.com"
+network:
+  allowed:
+    - defaults
+    - api.individual.githubcopilot.com
 timeout-minutes: 15
 
 imports:
