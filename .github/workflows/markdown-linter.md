@@ -23,6 +23,12 @@ name: Markdown Linter
 # claude engine requires the ANTHROPIC_API_KEY repo secret
 engine: claude
 model: claude-haiku-4-5
+# the AWF proxy's token steering / model fallback silently swapped haiku for
+# opus-5 after a thinking-param retry; pin the configured model exactly
+sandbox:
+  agent:
+    token-steering: false
+    model-fallback: false
 timeout-minutes: 15
 
 imports:
