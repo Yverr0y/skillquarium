@@ -29,10 +29,10 @@ network:
   allowed:
     - defaults
     - api.individual.githubcopilot.com
-# this plan entitles no named models, only server-side "auto"; the copilot/
-# prefix skips gh-aw's alias resolution so the CLI gets literal "auto"
-model: copilot/auto
-# "auto" is absent from the proxy's pricing table; give credit metering a fallback rate
+# gpt-5-mini is what this plan's server-side "auto" resolves to on the wire;
+# the copilot/ prefix skips gh-aw's alias resolution so the ID passes through
+model: copilot/gpt-5-mini
+# fallback rate so the proxy's credit metering accepts models missing from its table
 models:
   default-ai-credits-pricing:
     input: 3
