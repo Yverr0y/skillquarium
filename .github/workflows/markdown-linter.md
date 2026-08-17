@@ -17,6 +17,11 @@ safe-outputs:
     title-prefix: "[linter] "
     labels: [automation, code-quality]
   noop:
+  # the detection job otherwise runs on Claude Code's default model (opus)
+  threat-detection:
+    engine:
+      id: claude
+      model: claude-haiku-4-5
 
 name: Markdown Linter
 # copilot engine is unusable on this account's plan via PAT (gh-aw#46531);
