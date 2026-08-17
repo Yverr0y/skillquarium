@@ -22,6 +22,7 @@ name: Markdown Linter
 # copilot engine is unusable on this account's plan via PAT (gh-aw#46531);
 # claude engine requires the ANTHROPIC_API_KEY repo secret
 engine: claude
+model: claude-haiku-4-5
 timeout-minutes: 15
 
 imports:
