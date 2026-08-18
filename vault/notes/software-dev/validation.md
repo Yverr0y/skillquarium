@@ -40,7 +40,6 @@ created: 2026-08-07
 - [outlook-calendar](../../notes/comms-productivity/outlook-calendar.md) — Handle Outlook Calendar workflows, including delegated/shared calendar writes
 - [pandera-validation](../../notes/data-science-compute/pandera-validation.md) — DataFrame schema validation using pandera
 - [physical-ai-infrastructure-setup-and-resilient-scaling](../../notes/game-development/physical-ai-infrastructure-setup-and-resilient-scaling.md) — Use when the user wants to set up, scale, validate, or harden NVIDIA physical AI infrastructure for synthetic data generation workflows across local MicroK8s or Azure AKS, including...
-- [property-based-testing](../../notes/security-auditing/property-based-testing.md) — Provides guidance for property-based testing across multiple languages and smart contracts
 - [query-opentarget](../../notes/bio-databases-platforms/query-opentarget.md) — Query OpenTargets for drug targets, disease associations, and therapeutic evidence
 - [render-cli](../../notes/hosting-edge-platforms/render-cli.md) — Installs and uses the Render CLI for deploys, logs, SSH, psql, Blueprint validation, and automation
 - [scientific-slides](../../notes/research-writing/scientific-slides.md) — Build slide decks and presentations for research talks

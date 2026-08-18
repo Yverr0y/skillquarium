@@ -45,7 +45,7 @@ created: 2026-06-13
 - [libfuzzer](../notes/security-auditing/libfuzzer.md) — Coverage-guided fuzzer built into LLVM for C/C++ projects
 - [llm-agent-security-redteam](../notes/security-auditing/llm-agent-security-redteam.md) — LLM and agent security red teaming with agentic-actions-auditor, supply-chain-risk-auditor, semgrep, codeql, and sarif-parsing
 - [ossfuzz](../notes/security-auditing/ossfuzz.md) — OSS-Fuzz provides free continuous fuzzing for open source projects
-- [property-based-testing](../notes/security-auditing/property-based-testing.md) — Provides guidance for property-based testing across multiple languages and smart contracts
+- [property-based-testing](../notes/security-auditing/property-based-testing.md) — Writes, reviews, and debugs property-based tests — Hypothesis, fast-check, proptest, jqwik, rapid, and Echidna or Medusa for Solidity invariants
 - [propose-security-hardening](../notes/security-auditing/propose-security-hardening.md) — Develop evidence-backed structural and architectural security hardening proposals from vulnerability disclosures, supplied findings, incident or assessment documents, source code, or a...
 - [sarif-parsing](../notes/security-auditing/sarif-parsing.md) — Parses and processes SARIF files from static analysis tools like CodeQL, Semgrep, or other scanners
 - [secure-workflow-guide](../notes/security-auditing/secure-workflow-guide.md) — Guides through Trail of Bits' 5-step secure development workflow

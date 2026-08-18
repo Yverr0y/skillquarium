@@ -1745,9 +1745,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
-      "skillFolderHash": "9e6ee140fdea2875e06a05f5fe90559163e9207a",
+      "skillFolderHash": "cba63e1f5f8ed793b6c682a7e3075e1ef1b4ad63",
       "installedAt": "2026-06-09T19:28:14.017Z",
-      "updatedAt": "2026-06-09T19:28:14.017Z"
+      "updatedAt": "2026-08-18T07:02:21.878Z"
     },
     "semgrep-rule-creator": {
       "source": "trailofbits/skills",
@@ -2456,9 +2456,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit.git",
       "skillPath": "plugins/bionemo-agent-toolkit/skills/proteinmpnn-nim/SKILL.md",
-      "skillFolderHash": "e2d9391db085954b112e2a580f0e0edb0315f136",
+      "skillFolderHash": "113ea119cccf20774d7b4c9a5bc4c808352ca361",
       "installedAt": "2026-06-28T21:15:35.327Z",
-      "updatedAt": "2026-08-13T07:51:28.045Z"
+      "updatedAt": "2026-08-18T07:02:23.249Z"
     },
     "rfdiffusion-nim": {
       "source": "NVIDIA-BioNeMo/bionemo-agent-toolkit",
