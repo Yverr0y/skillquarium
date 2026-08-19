@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "54114ce139df8f92dc1f018bbca00bc7ea7520a0",
+      "skillFolderHash": "19b670a696e5a91aba40758b1a97f0ca4783caee",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-08-17T07:14:10.615Z"
+      "updatedAt": "2026-08-19T07:03:12.211Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -8811,9 +8811,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "64f71b070d90ccebd7bfa66142b7a1a0832ca595",
+      "skillFolderHash": "f6e64d8b5232cf4b14ff9b3c0f56667269e00f84",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-16T06:57:23.762Z"
+      "updatedAt": "2026-08-19T07:03:18.849Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
