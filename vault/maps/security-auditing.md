@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Cloud, Infra & MLOps](cloud-devops.md) | [Vault, Skills & Workflow Meta](vault-meta.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [Web Automation, Frontend & Design](web-automation-frontend.md) | [.NET & C# Development](dotnet-development.md)
 
-## Skills (88)
+## Skills (87)
 
 - [aflpp](../notes/security-auditing/aflpp.md) — AFL++ is a fork of AFL with better fuzzing performance and advanced features
 - [agentic-actions-auditor](../notes/security-auditing/agentic-actions-auditor.md) — Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference
@@ -39,7 +39,6 @@ created: 2026-06-13
 - [constant-time-analysis](../notes/security-auditing/constant-time-analysis.md) — Detects timing side-channel vulnerabilities in cryptographic code
 - [constant-time-testing](../notes/security-auditing/constant-time-testing.md) — Constant-time testing detects timing side channels in cryptographic code
 - [coverage-analysis](../notes/security-auditing/coverage-analysis.md) — Coverage analysis measures code exercised during fuzzing
-- [ctf-sandbox](../notes/security-auditing/ctf-sandbox.md) — Thin PRIMARY for CTF / AWD / 靶场 multi-type orchestration
 - [database-security](../notes/security-auditing/database-security.md) — Use for authorized database security assessment covering PostgreSQL/MySQL/MSSQL/Mongo/Redis exposure, authz, UDF/command paths, and misconfiguration review
 - [deep-security-scan](../notes/security-auditing/deep-security-scan.md) — Use when the user asks for a deep, exhaustive, multi-pass, or variance-reducing repository-wide or scoped-path Codex Security scan
 - [differential-review](../notes/security-auditing/differential-review.md) — Performs security-focused differential review of code changes (PRs, commits, diffs)

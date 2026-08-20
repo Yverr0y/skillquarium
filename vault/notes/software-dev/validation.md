@@ -33,7 +33,7 @@ created: 2026-08-07
 - [fastapi](../../notes/software-dev/fastapi.md) — Building HTTP/JSON APIs in Python with FastAPI — path/query/body params, Pydantic v2 models, async endpoints, dependency injection, the lifespan startup/shutdown pattern, error...
 - [fetch-and-send-data](../../notes/dotnet-development/fetch-and-send-data.md) — Call APIs, load data into components, and handle the async lifecycle in Blazor
 - [great-expectations](../../notes/data-science-compute/great-expectations.md) — Data validation using Great Expectations
-- [huggingface-llm-trainer](../../notes/ml-ai/huggingface-llm-trainer.md) — This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure
+- [huggingface-llm-trainer](../../notes/ml-ai/huggingface-llm-trainer.md) — Use when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure
 - [lamindb](../../notes/bio-databases-platforms/lamindb.md) — Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models
 - [matlab-validate-function-arguments](../../notes/matlab-development/matlab-validate-function-arguments.md) — Use when writing MATLAB functions with arguments blocks — repeating arguments (arguments (Repeating)), .?ClassName property import in constructors, name-value forwarding with...
 - [omniverse-cad-to-simready](../../notes/game-development/omniverse-cad-to-simready.md) — Coordinate the end-to-end CAD/source-asset to SimReady workflow
