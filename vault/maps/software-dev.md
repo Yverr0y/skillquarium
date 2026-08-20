@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Vault, Skills & Workflow Meta](vault-meta.md) | [Security & Auditing](security-auditing.md) | [Cloud, Infra & MLOps](cloud-devops.md) | [Reasoning, Ideation & Decision](reasoning-ideation.md) | [.NET & C# Development](dotnet-development.md) | [MATLAB Development](matlab-development.md)
 
-## Skills (88)
+## Skills (91)
 
 - [agentic-workflows](../notes/software-dev/agentic-workflows.md) — Route gh-aw workflow design/create/debug/upgrade requests and find Agentics starter workflows
 - [api-and-interface-design](../notes/software-dev/api-and-interface-design.md) — Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface
@@ -35,8 +35,10 @@ created: 2026-06-13
 - [debugging-and-error-recovery](../notes/software-dev/debugging-and-error-recovery.md) — Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error
 - [deprecation-and-migration](../notes/software-dev/deprecation-and-migration.md) — Manages deprecation and migration. Use when removing old systems, APIs, or features
 - [diagnosing-bugs](../notes/software-dev/diagnosing-bugs.md) — Diagnosis loop for hard bugs and performance regressions
+- [diagram-generator](../notes/software-dev/diagram-generator.md) — generate, refine, validate, and render diagrams from natural language, notes, code snippets, schemas, tables, or existing diagram source
 - [dispatching-parallel-agents](../notes/software-dev/dispatching-parallel-agents.md) — Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
 - [docker](../notes/software-dev/docker.md) — Containerizing and shipping applications with Docker — writing efficient Dockerfiles (multi-stage builds, layer caching, small/secure images), docker compose for multi-service local...
+- [docs-generator](../notes/software-dev/docs-generator.md) — Creates task-oriented technical documentation with progressive disclosure
 - [document-quality-check](../notes/software-dev/document-quality-check.md) — Document Quality Check skill for Datasite deal rooms
 - [documentation-and-adrs](../notes/software-dev/documentation-and-adrs.md) — Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and...
 - [domain-modeling](../notes/software-dev/domain-modeling.md) — Build and sharpen a project's domain model
@@ -54,6 +56,7 @@ created: 2026-06-13
 - [github](../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [github-actions-ci](../notes/software-dev/github-actions-ci.md) — Authoring GitHub Actions CI/CD workflows — workflow/job/step structure, triggers, build-test matrices, dependency caching, secrets and least-privilege permissions, reusable workflows...
 - [greploop](../notes/software-dev/greploop.md) — Iteratively improves a PR (GitHub), MR (GitLab), or shelved changelist (Perforce) until Greptile gives it a 5/5 confidence score with zero unresolved comments
+- [gstack](../notes/software-dev/gstack.md) — Fast headless browser for QA testing and site dogfooding
 - [handoff](../notes/software-dev/handoff.md) — Compact the current conversation into a handoff document for another agent to pick up
 - [hunk-review](../notes/software-dev/hunk-review.md) — Interacts with live Hunk diff review sessions via CLI
 - [implement](../notes/software-dev/implement.md) — Implement a piece of work based on a PRD or set of issues

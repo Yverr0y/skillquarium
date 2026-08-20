@@ -35,9 +35,12 @@ created: 2026-06-20
 - [check-pr](../../notes/software-dev/check-pr.md) — Checks a GitHub, GitLab, or Perforce (p4) pull request (or merge request, or shelved changelist) for unresolved review comments, failing status checks, and incomplete PR descriptions
 - [chip-seq](../../notes/single-cell-rnaseq/chip-seq.md) — ChIP-seq peak calling and downstream interpretation with MACS3, signal track export, annotation, motif analysis, and differential binding review
 - [chronograph-gp-meeting-prep](../../notes/finance-investment/chronograph-gp-meeting-prep.md) — Prepare an LP to meet with their fund manager (GP): review the fund's latest reporting, surface what changed since last period, and draft the questions worth raising
+- [cloud-k8s](../../notes/security-auditing/cloud-k8s.md) — Use for authorized cloud, container, and Kubernetes security assessment including metadata SSRF, IAM misconfig, container escape paths, and cluster RBAC review
+- [code-audit](../../notes/security-auditing/code-audit.md) — Use for authorized source-code security review and SAST workflows including Semgrep, CodeQL patterns, dangerous API hunting, and fix verification
 - [code-review](../../notes/software-dev/code-review.md) — Reviews code changes using CodeRabbit AI
 - [code-review-and-quality](../../notes/software-dev/code-review-and-quality.md) — Conducts multi-axis code review. Use before merging any change
 - [crewai](../../notes/ml-ai/crewai.md) — Role-based multi-agent orchestration framework for building "Crews" of collaborating LLM agents (each with a role, goal, backstory, and optional tools) that execute sequential or...
+- [database-security](../../notes/security-auditing/database-security.md) — Use for authorized database security assessment covering PostgreSQL/MySQL/MSSQL/Mongo/Redis exposure, authz, UDF/command paths, and misconfiguration review
 - [deep-research](../../notes/academic-pipelines/deep-research.md) — Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic
 - [detect-static-dependencies](../../notes/dotnet-development/detect-static-dependencies.md) — Scan C# source files for hard-to-test static dependencies — DateTime.Now/UtcNow, File.*, Directory.*, Environment.*, HttpClient, Console.*, Process.*, and other untestable statics
 - [differential-review](../../notes/security-auditing/differential-review.md) — Performs security-focused differential review of code changes (PRs, commits, diffs)
@@ -45,6 +48,7 @@ created: 2026-06-20
 - [dogfood](../../notes/web-automation-frontend/dogfood.md) — Systematically explore and test a web application to find bugs, UX issues, and other problems
 - [doubt-driven-development](../../notes/software-dev/doubt-driven-development.md) — Subjects every non-trivial decision to a fresh-context adversarial review before it stands
 - [durable-objects](../../notes/hosting-edge-platforms/durable-objects.md) — Create and review Cloudflare Durable Objects
+- [email-security](../../notes/security-auditing/email-security.md) — Use for authorized email security review including phishing analysis, header authentication (SPF/DKIM/DMARC), BEC patterns, and mailbox token abuse research
 - [eod-wrapup](../../notes/comms-productivity/eod-wrapup.md) — Generates an end-of-day wrap-up using the Superhuman Mail MCP server — identifies open loops, unanswered emails, and action items from your day so you can leave work with a clear head
 - [executing-plans](../../notes/software-dev/executing-plans.md) — Use when you have a written implementation plan to execute in a separate session with review checkpoints
 - [exp-mock-usage-analysis](../../notes/dotnet-development/exp-mock-usage-analysis.md) — Audits .NET test mock usage by tracing each mock setup through the production code's execution path to find dead, unreachable, redundant, or replaceable mocks

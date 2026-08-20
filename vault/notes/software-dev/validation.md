@@ -48,6 +48,7 @@ created: 2026-08-07
 - [shopify-functions](../../notes/saas-platforms/shopify-functions.md) — Shopify Functions allow developers to customize the backend logic that powers parts of Shopify
 - [target-validation-scorer](../../notes/drug-discovery-chem/target-validation-scorer.md) — Evidence-grounded target validation scoring with GO/NO-GO decisions for drug discovery campaigns
 - [template-authoring](../../notes/dotnet-development/template-authoring.md) — Guides creation and validation of custom dotnet new templates from existing projects
+- [threat-hunting](../../notes/security-auditing/threat-hunting.md) — Use for blue-team threat hunting, detection engineering with Sigma/YARA, SIEM query design, and incident detection validation
 - [triage-finding](../../notes/security-auditing/triage-finding.md) — Use when the user supplies or imports existing security findings, vulnerability reports, or security/vulnerability Jira/Linear tickets from scanners, advisories, GitHub, Atlassian...
 - [twilio-lookup-phone-intelligence](../../notes/saas-platforms/twilio-lookup-phone-intelligence.md) — Look up phone number intelligence via Twilio Lookup v2 API
 - [twilio-security-hardening](../../notes/saas-platforms/twilio-security-hardening.md) — Secure Twilio applications against common attacks

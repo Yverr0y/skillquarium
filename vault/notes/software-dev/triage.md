@@ -19,9 +19,11 @@ created: 2026-06-20
 ## Related skills
 
 - [circleci-builds](../../notes/hosting-edge-platforms/circleci-builds.md) — Diagnose and fix failing CircleCI builds quickly and safely
+- [digital-forensics](../../notes/security-auditing/digital-forensics.md) — Use for authorized digital forensics including memory dumps, disk timelines, PCAP investigation, artifact triage, and IR evidence preservation
 - [github](../../notes/software-dev/github.md) — Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app
 - [gmail](../../notes/comms-productivity/gmail.md) — Manage Gmail inbox triage, mailbox search, thread summaries, action extraction, reply drafting, and email forwarding through connected Gmail data
 - [gmail-inbox-triage](../../notes/comms-productivity/gmail-inbox-triage.md) — Triage a Gmail inbox into actionable buckets such as urgent, needs reply soon, waiting, and FYI using connected Gmail data
+- [hardware-security](../../notes/security-auditing/hardware-security.md) — Use for authorized hardware and embedded interface security research including UART/JTAG discovery, debug pad triage, secure boot overview, and offline firmware extraction support
 - [matlab-define-toolbox-api](../../notes/matlab-development/matlab-define-toolbox-api.md) — Scan a folder, triage files into include/exclude, identify the public API, and produce a toolboxSpecification.m Interface Spec — all in one pass
 - [medchem](../../notes/drug-discovery-chem/medchem.md) — Medicinal chemistry filters for compound triage
 - [morning-briefing](../../notes/comms-productivity/morning-briefing.md) — Generates a morning briefing that triages your inbox and previews your day using the Superhuman Mail MCP server — acting as an AI chief of staff
