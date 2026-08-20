@@ -376,7 +376,7 @@ CATEGORIES = [
       "opensrc", "check-pr", "greploop",
       "hunk-review", "ast-grep", "ast-grep-outline",
       "linear", "cavekit-methodology", "cavekit-validation-first", "cavekit-revision",
-      "cavekit-design-system", "gstack"]),
+      "cavekit-design-system"]),
 
     ("vault-meta", "Vault, Skills & Workflow Meta",
      "Obsidian authoring, skill building/discovery, reproducibility, orchestration, and resource detection.",
@@ -690,7 +690,13 @@ def read_description(skill):
             if re.match(r"^[A-Za-z0-9_-]+:(\s|$)", line) or line.strip() == "---":
                 break
             desc_lines.append(line.strip())
-    desc = " ".join(p for p in desc_lines if p).strip().strip("'\"").strip()
+    raw = " ".join(p for p in desc_lines if p).strip()
+    if len(raw) >= 2 and raw[0] == '"' == raw[-1]:
+        # double-quoted scalars carry \" and \\ escapes; unescape in one pass
+        raw = re.sub(r'\\(["\\])', r"\1", raw[1:-1])
+    else:
+        raw = raw.strip("'\"")
+    desc = raw.strip()
     return " ".join(desc.split()) or None
 
 
@@ -773,9 +779,11 @@ def is_gstack_subskill(skill):
     wrappers are gitignored and come/go with the install. They are excluded from
     the index count, the flat A–Z list, and the Uncategorized section so the
     committed navigation does not churn with install state. The bare ``gstack``
-    entry point is kept. See VAULT-AUDIT SCALE-3 / MNT-12."""
+    entry point is excluded too: its folder is gitignored, so CI cannot
+    reproduce any navigation derived from it. See VAULT-AUDIT SCALE-3 / MNT-12."""
     return (
-        skill.startswith("gstack/")
+        skill == "gstack"
+        or skill.startswith("gstack/")
         or skill.startswith("gstack-")
         or skill.startswith("_gstack")
     )
@@ -1351,7 +1359,7 @@ EXTRA_ASSIGNMENTS = {
     "attack-chain": "security-auditing", "binary-diff": "security-auditing",
     "browser-automation": "security-auditing", "browser-extension-reverse": "security-auditing",
     "case-review": "security-auditing", "cloud-k8s": "security-auditing",
-    "code-audit": "security-auditing", "ctf-sandbox": "security-auditing",
+    "code-audit": "security-auditing",
     "database-security": "security-auditing", "diagram-generator": "software-dev",
     "digital-forensics": "security-auditing", "docs-generator": "software-dev",
     "dotnet-reverse": "security-auditing", "edr-bypass-re": "security-auditing",
@@ -1422,7 +1430,7 @@ EXTRA_ASSIGNMENTS = {
     # Cloud, Infra & MLOps
     "airflow": "cloud-devops", "mlflow-onboarding": "cloud-devops",
     "vllm-deploy-simple": "cloud-devops", "wandb-primary": "cloud-devops",
-    "terraform": "cloud-devops",
+    "terraform": "cloud-devops", "wizard": "cloud-devops",
     # Data Science, Stats & Scientific Computing
     "numba": "data-science-compute", "lifelines": "data-science-compute",
     "great-expectations": "data-science-compute", "scikit-image": "data-science-compute",
@@ -1450,16 +1458,22 @@ EXTRA_ASSIGNMENTS = {
     "improve-codebase-architecture": "software-dev", "migrate-to-shoehorn": "software-dev",
     "prototype": "software-dev", "qa": "software-dev",
     "request-refactor-plan": "software-dev", "resolving-merge-conflicts": "software-dev",
-    "review": "software-dev", "setup-pre-commit": "software-dev", "tdd": "software-dev",
-    "to-issues": "software-dev", "to-prd": "software-dev", "triage": "software-dev",
+    "setup-pre-commit": "software-dev", "tdd": "software-dev",
+    "to-tickets": "software-dev", "to-spec": "software-dev", "triage": "software-dev",
     "ubiquitous-language": "software-dev", "teach": "software-dev",
     "scaffold-exercises": "software-dev", "modern-typescript": "software-dev",
+    "research": "software-dev", "claude-handoff": "software-dev",
+    "setup-ts-deep-modules": "software-dev",
     # Vault, Skills & Workflow Meta
     "ask-matt": "vault-meta", "obsidian-vault": "vault-meta",
     "setup-matt-pocock-skills": "vault-meta", "writing-great-skills": "vault-meta",
+    "writing-for-agents": "vault-meta",
     # Reasoning, Ideation & Decision
     "decision-mapping": "reasoning-ideation", "grill-me": "reasoning-ideation",
     "grill-with-docs": "reasoning-ideation", "grilling": "reasoning-ideation",
+    "wayfinder": "reasoning-ideation", "loop-me": "reasoning-ideation",
+    # Communication & Productivity Suites
+    "to-questionnaire": "comms-productivity", "wait-what": "comms-productivity",
     # Web Automation, Frontend & Design
     "design-an-interface": "web-automation-frontend",
     "ui-ux-pro-max": "web-automation-frontend",
