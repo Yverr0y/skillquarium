@@ -2141,9 +2141,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mlflow/skills.git",
       "skillPath": "mlflow-onboarding/SKILL.md",
-      "skillFolderHash": "6a30f51f875616569c26ea80e699d56c6ee70a0a",
+      "skillFolderHash": "c9d42f75b05609ecb096d3c39bbbfb136b6317b0",
       "installedAt": "2026-06-25T13:10:54.748Z",
-      "updatedAt": "2026-06-25T13:10:54.748Z"
+      "updatedAt": "2026-08-22T06:58:28.098Z"
     },
     "qdrant-clients-sdk": {
       "source": "qdrant/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "f6e64d8b5232cf4b14ff9b3c0f56667269e00f84",
+      "skillFolderHash": "7c6abed59bc483e352fd7ff4d2fbd1034bafd037",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-19T07:03:18.849Z"
+      "updatedAt": "2026-08-22T06:58:30.573Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8820,9 +8820,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/ast-grep/agent-skill.git",
       "skillPath": "ast-grep/skills/outline/SKILL.md",
-      "skillFolderHash": "86dfd5539de37734e98187c80cdb4b7081ee10bb",
+      "skillFolderHash": "7ee23d31b0578aa6702d8bbafa15749fc499a8c0",
       "installedAt": "2026-08-14T05:36:42.463Z",
-      "updatedAt": "2026-08-14T05:36:42.463Z"
+      "updatedAt": "2026-08-22T06:58:31.718Z"
     },
     "agentic-workflows": {
       "source": "github/gh-aw",
@@ -8838,9 +8838,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/SKILL.md",
-      "skillFolderHash": "a5aca10622348b8aea3fb365a2ab7f282098ad03",
+      "skillFolderHash": "f6f061b6c88382667923641fdc60e9a447cf3696",
       "installedAt": "2026-08-20T02:13:18.927Z",
-      "updatedAt": "2026-08-20T07:04:55.958Z"
+      "updatedAt": "2026-08-22T06:58:40.846Z"
     },
     "api-security": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9153,9 +9153,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/reverse-engineering/SKILL.md",
-      "skillFolderHash": "07476066b1642e91c000aef71ceb0443139809d8",
+      "skillFolderHash": "69806e49d4854b0583648271ceecfb7a83802b57",
       "installedAt": "2026-08-20T02:13:19.746Z",
-      "updatedAt": "2026-08-20T02:19:55.597Z"
+      "updatedAt": "2026-08-22T06:58:42.551Z"
     },
     "supply-chain-security": {
       "source": "zhaoxuya520/reverse-skill",
