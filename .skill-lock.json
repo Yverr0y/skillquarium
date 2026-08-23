@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "7c6abed59bc483e352fd7ff4d2fbd1034bafd037",
+      "skillFolderHash": "55dd17fa669f3557f9fad6c10e3345df80c9aa73",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-22T06:58:30.573Z"
+      "updatedAt": "2026-08-23T06:58:52.488Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "71bf3a3afd5573c9acaf98c9c5cca0092d702c30",
+      "skillFolderHash": "951a0138ac21f9f9caa2ba6873d55ca4f8df7396",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-08-21T07:06:09.063Z"
+      "updatedAt": "2026-08-23T06:59:03.900Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
