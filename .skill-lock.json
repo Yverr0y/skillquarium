@@ -2033,9 +2033,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman/SKILL.md",
-      "skillFolderHash": "bdf0c87a2bdd47fc7fe9008c40cc6491ee801b81",
+      "skillFolderHash": "75d927c628bcb304f061e193c80c21d617a314e5",
       "installedAt": "2026-06-13T13:23:12.859Z",
-      "updatedAt": "2026-08-17T07:14:08.978Z"
+      "updatedAt": "2026-08-24T07:18:38.088Z"
     },
     "caveman-compress": {
       "source": "juliusbrussee/caveman",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "55dd17fa669f3557f9fad6c10e3345df80c9aa73",
+      "skillFolderHash": "5a159fce2ac20719c1f1abc1a41e51d1dffa4483",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-23T06:58:52.488Z"
+      "updatedAt": "2026-08-24T07:18:41.614Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,18 +8829,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "951a0138ac21f9f9caa2ba6873d55ca4f8df7396",
+      "skillFolderHash": "310ef506a852b0d3b2d70b9dc84a417aaa386bce",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-08-23T06:59:03.900Z"
+      "updatedAt": "2026-08-24T07:18:53.982Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/SKILL.md",
-      "skillFolderHash": "f6f061b6c88382667923641fdc60e9a447cf3696",
+      "skillFolderHash": "b987933f34f52947444ecee61dd7df0ba4182410",
       "installedAt": "2026-08-20T02:13:18.927Z",
-      "updatedAt": "2026-08-22T06:58:40.846Z"
+      "updatedAt": "2026-08-24T07:19:06.124Z"
     },
     "api-security": {
       "source": "zhaoxuya520/reverse-skill",
@@ -8901,9 +8901,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/case-review/SKILL.md",
-      "skillFolderHash": "00e475b394511da1b437ece5a17431e5473487b0",
+      "skillFolderHash": "d002eec42876e05183bb6d27c798dda31541f61b",
       "installedAt": "2026-08-20T02:13:19.004Z",
-      "updatedAt": "2026-08-20T02:19:55.506Z"
+      "updatedAt": "2026-08-24T07:19:08.659Z"
     },
     "cloud-k8s": {
       "source": "zhaoxuya520/reverse-skill",
