@@ -4,10 +4,10 @@
   "skills": 2079,
   "expert_profiles": 503,
   "nodes": 2153,
-  "edges": 15198,
+  "edges": 15204,
   "generic_names_blocked": 32,
-  "tier1_edges": 4431,
-  "tier2_edges": 699,
+  "tier1_edges": 4432,
+  "tier2_edges": 701,
   "alias_edges": 4223,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
@@ -20,13 +20,13 @@
   "orphan_count": 131,
   "orphan_rate": 0.063,
   "by_provenance": {
-   "EXTRACTED": 14412,
+   "EXTRACTED": 14418,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2079,
-   "references": 11808,
+   "references": 11814,
    "in_discipline": 599,
    "touches": 525,
    "has_step": 69,
@@ -32830,6 +32830,15 @@
   {
    "src": "aflpp",
    "rel": "references",
+   "dst": "docker",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "docker referenced in code/link context in aflpp/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "aflpp",
+   "rel": "references",
    "dst": "firmware-pentest",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -46141,10 +46150,28 @@
   {
    "src": "c-review",
    "rel": "references",
+   "dst": "marketplace",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "marketplace named in c-review/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "c-review",
+   "rel": "references",
    "dst": "threat-model",
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "threat-model named in c-review/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "c-review",
+   "rel": "references",
+   "dst": "workflow",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "workflow referenced in code/link context in c-review/SKILL.md",
    "status": "accepted"
   },
   {
@@ -64442,6 +64469,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "docker",
+   "rel": "references",
+   "dst": "aflpp",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "docker referenced in code/link context in aflpp/SKILL.md",
    "status": "accepted"
   },
   {
@@ -92045,6 +92081,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "marketplace named in bull-bear/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "marketplace",
+   "rel": "references",
+   "dst": "c-review",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "marketplace named in c-review/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -165773,6 +165818,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "workflow",
+   "rel": "references",
+   "dst": "c-review",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "workflow referenced in code/link context in c-review/SKILL.md",
    "status": "accepted"
   },
   {

@@ -1808,9 +1808,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/testing-handbook-skills/skills/aflpp/SKILL.md",
-      "skillFolderHash": "73422d38409eb90ef390dbdb5aee14e724014e37",
+      "skillFolderHash": "94967f417c9f3a155348094f3fa2dfecaf367536",
       "installedAt": "2026-06-09T19:28:14.021Z",
-      "updatedAt": "2026-06-09T19:28:14.021Z"
+      "updatedAt": "2026-08-25T07:06:34.915Z"
     },
     "atheris": {
       "source": "trailofbits/skills",
@@ -1907,9 +1907,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/c-review/skills/c-review/SKILL.md",
-      "skillFolderHash": "d69b4ae0897bd25564cac3ec22cc5a1e3204f332",
+      "skillFolderHash": "da34aa873114b198e24dd3fd821bcb720414e74f",
       "installedAt": "2026-06-09T19:28:14.031Z",
-      "updatedAt": "2026-08-20T07:04:31.766Z"
+      "updatedAt": "2026-08-25T07:06:36.733Z"
     },
     "modern-python": {
       "source": "trailofbits/skills",
@@ -1943,9 +1943,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/zeroize-audit/skills/zeroize-audit/SKILL.md",
-      "skillFolderHash": "f5bd3388f5de4d1ace1877e72cb6d10bbddcab52",
+      "skillFolderHash": "8ed0190c90f175907203ae7e7791fe712ffb8a8a",
       "installedAt": "2026-06-09T19:28:14.034Z",
-      "updatedAt": "2026-08-20T07:04:34.785Z"
+      "updatedAt": "2026-08-25T07:06:39.579Z"
     },
     "agentic-actions-auditor": {
       "source": "trailofbits/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "5a159fce2ac20719c1f1abc1a41e51d1dffa4483",
+      "skillFolderHash": "d5b0e6102bf903de98d20a78d47ac1ac92e6db94",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-08-24T07:18:41.614Z"
+      "updatedAt": "2026-08-25T07:06:42.870Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -9575,20 +9575,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-pipeline/SKILL.md",
-      "skillFolderHash": "73fdb96cb646b41b902132cbccca3d9f2219f556",
-      "pluginName": "academic-research-skills",
+      "skillFolderHash": "752cad4393c1df2de268facbd51668873cb133c9",
       "installedAt": "2026-08-21T01:50:31.552Z",
-      "updatedAt": "2026-08-21T01:50:31.552Z"
+      "updatedAt": "2026-08-25T07:06:46.090Z"
     },
     "deep-research": {
       "source": "Imbad0202/academic-research-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "deep-research/SKILL.md",
-      "skillFolderHash": "b0a3ea23a1a07bbde8391748167af8debc44a510",
-      "pluginName": "academic-research-skills",
+      "skillFolderHash": "fb3d0b1485380c4b2b79684cd35d9a05c033e7a2",
       "installedAt": "2026-08-21T01:50:31.555Z",
-      "updatedAt": "2026-08-21T01:50:31.555Z"
+      "updatedAt": "2026-08-25T07:06:49.735Z"
     },
     "prisma-cli": {
       "source": "prisma/skills",
