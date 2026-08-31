@@ -1790,9 +1790,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/static-analysis/skills/semgrep/SKILL.md",
-      "skillFolderHash": "0e7c10270d2689d4b76feb32223bb9af5e946731",
+      "skillFolderHash": "33132112aa60209b71e2acc24a27f80f3b5de4db",
       "installedAt": "2026-06-09T19:28:14.020Z",
-      "updatedAt": "2026-08-27T17:41:25.230Z"
+      "updatedAt": "2026-08-31T14:01:52.444Z"
     },
     "spec-to-code-compliance": {
       "source": "trailofbits/skills",
@@ -1934,9 +1934,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
-      "skillFolderHash": "402f9cd20c760ffa898d5f1de6175d6a92e48e85",
+      "skillFolderHash": "c21f02409fcd36173778392bd5e4a882bd6126ef",
       "installedAt": "2026-06-09T19:28:14.033Z",
-      "updatedAt": "2026-08-28T18:48:29.856Z"
+      "updatedAt": "2026-08-31T14:01:54.620Z"
     },
     "zeroize-audit": {
       "source": "trailofbits/skills",
@@ -1952,9 +1952,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md",
-      "skillFolderHash": "53f866be2ff23bbd628cc34ca8d3651664c11d0d",
+      "skillFolderHash": "0d47021ff2857ab9522316b4e9dfe64e2c0aaa71",
       "installedAt": "2026-06-09T19:28:14.034Z",
-      "updatedAt": "2026-06-09T19:28:14.034Z"
+      "updatedAt": "2026-08-31T14:01:56.632Z"
     },
     "fp-check": {
       "source": "trailofbits/skills",
@@ -9555,10 +9555,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-paper/SKILL.md",
-      "skillFolderHash": "99e7fa64b302180951bb9266bbad256aae31ae8d",
-      "pluginName": "academic-research-skills",
+      "skillFolderHash": "4b588617ac54c551869d178e4768857a4e5f2ad8",
       "installedAt": "2026-08-21T01:50:31.544Z",
-      "updatedAt": "2026-08-21T01:50:31.544Z"
+      "updatedAt": "2026-08-31T14:02:00.222Z"
     },
     "academic-paper-reviewer": {
       "source": "Imbad0202/academic-research-skills",
@@ -10356,9 +10355,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dagster-io/skills.git",
       "skillPath": "skills/dagster-expert/skills/dagster-expert/SKILL.md",
-      "skillFolderHash": "6b5dd2ae1360ba10cac3f7cbe9deb7f46e47e6c8",
+      "skillFolderHash": "f2936934e0e5d1f3bf6f9610e46f6fa507f2ff10",
       "installedAt": "2026-08-23T17:17:16.151Z",
-      "updatedAt": "2026-08-23T17:17:16.151Z"
+      "updatedAt": "2026-08-31T14:02:04.606Z"
     },
     "apollo-client": {
       "source": "apollographql/skills",
