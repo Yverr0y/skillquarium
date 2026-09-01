@@ -11454,9 +11454,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel/next.js.git",
       "skillPath": "skills/next-cache-components-adoption/SKILL.md",
-      "skillFolderHash": "b5c3b9b66bec41c6be6d47eb4a99ba93bdd446d5",
+      "skillFolderHash": "cbe05f65eb7dff675ee2eeb5225d266d23dcff8c",
       "installedAt": "2026-08-23T17:24:15.296Z",
-      "updatedAt": "2026-08-23T17:24:15.296Z"
+      "updatedAt": "2026-09-01T11:45:26.564Z"
     },
     "next-cache-components-optimizer": {
       "source": "vercel/next.js",
