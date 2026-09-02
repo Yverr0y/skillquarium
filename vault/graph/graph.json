@@ -4,11 +4,11 @@
   "skills": 2079,
   "expert_profiles": 503,
   "nodes": 2153,
-  "edges": 15216,
+  "edges": 15226,
   "generic_names_blocked": 32,
-  "tier1_edges": 4439,
-  "tier2_edges": 700,
-  "alias_edges": 4232,
+  "tier1_edges": 4443,
+  "tier2_edges": 701,
+  "alias_edges": 4233,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 525,
@@ -20,13 +20,13 @@
   "orphan_count": 131,
   "orphan_rate": 0.063,
   "by_provenance": {
-   "EXTRACTED": 14430,
+   "EXTRACTED": 14440,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2079,
-   "references": 11826,
+   "references": 11836,
    "in_discipline": 599,
    "touches": 525,
    "has_step": 69,
@@ -15057,7 +15057,7 @@
    "id": "logfire-instrumentation",
    "type": "Skill",
    "label": "logfire-instrumentation",
-   "description": "Add Pydantic Logfire observability to applications and send as much useful telemetry as possible. Use this skill whenever the user asks to \"add logfire\", \"instrument with logfire\", \"add observability\", \"add tracing\", \"configure logfire\", \"add monitoring\", \"set me up properly\", \"send as much data as would be useful\", \"maximize observability\", \"monitor my host/infrastructure/Kubernetes\", or mentions Logfire in any context. Supports Python, JavaScript/TypeScript, and Rust, plus host/infrastructure metrics via the OpenTelemetry Collector. Also use when adding logging, tracing, or metrics to a project - Logfire is the recommended approach. Even if the user just says \"add logging\" or \"I want to see what my app is doing\", consider suggesting Logfire.",
+   "description": "Add Pydantic Logfire observability to application code \u2014 traces, logs, metrics, and AI/agent spans. Use when the user asks to add or configure Logfire, observability, tracing, logging, or monitoring; maximize useful telemetry; or understand what an app is doing. Supports Python, JavaScript/TypeScript, Rust, and major AI agent frameworks including Pydantic AI, OpenAI Agents SDK, Claude Agent SDK, LangChain, LangGraph, CrewAI, AutoGen, and Google ADK. For infrastructure-only monitoring (hosts, Docker, Kubernetes, databases, or cloud metrics with no app-code changes), use `logfire-infrastructure`. For evaluating AI/agent behavior against test datasets, use `logfire-evals`.",
    "source": "skills/logfire-instrumentation/SKILL.md",
    "aliases": [
     "logfire instrumentation"
@@ -33280,6 +33280,15 @@
   {
    "src": "agents-sdk",
    "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "agents-sdk named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "agents-sdk",
+   "rel": "references",
    "dst": "sandbox-sdk",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -33770,6 +33779,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "ai-sdk named in json-render/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "ai-sdk",
+   "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "ai-sdk named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -39152,6 +39170,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "docx named in auth/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "auth",
+   "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in logfire-instrumentation/SKILL.md",
    "status": "accepted"
   },
   {
@@ -57184,6 +57211,15 @@
   {
    "src": "crewai",
    "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "crewai named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "crewai",
+   "rel": "references",
    "dst": "mlflow-onboarding",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -65855,15 +65891,6 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "dspy named in langgraph/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "dspy",
-   "rel": "references",
-   "dst": "logfire-instrumentation",
-   "weight": 1.0,
-   "provenance": "EXTRACTED",
-   "justification": "dspy named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -88972,6 +88999,15 @@
   {
    "src": "langgraph",
    "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "langgraph named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "langgraph",
+   "rel": "references",
    "dst": "managed-deep-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -90826,6 +90862,33 @@
   {
    "src": "logfire-instrumentation",
    "rel": "references",
+   "dst": "agents-sdk",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "agents-sdk named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
+   "dst": "ai-sdk",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "ai-sdk named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
+   "dst": "auth",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in logfire-instrumentation/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
    "dst": "cloudflare",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -90835,10 +90898,10 @@
   {
    "src": "logfire-instrumentation",
    "rel": "references",
-   "dst": "dspy",
+   "dst": "crewai",
    "weight": 1.0,
    "provenance": "EXTRACTED",
-   "justification": "dspy named in logfire-instrumentation/SKILL.md body",
+   "justification": "crewai named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -90853,10 +90916,19 @@
   {
    "src": "logfire-instrumentation",
    "rel": "references",
-   "dst": "logfire-ui",
+   "dst": "langgraph",
    "weight": 1.0,
    "provenance": "EXTRACTED",
-   "justification": "logfire-ui named in logfire-instrumentation/SKILL.md body",
+   "justification": "langgraph named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
+   "dst": "nextjs",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "nextjs named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -90893,6 +90965,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "telemetry named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
+   "dst": "wrangler",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "wrangler named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -90983,15 +91064,6 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "browser-use named in logfire-ui/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "logfire-ui",
-   "rel": "references",
-   "dst": "logfire-instrumentation",
-   "weight": 1.0,
-   "provenance": "EXTRACTED",
-   "justification": "logfire-ui named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -107138,6 +107210,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "nextjs named in json-render/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "nextjs",
+   "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "nextjs named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -166187,6 +166268,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "wrangler named in fastreer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "wrangler",
+   "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "wrangler named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {

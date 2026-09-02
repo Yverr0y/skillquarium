@@ -331,6 +331,7 @@
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/building-ai-agent-on-cloudflare> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/cloudflare> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/durable-objects> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/sandbox-sdk> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/twilio-agent-connect> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/agents-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/wrangler> <urn:vault:EXTRACTED> .
@@ -436,6 +437,7 @@
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/chat-sdk> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/databricks-model-serving> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/json-render> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/netlify-ai-gateway> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/next-forge> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/ai-sdk> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/v0-dev> <urn:vault:EXTRACTED> .
@@ -1532,6 +1534,7 @@
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/circleci-cli> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/conversation-intelligence> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/docx> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/marketplace> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/migrating-dbt-core-to-fusion> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/auth> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/next-forge> <urn:vault:EXTRACTED> .
@@ -5083,6 +5086,7 @@
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/building-pydantic-ai-agents> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/langgraph> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/literature-review> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/mlflow-onboarding> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/neo4j-agent-memory-skill> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/crewai> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/opentelemetry> <urn:vault:EXTRACTED> .
@@ -7028,7 +7032,6 @@
 <https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/identifier> "dspy" <urn:vault:core> .
 <https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/in_domain> <https://skillquarium.dev/id/domain_ml-ai> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/langgraph> <urn:vault:EXTRACTED> .
-<https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/mlflow-onboarding> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/dspy> <https://skillquarium.dev/ontology/source> "skills/dspy/SKILL.md" <urn:vault:core> .
 <https://skillquarium.dev/id/duckdb-docs> <http://purl.org/dc/terms/description> "> Search DuckDB and DuckLake documentation and blog posts. Returns relevant doc chunks for a question or keyword using full-text search against a locally cached index." <urn:vault:core> .
@@ -11764,6 +11767,7 @@
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/langgraph-python-quickstart> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/langgraph-typescript-quickstart> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/llm-observability-evals> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/managed-deep-agents> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/mlflow-onboarding> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/langgraph> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/neuroscientist> <urn:vault:EXTRACTED> .
@@ -12059,19 +12063,24 @@
 <https://skillquarium.dev/id/locuscompare-region-render> <https://skillquarium.dev/ontology/touches> <https://skillquarium.dev/id/artifact_genotypes> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/locuscompare-region-render> <https://skillquarium.dev/ontology/touches> <https://skillquarium.dev/id/artifact_sumstats> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/locuscompare-region-render> <https://skillquarium.dev/ontology/touches> <https://skillquarium.dev/id/artifact_vcf> <urn:vault:EXTRACTED> .
-<https://skillquarium.dev/id/logfire-instrumentation> <http://purl.org/dc/terms/description> "Add Pydantic Logfire observability to applications and send as much useful telemetry as possible. Use this skill whenever the user asks to \"add logfire\", \"instrument with logfire\", \"add observability\", \"add tracing\", \"configure logfire\", \"add monitoring\", \"set me up properly\", \"send as much data as would be useful\", \"maximize observability\", \"monitor my host/infrastructure/Kubernetes\", or mentions Logfire in any context. Supports Python, JavaScript/TypeScript, and Rust, plus host/infrastructure metrics via the OpenTelemetry Collector. Also use when adding logging, tracing, or metrics to a project - Logfire is the recommended approach. Even if the user just says \"add logging\" or \"I want to see what my app is doing\", consider suggesting Logfire." <urn:vault:core> .
+<https://skillquarium.dev/id/logfire-instrumentation> <http://purl.org/dc/terms/description> "Add Pydantic Logfire observability to application code — traces, logs, metrics, and AI/agent spans. Use when the user asks to add or configure Logfire, observability, tracing, logging, or monitoring; maximize useful telemetry; or understand what an app is doing. Supports Python, JavaScript/TypeScript, Rust, and major AI agent frameworks including Pydantic AI, OpenAI Agents SDK, Claude Agent SDK, LangChain, LangGraph, CrewAI, AutoGen, and Google ADK. For infrastructure-only monitoring (hosts, Docker, Kubernetes, databases, or cloud metrics with no app-code changes), use `logfire-infrastructure`. For evaluating AI/agent behavior against test datasets, use `logfire-evals`." <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-instrumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://skillquarium.dev/ontology/Skill> <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-instrumentation> <http://www.w3.org/2000/01/rdf-schema#label> "logfire-instrumentation" <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/identifier> "logfire-instrumentation" <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/in_domain> <https://skillquarium.dev/id/domain_analytics-engineering> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/agents-sdk> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/ai-sdk> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/auth> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/cloudflare> <urn:vault:EXTRACTED> .
-<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/dspy> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/crewai> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/fastapi> <urn:vault:EXTRACTED> .
-<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-ui> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/langgraph> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/nextjs> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/observability-and-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/opentelemetry> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/sqlalchemy> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/telemetry> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/wrangler> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-instrumentation> <https://skillquarium.dev/ontology/source> "skills/logfire-instrumentation/SKILL.md" <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-query> <http://purl.org/dc/terms/description> "Query and analyze Logfire telemetry data — traces, logs, spans, metrics, summaries, and SQL results. Use this skill when the user asks to \"query logfire\", \"search traces\", \"find logs\", \"query data\", \"search spans\", \"look up errors in logfire\", \"get metrics from logfire\", \"analyze telemetry\", \"summarize errors\", \"find root cause\", or add Logfire querying capabilities to code. Do not use this skill for direct Logfire UI, browser, live-view, Explore-page, or link-opening requests; use logfire-ui instead. If \"show\" or \"view\" wording is ambiguous, ask whether the user wants a UI view or query analysis." <urn:vault:core> .
 <https://skillquarium.dev/id/logfire-query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://skillquarium.dev/ontology/Skill> <urn:vault:core> .
@@ -12092,7 +12101,6 @@
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/in_domain> <https://skillquarium.dev/id/domain_analytics-engineering> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/agent-browser> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/browser-use> <urn:vault:EXTRACTED> .
-<https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-query> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/query> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/logfire-ui> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/telemetry> <urn:vault:EXTRACTED> .
@@ -15236,6 +15244,7 @@
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/find-skills> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/geist> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/json-render> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/marketplace> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/netlify-frameworks> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/nextjs> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/next-cache-components-adoption> <urn:vault:EXTRACTED> .
@@ -30667,6 +30676,7 @@
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/cloudflare> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/durable-objects> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/fastreer> <urn:vault:EXTRACTED> .
+<https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/logfire-instrumentation> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/multiqc-reporter> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/sample-qc-triage> <urn:vault:EXTRACTED> .
 <https://skillquarium.dev/id/wrangler> <https://skillquarium.dev/ontology/references> <https://skillquarium.dev/id/sandbox-sdk> <urn:vault:EXTRACTED> .

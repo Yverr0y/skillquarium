@@ -67,7 +67,7 @@ created: 2026-06-13
 - [iris-development](../notes/analytics-engineering/iris-development.md) — Iris is Redis's umbrella for AI-focused products
 - [langfuse](../notes/analytics-engineering/langfuse.md) — Interact with Langfuse and access its documentation: tracing, monitoring, creating datasets, running experiments, and evaluating AI applications
 - [llm-observability-evals](../notes/analytics-engineering/llm-observability-evals.md) — LLM and agent observability, tracing, and evaluation workflows with langfuse, phoenix-cli, and phoenix-evals
-- [logfire-instrumentation](../notes/analytics-engineering/logfire-instrumentation.md) — Add Pydantic Logfire observability to applications and send as much useful telemetry as possible
+- [logfire-instrumentation](../notes/analytics-engineering/logfire-instrumentation.md) — Add Pydantic Logfire observability to application code — traces, logs, metrics, and AI/agent spans
 - [logfire-query](../notes/analytics-engineering/logfire-query.md) — Query and analyze Logfire telemetry data — traces, logs, spans, metrics, summaries, and SQL results
 - [logfire-ui](../notes/analytics-engineering/logfire-ui.md) — Open or return Logfire project pages, live views, trace links, and Explore pages in the Codex browser without querying telemetry first
 - [migrating-dbt-core-to-fusion](../notes/analytics-engineering/migrating-dbt-core-to-fusion.md) — Use when a user needs help triaging dbt-core to Fusion migration errors
