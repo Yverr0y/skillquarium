@@ -4,14 +4,14 @@
   "skills": 2079,
   "expert_profiles": 503,
   "nodes": 2153,
-  "edges": 15226,
+  "edges": 15227,
   "generic_names_blocked": 32,
   "tier1_edges": 4443,
   "tier2_edges": 701,
   "alias_edges": 4233,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
-  "artifact_edges": 525,
+  "artifact_edges": 526,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
@@ -20,7 +20,7 @@
   "orphan_count": 131,
   "orphan_rate": 0.063,
   "by_provenance": {
-   "EXTRACTED": 14440,
+   "EXTRACTED": 14441,
    "ASSERTED": 668,
    "INFERRED": 118
   },
@@ -28,7 +28,7 @@
    "in_domain": 2079,
    "references": 11836,
    "in_discipline": 599,
-   "touches": 525,
+   "touches": 526,
    "has_step": 69,
    "co_occurs_with": 96,
    "chains_to": 22
@@ -111989,6 +111989,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of ontology-term-resolution appears in efo-ontology-skill/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "ontology-term-resolution",
+   "rel": "touches",
+   "dst": "artifact:manuscript",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "Manuscript named in ontology-term-resolution/SKILL.md",
    "status": "accepted"
   },
   {

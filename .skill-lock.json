@@ -1520,9 +1520,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/langfuse/skills.git",
       "skillPath": "skills/langfuse/SKILL.md",
-      "skillFolderHash": "a8c9f7cf7bab8d6b6fcadc0f3581afec7ae44045",
+      "skillFolderHash": "0031fcbd17f2e7fcfcb853dd4dbf1044cdf2d4ea",
       "installedAt": "2026-06-09T19:26:38.181Z",
-      "updatedAt": "2026-08-28T18:48:21.013Z"
+      "updatedAt": "2026-09-03T11:23:01.179Z"
     },
     "phoenix-cli": {
       "source": "arize-ai/phoenix",
@@ -1538,9 +1538,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "2de7ac1e4bd0e102cf8d16ab0a05b3bd8bfa37e6",
+      "skillFolderHash": "c55ec01ee7af66119cc1294157a3179810bc7912",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-08-11T07:34:17.142Z"
+      "updatedAt": "2026-09-03T11:23:05.525Z"
     },
     "figma-generate-design": {
       "source": "openai/plugins",
@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "2646544dc282abe163bf3fa472a7d7102cdbd3fa",
+      "skillFolderHash": "ed389d78eb825ca76e826110ffe31f7d5cb136f2",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-08-30T12:00:11.151Z"
+      "updatedAt": "2026-09-03T11:23:07.117Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "5fa6e9c1a136b2d8d088f5752949ceb836ce0ee9",
+      "skillFolderHash": "bf0e4c4525c2e2bbaa83329ee87e6d58dacf8f4c",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-09-02T11:26:46.744Z"
+      "updatedAt": "2026-09-03T11:23:09.526Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "2a074b740ec4ca2e8e18d8805f790a5abc3f6fa5",
+      "skillFolderHash": "33dcff32a7191880b316e9e703110ea9a6fd434c",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-09-02T11:26:59.239Z"
+      "updatedAt": "2026-09-03T11:23:19.859Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -11030,9 +11030,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl/SKILL.md",
-      "skillFolderHash": "26e8818b82619e9fcc6c4a1406dc2340f042c27a",
+      "skillFolderHash": "9d8b4d326324851f1d145d3ca6ae2193c18f2a3f",
       "installedAt": "2026-08-23T17:20:50.775Z",
-      "updatedAt": "2026-08-27T17:42:14.001Z"
+      "updatedAt": "2026-09-03T11:23:21.047Z"
     },
     "firecrawl-agent": {
       "source": "firecrawl/cli",
@@ -11093,9 +11093,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl-monitor/SKILL.md",
-      "skillFolderHash": "9b70d4a316c4cdbc8c135489e86627ae1008598d",
+      "skillFolderHash": "6ceb7fffb1d521a8c1cb5aa375391d3af143dd66",
       "installedAt": "2026-08-23T17:20:50.830Z",
-      "updatedAt": "2026-08-27T17:42:23.096Z"
+      "updatedAt": "2026-09-03T11:23:22.021Z"
     },
     "firecrawl-parse": {
       "source": "firecrawl/cli",
@@ -11391,9 +11391,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/sgl-project/sglang.git",
       "skillPath": ".claude/skills/sglang-prod-incident-triage/SKILL.md",
-      "skillFolderHash": "70c77ffe34a03d0dfa220946ea20badbc79efc8b",
+      "skillFolderHash": "6345e98577571e14568a317a39528409fba01e08",
       "installedAt": "2026-08-23T17:23:09.366Z",
-      "updatedAt": "2026-08-23T17:23:09.366Z"
+      "updatedAt": "2026-09-03T11:23:28.302Z"
     },
     "debug-distributed-hang": {
       "source": "sgl-project/sglang",
@@ -11409,9 +11409,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/k-dense-ai/scientific-agent-skills.git",
       "skillPath": "skills/ontology-term-resolution/SKILL.md",
-      "skillFolderHash": "b913fa27025e139acc24c746a8f6f22ffdcb2662",
+      "skillFolderHash": "cd7bdc166a63799de76eefe9e5704f8c8e3e33b3",
       "installedAt": "2026-08-23T17:23:39.067Z",
-      "updatedAt": "2026-08-23T17:23:39.067Z"
+      "updatedAt": "2026-09-03T11:23:35.202Z"
     },
     "mutation-testing": {
       "source": "trailofbits/skills",
