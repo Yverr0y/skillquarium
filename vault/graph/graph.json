@@ -4,9 +4,9 @@
   "skills": 2079,
   "expert_profiles": 503,
   "nodes": 2153,
-  "edges": 15227,
-  "generic_names_blocked": 32,
-  "tier1_edges": 4443,
+  "edges": 15305,
+  "generic_names_blocked": 31,
+  "tier1_edges": 4482,
   "tier2_edges": 701,
   "alias_edges": 4233,
   "discipline_edges": 599,
@@ -15,18 +15,18 @@
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
-  "mean_skill_degree": 5.72,
+  "mean_skill_degree": 5.76,
   "median_skill_degree": 4,
-  "orphan_count": 131,
-  "orphan_rate": 0.063,
+  "orphan_count": 129,
+  "orphan_rate": 0.062,
   "by_provenance": {
-   "EXTRACTED": 14441,
+   "EXTRACTED": 14519,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2079,
-   "references": 11836,
+   "references": 11914,
    "in_discipline": 599,
    "touches": 526,
    "has_step": 69,
@@ -35170,6 +35170,15 @@
   {
    "src": "analyzing-dotnet-performance",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in analyzing-dotnet-performance/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "analyzing-dotnet-performance",
+   "rel": "references",
    "dst": "performance-optimization",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -39013,6 +39022,15 @@
   {
    "src": "audit-context-building",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in audit-context-building/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "audit-context-building",
+   "rel": "references",
    "dst": "spec-to-code-compliance",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -39836,6 +39854,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "baseline-ui",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in baseline-ui/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -42352,6 +42379,15 @@
   {
    "src": "biological-oceanographer",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in biological-oceanographer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "biological-oceanographer",
+   "rel": "references",
    "dst": "oceanographer",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -44233,6 +44269,15 @@
   {
    "src": "brain-computer-interface-engineer",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in brain-computer-interface-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "brain-computer-interface-engineer",
+   "rel": "references",
    "dst": "neuroengineer",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -45119,6 +45164,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "incremental-build named in build-perf-diagnostics/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "build-perf-diagnostics",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in build-perf-diagnostics/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -47252,6 +47306,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "code-review named in caveman-review/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "caveman-review",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in caveman-review/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -52027,6 +52090,15 @@
   {
    "src": "cloudformation-to-pulumi",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in cloudformation-to-pulumi/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "cloudformation-to-pulumi",
+   "rel": "references",
    "dst": "pulumi-migrate-from-discovered-stack",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -55384,6 +55456,15 @@
   {
    "src": "computer-architecture-researcher",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in computer-architecture-researcher/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "computer-architecture-researcher",
+   "rel": "references",
    "dst": "scientific-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -55460,6 +55541,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of high-performance-computing-specialist appears in computer-hardware-engineer/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "computer-hardware-engineer",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in computer-hardware-engineer/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -55757,6 +55847,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "devcontainer-setup named in conda-bioconda/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "conda-bioconda",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in conda-bioconda/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -58372,6 +58471,15 @@
   {
    "src": "data-engineer",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in data-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "data-engineer",
+   "rel": "references",
    "dst": "scientific-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -58898,6 +59006,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of distributed-systems-researcher appears in database-systems-researcher/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "database-systems-researcher",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in database-systems-researcher/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62278,6 +62395,15 @@
   {
    "src": "dentist-scientist",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in dentist-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "dentist-scientist",
+   "rel": "references",
    "dst": "parasitologist",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -62890,6 +63016,15 @@
   {
    "src": "design-taste-frontend",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in design-taste-frontend/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "design-taste-frontend",
+   "rel": "references",
    "dst": "redesign-existing-projects",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -62993,6 +63128,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of metabolomics-scientist appears in design-taste-frontend-v1/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "design-taste-frontend-v1",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in design-taste-frontend-v1/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -63209,6 +63353,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "dhdna-profiler",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in dhdna-profiler/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -66823,6 +66976,15 @@
   {
    "src": "edge-embedded-ai-engineer",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in edge-embedded-ai-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "edge-embedded-ai-engineer",
+   "rel": "references",
    "dst": "scientific-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -68393,6 +68555,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "metagenomics named in environmental-microbiologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "environmental-microbiologist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in environmental-microbiologist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -73690,6 +73861,15 @@
   {
    "src": "food-scientist",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in food-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "food-scientist",
+   "rel": "references",
    "dst": "microbiologist",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -75071,6 +75251,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of metabolomics-scientist appears in game-ui-frontend/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "game-ui-frontend",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in game-ui-frontend/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -79468,6 +79657,15 @@
   {
    "src": "gpt-taste",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in gpt-taste/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "gpt-taste",
+   "rel": "references",
    "dst": "redesign-existing-projects",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -82303,15 +82501,6 @@
   {
    "src": "hex",
    "rel": "references",
-   "dst": "ida-reverse",
-   "weight": 1.0,
-   "provenance": "EXTRACTED",
-   "justification": "hex named in ida-reverse/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "hex",
-   "rel": "references",
    "dst": "json-canvas",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -82730,6 +82919,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "linear referenced in code/link context in high-end-visual-design/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "high-end-visual-design",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in high-end-visual-design/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -84382,15 +84580,6 @@
   {
    "src": "ida-reverse",
    "rel": "references",
-   "dst": "hex",
-   "weight": 1.0,
-   "provenance": "EXTRACTED",
-   "justification": "hex named in ida-reverse/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "ida-reverse",
-   "rel": "references",
    "dst": "js-reverse",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -84760,6 +84949,15 @@
   {
    "src": "image-to-code",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in image-to-code/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "image-to-code",
+   "rel": "references",
    "dst": "palliative-care-researcher",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -84809,6 +85007,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "frontend-design named in imagegen-frontend-web/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "imagegen-frontend-web",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in imagegen-frontend-web/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -85340,6 +85547,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "industrial-brutalist-ui",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in industrial-brutalist-ui/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -96818,6 +97034,366 @@
    "status": "accepted"
   },
   {
+   "src": "micro",
+   "rel": "references",
+   "dst": "analyzing-dotnet-performance",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in analyzing-dotnet-performance/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "audit-context-building",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in audit-context-building/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "baseline-ui",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in baseline-ui/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "biological-oceanographer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in biological-oceanographer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "brain-computer-interface-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in brain-computer-interface-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "build-perf-diagnostics",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in build-perf-diagnostics/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "caveman-review",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in caveman-review/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "cloudformation-to-pulumi",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in cloudformation-to-pulumi/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "computer-architecture-researcher",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in computer-architecture-researcher/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "computer-hardware-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in computer-hardware-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "conda-bioconda",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in conda-bioconda/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "data-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in data-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "database-systems-researcher",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in database-systems-researcher/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "dentist-scientist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in dentist-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "design-taste-frontend",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in design-taste-frontend/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "design-taste-frontend-v1",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in design-taste-frontend-v1/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "dhdna-profiler",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in dhdna-profiler/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "edge-embedded-ai-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in edge-embedded-ai-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "environmental-microbiologist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in environmental-microbiologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "food-scientist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in food-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "game-ui-frontend",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in game-ui-frontend/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "gpt-taste",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in gpt-taste/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "high-end-visual-design",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in high-end-visual-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "image-to-code",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in image-to-code/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "imagegen-frontend-web",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in imagegen-frontend-web/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "industrial-brutalist-ui",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in industrial-brutalist-ui/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "minimalist-ui",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in minimalist-ui/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "mining-geologist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in mining-geologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "molecular-ecologist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in molecular-ecologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "neuroimaging-scientist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in neuroimaging-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "officecli-word-form",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in officecli-word-form/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "oral-biologist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in oral-biologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "petrochemist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in petrochemist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "redesign-existing-projects",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in redesign-existing-projects/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "sleep-scientist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in sleep-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "sports-scientist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in sports-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "stitch-design-taste",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in stitch-design-taste/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "tissue-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in tissue-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "traffic-engineer",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in traffic-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "micro",
+   "rel": "references",
+   "dst": "tribologist",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in tribologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "microbenchmarking",
    "rel": "in_domain",
    "dst": "domain:dotnet-development",
@@ -98033,6 +98609,15 @@
    "status": "accepted"
   },
   {
+   "src": "minimalist-ui",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in minimalist-ui/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "mining-geologist",
    "rel": "in_discipline",
    "dst": "discipline:earth-environmental-sciences",
@@ -98075,6 +98660,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "geologist named in mining-geologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "mining-geologist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in mining-geologist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -99056,6 +99650,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of molecular-ecologist appears in mendelian-randomisation/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "molecular-ecologist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in molecular-ecologist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -105793,6 +106396,15 @@
   {
    "src": "neuroimaging-scientist",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in neuroimaging-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "neuroimaging-scientist",
+   "rel": "references",
    "dst": "neuroscientist",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -111616,6 +112228,15 @@
   {
    "src": "officecli-word-form",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in officecli-word-form/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "officecli-word-form",
+   "rel": "references",
    "dst": "officecli",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -113438,6 +114059,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "metagenomics named in oral-biologist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "oral-biologist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in oral-biologist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -117164,6 +117794,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "petrochemist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in petrochemist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -129746,6 +130385,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "redesign-existing-projects named in high-end-visual-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "redesign-existing-projects",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in redesign-existing-projects/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -146635,6 +147283,15 @@
   {
    "src": "sleep-scientist",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in sleep-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "sleep-scientist",
+   "rel": "references",
    "dst": "scientific-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -147580,6 +148237,15 @@
   {
    "src": "sports-scientist",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in sports-scientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "sports-scientist",
+   "rel": "references",
    "dst": "scientific-agents",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -148502,6 +149168,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "stitch-design-taste named in high-end-visual-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "stitch-design-taste",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in stitch-design-taste/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -154645,6 +155320,15 @@
   {
    "src": "tissue-engineer",
    "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in tissue-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "tissue-engineer",
+   "rel": "references",
    "dst": "neuroscientist",
    "weight": 1.0,
    "provenance": "EXTRACTED",
@@ -155126,6 +155810,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "curated alias of foundation-engineer appears in traffic-engineer/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "traffic-engineer",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in traffic-engineer/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -155720,6 +156413,15 @@
    "weight": 1.0,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "tribologist",
+   "rel": "references",
+   "dst": "micro",
+   "weight": 1.0,
+   "provenance": "EXTRACTED",
+   "justification": "micro named in tribologist/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -168805,7 +169507,6 @@
   "dashboard-expert",
   "defuddle",
   "design-an-interface",
-  "dhdna-profiler",
   "dotnet-maui-doctor",
   "dotnet-pinvoke",
   "earnings-prep",
@@ -168842,7 +169543,6 @@
   "iris-development",
   "magicpath",
   "mermaid-terminal",
-  "micro",
   "migrate-to-shoehorn",
   "moody-s-company-analysis",
   "moody-s-rating-analysis",

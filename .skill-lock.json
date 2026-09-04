@@ -1374,9 +1374,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/frontend-design/SKILL.md",
-      "skillFolderHash": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+      "skillFolderHash": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
       "installedAt": "2026-06-09T19:26:19.742Z",
-      "updatedAt": "2026-08-10T04:44:59.849Z"
+      "updatedAt": "2026-09-04T11:27:54.651Z"
     },
     "mcp-builder": {
       "source": "anthropics/skills",
@@ -2033,9 +2033,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman/SKILL.md",
-      "skillFolderHash": "70b4ee28a35dbf70934366bd250e71c6cb240082",
+      "skillFolderHash": "efae5ae14e1ace5f456e895abb9e5643925a754c",
       "installedAt": "2026-06-13T13:23:12.859Z",
-      "updatedAt": "2026-08-30T12:00:08.852Z"
+      "updatedAt": "2026-09-04T11:27:55.860Z"
     },
     "caveman-compress": {
       "source": "juliusbrussee/caveman",
@@ -8838,9 +8838,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/SKILL.md",
-      "skillFolderHash": "3d980dbe1374063b2e1158eb8052f198b336518f",
+      "skillFolderHash": "8fb82c60daf149f7194b51da8cc1a04bfa6fe26d",
       "installedAt": "2026-08-20T02:13:18.927Z",
-      "updatedAt": "2026-08-27T17:41:56.647Z"
+      "updatedAt": "2026-09-04T11:28:04.239Z"
     },
     "api-security": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9027,9 +9027,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/ida-reverse/SKILL.md",
-      "skillFolderHash": "b31ce80bc8945210718ff386df67e5bc25498bff",
+      "skillFolderHash": "d55b8e80f159025e8b3ffb076e1b30b47f2c5563",
       "installedAt": "2026-08-20T02:13:19.667Z",
-      "updatedAt": "2026-08-20T02:20:39.759Z"
+      "updatedAt": "2026-09-04T11:28:05.668Z"
     },
     "identity-federation": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9108,9 +9108,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/pentest-tools/SKILL.md",
-      "skillFolderHash": "69b4f212e1ebdd445a51463ecbcf58e1efaf9ebe",
+      "skillFolderHash": "1711776ebbd394cb8c19661ce9e515b3b158aed2",
       "installedAt": "2026-08-20T02:13:19.709Z",
-      "updatedAt": "2026-08-20T02:19:55.581Z"
+      "updatedAt": "2026-09-04T11:28:09.139Z"
     },
     "protocol-reverse": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9153,9 +9153,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/zhaoxuya520/reverse-skill.git",
       "skillPath": "skills/reverse-engineering/SKILL.md",
-      "skillFolderHash": "f012d0a76eb01bf6d6ed3dd52786cd2da28edaae",
+      "skillFolderHash": "4c573ed79bdf52b021322701145d96991d3302e1",
       "installedAt": "2026-08-20T02:13:19.746Z",
-      "updatedAt": "2026-08-27T17:41:58.668Z"
+      "updatedAt": "2026-09-04T11:28:10.730Z"
     },
     "supply-chain-security": {
       "source": "zhaoxuya520/reverse-skill",
@@ -11373,9 +11373,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/browser-use/browser-use.git",
       "skillPath": "skills/browser-use/SKILL.md",
-      "skillFolderHash": "b45284862134b60f0510f74971da82b896025a00",
+      "skillFolderHash": "6668536a547bdae7482192f65babc3e6988b5ecd",
       "installedAt": "2026-08-23T17:22:58.895Z",
-      "updatedAt": "2026-08-29T12:44:34.239Z"
+      "updatedAt": "2026-09-04T11:28:11.837Z"
     },
     "remote-browser": {
       "source": "browser-use/browser-use",
