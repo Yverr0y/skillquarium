@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "ed389d78eb825ca76e826110ffe31f7d5cb136f2",
+      "skillFolderHash": "6a6ef440bdf13124c3371fee2002a0a7c2b2b22c",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-09-03T11:23:07.117Z"
+      "updatedAt": "2026-09-05T10:42:28.721Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "bf0e4c4525c2e2bbaa83329ee87e6d58dacf8f4c",
+      "skillFolderHash": "c9391086ffab898906d2894b055e721ef227f9d7",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-09-03T11:23:09.526Z"
+      "updatedAt": "2026-09-05T10:42:32.120Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -10661,9 +10661,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-pipelines/SKILL.md",
-      "skillFolderHash": "f494d5aae82ac56213a48043d9f14e149821f78c",
+      "skillFolderHash": "05bbee19028480345eaf3ae8f3880a14359c9681",
       "installedAt": "2026-08-23T17:20:36.191Z",
-      "updatedAt": "2026-08-28T18:48:52.033Z"
+      "updatedAt": "2026-09-05T10:42:34.399Z"
     },
     "databricks-python-sdk": {
       "source": "databricks/databricks-agent-skills",
