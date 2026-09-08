@@ -31,7 +31,7 @@ This skill should be used when:
 ## Installation
 
 ```bash
-uv pip install medchem datamol
+uv pip install medchem==2.0.5 datamol==0.12.5
 ```
 
 Optional — Eli Lilly demerit filter (requires conda-forge native binaries):
