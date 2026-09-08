@@ -35,7 +35,7 @@ Datamol is a Python library that provides a lightweight, Pythonic abstraction la
 Guide users to install datamol:
 
 ```bash
-uv pip install datamol
+uv pip install datamol==0.12.5
 ```
 
 RDKit is installed automatically with datamol. For remote file paths (S3, GCS, HTTP), install the matching fsspec backend:
