@@ -306,5 +306,62 @@
       "find": "Bash(open path/to/show-me-{description}.html)\n```",
       "replace": "Bash(open path/to/show-me-{description}.html)     # macOS\nBash(xdg-open path/to/show-me-{description}.html) # Linux\n```"
     }
+  ],
+  "agents-sdk": [
+    {
+      "id": "docs-agents-path-table",
+      "issue": 851,
+      "source": "openai/plugins",
+      "find": "| Getting started | `docs/getting-started.md` | First agent, project setup |\n| State | `docs/state.md` | `setState`, `validateStateChange`, persistence |\n| Routing | `docs/routing.md` | URL patterns, `routeAgentRequest`, `basePath` |\n| Callable methods | `docs/callable-methods.md` | `@callable`, RPC, streaming, timeouts |\n| Scheduling | `docs/scheduling.md` | `schedule()`, `scheduleEvery()`, cron |\n| Workflows | `docs/workflows.md` | `AgentWorkflow`, durable multi-step tasks |\n| HTTP/WebSockets | `docs/http-websockets.md` | Lifecycle hooks, hibernation |\n| Email | `docs/email.md` | Email routing, secure reply resolver |\n| MCP client | `docs/mcp-client.md` | Connecting to MCP servers |\n| MCP server | `docs/mcp-servers.md` | Building MCP servers with `McpAgent` |\n| Client SDK | `docs/client-sdk.md` | `useAgent`, `useAgentChat`, React hooks |\n| Human-in-the-loop | `docs/human-in-the-loop.md` | Approval flows, pausing workflows |\n| Resumable streaming | `docs/resumable-streaming.md` | Stream recovery on disconnect |",
+      "replace": "| Getting started | `docs/agents/getting-started.md` | First agent, project setup |\n| State | `docs/agents/state.md` | `setState`, `validateStateChange`, persistence |\n| Routing | `docs/agents/routing.md` | URL patterns, `routeAgentRequest`, `basePath` |\n| Callable methods | `docs/agents/callable-methods.md` | `@callable`, RPC, streaming, timeouts |\n| Scheduling | `docs/agents/scheduling.md` | `schedule()`, `scheduleEvery()`, cron |\n| Workflows | `docs/agents/workflows.md` | `AgentWorkflow`, durable multi-step tasks |\n| HTTP/WebSockets | `docs/agents/http-websockets.md` | Lifecycle hooks, hibernation |\n| Email | `docs/agents/email.md` | Email routing, secure reply resolver |\n| MCP client | `docs/agents/mcp-client.md` | Connecting to MCP servers |\n| MCP server | `docs/agents/mcp-servers.md` | Building MCP servers with `McpAgent` |\n| Client SDK | `docs/agents/client-sdk.md` | `useAgent`, `useAgentChat`, React hooks |\n| Human-in-the-loop | `docs/agents/human-in-the-loop.md` | Approval flows, pausing workflows |\n| Resumable streaming | `docs/agents/resumable-streaming.md` | Stream recovery on disconnect |"
+    },
+    {
+      "id": "docs-agents-path-callable",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/callable.md",
+      "find": "Fetch `docs/callable-methods.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/callable-methods.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    },
+    {
+      "id": "docs-agents-path-email",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/email.md",
+      "find": "Fetch `docs/email.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/email.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    },
+    {
+      "id": "docs-agents-path-mcp",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/mcp.md",
+      "find": "Fetch `docs/mcp-client.md` and `docs/mcp-servers.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/mcp-client.md` and `docs/agents/mcp-servers.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    },
+    {
+      "id": "docs-agents-path-state-scheduling",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/state-scheduling.md",
+      "find": "Fetch `docs/state.md` and `docs/scheduling.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/state.md` and `docs/agents/scheduling.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    },
+    {
+      "id": "docs-agents-path-streaming-chat",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/streaming-chat.md",
+      "find": "Fetch `docs/resumable-streaming.md` and `docs/client-sdk.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/resumable-streaming.md` and `docs/agents/client-sdk.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    },
+    {
+      "id": "docs-agents-path-workflows",
+      "issue": 851,
+      "source": "openai/plugins",
+      "file": "references/workflows.md",
+      "find": "Fetch `docs/workflows.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
+      "replace": "Fetch `docs/agents/workflows.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
+    }
   ]
 }
