@@ -363,5 +363,42 @@
       "find": "Fetch `docs/workflows.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.",
       "replace": "Fetch `docs/agents/workflows.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation."
     }
+  ],
+  "datamol": [
+    {
+      "id": "pin-datamol-0130",
+      "issue": 865,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "uv pip install datamol\n```",
+      "replace": "uv pip install datamol==0.13.0\n```"
+    },
+    {
+      "id": "pin-0130-2",
+      "issue": 865,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "RDKit is installed automatically with datamol. For remote file paths (S3, GCS, HTTP), install the matching fsspec backend:\n\n```bash\nuv pip install s3fs   # AWS S3\nuv pip install gcsfs  # Google Cloud Storage\n```",
+      "replace": "RDKit is installed automatically with datamol. Since 0.13.0 the cloud-I/O,\nExcel/Parquet, visualization and SELFIES backends are core dependencies too, so\n`s3fs`, `gcsfs`, `openpyxl`, `pyarrow`, `matplotlib`, `nglview` and `selfies`\nno longer need a separate install."
+    },
+    {
+      "id": "pin-0130-3",
+      "issue": 865,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "compatibility: Requires Python 3.8+ and datamol (uv pip install). RDKit is installed automatically as a datamol dependency (since 0.12.2). Optional s3fs/gcsfs for cloud I/O via fsspec.",
+      "replace": "compatibility: Requires Python 3.11+ and datamol (uv pip install). RDKit is installed automatically as a datamol dependency (since 0.12.2). Cloud I/O via fsspec (s3fs/gcsfs) ships in the core install since 0.13.0."
+    },
+    {
+      "id": "pin-0130-4",
+      "issue": 865,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "> **Maintenance freeze:** No new releases since **0.12.5 (June 10, 2024), 2+ years**. The project still installs and works as documented, but it predates two years of RDKit/NumPy/Python releases with no upstream compatibility follow-up — pin versions deliberately rather than assuming active maintenance. `medchem` (also in this vault) depends on datamol and inherits the same risk. Tracked: issue [#92](https://github.com/stanfish06/my-skills/issues/92).",
+      "replace": "> **Version pin:** Maintenance resumed with **0.13.0 (September 9, 2026)** after a two-year gap, and it is a breaking release: the Python floor moved to **3.11**, RDKit to **>=2024.9.1**, and the I/O, visualization and SELFIES extras are now core dependencies. Install commands here pin `0.13.0` deliberately rather than floating, since the next gap is as likely as the last. `medchem` (also in this vault) depends on datamol; keep the two pins in step."
+    },
+    {
+      "id": "pin-0130-5",
+      "issue": 865,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "**Version note:** Examples target **datamol 0.12.x** (PyPI stable: **0.12.5**, June 2024).",
+      "replace": "**Version note:** Examples target **datamol 0.13.0** (PyPI stable, September 2026); they were originally written against 0.12.x and every documented top-level function is still exported in 0.13.0."
+    }
   ]
 }
