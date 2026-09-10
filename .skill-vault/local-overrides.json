@@ -437,5 +437,63 @@
       "find": "- PyPI: https://pypi.org/project/medchem/ (2.0.5)",
       "replace": "- PyPI: https://pypi.org/project/medchem/ (2.1.0)"
     }
+  ],
+  "sqlite-expert": [
+    {
+      "id": "single-file-only-without-wal",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- Understand that SQLite is serverless and single-file; its strength is simplicity and reliability, not high-concurrency multi-writer workloads\n\n##",
+      "replace": "- Understand that SQLite is serverless and, in the default rollback-journal mode, a single file; enabling WAL adds `-wal` and `-shm` sidecars that must travel with the database when copying or backing it up. Its strength is simplicity and reliability, not high-concurrency multi-writer workloads\n\n##"
+    },
+    {
+      "id": "upsert-needs-unique-constraint",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- Implement UPSERT with INSERT ... ON CONFLICT (column) DO UPDATE SET for atomic insert-or-update operations\n\n##",
+      "replace": "- Implement UPSERT with INSERT ... ON CONFLICT (column) DO UPDATE SET for atomic insert-or-update operations; the conflict target must be covered by a UNIQUE or PRIMARY KEY constraint or a unique index, since UPSERT processing happens only for uniqueness constraints\n\n##"
+    },
+    {
+      "id": "synchronous-normal-durability",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- Set performance PRAGMAs at connection open: journal_mode=WAL, synchronous=NORMAL, cache_size=-64000 (64MB), mmap_size=268435456, temp_store=MEMORY\n- U",
+      "replace": "synchronous=NORMAL stays consistent and survives an application crash, but drops durability against the machine: a committed transaction can roll back after a power loss or OS crash. Use synchronous=FULL where a commit must survive that\n- U"
+    },
+    {
+      "id": "auto-vacuum-precondition",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- **Incremental Vacuum**: Use PRAGMA auto_vacuum=INCREMENTAL with periodic PRAGMA incremental_vacuum to reclaim space without a full VACUUM lock\n- *",
+      "replace": "Set it before any table is created; on an existing database the pragma alone is a no-op — run `PRAGMA auto_vacuum=INCREMENTAL` first and then `VACUUM` to rewrite the file before it takes effect\n- *"
+    },
+    {
+      "id": "description-triggers",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "description: \"SQLite expert for WAL mode, query optimization, embedded patterns, and advanced features\"\n---",
+      "replace": "description: \"SQLite expert for WAL mode, query optimization, embedded patterns, and advanced features. Use when working with .sqlite/.db files, SQLite schema design or migrations, PRAGMA tuning, FTS5 full-text search, JSON1, EXPLAIN QUERY PLAN, SQLITE_BUSY or locking errors, or choosing between SQLite and a client-server database.\"\n---"
+    },
+    {
+      "id": "wal-same-host-only",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- Enable WAL mode (PRAGMA journal_mode=WAL) for concurrent read/write access; it allows readers to proceed without blocking writers and vice versa\n- U",
+      "replace": "- Enable WAL mode (PRAGMA journal_mode=WAL) for concurrent read/write access; it allows readers to proceed without blocking writers and vice versa. WAL keeps its wal-index in shared memory, so every process using the database must be on the same host — it does not work over NFS, SMB or any other network filesystem\n- U"
+    },
+    {
+      "id": "wal-no-cross-db-atomicity",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- **Multi-database Access**: Use ATTACH DATABASE to query across multiple SQLite files in a single connection, joining tables from different databases\n- *",
+      "replace": "- **Multi-database Access**: Use ATTACH DATABASE to query across multiple SQLite files in a single connection, joining tables from different databases. In WAL mode a transaction spanning attached databases is atomic per database but not across the set; use rollback-journal mode when you need all-or-nothing across files\n- *"
+    },
+    {
+      "id": "migration-in-one-transaction",
+      "issue": 867,
+      "source": "rightnow-ai/openfang",
+      "find": "- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup\n\n##",
+      "replace": "- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup. Wrap each step and its user_version bump in one BEGIN/COMMIT — SQLite DDL is transactional, so a failure then leaves neither a half-applied schema nor a version that lies about it\n\n##"
+    }
   ]
 }

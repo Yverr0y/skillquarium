@@ -1709,6 +1709,8 @@ EXTRA_ASSIGNMENTS = {
     "streamlit": "data-science-compute",
     # Frontend build tooling, alongside turbopack and turborepo.
     "vite": "web-automation-frontend",
+    # Embedded application database, alongside sqlalchemy.
+    "sqlite-expert": "software-dev",
     # Schema/interface definition, alongside api-and-interface-design.
     "protobuf": "software-dev",
     # humanlayer/skills, added 2026-09-06. Agent-authoring ones sit with
