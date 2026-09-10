@@ -495,5 +495,21 @@
       "find": "- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup\n\n##",
       "replace": "- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup. Wrap each step and its user_version bump in one BEGIN/COMMIT — SQLite DDL is transactional, so a failure then leaves neither a half-applied schema nor a version that lies about it\n\n##"
     }
+  ],
+  "htmx": [
+    {
+      "id": "error-responses-not-swapped-by-default",
+      "issue": 868,
+      "source": "mindrally/skills",
+      "find": "- Return appropriate HTTP status codes (4xx for client errors, 5xx for server errors)\n- P",
+      "replace": "- Return appropriate HTTP status codes (4xx for client errors, 5xx for server errors). htmx does not swap non-2xx responses by default — it raises `htmx:responseError` instead — so a 422 carrying an error fragment renders nothing until you opt in, either via `htmx.config.responseHandling` (e.g. `{\"code\":\"422\", \"swap\": true}`) or by setting `shouldSwap` in an `htmx:beforeSwap` handler\n- P"
+    },
+    {
+      "id": "vary-hx-request-when-caching",
+      "issue": 868,
+      "source": "mindrally/skills",
+      "find": "- Implement server-side caching for frequently requested endpoints\n- P",
+      "replace": "- Implement server-side caching for frequently requested endpoints, and send `Vary: HX-Request` on any route whose body differs between an htmx request and a full page load; without it a cached fragment can be served for a normal navigation, or the reverse\n- P"
+    }
   ]
 }

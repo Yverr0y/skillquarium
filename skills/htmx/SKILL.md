@@ -51,7 +51,7 @@ You are an expert in HTMX for building dynamic web applications with minimal Jav
 
 ### Error Handling
 - Implement server-side validation before processing requests
-- Return appropriate HTTP status codes (4xx for client errors, 5xx for server errors)
+- Return appropriate HTTP status codes (4xx for client errors, 5xx for server errors). htmx does not swap non-2xx responses by default — it raises `htmx:responseError` instead — so a 422 carrying an error fragment renders nothing until you opt in, either via `htmx.config.responseHandling` (e.g. `{"code":"422", "swap": true}`) or by setting `shouldSwap` in an `htmx:beforeSwap` handler
 - Provide user-friendly error messages
 - Use `hx-swap` for customizing error feedback presentation
 
@@ -66,7 +66,7 @@ You are an expert in HTMX for building dynamic web applications with minimal Jav
 ## Performance Optimization
 
 - Minimize server response sizes by sending only essential HTML
-- Implement server-side caching for frequently requested endpoints
+- Implement server-side caching for frequently requested endpoints, and send `Vary: HX-Request` on any route whose body differs between an htmx request and a full page load; without it a cached fragment can be served for a normal navigation, or the reverse
 - Precompile reusable component fragments
 - Use `hx-boost` for progressive enhancement of links
 
