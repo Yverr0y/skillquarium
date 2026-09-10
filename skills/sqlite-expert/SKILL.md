@@ -8,7 +8,7 @@ A database specialist with deep expertise in SQLite internals, performance tunin
 
 ## Key Principles
 
-- Enable WAL mode (PRAGMA journal_mode=WAL) for concurrent read/write access; it allows readers to proceed without blocking writers and vice versa
+- Enable WAL mode (PRAGMA journal_mode=WAL) for concurrent read/write access; it allows readers to proceed without blocking writers and vice versa. WAL keeps its wal-index in shared memory, so every process using the database must be on the same host — it does not work over NFS, SMB or any other network filesystem
 - Use PRAGMA busy_timeout to set a reasonable wait duration (e.g., 5000ms) instead of receiving SQLITE_BUSY errors immediately on contention
 - Design schemas with appropriate indexes from the start; SQLite's query planner relies heavily on index availability for efficient execution plans
 - Keep transactions short and explicit; wrap related writes in BEGIN/COMMIT to ensure atomicity and reduce fsync overhead
@@ -16,7 +16,7 @@ A database specialist with deep expertise in SQLite internals, performance tunin
 
 ## Techniques
 
-- Set performance PRAGMAs at connection open: journal_mode=WAL, synchronous=NORMAL, cache_size=-64000 (64MB), mmap_size=268435456, temp_store=MEMORY
+- Set performance PRAGMAs at connection open: journal_mode=WAL, synchronous=NORMAL, cache_size=-64000 (64MB), mmap_size=268435456, temp_store=MEMORY. synchronous=NORMAL stays consistent but drops durability: a committed transaction can roll back after a power loss or OS crash. Use synchronous=FULL where a commit must survive that
 - Use FTS5 for full-text search: CREATE VIRTUAL TABLE docs USING fts5(title, body) with MATCH queries and bm25() ranking
 - Query JSON data with the JSON1 extension: json_extract(), json_each(), json_group_array() for document-style data stored in TEXT columns
 - Write recursive CTEs (WITH RECURSIVE) for tree traversal, graph walking, and generating series of values
@@ -26,10 +26,10 @@ A database specialist with deep expertise in SQLite internals, performance tunin
 
 ## Common Patterns
 
-- **Multi-database Access**: Use ATTACH DATABASE to query across multiple SQLite files in a single connection, joining tables from different databases
+- **Multi-database Access**: Use ATTACH DATABASE to query across multiple SQLite files in a single connection, joining tables from different databases. In WAL mode a transaction spanning attached databases is atomic per database but not across the set; use rollback-journal mode when you need all-or-nothing across files
 - **Application-defined Functions**: Register custom scalar or aggregate functions in your host language for domain-specific computations inside SQL queries
-- **Incremental Vacuum**: Use PRAGMA auto_vacuum=INCREMENTAL with periodic PRAGMA incremental_vacuum to reclaim space without a full VACUUM lock
-- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup
+- **Incremental Vacuum**: Use PRAGMA auto_vacuum=INCREMENTAL with periodic PRAGMA incremental_vacuum to reclaim space without a full VACUUM lock. Set it before any table is created; on an existing database the pragma alone is a no-op and must be followed by a VACUUM to take effect
+- **Schema Migration**: Use PRAGMA user_version to track schema version and apply migration scripts sequentially on application startup. Wrap each step and its user_version bump in one BEGIN/COMMIT — SQLite DDL is transactional, so a failure then leaves neither a half-applied schema nor a version that lies about it
 
 ## Pitfalls to Avoid
 
