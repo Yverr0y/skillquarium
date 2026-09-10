@@ -1711,6 +1711,8 @@ EXTRA_ASSIGNMENTS = {
     "vite": "web-automation-frontend",
     # Embedded application database, alongside sqlalchemy.
     "sqlite-expert": "software-dev",
+    # Hypermedia-driven frontend, alongside swr and the React skills.
+    "htmx": "web-automation-frontend",
     # Schema/interface definition, alongside api-and-interface-design.
     "protobuf": "software-dev",
     # humanlayer/skills, added 2026-09-06. Agent-authoring ones sit with
