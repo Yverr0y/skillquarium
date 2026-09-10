@@ -14,7 +14,7 @@ created: 2026-09-10
 # sqlite-expert
 
 > [!info] What it does
-> SQLite expert for WAL mode, query optimization, embedded patterns, and advanced features
+> SQLite expert for WAL mode, query optimization, embedded patterns, and advanced features. Use when working with .sqlite/.db files, SQLite schema design or migrations, PRAGMA tuning, FTS5 full-text search, JSON1, EXPLAIN QUERY PLAN, SQLITE_BUSY or locking errors, or choosing between SQLite and a client-server database.
 
 **Source:** [skills/sqlite-expert/SKILL.md](../../../skills/sqlite-expert/SKILL.md)  ·  **Domain:** [Software Development & Engineering](../../maps/software-dev.md)  ·  **Table:** [skills.base](../../skills.base)  ·  **Index:** [Skills Index](../../index.md)
 
