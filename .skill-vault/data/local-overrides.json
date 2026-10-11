@@ -1945,5 +1945,42 @@
       "find": "            # Quality below threshold - improve prompt\n            print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            print(f\"Improving prompt based on feedback...\")\n",
       "replace": "            # Quality below threshold - improve prompt\n            if review_ok:\n                print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            else:\n                print(\"\\n⚠ Quality could not be verified; regenerating.\")\n            print(f\"Improving prompt based on feedback...\")\n"
     }
+  ],
+  "fluidsim": [
+    {
+      "id": "calver-version-pin-1",
+      "issue": 1070,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 0.9.0, fluidfft 0.4.5, and pyFFTW 0.15.1. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.\nallowed-tools: Read Write Bash Glob Python\nmetadata:\n  version: \"1.4\"\n  skill-author: \"K-Dense Inc.\"\n  last-reviewed: \"2026-10-01\"",
+      "replace": "compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 26.10.0, fluidfft 0.4.5, and pyFFTW 0.15.1. FluidSim moved from semantic versioning to calendar versioning (`YY.MM.MICRO`) starting with the 26.10.0 release. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.\nallowed-tools: Read Write Bash Glob Python\nmetadata:\n  version: \"1.5\"\n  skill-author: \"K-Dense Inc.\"\n  last-reviewed: \"2026-10-11\""
+    },
+    {
+      "id": "calver-version-pin-2",
+      "issue": 1070,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "Use FluidSim 0.9.0 as a framework for Python-defined numerical solvers, especially",
+      "replace": "Use FluidSim 26.10.0 as a framework for Python-defined numerical solvers, especially"
+    },
+    {
+      "id": "calver-version-pin-3",
+      "issue": 1070,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "As verified on 2026-10-01:\n\n- Latest stable PyPI release: `fluidsim==0.9.0` (2025-12-04).",
+      "replace": "As verified on 2026-10-11:\n\n- Latest stable PyPI release: `fluidsim==26.10.0` (2026-10-09). FluidSim switched from\n  semantic versioning to calendar versioning (`YY.MM.MICRO`) at this release, so version\n  numbers no longer imply semver compatibility guarantees; see the upstream changelog's\n  \"Versioning scheme\" note under `[26.10.0]`."
+    },
+    {
+      "id": "calver-version-pin-4",
+      "issue": 1070,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "uv add \"fluidsim[fft]==0.9.0\" \"fluidfft==0.4.5\" \"pyFFTW==0.15.1\"\nuv lock",
+      "replace": "uv add \"fluidsim[fft]==26.10.0\" \"fluidfft==0.4.5\" \"pyFFTW==0.15.1\"\nuv lock"
+    },
+    {
+      "id": "calver-version-pin-5",
+      "issue": 1070,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "uv pip install \"fluidsim[fft]==0.9.0\" \"fluidfft==0.4.5\" \"pyFFTW==0.15.1\"\n```\n\nThe project lock",
+      "replace": "uv pip install \"fluidsim[fft]==26.10.0\" \"fluidfft==0.4.5\" \"pyFFTW==0.15.1\"\n```\n\nThe project lock"
+    }
   ]
 }
