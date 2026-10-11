@@ -1945,5 +1945,14 @@
       "find": "            # Quality below threshold - improve prompt\n            print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            print(f\"Improving prompt based on feedback...\")\n",
       "replace": "            # Quality below threshold - improve prompt\n            if review_ok:\n                print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            else:\n                print(\"\\n⚠ Quality could not be verified; regenerating.\")\n            print(f\"Improving prompt based on feedback...\")\n"
     }
+  ],
+  "ncc": [
+    {
+      "id": "lambda-sdk-v3-externals",
+      "issue": 1071,
+      "source": "openai/plugins",
+      "find": "```bash\n# Single external\nncc build input.js -e aws-sdk\n\n# Multiple externals\nncc build input.js -e aws-sdk -e sharp\n```\n\nFor serverless environments where the runtime provides certain modules (like AWS Lambda's `aws-sdk`), mark them as external.",
+      "replace": "```bash\n# Single external\nncc build input.js -e sharp\n\n# Multiple externals\nncc build input.js -e sharp -e canvas\n```\n\nFor serverless environments where the runtime provides certain modules, mark them as\nexternal instead of bundling them. AWS Lambda's supported Node.js runtimes (18.x and\nlater) bundle AWS SDK for JavaScript **v3** (`@aws-sdk/*` scoped packages), not the\nlegacy `aws-sdk` v2 package — Node.js 16.x, the last runtime that provided `aws-sdk` v2,\nreached end of support on 2024-06-12. Mark the specific `@aws-sdk/client-*` packages your\nruntime provides as external (e.g. `-e @aws-sdk/client-s3`); do not rely on a bare\n`-e aws-sdk` unless you are deliberately targeting an EOL runtime."
+    }
   ]
 }
