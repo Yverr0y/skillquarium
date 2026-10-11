@@ -3,7 +3,7 @@
 This document provides a selected reference for RDKit's Python API, organized by functionality.
 
 Signatures below show selected keyword arguments, not complete overloads. Tested
-on RDKit 2026.03.6; use keywords when omitted arguments precede them.
+on RDKit 2026.9.1; use keywords when omitted arguments precede them.
 
 ## Core Module: rdkit.Chem
 
@@ -136,10 +136,16 @@ Choose explicit isotope/stereo preservation policy before either operation.
 **Ring Information:**
 
 - `Chem.GetSymmSSSR(mol)` - Symmetrized smallest-ring set (can exceed SSSR size)
-- `Chem.GetSSSR(mol)` - Smallest set of smallest rings; not an alias (cubane: 5 versus 6 symmetrized rings)
+- `Chem.GetSSSR(mol)` - Smallest set of smallest rings; not an alias of `GetSymmSSSR` (counts can differ on cage/fused systems, e.g. cubane)
 - `ring_info.NumRings()` - Number of rings
 - `ring_info.AtomRings()` - Tuples of atom indices in rings
 - `ring_info.BondRings()` - Tuples of bond indices in rings
+
+**Version note:** RDKit 2026.9.1 changed the default smallest-set-of-smallest-rings
+algorithm to one based on RingDecomposerLib, which changes `GetSymmSSSR`/`ring_info.NumRings()`
+results for cage and macrocyclic structures versus RDKit 2026.03.6 and earlier (e.g. cubane
+went from 5 rings to 7 rings under the new default). Call `Chem.SetUseLegacyRingFinding(True)`
+to restore the pre-2026.9 algorithm when reproducing older results.
 
 ## rdkit.Chem.AllChem
 
@@ -432,7 +438,7 @@ Modern fingerprint generation API. Prefer this over legacy `AllChem.GetMorganFin
 
 ```bash
 # Existing uv/pip environment
-uv pip install "rdkit==2026.3.6"
+uv pip install "rdkit==2026.9.1"
 
 # Fresh conda-forge environment (upstream recommendation)
 conda create -c conda-forge -n my-rdkit-env rdkit
