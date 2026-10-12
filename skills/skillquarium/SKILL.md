@@ -27,6 +27,7 @@ found. Each result says which signal produced it:
 - `[lexical #3]` matched your words.
 - `[fuzzy #1]` matched a misspelled or partial skill name.
 - `[similar to harmonypy (cosine 0.88)]` matched nothing you typed; it neighbours a result that did.
+- `[bpe #2]` appended after the list: a word piece of your query matched (see "The BPE addon").
 - `[produces input for pydeseq2]` came from the graph: it is an adjacent step of the same workflow.
 
 That last kind is the reason to prefer `query` over your own matching for anything multi-step.
@@ -103,3 +104,22 @@ not. With no index at all, `query` still answers from BM25, fuzzy matching, and 
 `embed --check` lists what has drifted without touching the network. Toggling is not drift: the
 toggle fields are stripped before hashing and before embedding, so a vector cannot depend on
 whether the skill is switched on, and a rebuilt index is the same bytes whoever runs it.
+
+## The BPE addon
+
+After the regular results, `query` appends up to `query.bpeExtra` (default 5) skills from a second
+BM25 over the word pieces of `vault/tokenizer/tokenizer.json`, skipping any already listed. They are
+tagged `[bpe #N]` and catch word forms ASCII matching misses: `binary` and `binaries` share a piece.
+Nothing before them moves, so the first k results are the same with or without it. The pieces also
+produce false hits (`rowbinary` shares `binar`), which is why they are appended rather than fused.
+`--no-bpe` or `bpeExtra: 0` turns it off. `query --eval` scores the appended list as `+bpe` next
+to `ascii@N`, the regular pipeline asked for the same number of results.
+
+The `retrain-tokenizer` GitHub workflow retrains and commits the model whenever skill markdown
+changes on master and after each upstream sync; training is deterministic, so an unchanged corpus
+commits nothing. To retrain by hand, `./skillquarium tokenizer [--vocab-size N]` trains from the
+tracked markdown under `skills/`, toggle fields stripped, using the `skill-tokenizer` binary on PATH
+or at `tokenizer.bin`. Queries encode in-process and never run it. The corpus alphabet is about 2,800
+characters and the trainer spends vocab on those first, so a vocab below that yields no merges;
+`tokenizer` refuses to install such a model. If the model file is missing, `query` returns the
+regular list and says so on stderr.
