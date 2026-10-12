@@ -4,9 +4,9 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15687,
+  "edges": 15685,
   "generic_names_blocked": 32,
-  "tier1_edges": 4679,
+  "tier1_edges": 4678,
   "tier2_edges": 720,
   "alias_edges": 4451,
   "discipline_edges": 599,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14901,
+   "EXTRACTED": 14899,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12234,
+   "references": 12232,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -75732,15 +75732,6 @@
   {
    "src": "fluidsim",
    "rel": "references",
-   "dst": "micro",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "micro named in fluidsim/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "fluidsim",
-   "rel": "references",
    "dst": "optimize-for-gpu",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -100882,15 +100873,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "micro named in environmental-microbiologist/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "micro",
-   "rel": "references",
-   "dst": "fluidsim",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "micro named in fluidsim/SKILL.md body",
    "status": "accepted"
   },
   {
