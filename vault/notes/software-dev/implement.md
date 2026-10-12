@@ -20,7 +20,7 @@ created: 2026-06-20
 
 - [admission-control](../../notes/web-automation-frontend/admission-control.md) — Use when the user asks to "write a validator", "add validation", "implement admission control", "write a mutating webhook", "add a mutation handler", "validate incoming resources"...
 - [circleci-builds](../../notes/hosting-edge-platforms/circleci-builds.md) — Diagnose and fix failing CircleCI builds quickly and safely
-- [figma-design-to-code](../../notes/web-automation-frontend/figma-design-to-code.md) — Use this skill when implementing a Figma design as code (design → code) — the read-FROM-Figma direction
+- [figma-design-to-code](../../notes/web-automation-frontend/figma-design-to-code.md) — You MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool
 - [figma-implement-design](../../notes/web-automation-frontend/figma-implement-design.md) — Translates Figma designs into production-ready application code with 1:1 visual fidelity
 - [figma-implement-motion](../../notes/web-automation-frontend/figma-implement-motion.md) — Translates Figma motion and animations into production-ready application code
 - [figma-swiftui](../../notes/web-automation-frontend/figma-swiftui.md) — SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — in EITHER direction — translating a Figma design into SwiftUI (design → code), or...
@@ -28,6 +28,7 @@ created: 2026-06-20
 - [gh-address-comments](../../notes/software-dev/gh-address-comments.md) — Address actionable GitHub pull request review feedback
 - [image-to-code](../../notes/web-automation-frontend/image-to-code.md) — Elite website image-to-code skill for Codex
 - [liquid-glass](../../notes/mobile-native-dev/liquid-glass.md) — Implement and review macOS SwiftUI Liquid Glass UI
+- [mcp-skills-extension](../../notes/vault-meta/mcp-skills-extension.md) — Implement and troubleshoot the MCP Skills extension (io.modelcontextprotocol/skills)
 - [phaser-2d-game](../../notes/game-development/phaser-2d-game.md) — Implement 2D browser games with Phaser. Use when the user wants a Phaser, TypeScript, and Vite stack for scenes, gameplay systems, cameras, sprite animation, and DOM-overlay HUD...
 - [plugin-bundle-size](../../notes/web-automation-frontend/plugin-bundle-size.md) — Optimise Grafana app plugin bundle size using React.lazy, Suspense, and webpack code splitting
 - [pytorch-lightning](../../notes/ml-ai/pytorch-lightning.md) — Deep learning framework (PyTorch Lightning / lightning package)
