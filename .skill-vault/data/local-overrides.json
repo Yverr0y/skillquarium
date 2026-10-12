@@ -607,5 +607,54 @@
       "find": "async function mermaidParserValidation(content) {\n  // Try to use the mermaid library parser for deep validation\n  try {\n",
       "replace": "// mmdc parses in headless Chromium, so it needs no DOM shim; the in-process\n// mermaid import below fails on valid input with \"purify.addHook is not a\n// function\" because DOMPurify has no window in Node.\nfunction mmdcParserValidation(content) {\n  const mmdc = resolve(DEPS_DIR, \"node_modules/.bin/mmdc\");\n  if (!existsSync(mmdc)) return { available: false };\n  const dir = mkdtempSync(join(tmpdir(), \"mermaid-validate-\"));\n  const input = join(dir, \"input.mmd\");\n  const output = join(dir, \"output.svg\");\n  writeFileSync(input, content);\n  const args = [\"-i\", input, \"-o\", output, \"-q\"];\n  const puppeteerConfig = resolve(DEPS_DIR, \"puppeteer-config.json\");\n  if (existsSync(puppeteerConfig)) args.push(\"-p\", puppeteerConfig);\n  try {\n    execFileSync(mmdc, args, { stdio: \"pipe\", timeout: 60000 });\n    return { available: true, valid: true };\n  } catch (e) {\n    // mmdc prints the mermaid parse error on stderr; keep the first lines\n    const stderr = (e.stderr?.toString() || e.message || String(e)).trim();\n    const lines = stderr.split(\"\\n\").filter((l) => l.trim());\n    const trace = lines.findIndex((l) => /^\\s*(at |\\S+\\.parseError)/.test(l));\n    const message = (trace > 0 ? lines.slice(0, trace) : lines.slice(0, 6)).join(\"\\n  \");\n    return { available: true, valid: false, error: message };\n  } finally {\n    rmSync(dir, { recursive: true, force: true });\n  }\n}\n\nasync function mermaidParserValidation(content) {\n  const viaMmdc = mmdcParserValidation(content);\n  if (viaMmdc.available) return viaMmdc;\n  // Fallback: the mermaid library parser in-process\n  try {\n"
     }
+  ],
+  "vercel-react-view-transitions": [
+    {
+      "id": "nextjs-no-experimental-flag",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "`<ViewTransition>` works out of the box \u2014 the bundled React canary ships it, and every `<Link>` navigation runs inside `React.startTransition`, so react-dom starts a view transition whenever affected `<ViewTransition>` components exist. Set the documented flag:\n\n```js\n// next.config.js\nconst nextConfig = {\n  experimental: { viewTransition: true },\n};\nmodule.exports = nextConfig;\n```\n\n(Historically the flag switched React to the experimental channel \u2014 required before `ViewTransition` reached canary. It no longer does; the experimental channel is only needed for `useSwipeTransition` gestures and `parentEnter`/`parentExit`, selected by other flags like `gestureTransition`.)",
+      "replace": "`<ViewTransition>` works out of the box with **no `next.config` change** \u2014 the bundled React ships it, and every `<Link>` navigation runs inside `React.startTransition`, so react-dom starts a view transition whenever affected `<ViewTransition>` components exist.\n\nDo not set `experimental.viewTransition`. The key was removed in Next.js 16.3.0 (it exists up to 16.2.x) and is now an unrecognized `experimental` key, which Next.js reports as a config warning and ignores.\n\nThe experimental React channel is still needed for `useSwipeTransition` gestures and `parentEnter`/`parentExit`, selected by other flags such as `gestureTransition`."
+    },
+    {
+      "id": "nextjs-after-step-2",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "**After Step 2:** Enable the experimental flag above.",
+      "replace": "**After Step 2:** No Next.js configuration is required \u2014 skip straight to Step 3."
+    },
+    {
+      "id": "nextjs-no-canary",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "Do **not** install `react@canary` \u2014 see [Availability](../SKILL.md#availability) for details.",
+      "replace": "React 19.3.0 (current stable) ships `<ViewTransition>` and `addTransitionType`; no canary install \u2014 see [Availability](../SKILL.md#availability)."
+    },
+    {
+      "id": "skill-availability-stable-react",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "find": "- **Next.js:** Do **not** install `react@canary` \u2014 the App Router already bundles React canary internally. `ViewTransition` works out of the box. `npm ls react` may show a stable-looking version; this is expected.\n- **Without Next.js:** Install `react@canary react-dom@canary` (`ViewTransition` is not in stable React).",
+      "replace": "- **Next.js:** nothing to install or configure \u2014 `ViewTransition` works out of the box. Do not set `experimental.viewTransition`; that key was removed in Next.js 16.3.0.\n- **Without Next.js:** `react@19.3.0`/`react-dom@19.3.0` or newer. `<ViewTransition>` and `addTransitionType` are in stable React as of 19.3.0; only `useSwipeTransition` and `parentEnter`/`parentExit` still need `react@experimental`."
+    },
+    {
+      "id": "readme-dead-config-link",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "README.md",
+      "find": "- [Next.js View Transitions guide](https://nextjs.org/docs/app/guides/view-transitions)\n- [Next.js `viewTransition` config](https://nextjs.org/docs/app/api-reference/config/next-config-js/viewTransition)",
+      "replace": "- [Next.js View Transitions guide](https://nextjs.org/docs/app/guides/view-transitions)"
+    },
+    {
+      "id": "metadata-dead-config-link",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "metadata.json",
+      "find": "    \"https://nextjs.org/docs/app/api-reference/config/next-config-js/viewTransition\",",
+      "replace": "    \"https://nextjs.org/docs/app/guides/view-transitions\","
+    }
   ]
 }
