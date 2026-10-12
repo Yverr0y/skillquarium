@@ -60,7 +60,7 @@ You are an expert in Vercel Functions — the compute layer of the Vercel platfo
 - Full Node.js runtime, all npm packages available
 - Default for Next.js API routes, Server Actions, Server Components
 - Cold starts: 800ms–2.5s (with DB connections)
-- Max duration: 10s (Hobby), 300s (Pro default), 800s (Fluid Compute Pro/Enterprise)
+- Max duration: 300s default on every plan; 300s maximum on Hobby, 800s on Pro/Enterprise (1800s extended maximum, Beta)
 
 ```ts
 // app/api/hello/route.ts
@@ -344,11 +344,11 @@ export async function GET(req: Request) {
 
 All plans now default to 300s execution time with Fluid Compute.
 
-| Plan | Default | Max |
-|------|---------|-----|
-| Hobby | 300s | 300s |
-| Pro | 300s | 800s |
-| Enterprise | 300s | 800s |
+| Plan | Default | Max | Extended max |
+|------|---------|-----|--------------|
+| Hobby | 300s | 300s | - |
+| Pro | 300s | 800s | 1800s (Beta) |
+| Enterprise | 300s | 800s | 1800s (Beta) |
 
 ## Common Pitfalls
 
@@ -368,7 +368,7 @@ All plans now default to 300s execution time with Fluid Compute.
 ├─ Pro/Enterprise: configurable up to 800s
 ├─ Long-running task?
 │  ├─ Under 5 min → Use Fluid Compute with streaming
-│  ├─ Up to 15 min → Use Vercel Functions with `maxDuration` in vercel.json
+│  ├─ Up to 800s (30 min with extended maximum, Beta) → Use Vercel Functions with `maxDuration` in vercel.json
 │  └─ Hours/days → Use Workflow DevKit (DurableAgent or workflow steps)
 └─ DB query slow? → Add connection pooling, check cold start, use Edge Config
 ```
@@ -387,7 +387,7 @@ All plans now default to 300s execution time with Fluid Compute.
 
 ```
 "FUNCTION_INVOCATION_FAILED"?
-├─ Memory exceeded? → Increase `memory` in vercel.json (up to 3008 MB on Pro)
+├─ Memory exceeded? → Increase `memory` in vercel.json (up to 4 GB / 2 vCPU on Pro; Hobby is fixed at 2 GB)
 ├─ Crashed during init? → Check top-level await or heavy imports at module scope
 └─ Edge Function crash? → Check for Node.js APIs not available in Edge runtime
 ```
