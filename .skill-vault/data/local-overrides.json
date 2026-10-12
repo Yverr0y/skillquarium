@@ -47,6 +47,20 @@
       "source": "trailofbits/skills",
       "find": "ENV LD_PRELOAD \"$VIRTUAL_ENV/lib/python3.11/site-packages/asan_with_fuzzer.so\"",
       "replace": "# ENV cannot shell out, so resolve the path at build time and link it to a fixed one\nRUN ln -s \"$(python -c 'import atheris; print(atheris.path())')/asan_with_fuzzer.so\" \\\n    /usr/local/lib/asan_with_fuzzer.so\nENV LD_PRELOAD \"/usr/local/lib/asan_with_fuzzer.so\""
+    },
+    {
+      "id": "python-version-floor",
+      "issue": 37,
+      "source": "trailofbits/skills",
+      "find": "- Python 3.7 or later",
+      "replace": "- Python 3.12, 3.13, or 3.14 \u2014 atheris 3.1.0 publishes only `cp312`/`cp313`/`cp314` wheels and no sdist, so older interpreters silently resolve back to atheris 2.3.0"
+    },
+    {
+      "id": "dockerfile-python-version",
+      "issue": 37,
+      "source": "trailofbits/skills",
+      "find": "ARG PYTHON_VERSION=3.11",
+      "replace": "ARG PYTHON_VERSION=3.12"
     }
   ],
   "catalyst-by-zoho": [
