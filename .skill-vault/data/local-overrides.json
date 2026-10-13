@@ -1945,5 +1945,14 @@
       "find": "            # Quality below threshold - improve prompt\n            print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            print(f\"Improving prompt based on feedback...\")\n",
       "replace": "            # Quality below threshold - improve prompt\n            if review_ok:\n                print(f\"\\n⚠ Quality below threshold ({score} < {threshold})\")\n            else:\n                print(\"\\n⚠ Quality could not be verified; regenerating.\")\n            print(f\"Improving prompt based on feedback...\")\n"
     }
+  ],
+  "ai-sdk": [
+    {
+      "id": "v7-version-floor",
+      "issue": 1093,
+      "source": "openai/plugins",
+      "find": "### ai@6.0.34+\n\nSearch bundled docs and source in `node_modules/ai/`:\n\n- **Docs**: `grep \"query\" node_modules/ai/docs/`\n- **Source**: `grep \"query\" node_modules/ai/src/`\n\nProvider packages include docs at `node_modules/@ai-sdk/<provider>/docs/`.",
+      "replace": "### ai@7.0.0+\n\nSearch bundled docs and source in `node_modules/ai/`:\n\n- **Docs**: `grep \"query\" node_modules/ai/docs/`\n- **Source**: `grep \"query\" node_modules/ai/src/`\n\nProvider packages include docs at `node_modules/@ai-sdk/<provider>/docs/`.\n\nAI SDK 7 raised the minimum supported Node.js version to 22 and changed\n`prepareStep`-returned `instructions` to persist across later steps instead of\napplying only to the current step. If a project is still on `ai@6.x`, check\n[the v7 migration guide](https://ai-sdk.dev/docs/migration-guides/migration-guide-7-0)\n(or run `npx @ai-sdk/codemod v7`) before assuming current docs apply as-is."
+    }
   ]
 }
