@@ -2151,5 +2151,42 @@
       "find": "    \"https://nextjs.org/docs/app/api-reference/config/next-config-js/viewTransition\",",
       "replace": "    \"https://nextjs.org/docs/app/guides/view-transitions\","
     }
+  ],
+  "vercel-functions": [
+    {
+      "id": "max-duration-hobby",
+      "issue": 1078,
+      "source": "openai/plugins",
+      "find": "- Max duration: 10s (Hobby), 300s (Pro default), 800s (Fluid Compute Pro/Enterprise)",
+      "replace": "- Max duration: 300s default on every plan; 300s maximum on Hobby, 800s on Pro/Enterprise (1800s extended maximum, Beta)"
+    },
+    {
+      "id": "timeout-table-header",
+      "issue": 1078,
+      "source": "openai/plugins",
+      "find": "| Plan | Default | Max |\n|------|---------|-----|",
+      "replace": "| Plan | Default | Max | Extended max |\n|------|---------|-----|--------------|"
+    },
+    {
+      "id": "timeout-table-rows",
+      "issue": 1078,
+      "source": "openai/plugins",
+      "find": "| Hobby | 300s | 300s |\n| Pro | 300s | 800s |\n| Enterprise | 300s | 800s |",
+      "replace": "| Hobby | 300s | 300s | - |\n| Pro | 300s | 800s | 1800s (Beta) |\n| Enterprise | 300s | 800s | 1800s (Beta) |"
+    },
+    {
+      "id": "memory-ceiling",
+      "issue": 1078,
+      "source": "openai/plugins",
+      "find": "├─ Memory exceeded? → Increase `memory` in vercel.json (up to 3008 MB on Pro)",
+      "replace": "├─ Memory exceeded? → Increase `memory` in vercel.json (up to 4 GB / 2 vCPU on Pro; Hobby is fixed at 2 GB)"
+    },
+    {
+      "id": "decision-tree-duration",
+      "issue": 1078,
+      "source": "openai/plugins",
+      "find": "│  ├─ Up to 15 min → Use Vercel Functions with `maxDuration` in vercel.json",
+      "replace": "│  ├─ Up to 800s (30 min with extended maximum, Beta) → Use Vercel Functions with `maxDuration` in vercel.json"
+    }
   ]
 }
