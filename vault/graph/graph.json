@@ -6,9 +6,9 @@
   "nodes": 2221,
   "edges": 15683,
   "generic_names_blocked": 32,
-  "tier1_edges": 4678,
+  "tier1_edges": 4679,
   "tier2_edges": 720,
-  "alias_edges": 4450,
+  "alias_edges": 4451,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
@@ -171954,7 +171954,7 @@
    "dst": "zarr-python",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "xarray named in zarr-python/SKILL.md body",
+   "justification": "zarr-python named in xarray/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -172575,7 +172575,7 @@
    "dst": "xarray",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "xarray named in zarr-python/SKILL.md body",
+   "justification": "zarr-python named in xarray/SKILL.md body",
    "status": "accepted"
   },
   {
