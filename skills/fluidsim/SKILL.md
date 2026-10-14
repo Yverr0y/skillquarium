@@ -2,17 +2,17 @@
 name: fluidsim
 description: Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.
 license: MIT
-compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 0.9.0, fluidfft 0.4.5, and pyFFTW 0.15.1. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.
+compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 26.10.0, fluidfft 0.4.5, and pyFFTW 0.15.1. FluidSim moved from semantic versioning to calendar versioning (`YY.MM.MICRO`) starting with the 26.10.0 release. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.
 allowed-tools: Read Write Bash Glob Python
 metadata:
-  version: "1.4"
+  version: "1.5"
   skill-author: "K-Dense Inc."
-  last-reviewed: "2026-10-01"
+  last-reviewed: "2026-10-11"
 ---
 
 # FluidSim
 
-Use FluidSim 0.9.0 as a framework for Python-defined numerical solvers, especially
+Use FluidSim 26.10.0 as a framework for Python-defined numerical solvers, especially
 periodic Cartesian pseudospectral CFD. Upstream FluidSim is CeCILL-2.1; the MIT
 frontmatter license applies only to this skill.
 
@@ -44,9 +44,12 @@ resolution criteria, resource limits, or acceptance criteria are missing.
 
 ## Version and installation
 
-As verified on 2026-10-01:
+As verified on 2026-10-11:
 
-- Latest stable PyPI release: `fluidsim==0.9.0` (2025-12-04).
+- Latest stable PyPI release: `fluidsim==26.10.0` (2026-10-09). FluidSim switched from
+  semantic versioning to calendar versioning (`YY.MM.MICRO`) at this release, so version
+  numbers no longer imply semver compatibility guarantees; see the upstream changelog's
+  "Versioning scheme" note under `[26.10.0]`.
 - Package metadata requires Python `>=3.11` and lists Python 3.11–3.14.
 - Pseudospectral parameter creation needs FluidFFT; bare `fluidsim` imported in
   the smoke test, but `ns2d.create_default_params()` failed until the `fft` extra
@@ -58,7 +61,7 @@ Prefer a project lock:
 
 ```bash
 uv init --python 3.12
-uv add "fluidsim[fft]==0.9.0" "fluidfft==0.4.5" "pyFFTW==0.15.1"
+uv add "fluidsim[fft]==26.10.0" "fluidfft==0.4.5" "pyFFTW==0.15.1"
 uv lock
 uv sync --frozen
 ```
@@ -67,7 +70,7 @@ For an isolated disposable environment:
 
 ```bash
 uv venv --python 3.12
-uv pip install "fluidsim[fft]==0.9.0" "fluidfft==0.4.5" "pyFFTW==0.15.1"
+uv pip install "fluidsim[fft]==26.10.0" "fluidfft==0.4.5" "pyFFTW==0.15.1"
 ```
 
 The project lock is the reproducibility record; direct pins alone do not freeze
