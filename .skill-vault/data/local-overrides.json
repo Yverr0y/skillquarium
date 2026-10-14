@@ -1980,5 +1980,67 @@
       "find": "  // },\n\n  // ── 7. externally-controlled: VU count set via k6 REST API ─────────────\n  // scenarios: {\n  //   dynamic: {\n  //     executor: 'externally-controlled',\n  //     vus: 10,\n  //     maxVUs: 100,\n  //     duration: '10m',\n  //   },\n  // },\n\n  thresholds: {",
       "replace": "  // },\n\n  thresholds: {"
     }
+  ],
+  "rdkit": [
+    {
+      "id": "ring-finding-version-pin-1",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "compatibility: Tested with RDKit 2026.03.6 on Python 3.13; bundled scripts require the rdkit package. No credentials or network are needed after installation. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name.",
+      "replace": "compatibility: Tested with RDKit 2026.9.1 on Python 3.13; bundled scripts require the rdkit package. No credentials or network are needed after installation. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name. RDKit 2026.9+ changed the default smallest-set-of-smallest-rings algorithm (see Core Capabilities), which can change ring counts for cage/macrocyclic structures versus 2026.03.6 and earlier."
+    },
+    {
+      "id": "ring-finding-version-pin-2",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "metadata:\n  version: \"1.5\"\n  last-reviewed: \"2026-10-01\"\n  tested-rdkit: \"2026.03.6\"",
+      "replace": "metadata:\n  version: \"1.6\"\n  last-reviewed: \"2026-10-11\"\n  tested-rdkit: \"2026.9.1\""
+    },
+    {
+      "id": "ring-finding-version-pin-3",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "**Tested stable baseline (reviewed 2026-10-01):** RDKit **2026.03.6**, distributed as `rdkit==2026.3.6` on PyPI; this is the current stable GitHub/PyPI release. Official installation docs continue to recommend conda-forge for most users, while cross-platform PyPI wheels are published under the `rdkit` package name. `rdkit-pypi` is the old PyPI package name and should only appear when maintaining legacy environments.",
+      "replace": "**Tested stable baseline (reviewed 2026-10-11):** RDKit **2026.9.1**, distributed as `rdkit==2026.9.1` on PyPI; this is the current stable GitHub/PyPI release. Official installation docs continue to recommend conda-forge for most users, while cross-platform PyPI wheels are published under the `rdkit` package name. `rdkit-pypi` is the old PyPI package name and should only appear when maintaining legacy environments."
+    },
+    {
+      "id": "ring-finding-version-pin-4",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "find": "uv pip install \"rdkit==2026.3.6\"\n```",
+      "replace": "uv pip install \"rdkit==2026.9.1\"\n```"
+    },
+    {
+      "id": "ring-finding-api-ref-header",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "file": "references/api_reference.md",
+      "find": "Signatures below show selected keyword arguments, not complete overloads. Tested\non RDKit 2026.03.6; use keywords when omitted arguments precede them.",
+      "replace": "Signatures below show selected keyword arguments, not complete overloads. Tested\non RDKit 2026.9.1; use keywords when omitted arguments precede them."
+    },
+    {
+      "id": "ring-finding-api-ref-ring-info",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "file": "references/api_reference.md",
+      "find": "- `Chem.GetSymmSSSR(mol)` - Symmetrized smallest-ring set (can exceed SSSR size)\n- `Chem.GetSSSR(mol)` - Smallest set of smallest rings; not an alias (cubane: 5 versus 6 symmetrized rings)\n- `ring_info.NumRings()` - Number of rings\n- `ring_info.AtomRings()` - Tuples of atom indices in rings\n- `ring_info.BondRings()` - Tuples of bond indices in rings",
+      "replace": "- `Chem.GetSymmSSSR(mol)` - Symmetrized smallest-ring set (can exceed SSSR size)\n- `Chem.GetSSSR(mol)` - Smallest set of smallest rings; not an alias of `GetSymmSSSR` (counts can differ on cage/fused systems, e.g. cubane)\n- `ring_info.NumRings()` - Number of rings\n- `ring_info.AtomRings()` - Tuples of atom indices in rings\n- `ring_info.BondRings()` - Tuples of bond indices in rings\n\n**Version note:** RDKit 2026.9.1 changed the default smallest-set-of-smallest-rings\nalgorithm to one based on RingDecomposerLib, which changes `GetSymmSSSR`/`ring_info.NumRings()`\nresults for cage and macrocyclic structures versus RDKit 2026.03.6 and earlier (e.g. cubane\nwent from 5 rings to 7 rings under the new default). Call `Chem.SetUseLegacyRingFinding(True)`\nto restore the pre-2026.9 algorithm when reproducing older results."
+    },
+    {
+      "id": "ring-finding-api-ref-install",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "file": "references/api_reference.md",
+      "find": "uv pip install \"rdkit==2026.3.6\"",
+      "replace": "uv pip install \"rdkit==2026.9.1\""
+    },
+    {
+      "id": "ring-finding-core-capabilities-note",
+      "issue": 1069,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "file": "references/core_capabilities.md",
+      "find": "rings = GetSymmSSSR(mol)\n```\n\n**Stereochemistry:**",
+      "replace": "rings = GetSymmSSSR(mol)\n```\n\nRDKit 2026.9.1 changed the default smallest-set-of-smallest-rings algorithm; ring\ncounts on cage/macrocyclic structures can differ from RDKit 2026.03.6 and earlier.\nSee the Ring Information section of\n[references/api_reference.md](api_reference.md) for the\n`Chem.SetUseLegacyRingFinding(True)` escape hatch.\n\n**Stereochemistry:**"
+    }
   ]
 }

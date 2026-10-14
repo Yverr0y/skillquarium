@@ -151,6 +151,12 @@ from rdkit.Chem import GetSymmSSSR
 rings = GetSymmSSSR(mol)
 ```
 
+RDKit 2026.9.1 changed the default smallest-set-of-smallest-rings algorithm; ring
+counts on cage/macrocyclic structures can differ from RDKit 2026.03.6 and earlier.
+See the Ring Information section of
+[references/api_reference.md](api_reference.md) for the
+`Chem.SetUseLegacyRingFinding(True)` escape hatch.
+
 **Stereochemistry:**
 
 ```python

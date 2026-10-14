@@ -3,11 +3,11 @@ name: rdkit
 description: Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.
 license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash
-compatibility: Tested with RDKit 2026.03.6 on Python 3.13; bundled scripts require the rdkit package. No credentials or network are needed after installation. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name.
+compatibility: Tested with RDKit 2026.9.1 on Python 3.13; bundled scripts require the rdkit package. No credentials or network are needed after installation. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name. RDKit 2026.9+ changed the default smallest-set-of-smallest-rings algorithm (see Core Capabilities), which can change ring counts for cage/macrocyclic structures versus 2026.03.6 and earlier.
 metadata:
-  version: "1.5"
-  last-reviewed: "2026-10-01"
-  tested-rdkit: "2026.03.6"
+  version: "1.6"
+  last-reviewed: "2026-10-11"
+  tested-rdkit: "2026.9.1"
   skill-author: K-Dense Inc.
 ---
 
@@ -17,14 +17,14 @@ metadata:
 
 RDKit is a comprehensive cheminformatics library providing Python APIs for molecular analysis and manipulation. This skill provides guidance for reading/writing molecular structures, calculating descriptors, fingerprinting, substructure searching, chemical reactions, 2D/3D coordinate generation, and molecular visualization. Use this skill for drug discovery, computational chemistry, and cheminformatics research tasks.
 
-**Tested stable baseline (reviewed 2026-10-01):** RDKit **2026.03.6**, distributed as `rdkit==2026.3.6` on PyPI; this is the current stable GitHub/PyPI release. Official installation docs continue to recommend conda-forge for most users, while cross-platform PyPI wheels are published under the `rdkit` package name. `rdkit-pypi` is the old PyPI package name and should only appear when maintaining legacy environments.
+**Tested stable baseline (reviewed 2026-10-11):** RDKit **2026.9.1**, distributed as `rdkit==2026.9.1` on PyPI; this is the current stable GitHub/PyPI release. Official installation docs continue to recommend conda-forge for most users, while cross-platform PyPI wheels are published under the `rdkit` package name. `rdkit-pypi` is the old PyPI package name and should only appear when maintaining legacy environments.
 
 ## Installation and Setup
 
 Use `uv` when installing into an existing Python environment:
 
 ```bash
-uv pip install "rdkit==2026.3.6"
+uv pip install "rdkit==2026.9.1"
 ```
 
 For reproducible chemistry environments, especially when mixing compiled scientific packages, conda-forge remains the upstream recommendation:
