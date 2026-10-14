@@ -130,7 +130,7 @@
       "issue": 37,
       "source": "trailofbits/skills",
       "find": "- Python 3.7 or later",
-      "replace": "- Python 3.12, 3.13, or 3.14 \u2014 atheris 3.1.0 publishes only `cp312`/`cp313`/`cp314` wheels and no sdist, so older interpreters silently resolve back to atheris 2.3.0"
+      "replace": "- Python 3.12, 3.13, or 3.14 — atheris 3.1.0 publishes only `cp312`/`cp313`/`cp314` wheels and no sdist, so older interpreters silently resolve back to atheris 2.3.0"
     },
     {
       "id": "dockerfile-python-version",
@@ -2101,6 +2101,55 @@
       "source": "openai/plugins",
       "find": "```bash\n# Single external\nncc build input.js -e aws-sdk\n\n# Multiple externals\nncc build input.js -e aws-sdk -e sharp\n```\n\nFor serverless environments where the runtime provides certain modules (like AWS Lambda's `aws-sdk`), mark them as external.",
       "replace": "```bash\n# Single external\nncc build input.js -e sharp\n\n# Multiple externals\nncc build input.js -e sharp -e canvas\n```\n\nFor serverless environments where the runtime provides certain modules, mark them as\nexternal instead of bundling them. AWS Lambda's supported Node.js runtimes (18.x and\nlater) bundle AWS SDK for JavaScript **v3** (`@aws-sdk/*` scoped packages), not the\nlegacy `aws-sdk` v2 package — Node.js 16.x, the last runtime that provided `aws-sdk` v2,\nreached end of support on 2024-06-12. Mark the specific `@aws-sdk/client-*` packages your\nruntime provides as external (e.g. `-e @aws-sdk/client-s3`); do not rely on a bare\n`-e aws-sdk` unless you are deliberately targeting an EOL runtime."
+    }
+  ],
+  "vercel-react-view-transitions": [
+    {
+      "id": "nextjs-no-experimental-flag",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "`<ViewTransition>` works out of the box — the bundled React canary ships it, and every `<Link>` navigation runs inside `React.startTransition`, so react-dom starts a view transition whenever affected `<ViewTransition>` components exist. Set the documented flag:\n\n```js\n// next.config.js\nconst nextConfig = {\n  experimental: { viewTransition: true },\n};\nmodule.exports = nextConfig;\n```\n\n(Historically the flag switched React to the experimental channel — required before `ViewTransition` reached canary. It no longer does; the experimental channel is only needed for `useSwipeTransition` gestures and `parentEnter`/`parentExit`, selected by other flags like `gestureTransition`.)",
+      "replace": "`<ViewTransition>` works out of the box with **no `next.config` change** — the bundled React ships it, and every `<Link>` navigation runs inside `React.startTransition`, so react-dom starts a view transition whenever affected `<ViewTransition>` components exist.\n\nDo not set `experimental.viewTransition`. The key was removed in Next.js 16.3.0 (it exists up to 16.2.x) and is now an unrecognized `experimental` key, which Next.js reports as a config warning and ignores.\n\nThe experimental React channel is still needed for `useSwipeTransition` gestures and `parentEnter`/`parentExit`, selected by other flags such as `gestureTransition`."
+    },
+    {
+      "id": "nextjs-after-step-2",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "**After Step 2:** Enable the experimental flag above.",
+      "replace": "**After Step 2:** No Next.js configuration is required — skip straight to Step 3."
+    },
+    {
+      "id": "nextjs-no-canary",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "references/nextjs.md",
+      "find": "Do **not** install `react@canary` — see [Availability](../SKILL.md#availability) for details.",
+      "replace": "React 19.3.0 (current stable) ships `<ViewTransition>` and `addTransitionType`; no canary install — see [Availability](../SKILL.md#availability)."
+    },
+    {
+      "id": "skill-availability-stable-react",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "find": "- **Next.js:** Do **not** install `react@canary` — the App Router already bundles React canary internally. `ViewTransition` works out of the box. `npm ls react` may show a stable-looking version; this is expected.\n- **Without Next.js:** Install `react@canary react-dom@canary` (`ViewTransition` is not in stable React).",
+      "replace": "- **Next.js:** nothing to install or configure — `ViewTransition` works out of the box. Do not set `experimental.viewTransition`; that key was removed in Next.js 16.3.0.\n- **Without Next.js:** `react@19.3.0`/`react-dom@19.3.0` or newer. `<ViewTransition>` and `addTransitionType` are in stable React as of 19.3.0; only `useSwipeTransition` and `parentEnter`/`parentExit` still need `react@experimental`."
+    },
+    {
+      "id": "readme-dead-config-link",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "README.md",
+      "find": "- [Next.js View Transitions guide](https://nextjs.org/docs/app/guides/view-transitions)\n- [Next.js `viewTransition` config](https://nextjs.org/docs/app/api-reference/config/next-config-js/viewTransition)",
+      "replace": "- [Next.js View Transitions guide](https://nextjs.org/docs/app/guides/view-transitions)"
+    },
+    {
+      "id": "metadata-dead-config-link",
+      "issue": 1076,
+      "source": "vercel-labs/agent-skills",
+      "file": "metadata.json",
+      "find": "    \"https://nextjs.org/docs/app/api-reference/config/next-config-js/viewTransition\",",
+      "replace": "    \"https://nextjs.org/docs/app/guides/view-transitions\","
     }
   ]
 }
