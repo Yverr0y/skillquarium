@@ -95,7 +95,7 @@ If you cannot find documentation to support your answer, state that explicitly.
 
 ## Finding Documentation
 
-### ai@6.0.34+
+### ai@7.0.0+
 
 Search bundled docs and source in `node_modules/ai/`:
 
@@ -103,6 +103,12 @@ Search bundled docs and source in `node_modules/ai/`:
 - **Source**: `grep "query" node_modules/ai/src/`
 
 Provider packages include docs at `node_modules/@ai-sdk/<provider>/docs/`.
+
+AI SDK 7 raised the minimum supported Node.js version to 22 and changed
+`prepareStep`-returned `instructions` to persist across later steps instead of
+applying only to the current step. If a project is still on `ai@6.x`, check
+[the v7 migration guide](https://ai-sdk.dev/docs/migration-guides/migration-guide-7-0)
+(or run `npx @ai-sdk/codemod v7`) before assuming current docs apply as-is.
 
 ### Earlier versions
 
