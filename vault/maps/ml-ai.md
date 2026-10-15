@@ -81,7 +81,7 @@ created: 2026-06-13
 - [pufferlib](../notes/ml-ai/pufferlib.md) — Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review
 - [pufferlib-v2](../notes/ml-ai/pufferlib-v2.md) — PufferLib 2.x reinforcement learning workflows for the Dec 2024 API generation
 - [pufferlib-v3](../notes/ml-ai/pufferlib-v3.md) — PufferLib 3.x reinforcement learning workflows for the Jun 2025 API generation
-- [pydantic-ai-harness](../notes/ml-ai/pydantic-ai-harness.md) — Extend Pydantic AI agents with batteries-included capabilities from pydantic-ai-harness -- Code Mode (collapse many tool calls into one sandboxed Python execution), a filesystem and...
+- [pydantic-ai-harness](../notes/ml-ai/pydantic-ai-harness.md) — Extend Pydantic AI agents with capabilities from pydantic-ai-harness -- the Coder coding agent, file and shell tools in local or sandboxed workspaces (Modal, E2B, Sprites, smolvm)...
 - [pytorch-lightning](../notes/ml-ai/pytorch-lightning.md) — Deep learning framework (PyTorch Lightning / lightning package)
 - [qdrant-clients-sdk](../notes/ml-ai/qdrant-clients-sdk.md) — Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments
 - [scikit-learn](../notes/ml-ai/scikit-learn.md) — Supports machine learning in Python with scikit-learn
