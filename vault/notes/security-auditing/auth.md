@@ -43,7 +43,6 @@ created: 2026-08-07
 - [omniverse-usd-performance-tuning](../../notes/game-development/omniverse-usd-performance-tuning.md) — Top-level workflow skill for USD performance diagnosis and optimization
 - [openfold3-nim](../../notes/drug-discovery-chem/openfold3-nim.md) — Use this skill for OpenFold3, NVIDIA's BioNeMo NIM microservice for biomolecular structure prediction
 - [playwright-best-practices](../../notes/web-automation-frontend/playwright-best-practices.md) — Use when writing Playwright tests, fixing flaky tests, debugging failures, implementing Page Object Model, configuring CI/CD, optimizing performance, mocking APIs, handling...
-- [prisma-compute](../../notes/software-dev/prisma-compute.md) — Prisma Compute deployment and hosting guide
 - [promptfoo-provider-setup](../../notes/ml-ai/promptfoo-provider-setup.md) — Connect Promptfoo to a model, live HTTP API, local Python/JavaScript provider, or app code
 - [render-cli](../../notes/hosting-edge-platforms/render-cli.md) — Installs and uses the Render CLI for deploys, logs, SSH, psql, Blueprint validation, and automation
 - [setup](../../notes/vault-meta/setup.md) — Verify Daloopa MCP connection and show available skills

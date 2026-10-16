@@ -1529,18 +1529,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-cli/SKILL.md",
-      "skillFolderHash": "46a5d917043dd1ff5385d6ee75ded8f60245056d",
+      "skillFolderHash": "525abd0cf0a04fd03fb522555d2af3fcdbdb1194",
       "installedAt": "2026-06-09T19:26:52.824Z",
-      "updatedAt": "2026-10-10T12:46:32.466Z"
+      "updatedAt": "2026-10-16T11:21:07.956Z"
     },
     "phoenix-evals": {
       "source": "arize-ai/phoenix",
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "c5643c9d1327915956b5946401ad989ee7ab9a73",
+      "skillFolderHash": "2c2418a147b0422cba02b8dde2e959c50e547ee5",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-10-10T12:46:37.658Z"
+      "updatedAt": "2026-10-16T11:21:14.134Z"
     },
     "figma-generate-design": {
       "source": "openai/plugins",
@@ -1709,9 +1709,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md",
-      "skillFolderHash": "ad963e0336535a8de6071e85a93001049dca52e1",
+      "skillFolderHash": "4a2948dc493c5e5e0edcb4852422cba9a8e928b1",
       "installedAt": "2026-06-09T19:28:14.014Z",
-      "updatedAt": "2026-10-10T12:46:49.312Z"
+      "updatedAt": "2026-10-16T11:21:16.998Z"
     },
     "differential-review": {
       "source": "trailofbits/skills",
@@ -1736,9 +1736,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/trailofbits/skills.git",
       "skillPath": "plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md",
-      "skillFolderHash": "448d53109803f16b7f54f3a8ebf9447647e66d07",
+      "skillFolderHash": "fc9942b08ab05a1538dfbe8b5efbf598b110d9f7",
       "installedAt": "2026-06-09T19:28:14.016Z",
-      "updatedAt": "2026-10-10T12:46:53.021Z"
+      "updatedAt": "2026-10-16T11:21:21.495Z"
     },
     "property-based-testing": {
       "source": "trailofbits/skills",
@@ -2105,9 +2105,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
       "skillPath": "skills/kubernetes-specialist/SKILL.md",
-      "skillFolderHash": "a8225bdd5c04a6fb619a58ca7cf28e49f4d67c08",
+      "skillFolderHash": "0d99170815c692783093764a9a75aa915e6d3794",
       "installedAt": "2026-06-13T23:43:02.709Z",
-      "updatedAt": "2026-10-10T12:47:32.355Z"
+      "updatedAt": "2026-10-16T11:21:34.717Z"
     },
     "pymol": {
       "source": "google-deepmind/science-skills",
@@ -3438,9 +3438,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/logfire-instrumentation/SKILL.md",
-      "skillFolderHash": "1a4771819a090b716ac7b936c8857b3ef310bd80",
+      "skillFolderHash": "4e525324d7cf5733671a34ba946dec6ee340b98d",
       "installedAt": "2026-07-21T11:27:04.645Z",
-      "updatedAt": "2026-10-10T12:49:19.592Z"
+      "updatedAt": "2026-10-16T11:21:42.224Z"
     },
     "logfire-query": {
       "source": "pydantic/skills",
@@ -3465,9 +3465,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/pydantic-ai-harness/SKILL.md",
-      "skillFolderHash": "2c44f7f121a327305ad64c8395c35d62209e0f83",
+      "skillFolderHash": "c019700223aa0137c2a38d7c7fdb1eeb0fbf0e39",
       "installedAt": "2026-07-21T11:27:04.649Z",
-      "updatedAt": "2026-10-15T11:26:27.449Z"
+      "updatedAt": "2026-10-16T11:21:44.930Z"
     },
     "screenshot-cli": {
       "source": "stanfish06/screenshot-skill",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "8e82f1211a7580539662a0fa353e0406f4144be1",
+      "skillFolderHash": "277349f351023416242526770d470b6259693347",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-14T11:50:58.859Z"
+      "updatedAt": "2026-10-16T11:21:48.474Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "d6de615cc3db041df9515facfac299c3367be3cc",
+      "skillFolderHash": "5d1128500c268b0006e7b1c0c1c8687cc71a69e9",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-14T11:51:17.914Z"
+      "updatedAt": "2026-10-16T11:22:04.160Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9557,9 +9557,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-pipeline/SKILL.md",
-      "skillFolderHash": "21145adb9bf10f02a0b26fb2a626943d7c1e1696",
+      "skillFolderHash": "e812c50df09985ad3b6cf4d217908c3d73f26597",
       "installedAt": "2026-08-21T01:50:31.552Z",
-      "updatedAt": "2026-10-14T11:51:30.482Z"
+      "updatedAt": "2026-10-16T11:22:09.353Z"
     },
     "deep-research": {
       "source": "Imbad0202/academic-research-skills",
@@ -9593,9 +9593,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/prisma/skills.git",
       "skillPath": "prisma-compute/SKILL.md",
-      "skillFolderHash": "2792b470532def0d99a25274e72e4b941fd667a8",
+      "skillFolderHash": "2ce94d770374d3d6eecaa9daf3d05de4764e53a6",
       "installedAt": "2026-08-23T17:16:28.743Z",
-      "updatedAt": "2026-10-10T12:50:25.214Z"
+      "updatedAt": "2026-10-16T11:22:12.219Z"
     },
     "prisma-database-setup": {
       "source": "prisma/skills",
@@ -9638,9 +9638,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/prisma/skills.git",
       "skillPath": "prisma-postgres-setup/SKILL.md",
-      "skillFolderHash": "dafe45de243bfd62852534ba4291e0e50c73c660",
+      "skillFolderHash": "939e7bbeb428c9b001eae337b83e2ccef4b6e824",
       "installedAt": "2026-08-23T17:16:28.788Z",
-      "updatedAt": "2026-10-10T12:50:27.967Z"
+      "updatedAt": "2026-10-16T11:22:13.601Z"
     },
     "prisma-upgrade-v7": {
       "source": "prisma/skills",
@@ -10156,10 +10156,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/grafana/skills.git",
       "skillPath": "skills/grafana-k6/k6/SKILL.md",
-      "skillFolderHash": "a6459687d7125c98f146245941904c03b272179b",
-      "pluginName": "grafana-k6",
+      "skillFolderHash": "9f186db97d404746e7e9fdc1a0819b4c17c3a61a",
       "installedAt": "2026-08-23T17:17:09.446Z",
-      "updatedAt": "2026-08-23T17:17:09.446Z"
+      "updatedAt": "2026-10-16T11:22:17.101Z"
     },
     "k6-cloud-investigate-test": {
       "source": "grafana/skills",
@@ -10196,19 +10195,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/grafana/skills.git",
       "skillPath": "skills/grafana-k6/k6-perf-test-website/SKILL.md",
-      "skillFolderHash": "66c5e20a1567a8e9c67d6ca75a0fed2a372a5eac",
+      "skillFolderHash": "0b921e0baae32653be8f8ef7a7f0fb6114b7ea47",
       "installedAt": "2026-08-23T17:17:09.469Z",
-      "updatedAt": "2026-10-10T12:50:35.448Z"
+      "updatedAt": "2026-10-16T11:22:23.918Z"
     },
     "k6-test-maintenance": {
       "source": "grafana/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/grafana/skills.git",
       "skillPath": "skills/grafana-k6/k6-test-maintenance/SKILL.md",
-      "skillFolderHash": "6ef9d63309c4e3352811e3844686ff2b41a8a833",
-      "pluginName": "grafana-k6",
+      "skillFolderHash": "d6dfbf41990a409b4a137419fb0172c74dbafa15",
       "installedAt": "2026-08-23T17:17:09.477Z",
-      "updatedAt": "2026-08-23T17:17:09.477Z"
+      "updatedAt": "2026-10-16T11:22:27.386Z"
     },
     "k6-trend-analysis": {
       "source": "grafana/skills",
@@ -11919,9 +11917,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Jeffallan/claude-skills.git",
       "skillPath": "skills/csharp-developer/SKILL.md",
-      "skillFolderHash": "a7188305a51764959e7d524b5bde9f4e67c4db99",
+      "skillFolderHash": "1ee3727e2cabbf9847f577ea5c99ceb86c23b771",
       "installedAt": "2026-09-13T13:48:23.275Z",
-      "updatedAt": "2026-10-10T12:52:13.778Z"
+      "updatedAt": "2026-10-16T11:22:39.263Z"
     },
     "sqlite-expert": {
       "source": "rightnow-ai/openfang",

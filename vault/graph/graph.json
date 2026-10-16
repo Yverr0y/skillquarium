@@ -4,11 +4,11 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15697,
+  "edges": 15705,
   "generic_names_blocked": 32,
-  "tier1_edges": 4684,
-  "tier2_edges": 720,
-  "alias_edges": 4454,
+  "tier1_edges": 4685,
+  "tier2_edges": 721,
+  "alias_edges": 4458,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14911,
+   "EXTRACTED": 14919,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12244,
+   "references": 12252,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -14639,7 +14639,7 @@
    "id": "k6",
    "type": "Skill",
    "label": "k6",
-   "description": "Generate, validate, and review k6 test scripts — load, stress, spike, soak, smoke, breakpoint, functional, and protocol. Covers HTTP, WebSocket, gRPC, browser, all executors, thresholds, checks, custom metrics, the k6-testing library, k6 Cloud execution, and the xk6 extension ecosystem; uses the xk6-docs CLI (with grafana.com web fallback) for docs lookup and validates every script by running it. Use when writing, generating, validating, or debugging any k6 or load-test script (including plain-language asks like \"load test this API\" or \"stress test my service\"), choosing executors/scenarios, or setting thresholds. For end-to-end website performance suites use k6-perf-test-website; for documenting k6 itself use k6-docs.",
+   "description": "Generate, validate, and review k6 test scripts — load, stress, spike, soak, smoke, breakpoint, functional, and protocol. Covers HTTP, WebSocket, gRPC, browser, all executors, thresholds, checks, custom metrics, the k6-testing library, k6 Cloud execution, and the xk6 extension ecosystem; uses the xk6-docs CLI (with grafana.com web fallback) for docs lookup and validates every script by running it. Use when writing, generating, validating, or debugging any k6 or load-test script (including plain-language asks like \"load test this API\" or \"stress test my service\"), choosing executors/scenarios, or setting thresholds. For end-to-end website performance suites use k6-perf-test-website; for documenting k6 itself use k6-docs; for a browser/UI test authored from a plain-language user journey (selectors discovered by exploring the live site) use k6-browser-test.",
    "source": "skills/k6/SKILL.md",
    "aliases": [],
    "uses": 0,
@@ -14698,7 +14698,7 @@
    "id": "k6-perf-test-website",
    "type": "Skill",
    "label": "k6-perf-test-website",
-   "description": "> Use when the user wants to performance-test, load-test, or stress-test a public website end-to-end with k6. Produces a hybrid (protocol + browser) test suite, SLO-backed thresholds, a load-generator monitor sidecar, and a Grafana-side investigation playbook for backends the user owns. Triggers on \"perf test my site\", \"performance test my site\", \"load test this URL\", \"stress test my web app\", \"I want to load test [URL]\", \"set up k6 against my website\", \"write a k6 suite for [site]\", \"see if my site handles N concurrent users\", or \"how does my site perform under traffic\". Use this skill whenever the user mentions k6, load testing, stress testing, performance testing, or wants to validate a website under traffic — even if they don't explicitly use the word \"test\" or ask for the specific outputs this skill produces.",
+   "description": "> Use when the user wants to performance-test, load-test, or stress-test a public website end-to-end with k6. Produces a hybrid (protocol + browser) test suite, SLO-backed thresholds, a load-generator monitor sidecar, and a Grafana-side investigation playbook for backends the user owns. Triggers on \"perf test my site\", \"performance test my site\", \"load test this URL\", \"stress test my web app\", \"I want to load test [URL]\", \"set up k6 against my website\", \"write a k6 suite for [site]\", \"see if my site handles N concurrent users\", or \"how does my site perform under traffic\". Use this skill whenever the user mentions k6, load testing, stress testing, performance testing, or wants to validate a website under traffic — even if they don't explicitly use the word \"test\" or ask for the specific outputs this skill produces. This skill is for a full multi-test suite across several workflows; for a single browser test — functional OR a browser load test measuring Web Vitals for one journey — use k6-browser-test.",
    "source": "skills/k6-perf-test-website/SKILL.md",
    "aliases": [
     "k6 perf test website"
@@ -14713,7 +14713,7 @@
    "id": "k6-test-maintenance",
    "type": "Skill",
    "label": "k6-test-maintenance",
-   "description": "> Maintain and improve existing k6 test scripts. Covers threshold tightening based on trend data, version migration between k6 releases, auto-fixing tests when the underlying service changes, refactoring for cleanliness, and auditing scripts against current best practices from docs. Use when the user asks to fix a failing k6 test, tighten thresholds, migrate a script to a new k6 version, refactor a test, update a script after a service change, or improve a script with best practices. Trigger on phrases like \"fix my k6 test\", \"tighten my thresholds\", \"migrate to k6 v2\", \"update my test script\", \"refactor this k6 test\", \"my test is failing after a deploy\", \"apply best practices to my script\", \"modernize my k6 test\", or \"the service changed and my test broke\". Also trigger when another skill (k6-trend-analysis or k6-cloud-investigate-test) hands off with a recommendation to edit a script.",
+   "description": "> Maintain and improve existing k6 test scripts. Covers threshold tightening based on trend data, version migration between k6 releases, auto-fixing tests when the underlying service changes, refactoring for cleanliness, and auditing scripts against current best practices from docs. Use when the user asks to fix a failing k6 test, tighten thresholds, migrate a script to a new k6 version, refactor a test, update a script after a service change, or improve a script with best practices. Trigger on phrases like \"fix my k6 test\", \"tighten my thresholds\", \"migrate to k6 v2\", \"update my test script\", \"refactor this k6 test\", \"my test is failing after a deploy\", \"apply best practices to my script\", \"modernize my k6 test\", or \"the service changed and my test broke\". Also trigger when another skill (k6-trend-analysis or k6-cloud-investigate-test) hands off with a recommendation to edit a script. Maintains existing scripts; to author a new test use the k6 skill, or k6-browser-test for a browser test.",
    "source": "skills/k6-test-maintenance/SKILL.md",
    "aliases": [
     "k6 test maintenance"
@@ -21800,7 +21800,7 @@
    "id": "phoenix-cli",
    "type": "Skill",
    "label": "phoenix-cli",
-   "description": "Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal.",
+   "description": "Debug LLM applications using the Phoenix CLI (`px`, from @arizeai/phoenix-cli). Fetch traces, spans, and sessions, annotate them, analyze errors, measure how often a failure or pattern occurs across traces, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal, or wants to measure or investigate something in Phoenix with the CLI.",
    "source": "skills/phoenix-cli/SKILL.md",
    "aliases": [
     "phoenix cli"
@@ -21815,7 +21815,7 @@
    "id": "phoenix-evals",
    "type": "Skill",
    "label": "phoenix-evals",
-   "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
+   "description": "Build, run, and validate evaluators for AI/LLM applications with Phoenix, in Python or TypeScript (including Vercel AI SDK apps) — code-based checks and LLM-as-a-judge, run over exported traces or dataframes or as Phoenix experiments, gate them in CI, and validate judges against human-labeled data.",
    "source": "skills/phoenix-evals/SKILL.md",
    "aliases": [
     "phoenix evals"
@@ -22620,7 +22620,7 @@
    "id": "prisma-compute",
    "type": "Skill",
    "label": "prisma-compute",
-   "description": "Prisma Compute deployment and hosting guide. Use whenever the user mentions Prisma Compute, `prisma.compute.ts`, `defineComputeConfig`, deploying or hosting a Prisma app, `@prisma/cli app deploy`, `compute:deploy`, `create-prisma --deploy`, `PRISMA_SERVICE_TOKEN`, Compute auth/workspaces, apps/deployments/build logs/domains, localhost vs `0.0.0.0`, deploy port binding, or framework deploy readiness for Hono, Elysia, Next.js, TanStack Start, Astro, Nuxt, Svelte, Nest, Turborepo, or custom/prebuilt artifacts.",
+   "description": "Deploy and operate apps on Prisma Compute with the Prisma 8 CLI. Use whenever the user mentions Prisma Compute, deploying or hosting a Prisma app, `prisma deploy`, `prisma dev module.ts`, Prisma Composer apps (`module.ts`, `compute()`, the `composer` section of `prisma.config.ts`), preview stages, deploy on push (`prisma git connect`, `prisma/cloud-deploy-action`), `prisma service` logs, versions, rollback, or custom domains, `project env`, `PRISMA_SERVICE_TOKEN`, regions, 504s, sleeping instances, or `waitUntil`; also when a project still uses the removed `@prisma/cli app deploy`, `prisma.compute.ts`, `defineComputeConfig`, `compute:deploy`, or `build logs` surface.",
    "source": "skills/prisma-compute/SKILL.md",
    "aliases": [
     "prisma compute"
@@ -34881,6 +34881,15 @@
   {
    "src": "ai-sdk",
    "rel": "references",
+   "dst": "phoenix-evals",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "ai-sdk named in phoenix-evals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "ai-sdk",
+   "rel": "references",
    "dst": "v0-dev",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -40240,6 +40249,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "auth referenced in code/link context in nuget-trusted-publishing/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "auth",
+   "rel": "references",
+   "dst": "prisma-compute",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in prisma-compute/SKILL.md",
    "status": "accepted"
   },
   {
@@ -48232,6 +48250,24 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of caveman appears in k6/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "caveman",
+   "rel": "references",
+   "dst": "k6-perf-test-website",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of caveman appears in k6-perf-test-website/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "caveman",
+   "rel": "references",
+   "dst": "k6-test-maintenance",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of caveman appears in k6-test-maintenance/SKILL.md",
    "status": "accepted"
   },
   {
@@ -89790,6 +89826,15 @@
   {
    "src": "k6-perf-test-website",
    "rel": "references",
+   "dst": "caveman",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of caveman appears in k6-perf-test-website/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "k6-perf-test-website",
+   "rel": "references",
    "dst": "grafana-oss",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -89857,6 +89902,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "k6-test-maintenance",
+   "rel": "references",
+   "dst": "caveman",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of caveman appears in k6-test-maintenance/SKILL.md",
    "status": "accepted"
   },
   {
@@ -122073,6 +122127,15 @@
   {
    "src": "phoenix-evals",
    "rel": "references",
+   "dst": "ai-sdk",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "ai-sdk named in phoenix-evals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "phoenix-evals",
+   "rel": "references",
    "dst": "jest",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -125772,6 +125835,15 @@
   {
    "src": "prisma-compute",
    "rel": "references",
+   "dst": "auth",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in prisma-compute/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "prisma-compute",
+   "rel": "references",
    "dst": "nextjs",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -125790,10 +125862,10 @@
   {
    "src": "prisma-compute",
    "rel": "references",
-   "dst": "turborepo",
+   "dst": "prisma-postgres",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "turborepo named in prisma-compute/SKILL.md body",
+   "justification": "prisma-postgres named in prisma-compute/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -125857,6 +125929,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "prisma-postgres named in prisma-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "prisma-postgres",
+   "rel": "references",
+   "dst": "prisma-compute",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "prisma-postgres named in prisma-compute/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -160849,15 +160930,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "turborepo named in next-forge/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "turborepo",
-   "rel": "references",
-   "dst": "prisma-compute",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "turborepo named in prisma-compute/SKILL.md body",
    "status": "accepted"
   },
   {

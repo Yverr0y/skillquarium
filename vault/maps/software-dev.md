@@ -103,7 +103,7 @@ created: 2026-06-13
 - [planning-and-task-breakdown](../notes/software-dev/planning-and-task-breakdown.md) — Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks
 - [prisma-cli](../notes/software-dev/prisma-cli.md) — Prisma ORM 7 CLI reference for existing Prisma 7 applications or explicitly selected Prisma 7 workflows
 - [prisma-client-api](../notes/software-dev/prisma-client-api.md) — Prisma Client API reference covering model queries, filters, operators, and client methods
-- [prisma-compute](../notes/software-dev/prisma-compute.md) — Prisma Compute deployment and hosting guide
+- [prisma-compute](../notes/software-dev/prisma-compute.md) — Deploy and operate apps on Prisma Compute with the Prisma 8 CLI
 - [prisma-database-setup](../notes/software-dev/prisma-database-setup.md) — Deprecated compatibility name for prisma-orm-setup
 - [prisma-driver-adapter-implementation](../notes/software-dev/prisma-driver-adapter-implementation.md) — Required reference for Prisma ORM 7 SQL driver adapter work
 - [prisma-mongodb-upgrade](../notes/software-dev/prisma-mongodb-upgrade.md) — Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7

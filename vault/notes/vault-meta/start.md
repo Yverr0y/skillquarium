@@ -32,7 +32,6 @@ created: 2026-08-07
 - [morning-briefing](../../notes/comms-productivity/morning-briefing.md) — Generates a morning briefing that triages your inbox and previews your day using the Superhuman Mail MCP server — acting as an AI chief of staff
 - [netlify-frameworks](../../notes/hosting-edge-platforms/netlify-frameworks.md) — Guide for deploying web frameworks on Netlify
 - [planning-and-task-breakdown](../../notes/software-dev/planning-and-task-breakdown.md) — Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks
-- [prisma-compute](../../notes/software-dev/prisma-compute.md) — Prisma Compute deployment and hosting guide
 - [render-debug](../../notes/hosting-edge-platforms/render-debug.md) — Debug failed Render deployments by analyzing logs, metrics, and database state
 - [secure-workflow-guide](../../notes/security-auditing/secure-workflow-guide.md) — Guides through Trail of Bits' 5-step secure development workflow
 - [shopify-onboarding-merchant](../../notes/saas-platforms/shopify-onboarding-merchant.md) — Set up and connect a Shopify store from your AI assistant
