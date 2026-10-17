@@ -1520,9 +1520,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/langfuse/skills.git",
       "skillPath": "skills/langfuse/SKILL.md",
-      "skillFolderHash": "ad974d78f98968be607e7a34b667503115fb2070",
+      "skillFolderHash": "e328647f773572c449699be03e719e95ab151a6f",
       "installedAt": "2026-06-09T19:26:38.181Z",
-      "updatedAt": "2026-10-10T12:46:28.862Z"
+      "updatedAt": "2026-10-17T10:40:05.617Z"
     },
     "phoenix-cli": {
       "source": "arize-ai/phoenix",
@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "b345d6e5b735d8284311a3b41d7522cdf951ddb3",
+      "skillFolderHash": "dc37fdb3577867cb7086b79b505f12a9cbd60144",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-10-14T11:50:55.221Z"
+      "updatedAt": "2026-10-17T10:40:07.195Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -2628,18 +2628,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-msbuild/skills/build-perf-baseline/SKILL.md",
-      "skillFolderHash": "59eb233d85839751779f083820c25c5f0a5d0c07",
+      "skillFolderHash": "723b589b5a13364737ece99b0e8bd11f87a2af3b",
       "installedAt": "2026-07-21T05:30:50.014Z",
-      "updatedAt": "2026-10-10T12:47:52.323Z"
+      "updatedAt": "2026-10-17T10:40:17.076Z"
     },
     "build-perf-diagnostics": {
       "source": "dotnet/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-msbuild/skills/build-perf-diagnostics/SKILL.md",
-      "skillFolderHash": "ca30bb54adcb3865994c5687677d1195f02ebaf1",
+      "skillFolderHash": "6d422e786b18d1108a9f0050da94429b3aeed78e",
       "installedAt": "2026-07-21T05:30:50.016Z",
-      "updatedAt": "2026-10-10T12:47:53.699Z"
+      "updatedAt": "2026-10-17T10:40:18.736Z"
     },
     "check-bin-obj-clash": {
       "source": "dotnet/skills",
@@ -3438,9 +3438,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pydantic/skills.git",
       "skillPath": "skills/logfire-instrumentation/SKILL.md",
-      "skillFolderHash": "4e525324d7cf5733671a34ba946dec6ee340b98d",
+      "skillFolderHash": "effbe3c4030902d43284da4aa546cc2e531a5cdd",
       "installedAt": "2026-07-21T11:27:04.645Z",
-      "updatedAt": "2026-10-16T11:21:42.224Z"
+      "updatedAt": "2026-10-17T10:40:22.419Z"
     },
     "logfire-query": {
       "source": "pydantic/skills",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "5d1128500c268b0006e7b1c0c1c8687cc71a69e9",
+      "skillFolderHash": "81fc11638744b289c8bc62caa6eb6127f3c789f2",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-16T11:22:04.160Z"
+      "updatedAt": "2026-10-17T10:40:34.870Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -9638,9 +9638,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/prisma/skills.git",
       "skillPath": "prisma-postgres-setup/SKILL.md",
-      "skillFolderHash": "939e7bbeb428c9b001eae337b83e2ccef4b6e824",
+      "skillFolderHash": "97c447b244fec16d6de075f3be9ddc7c6376c538",
       "installedAt": "2026-08-23T17:16:28.788Z",
-      "updatedAt": "2026-10-16T11:22:13.601Z"
+      "updatedAt": "2026-10-17T10:40:35.861Z"
     },
     "prisma-upgrade-v7": {
       "source": "prisma/skills",
@@ -11086,9 +11086,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl-search/SKILL.md",
-      "skillFolderHash": "419abbd5f52a9ef250abeff4e47e20fa1c14540a",
+      "skillFolderHash": "f77436d4fc7b23cc82785bec4ab96a6a87ddbfea",
       "installedAt": "2026-08-23T17:20:50.852Z",
-      "updatedAt": "2026-10-10T12:51:22.743Z"
+      "updatedAt": "2026-10-17T10:40:39.027Z"
     },
     "deep-agents-core": {
       "source": "langchain-ai/langchain-skills",

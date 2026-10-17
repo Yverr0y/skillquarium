@@ -4,9 +4,9 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15705,
+  "edges": 15703,
   "generic_names_blocked": 32,
-  "tier1_edges": 4685,
+  "tier1_edges": 4684,
   "tier2_edges": 721,
   "alias_edges": 4458,
   "discipline_edges": 599,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14919,
+   "EXTRACTED": 14917,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12252,
+   "references": 12250,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -3282,7 +3282,7 @@
    "id": "build-perf-baseline",
    "type": "Skill",
    "label": "build-perf-baseline",
-   "description": "Establish MSBuild/.NET build performance baselines before optimizing. USE FOR: a .NET build or solution that is slow or has build-performance concerns; cold, warm, incremental, or no-op measurements; before/after comparisons; CI build output caching; static graph build decisions; artifacts output; and dependency graph trimming. Start here before build-perf-diagnostics, incremental-build, or build-parallelism. DO NOT USE for webpack, npm, JavaScript bundlers, or other non-MSBuild build systems. For detailed target/task/analyzer bottleneck analysis after baselining, use build-perf-diagnostics.",
+   "description": "Establish MSBuild/.NET build performance baselines before optimizing. USE FOR: unranked slow builds; cold, warm, incremental or no-op measurements; before/after comparisons; CI output caching; static graph, artifacts output and dependency graph trimming. Start here before build-perf-diagnostics, incremental-build or build-parallelism. DO NOT USE FOR: known repeated-restore fixes (use eliminate-redundant-restores), non-MSBuild builds. For measured target/task/analyzer bottlenecks, use build-perf-diagnostics.",
    "source": "skills/build-perf-baseline/SKILL.md",
    "aliases": [
     "build perf baseline"
@@ -3297,7 +3297,7 @@
    "id": "build-perf-diagnostics",
    "type": "Skill",
    "label": "build-perf-diagnostics",
-   "description": "Diagnose MSBuild build performance bottlenecks using binary log analysis. USE FOR: identifying why builds are slow by analyzing binlog performance summaries, detecting ResolveAssemblyReference (RAR) taking >5s, Roslyn analyzers consuming >30% of Csc time, single targets dominating >50% of build time, node utilization below 80%, excessive Copy tasks, NuGet restore running every build. Covers timeline analysis, Target/Task Performance Summary interpretation, and 7 common bottleneck categories. Use after build-perf-baseline has established measurements. DO NOT USE FOR: establishing initial baselines (use build-perf-baseline first), fixing incremental build issues (use incremental-build), parallelism tuning (use build-parallelism), non-MSBuild build systems.",
+   "description": "Diagnose MSBuild bottlenecks from binlog timelines and Target/Task Performance Summaries after build-perf-baseline establishes measurements. USE FOR: unknown build slowness, RAR >5s, analyzers >30% of Csc, one target >50% of build time, node utilization <80%, excessive Copy tasks, finding restore overhead. DO NOT USE FOR: known repeated-restore fixes (use eliminate-redundant-restores), initial baselines (use build-perf-baseline), incremental rebuilds (use incremental-build), parallelism tuning (use build-parallelism), non-MSBuild builds.",
    "source": "skills/build-perf-diagnostics/SKILL.md",
    "aliases": [
     "build perf diagnostics"
@@ -22699,7 +22699,7 @@
    "id": "prisma-postgres-setup",
    "type": "Skill",
    "label": "prisma-postgres-setup",
-   "description": "Obtain or reuse a Prisma Postgres database and connect an application. Use for \"set up Prisma Postgres\", \"connect my app to Prisma Postgres\", or Prisma Postgres setup in v0 and Vercel Marketplace. Hands Prisma ORM configuration to prisma-orm-setup; honors an explicit driver, alternative ORM, or database-only choice.",
+   "description": "Obtain or reuse a Prisma Postgres database and connect an application. Use when the user needs a database and has none configured (\"I need a database\", \"add a Postgres database\", \"set up a database for this app\"), runs or mentions `create-db` or `npx create-db`, or asks to set up or connect Prisma Postgres, including in v0 and the Vercel Marketplace. Hands Prisma ORM configuration to prisma-orm-setup; reuses an existing connection first and honors an explicit provider, driver, alternative ORM, or database-only choice.",
    "source": "skills/prisma-postgres-setup/SKILL.md",
    "aliases": [
     "prisma postgres setup"
@@ -93300,15 +93300,6 @@
   {
    "src": "logfire-instrumentation",
    "rel": "references",
-   "dst": "nextjs",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "nextjs named in logfire-instrumentation/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "logfire-instrumentation",
-   "rel": "references",
    "dst": "observability-and-instrumentation",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -111574,15 +111565,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "nextjs named in json-render/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "nextjs",
-   "rel": "references",
-   "dst": "logfire-instrumentation",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "nextjs named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {

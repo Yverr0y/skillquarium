@@ -26,7 +26,7 @@ created: 2026-07-21
 - [binlog-generation](../notes/dotnet-development/binlog-generation.md) — Generate MSBuild binary logs (binlogs) for build diagnostics and analysis
 - [build-parallelism](../notes/dotnet-development/build-parallelism.md) — Analyze an MSBuild solution, solution filter, or Build.proj that schedules multiple project files
 - [build-perf-baseline](../notes/dotnet-development/build-perf-baseline.md) — Establish MSBuild/.NET build performance baselines before optimizing
-- [build-perf-diagnostics](../notes/dotnet-development/build-perf-diagnostics.md) — Diagnose MSBuild build performance bottlenecks using binary log analysis
+- [build-perf-diagnostics](../notes/dotnet-development/build-perf-diagnostics.md) — Diagnose MSBuild bottlenecks from binlog timelines and Target/Task Performance Summaries after build-perf-baseline establishes measurements
 - [check-bin-obj-clash](../notes/dotnet-development/check-bin-obj-clash.md) — Detects MSBuild projects with conflicting OutputPath or IntermediateOutputPath
 - [clr-activation-debugging](../notes/dotnet-development/clr-activation-debugging.md) — Diagnoses .NET Framework CLR activation issues using CLR activation logs (CLRLoad logs) produced by mscoree.dll
 - [code-testing-agent](../notes/dotnet-development/code-testing-agent.md) — Legacy compatibility alias for the code-testing skill
