@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "277349f351023416242526770d470b6259693347",
+      "skillFolderHash": "e3b503d6890ebf0174f4ffab63e646ddf898865a",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-16T11:21:48.474Z"
+      "updatedAt": "2026-10-18T11:01:26.448Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "81fc11638744b289c8bc62caa6eb6127f3c789f2",
+      "skillFolderHash": "2490d872da6452606b86351e2b96c2b5024da17a",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-17T10:40:34.870Z"
+      "updatedAt": "2026-10-18T11:01:39.268Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -10639,9 +10639,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-pipelines/SKILL.md",
-      "skillFolderHash": "abe8bdff143ac2a4e97a7a7775d94df7551348da",
+      "skillFolderHash": "7112dee1bb8cbcf337ca22ea14beadda10a7d835",
       "installedAt": "2026-08-23T17:20:36.191Z",
-      "updatedAt": "2026-10-10T12:50:57.431Z"
+      "updatedAt": "2026-10-18T11:01:42.786Z"
     },
     "databricks-python-sdk": {
       "source": "databricks/databricks-agent-skills",
@@ -10996,9 +10996,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl-agent/SKILL.md",
-      "skillFolderHash": "c6c89789542617d97532a0673461d96e1e56b3c3",
+      "skillFolderHash": "1f5e172a1c0d8c6fc61f356176b916b86d07eb24",
       "installedAt": "2026-08-23T17:20:50.792Z",
-      "updatedAt": "2026-10-10T12:51:20.108Z"
+      "updatedAt": "2026-10-18T11:01:44.676Z"
     },
     "firecrawl-crawl": {
       "source": "firecrawl/cli",
@@ -11330,9 +11330,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/browser-use/browser-use.git",
       "skillPath": "skills/browser-use/SKILL.md",
-      "skillFolderHash": "0bbfbfc1698165c9ab48a11bd44199e94de3c648",
+      "skillFolderHash": "2b7c0ad80f2363d851372b5cfdf7d610483d5a41",
       "installedAt": "2026-08-23T17:22:58.895Z",
-      "updatedAt": "2026-10-10T12:51:47.402Z"
+      "updatedAt": "2026-10-18T11:01:45.681Z"
     },
     "remote-browser": {
       "source": "browser-use/browser-use",
