@@ -18,7 +18,7 @@ created: 2026-08-23
 
 ## Related skills
 
-- [firecrawl-developer-index](../../notes/web-automation-frontend/firecrawl-developer-index.md) — Search an index of public repositories, GitHub issues, merged pull requests, repository READMEs, and curated documentation sites
+- [firecrawl-developer-index](../../notes/web-automation-frontend/firecrawl-developer-index.md) — Searches current documentation, release notes, API references and public repository issues for libraries, frameworks, SDKs, APIs and CLI tools with `firecrawl developer`
 - [firecrawl-parse](../../notes/web-automation-frontend/firecrawl-parse.md) — Convert a local file (PDF, DOCX, XLSX, HTML, …) to markdown, or answer questions about its content
 - [firecrawl-research-index](../../notes/web-automation-frontend/firecrawl-research-index.md) — Find the papers that answer a research query in Firecrawl's research paper index — a corpus of paper abstracts whose largest share is biomedical and life-science literature (PubMed...
 - [research](../../notes/software-dev/research.md) — Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo
