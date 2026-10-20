@@ -2691,9 +2691,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-advanced/skills/dotnet-pinvoke/SKILL.md",
-      "skillFolderHash": "4d4e79cb2742798d04a7dc58f93165e577be5911",
+      "skillFolderHash": "5dc88b9a1af4e9114a8b358776acd4c4b65ccdab",
       "installedAt": "2026-07-21T05:32:17.396Z",
-      "updatedAt": "2026-07-21T05:32:17.396Z"
+      "updatedAt": "2026-10-20T11:33:14.867Z"
     },
     "dotnet-trace-collect": {
       "source": "dotnet/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "9c6b0a0f481b63106b0516fc86779dba4e3bb24b",
+      "skillFolderHash": "b0f31458553052ccc028b973179c79e2564fd830",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-19T13:08:42.257Z"
+      "updatedAt": "2026-10-20T11:33:21.002Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -9777,9 +9777,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/clickhouse/agent-skills.git",
       "skillPath": "skills/clickhouse-js-node-rowbinary/SKILL.md",
-      "skillFolderHash": "2d824c323003feff85d2f5a145c79d3abbad3eb3",
+      "skillFolderHash": "3b45a2388c7ec6661c2a442faac27d9ae55eec1b",
       "installedAt": "2026-08-23T17:16:56.388Z",
-      "updatedAt": "2026-10-10T12:50:32.770Z"
+      "updatedAt": "2026-10-20T11:33:26.798Z"
     },
     "clickhouse-js-node-troubleshooting": {
       "source": "clickhouse/agent-skills",
@@ -10949,9 +10949,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/neo4j-contrib/neo4j-skills.git",
       "skillPath": "neo4j-snowflake-graph-analytics-skill/SKILL.md",
-      "skillFolderHash": "45babb3534e140bf42618a74734839af42625d0b",
+      "skillFolderHash": "a8cef09bbedc719a271fcfd6f187f850d91d90f7",
       "installedAt": "2026-08-23T17:20:44.806Z",
-      "updatedAt": "2026-10-10T12:51:18.000Z"
+      "updatedAt": "2026-10-20T11:33:32.256Z"
     },
     "neo4j-spark-skill": {
       "source": "neo4j-contrib/neo4j-skills",
@@ -11086,9 +11086,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl-search/SKILL.md",
-      "skillFolderHash": "f77436d4fc7b23cc82785bec4ab96a6a87ddbfea",
+      "skillFolderHash": "91d28d556d84754f5f197a60f9931bc97e7fbd96",
       "installedAt": "2026-08-23T17:20:50.852Z",
-      "updatedAt": "2026-10-17T10:40:39.027Z"
+      "updatedAt": "2026-10-20T11:33:33.644Z"
     },
     "deep-agents-core": {
       "source": "langchain-ai/langchain-skills",
