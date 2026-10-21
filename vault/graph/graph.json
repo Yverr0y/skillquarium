@@ -4,29 +4,29 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15703,
+  "edges": 15711,
   "generic_names_blocked": 32,
-  "tier1_edges": 4684,
-  "tier2_edges": 721,
-  "alias_edges": 4458,
+  "tier1_edges": 4682,
+  "tier2_edges": 723,
+  "alias_edges": 4454,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
-  "mean_skill_degree": 5.73,
+  "mean_skill_degree": 5.74,
   "median_skill_degree": 4,
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14917,
+   "EXTRACTED": 14925,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12250,
+   "references": 12258,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -1158,7 +1158,7 @@
    "id": "apollo-mcp-server",
    "type": "Skill",
    "label": "apollo-mcp-server",
-   "description": "> Guide for using Apollo MCP Server to connect AI agents with GraphQL APIs. Use this skill when: (1) setting up or configuring Apollo MCP Server, (2) defining MCP tools from GraphQL operations, (3) using introspection tools (introspect, search, validate, execute), (4) troubleshooting MCP server connectivity or tool execution issues.",
+   "description": "> Guide for using Apollo MCP Server to connect AI agents with GraphQL APIs. Use this skill when: (1) setting up or configuring Apollo MCP Server, (2) defining MCP tools from GraphQL operations, (3) using introspection tools (introspect, search, validate, execute, explorer), (4) configuring authentication, CORS, health checks, or telemetry, (5) writing Rhai scripts for request lifecycle hooks, (6) defining MCP prompts, (7) troubleshooting MCP server connectivity or tool execution issues.",
    "source": "skills/apollo-mcp-server/SKILL.md",
    "aliases": [
     "apollo mcp server"
@@ -2306,7 +2306,7 @@
    "id": "binlog-failure-analysis",
    "type": "Skill",
    "label": "binlog-failure-analysis",
-   "description": "Analyze MSBuild binary logs to diagnose build failures. USE FOR: build errors that are unclear from console output, diagnosing cascading failures across multi-project builds, tracing MSBuild target execution order, and generally any MSBuild build issues. Requires an existing .binlog file. DO NOT USE FOR: generating binlogs (use binlog-generation), non-MSBuild build systems.",
+   "description": "Analyze MSBuild binary logs to diagnose build failures. USE FOR: build errors that are unclear from console output, diagnosing cascading failures across multi-project builds, tracing MSBuild target execution order, and generally any MSBuild build issues. Requires an existing .binlog file. DO NOT USE FOR: generating binlogs (use binlog-generation), binlog MCP startup or connection failures (use troubleshoot-binlog-mcp), non-MSBuild build systems.",
    "source": "skills/binlog-failure-analysis/SKILL.md",
    "aliases": [
     "binlog failure analysis"
@@ -2321,7 +2321,7 @@
    "id": "binlog-generation",
    "type": "Skill",
    "label": "binlog-generation",
-   "description": "Generate MSBuild binary logs (binlogs) for build diagnostics and analysis. USE FOR: adding /bl:{} to any dotnet build, test, pack, publish, or restore command to capture a full build execution trace, prerequisite for binlog-failure-analysis and build-perf-diagnostics skills, enabling post-build investigation of errors or performance. Requires MSBuild 17.8+ / .NET 8 SDK+ for {} placeholder; PowerShell must quote the complete switch as '-bl:{}'. DO NOT USE FOR: non-MSBuild build systems (npm, Maven, CMake), analyzing an existing binlog (use binlog-failure-analysis instead).",
+   "description": "Generate MSBuild binary logs (binlogs) for build diagnostics and analysis. USE FOR: adding /bl:{} to any dotnet build, test, pack, publish, or restore command to capture a full build execution trace, prerequisite for binlog-failure-analysis and build-perf-diagnostics skills, enabling post-build investigation of errors or performance. Requires MSBuild 17.8+ / .NET 8 SDK+ for {} placeholder; PowerShell must quote the complete switch as '-bl:{}'. DO NOT USE FOR: non-MSBuild build systems (npm, Maven, CMake), analyzing an existing binlog (use binlog-failure-analysis instead), binlog MCP startup failures (use troubleshoot-binlog-mcp).",
    "source": "skills/binlog-generation/SKILL.md",
    "aliases": [
     "binlog generation"
@@ -37356,6 +37356,15 @@
   {
    "src": "apollo-mcp-server",
    "rel": "references",
+   "dst": "auth",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in apollo-mcp-server/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "apollo-mcp-server",
+   "rel": "references",
    "dst": "graphql-operations",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -37365,10 +37374,37 @@
   {
    "src": "apollo-mcp-server",
    "rel": "references",
+   "dst": "opentelemetry",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "opentelemetry named in apollo-mcp-server/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "apollo-mcp-server",
+   "rel": "references",
+   "dst": "protobuf",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "protobuf named in apollo-mcp-server/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "apollo-mcp-server",
+   "rel": "references",
    "dst": "rover",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "rover named in apollo-mcp-server/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "apollo-mcp-server",
+   "rel": "references",
+   "dst": "telemetry",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "telemetry referenced in code/link context in apollo-mcp-server/SKILL.md",
    "status": "accepted"
   },
   {
@@ -40150,6 +40186,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "auth referenced in code/link context in agentic-actions-auditor/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "auth",
+   "rel": "references",
+   "dst": "apollo-mcp-server",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "auth referenced in code/link context in apollo-mcp-server/SKILL.md",
    "status": "accepted"
   },
   {
@@ -74277,7 +74322,7 @@
    "dst": "firecrawl-download",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-download named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-download/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -74286,7 +74331,7 @@
    "dst": "firecrawl-interact",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-interact named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-interact/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -74529,7 +74574,7 @@
    "dst": "firecrawl",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-download named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-download/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -74592,7 +74637,7 @@
    "dst": "firecrawl",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-interact named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-interact/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -116655,6 +116700,15 @@
   {
    "src": "opentelemetry",
    "rel": "references",
+   "dst": "apollo-mcp-server",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "opentelemetry named in apollo-mcp-server/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "opentelemetry",
+   "rel": "references",
    "dst": "aws-agentic-ai",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -127936,6 +127990,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "protobuf named in android-performance/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "protobuf",
+   "rel": "references",
+   "dst": "apollo-mcp-server",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "protobuf named in apollo-mcp-server/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -157285,6 +157348,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "telemetry",
+   "rel": "references",
+   "dst": "apollo-mcp-server",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "telemetry referenced in code/link context in apollo-mcp-server/SKILL.md",
    "status": "accepted"
   },
   {

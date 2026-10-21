@@ -1275,9 +1275,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skill-data/core/SKILL.md",
-      "skillFolderHash": "5b1718b52d12df1664b2b8b11edb300f73f08a8c",
+      "skillFolderHash": "a11b92d404fbacfb26fad1946a5a10600e76dd06",
       "installedAt": "2026-06-09T19:25:40.383Z",
-      "updatedAt": "2026-10-10T12:46:20.178Z"
+      "updatedAt": "2026-10-21T11:45:18.197Z"
     },
     "dogfood": {
       "source": "vercel-labs/agent-browser",
@@ -2601,18 +2601,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-msbuild/skills/binlog-failure-analysis/SKILL.md",
-      "skillFolderHash": "58d2c0c6c4283fcbf6d66fefc3789336004eda89",
+      "skillFolderHash": "d1649701f0be00c1b2bc63e3a34e1f7ae41987e9",
       "installedAt": "2026-07-21T05:30:50.011Z",
-      "updatedAt": "2026-10-10T12:47:47.614Z"
+      "updatedAt": "2026-10-21T11:45:28.051Z"
     },
     "binlog-generation": {
       "source": "dotnet/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-msbuild/skills/binlog-generation/SKILL.md",
-      "skillFolderHash": "0edb9528cb5f8fb3a082eb6c61bac25363fa6e4d",
+      "skillFolderHash": "4fa67f8e6dce545b8a5d0fc3505dd1146ec6e12f",
       "installedAt": "2026-07-21T05:30:50.012Z",
-      "updatedAt": "2026-10-10T12:47:49.145Z"
+      "updatedAt": "2026-10-21T11:45:29.804Z"
     },
     "build-parallelism": {
       "source": "dotnet/skills",
@@ -2637,9 +2637,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/dotnet/skills.git",
       "skillPath": "plugins/dotnet-msbuild/skills/build-perf-diagnostics/SKILL.md",
-      "skillFolderHash": "6d422e786b18d1108a9f0050da94429b3aeed78e",
+      "skillFolderHash": "1e1c1562293975177a5f485819e6023d31e7a555",
       "installedAt": "2026-07-21T05:30:50.016Z",
-      "updatedAt": "2026-10-17T10:40:18.736Z"
+      "updatedAt": "2026-10-21T11:45:31.493Z"
     },
     "check-bin-obj-clash": {
       "source": "dotnet/skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "b0f31458553052ccc028b973179c79e2564fd830",
+      "skillFolderHash": "6681b2d8ac08b36d81a6b4e88c843325a37b6440",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-20T11:33:21.002Z"
+      "updatedAt": "2026-10-21T11:45:36.234Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
@@ -9557,18 +9557,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-pipeline/SKILL.md",
-      "skillFolderHash": "e812c50df09985ad3b6cf4d217908c3d73f26597",
+      "skillFolderHash": "5e8ab691bb120600426a661dd388403706d4a7f4",
       "installedAt": "2026-08-21T01:50:31.552Z",
-      "updatedAt": "2026-10-16T11:22:09.353Z"
+      "updatedAt": "2026-10-21T11:45:38.961Z"
     },
     "deep-research": {
       "source": "Imbad0202/academic-research-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "deep-research/SKILL.md",
-      "skillFolderHash": "9ace894f7ee769f691328087f7062b35ff7bafba",
+      "skillFolderHash": "0343562423dfb009355c98cdb644b50952ec7fb4",
       "installedAt": "2026-08-21T01:50:31.555Z",
-      "updatedAt": "2026-10-14T11:51:34.820Z"
+      "updatedAt": "2026-10-21T11:45:42.322Z"
     },
     "prisma-cli": {
       "source": "prisma/skills",
@@ -10387,9 +10387,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/apollographql/skills.git",
       "skillPath": "skills/apollo-mcp-server/SKILL.md",
-      "skillFolderHash": "55e98cc412194c17b85b5a9a38898cd8215ff91b",
+      "skillFolderHash": "7201398fa36211d5c7fdd35a735e2b7ebc1436ac",
       "installedAt": "2026-08-23T17:17:21.658Z",
-      "updatedAt": "2026-08-23T17:17:21.658Z"
+      "updatedAt": "2026-10-21T11:45:43.402Z"
     },
     "apollo-router": {
       "source": "apollographql/skills",
@@ -10987,9 +10987,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl/SKILL.md",
-      "skillFolderHash": "197b2b7f1f8be884d65a0142f3b4d25b31901efe",
+      "skillFolderHash": "5697a4beb4fd9b09224d2bdc896dedaaa1a96e99",
       "installedAt": "2026-08-23T17:20:50.775Z",
-      "updatedAt": "2026-10-10T12:51:19.468Z"
+      "updatedAt": "2026-10-21T11:45:46.805Z"
     },
     "firecrawl-agent": {
       "source": "firecrawl/cli",
@@ -11077,9 +11077,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/firecrawl/cli.git",
       "skillPath": "skills/firecrawl-scrape/SKILL.md",
-      "skillFolderHash": "40e574a6b626c89c66dccd4f4db6ed5648080083",
+      "skillFolderHash": "27287053ce4356de8ffe45d2d2f4047eb6439726",
       "installedAt": "2026-08-23T17:20:50.848Z",
-      "updatedAt": "2026-10-10T12:51:22.088Z"
+      "updatedAt": "2026-10-21T11:45:47.681Z"
     },
     "firecrawl-search": {
       "source": "firecrawl/cli",
