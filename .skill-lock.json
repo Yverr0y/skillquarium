@@ -1538,9 +1538,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "2c2418a147b0422cba02b8dde2e959c50e547ee5",
+      "skillFolderHash": "b8a1f89de010fb789e5ed4c4ee4a783b91fe3243",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-10-16T11:21:14.134Z"
+      "updatedAt": "2026-10-22T11:48:17.102Z"
     },
     "figma-generate-design": {
       "source": "openai/plugins",
@@ -2141,9 +2141,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mlflow/skills.git",
       "skillPath": "mlflow-onboarding/SKILL.md",
-      "skillFolderHash": "90fb497b40dc9a9b7c77590d955944b920ddb45a",
+      "skillFolderHash": "77f91075393730ef43ddd0c5c7d1e393712ec84e",
       "installedAt": "2026-06-25T13:10:54.748Z",
-      "updatedAt": "2026-10-10T12:47:35.538Z"
+      "updatedAt": "2026-10-22T11:48:26.528Z"
     },
     "qdrant-clients-sdk": {
       "source": "qdrant/skills",
@@ -8829,9 +8829,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/github/gh-aw.git",
       "skillPath": ".github/skills/agentic-workflows/SKILL.md",
-      "skillFolderHash": "2490d872da6452606b86351e2b96c2b5024da17a",
+      "skillFolderHash": "b435b6de54c73472ce8a28c0ffad4b30f2a8d9b8",
       "installedAt": "2026-08-17T03:21:27.911Z",
-      "updatedAt": "2026-10-18T11:01:39.268Z"
+      "updatedAt": "2026-10-22T11:48:42.834Z"
     },
     "reverse-skill-router": {
       "source": "zhaoxuya520/reverse-skill",
@@ -10558,9 +10558,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-genie-agents/SKILL.md",
-      "skillFolderHash": "96857cb617c17997a47d473e54de65c6df774061",
+      "skillFolderHash": "ace0f2cea5edf26578b481826f2976c687be45a0",
       "installedAt": "2026-08-23T17:20:36.152Z",
-      "updatedAt": "2026-10-10T12:50:48.961Z"
+      "updatedAt": "2026-10-22T11:48:46.032Z"
     },
     "databricks-iceberg": {
       "source": "databricks/databricks-agent-skills",
@@ -10576,9 +10576,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-jobs/SKILL.md",
-      "skillFolderHash": "3f6a007b276b5b2b52ad7262f44a43c9d291e773",
+      "skillFolderHash": "c3619c1942be28bcc9556f60c9acadd54ef31921",
       "installedAt": "2026-08-23T17:20:36.160Z",
-      "updatedAt": "2026-08-23T17:20:36.160Z"
+      "updatedAt": "2026-10-22T11:48:47.523Z"
     },
     "databricks-lakebase": {
       "source": "databricks/databricks-agent-skills",
