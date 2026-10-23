@@ -4,7 +4,7 @@
   "skills": 2148,
   "expert_profiles": 503,
   "nodes": 2221,
-  "edges": 15711,
+  "edges": 15713,
   "generic_names_blocked": 32,
   "tier1_edges": 4682,
   "tier2_edges": 723,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14925,
+   "EXTRACTED": 14927,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2148,
-   "references": 12258,
+   "references": 12260,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -34278,6 +34278,15 @@
   {
    "src": "agentic-workflows",
    "rel": "references",
+   "dst": "cost-management",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "cost-management named in agentic-workflows/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "agentic-workflows",
+   "rel": "references",
    "dst": "github-actions-ci",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -58191,6 +58200,15 @@
   {
    "src": "cost-management",
    "rel": "references",
+   "dst": "agentic-workflows",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "cost-management named in agentic-workflows/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "cost-management",
+   "rel": "references",
    "dst": "alloy",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -74295,7 +74313,7 @@
    "dst": "firecrawl-agent",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-agent named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-agent/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -74421,7 +74439,7 @@
    "dst": "firecrawl",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "firecrawl-agent named in firecrawl/SKILL.md body",
+   "justification": "firecrawl named in firecrawl-agent/SKILL.md body",
    "status": "accepted"
   },
   {
