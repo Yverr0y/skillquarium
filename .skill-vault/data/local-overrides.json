@@ -1,4 +1,13 @@
 {
+  "agent-browser": [
+    {
+      "id": "mismatched-docs-url",
+      "issue": 1101,
+      "source": "openai/plugins",
+      "find": "  docs:\n    - \"https://openai.com/index/introducing-codex/\"",
+      "replace": "  docs:\n    - \"https://agent-browser.dev\""
+    }
+  ],
   "logfire-instrumentation": [
     {
       "id": "logfire-5-1-1-pin-skill",
@@ -2214,15 +2223,6 @@
       "replace": "> [!WARNING]\n> **Breaking changes through xarray 2026.09.0** (the current release, up from 2024.01 when this skill was first written):\n> 1. **Zarr v3 required**: `xarray[io]` now installs `zarr>=3.0`; if your environment pins `zarr<3`, Zarr I/O will fail. As of 2026.09.0 the remaining zarr-python 2 compatibility code has been removed entirely.\n> 2. **Timedelta decode default changed**: `open_dataset()` no longer decodes `np.timedelta64` from units-only attributes by default. Pass `decode_timedelta=True` to restore the previous behavior.\n> 3. **netCDF preferred engine**: The default backend order reverted to `netCDF4 > h5netcdf > scipy` in 2026.04.0 (after a temporary change in 2025.09.1). Explicitly specify `engine=` when reproducibility matters.\n> 4. **Bottleneck disabled by default** (2026.09.0): accelerated rolling/reduction operations no longer use the optional `bottleneck` backend unless it is explicitly re-enabled; results are unaffected but performance characteristics may change.\n> 5. **Python 3.11 support ending**: 2026.09.0 is the last xarray release supporting Python 3.11 — the next release requires Python 3.12+."
     }
   ],
-  "rust-router": [
-    {
-      "id": "rust-msrv-policy",
-      "issue": 1144,
-      "source": "actionbook/rust-skills",
-      "find": "When creating new Rust projects or Cargo.toml files, ALWAYS use:\n\n```toml\n[package]\nedition = \"2024\"  # ALWAYS use latest stable edition\nrust-version = \"1.85\"",
-      "replace": "When creating new Rust projects or Cargo.toml files, choose the edition and `rust-version`\nfrom the project's language features, dependencies, and user compatibility requirements.\n`rust-version` declares the minimum supported Rust version (MSRV), not the compiler to\ninstall. Use the latest stable toolchain for development unless the project specifies one.\n\nFor example, Rust 2024 requires at least Rust 1.85. Keep this MSRV only if the package\nand its dependencies support it, and test the declared MSRV:\n\n```toml\n[package]\nedition = \"2024\"\nrust-version = \"1.85\""
-    }
-  ],
   "render-deploy": [
     {
       "id": "free-plan-cpu-blueprint-spec",
@@ -2249,6 +2249,15 @@
       "file": "references/blast-common-url-api.txt",
       "find": "Source docs: https://ncbi.github.io/blast-cloud/dev/api.html",
       "replace": "Source docs: https://blast.ncbi.nlm.nih.gov/doc/blast-help/developerinfo.html"
+    }
+  ],
+  "rust-router": [
+    {
+      "id": "rust-msrv-policy",
+      "issue": 1144,
+      "source": "actionbook/rust-skills",
+      "find": "When creating new Rust projects or Cargo.toml files, ALWAYS use:\n\n```toml\n[package]\nedition = \"2024\"  # ALWAYS use latest stable edition\nrust-version = \"1.85\"",
+      "replace": "When creating new Rust projects or Cargo.toml files, choose the edition and `rust-version`\nfrom the project's language features, dependencies, and user compatibility requirements.\n`rust-version` declares the minimum supported Rust version (MSRV), not the compiler to\ninstall. Use the latest stable toolchain for development unless the project specifies one.\n\nFor example, Rust 2024 requires at least Rust 1.85. Keep this MSRV only if the package\nand its dependencies support it, and test the declared MSRV:\n\n```toml\n[package]\nedition = \"2024\"\nrust-version = \"1.85\""
     }
   ]
 }
