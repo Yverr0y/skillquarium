@@ -1622,7 +1622,9 @@ HF_TOKEN=hf_xxx sky launch -c fsdp fsdp-train.yaml --secret HF_TOKEN
 
 ### Ray Train Multi-Node Example
 
-Distributed training using Ray Train across multiple nodes.
+Start a user Ray runtime on every node before running the training driver.
+The training function below is an adaptation skeleton: supply the model, data,
+optimizer and loss computation for the actual workload.
 
 ```yaml
 # ray-train.yaml
@@ -1636,15 +1638,21 @@ resources:
   accelerators: A100:4
 
 setup: |
-  pip install "ray[train]" torch torchvision
+  pip install "ray[default,train]" torch torchvision
   pip install transformers datasets
 
 run: |
-  # SkyPilot sets up a Ray cluster across all nodes automatically.
-  # The head node's Ray address is available at the standard port.
+  # Start the user runtime separately from SkyPilot's internal Ray runtime.
+  head_ip=$(echo "$SKYPILOT_NODE_IPS" | head -n1)
+  export RAY_HEAD_PORT=6385
+  export RAY_DASHBOARD_PORT=8280
+  export RAY_DASHBOARD_AGENT_LISTEN_PORT=52366
+  export RAY_HEAD_IP_ADDRESS="$head_ip"
+  ~/sky_templates/ray/start_cluster
+
   if [ "$SKYPILOT_NODE_RANK" == "0" ]; then
-    # Only run training script on the head node;
-    # Ray distributes the work to all nodes
+    # Connect the driver to this user runtime, not address="auto".
+    export RAY_ADDRESS="$head_ip:$RAY_HEAD_PORT"
     python train_ray.py \
       --num-workers $((SKYPILOT_NUM_NODES * SKYPILOT_NUM_GPUS_PER_NODE)) \
       --gpus-per-worker 1
@@ -1655,10 +1663,19 @@ The `train_ray.py` script uses `ray.train`:
 
 ```python
 # train_ray.py (referenced by the YAML above)
+import argparse
+import os
+
 import ray
 from ray import train
 from ray.train.torch import TorchTrainer
 from ray.train import ScalingConfig
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--num-workers", type=int, required=True)
+parser.add_argument("--gpus-per-worker", type=int, default=1)
+args = parser.parse_args()
+ray.init(address=os.environ["RAY_ADDRESS"])
 
 def train_func(config):
     import torch
@@ -1849,36 +1866,52 @@ for job in jobs:
     print(f"Job {job['job_id']}: {job['job_name']} - {job['status']}")
 ```
 
-### DAG Workflow (Task Dependencies)
+### Managed Pipeline (Task Dependencies)
+
+`sky.launch` accepts a single task. Use a managed-job chain for dependent stages
+that can use different clusters. Both stages mount the same existing bucket so
+preprocessed data survives cluster teardown; replace the bucket URI and provide
+`preprocess.py` and `train.py` in the local workdir before launching.
 
 ```python
 import sky
 
-# Create a DAG with task dependencies
+bucket = 's3://YOUR_EXISTING_PIPELINE_BUCKET'
 with sky.Dag() as dag:
-    # Step 1: Data preprocessing
     preprocess = sky.Task(
         name='preprocess',
+        workdir='.',
         setup='pip install pandas pyarrow',
-        run='python preprocess.py --output /tmp/data',
+        run='python preprocess.py --output /pipeline-data',
     )
     preprocess.set_resources(sky.Resources(cpus='8+', memory='32+'))
 
-    # Step 2: Training (depends on preprocessing)
     train = sky.Task(
         name='train',
+        workdir='.',
         setup='pip install torch transformers',
-        run='python train.py --data /tmp/data',
+        run='python train.py --data /pipeline-data',
     )
     train.set_resources(sky.Resources(accelerators='A100:4'))
 
-    # Define dependency: preprocess must finish before train
+    for task in (preprocess, train):
+        task.set_storage_mounts({
+            '/pipeline-data': sky.Storage(
+                source=bucket,
+                mode=sky.StorageMode.MOUNT,
+            ),
+        })
     preprocess >> train
 
-# Launch the DAG (experimental)
-request_id = sky.launch(dag, cluster_name='pipeline')
-sky.get(request_id)
+request_id = sky.jobs.launch(dag, name='pipeline')
+job_ids, controller_handle = sky.get(request_id)
+print(f'Managed pipeline job IDs: {job_ids}')
 ```
+
+The launch request completing does not mean training has finished. Monitor
+`sky jobs queue -o json` at the job's heartbeat interval and collect bounded
+`sky jobs logs JOB_ID --tail 100 --no-follow` snapshots until terminal. Keep the
+shared data bucket after the managed clusters are torn down.
 
 ### Autostop Management
 
