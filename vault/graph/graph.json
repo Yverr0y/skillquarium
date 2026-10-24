@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "metrics": {
-  "skills": 2153,
+  "skills": 2156,
   "expert_profiles": 503,
-  "nodes": 2226,
-  "edges": 15959,
+  "nodes": 2229,
+  "edges": 15978,
   "generic_names_blocked": 31,
-  "tier1_edges": 4805,
-  "tier2_edges": 720,
-  "alias_edges": 4463,
+  "tier1_edges": 4810,
+  "tier2_edges": 721,
+  "alias_edges": 4471,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 520,
@@ -20,13 +20,13 @@
   "orphan_count": 123,
   "orphan_rate": 0.0571,
   "by_provenance": {
-   "EXTRACTED": 15173,
+   "EXTRACTED": 15192,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
-   "in_domain": 2153,
-   "references": 12500,
+   "in_domain": 2156,
+   "references": 12516,
    "in_discipline": 599,
    "touches": 520,
    "has_step": 69,
@@ -14326,6 +14326,21 @@
    "deprecated": false
   },
   {
+   "id": "inspect-ai",
+   "type": "Skill",
+   "label": "inspect-ai",
+   "description": "Write, run and diagnose local LLM evaluations with Inspect AI using tasks, datasets, solvers, scorers and saved eval logs. Use for custom eval harnesses, deterministic mock checks, bounded model runs and comparing sample-level failures.",
+   "source": "skills/inspect-ai/SKILL.md",
+   "aliases": [
+    "inspect ai"
+   ],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
    "id": "install-duckdb",
    "type": "Skill",
    "label": "install-duckdb",
@@ -15424,6 +15439,21 @@
    "source": "skills/litigation-update-post/SKILL.md",
    "aliases": [
     "litigation update post"
+   ],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "llama-cpp",
+   "type": "Skill",
+   "label": "llama-cpp",
+   "description": "Run GGUF language and embedding models locally with llama.cpp. Use for model and quant selection, CPU/Metal/CUDA builds, llama-server APIs, Hugging Face downloads, conversion, and diagnosing local inference failures.",
+   "source": "skills/llama-cpp/SKILL.md",
+   "aliases": [
+    "llama cpp"
    ],
    "uses": 0,
    "successes": 0,
@@ -27263,6 +27293,19 @@
    "aliases": [
     "skills hub"
    ],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "skypilot",
+   "type": "Skill",
+   "label": "skypilot",
+   "description": "Use when launching cloud VMs, Kubernetes pods, or Slurm jobs for GPU/TPU/CPU workloads, training or fine-tuning models on cloud GPUs, deploying inference servers (vllm, TGI, etc.) with autoscaling, writing or debugging SkyPilot task YAML files, using spot/preemptible instances for cost savings, comparing GPU prices across clouds, managing compute across 25+ clouds, Kubernetes, Slurm, and on-prem clusters with failover between them, troubleshooting resource availability or SkyPilot errors, optimizing cost and GPU availability, or migrating an existing Slurm workload (converting sbatch scripts, salloc sessions, job arrays or srun invocations into SkyPilot task YAMLs, and mapping Slurm commands, directives and SLURM_* environment variables to their SkyPilot equivalents).",
+   "source": "skills/skypilot/SKILL.md",
+   "aliases": [],
    "uses": 0,
    "successes": 0,
    "success_rate": null,
@@ -81046,6 +81089,15 @@
   {
    "src": "get-available-resources",
    "rel": "references",
+   "dst": "skypilot",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of get-available-resources appears in skypilot/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "get-available-resources",
+   "rel": "references",
    "dst": "theoretical-chemist",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -85996,6 +86048,15 @@
   {
    "src": "hf-cli",
    "rel": "references",
+   "dst": "inspect-ai",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of hf-cli appears in inspect-ai/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "hf-cli",
+   "rel": "references",
    "dst": "lamindb",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -86009,6 +86070,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of hf-cli appears in langchain-dependencies/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "hf-cli",
+   "rel": "references",
+   "dst": "llama-cpp",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of hf-cli appears in llama-cpp/SKILL.md",
    "status": "accepted"
   },
   {
@@ -86815,6 +86885,15 @@
   {
    "src": "huggingface-community-evals",
    "rel": "references",
+   "dst": "inspect-ai",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "inspect-ai named in huggingface-community-evals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "huggingface-community-evals",
+   "rel": "references",
    "dst": "optimize-for-gpu",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -86945,6 +87024,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of hf-cli appears in huggingface-llm-trainer/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "huggingface-llm-trainer",
+   "rel": "references",
+   "dst": "llama-cpp",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "llama-cpp named in huggingface-llm-trainer/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -89591,6 +89679,33 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "template referenced in code/link context in insecure-defaults/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "inspect-ai",
+   "rel": "in_domain",
+   "dst": "domain:ml-ai",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "inspect-ai",
+   "rel": "references",
+   "dst": "hf-cli",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of hf-cli appears in inspect-ai/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "inspect-ai",
+   "rel": "references",
+   "dst": "huggingface-community-evals",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "inspect-ai named in huggingface-community-evals/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -93902,6 +94017,51 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "docx named in litigation-update-post/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "llama-cpp",
+   "rel": "in_domain",
+   "dst": "domain:ml-ai",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "llama-cpp",
+   "rel": "references",
+   "dst": "hf-cli",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of hf-cli appears in llama-cpp/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "llama-cpp",
+   "rel": "references",
+   "dst": "huggingface-llm-trainer",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "llama-cpp named in huggingface-llm-trainer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "llama-cpp",
+   "rel": "references",
+   "dst": "optimize-for-gpu",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of optimize-for-gpu appears in llama-cpp/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "llama-cpp",
+   "rel": "references",
+   "dst": "skillquarium",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "skillquarium named in llama-cpp/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -118756,6 +118916,15 @@
   {
    "src": "optimize-for-gpu",
    "rel": "references",
+   "dst": "llama-cpp",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of optimize-for-gpu appears in llama-cpp/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "optimize-for-gpu",
+   "rel": "references",
    "dst": "modal",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -133646,6 +133815,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "query referenced in code/link context in skillquarium/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "query",
+   "rel": "references",
+   "dst": "skypilot",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "query referenced in code/link context in skypilot/SKILL.md",
    "status": "accepted"
   },
   {
@@ -153163,6 +153341,15 @@
   {
    "src": "skillquarium",
    "rel": "references",
+   "dst": "llama-cpp",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "skillquarium named in llama-cpp/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "skillquarium",
+   "rel": "references",
    "dst": "pydeseq2",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -153302,6 +153489,33 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "Electronic health record named in skills-hub/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "skypilot",
+   "rel": "in_domain",
+   "dst": "domain:cloud-devops",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "skypilot",
+   "rel": "references",
+   "dst": "get-available-resources",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of get-available-resources appears in skypilot/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "skypilot",
+   "rel": "references",
+   "dst": "query",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "query referenced in code/link context in skypilot/SKILL.md",
    "status": "accepted"
   },
   {

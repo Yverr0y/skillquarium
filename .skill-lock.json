@@ -12100,6 +12100,15 @@
       "skillFolderHash": "7eb98586c9bb0e3b58ba26cdea7e34750b153789",
       "installedAt": "2026-10-24T15:45:31.912Z",
       "updatedAt": "2026-10-24T15:45:31.912Z"
+    },
+    "skypilot": {
+      "source": "skypilot-org/skypilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/skypilot-org/skypilot.git",
+      "skillPath": "agent/skills/skypilot/SKILL.md",
+      "skillFolderHash": "879b96efa979fdfab867a9c841fbc203563711af",
+      "installedAt": "2026-10-24T15:58:04.348Z",
+      "updatedAt": "2026-10-24T15:58:04.348Z"
     }
   },
   "dismissed": {

@@ -2066,7 +2066,10 @@
     "bun": "software-dev",
     "zod": "software-dev",
     "pnpm": "software-dev",
-    "deno": "software-dev"
+    "deno": "software-dev",
+    "llama-cpp": "ml-ai",
+    "inspect-ai": "ml-ai",
+    "skypilot": "cloud-devops"
   },
   "synonyms": {
     "pydeseq2": [
