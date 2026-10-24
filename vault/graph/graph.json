@@ -1,34 +1,34 @@
 {
  "schema_version": 1,
  "metrics": {
-  "skills": 2152,
+  "skills": 2156,
   "expert_profiles": 503,
-  "nodes": 2225,
-  "edges": 15815,
+  "nodes": 2229,
+  "edges": 15978,
   "generic_names_blocked": 31,
-  "tier1_edges": 4731,
+  "tier1_edges": 4810,
   "tier2_edges": 721,
-  "alias_edges": 4463,
+  "alias_edges": 4471,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
-  "artifact_edges": 519,
+  "artifact_edges": 520,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
-  "mean_skill_degree": 5.77,
+  "mean_skill_degree": 5.84,
   "median_skill_degree": 4,
-  "orphan_count": 124,
-  "orphan_rate": 0.0576,
+  "orphan_count": 123,
+  "orphan_rate": 0.0571,
   "by_provenance": {
-   "EXTRACTED": 15029,
+   "EXTRACTED": 15192,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
-   "in_domain": 2152,
-   "references": 12358,
+   "in_domain": 2156,
+   "references": 12516,
    "in_discipline": 599,
-   "touches": 519,
+   "touches": 520,
    "has_step": 69,
    "co_occurs_with": 96,
    "chains_to": 22
@@ -3613,6 +3613,19 @@
    "deprecated": false
   },
   {
+   "id": "bun",
+   "type": "Skill",
+   "label": "bun",
+   "description": "Develop, test, build, and troubleshoot JavaScript or TypeScript applications using the Bun runtime and package manager. Use for bun.lock, bun:test, Bun.serve, Bun.build, or Node-to-Bun compatibility work.",
+   "source": "skills/bun/SKILL.md",
+   "aliases": [],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
    "id": "busco-assessor",
    "type": "Skill",
    "label": "busco-assessor",
@@ -5055,7 +5068,7 @@
    "id": "clinical-trial-finder",
    "type": "Skill",
    "label": "clinical-trial-finder",
-   "description": "Find clinical trials for a gene, variant, or condition from ClinicalTrials.gov + EUCTR, with FHIR R4 output",
+   "description": "Find clinical trials for a gene, variant, or condition from ClinicalTrials.gov, with FHIR R4 output",
    "source": "skills/clinical-trial-finder/SKILL.md",
    "aliases": [
     "clinical trial finder"
@@ -7736,6 +7749,19 @@
    "label": "defuddle",
    "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.",
    "source": "skills/defuddle/SKILL.md",
+   "aliases": [],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "deno",
+   "type": "Skill",
+   "label": "deno",
+   "description": "Use when writing, running, configuring, reviewing, or debugging code in a Deno project, or when scaffolding a new one. Covers dependency management with deno install and deno add, package.json and node_modules support, npm and JSR packages, permissions, where configuration belongs across package.json, tsconfig.json and deno.json, workspaces, the built-in toolchain (fmt, lint, test, check, bench, compile), and publishing.",
+   "source": "skills/deno/SKILL.md",
    "aliases": [],
    "uses": 0,
    "successes": 0,
@@ -18702,7 +18728,7 @@
    "id": "ncbi-pmc-skill",
    "type": "Skill",
    "label": "ncbi-pmc-skill",
-   "description": "Submit compact NCBI PMC Open Access requests for article/file availability metadata. Use when a user wants concise PMC Open Access summaries; save raw XML only on request.",
+   "description": "Explain and migrate legacy PMC OA Web Service calls when an old workflow invokes ncbi_pmc.py or oa.fcgi. The service is retired; route current PMC retrieval to paper-lookup or ncbi-entrez-skill.",
    "source": "skills/ncbi-pmc-skill/SKILL.md",
    "aliases": [
     "ncbi pmc skill"
@@ -22314,6 +22340,19 @@
    "aliases": [
     "plugin eval"
    ],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "pnpm",
+   "type": "Skill",
+   "label": "pnpm",
+   "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, overrides, config dependencies, or the global virtual store.",
+   "source": "skills/pnpm/SKILL.md",
+   "aliases": [],
    "uses": 0,
    "successes": 0,
    "success_rate": null,
@@ -32188,6 +32227,19 @@
    "deprecated": false
   },
   {
+   "id": "zod",
+   "type": "Skill",
+   "label": "zod",
+   "description": "Define and validate runtime schemas with Zod in TypeScript or JavaScript. Use for parsing external payloads, forms, environment variables, discriminated unions, transformations, validation errors, or Zod 3-to-4 compatibility.",
+   "source": "skills/zod/SKILL.md",
+   "aliases": [],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
    "id": "zoologist",
    "type": "ExpertProfile",
    "label": "zoologist",
@@ -34970,6 +35022,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "ai-sdk named in phoenix-evals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "ai-sdk",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in ai-sdk/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -40096,6 +40157,15 @@
   {
    "src": "audit-and-reduce-dependencies",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in audit-and-reduce-dependencies/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "audit-and-reduce-dependencies",
+   "rel": "references",
    "dst": "supply-chain",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -41005,6 +41075,15 @@
   {
    "src": "base44-cli",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in base44-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "base44-cli",
+   "rel": "references",
    "dst": "vite",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -41549,6 +41628,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "bids named in cognitive-neuroscientist/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bids",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in bids/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -45424,6 +45512,15 @@
   {
    "src": "bootstrap",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in bootstrap/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bootstrap",
+   "rel": "references",
    "dst": "geist",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -45446,6 +45543,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "nextjs named in bootstrap/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bootstrap",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in bootstrap/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -46270,10 +46376,28 @@
   {
    "src": "build-iterated-agentic-loop",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in build-iterated-agentic-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "build-iterated-agentic-loop",
+   "rel": "references",
    "dst": "narrow-react-prop-types",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "narrow-react-prop-types named in build-iterated-agentic-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "build-iterated-agentic-loop",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in build-iterated-agentic-loop/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -47071,6 +47195,15 @@
   {
    "src": "building-ai-agent-on-cloudflare",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in building-ai-agent-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "building-ai-agent-on-cloudflare",
+   "rel": "references",
    "dst": "wrangler",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -47125,10 +47258,28 @@
   {
    "src": "building-mcp-server-on-cloudflare",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in building-mcp-server-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "building-mcp-server-on-cloudflare",
+   "rel": "references",
    "dst": "wrangler",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "wrangler named in building-mcp-server-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "building-mcp-server-on-cloudflare",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in building-mcp-server-on-cloudflare/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -47471,6 +47622,213 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "bull-bear named in tearsheet/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "in_domain",
+   "dst": "domain:software-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "bootstrap",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in bootstrap/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "build-iterated-agentic-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in build-iterated-agentic-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "codex-expo-run-actions",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in codex-expo-run-actions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "databricks-apps",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in deno/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "design-control-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in design-control-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "jest",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "jest named in bun/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "mermaid-terminal",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in mermaid-terminal/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "narrow-react-prop-types",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in narrow-react-prop-types/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "next-forge",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in next-forge/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "prisma-cli",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in prisma-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "prototype",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in prototype/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "routing-middleware",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in routing-middleware/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "setup-pre-commit",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in setup-pre-commit/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "setup-ts-deep-modules",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in setup-ts-deep-modules/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "shadcn",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in shadcn/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "shopify-onboarding-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in shopify-onboarding-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "skillquarium",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in skillquarium/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "vercel-cli",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "vercel-functions",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-functions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "vercel-services",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-services/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "bun",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in zod/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -49757,6 +50115,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "check-npm named in audit-and-reduce-dependencies/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "check-npm",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in check-npm/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -54613,10 +54980,28 @@
   {
    "src": "codex-expo-run-actions",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in codex-expo-run-actions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "codex-expo-run-actions",
+   "rel": "references",
    "dst": "cloudflare",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of cloudflare appears in codex-expo-run-actions/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "codex-expo-run-actions",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in codex-expo-run-actions/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -60706,6 +61091,15 @@
   {
    "src": "databricks-apps",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-apps",
+   "rel": "references",
    "dst": "databricks-aibi-dashboards",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -60796,10 +61190,28 @@
   {
    "src": "databricks-apps",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-apps",
+   "rel": "references",
    "dst": "streamlit",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "streamlit named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-apps",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in databricks-apps/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62245,6 +62657,15 @@
   {
    "src": "databricks-zerobus-ingest",
    "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in databricks-zerobus-ingest/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-zerobus-ingest",
+   "rel": "references",
    "dst": "identity-federation",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -63107,6 +63528,15 @@
    "status": "accepted"
   },
   {
+   "src": "deep-agents-core",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in deep-agents-core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "deep-agents-memory",
    "rel": "in_domain",
    "dst": "domain:ml-ai",
@@ -63194,6 +63624,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "run-tests named in deep-agents-orchestration/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deep-agents-orchestration",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in deep-agents-orchestration/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -63881,6 +64320,87 @@
    "status": "accepted"
   },
   {
+   "src": "deno",
+   "rel": "in_domain",
+   "dst": "domain:software-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "bids",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in bids/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in deno/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "databricks-zerobus-ingest",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in databricks-zerobus-ingest/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "logfire-instrumentation",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "netlify-config",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in netlify-config/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "netlify-edge-functions",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in netlify-edge-functions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in deno/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "deno",
+   "rel": "references",
+   "dst": "vitest",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "vitest named in deno/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "dentist-scientist",
    "rel": "in_discipline",
    "dst": "discipline:medicine-health",
@@ -64139,6 +64659,24 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of ast-grep appears in design-control-loop/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "design-control-loop",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in design-control-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "design-control-loop",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in design-control-loop/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -64796,6 +65334,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "marketplace named in devcontainer-setup/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "devcontainer-setup",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in devcontainer-setup/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -77230,6 +77777,15 @@
   {
    "src": "frontend-testing-debugging",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in frontend-testing-debugging/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "frontend-testing-debugging",
+   "rel": "references",
    "dst": "vite",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -78449,6 +79005,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "github referenced in code/link context in geistdocs/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "geistdocs",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in geistdocs/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -81329,6 +81894,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "git-workflow-and-versioning named in using-agent-skills/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "git-workflow-and-versioning",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in git-workflow-and-versioning/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -88082,6 +88656,15 @@
    "status": "accepted"
   },
   {
+   "src": "improve-claude-md",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in improve-claude-md/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "improve-codebase-architecture",
    "rel": "in_domain",
    "dst": "domain:software-dev",
@@ -89884,6 +90467,15 @@
   {
    "src": "jest",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "jest named in bun/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "jest",
+   "rel": "references",
    "dst": "ci-cd-and-automation",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -90104,6 +90696,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "js-reverse named in pentest-tools/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "js-reverse",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in js-reverse/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -91781,6 +92382,15 @@
    "status": "accepted"
   },
   {
+   "src": "langchain-fundamentals",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langchain-fundamentals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "langchain-middleware",
    "rel": "in_domain",
    "dst": "domain:ml-ai",
@@ -91805,6 +92415,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "langgraph named in langchain-middleware/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "langchain-middleware",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langchain-middleware/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -92291,6 +92910,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "validation referenced in code/link context in langgraph-human-in-the-loop/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "langgraph-human-in-the-loop",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langgraph-human-in-the-loop/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -94028,6 +94656,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "crewai named in logfire-instrumentation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "logfire-instrumentation",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in logfire-instrumentation/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -99953,6 +100590,15 @@
    "status": "accepted"
   },
   {
+   "src": "mcp-builder",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in mcp-builder/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "mcp-csharp-create",
    "rel": "in_domain",
    "dst": "domain:dotnet-development",
@@ -100922,6 +101568,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "mermaid-terminal",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in mermaid-terminal/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -103636,10 +104291,28 @@
   {
    "src": "modern-typescript",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in modern-typescript/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "modern-typescript",
+   "rel": "references",
    "dst": "vite",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "vite named in modern-typescript/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "modern-typescript",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in modern-typescript/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -103892,6 +104565,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "molecular-docking named in rowan/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "molecular-docking",
+   "rel": "touches",
+   "dst": "artifact:pdb-structure",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "Protein structure named in molecular-docking/SKILL.md",
    "status": "accepted"
   },
   {
@@ -105764,6 +106446,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "narrow-react-prop-types named in build-iterated-agentic-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "narrow-react-prop-types",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in narrow-react-prop-types/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -107677,6 +108368,15 @@
   {
    "src": "ncbi-entrez-skill",
    "rel": "references",
+   "dst": "paper-lookup",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "paper-lookup named in ncbi-entrez-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "ncbi-entrez-skill",
+   "rel": "references",
    "dst": "research-router-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -107722,10 +108422,19 @@
   {
    "src": "ncbi-pmc-skill",
    "rel": "references",
-   "dst": "research-router-skill",
+   "dst": "paper-lookup",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "ncbi-pmc-skill named in research-router-skill/SKILL.md body",
+   "justification": "paper-lookup named in ncbi-pmc-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "ncbi-pmc-skill",
+   "rel": "references",
+   "dst": "synthetic-biologist",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of synthetic-biologist appears in ncbi-pmc-skill/SKILL.md",
    "status": "accepted"
   },
   {
@@ -110125,6 +110834,15 @@
   {
    "src": "netlify-config",
    "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in netlify-config/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "netlify-config",
+   "rel": "references",
    "dst": "netlify-cli-and-deploy",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -110197,6 +110915,15 @@
   {
    "src": "netlify-deploy",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in netlify-deploy/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "netlify-deploy",
+   "rel": "references",
    "dst": "vite",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -110210,6 +110937,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "netlify-edge-functions",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "deno named in netlify-edge-functions/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -111709,6 +112445,15 @@
   {
    "src": "next-dev-loop",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in next-dev-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "next-dev-loop",
+   "rel": "references",
    "dst": "turbopack",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -111740,6 +112485,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "next-forge named in bootstrap/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "next-forge",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in next-forge/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -111808,6 +112562,15 @@
   {
    "src": "next-forge",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in next-forge/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "next-forge",
+   "rel": "references",
    "dst": "run-tests",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -111830,6 +112593,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "turborepo named in next-forge/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "next-forge",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in next-forge/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -117404,6 +118176,15 @@
    "status": "accepted"
   },
   {
+   "src": "opensrc",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in opensrc/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "opentargets-skill",
    "rel": "in_domain",
    "dst": "domain:bio-databases-platforms",
@@ -120070,6 +120851,24 @@
   {
    "src": "paper-lookup",
    "rel": "references",
+   "dst": "ncbi-entrez-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "paper-lookup named in ncbi-entrez-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "paper-lookup",
+   "rel": "references",
+   "dst": "ncbi-pmc-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "paper-lookup named in ncbi-pmc-skill/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "paper-lookup",
+   "rel": "references",
    "dst": "pubmed-search",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -120083,6 +120882,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "paper-lookup named in pubmed-summariser/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "paper-lookup",
+   "rel": "references",
+   "dst": "research-router-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "paper-lookup named in research-router-skill/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -125342,6 +126150,321 @@
    "status": "accepted"
   },
   {
+   "src": "pnpm",
+   "rel": "in_domain",
+   "dst": "domain:software-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "ai-sdk",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in ai-sdk/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "audit-and-reduce-dependencies",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in audit-and-reduce-dependencies/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "base44-cli",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in base44-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "bootstrap",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in bootstrap/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "build-iterated-agentic-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in build-iterated-agentic-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "building-ai-agent-on-cloudflare",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in building-ai-agent-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "building-mcp-server-on-cloudflare",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in building-mcp-server-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "check-npm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in check-npm/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "codex-expo-run-actions",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in codex-expo-run-actions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "databricks-apps",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in deno/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "design-control-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in design-control-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "devcontainer-setup",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in devcontainer-setup/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "frontend-testing-debugging",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in frontend-testing-debugging/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "geistdocs",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in geistdocs/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "js-reverse",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in js-reverse/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "modern-typescript",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in modern-typescript/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "netlify-deploy",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in netlify-deploy/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "next-dev-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in next-dev-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "next-forge",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in next-forge/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "prototype",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in prototype/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "react-19-plugin-migration",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in react-19-plugin-migration/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "render-migrate-from-heroku",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in render-migrate-from-heroku/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "scaffold-exercises",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in scaffold-exercises/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "setup-matt-pocock-skills",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-matt-pocock-skills/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "setup-pre-commit",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-pre-commit/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "setup-ts-deep-modules",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-ts-deep-modules/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "shadcn",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in shadcn/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "shopify-onboarding-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in shopify-onboarding-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "supply-chain",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "supply-chain named in pnpm/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "supply-chain-risk-auditor",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in supply-chain-risk-auditor/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "supply-chain-security",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "supply-chain-security named in pnpm/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "v0-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in v0-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "pnpm",
+   "rel": "references",
+   "dst": "vercel-sandbox",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in vercel-sandbox/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "polars",
    "rel": "in_domain",
    "dst": "domain:data-science-compute",
@@ -126671,6 +127794,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "prisma-cli",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in prisma-cli/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -129214,6 +130346,15 @@
   {
    "src": "prototype",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in prototype/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "prototype",
+   "rel": "references",
    "dst": "cognitive-scientist",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -129380,6 +130521,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "prototype named in plan-zoom-integration/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "prototype",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in prototype/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -133919,6 +135069,15 @@
    "status": "accepted"
   },
   {
+   "src": "react-19-plugin-migration",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in react-19-plugin-migration/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "react-and-nextjs-data-visualization",
    "rel": "in_domain",
    "dst": "domain:data-visualization",
@@ -135503,6 +136662,15 @@
    "status": "accepted"
   },
   {
+   "src": "remotion-best-practices",
+   "rel": "references",
+   "dst": "zod",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in remotion-best-practices/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "render-background-workers",
    "rel": "in_domain",
    "dst": "domain:hosting-edge-platforms",
@@ -136472,6 +137640,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "render-migrate-from-heroku",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in render-migrate-from-heroku/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -138052,19 +139229,19 @@
   {
    "src": "research-router-skill",
    "rel": "references",
-   "dst": "ncbi-pmc-skill",
+   "dst": "opentargets-skill",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "ncbi-pmc-skill named in research-router-skill/SKILL.md body",
+   "justification": "opentargets-skill named in research-router-skill/SKILL.md body",
    "status": "accepted"
   },
   {
    "src": "research-router-skill",
    "rel": "references",
-   "dst": "opentargets-skill",
+   "dst": "paper-lookup",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "opentargets-skill named in research-router-skill/SKILL.md body",
+   "justification": "paper-lookup named in research-router-skill/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -139438,6 +140615,15 @@
   {
    "src": "routing-middleware",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in routing-middleware/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "routing-middleware",
+   "rel": "references",
    "dst": "nextjs",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -140792,6 +141978,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "scaffold-exercises",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in scaffold-exercises/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -149833,6 +151028,15 @@
   {
    "src": "setup-matt-pocock-skills",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-matt-pocock-skills/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "setup-matt-pocock-skills",
+   "rel": "references",
    "dst": "search-company-knowledge",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -149887,6 +151091,15 @@
   {
    "src": "setup-pre-commit",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in setup-pre-commit/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "setup-pre-commit",
+   "rel": "references",
    "dst": "ci-cd-and-automation",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -149909,6 +151122,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of setup-pre-commit appears in git-workflow-and-versioning/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "setup-pre-commit",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-pre-commit/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -149941,10 +151163,28 @@
   {
    "src": "setup-ts-deep-modules",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in setup-ts-deep-modules/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "setup-ts-deep-modules",
+   "rel": "references",
    "dst": "codebase-design",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "codebase-design named in setup-ts-deep-modules/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "setup-ts-deep-modules",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in setup-ts-deep-modules/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -150391,6 +151631,15 @@
   {
    "src": "shadcn",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in shadcn/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "shadcn",
+   "rel": "references",
    "dst": "design-taste-frontend",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -150413,6 +151662,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "shadcn named in nextjs/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "shadcn",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in shadcn/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -151210,10 +152468,28 @@
   {
    "src": "shopify-onboarding-dev",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in shopify-onboarding-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "shopify-onboarding-dev",
+   "rel": "references",
    "dst": "marketplace",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "marketplace named in shopify-onboarding-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "shopify-onboarding-dev",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in shopify-onboarding-dev/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -152042,6 +153318,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "skillquarium",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in skillquarium/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -156034,6 +157319,15 @@
   {
    "src": "supply-chain",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "supply-chain named in pnpm/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "supply-chain",
+   "rel": "references",
    "dst": "pydicom",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -156142,6 +157436,15 @@
   {
    "src": "supply-chain-risk-auditor",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in supply-chain-risk-auditor/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "supply-chain-risk-auditor",
+   "rel": "references",
    "dst": "supply-chain",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -156182,6 +157485,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "codeql named in supply-chain-security/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "supply-chain-security",
+   "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "supply-chain-security named in pnpm/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -156947,6 +158259,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "curated alias of synthetic-biologist appears in ncbi-entrez-skill/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "synthetic-biologist",
+   "rel": "references",
+   "dst": "ncbi-pmc-skill",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of synthetic-biologist appears in ncbi-pmc-skill/SKILL.md",
    "status": "accepted"
   },
   {
@@ -167797,6 +169118,15 @@
   {
    "src": "v0-dev",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in v0-dev/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "v0-dev",
+   "rel": "references",
    "dst": "shadcn",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -168967,6 +170297,15 @@
   {
    "src": "vercel-cli",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-cli/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "vercel-cli",
+   "rel": "references",
    "dst": "datasources-provisioning",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -169120,6 +170459,15 @@
   {
    "src": "vercel-functions",
    "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-functions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "vercel-functions",
+   "rel": "references",
    "dst": "chunk",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -169264,6 +170612,15 @@
   {
    "src": "vercel-sandbox",
    "rel": "references",
+   "dst": "pnpm",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "pnpm named in vercel-sandbox/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "vercel-sandbox",
+   "rel": "references",
    "dst": "vercel-agent",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -169277,6 +170634,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "vercel-services",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in vercel-services/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -170555,6 +171921,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "vitest named in code-testing-extensions/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "vitest",
+   "rel": "references",
+   "dst": "deno",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "vitest named in deno/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -173852,6 +175227,150 @@
    "status": "accepted"
   },
   {
+   "src": "zod",
+   "rel": "in_domain",
+   "dst": "domain:software-dev",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "building-mcp-server-on-cloudflare",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in building-mcp-server-on-cloudflare/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "bun",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "bun named in zod/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "databricks-apps",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in databricks-apps/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "deep-agents-core",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in deep-agents-core/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "deep-agents-orchestration",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in deep-agents-orchestration/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "git-workflow-and-versioning",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in git-workflow-and-versioning/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "improve-claude-md",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in improve-claude-md/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "langchain-fundamentals",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langchain-fundamentals/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "langchain-middleware",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langchain-middleware/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "langgraph-human-in-the-loop",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in langgraph-human-in-the-loop/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "mcp-builder",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in mcp-builder/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "modern-typescript",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in modern-typescript/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "next-forge",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in next-forge/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "opensrc",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in opensrc/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "zod",
+   "rel": "references",
+   "dst": "remotion-best-practices",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "zod named in remotion-best-practices/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "zoologist",
    "rel": "in_discipline",
    "dst": "discipline:biology-life-sciences",
@@ -175238,7 +176757,6 @@
   "rivet-sdk",
   "rnacentral-skill",
   "running-dbt-commands",
-  "scaffold-exercises",
   "screenshot-cli",
   "setup-local-sdk",
   "shopify-hydrogen",
