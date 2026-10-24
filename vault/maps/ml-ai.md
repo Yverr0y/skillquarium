@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Data Science, Stats & Scientific Computing](data-science-compute.md) | [Drug Discovery, Cheminformatics & Structural Biology](drug-discovery-chem.md) | [Cloud, Infra & MLOps](cloud-devops.md)
 
-## Skills (77)
+## Skills (79)
 
 - [aeon](../notes/ml-ai/aeon.md) — Use for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search
 - [agents-sdk](../notes/ml-ai/agents-sdk.md) — Build AI agents on Cloudflare Workers using the Agents SDK
@@ -52,6 +52,7 @@ created: 2026-06-13
 - [huggingface-papers](../notes/ml-ai/huggingface-papers.md) — Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page
 - [huggingface-trackio](../notes/ml-ai/huggingface-trackio.md) — Track and visualize ML training experiments with Trackio
 - [huggingface-vision-trainer](../notes/ml-ai/huggingface-vision-trainer.md) — Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any...
+- [inspect-ai](../notes/ml-ai/inspect-ai.md) — Write, run and diagnose local LLM evaluations with Inspect AI using tasks, datasets, solvers, scorers and saved eval logs
 - [jax-best-practices](../notes/ml-ai/jax-best-practices.md) — Expert in JAX for high-performance numerical computing and machine learning
 - [langchain-dependencies](../notes/ml-ai/langchain-dependencies.md) — INVOKE THIS SKILL when setting up a new project or when asked about package versions, installation, or dependency management for LangChain, LangGraph, LangSmith, or Deep Agents
 - [langchain-fundamentals](../notes/ml-ai/langchain-fundamentals.md) — Create LangChain agents with create_agent, define tools, and use middleware for human-in-the-loop and error handling
@@ -67,6 +68,7 @@ created: 2026-06-13
 - [langgraph-python-quickstart](../notes/ml-ai/langgraph-python-quickstart.md) — Scaffold a minimal local LangGraph agent in Python by following the official quickstart
 - [langgraph-typescript-quickstart](../notes/ml-ai/langgraph-typescript-quickstart.md) — Scaffold a minimal local LangGraph agent in TypeScript by following the official quickstart
 - [langsmith-online-eval-engineering](../notes/ml-ai/langsmith-online-eval-engineering.md) — Iteratively inspect traces, interview the user, and create LangSmith online evaluators one at a time
+- [llama-cpp](../notes/ml-ai/llama-cpp.md) — Run GGUF language and embedding models locally with llama.cpp
 - [llamaindex-development](../notes/ml-ai/llamaindex-development.md) — Expert guidance for LlamaIndex development including RAG applications, vector stores, document processing, query engines, and building production AI applications
 - [managed-deep-agents](../notes/ml-ai/managed-deep-agents.md) — INVOKE THIS SKILL when building, testing, or deploying Managed Deep Agents in LangSmith
 - [nemoclaw-user-get-started](../notes/ml-ai/nemoclaw-user-get-started.md) — Installs NemoClaw, launches a sandbox, and runs the first agent prompt

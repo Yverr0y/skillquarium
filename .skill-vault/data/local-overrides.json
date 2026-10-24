@@ -2259,5 +2259,71 @@
       "find": "When creating new Rust projects or Cargo.toml files, ALWAYS use:\n\n```toml\n[package]\nedition = \"2024\"  # ALWAYS use latest stable edition\nrust-version = \"1.85\"",
       "replace": "When creating new Rust projects or Cargo.toml files, choose the edition and `rust-version`\nfrom the project's language features, dependencies, and user compatibility requirements.\n`rust-version` declares the minimum supported Rust version (MSRV), not the compiler to\ninstall. Use the latest stable toolchain for development unless the project specifies one.\n\nFor example, Rust 2024 requires at least Rust 1.85. Keep this MSRV only if the package\nand its dependencies support it, and test the declared MSRV:\n\n```toml\n[package]\nedition = \"2024\"\nrust-version = \"1.85\""
     }
+  ],
+  "skypilot": [
+    {
+      "id": "logs-tail-snapshot",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "SKILL.md",
+      "find": "| `sky logs NAME --tail 50` | Print last 50 lines of logs and exit |",
+      "replace": "| `sky logs NAME --tail 50 --no-follow` | Print last 50 lines of logs and exit |"
+    },
+    {
+      "id": "parallel-experiment-status-snapshot",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "SKILL.md",
+      "find": "# Wait for a specific job and fetch last 50 lines\nsky logs exp-vm-01 $job_id --status && sky logs exp-vm-01 $job_id --tail 50",
+      "replace": "# Snapshot job states and existing output; repeat at the heartbeat interval.\nsky queue exp-vm-01 -o json\nsky logs exp-vm-01 \"$job_id\" --tail 50 --no-follow"
+    },
+    {
+      "id": "long-job-observation",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "SKILL.md",
+      "find": "## Agent Feedback Loop\n\nWhen using SkyPilot programmatically, follow this loop:\n\n1. **Validate**: `sky launch --dryrun task.yaml` (check resource availability/cost)\n2. **Launch**: `sky launch -c mycluster task.yaml`\n3. **Monitor**: `sky status -o json` and `sky queue mycluster -o json`\n4. **Wait for completion**: `sky logs mycluster <JOB_ID>` (streams logs so you can observe progress and react to stalls; blocks until job finishes; get JOB_ID from `sky queue mycluster -o json`). For long-running jobs where you don't need intermediate output, use `sky logs mycluster <JOB_ID> --status` instead (blocks silently, exits 0 on success).\n5. **Inspect output**: `sky logs mycluster <JOB_ID> --no-follow` or `sky logs mycluster <JOB_ID> --tail 100`\n6. **Debug**: `ssh mycluster` (interactive)\n7. **Iterate**: `sky exec mycluster updated_task.yaml` (run on existing cluster)\n8. **Cleanup**: `sky down mycluster`\n\n> **Never poll with `sleep` + `sky queue`** — use `sky logs CLUSTER JOB_ID` to stream logs and block until done. Use `--status` if you only need the exit code, or `--tail N` to fetch recent output after completion.",
+      "replace": "## Agent Feedback Loop\n\nWhen using SkyPilot programmatically, follow this loop:\n\n1. **Validate**: `sky launch --dryrun task.yaml` (check resource availability/cost)\n2. **Launch**: `sky launch -c mycluster task.yaml`\n3. **Create a heartbeat for long jobs**: record the cluster, job ID, log location and runner handle; choose a status-check interval appropriate to the expected runtime.\n4. **Check progress at that interval**: use `sky status -o json`, `sky queue mycluster -o json`, and bounded log snapshots. An observable `sky logs mycluster <JOB_ID>` stream can supplement these checks; keep the runner available for periodic status checks.\n5. **Inspect output**: `sky logs mycluster <JOB_ID> --tail 100 --no-follow`. `--tail` alone still follows logs.\n6. **Debug**: `ssh mycluster` (interactive)\n7. **Iterate**: `sky exec mycluster updated_task.yaml` (run on existing cluster)\n8. **Cleanup after confirming a terminal state and collecting output**: `sky down mycluster`\n\n> `sky logs CLUSTER JOB_ID --status` returns a single status snapshot: 0=succeeded, 100=failed, 101=not finished, 102=not found, 103=cancelled. It does not wait for completion. Continue heartbeat/status checks while the job is active; verify the final state rather than relying only on a log stream ending."
+    },
+    {
+      "id": "status-is-snapshot",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "SKILL.md",
+      "find": "| Polling job status with `sleep` + `sky queue` | Wastes tokens, introduces timing bugs, fragile | Use `sky logs CLUSTER JOB_ID --status` to block until done |",
+      "replace": "| Treating `--status` as a completion waiter | It returns immediately; 101 means not finished | Create a heartbeat and check status at a reasonable interval until terminal |"
+    },
+    {
+      "id": "tail-snapshot-no-follow",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "SKILL.md",
+      "find": "| Not using `--tail` when only last output matters | Streaming full logs wastes tokens for long jobs | Use `sky logs CLUSTER JOB_ID --tail 50` for last N lines |",
+      "replace": "| Omitting `--no-follow` from a bounded log snapshot | `--tail` alone continues following output | Use `sky logs CLUSTER JOB_ID --tail 50 --no-follow` for the last N lines |"
+    },
+    {
+      "id": "managed-job-heartbeat",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "references/job-investigation.md",
+      "find": "Do not poll with `sleep` + `sky jobs queue`. Stream logs to block, or\nfetch `--tail` once after the fact.",
+      "replace": "For ongoing long jobs, create a heartbeat and check `sky jobs queue -v -o json`\nat an interval appropriate to the expected runtime. Use bounded\n`sky jobs logs N --tail 100 --no-follow` snapshots or an observable log stream\nalongside those status checks. Avoid tight polling, and confirm a terminal\nstate rather than relying only on the log stream ending."
+    },
+    {
+      "id": "status-exit-codes-reference",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "references/cli-reference.md",
+      "find": "- `--status` — If specified, do not show logs but exit with a status code for the job's status: 0 for succeeded, or 1 for all other statuses.",
+      "replace": "- `--status` — Return one status snapshot without waiting: 0=succeeded, 100=failed, 101=not finished, 102=not found, 103=cancelled."
+    },
+    {
+      "id": "eval-long-job-observation",
+      "issue": 1141,
+      "source": "skypilot-org/skypilot",
+      "file": "evals/evals.json",
+      "find": "Agent does NOT poll with `sleep` + `sky jobs queue`",
+      "replace": "Agent avoids tight polling; ongoing long jobs use a heartbeat and status checks at a reasonable interval, with bounded log snapshots or an observable stream"
+    }
   ]
 }

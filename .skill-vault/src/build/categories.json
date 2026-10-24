@@ -2062,7 +2062,10 @@
     "docker-sandboxes-env": "cloud-devops",
     "docker-sandboxes-kits": "cloud-devops",
     "docker-sandboxes-lifecycle": "cloud-devops",
-    "docker-sandboxes-network-credentials": "cloud-devops"
+    "docker-sandboxes-network-credentials": "cloud-devops",
+    "llama-cpp": "ml-ai",
+    "inspect-ai": "ml-ai",
+    "skypilot": "cloud-devops"
   },
   "synonyms": {
     "pydeseq2": [

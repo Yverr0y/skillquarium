@@ -14,7 +14,7 @@ created: 2026-06-13
 
 **Related maps:** [Machine Learning & AI](ml-ai.md) | [Bio Databases, Lab & Cloud Platforms](bio-databases-platforms.md) | [Vault, Skills & Workflow Meta](vault-meta.md) | [Analytics Engineering & LLM Operations](analytics-engineering.md) | [Security & Auditing](security-auditing.md) | [Software Development & Engineering](software-dev.md) | [.NET & C# Development](dotnet-development.md)
 
-## Skills (81)
+## Skills (82)
 
 - [adaptive-metrics](../notes/cloud-devops/adaptive-metrics.md) — Cut Grafana Cloud Metrics cost by shrinking active-series count with Adaptive Metrics aggregation rules — auto-recommendations from query history, custom exact/regex rules, label-drop...
 - [airflow](../notes/cloud-devops/airflow.md) — Queries, manages, and troubleshoots Apache Airflow using the `af` CLI
@@ -90,6 +90,7 @@ created: 2026-06-13
 - [pyroscope](../notes/cloud-devops/pyroscope.md) — Continuously profile applications with Grafana Pyroscope and read the result as flame graphs
 - [ray](../notes/cloud-devops/ray.md) — Distributed Python compute with Ray — @ray.remote tasks/actors for cluster-scale parallelism, Ray Data for large-batch preprocessing, Ray Train for distributed model training...
 - [shipping-and-launch](../notes/cloud-devops/shipping-and-launch.md) — Prepares production launches. Use when preparing to deploy to production
+- [skypilot](../notes/cloud-devops/skypilot.md) — Use when launching cloud VMs, Kubernetes pods, or Slurm jobs for GPU/TPU/CPU workloads, training or fine-tuning models on cloud GPUs, deploying inference servers (vllm, TGI, etc.) with...
 - [snakemake-workflow-engine](../notes/cloud-devops/snakemake-workflow-engine.md) — Python-based workflow manager for reproducible, scalable pipelines
 - [synthetic-monitoring-checks](../notes/cloud-devops/synthetic-monitoring-checks.md) — Author Grafana Cloud Synthetic Monitoring checks, with deep coverage of k6 scripted and browser checks: SM's single-VU/single-iteration execution model, assertions that actually fail...
 - [tempo](../notes/cloud-devops/tempo.md) — Stand up Grafana Tempo as a cost-efficient distributed-tracing backend that only needs object storage, and write TraceQL queries against it
