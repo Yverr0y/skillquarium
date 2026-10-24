@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "metrics": {
-  "skills": 2148,
+  "skills": 2149,
   "expert_profiles": 503,
-  "nodes": 2221,
-  "edges": 15713,
+  "nodes": 2222,
+  "edges": 15718,
   "generic_names_blocked": 32,
-  "tier1_edges": 4682,
+  "tier1_edges": 4684,
   "tier2_edges": 723,
-  "alias_edges": 4454,
+  "alias_edges": 4455,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 519,
@@ -20,13 +20,13 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14927,
+   "EXTRACTED": 14932,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
-   "in_domain": 2148,
-   "references": 12260,
+   "in_domain": 2149,
+   "references": 12264,
    "in_discipline": 599,
    "touches": 519,
    "has_step": 69,
@@ -1957,6 +1957,21 @@
    "description": "Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or composition recipes for review. Requires a reachable Screenpipe HTTP API, normally on localhost:3030. Detection and embedding inference run locally; the selected LLM receives redacted app/title cluster summaries and matched skill descriptions. Use only when the user explicitly asks to analyze their recent work and propose skills.",
    "source": "skills/autoskill/SKILL.md",
    "aliases": [],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "aws-agent-toolkit",
+   "type": "Skill",
+   "label": "aws-agent-toolkit",
+   "description": "Pull AWS's official agent skills (Agent Toolkit for AWS, ~115 skills) from the remote catalog on demand with the `aws agent-toolkit` CLI instead of keeping them installed. Use for any task on a specific AWS service — DynamoDB, Aurora/RDS, Lambda, Step Functions, API Gateway, CDK, CloudFormation, IAM, VPC/Route 53/CloudFront/WAF, S3, EFS, CloudWatch, Glue/Athena/MWAA/MSK/Redshift, Bedrock, Braket, Amplify — or when the user mentions `aws configure agent-toolkit`, the AWS MCP Server, or wants AWS skills installed.",
+   "source": "skills/aws-agent-toolkit/SKILL.md",
+   "aliases": [
+    "aws agent toolkit"
+   ],
    "uses": 0,
    "successes": 0,
    "success_rate": null,
@@ -40558,6 +40573,33 @@
    "status": "accepted"
   },
   {
+   "src": "aws-agent-toolkit",
+   "rel": "in_domain",
+   "dst": "domain:cloud-devops",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "aws-agent-toolkit",
+   "rel": "references",
+   "dst": "aws-mcp-setup",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "aws-mcp-setup named in aws-agent-toolkit/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "aws-agent-toolkit",
+   "rel": "references",
+   "dst": "wizard",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "wizard named in aws-agent-toolkit/SKILL.md body",
+   "status": "accepted"
+  },
+  {
    "src": "aws-agentic-ai",
    "rel": "in_domain",
    "dst": "domain:cloud-devops",
@@ -40744,6 +40786,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "aws-mcp-setup",
+   "rel": "references",
+   "dst": "aws-agent-toolkit",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "aws-mcp-setup named in aws-agent-toolkit/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -171280,6 +171331,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "wizard",
+   "rel": "references",
+   "dst": "aws-agent-toolkit",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "wizard named in aws-agent-toolkit/SKILL.md body",
    "status": "accepted"
   },
   {

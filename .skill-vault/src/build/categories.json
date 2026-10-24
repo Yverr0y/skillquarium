@@ -1489,6 +1489,7 @@
     }
   ],
   "extraAssignments": {
+    "aws-agent-toolkit": "cloud-devops",
     "biostudies-arrayexpress-skill": "bio-databases-platforms",
     "cbioportal-skill": "bio-databases-platforms",
     "cellxgene-skill": "bio-databases-platforms",
