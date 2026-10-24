@@ -2259,5 +2259,14 @@
       "find": "When creating new Rust projects or Cargo.toml files, ALWAYS use:\n\n```toml\n[package]\nedition = \"2024\"  # ALWAYS use latest stable edition\nrust-version = \"1.85\"",
       "replace": "When creating new Rust projects or Cargo.toml files, choose the edition and `rust-version`\nfrom the project's language features, dependencies, and user compatibility requirements.\n`rust-version` declares the minimum supported Rust version (MSRV), not the compiler to\ninstall. Use the latest stable toolchain for development unless the project specifies one.\n\nFor example, Rust 2024 requires at least Rust 1.85. Keep this MSRV only if the package\nand its dependencies support it, and test the declared MSRV:\n\n```toml\n[package]\nedition = \"2024\"\nrust-version = \"1.85\""
     }
+  ],
+  "micro": [
+    {
+      "id": "node-http-handler-and-server-example",
+      "issue": 1112,
+      "source": "openai/plugins",
+      "find": "## Basic Usage\n\nCreate a module that exports a request handler:\n\n```ts\n// index.ts\nimport { serve } from 'micro'\n\nconst handler = (req: Request) => {\n  return new Response('Hello, World!')\n}\n\nserve(handler)\n```\n\nOr use the classic API:\n\n```ts\nimport { IncomingMessage, ServerResponse } from 'http'\n\nexport default (req: IncomingMessage, res: ServerResponse) => {\n  res.end('Hello, World!')\n}\n```\n\nRun with:\n\n```bash\nnpx micro\n```\n",
+      "replace": "## Basic Usage\n\nUse Node's `IncomingMessage` / `ServerResponse` handler contract. `serve(handler)`\nreturns a request listener; attach it to an HTTP server and start listening:\n\n```js\n// server.js\nconst { createServer } = require('node:http')\nconst { serve } = require('micro')\n\nconst handler = (req, res) => 'Hello, World!'\nconst server = createServer(serve(handler))\nserver.listen(3000, '127.0.0.1')\n```\n\nRun the programmatic server with:\n\n```bash\nnode server.js\n```\n\nOr export a Node handler for the Micro CLI:\n\n```js\n// index.js\nmodule.exports = (req, res) => {\n  res.end('Hello, World!')\n}\n```\n\nRun the exported handler with:\n\n```bash\nnpx micro index.js\n```\n"
+    }
   ]
 }
