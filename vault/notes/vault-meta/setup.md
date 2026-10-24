@@ -77,7 +77,6 @@ created: 2026-08-07
 - [physical-ai-neural-reconstruction](../../notes/game-development/physical-ai-neural-reconstruction.md) — Router for NVIDIA NuRec/NRE: USDZ rendering, NCore conversion, 3DGS, gRPC sensor sim, PhysicalAI HF datasets
 - [playwright-best-practices](../../notes/web-automation-frontend/playwright-best-practices.md) — Use when writing Playwright tests, fixing flaky tests, debugging failures, implementing Page Object Model, configuring CI/CD, optimizing performance, mocking APIs, handling...
 - [prisma-cli](../../notes/software-dev/prisma-cli.md) — Prisma ORM 7 CLI reference for existing Prisma 7 applications or explicitly selected Prisma 7 workflows
-- [prisma-postgres-setup](../../notes/software-dev/prisma-postgres-setup.md) — Obtain or reuse a Prisma Postgres database and connect an application
 - [promptfoo-evals](../../notes/ml-ai/promptfoo-evals.md) — Write, refine, run, and QA promptfoo evaluation suites: promptfooconfig.yaml, prompts, providers, vars, tests, assertions, model-graded rubrics, transforms, datasets, exports, and CI...
 - [promptfoo-provider-setup](../../notes/ml-ai/promptfoo-provider-setup.md) — Connect Promptfoo to a model, live HTTP API, local Python/JavaScript provider, or app code
 - [render-domains](../../notes/hosting-edge-platforms/render-domains.md) — Configures custom domains and TLS certificates on Render—DNS setup, CNAME records, apex domains, wildcard domains, and certificate troubleshooting

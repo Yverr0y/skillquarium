@@ -61,7 +61,7 @@ created: 2026-06-13
 - [firecrawl](../notes/web-automation-frontend/firecrawl.md) — Any live-web task via the Firecrawl CLI — including ordinary web research: searching the web, reading or extracting pages, gathering sources, discovering site URLs, bulk extraction...
 - [firecrawl-agent](../notes/web-automation-frontend/firecrawl-agent.md) — Autonomously navigate websites and extract structured data across pages
 - [firecrawl-crawl](../notes/web-automation-frontend/firecrawl-crawl.md) — Bulk-extract many pages from one site or section
-- [firecrawl-developer-index](../notes/web-automation-frontend/firecrawl-developer-index.md) — Search an index of public repositories, GitHub issues, merged pull requests, repository READMEs, and curated documentation sites
+- [firecrawl-developer-index](../notes/web-automation-frontend/firecrawl-developer-index.md) — Searches current documentation, release notes, API references and public repository issues for libraries, frameworks, SDKs, APIs and CLI tools with `firecrawl developer`
 - [firecrawl-download](../notes/web-automation-frontend/firecrawl-download.md) — Save a site or section as local files (markdown, screenshots)
 - [firecrawl-interact](../notes/web-automation-frontend/firecrawl-interact.md) — Drive a live browser on a scraped page: click, fill forms, log in, paginate, infinite-scroll
 - [firecrawl-map](../notes/web-automation-frontend/firecrawl-map.md) — Discover and list a site's URLs, with search filtering

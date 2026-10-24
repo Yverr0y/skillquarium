@@ -36,5 +36,12 @@
       "find": "- Train sites on GCP, protocol deviations taxonomy, SAE reporting windows (24 h fatal/life-\n  threatening, 15 calendar days for others per ICH E2A where applicable), and source document\n  requirements.",
       "replace": "- Train sites on GCP, protocol deviations taxonomy, and immediate SAE reporting after the\n  investigator becomes aware, subject to protocol-defined exceptions and local requirements.\n- Keep site reporting distinct from sponsor SUSAR reporting to regulators: fatal or life-\n  threatening unexpected ADRs within 7 calendar days with a complete report in 8 additional\n  days, and other serious unexpected ADRs within 15 calendar days per ICH E2A."
     }
+  ],
+  "metrology-scientist": [
+    {
+      "id": "ilac-g24-recalibration-intervals",
+      "find": "ILAC P14 addresses calibration interval decisions in policy terms",
+      "replace": "ILAC G24:2022 gives the methods for determining and reviewing recalibration intervals (ILAC P14 is the calibration-uncertainty policy, not an interval document)"
+    }
   ]
 }

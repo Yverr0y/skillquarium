@@ -19,6 +19,7 @@ created: 2026-08-07
 ## Related skills
 
 - [alloy](../../notes/cloud-devops/alloy.md) — Build a unified telemetry pipeline with Grafana Alloy — one OpenTelemetry-compatible binary that collects metrics, logs, traces, and profiles and ships to Grafana Cloud / Prometheus /...
+- [apollo-mcp-server](../../notes/web-automation-frontend/apollo-mcp-server.md) — Guide for using Apollo MCP Server to connect AI agents with GraphQL APIs
 - [apollo-router](../../notes/web-automation-frontend/apollo-router.md) — Version-aware guide for configuring and running Apollo Router for federated GraphQL supergraphs
 - [clickstack-otel-collector](../../notes/analytics-engineering/clickstack-otel-collector.md) — Use when a user wants to wire an OpenTelemetry collector into a Managed ClickStack service on ClickHouse Cloud, either by deploying a new local collector (Docker run or Docker Compose)...
 - [cost-management](../../notes/cloud-devops/cost-management.md) — Cut your Grafana Cloud bill by attributing spend to teams and reducing telemetry volume

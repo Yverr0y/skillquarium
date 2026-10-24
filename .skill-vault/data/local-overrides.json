@@ -2222,5 +2222,33 @@
       "find": "> [!WARNING]\n> **Breaking changes in xarray 2026.04.0** (the current release, up from 2024.01 when this skill was first written):\n> 1. **Zarr v3 required**: `xarray[io]` now installs `zarr>=3.0`; if your environment pins `zarr<3`, Zarr I/O will fail.\n> 2. **Timedelta decode default changed**: `open_dataset()` no longer decodes `np.timedelta64` from units-only attributes by default. Pass `decode_timedelta=True` to restore the previous behavior.\n> 3. **netCDF preferred engine**: The default backend order reverted to `netCDF4 > h5netcdf > scipy` in 2026.04.0 (after a temporary change in 2025.09.1). Explicitly specify `engine=` when reproducibility matters.",
       "replace": "> [!WARNING]\n> **Breaking changes through xarray 2026.09.0** (the current release, up from 2024.01 when this skill was first written):\n> 1. **Zarr v3 required**: `xarray[io]` now installs `zarr>=3.0`; if your environment pins `zarr<3`, Zarr I/O will fail. As of 2026.09.0 the remaining zarr-python 2 compatibility code has been removed entirely.\n> 2. **Timedelta decode default changed**: `open_dataset()` no longer decodes `np.timedelta64` from units-only attributes by default. Pass `decode_timedelta=True` to restore the previous behavior.\n> 3. **netCDF preferred engine**: The default backend order reverted to `netCDF4 > h5netcdf > scipy` in 2026.04.0 (after a temporary change in 2025.09.1). Explicitly specify `engine=` when reproducibility matters.\n> 4. **Bottleneck disabled by default** (2026.09.0): accelerated rolling/reduction operations no longer use the optional `bottleneck` backend unless it is explicitly re-enabled; results are unaffected but performance characteristics may change.\n> 5. **Python 3.11 support ending**: 2026.09.0 is the last xarray release supporting Python 3.11 — the next release requires Python 3.12+."
     }
+  ],
+  "render-deploy": [
+    {
+      "id": "free-plan-cpu-blueprint-spec",
+      "issue": 1045,
+      "source": "openai/plugins",
+      "file": "references/blueprint-spec.md",
+      "find": "| `free` | 512 MB | 0.5 | Free (750 hrs/mo) |",
+      "replace": "| `free` | 512 MB | 0.1 | Free (750 hrs/mo) |"
+    },
+    {
+      "id": "free-plan-cpu-configuration-guide",
+      "issue": 1045,
+      "source": "openai/plugins",
+      "file": "references/configuration-guide.md",
+      "find": "- 0.5 CPU per service",
+      "replace": "- 0.1 CPU per service"
+    }
+  ],
+  "ncbi-blast-skill": [
+    {
+      "id": "blast-cloud-docs-retired",
+      "issue": 1137,
+      "source": "openai/plugins",
+      "file": "references/blast-common-url-api.txt",
+      "find": "Source docs: https://ncbi.github.io/blast-cloud/dev/api.html",
+      "replace": "Source docs: https://blast.ncbi.nlm.nih.gov/doc/blast-help/developerinfo.html"
+    }
   ]
 }
