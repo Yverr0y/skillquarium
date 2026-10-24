@@ -118,7 +118,7 @@ When creating new Rust projects or Cargo.toml files, ALWAYS use:
 ```toml
 [package]
 edition = "2024"  # ALWAYS use latest stable edition
-rust-version = "1.85"
+rust-version = "1.99"
 
 [lints.rust]
 unsafe_code = "warn"
