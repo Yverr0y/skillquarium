@@ -4,14 +4,14 @@
   "skills": 2149,
   "expert_profiles": 503,
   "nodes": 2222,
-  "edges": 15718,
+  "edges": 15719,
   "generic_names_blocked": 32,
   "tier1_edges": 4684,
   "tier2_edges": 723,
   "alias_edges": 4455,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
-  "artifact_edges": 519,
+  "artifact_edges": 520,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
@@ -20,7 +20,7 @@
   "orphan_count": 124,
   "orphan_rate": 0.0577,
   "by_provenance": {
-   "EXTRACTED": 14932,
+   "EXTRACTED": 14933,
    "ASSERTED": 668,
    "INFERRED": 118
   },
@@ -28,7 +28,7 @@
    "in_domain": 2149,
    "references": 12264,
    "in_discipline": 599,
-   "touches": 519,
+   "touches": 520,
    "has_step": 69,
    "co_occurs_with": 96,
    "chains_to": 22
@@ -103228,6 +103228,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "molecular-docking named in rowan/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "molecular-docking",
+   "rel": "touches",
+   "dst": "artifact:pdb-structure",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "Protein structure named in molecular-docking/SKILL.md",
    "status": "accepted"
   },
   {
