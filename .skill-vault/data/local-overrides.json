@@ -2250,5 +2250,14 @@
       "find": "Source docs: https://ncbi.github.io/blast-cloud/dev/api.html",
       "replace": "Source docs: https://blast.ncbi.nlm.nih.gov/doc/blast-help/developerinfo.html"
     }
+  ],
+  "rust-router": [
+    {
+      "id": "rust-msrv-policy",
+      "issue": 1144,
+      "source": "actionbook/rust-skills",
+      "find": "When creating new Rust projects or Cargo.toml files, ALWAYS use:\n\n```toml\n[package]\nedition = \"2024\"  # ALWAYS use latest stable edition\nrust-version = \"1.85\"",
+      "replace": "When creating new Rust projects or Cargo.toml files, choose the edition and `rust-version`\nfrom the project's language features, dependencies, and user compatibility requirements.\n`rust-version` declares the minimum supported Rust version (MSRV), not the compiler to\ninstall. Use the latest stable toolchain for development unless the project specifies one.\n\nFor example, Rust 2024 requires at least Rust 1.85. Keep this MSRV only if the package\nand its dependencies support it, and test the declared MSRV:\n\n```toml\n[package]\nedition = \"2024\"\nrust-version = \"1.85\""
+    }
   ]
 }
