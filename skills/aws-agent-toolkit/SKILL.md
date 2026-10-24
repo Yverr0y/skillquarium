@@ -9,8 +9,10 @@ AWS publishes its agent skills ([aws/agent-toolkit-for-aws](https://github.com/a
 through a catalog the AWS CLI can query. This vault does not copy them. Search the catalog, read the
 matching skill's `SKILL.md`, and follow it.
 
-Needs AWS CLI `2.35.0`+. Catalog commands need a region but no credentials, so pass `--region us-east-1`
-if `aws configure list` shows none. The skill's own instructions may still need credentials to call AWS.
+Needs AWS CLI `2.35.9`+ (including the wizard's `--yes` option). Catalog commands need no credentials.
+The Agent Toolkit catalog is available only in `us-east-1`, so always pass `--region us-east-1`, even
+when the user's default AWS region differs. The skill's own instructions may still need credentials
+to call AWS in the workload's region.
 
 ## Find and read a skill
 
@@ -45,7 +47,13 @@ directory it detects.
 
 ## Full setup
 
-`aws configure agent-toolkit` is an interactive wizard that installs the default AWS skills into every
+`aws configure agent-toolkit --region us-east-1` is an interactive wizard that installs the default AWS skills into every
 detected agent and configures the AWS MCP Server (API calls, sandboxed scripts, docs search). It writes to
 agent config directories outside this vault, so the user runs it, not the agent. `--yes` accepts every
 default without prompting. For the MCP Server alone, see `aws-mcp-setup`.
+
+For a named profile, add `--profile <profile-name>` to the wizard command. After setup, check each
+generated `aws-mcp` server entry: it defaults to the `default` profile. Set `AWS_MCP_PROXY_PROFILES`
+to `<profile-name>` in that entry's environment using the agent's configuration format (JSON for
+many agents; TOML for Codex). Keep the generated command, arguments, timeout, and transport settings,
+and restart each configured agent to load the change. Multiple profile names are space-separated.
