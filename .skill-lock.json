@@ -2042,9 +2042,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman-compress/SKILL.md",
-      "skillFolderHash": "dc37fdb3577867cb7086b79b505f12a9cbd60144",
+      "skillFolderHash": "e1cfe848bfbd120ceb42b2253542fce34a3e5a77",
       "installedAt": "2026-06-13T13:27:36.566Z",
-      "updatedAt": "2026-10-17T10:40:07.195Z"
+      "updatedAt": "2026-10-25T11:22:31.300Z"
     },
     "cavecrew": {
       "source": "juliusbrussee/caveman",
@@ -9548,18 +9548,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-paper-reviewer/SKILL.md",
-      "skillFolderHash": "5c56770a3f0d8e7db927edad5001a71cc8073f85",
+      "skillFolderHash": "37be74b7f80e457913e28a46f5a3f53b1e569276",
       "installedAt": "2026-08-21T01:50:31.549Z",
-      "updatedAt": "2026-10-14T11:51:27.030Z"
+      "updatedAt": "2026-10-25T11:22:44.520Z"
     },
     "academic-pipeline": {
       "source": "Imbad0202/academic-research-skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
       "skillPath": "academic-pipeline/SKILL.md",
-      "skillFolderHash": "65df77530f284e97e632144836d040d1eb8fa262",
+      "skillFolderHash": "a12c2be0fea9d5d3bc7e8ccb1ff315cc51b6cf68",
       "installedAt": "2026-08-21T01:50:31.552Z",
-      "updatedAt": "2026-10-24T10:55:37.907Z"
+      "updatedAt": "2026-10-25T11:22:49.006Z"
     },
     "deep-research": {
       "source": "Imbad0202/academic-research-skills",
@@ -12106,9 +12106,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/skypilot-org/skypilot.git",
       "skillPath": "agent/skills/skypilot/SKILL.md",
-      "skillFolderHash": "879b96efa979fdfab867a9c841fbc203563711af",
+      "skillFolderHash": "6a85914c1c5ca3ade89c781e6dcc0ac5814afc13",
       "installedAt": "2026-10-24T15:58:04.348Z",
-      "updatedAt": "2026-10-24T15:58:04.348Z"
+      "updatedAt": "2026-10-25T11:22:57.947Z"
     }
   },
   "dismissed": {
