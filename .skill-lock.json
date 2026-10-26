@@ -12109,6 +12109,15 @@
       "skillFolderHash": "6a85914c1c5ca3ade89c781e6dcc0ac5814afc13",
       "installedAt": "2026-10-24T15:58:04.348Z",
       "updatedAt": "2026-10-25T11:22:57.947Z"
+    },
+    "lean4": {
+      "source": "cameronfreer/lean4-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cameronfreer/lean4-skills.git",
+      "skillPath": "plugins/lean4/skills/lean4/SKILL.md",
+      "skillFolderHash": "9aa05bebec6dadd6d5d592dd30541a1ab70c4cd4",
+      "installedAt": "2026-10-26T01:36:34.000Z",
+      "updatedAt": "2026-10-26T01:36:34.000Z"
     }
   },
   "dismissed": {
