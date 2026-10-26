@@ -1275,9 +1275,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skill-data/core/SKILL.md",
-      "skillFolderHash": "cdff207dd94b7a71afb90c24bc3d050adda67c1c",
+      "skillFolderHash": "e07c2126a2fd59e6f5240ebceedbe0d2755a64f3",
       "installedAt": "2026-06-09T19:25:40.383Z",
-      "updatedAt": "2026-10-24T10:55:20.807Z"
+      "updatedAt": "2026-10-26T12:56:50.463Z"
     },
     "dogfood": {
       "source": "vercel-labs/agent-browser",
@@ -2105,9 +2105,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/jeffallan/claude-skills.git",
       "skillPath": "skills/kubernetes-specialist/SKILL.md",
-      "skillFolderHash": "0d99170815c692783093764a9a75aa915e6d3794",
+      "skillFolderHash": "c987ec225fa1d4bac6d8ef6315a0a8fa026b33ed",
       "installedAt": "2026-06-13T23:43:02.709Z",
-      "updatedAt": "2026-10-16T11:21:34.717Z"
+      "updatedAt": "2026-10-26T12:57:00.514Z"
     },
     "pymol": {
       "source": "google-deepmind/science-skills",
@@ -8802,9 +8802,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/max-sixty/worktrunk.git",
       "skillPath": "skills/worktrunk/SKILL.md",
-      "skillFolderHash": "9cf8a4c3282efad3b24c730f688ffb77e5dc8717",
+      "skillFolderHash": "38965ccda02675456e08d6415065b0f6cc2e3152",
       "installedAt": "2026-08-13T09:15:09.693Z",
-      "updatedAt": "2026-10-24T10:55:35.230Z"
+      "updatedAt": "2026-10-26T12:57:05.346Z"
     },
     "ast-grep": {
       "source": "ast-grep/agent-skill",
