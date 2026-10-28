@@ -4,14 +4,14 @@
   "skills": 2157,
   "expert_profiles": 503,
   "nodes": 2230,
-  "edges": 15985,
+  "edges": 15992,
   "generic_names_blocked": 31,
-  "tier1_edges": 4812,
-  "tier2_edges": 722,
-  "alias_edges": 4474,
+  "tier1_edges": 4816,
+  "tier2_edges": 721,
+  "alias_edges": 4480,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
-  "artifact_edges": 520,
+  "artifact_edges": 521,
   "asserted_edges": 0,
   "recipes": 7,
   "observations": 0,
@@ -20,15 +20,15 @@
   "orphan_count": 123,
   "orphan_rate": 0.057,
   "by_provenance": {
-   "EXTRACTED": 15199,
+   "EXTRACTED": 15206,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2157,
-   "references": 12522,
+   "references": 12528,
    "in_discipline": 599,
-   "touches": 520,
+   "touches": 521,
    "has_step": 69,
    "co_occurs_with": 96,
    "chains_to": 22
@@ -1158,7 +1158,7 @@
    "id": "apollo-mcp-server",
    "type": "Skill",
    "label": "apollo-mcp-server",
-   "description": "> Guide for using Apollo MCP Server to connect AI agents with GraphQL APIs. Use this skill when: (1) setting up or configuring Apollo MCP Server, (2) defining MCP tools from GraphQL operations, (3) using introspection tools (introspect, search, validate, execute, explorer), (4) configuring authentication, CORS, health checks, or telemetry, (5) writing Rhai scripts for request lifecycle hooks, (6) defining MCP prompts, (7) troubleshooting MCP server connectivity or tool execution issues.",
+   "description": "> Guide for using Apollo MCP Server to connect AI agents with GraphQL APIs. Use this skill when: (1) setting up or configuring Apollo MCP Server, (2) defining MCP tools from GraphQL operations, (3) using introspection tools (introspect, search, validate, execute, explorer), (4) configuring authentication, CORS, health checks, or telemetry, (5) writing Rhai scripts for request lifecycle hooks, (6) defining MCP prompts, (7) troubleshooting MCP server connectivity or tool execution issues, (8) building MCP Apps for interactive UI experiences, (9) deploying Apollo MCP Server to production.",
    "source": "skills/apollo-mcp-server/SKILL.md",
    "aliases": [
     "apollo mcp server"
@@ -6943,7 +6943,7 @@
    "id": "databricks-ai-functions",
    "type": "Skill",
    "label": "databricks-ai-functions",
-   "description": "Use Databricks built-in AI Functions (ai_classify, ai_extract, ai_summarize, ai_mask, ai_translate, ai_fix_grammar, ai_gen, ai_analyze_sentiment, ai_similarity, ai_parse_document, ai_prep_search, ai_query, ai_forecast) to add AI capabilities directly to SQL and PySpark pipelines without managing model endpoints. Also covers document parsing and building custom RAG pipelines (parse → prep_search → index → query).",
+   "description": "Use Databricks built-in AI Functions (ai_classify, ai_decide, ai_extract, ai_summarize, ai_mask, ai_translate, ai_fix_grammar, ai_gen, ai_analyze_sentiment, ai_similarity, ai_parse_document, ai_prep_search, ai_query, ai_forecast) to add AI capabilities directly to SQL and PySpark pipelines without managing model endpoints. Also covers document parsing and building custom RAG pipelines (parse → prep_search → index → query).",
    "source": "skills/databricks-ai-functions/SKILL.md",
    "aliases": [
     "databricks ai functions"
@@ -7111,7 +7111,7 @@
    "id": "databricks-genie-agents",
    "type": "Skill",
    "label": "databricks-genie-agents",
-   "description": "Create, manage, and query Databricks Genie Agents — curated, per-data natural-language agents (formerly Genie Spaces): build, export/import, migrate across workspaces, and ask questions of a *specific* Agent via the Conversation API. For general data questions or finding data across your workspace, use databricks-data-discovery (Genie One) instead.",
+   "description": "Create, manage, and query Databricks Genie Agents (formerly Genie Spaces): curated agents over Unity Catalog tables, Metric Views, and documents in UC volumes. Use when building, migrating, tuning, or asking a specific Agent, and for document Q&A or docs + data agents (replaces the legacy Knowledge Assistant and Supervisor Agent). For data questions across the workspace, use databricks-data-discovery.",
    "source": "skills/databricks-genie-agents/SKILL.md",
    "aliases": [
     "databricks genie agents"
@@ -7231,7 +7231,7 @@
    "id": "databricks-model-serving",
    "type": "Skill",
    "label": "databricks-model-serving",
-   "description": "Databricks Model Serving endpoint lifecycle and ops. Use when asked to: CRUD serving endpoints (CLI or MLflow Deployments client); configure traffic routing for A/B / canary deploys and zero-downtime version swaps; retrieve OpenAPI schemas; inspect logs, metrics, or permissions; manage legacy AI Gateway rate limits (not Unity Gateway); discover Foundation Model API endpoints at runtime; integrate endpoints into Databricks Apps; or stream from off-platform clients (Vercel AI SDK v6, standalone Node.js). NOT for: Unity Gateway CRUD and management (databricks-unity-gateway), training, MLflow autologging, UC registration, custom PyFunc/ResponsesAgent authoring (databricks-ml-training); Knowledge Assistants/Supervisor Agents (databricks-agent-bricks); MLflow evaluation (databricks-mlflow-evaluation).",
+   "description": "Databricks Model Serving endpoint lifecycle and ops. Use when asked to: CRUD serving endpoints (CLI or MLflow Deployments client); configure traffic routing for A/B / canary deploys and zero-downtime version swaps; retrieve OpenAPI schemas; inspect logs, metrics, or permissions; manage legacy AI Gateway rate limits (not Unity Gateway); discover Foundation Model API endpoints at runtime; integrate endpoints into Databricks Apps; or stream from off-platform clients (Vercel AI SDK v6, standalone Node.js). NOT for: Unity Gateway CRUD and management (databricks-unity-gateway), training, MLflow autologging, UC registration, custom PyFunc/ResponsesAgent authoring (databricks-ml-training); no-code document / data agents incl. legacy Knowledge Assistants & Supervisor Agents (databricks-genie-agents); MLflow evaluation (databricks-mlflow-evaluation).",
    "source": "skills/databricks-model-serving/SKILL.md",
    "aliases": [
     "databricks model serving"
@@ -7336,7 +7336,7 @@
    "id": "databricks-unstructured-pdf-generation",
    "type": "Skill",
    "label": "databricks-unstructured-pdf-generation",
-   "description": "Build RAG / unstructured-document evaluation datasets and demo documents (e.g. for Knowledge Assistant) on Databricks: generate synthetic PDFs locally, upload to Unity Catalog volumes, and pair each document with test questions for retrieval evaluation.",
+   "description": "Build RAG / unstructured-document evaluation datasets and demo documents (e.g. for a Genie Agent with an attached volume) on Databricks: generate synthetic PDFs locally, upload to Unity Catalog volumes, and pair each document with test questions for retrieval evaluation.",
    "source": "skills/databricks-unstructured-pdf-generation/SKILL.md",
    "aliases": [
     "databricks unstructured pdf generation"
@@ -35373,6 +35373,15 @@
   {
    "src": "alerting-irm",
    "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of alerting-irm appears in databricks-genie-agents/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "alerting-irm",
+   "rel": "references",
    "dst": "deal-tracker",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -37510,15 +37519,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "domain from vault/notes layout",
-   "status": "accepted"
-  },
-  {
-   "src": "apollo-mcp-server",
-   "rel": "references",
-   "dst": "auth",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "auth referenced in code/link context in apollo-mcp-server/SKILL.md",
    "status": "accepted"
   },
   {
@@ -40354,15 +40354,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "auth referenced in code/link context in agentic-actions-auditor/SKILL.md",
-   "status": "accepted"
-  },
-  {
-   "src": "auth",
-   "rel": "references",
-   "dst": "apollo-mcp-server",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "auth referenced in code/link context in apollo-mcp-server/SKILL.md",
    "status": "accepted"
   },
   {
@@ -47950,15 +47941,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "c-review named in check-pr/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "c-review",
-   "rel": "references",
-   "dst": "marketplace",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "marketplace named in c-review/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -60931,24 +60913,6 @@
    "status": "accepted"
   },
   {
-   "src": "databricks-agent-bricks",
-   "rel": "references",
-   "dst": "databricks-genie-agents",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "databricks-agent-bricks named in databricks-genie-agents/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "databricks-agent-bricks",
-   "rel": "references",
-   "dst": "databricks-model-serving",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "databricks-agent-bricks named in databricks-model-serving/SKILL.md body",
-   "status": "accepted"
-  },
-  {
    "src": "databricks-ai-functions",
    "rel": "in_domain",
    "dst": "domain:analytics-engineering",
@@ -61170,7 +61134,7 @@
    "dst": "databricks-lakebase",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "databricks-apps named in databricks-lakebase/SKILL.md body",
+   "justification": "databricks-lakebase named in databricks-apps/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -61887,10 +61851,10 @@
   {
    "src": "databricks-genie-agents",
    "rel": "references",
-   "dst": "databricks-agent-bricks",
+   "dst": "alerting-irm",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "databricks-agent-bricks named in databricks-genie-agents/SKILL.md body",
+   "justification": "curated alias of alerting-irm appears in databricks-genie-agents/SKILL.md",
    "status": "accepted"
   },
   {
@@ -61923,10 +61887,64 @@
   {
    "src": "databricks-genie-agents",
    "rel": "references",
+   "dst": "databricks-ml-training",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-ml-training named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
+   "dst": "databricks-model-serving",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-genie-agents named in databricks-model-serving/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
    "dst": "databricks-unity-catalog",
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "databricks-unity-catalog named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
+   "dst": "databricks-unstructured-pdf-generation",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-unstructured-pdf-generation named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
+   "dst": "google-drive",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "google-drive named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
+   "dst": "search-company-knowledge",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of search-company-knowledge appears in databricks-genie-agents/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-genie-agents",
+   "rel": "references",
+   "dst": "slack",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "slack named in databricks-genie-agents/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62016,7 +62034,7 @@
    "dst": "databricks-apps",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "databricks-apps named in databricks-lakebase/SKILL.md body",
+   "justification": "databricks-lakebase named in databricks-apps/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62184,6 +62202,15 @@
   {
    "src": "databricks-ml-training",
    "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-ml-training named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-ml-training",
+   "rel": "references",
    "dst": "databricks-jobs",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -62319,15 +62346,6 @@
   {
    "src": "databricks-model-serving",
    "rel": "references",
-   "dst": "databricks-agent-bricks",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "databricks-agent-bricks named in databricks-model-serving/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "databricks-model-serving",
-   "rel": "references",
    "dst": "databricks-apps",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -62350,6 +62368,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "databricks-model-serving named in databricks-docs/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-model-serving",
+   "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-genie-agents named in databricks-model-serving/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -62404,6 +62431,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "databricks-pipelines named in databricks-lakeflow-connect/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-pipelines",
+   "rel": "touches",
+   "dst": "artifact:parquet",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "Columnar table named in databricks-pipelines/SKILL.md",
    "status": "accepted"
   },
   {
@@ -62584,6 +62620,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "databricks-core named in databricks-unstructured-pdf-generation/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "databricks-unstructured-pdf-generation",
+   "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "databricks-unstructured-pdf-generation named in databricks-genie-agents/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -82722,6 +82767,15 @@
   {
    "src": "google-drive",
    "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "google-drive named in databricks-genie-agents/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "google-drive",
+   "rel": "references",
    "dst": "databricks-lakeflow-connect",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -97459,15 +97513,6 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "marketplace named in bull-bear/SKILL.md body",
-   "status": "accepted"
-  },
-  {
-   "src": "marketplace",
-   "rel": "references",
-   "dst": "c-review",
-   "weight": 1,
-   "provenance": "EXTRACTED",
-   "justification": "marketplace named in c-review/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -149403,6 +149448,15 @@
   {
    "src": "search-company-knowledge",
    "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "curated alias of search-company-knowledge appears in databricks-genie-agents/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "search-company-knowledge",
+   "rel": "references",
    "dst": "databricks-lakeflow-connect",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -153628,6 +153682,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "slack named in computer-hardware-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "slack",
+   "rel": "references",
+   "dst": "databricks-genie-agents",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "slack named in databricks-genie-agents/SKILL.md body",
    "status": "accepted"
   },
   {
