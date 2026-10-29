@@ -12115,6 +12115,15 @@
       "skillFolderHash": "9aa05bebec6dadd6d5d592dd30541a1ab70c4cd4",
       "installedAt": "2026-10-26T01:36:34.000Z",
       "updatedAt": "2026-10-26T01:36:34.000Z"
+    },
+    "landing-page-design": {
+      "source": "elayadesign/ai-design-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/elayadesign/ai-design-skills.git",
+      "skillPath": "skills/landing-page-design/SKILL.md",
+      "skillFolderHash": "0027117848901a6d9a9bdeac5acb93f41773c2d3",
+      "installedAt": "2026-10-28T10:38:39.000Z",
+      "updatedAt": "2026-10-28T10:38:39.000Z"
     }
   },
   "dismissed": {
