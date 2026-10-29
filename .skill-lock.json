@@ -1275,9 +1275,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
       "skillPath": "skill-data/core/SKILL.md",
-      "skillFolderHash": "0efe0a31fedf4d33281696b88669ed61b8807989",
+      "skillFolderHash": "a384a8634134b6df1727941c370763a63e398e77",
       "installedAt": "2026-06-09T19:25:40.383Z",
-      "updatedAt": "2026-10-28T12:48:33.647Z"
+      "updatedAt": "2026-10-29T12:58:10.671Z"
     },
     "dogfood": {
       "source": "vercel-labs/agent-browser",
@@ -1383,10 +1383,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/anthropics/skills.git",
       "skillPath": "skills/mcp-builder/SKILL.md",
-      "skillFolderHash": "b866bcfb57b780c10b587c7b543e871a91661ce0",
-      "pluginName": "example-skills",
+      "skillFolderHash": "ea6e4d7bc108b44b3009129688049e23d801f0f3",
       "installedAt": "2026-06-09T19:26:19.744Z",
-      "updatedAt": "2026-06-09T19:26:19.744Z"
+      "updatedAt": "2026-10-29T12:58:13.505Z"
     },
     "webapp-testing": {
       "source": "anthropics/skills",
@@ -1538,9 +1537,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/arize-ai/phoenix.git",
       "skillPath": ".agents/skills/phoenix-evals/SKILL.md",
-      "skillFolderHash": "b8a1f89de010fb789e5ed4c4ee4a783b91fe3243",
+      "skillFolderHash": "91e15fbf24cd2c178f33393f0110da2dc4a5c79b",
       "installedAt": "2026-06-09T19:26:52.827Z",
-      "updatedAt": "2026-10-22T11:48:17.102Z"
+      "updatedAt": "2026-10-29T12:58:19.025Z"
     },
     "figma-generate-design": {
       "source": "openai/plugins",
@@ -9207,19 +9206,18 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/engineering/wayfinder/SKILL.md",
-      "skillFolderHash": "32b0ce970b1394ede47116e1d3e07f9ccc87591f",
+      "skillFolderHash": "25da74eadc3e388b2f2a2cc716f3d44b2fb9dfe0",
       "installedAt": "2026-08-20T03:51:51.559Z",
-      "updatedAt": "2026-10-10T12:49:53.557Z"
+      "updatedAt": "2026-10-29T12:58:34.670Z"
     },
     "research": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/engineering/research/SKILL.md",
-      "skillFolderHash": "0a6796c5667e95ed2301ba7381c123b4acb2ae1a",
-      "pluginName": "mattpocock-skills",
+      "skillFolderHash": "2f8f36af48796faed5c687c75bb650071631a984",
       "installedAt": "2026-08-20T03:52:01.617Z",
-      "updatedAt": "2026-08-20T03:52:01.617Z"
+      "updatedAt": "2026-10-29T12:58:35.765Z"
     },
     "wizard": {
       "source": "mattpocock/skills",
@@ -9244,9 +9242,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/engineering/codebase-design/SKILL.md",
-      "skillFolderHash": "07ba1cd60efc12d0d3a083005c1d9651cf15e39a",
+      "skillFolderHash": "4cbe1c131e1ea54109cb1e4e5f3c505810db6606",
       "installedAt": "2026-08-20T03:52:19.194Z",
-      "updatedAt": "2026-10-10T12:49:55.985Z"
+      "updatedAt": "2026-10-29T12:58:36.933Z"
     },
     "diagnosing-bugs": {
       "source": "mattpocock/skills",
@@ -9290,9 +9288,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
-      "skillFolderHash": "39bd9cc130f7dfcc4e3ea0b3613f6ebed0d0ad2b",
+      "skillFolderHash": "587147dd230da299cc5e84971cb0a33f6676f8a6",
       "installedAt": "2026-08-20T03:52:19.210Z",
-      "updatedAt": "2026-10-10T12:49:59.019Z"
+      "updatedAt": "2026-10-29T12:58:38.138Z"
     },
     "prototype": {
       "source": "mattpocock/skills",
@@ -9465,9 +9463,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/productivity/grilling/SKILL.md",
-      "skillFolderHash": "28aceb4c9567b985cb47f7db88cf23c9f33af8b8",
+      "skillFolderHash": "f551b6e0d219fdda0b6abf277f8f915b3127d1e9",
       "installedAt": "2026-08-20T03:52:19.267Z",
-      "updatedAt": "2026-10-10T12:50:04.050Z"
+      "updatedAt": "2026-10-29T12:58:39.395Z"
     },
     "handoff": {
       "source": "mattpocock/skills",
@@ -9521,9 +9519,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "skillPath": "skills/engineering/code-review/SKILL.md",
-      "skillFolderHash": "fee7bb5fdddc069d58cbea09b2c36b5a859eac05",
+      "skillFolderHash": "a8ef561571acbb611de8ff19ba6da75b197c63a8",
       "installedAt": "2026-08-20T04:01:21.086Z",
-      "updatedAt": "2026-10-10T12:50:07.220Z"
+      "updatedAt": "2026-10-29T12:58:40.469Z"
     },
     "mermaid-terminal": {
       "source": "stanfish06/mermaid-terminal",
@@ -10485,9 +10483,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-apps/SKILL.md",
-      "skillFolderHash": "497dab35027c77481f9f17a3b0ef7fd1b4a4c69d",
+      "skillFolderHash": "4467eeb7875d6d23b5054ad14c7b4ed145e23ac8",
       "installedAt": "2026-08-23T17:20:36.114Z",
-      "updatedAt": "2026-10-28T12:49:09.015Z"
+      "updatedAt": "2026-10-29T12:58:42.660Z"
     },
     "databricks-apps-python": {
       "source": "databricks/databricks-agent-skills",
@@ -10584,9 +10582,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/databricks/databricks-agent-skills.git",
       "skillPath": "skills/databricks-lakebase/SKILL.md",
-      "skillFolderHash": "61bcf0e1458fe83ab86bbfa42397a14f90720489",
+      "skillFolderHash": "4689c2f0bc57b7252ecfda7b8bbb49a2b137b03e",
       "installedAt": "2026-08-23T17:20:36.164Z",
-      "updatedAt": "2026-10-24T10:55:51.082Z"
+      "updatedAt": "2026-10-29T12:58:46.469Z"
     },
     "databricks-lakeflow-connect": {
       "source": "databricks/databricks-agent-skills",
