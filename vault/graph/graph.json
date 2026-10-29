@@ -1,14 +1,14 @@
 {
  "schema_version": 1,
  "metrics": {
-  "skills": 2157,
+  "skills": 2158,
   "expert_profiles": 503,
-  "nodes": 2230,
-  "edges": 15992,
+  "nodes": 2231,
+  "edges": 16001,
   "generic_names_blocked": 31,
-  "tier1_edges": 4816,
+  "tier1_edges": 4820,
   "tier2_edges": 721,
-  "alias_edges": 4480,
+  "alias_edges": 4483,
   "discipline_edges": 599,
   "ambiguous_aliases": 34,
   "artifact_edges": 521,
@@ -20,13 +20,13 @@
   "orphan_count": 123,
   "orphan_rate": 0.057,
   "by_provenance": {
-   "EXTRACTED": 15206,
+   "EXTRACTED": 15215,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
-   "in_domain": 2157,
-   "references": 12528,
+   "in_domain": 2158,
+   "references": 12536,
    "in_discipline": 599,
    "touches": 521,
    "has_step": 69,
@@ -14984,6 +14984,21 @@
    "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
    "source": "skills/lamindb/SKILL.md",
    "aliases": [],
+   "uses": 0,
+   "successes": 0,
+   "success_rate": null,
+   "last_used": null,
+   "deprecated": false
+  },
+  {
+   "id": "landing-page-design",
+   "type": "Skill",
+   "label": "landing-page-design",
+   "description": "Builds and reviews landing pages and single-offer marketing sites: intake questions, page structure, layout selection, conversion copywriting, SEO/AEO, and an opinionated visual system (Geist/Manrope type scale, spacing, radius, hero, motion, mandatory tagline section). Use when building, restyling, or writing copy for a landing page, a marketing or product-launch site, or a section of one. Not for dashboards, app UI, or projects with an existing design system; use frontend-design or design-taste-frontend there.",
+   "source": "skills/landing-page-design/SKILL.md",
+   "aliases": [
+    "landing page design"
+   ],
    "uses": 0,
    "successes": 0,
    "success_rate": null,
@@ -65172,6 +65187,15 @@
   {
    "src": "design-taste-frontend",
    "rel": "references",
+   "dst": "landing-page-design",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "design-taste-frontend named in landing-page-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "design-taste-frontend",
+   "rel": "references",
    "dst": "micro",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -77799,6 +77823,15 @@
   {
    "src": "frontend-design",
    "rel": "references",
+   "dst": "landing-page-design",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "frontend-design named in landing-page-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "frontend-design",
+   "rel": "references",
    "dst": "neuroscientist",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -79000,6 +79033,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "geist named in high-end-visual-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "geist",
+   "rel": "references",
+   "dst": "landing-page-design",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "geist named in landing-page-design/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -92320,6 +92362,51 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "Columnar table named in lamindb/SKILL.md",
+   "status": "accepted"
+  },
+  {
+   "src": "landing-page-design",
+   "rel": "in_domain",
+   "dst": "domain:web-automation-frontend",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "domain from vault/notes layout",
+   "status": "accepted"
+  },
+  {
+   "src": "landing-page-design",
+   "rel": "references",
+   "dst": "design-taste-frontend",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "design-taste-frontend named in landing-page-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "landing-page-design",
+   "rel": "references",
+   "dst": "frontend-design",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "frontend-design named in landing-page-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "landing-page-design",
+   "rel": "references",
+   "dst": "geist",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "geist named in landing-page-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "landing-page-design",
+   "rel": "references",
+   "dst": "redesign-existing-projects",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "redesign-existing-projects named in landing-page-design/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -136303,6 +136390,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "redesign-existing-projects named in high-end-visual-design/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "redesign-existing-projects",
+   "rel": "references",
+   "dst": "landing-page-design",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "redesign-existing-projects named in landing-page-design/SKILL.md body",
    "status": "accepted"
   },
   {
