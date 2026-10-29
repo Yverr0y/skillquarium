@@ -13,7 +13,7 @@ This skill has two halves. **Part A** decides what the page says and how it is s
 
 ## Scope
 
-Apply to all web UI work: landing pages, marketing sites, components, dashboards, prototypes, and design reviews. When a rule here conflicts with a framework default, this file wins. When the user's explicit prompt conflicts with a rule, the user wins.
+Apply to landing pages, single-offer marketing and product-launch sites, and their sections, including design reviews of them. For dashboards, app UI, or projects with an existing design system, use `frontend-design` or `design-taste-frontend` instead. Within that scope, when a rule here conflicts with a framework default, this file wins. When the user's explicit prompt conflicts with a rule, the user wins.
 
 **Companion skill.** For upgrading an *existing* site rather than building a new one, use `redesign-existing-projects` ([github.com/elayadesign/redesign-skill](https://github.com/elayadesign/redesign-skill)). It diagnoses generic patterns and defers to this file for every concrete value.
 
@@ -299,6 +299,7 @@ Every piece of sample content should read like it came from a real product with 
 - **Write the copy.** No placeholder Latin, no "Your headline here". Draft real sentences in the product's voice.
 - **People.** Give testimonials and team members full, specific names that fit the product's audience and region. Never reuse one face for two people.
 - **Brands and logos.** Invent names that sound like they belong in the product's industry. A logistics tool's customers sound like logistics companies, not generic tech startups.
+- **Mark invented proof.** Invented testimonials, people, customer names, logos, and metrics are placeholders. Say so when handing off the page, and replace them with real ones before it is published. Never present them as real endorsements or results.
 - **Numbers.** Avoid suspiciously round figures. Pricing should look like real pricing, metrics should carry a decimal or an odd final digit, and dates across a list should vary.
 - **Banned filler words.** Do not write "revolutionize", "supercharge", "cutting edge", "effortless", "transform your workflow", "take it to the next level", "harness the power", or "world class". Say what the product does in plain terms instead.
 - **Sentence case** for headings and buttons.
