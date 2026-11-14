@@ -4,11 +4,11 @@
   "skills": 2209,
   "expert_profiles": 503,
   "nodes": 2282,
-  "edges": 16370,
+  "edges": 16374,
   "generic_names_blocked": 30,
-  "tier1_edges": 4926,
+  "tier1_edges": 4922,
   "tier2_edges": 721,
-  "alias_edges": 4585,
+  "alias_edges": 4580,
   "discipline_edges": 599,
   "ambiguous_aliases": 35,
   "artifact_edges": 523,
@@ -20,13 +20,13 @@
   "orphan_count": 130,
   "orphan_rate": 0.0589,
   "by_provenance": {
-   "EXTRACTED": 15584,
+   "EXTRACTED": 15588,
    "ASSERTED": 668,
    "INFERRED": 118
   },
   "by_relation": {
    "in_domain": 2209,
-   "references": 12852,
+   "references": 12856,
    "in_discipline": 599,
    "touches": 523,
    "has_step": 69,
@@ -35227,6 +35227,15 @@
   {
    "src": "agentic-workflows",
    "rel": "references",
+   "dst": "cost-management",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "cost-management named in agentic-workflows/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "agentic-workflows",
+   "rel": "references",
    "dst": "github-actions-ci",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -35249,6 +35258,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "agentic-workflows named in technology-selection/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "agentic-workflows",
+   "rel": "references",
+   "dst": "telemetry",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "telemetry named in agentic-workflows/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -38155,7 +38173,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in apk-reverse/SKILL.md body",
+   "justification": "apk-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -49351,7 +49369,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in case-review/SKILL.md body",
+   "justification": "case-review named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -59923,6 +59941,15 @@
   {
    "src": "cost-management",
    "rel": "references",
+   "dst": "agentic-workflows",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "cost-management named in agentic-workflows/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "cost-management",
+   "rel": "references",
    "dst": "alloy",
    "weight": 1,
    "provenance": "EXTRACTED",
@@ -68980,7 +69007,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in docs-generator/SKILL.md body",
+   "justification": "docs-generator named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -84397,7 +84424,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in go-rust-reverse/SKILL.md body",
+   "justification": "go-rust-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -107005,7 +107032,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in mobile-reverse/SKILL.md body",
+   "justification": "mobile-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -137821,7 +137848,7 @@
    "dst": "reverse-skill-router",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in radare2/SKILL.md body",
+   "justification": "radare2 named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143149,7 +143176,7 @@
    "dst": "apk-reverse",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in apk-reverse/SKILL.md body",
+   "justification": "apk-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143194,7 +143221,7 @@
    "dst": "case-review",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in case-review/SKILL.md body",
+   "justification": "case-review named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143257,7 +143284,7 @@
    "dst": "docs-generator",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in docs-generator/SKILL.md body",
+   "justification": "docs-generator named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143311,7 +143338,7 @@
    "dst": "go-rust-reverse",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in go-rust-reverse/SKILL.md body",
+   "justification": "go-rust-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143383,7 +143410,7 @@
    "dst": "mobile-reverse",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in mobile-reverse/SKILL.md body",
+   "justification": "mobile-reverse named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -143446,7 +143473,7 @@
    "dst": "radare2",
    "weight": 1,
    "provenance": "EXTRACTED",
-   "justification": "reverse-skill-router named in radare2/SKILL.md body",
+   "justification": "radare2 named in reverse-skill-router/SKILL.md body",
    "status": "accepted"
   },
   {
@@ -163391,6 +163418,15 @@
    "weight": 1,
    "provenance": "EXTRACTED",
    "justification": "telemetry named in aerospace-engineer/SKILL.md body",
+   "status": "accepted"
+  },
+  {
+   "src": "telemetry",
+   "rel": "references",
+   "dst": "agentic-workflows",
+   "weight": 1,
+   "provenance": "EXTRACTED",
+   "justification": "telemetry named in agentic-workflows/SKILL.md body",
    "status": "accepted"
   },
   {
